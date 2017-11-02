@@ -17,6 +17,9 @@ Inserts the selected emoji directly, or copies it to the clipboard.
 Download `rofimoji.py` and move it somewhere on your path, for example `/usr/local/bin`.
 Make sure you have Python 3 and a font that can display emoji (like [EmojiOne](https://github.com/emojione/emojione) or [Noto Emoji](https://www.google.com/get/noto/))
 
+Additional dependencies:
+- xdotool (X11 command-line automation tool)
+
 ## Updating the emojis
 
 This is only needed if a new Unicode version came out and you can't wait for the official update!

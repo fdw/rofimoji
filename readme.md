@@ -15,10 +15,14 @@ Inserts the selected emoji directly, or copies it to the clipboard.
 ## Installation
 
 Download `rofimoji.py` and move it somewhere on your path, for example `/usr/local/bin`.
-Make sure you have Python 3 and a font that can display emoji (like [EmojiOne](https://github.com/emojione/emojione) or [Noto Emoji](https://www.google.com/get/noto/))
 
-Additional dependencies:
-- xdotool (X11 command-line automation tool)
+What else do you need:
+- Python 3
+- A font that can display emoji, for example [EmojiOne](https://github.com/emojione/emojione) or [Noto Emoji](https://www.google.com/get/noto/)
+- xdotool for typing the emoji
+- xsel to copy the emoji to the clipboard
+
+For Ubuntu zesty: `sudo aptitude install python3 fonts-emojione xsel xdotool`
 
 ## Updating the emojis
 

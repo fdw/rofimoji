@@ -12,6 +12,10 @@ Inserts the selected emoji directly, or copies it to the clipboard.
    - Hit `Alt+c` to copy it to the clipboard
 4. 🎠
 
+## How does it look?
+
+![Screenshot of rofimoji](screenshot.png?raw=true)
+
 ## Installation
 
 Download `rofimoji.py` and move it somewhere on your path, for example `/usr/local/bin`.

@@ -1,7 +1,16 @@
 import requests
 from bs4 import BeautifulSoup
 
-data = requests.get('https://emojipedia.org/emoji/')  # type: requests.Response
+max_tries = 5
+for i in range(max_tries):    
+    data = requests.get('https://emojipedia.org/emoji/')  # type: requests.Response
+    if data:
+        break
+
+if not data:
+    print("Could not fetch emoji data. Try again later or use another URL.")
+    exit(10)
+
 soup = BeautifulSoup(data.content, 'lxml')  # type: BeautifulSoup
 
 python_file = open('emojis.py', 'w')

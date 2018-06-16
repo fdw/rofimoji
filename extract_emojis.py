@@ -5,7 +5,7 @@ data = requests.get('https://emojipedia.org/emoji/')  # type: requests.Response
 soup = BeautifulSoup(data.content, 'lxml')  # type: BeautifulSoup
 
 python_file = open('emojis.py', 'w')
-python_file.write('emojis="""\n')
+python_file.write('emojis="""')
 
 for table_row in soup.find_all('tr'):
     emoji_row = table_row.find('td')

@@ -7841,6 +7841,7 @@ rofi = Popen(
         'rofi',
         '-dmenu',
         '-i',
+        '-multi-select',
         '-p',
         ' 😀   ',
         '-kb-custom-1',
@@ -7854,23 +7855,24 @@ rofi = Popen(
 if rofi.returncode == 1:
     exit()
 else:
-    emoji = stdout.split()[0]
-    if rofi.returncode == 0:
-        Popen(
-            args=[
-                'xdotool',
-                'type',
-                '--clearmodifiers',
-                emoji.decode('utf-8')
-            ]
-        )
-    elif rofi.returncode == 10:
-        xsel = Popen(
-            args=[
-                'xsel',
-                '-i',
-                '-b'
-            ],
-            stdin=PIPE
-        )
-        xsel.communicate(input=emoji)
+    for line in stdout.splitlines():
+        emoji = line.split()[0]
+        if rofi.returncode == 0:
+            Popen(
+                args=[
+                    'xdotool',
+                    'type',
+                    '--clearmodifiers',
+                    emoji.decode('utf-8')
+                ]
+            )
+        elif rofi.returncode == 10:
+            xsel = Popen(
+                args=[
+                    'xsel',
+                    '-i',
+                    '-b'
+                ],
+                stdin=PIPE
+            )
+            xsel.communicate(input=emoji)

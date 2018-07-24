@@ -8,9 +8,11 @@ Inserts the selected emoji directly, or copies it to the clipboard.
 
 1. Run `rofimoji.py`
 2. Search for the emoji you want
-3. - Hit enter to insert the emoji directly
+3. - Hit enter to insert the emoji directly*
    - Hit `Alt+c` to copy it to the clipboard
 4. 🎠
+
+* You can select multiple emojis with Shift+enter.
 
 ## How does it look?
 

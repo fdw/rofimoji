@@ -40,6 +40,6 @@ This is only needed if a new Unicode version came out and you can't wait for the
 
 ## FAQ
 
-### Why is it so pedestrian? Why not simple import from `emojis.py`?
+### Why is it so pedestrian? Why not simply import from `emojis.py`?
 Because now you only have to download one file, and it works 
 Additionally, we need no separate I/O just to load the emojis. This is good, right?

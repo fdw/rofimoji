@@ -19,6 +19,10 @@ Inserts the selected emoji directly, or copies it to the clipboard.
 
 ## Installation
 
+### Arch & Manjaro
+A kind soul has packaged it as [rofimoji-git](https://aur.archlinux.org/packages/rofimoji-git/). To, install, use `yaourt -S rofimoji-git`.
+
+### From sources
 Download `rofimoji.py` and move it somewhere on your path, for example `/usr/local/bin`.
 
 What else do you need:

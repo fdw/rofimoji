@@ -3,7 +3,7 @@
 
 from subprocess import Popen, PIPE
 
-emojis="""😀 grinning face
+emojis = """😀 grinning face
 😃 grinning face with big eyes
 😄 grinning face with smiling eyes
 😁 beaming face with smiling eyes
@@ -1649,6 +1649,48 @@ emojis="""😀 grinning face
 🏴󠁧󠁢󠁷󠁬󠁳󠁿 flag: Wales
 """
 
+skin_tone_selectable_emojis = {'🏄', '👼', '💂', '✌', '👃', '🧙', '🖐', '🕴', '🖖', '👏', '👱', '👋', '🧝', '👰', '🧛',
+                               '🤛', '👌', '👂', '✍', '🤟', '🙎', '🚶', '🤴', '👍', '🙍', '🧓', '🚣', '👮', '🙌', '👧',
+                               '✋', '🏋', '🙇', '🧖', '👷', '🚵', '🛀', '🤶', '👊', '👦', '👸', '💪', '🙆', '🤱', '🤸',
+                               '🤞', '🖕', '⛹', '👲', '🧑', '💁', '🧘', '🙋', '☝', '🧕', '👵', '🚴', '🏇', '🤳', '🙏',
+                               '🧒', '👶', '🦸', '👨', '👆', '💃', '🤾', '🏂', '🛌', '🤹', '👈', '✊', '🧚', '💅', '🤽',
+                               '🙅', '🧔', '🤲', '👎', '👴', '🏌', '🧜', '👐', '🤚', '🤵', '💇', '🏃', '🏊', '🤜', '🦵',
+                               '👇', '🕺', '🦹', '🧗', '👩', '🕵', '💆', '🦶', '🤰', '🤘', '🤦', '🤷', '👉', '👳', '🎅',
+                               '🤙'}
+
+fitzpatrick_modifiers = """ neutral
+🏻 light skin
+🏼 medium-light skin
+🏽 moderate skin
+🏾 dark brown skin
+🏿 black skin
+"""
+
+
+def select_skin_tone(emoji: chr):
+    rofi_skin = Popen(
+        args=[
+            'rofi',
+            '-dmenu',
+            '-i',
+            '-multi-select',
+            '-p',
+            emoji + '   ',
+            '-kb-custom-1',
+            'Alt+c'
+        ],
+        stdin=PIPE,
+        stdout=PIPE
+    )
+
+    (stdout_skin, stderr_skin) = rofi_skin.communicate(input=fitzpatrick_modifiers.encode('utf-8'))
+
+    if rofi_skin.returncode == 1:
+        return ''
+    else:
+        return stdout_skin.split()[0].decode('utf-8')
+
+
 rofi = Popen(
     args=[
         'rofi',
@@ -1669,14 +1711,18 @@ if rofi.returncode == 1:
     exit()
 else:
     for line in stdout.splitlines():
-        emoji = line.split()[0]
+        emoji = line.split()[0].decode('utf-8')
+
+        if emoji in skin_tone_selectable_emojis:
+            emoji = emoji + select_skin_tone(emoji)
+
         if rofi.returncode == 0:
             Popen(
                 args=[
                     'xdotool',
                     'type',
                     '--clearmodifiers',
-                    emoji.decode('utf-8')
+                    emoji
                 ]
             )
         elif rofi.returncode == 10:
@@ -1688,4 +1734,4 @@ else:
                 ],
                 stdin=PIPE
             )
-            xsel.communicate(input=emoji)
+            xsel.communicate(input=emoji.encode('utf-8'))

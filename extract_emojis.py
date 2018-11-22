@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from collections import namedtuple
-from typing import List
+from typing import List, Set
 
 Emoji = namedtuple('Emoji', 'char name')
 
@@ -34,15 +34,53 @@ def extract_from_html(html: BeautifulSoup) -> List[Emoji]:
     return emojis
 
 
-def write_file(emojis: List[Emoji]):
+def write_file(all_emojis: List[Emoji], human_emojis: Set[chr]):
+    print('Writing collected emojis to file')
     python_file = open('emojis.py', 'w')
     python_file.write('emojis="""')
 
-    for emoji in emojis:
-        python_file.write(emoji.char + ' ' + emoji.name + '\n')
+    for emoji in all_emojis:
+        python_file.write("%s %s\n" % (emoji.char, emoji.name))
 
-    python_file.write('"""')
+    python_file.write('"""\n\n')
+
+    python_file.write('skin_tone_selectable_emojis={\'')
+    python_file.write('\', \''.join(human_emojis))
+    python_file.write('\'}\n')
+
     python_file.close()
 
 
-write_file(extract_from_html(fetch_emoji_html()))
+def fetch_human_emojis() -> Set[chr]:
+    print('Downloading list of human emojis...')
+
+    data = requests.get('https://unicode.org/Public/emoji//11.0/emoji-data.txt', timeout=60)  # type: requests.Response
+
+    started = False
+    emojis = set()
+    for line in data.content.decode(data.encoding).split('\n'):
+        if not started and line != '# All omitted code points have Emoji_Modifier_Base=No ':
+            continue
+        started = True
+        if started and line == '# Total elements: 106':
+            break
+        if started and (line.startswith('#') or len(line) == 0):
+            continue
+        emojis = emojis.union(extract_emojis_from_line(line))
+
+    return emojis
+
+
+def extract_emojis_from_line(line: str) -> Set[chr]:
+    emoji_range = line.split(';')[0].strip()
+    try:
+        (start, end) = emoji_range.split('..')
+        emojis = set()
+        for char in range(int(start, 16), int(end, 16)+1):
+            emojis.add(chr(char))
+        return emojis
+    except ValueError:
+        return set(chr(int(emoji_range, 16)))
+
+
+write_file(extract_from_html(fetch_emoji_html()), fetch_human_emojis())

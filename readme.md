@@ -11,7 +11,8 @@ Inserts the selected emoji directly, or copies it to the clipboard.
 3. (optional) Select multiple emoji with `alt+enter`
 4. - Hit `enter` to insert the emoji directly
    - Hit `alt+c` to copy it to the clipboard
-5. 🎠
+5. Maybe select a skin color
+6. 🎠
 
 ## How does it look?
 
@@ -32,13 +33,14 @@ What else do you need:
 - xsel to copy the emoji to the clipboard
 
 For Ubuntu zesty: `sudo aptitude install python3 fonts-emojione xsel xdotool`
+For Arch/Manjaro: `yay -S python ttf-emojione-color xsel xdotool`
 
 ## Updating the emojis
 
 This is only needed if a new Unicode version came out and you can't wait for the official update!
 
 1. Install Python 3 and `pip install -r requirements-dev.txt`
-2. Run `extract_emojis.py` - this downloads the complete list from https://emojipedia.org/emoji/, so don't do it too often!
+2. Run `extract_emojis.py` - this downloads the complete list from https://unicode.org/emoji/charts-11.0/full-emoji-list.html, so don't do it too often!
 3. A new file `emojis.py` should have been created. Open it and copy the contents
 4. Open `rofimoji.py` and replace the emoji list with the contents of `emojis.py`
 

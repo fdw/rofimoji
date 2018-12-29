@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
+import time
 
 from subprocess import Popen, PIPE
 
@@ -1719,6 +1720,7 @@ else:
             emoji = emoji + select_skin_tone(emoji)
 
         if rofi.returncode == 0:
+            time.sleep(0.1)
             Popen(
                 args=[
                     'xdotool',

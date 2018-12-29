@@ -1661,16 +1661,22 @@ skin_tone_selectable_emojis = {'🏄', '👼', '💂', '✌', '👃', '🧙', '�
                                '🦵', '👇', '🕺', '🦹', '🧗', '👩', '🕵', '💆', '🦶', '🤰', '🤘',
                                '🤦', '🤷', '👉', '👳', '🎅', '🤙'}
 
-fitzpatrick_modifiers = """ neutral
-🏻 light skin
-🏼 medium-light skin
-🏽 moderate skin
-🏾 dark brown skin
-🏿 black skin
-"""
+fitzpatrick_modifiers = {
+    '': 'neutral',
+    '🏻': 'light skin',
+    '🏼': 'medium-light skin',
+    '🏽': 'moderate skin',
+    '🏾': 'dark brown skin',
+    '🏿': 'black skin'
+}
 
 
 def select_skin_tone(selected_emoji: chr):
+    modified_emojis = '\n'.join(map(
+        lambda modifier: selected_emoji + modifier + " " + fitzpatrick_modifiers[modifier],
+        fitzpatrick_modifiers.keys()
+    ))
+
     rofi_skin = Popen(
         args=[
             'rofi',
@@ -1686,7 +1692,7 @@ def select_skin_tone(selected_emoji: chr):
         stdout=PIPE
     )
 
-    (stdout_skin, _) = rofi_skin.communicate(input=fitzpatrick_modifiers.encode('utf-8'))
+    (stdout_skin, _) = rofi_skin.communicate(input=modified_emojis.encode('utf-8'))
 
     if rofi_skin.returncode == 1:
         return ''
@@ -1717,7 +1723,7 @@ else:
         emoji = line.split()[0].decode('utf-8')
 
         if emoji in skin_tone_selectable_emojis:
-            emoji = emoji + select_skin_tone(emoji)
+            emoji = select_skin_tone(emoji)
 
         if rofi.returncode == 0:
             time.sleep(0.1)

@@ -1719,29 +1719,32 @@ rofi = Popen(
 if rofi.returncode == 1:
     exit()
 else:
+    emojis = ""
     for line in stdout.splitlines():
         emoji = line.split()[0].decode('utf-8')
 
         if emoji in skin_tone_selectable_emojis:
             emoji = select_skin_tone(emoji)
 
-        if rofi.returncode == 0:
-            time.sleep(0.1)
-            Popen(
-                args=[
-                    'xdotool',
-                    'type',
-                    '--clearmodifiers',
-                    emoji
-                ]
-            )
-        elif rofi.returncode == 10:
-            xsel = Popen(
-                args=[
-                    'xsel',
-                    '-i',
-                    '-b'
-                ],
-                stdin=PIPE
-            )
-            xsel.communicate(input=emoji.encode('utf-8'))
+        emojis += emoji
+
+    if rofi.returncode == 0:
+        time.sleep(0.1)
+        Popen(
+            args=[
+                'xdotool',
+                'type',
+                '--clearmodifiers',
+                emojis
+            ]
+        )
+    elif rofi.returncode == 10:
+        xsel = Popen(
+            args=[
+                'xsel',
+                '-i',
+                '-b'
+            ],
+            stdin=PIPE
+        )
+        xsel.communicate(input=emojis.encode('utf-8'))

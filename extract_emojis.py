@@ -10,7 +10,7 @@ def fetch_emoji_html() -> BeautifulSoup:
     max_tries = 5
     for i in range(max_tries):
         print('Downloading emojis... try %s' % (i + 1))
-        data = requests.get('https://unicode.org/emoji/charts-11.0/full-emoji-list.html', timeout=120)  # type: requests.Response
+        data = requests.get('https://unicode.org/emoji/charts-12.0/full-emoji-list.html', timeout=120)  # type: requests.Response
         if data:
             break
 
@@ -54,7 +54,7 @@ def write_file(all_emojis: List[Emoji], human_emojis: Set[chr]):
 def fetch_human_emojis() -> Set[chr]:
     print('Downloading list of human emojis...')
 
-    data = requests.get('https://unicode.org/Public/emoji//11.0/emoji-data.txt', timeout=60)  # type: requests.Response
+    data = requests.get('https://unicode.org/Public/emoji/12.0/emoji-data.txt', timeout=60)  # type: requests.Response
 
     started = False
     emojis = set()
@@ -62,7 +62,7 @@ def fetch_human_emojis() -> Set[chr]:
         if not started and line != '# All omitted code points have Emoji_Modifier_Base=No ':
             continue
         started = True
-        if started and line == '# Total elements: 106':
+        if started and line == '# Total elements: 120':
             break
         if started and (line.startswith('#') or len(line) == 0):
             continue

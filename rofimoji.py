@@ -17,7 +17,7 @@ emojis = """😀 grinning face
 😉 winking face
 😊 smiling face with smiling eyes
 😇 smiling face with halo
-🥰 smiling face with 3 hearts
+🥰 smiling face with hearts
 😍 smiling face with heart-eyes
 🤩 star-struck
 😘 face blowing a kiss
@@ -89,6 +89,7 @@ emojis = """😀 grinning face
 😓 downcast face with sweat
 😩 weary face
 😫 tired face
+🥱 yawning face
 😤 face with steam from nose
 😡 pouting face
 😠 angry face
@@ -104,16 +105,16 @@ emojis = """😀 grinning face
 👻 ghost
 👽 alien
 👾 alien monster
-🤖 robot face
-😺 grinning cat face
-😸 grinning cat face with smiling eyes
-😹 cat face with tears of joy
-😻 smiling cat face with heart-eyes
-😼 cat face with wry smile
-😽 kissing cat face
-🙀 weary cat face
-😿 crying cat face
-😾 pouting cat face
+🤖 robot
+😺 grinning cat
+😸 grinning cat with smiling eyes
+😹 cat with tears of joy
+😻 smiling cat with heart-eyes
+😼 cat with wry smile
+😽 kissing cat
+🙀 weary cat
+😿 crying cat
+😾 pouting cat
 🙈 see-no-evil monkey
 🙉 hear-no-evil monkey
 🙊 speak-no-evil monkey
@@ -127,7 +128,7 @@ emojis = """😀 grinning face
 💞 revolving hearts
 💕 two hearts
 💟 heart decoration
-❣ heavy heart exclamation
+❣ heart exclamation
 💔 broken heart
 ❤ red heart
 🧡 orange heart
@@ -135,7 +136,9 @@ emojis = """😀 grinning face
 💚 green heart
 💙 blue heart
 💜 purple heart
+🤎 brown heart
 🖤 black heart
+🤍 white heart
 💯 hundred points
 💢 anger symbol
 💥 collision
@@ -156,6 +159,7 @@ emojis = """😀 grinning face
 ✋ raised hand
 🖖 vulcan salute
 👌 OK hand
+🤏 pinching hand
 ✌ victory hand
 🤞 crossed fingers
 🤟 love-you gesture
@@ -183,9 +187,12 @@ emojis = """😀 grinning face
 💅 nail polish
 🤳 selfie
 💪 flexed biceps
+🦾 mechanical arm
+🦿 mechanical leg
 🦵 leg
 🦶 foot
 👂 ear
+🦻 ear with hearing aid
 👃 nose
 🧠 brain
 🦷 tooth
@@ -201,12 +208,12 @@ emojis = """😀 grinning face
 🧑 person
 👱 person: blond hair
 👨 man
+🧔 man: beard
 👱‍♂️ man: blond hair
 👨‍🦰 man: red hair
 👨‍🦱 man: curly hair
 👨‍🦳 man: white hair
 👨‍🦲 man: bald
-🧔 man: beard
 👩 woman
 👱‍♀️ woman: blond hair
 👩‍🦰 woman: red hair
@@ -234,6 +241,9 @@ emojis = """😀 grinning face
 🙋 person raising hand
 🙋‍♂️ man raising hand
 🙋‍♀️ woman raising hand
+🧏 deaf person
+🧏‍♂️ deaf man
+🧏‍♀️ deaf woman
 🙇 person bowing
 🙇‍♂️ man bowing
 🙇‍♀️ woman bowing
@@ -337,6 +347,18 @@ emojis = """😀 grinning face
 🚶 person walking
 🚶‍♂️ man walking
 🚶‍♀️ woman walking
+🧍 person standing
+🧍‍♂️ man standing
+🧍‍♀️ woman standing
+🧎 person kneeling
+🧎‍♂️ man kneeling
+🧎‍♀️ woman kneeling
+👨‍🦯 man with probing cane
+👩‍🦯 woman with probing cane
+👨‍🦼 man in motorized wheelchair
+👩‍🦼 woman in motorized wheelchair
+👨‍🦽 man in manual wheelchair
+👩‍🦽 woman in manual wheelchair
 🏃 person running
 🏃‍♂️ man running
 🏃‍♀️ woman running
@@ -400,6 +422,7 @@ emojis = """😀 grinning face
 🧘‍♀️ woman in lotus position
 🛀 person taking bath
 🛌 person in bed
+🧑‍🤝‍🧑 people holding hands
 👭 women holding hands
 👫 woman and man holding hands
 👬 men holding hands
@@ -448,21 +471,24 @@ emojis = """😀 grinning face
 🐵 monkey face
 🐒 monkey
 🦍 gorilla
+🦧 orangutan
 🐶 dog face
 🐕 dog
+🦮 guide dog
+🐕‍🦺 service dog
 🐩 poodle
-🐺 wolf face
-🦊 fox face
+🐺 wolf
+🦊 fox
 🦝 raccoon
 🐱 cat face
 🐈 cat
-🦁 lion face
+🦁 lion
 🐯 tiger face
 🐅 tiger
 🐆 leopard
 🐴 horse face
 🐎 horse
-🦄 unicorn face
+🦄 unicorn
 🦓 zebra
 🦌 deer
 🐮 cow face
@@ -486,15 +512,18 @@ emojis = """😀 grinning face
 🐭 mouse face
 🐁 mouse
 🐀 rat
-🐹 hamster face
+🐹 hamster
 🐰 rabbit face
 🐇 rabbit
 🐿 chipmunk
 🦔 hedgehog
 🦇 bat
-🐻 bear face
+🐻 bear
 🐨 koala
-🐼 panda face
+🐼 panda
+🦥 sloth
+🦦 otter
+🦨 skunk
 🦘 kangaroo
 🦡 badger
 🐾 paw prints
@@ -511,9 +540,10 @@ emojis = """😀 grinning face
 🦆 duck
 🦢 swan
 🦉 owl
+🦩 flamingo
 🦚 peacock
 🦜 parrot
-🐸 frog face
+🐸 frog
 🐊 crocodile
 🐢 turtle
 🦎 lizard
@@ -591,6 +621,8 @@ emojis = """😀 grinning face
 🥒 cucumber
 🥬 leafy green
 🥦 broccoli
+🧄 garlic
+🧅 onion
 🍄 mushroom
 🥜 peanuts
 🌰 chestnut
@@ -600,6 +632,7 @@ emojis = """😀 grinning face
 🥨 pretzel
 🥯 bagel
 🥞 pancakes
+🧇 waffle
 🧀 cheese wedge
 🍖 meat on bone
 🍗 poultry leg
@@ -613,6 +646,7 @@ emojis = """😀 grinning face
 🌮 taco
 🌯 burrito
 🥙 stuffed flatbread
+🧆 falafel
 🥚 egg
 🍳 cooking
 🥘 shallow pan of food
@@ -620,6 +654,7 @@ emojis = """😀 grinning face
 🥣 bowl with spoon
 🥗 green salad
 🍿 popcorn
+🧈 butter
 🧂 salt
 🥫 canned food
 🍱 bento box
@@ -643,6 +678,7 @@ emojis = """😀 grinning face
 🦞 lobster
 🦐 shrimp
 🦑 squid
+🦪 oyster
 🍦 soft ice cream
 🍧 shaved ice
 🍨 ice cream
@@ -671,6 +707,9 @@ emojis = """😀 grinning face
 🥂 clinking glasses
 🥃 tumbler glass
 🥤 cup with straw
+🧃 beverage box
+🧉 mate
+🧊 ice cube
 🥢 chopsticks
 🍽 fork and knife with plate
 🍴 fork and knife
@@ -719,6 +758,7 @@ emojis = """😀 grinning face
 🗽 Statue of Liberty
 ⛪ church
 🕌 mosque
+🛕 hindu temple
 🕍 synagogue
 ⛩ shinto shrine
 🕋 kaaba
@@ -733,7 +773,6 @@ emojis = """😀 grinning face
 🌇 sunset
 🌉 bridge at night
 ♨ hot springs
-🌌 milky way
 🎠 carousel horse
 🎡 ferris wheel
 🎢 roller coaster
@@ -770,6 +809,9 @@ emojis = """😀 grinning face
 🏎 racing car
 🏍 motorcycle
 🛵 motor scooter
+🦽 manual wheelchair
+🦼 motorized wheelchair
+🛺 auto rickshaw
 🚲 bicycle
 🛴 kick scooter
 🛹 skateboard
@@ -795,6 +837,7 @@ emojis = """😀 grinning face
 🛩 small airplane
 🛫 airplane departure
 🛬 airplane arrival
+🪂 parachute
 💺 seat
 🚁 helicopter
 🚟 suspension railway
@@ -852,9 +895,11 @@ emojis = """😀 grinning face
 ☀ sun
 🌝 full moon face
 🌞 sun with face
+🪐 ringed planet
 ⭐ star
 🌟 glowing star
 🌠 shooting star
+🌌 milky way
 ☁ cloud
 ⛅ sun behind cloud
 ⛈ cloud with lightning and rain
@@ -930,11 +975,14 @@ emojis = """😀 grinning face
 ⛳ flag in hole
 ⛸ ice skate
 🎣 fishing pole
+🤿 diving mask
 🎽 running shirt
 🎿 skis
 🛷 sled
 🥌 curling stone
 🎯 direct hit
+🪀 yo-yo
+🪁 kite
 🎱 pool 8 ball
 🔮 crystal ball
 🧿 nazar amulet
@@ -942,7 +990,7 @@ emojis = """😀 grinning face
 🕹 joystick
 🎰 slot machine
 🎲 game die
-🧩 jigsaw
+🧩 puzzle piece
 🧸 teddy bear
 ♠ spade suit
 ♥ heart suit
@@ -961,6 +1009,7 @@ emojis = """😀 grinning face
 🕶 sunglasses
 🥽 goggles
 🥼 lab coat
+🦺 safety vest
 👔 necktie
 👕 t-shirt
 👖 jeans
@@ -970,6 +1019,10 @@ emojis = """😀 grinning face
 🧦 socks
 👗 dress
 👘 kimono
+🥻 sari
+🩱 one-piece swimsuit
+🩲 briefs
+🩳 shorts
 👙 bikini
 👚 woman’s clothes
 👛 purse
@@ -983,6 +1036,7 @@ emojis = """😀 grinning face
 🥿 flat shoe
 👠 high-heeled shoe
 👡 woman’s sandal
+🩰 ballet shoes
 👢 woman’s boot
 👑 crown
 👒 woman’s hat
@@ -1017,6 +1071,7 @@ emojis = """😀 grinning face
 🎹 musical keyboard
 🎺 trumpet
 🎻 violin
+🪕 banjo
 🥁 drum
 📱 mobile phone
 📲 mobile phone with arrow
@@ -1052,6 +1107,7 @@ emojis = """😀 grinning face
 💡 light bulb
 🔦 flashlight
 🏮 red paper lantern
+🪔 diya lamp
 📔 notebook with decorative cover
 📕 closed book
 📖 open book
@@ -1130,6 +1186,7 @@ emojis = """😀 grinning face
 🔑 key
 🗝 old key
 🔨 hammer
+🪓 axe
 ⛏ pick
 ⚒ hammer and pick
 🛠 hammer and wrench
@@ -1143,6 +1200,7 @@ emojis = """😀 grinning face
 ⚙ gear
 🗜 clamp
 ⚖ balance scale
+🦯 probing cane
 🔗 link
 ⛓ chains
 🧰 toolbox
@@ -1155,13 +1213,18 @@ emojis = """😀 grinning face
 🔭 telescope
 📡 satellite antenna
 💉 syringe
+🩸 drop of blood
 💊 pill
+🩹 adhesive bandage
+🩺 stethoscope
 🚪 door
 🛏 bed
 🛋 couch and lamp
+🪑 chair
 🚽 toilet
 🚿 shower
 🛁 bathtub
+🪒 razor
 🧴 lotion bottle
 🧷 safety pin
 🧹 broom
@@ -1280,16 +1343,16 @@ emojis = """😀 grinning face
 🔱 trident emblem
 📛 name badge
 🔰 Japanese symbol for beginner
-⭕ heavy large circle
-✅ white heavy check mark
-☑ ballot box with check
-✔ heavy check mark
-✖ heavy multiplication x
+⭕ hollow red circle
+✅ check mark button
+☑ check box with check
+✔ check mark
+✖ multiplication sign
 ❌ cross mark
 ❎ cross mark button
-➕ heavy plus sign
-➖ heavy minus sign
-➗ heavy division sign
+➕ plus sign
+➖ minus sign
+➗ division sign
 ➰ curly loop
 ➿ double curly loop
 〽 part alternation mark
@@ -1359,17 +1422,29 @@ emojis = """😀 grinning face
 🈺 Japanese “open for business” button
 🈵 Japanese “no vacancy” button
 🔴 red circle
+🟠 orange circle
+🟡 yellow circle
+🟢 green circle
 🔵 blue circle
-⚪ white circle
+🟣 purple circle
+🟤 brown circle
 ⚫ black circle
-⬜ white large square
+⚪ white circle
+🟥 red square
+🟧 orange square
+🟨 yellow square
+🟩 green square
+🟦 blue square
+🟪 purple square
+🟫 brown square
 ⬛ black large square
+⬜ white large square
 ◼ black medium square
 ◻ white medium square
-◽ white medium-small square
 ◾ black medium-small square
-▫ white small square
+◽ white medium-small square
 ▪ black small square
+▫ white small square
 🔶 large orange diamond
 🔷 large blue diamond
 🔸 small orange diamond
@@ -1378,8 +1453,8 @@ emojis = """😀 grinning face
 🔻 red triangle pointed down
 💠 diamond with a dot
 🔘 radio button
-🔲 black square button
 🔳 white square button
+🔲 black square button
 🏁 chequered flag
 🚩 triangular flag
 🎌 crossed flags
@@ -1540,7 +1615,7 @@ emojis = """😀 grinning face
 🇲🇱 flag: Mali
 🇲🇲 flag: Myanmar (Burma)
 🇲🇳 flag: Mongolia
-🇲🇴 flag: Macau SAR China
+🇲🇴 flag: Macao SAR China
 🇲🇵 flag: Northern Mariana Islands
 🇲🇶 flag: Martinique
 🇲🇷 flag: Mauritania
@@ -1605,7 +1680,7 @@ emojis = """😀 grinning face
 🇸🇻 flag: El Salvador
 🇸🇽 flag: Sint Maarten
 🇸🇾 flag: Syria
-🇸🇿 flag: Swaziland
+🇸🇿 flag: Eswatini
 🇹🇦 flag: Tristan da Cunha
 🇹🇨 flag: Turks & Caicos Islands
 🇹🇩 flag: Chad
@@ -1650,16 +1725,17 @@ emojis = """😀 grinning face
 🏴󠁧󠁢󠁷󠁬󠁳󠁿 flag: Wales
 """
 
-skin_tone_selectable_emojis = {'🏄', '👼', '💂', '✌', '👃', '🧙', '🖐', '🕴', '🖖', '👏', '👱',
-                               '👋', '🧝', '👰', '🧛', '🤛', '👌', '👂', '✍', '🤟', '🙎', '🚶',
-                               '🤴', '👍', '🙍', '🧓', '🚣', '👮', '🙌', '👧', '✋', '🏋', '🙇',
-                               '🧖', '👷', '🚵', '🛀', '🤶', '👊', '👦', '👸', '💪', '🙆', '🤱',
-                               '🤸', '🤞', '🖕', '⛹', '👲', '🧑', '💁', '🧘', '🙋', '☝', '🧕', '👵',
-                               '🚴', '🏇', '🤳', '🙏', '🧒', '👶', '🦸', '👨', '👆', '💃', '🤾',
-                               '🏂', '🛌', '🤹', '👈', '✊', '🧚', '💅', '🤽', '🙅', '🧔', '🤲',
-                               '👎', '👴', '🏌', '🧜', '👐', '🤚', '🤵', '💇', '🏃', '🏊', '🤜',
-                               '🦵', '👇', '🕺', '🦹', '🧗', '👩', '🕵', '💆', '🦶', '🤰', '🤘',
-                               '🤦', '🤷', '👉', '👳', '🎅', '🤙'}
+skin_tone_selectable_emojis = {'👃', '🧑', '👇', '👨', '👋', '🏋', '👪', '🖐', '🙏', '🤜', '💅',
+                               '🤼', '🎅', '🤦', '🙇', '🤾', '💂', '🧗', '👈', '🤹', '👵', '🤽',
+                               '🏄', '🧛', '🧖', '👷', '💁', '🤟', '🧘', '🧏', '👳', '👱', '✊',
+                               '👎', '👶', '🧜', '🤘', '🧔', '🕴', '🏃', '🤰', '👌', '🙎', '🧒',
+                               '🛀', '🤲', '🧝', '👩', '💪', '🧙', '🤴', '👉', '💑', '🧎', '🧚',
+                               '🕺', '💃', '🧍', '🙌', '🚣', '👏', '💏', '🚶', '✋', '🛌', '🏊',
+                               '🤸', '🖖', '🧓', '🤱', '💇', '☝', '👧', '👲', '👴', '🤏', '🦹',
+                               '🦵', '🧕', '🚴', '🤳', '✌', '💆', '🤷', '🤚', '👍', '👭', '🙆',
+                               '🕵', '🤛', '🤶', '🦶', '🙋', '⛹', '👼', '👊', '🙅', '👰', '🦸',
+                               '👮', '🏇', '🦻', '👐', '🤞', '✍', '🤙', '🏌', '👂', '👬', '🤵',
+                               '🙍', '🏂', '🤝', '👫', '👦', '👸', '👆', '👯', '🖕', '🚵'}
 
 fitzpatrick_modifiers = {
     '': 'neutral',

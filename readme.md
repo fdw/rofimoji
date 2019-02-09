@@ -40,7 +40,7 @@ For Arch/Manjaro: `yay -S python ttf-emojione-color xsel xdotool`
 This is only needed if a new Unicode version came out and you can't wait for the official update!
 
 1. Install Python 3 and `pip install -r requirements-dev.txt`
-2. Run `extract_emojis.py` - this downloads the complete list from https://unicode.org/emoji/charts-11.0/full-emoji-list.html, so don't do it too often!
+2. Run `extract_emojis.py` - this downloads the complete list from https://unicode.org/emoji/charts-12.0/full-emoji-list.html, so don't do it too often!
 3. A new file `emojis.py` should have been created. Open it and copy the contents
 4. Open `rofimoji.py` and replace the emoji list with the contents of `emojis.py`
 

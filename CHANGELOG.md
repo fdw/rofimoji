@@ -1,6 +1,7 @@
 # [2.1.0]
 ## Changed
 - This release is based on the emoji v12, including all these: https://unicode.org/emoji/charts/emoji-versions.html#2019
+- Renamed meta files to upper case for better visibility
 
 # [2.0.1]
 ## Fixed

@@ -9,8 +9,8 @@ Inserts the selected emoji directly, or copies it to the clipboard.
 1. Run `rofimoji.py`
 2. Search for the emoji you want
 3. (optional) Select multiple emoji with `alt+enter`
-4. - Hit `enter` to insert the emoji directly
-   - Hit `alt+c` to copy it to the clipboard
+4. Hit `enter` to insert the emoji directly \
+   Hit `alt+c` to copy it to the clipboard
 5. Maybe select a skin color
 6. 🎠
 
@@ -34,7 +34,7 @@ What else do you need:
 - xdotool for typing the emoji
 - xsel to copy the emoji to the clipboard
 
-For Ubuntu zesty: `sudo aptitude install fonts-emojione python3 rofi xdotool xsel`
+For Ubuntu zesty: `sudo aptitude install fonts-emojione python3 rofi xdotool xsel` \
 For Arch: `sudo pacman -Syu emoji-font python rofi xdotool xsel`
 
 ## Updating the emojis

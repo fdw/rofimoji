@@ -20,10 +20,12 @@ Inserts the selected emoji directly, or copies it to the clipboard.
 
 ## Installation
 
-### Arch & Manjaro
-A kind soul has packaged it as [rofimoji-git](https://aur.archlinux.org/packages/rofimoji-git/). To, install, use `$YOUR_FAVORITE_AUR_HELPER -S rofimoji-git`.
+### Arch
+
+A kind soul has packaged it as [rofimoji](https://www.archlinux.org/packages/community/any/rofimoji/). To, install, use `sudo pacman -Syu rofimoji`.
 
 ### From sources
+
 Download `rofimoji.py` and move it somewhere on your path, for example `/usr/local/bin`.
 
 What else do you need:
@@ -32,8 +34,8 @@ What else do you need:
 - xdotool for typing the emoji
 - xsel to copy the emoji to the clipboard
 
-For Ubuntu zesty: `sudo aptitude install python3 fonts-emojione xsel xdotool`
-For Arch/Manjaro: `yay -S python ttf-emojione-color xsel xdotool`
+For Ubuntu zesty: `sudo aptitude install fonts-emojione python3 rofi xdotool xsel`
+For Arch: `sudo pacman -Syu emoji-font python rofi xdotool xsel`
 
 ## Updating the emojis
 
@@ -47,5 +49,6 @@ This is only needed if a new Unicode version came out and you can't wait for the
 ## FAQ
 
 ### Why is it so pedestrian? Why not simply import from `emojis.py`?
+
 Because now you only have to download one file, and it works 
 Additionally, we need no separate I/O just to load the emojis. This is good, right?

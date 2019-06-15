@@ -6,7 +6,7 @@ Inserts the selected emoji directly, or copies it to the clipboard.
 ## Usage
 1. Run `rofimoji.py`
 2. Search for the emoji you want
-3. (optional) Select multiple emoji with `alt+enter`
+3. (optional) Select multiple emoji with `shift+enter`
 4. Hit `enter` to insert the emoji directly \
    Hit `alt+c` to copy it to the clipboard
 5. Maybe select a skin color

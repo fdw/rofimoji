@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-import time
 
 from subprocess import Popen, PIPE
 
@@ -1775,6 +1774,8 @@ def select_skin_tone(selected_emoji: chr):
 
     return stdout_skin.split()[0].decode('utf-8')
 
+xdotool = Popen(args=['xdotool', 'getactivewindow'], stdout=PIPE)
+active_window = xdotool.communicate()[0].decode("utf-8")[:-1]
 
 rofi = Popen(
     args=[
@@ -1805,12 +1806,13 @@ else:
         emojis += emoji
 
     if rofi.returncode == 0:
-        time.sleep(0.1)
         Popen(
             args=[
                 'xdotool',
                 'type',
                 '--clearmodifiers',
+                '--window',
+                active_window,
                 emojis
             ]
         )

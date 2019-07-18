@@ -1806,16 +1806,18 @@ else:
         emojis += emoji
 
     if rofi.returncode == 0:
-        Popen(
-            args=[
-                'xdotool',
-                'type',
-                '--clearmodifiers',
-                '--window',
-                active_window,
-                emojis
-            ]
-        )
+        # HACK: using primary selection and middle mouse button
+        # to make emojis insertion work in Firefox and Telegram
+        xsel = Popen(args=['xsel', '-op'], stdout=PIPE)
+        primary_selection = xsel.communicate()[0].decode("utf-8")
+
+        xsel = Popen(args=['xsel', '-ip'], stdin=PIPE)
+        xsel.communicate(input=emojis.encode('utf-8'))
+
+        Popen(args=['xdotool', 'click', '--window', active_window, '2']).wait()
+
+        xsel = Popen(args=['xsel', '-ip'], stdin=PIPE)
+        xsel.communicate(input=primary_selection.encode('utf-8'))
     elif rofi.returncode == 10:
         xsel = Popen(
             args=[

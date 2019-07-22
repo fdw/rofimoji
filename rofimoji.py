@@ -1806,16 +1806,17 @@ else:
         emojis += emoji
 
     if rofi.returncode == 0:
-        Popen(
-            args=[
-                'xdotool',
-                'type',
-                '--clearmodifiers',
-                '--window',
-                active_window,
-                emojis
-            ]
-        )
+        # HACK: using clipboard and Control+v to insert emojis in Firefox and Telegram
+        xsel = Popen(args=['xsel', '-ob'], stdout=PIPE)
+        clipboard = xsel.communicate()[0].decode("utf-8")
+
+        xsel = Popen(args=['xsel', '-ib'], stdin=PIPE)
+        xsel.communicate(input=emojis.encode('utf-8'))
+
+        Popen(args=['xdotool', 'key', '--clearmodifiers', '--window', active_window, 'Control+v']).wait()
+
+        xsel = Popen(args=['xsel', '-ib'], stdin=PIPE)
+        xsel.communicate(input=clipboard.encode('utf-8'))
     elif rofi.returncode == 10:
         xsel = Popen(
             args=[

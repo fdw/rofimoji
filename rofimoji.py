@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-
+import argparse
 from subprocess import Popen, PIPE
 
-emojis = """😀 grinning face
+emoji_list = """😀 grinning face
 😃 grinning face with big eyes
 😄 grinning face with smiling eyes
 😁 beaming face with smiling eyes
@@ -1746,6 +1746,13 @@ fitzpatrick_modifiers = {
 }
 
 
+def insert_emojis(emojis: str, active_window: str, use_clipboard: bool = False):
+    if use_clipboard:
+        copy_paste_emojis(emojis, active_window)
+    else:
+        type_emojis(emojis, active_window)
+
+
 def select_skin_tone(selected_emoji: chr):
     modified_emojis = '\n'.join(map(
         lambda modifier: selected_emoji + modifier + " " + fitzpatrick_modifiers[modifier],
@@ -1774,30 +1781,72 @@ def select_skin_tone(selected_emoji: chr):
 
     return stdout_skin.split()[0].decode('utf-8')
 
-xdotool = Popen(args=['xdotool', 'getactivewindow'], stdout=PIPE)
-active_window = xdotool.communicate()[0].decode("utf-8")[:-1]
 
-rofi = Popen(
-    args=[
-        'rofi',
-        '-dmenu',
-        '-i',
-        '-multi-select',
-        '-p',
-        ' 😀   ',
-        '-kb-custom-1',
-        'Alt+c'
-    ],
-    stdin=PIPE,
-    stdout=PIPE
-)
-(stdout, stderr) = rofi.communicate(input=emojis.encode('utf-8'))
+def type_emojis(emojis: str, active_window: str):
+    Popen(
+        args=[
+            'xdotool',
+            'type',
+            '--clearmodifiers',
+            '--window',
+            active_window,
+            emojis
+        ]
+    )
 
-if rofi.returncode == 1:
-    exit()
-else:
+
+def copy_paste_emojis(emojis: str, active_window: str):
+    xsel = Popen(args=['xsel', '-o', '-b'], stdout=PIPE)
+    old_clipboard_content = xsel.communicate()[0].decode("utf-8")
+    xsel = Popen(args=['xsel', '-o', '-p'], stdout=PIPE)
+    old_primary_content = xsel.communicate()[0].decode("utf-8")
+
+    xsel = Popen(args=['xsel', '-i', '-b'], stdin=PIPE)
+    xsel.communicate(input=emojis.encode('utf-8'))
+    xsel = Popen(args=['xsel', '-i', '-p'], stdin=PIPE)
+    xsel.communicate(input=emojis.encode('utf-8'))
+
+    Popen(args=['xdotool', 'key', '--clearmodifiers', '--window', active_window,
+                'Shift+Insert']).wait()
+
+    xsel = Popen(args=['xsel', '-i', '-b'], stdin=PIPE)
+    xsel.communicate(input=old_clipboard_content.encode('utf-8'))
+    xsel = Popen(args=['xsel', '-i', '-p'], stdin=PIPE)
+    xsel.communicate(input=old_primary_content.encode('utf-8'))
+
+
+def copy_emojis_to_clipboard(emojis: str):
+    xsel = Popen(
+        args=[
+            'xsel',
+            '-i',
+            '-b'
+        ],
+        stdin=PIPE
+    )
+    xsel.communicate(input=emojis.encode('utf-8'))
+
+
+def parse_arguments() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description='Select, insert or copy Unicode emoji')
+    parser.add_argument(
+        '--use-clipboard',
+        '-c',
+        dest='use_clipboard',
+        action='store_true',
+        help='Do not type the emoji directly, but copy it to the clipboard, insert it from there and then restore the clipboard\'s original value'
+    )
+    return parser.parse_args()
+
+
+def get_active_window() -> str:
+    xdotool = Popen(args=['xdotool', 'getactivewindow'], stdout=PIPE)
+    return xdotool.communicate()[0].decode("utf-8")[:-1]
+
+
+def compile_chosen_emojis(chosen_emojis) -> str:
     emojis = ""
-    for line in stdout.splitlines():
+    for line in chosen_emojis:
         emoji = line.split()[0].decode('utf-8')
 
         if emoji in skin_tone_selectable_emojis:
@@ -1805,25 +1854,44 @@ else:
 
         emojis += emoji
 
-    if rofi.returncode == 0:
-        # HACK: using clipboard and Control+v to insert emojis in Firefox and Telegram
-        xsel = Popen(args=['xsel', '-ob'], stdout=PIPE)
-        clipboard = xsel.communicate()[0].decode("utf-8")
+    return emojis
 
-        xsel = Popen(args=['xsel', '-ib'], stdin=PIPE)
-        xsel.communicate(input=emojis.encode('utf-8'))
 
-        Popen(args=['xdotool', 'key', '--clearmodifiers', '--window', active_window, 'Control+v']).wait()
+if __name__ == "__main__":
+    args = parse_arguments()
 
-        xsel = Popen(args=['xsel', '-ib'], stdin=PIPE)
-        xsel.communicate(input=clipboard.encode('utf-8'))
-    elif rofi.returncode == 10:
-        xsel = Popen(
-            args=[
-                'xsel',
-                '-i',
-                '-b'
-            ],
-            stdin=PIPE
-        )
-        xsel.communicate(input=emojis.encode('utf-8'))
+    active_window = get_active_window()
+
+    rofi = Popen(
+        args=[
+            'rofi',
+            '-dmenu',
+            '-i',
+            '-multi-select',
+            '-p',
+            ' 😀   ',
+            '-kb-custom-1',
+            'Alt+c',
+            '-kb-custom-2',
+            'Alt+t',
+            '-kb-custom-3',
+            'Alt+p'
+        ],
+        stdin=PIPE,
+        stdout=PIPE
+    )
+    (stdout, stderr) = rofi.communicate(input=emoji_list.encode('utf-8'))
+
+    if rofi.returncode == 1:
+        exit()
+    else:
+        emojis = compile_chosen_emojis(stdout.splitlines(), args.skincolor[0])
+
+        if rofi.returncode == 0:
+            insert_emojis(emojis, active_window, args.use_clipboard)
+        elif rofi.returncode == 10:
+            copy_emojis_to_clipboard(emojis)
+        elif rofi.returncode == 11:
+            type_emojis(emojis, active_window)
+        elif rofi.returncode == 12:
+            copy_paste_emojis(emojis, active_window)

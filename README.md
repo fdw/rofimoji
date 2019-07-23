@@ -8,20 +8,24 @@ Inserts the selected emoji directly, or copies it to the clipboard.
 2. Search for the emoji you want
 3. (optional) Select multiple emoji with `shift+enter`
 4. Hit `enter` to insert the emoji directly \
-   Hit `alt+c` to copy it to the clipboard
+   Hit `alt+c` to copy it to the clipboard \
+   `alt+t` or `alt+p` can be used to select a specific input method
 5. Maybe select a skin color
 6. 🎠
 
 ## How does it look?
 ![Screenshot of rofimoji](screenshot.png?raw=true)
 
+## Insertion method
+For some applications, `xdotool` cannot type emojis (f.e. Firefox). To work around this, `rofimoji` can copy the emojis to your clipboard and insert them from there with `shift+insert`. Afterwards, it will restore the previous contents.
+Unfortunately, it depends on the receiving application whether `shift+insert` uses the clipboard or the primary selection. Therefore, `rofimoji` uses both and also restores both 😐.
+
+By default, `rofimoji` uses `xdotool type`. To choose to spam your clipboards, you can either use the keybinding `alt+p` or start it as `rofimoji --use-clipboard`. If you want to use typing, you can hit `alt+t`, even though it was started with `--use-clipboard`.
+
 ## Installation
 
 ### Arch
 A kind soul has packaged it as [rofimoji](https://www.archlinux.org/packages/community/any/rofimoji/). To, install, use `sudo pacman -Syu rofimoji`.
-
-#### AUR for Manjaro and others
-If `rofimoji` is not yet synced to your distro's repo, you can also install [rofimoji-git](https://aur.archlinux.org/packages/rofimoji-git/) from the AUR.
 
 ### From sources
 Download `rofimoji.py` and move it somewhere on your path, for example `/usr/local/bin`.

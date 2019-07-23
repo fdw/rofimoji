@@ -1745,41 +1745,49 @@ fitzpatrick_modifiers = {
     '🏿': 'black skin'
 }
 
+fitzpatrick_modifiers_reversed = {" ".join(name.split()[:-1]): modifier for modifier, name in
+                                  fitzpatrick_modifiers.items() if name != "neutral"}
+
+
+def select_skin_tone(selected_emoji: chr, skin_tone: str):
+    if skin_tone == 'neutral':
+        return selected_emoji
+    elif skin_tone != 'ask':
+        return selected_emoji + fitzpatrick_modifiers_reversed[skin_tone]
+    else:
+        modified_emojis = '\n'.join(map(
+            lambda modifier: selected_emoji + modifier + " " + fitzpatrick_modifiers[modifier],
+            fitzpatrick_modifiers.keys()
+        ))
+
+        rofi_skin = Popen(
+            args=[
+                'rofi',
+                '-dmenu',
+                '-i',
+                '-multi-select',
+                '-p',
+                selected_emoji + '   ',
+                '-kb-custom-1',
+                'Alt+c'
+            ],
+            stdin=PIPE,
+            stdout=PIPE
+        )
+
+        (stdout_skin, _) = rofi_skin.communicate(input=modified_emojis.encode('utf-8'))
+
+        if rofi_skin.returncode == 1:
+            return ''
+
+        return stdout_skin.split()[0].decode('utf-8')
+
 
 def insert_emojis(emojis: str, active_window: str, use_clipboard: bool = False):
     if use_clipboard:
         copy_paste_emojis(emojis, active_window)
     else:
         type_emojis(emojis, active_window)
-
-
-def select_skin_tone(selected_emoji: chr):
-    modified_emojis = '\n'.join(map(
-        lambda modifier: selected_emoji + modifier + " " + fitzpatrick_modifiers[modifier],
-        fitzpatrick_modifiers.keys()
-    ))
-
-    rofi_skin = Popen(
-        args=[
-            'rofi',
-            '-dmenu',
-            '-i',
-            '-multi-select',
-            '-p',
-            selected_emoji + '   ',
-            '-kb-custom-1',
-            'Alt+c'
-        ],
-        stdin=PIPE,
-        stdout=PIPE
-    )
-
-    (stdout_skin, _) = rofi_skin.communicate(input=modified_emojis.encode('utf-8'))
-
-    if rofi_skin.returncode == 1:
-        return ''
-
-    return stdout_skin.split()[0].decode('utf-8')
 
 
 def type_emojis(emojis: str, active_window: str):
@@ -1836,6 +1844,15 @@ def parse_arguments() -> argparse.Namespace:
         action='store_true',
         help='Do not type the emoji directly, but copy it to the clipboard, insert it from there and then restore the clipboard\'s original value'
     )
+    parser.add_argument(
+        '--skin-tone',
+        '-s',
+        dest='skin_tone',
+        choices=['neutral', 'light', 'medium-light', 'moderate', 'dark brown', 'black', 'ask'],
+        default='ask',
+        nargs=1,
+        action='store'
+    )
     return parser.parse_args()
 
 
@@ -1844,13 +1861,13 @@ def get_active_window() -> str:
     return xdotool.communicate()[0].decode("utf-8")[:-1]
 
 
-def compile_chosen_emojis(chosen_emojis) -> str:
+def compile_chosen_emojis(chosen_emojis, skin_tone) -> str:
     emojis = ""
     for line in chosen_emojis:
         emoji = line.split()[0].decode('utf-8')
 
         if emoji in skin_tone_selectable_emojis:
-            emoji = select_skin_tone(emoji)
+            emoji = select_skin_tone(emoji, skin_tone)
 
         emojis += emoji
 
@@ -1885,7 +1902,7 @@ if __name__ == "__main__":
     if rofi.returncode == 1:
         exit()
     else:
-        emojis = compile_chosen_emojis(stdout.splitlines(), args.skincolor[0])
+        emojis = compile_chosen_emojis(stdout.splitlines(), args.skin_tone[0])
 
         if rofi.returncode == 0:
             insert_emojis(emojis, active_window, args.use_clipboard)

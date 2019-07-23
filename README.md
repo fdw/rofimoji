@@ -20,7 +20,10 @@ Inserts the selected emoji directly, or copies it to the clipboard.
 For some applications, `xdotool` cannot type emojis (f.e. Firefox). To work around this, `rofimoji` can copy the emojis to your clipboard and insert them from there with `shift+insert`. Afterwards, it will restore the previous contents.
 Unfortunately, it depends on the receiving application whether `shift+insert` uses the clipboard or the primary selection. Therefore, `rofimoji` uses both and also restores both 😐.
 
-By default, `rofimoji` uses `xdotool type`. To choose to spam your clipboards, you can either use the keybinding `alt+p` or start it as `rofimoji --use-clipboard`. If you want to use typing, you can hit `alt+t`, even though it was started with `--use-clipboard`.
+By default, `rofimoji` uses `xdotool type`. To choose to spam your clipboards, you can either use the keybinding `alt+p` or start it as `rofimoji --use-clipboard` (`-c` (`-c`)). If you want to use typing, you can hit `alt+t`, even though it was started with `--use-clipboard`.
+
+## Configuration
+You can choose a skin tone with the `--skin-tone` (or `-s`) parameter. The available values are `light`, `medium-light`, `moderate`, `dark brown`, `black`, as well as `neutral` and `ask` to be shown the prompt (this is also the default).
 
 ## Installation
 

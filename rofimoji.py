@@ -1850,7 +1850,6 @@ def parse_arguments() -> argparse.Namespace:
         dest='skin_tone',
         choices=['neutral', 'light', 'medium-light', 'moderate', 'dark brown', 'black', 'ask'],
         default='ask',
-        nargs=1,
         action='store'
     )
     return parser.parse_args()
@@ -1902,7 +1901,7 @@ if __name__ == "__main__":
     if rofi.returncode == 1:
         exit()
     else:
-        emojis = compile_chosen_emojis(stdout.splitlines(), args.skin_tone[0])
+        emojis = compile_chosen_emojis(stdout.splitlines(), args.skin_tone)
 
         if rofi.returncode == 0:
             insert_emojis(emojis, active_window, args.use_clipboard)

@@ -51,13 +51,16 @@ def write_file(all_emojis: List[Emoji], human_emojis: Set[chr]):
     python_file.close()
 
 
-def fetch_human_emojis() -> Set[chr]:
+def fetch_human_emojis() -> List[chr]:
     print('Downloading list of human emojis...')
 
-    data = requests.get('https://unicode.org/Public/emoji/12.0/emoji-data.txt', timeout=60)  # type: requests.Response
+    data = requests.get(
+        'https://unicode.org/Public/emoji/12.0/emoji-data.txt',
+        timeout=60
+    )  # type: requests.Response
 
     started = False
-    emojis = set()
+    emojis = []
     for line in data.content.decode(data.encoding).split('\n'):
         if not started and line != '# All omitted code points have Emoji_Modifier_Base=No ':
             continue
@@ -66,21 +69,21 @@ def fetch_human_emojis() -> Set[chr]:
             break
         if started and (line.startswith('#') or len(line) == 0):
             continue
-        emojis = emojis.union(extract_emojis_from_line(line))
+        emojis.extend(extract_emojis_from_line(line))
 
     return emojis
 
 
-def extract_emojis_from_line(line: str) -> Set[chr]:
+def extract_emojis_from_line(line: str) -> List[chr]:
     emoji_range = line.split(';')[0].strip()
     try:
         (start, end) = emoji_range.split('..')
-        emojis = set()
-        for char in range(int(start, 16), int(end, 16)+1):
-            emojis.add(chr(char))
+        emojis = []
+        for char in range(int(start, 16), int(end, 16) + 1):
+            emojis.append(chr(char))
         return emojis
     except ValueError:
-        return set(chr(int(emoji_range, 16)))
+        return [chr(int(emoji_range, 16))]
 
 
 write_file(extract_from_html(fetch_emoji_html()), fetch_human_emojis())

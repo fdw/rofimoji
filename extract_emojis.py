@@ -37,7 +37,7 @@ def extract_from_html(html: BeautifulSoup) -> List[Emoji]:
 def write_file(all_emojis: List[Emoji], human_emojis: Set[chr]):
     print('Writing collected emojis to file')
     python_file = open('emojis.py', 'w')
-    python_file.write('emojis="""')
+    python_file.write('emoji_list="""')
 
     for emoji in all_emojis:
         python_file.write("%s %s\n" % (emoji.char, emoji.name))

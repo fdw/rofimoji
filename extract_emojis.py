@@ -1,16 +1,26 @@
+from collections import namedtuple
+from typing import List, Set, Dict
+
 import requests
 from bs4 import BeautifulSoup
-from collections import namedtuple
-from typing import List, Set
+from lxml import etree
+from lxml.etree import XPath
 
 Emoji = namedtuple('Emoji', 'char name')
+
+
+def fetch_emoji_list() -> List[Emoji]:
+    return extract_from_html(fetch_emoji_html())
 
 
 def fetch_emoji_html() -> BeautifulSoup:
     max_tries = 5
     for i in range(max_tries):
         print('Downloading emojis... try %s' % (i + 1))
-        data = requests.get('https://unicode.org/emoji/charts-12.0/full-emoji-list.html', timeout=120)  # type: requests.Response
+        data = requests.get(
+            'https://unicode.org/emoji/charts-12.0/full-emoji-list.html',
+            timeout=120
+        )  # type: requests.Response
         if data:
             break
 
@@ -32,23 +42,6 @@ def extract_from_html(html: BeautifulSoup) -> List[Emoji]:
         emojis.append(Emoji(emoji, description))
 
     return emojis
-
-
-def write_file(all_emojis: List[Emoji], human_emojis: Set[chr]):
-    print('Writing collected emojis to file')
-    python_file = open('emojis.py', 'w')
-    python_file.write('emoji_list="""')
-
-    for emoji in all_emojis:
-        python_file.write("%s %s\n" % (emoji.char, emoji.name))
-
-    python_file.write('"""\n\n')
-
-    python_file.write('skin_tone_selectable_emojis={\'')
-    python_file.write('\', \''.join(human_emojis))
-    python_file.write('\'}\n')
-
-    python_file.close()
 
 
 def fetch_human_emojis() -> List[chr]:
@@ -86,4 +79,48 @@ def extract_emojis_from_line(line: str) -> List[chr]:
         return [chr(int(emoji_range, 16))]
 
 
-write_file(extract_from_html(fetch_emoji_html()), fetch_human_emojis())
+def fetch_annotations() -> Dict[chr, List[str]]:
+    print('Downloading annotations')
+
+    data = requests.get(
+        'https://raw.githubusercontent.com/unicode-org/cldr/release-35-1/common/annotations/en.xml',
+        timeout=60
+    )  # type: requests.Response
+
+    xpath = XPath('./annotations/annotation[not(@type="tts")]')
+    return {element.get('cp'): element.text.split(' | ') for element in
+            xpath(etree.fromstring(data.content))}
+
+
+def write_file(all_emojis: List[Emoji], human_emojis: Set[chr], annotations: Dict[chr, List[str]]):
+    print('Writing collected emojis to file')
+    python_file = open('emojis.py', 'w')
+    python_file.write('emoji_list="""')
+
+    for entry in compile_entries(all_emojis, annotations):
+        python_file.write(entry + "\n")
+
+    python_file.write('"""\n\n')
+
+    python_file.write('skin_tone_selectable_emojis={\'')
+    python_file.write('\', \''.join(human_emojis))
+    python_file.write('\'}\n')
+
+    python_file.close()
+
+
+def compile_entries(emojis: List[Emoji], annotations: Dict[chr, List[str]]) -> List[str]:
+    annotated_emojis = []
+    for emoji in emojis:
+        if emoji.char in annotations:
+            entry = f"{emoji.char} {emoji.name} ({', '.join(annotations[emoji.char])})"
+        else:
+            entry = f"{emoji.char} {emoji.name}"
+
+        annotated_emojis.append(entry)
+
+    return annotated_emojis
+
+
+if __name__ == "__main__":
+    write_file(fetch_emoji_list(), fetch_human_emojis(), fetch_annotations())

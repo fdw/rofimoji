@@ -1751,91 +1751,25 @@ fitzpatrick_modifiers_reversed = {" ".join(name.split()[:-1]): modifier for modi
                                   fitzpatrick_modifiers.items() if name != "neutral"}
 
 
-def select_skin_tone(selected_emoji: chr, skin_tone: str, rofi_args: List[str]):
-    if skin_tone == 'neutral':
-        return selected_emoji
-    elif skin_tone != 'ask':
-        return selected_emoji + fitzpatrick_modifiers_reversed[skin_tone]
+def main():
+    args = parse_arguments()
+    active_window = get_active_window()
+
+    returncode, stdout = open_main_rofi_window(args)
+
+    if returncode == 1:
+        sys.exit()
     else:
-        modified_emojis = '\n'.join(map(
-            lambda modifier: selected_emoji + modifier + " " + fitzpatrick_modifiers[modifier],
-            fitzpatrick_modifiers.keys()
-        ))
+        emojis = compile_chosen_emojis(stdout.splitlines(), args.skin_tone, args.rofi_args)
 
-        rofi_skin = Popen(
-            args=[
-                'rofi',
-                '-dmenu',
-                '-i',
-                '-multi-select',
-                '-p',
-                selected_emoji + '   ',
-                '-kb-custom-1',
-                'Alt+c',
-                *rofi_args
-            ],
-            stdin=PIPE,
-            stdout=PIPE
-        )
-
-        (stdout_skin, _) = rofi_skin.communicate(input=modified_emojis.encode('utf-8'))
-
-        if rofi_skin.returncode == 1:
-            return ''
-
-        return stdout_skin.split()[0].decode('utf-8')
-
-
-def insert_emojis(emojis: str, active_window: str, use_clipboard: bool = False):
-    if use_clipboard:
-        copy_paste_emojis(emojis, active_window)
-    else:
-        type_emojis(emojis, active_window)
-
-
-def type_emojis(emojis: str, active_window: str):
-    Popen(
-        args=[
-            'xdotool',
-            'type',
-            '--clearmodifiers',
-            '--window',
-            active_window,
-            emojis
-        ]
-    )
-
-
-def copy_paste_emojis(emojis: str, active_window: str):
-    xsel = Popen(args=['xsel', '-o', '-b'], stdout=PIPE)
-    old_clipboard_content = xsel.communicate()[0].decode("utf-8")
-    xsel = Popen(args=['xsel', '-o', '-p'], stdout=PIPE)
-    old_primary_content = xsel.communicate()[0].decode("utf-8")
-
-    xsel = Popen(args=['xsel', '-i', '-b'], stdin=PIPE)
-    xsel.communicate(input=emojis.encode('utf-8'))
-    xsel = Popen(args=['xsel', '-i', '-p'], stdin=PIPE)
-    xsel.communicate(input=emojis.encode('utf-8'))
-
-    Popen(args=['xdotool', 'key', '--clearmodifiers', '--window', active_window,
-                'Shift+Insert']).wait()
-
-    xsel = Popen(args=['xsel', '-i', '-b'], stdin=PIPE)
-    xsel.communicate(input=old_clipboard_content.encode('utf-8'))
-    xsel = Popen(args=['xsel', '-i', '-p'], stdin=PIPE)
-    xsel.communicate(input=old_primary_content.encode('utf-8'))
-
-
-def copy_emojis_to_clipboard(emojis: str):
-    xsel = Popen(
-        args=[
-            'xsel',
-            '-i',
-            '-b'
-        ],
-        stdin=PIPE
-    )
-    xsel.communicate(input=emojis.encode('utf-8'))
+        if returncode == 0:
+            insert_emojis(emojis, active_window, args.use_clipboard)
+        elif returncode == 10:
+            copy_emojis_to_clipboard(emojis)
+        elif returncode == 11:
+            type_emojis(emojis, active_window)
+        elif returncode == 12:
+            copy_paste_emojis(emojis, active_window)
 
 
 def parse_arguments() -> argparse.Namespace:
@@ -1874,24 +1808,7 @@ def get_active_window() -> str:
     return xdotool.communicate()[0].decode("utf-8")[:-1]
 
 
-def compile_chosen_emojis(chosen_emojis: List[bytes], skin_tone: str, rofi_args: List[str]) -> str:
-    emojis = ""
-    for line in chosen_emojis:
-        emoji = line.decode('utf-8').split()[0]
-
-        if emoji in skin_tone_selectable_emojis:
-            emoji = select_skin_tone(emoji, skin_tone, rofi_args)
-
-        emojis += emoji
-
-    return emojis
-
-
-if __name__ == "__main__":
-    args = parse_arguments()
-
-    active_window = get_active_window()
-
+def open_main_rofi_window(args):
     rofi = Popen(
         args=[
             'rofi',
@@ -1911,18 +1828,106 @@ if __name__ == "__main__":
         stdin=PIPE,
         stdout=PIPE
     )
-    (stdout, stderr) = rofi.communicate(input=emoji_list.encode('utf-8'))
+    (stdout, _) = rofi.communicate(input=emoji_list.encode('utf-8'))
+    return rofi.returncode, stdout
 
-    if rofi.returncode == 1:
-        sys.exit()
+
+def compile_chosen_emojis(chosen_emojis: List[bytes], skin_tone: str, rofi_args: List[str]) -> str:
+    emojis = ""
+    for line in chosen_emojis:
+        emoji = line.decode('utf-8').split()[0]
+
+        if emoji in skin_tone_selectable_emojis:
+            emoji = select_skin_tone(emoji, skin_tone, rofi_args)
+
+        emojis += emoji
+
+    return emojis
+
+
+def select_skin_tone(selected_emoji: chr, skin_tone: str, rofi_args: List[str]):
+    if skin_tone == 'neutral':
+        return selected_emoji
+    elif skin_tone != 'ask':
+        return selected_emoji + fitzpatrick_modifiers_reversed[skin_tone]
     else:
-        emojis = compile_chosen_emojis(stdout.splitlines(), args.skin_tone, args.rofi_args)
+        modified_emojis = '\n'.join(map(
+            lambda modifier: selected_emoji + modifier + " " + fitzpatrick_modifiers[modifier],
+            fitzpatrick_modifiers.keys()
+        ))
 
-        if rofi.returncode == 0:
-            insert_emojis(emojis, active_window, args.use_clipboard)
-        elif rofi.returncode == 10:
-            copy_emojis_to_clipboard(emojis)
-        elif rofi.returncode == 11:
-            type_emojis(emojis, active_window)
-        elif rofi.returncode == 12:
-            copy_paste_emojis(emojis, active_window)
+        rofi_skin = Popen(
+            args=[
+                'rofi',
+                '-dmenu',
+                '-i',
+                '-p',
+                selected_emoji + '   ',
+                *rofi_args
+            ],
+            stdin=PIPE,
+            stdout=PIPE
+        )
+
+        (stdout_skin, _) = rofi_skin.communicate(input=modified_emojis.encode('utf-8'))
+
+        if rofi_skin.returncode == 1:
+            return ''
+
+        return stdout_skin.split()[0].decode('utf-8')
+
+
+def insert_emojis(emojis: str, active_window: str, use_clipboard: bool = False):
+    if use_clipboard:
+        copy_paste_emojis(emojis, active_window)
+    else:
+        type_emojis(emojis, active_window)
+
+
+def copy_paste_emojis(emojis: str, active_window: str):
+    xsel = Popen(args=['xsel', '-o', '-b'], stdout=PIPE)
+    old_clipboard_content = xsel.communicate()[0].decode("utf-8")
+    xsel = Popen(args=['xsel', '-o', '-p'], stdout=PIPE)
+    old_primary_content = xsel.communicate()[0].decode("utf-8")
+
+    xsel = Popen(args=['xsel', '-i', '-b'], stdin=PIPE)
+    xsel.communicate(input=emojis.encode('utf-8'))
+    xsel = Popen(args=['xsel', '-i', '-p'], stdin=PIPE)
+    xsel.communicate(input=emojis.encode('utf-8'))
+
+    Popen(args=['xdotool', 'key', '--clearmodifiers', '--window', active_window,
+                'Shift+Insert']).wait()
+
+    xsel = Popen(args=['xsel', '-i', '-b'], stdin=PIPE)
+    xsel.communicate(input=old_clipboard_content.encode('utf-8'))
+    xsel = Popen(args=['xsel', '-i', '-p'], stdin=PIPE)
+    xsel.communicate(input=old_primary_content.encode('utf-8'))
+
+
+def type_emojis(emojis: str, active_window: str):
+    Popen(
+        args=[
+            'xdotool',
+            'type',
+            '--clearmodifiers',
+            '--window',
+            active_window,
+            emojis
+        ]
+    )
+
+
+def copy_emojis_to_clipboard(emojis: str):
+    xsel = Popen(
+        args=[
+            'xsel',
+            '-i',
+            '-b'
+        ],
+        stdin=PIPE
+    )
+    xsel.communicate(input=emojis.encode('utf-8'))
+
+
+if __name__ == "__main__":
+    main()

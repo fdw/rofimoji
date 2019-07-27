@@ -3,7 +3,7 @@
 import argparse
 import sys
 from subprocess import Popen, PIPE
-from typing import List
+from typing import List, Tuple
 
 emoji_list = """😀 grinning face
 😃 grinning face with big eyes
@@ -1751,7 +1751,7 @@ fitzpatrick_modifiers_reversed = {" ".join(name.split()[:-1]): modifier for modi
                                   fitzpatrick_modifiers.items() if name != "neutral"}
 
 
-def main():
+def main() -> None:
     args = parse_arguments()
     active_window = get_active_window()
 
@@ -1773,13 +1773,14 @@ def main():
 
 
 def parse_arguments() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description='Select, insert or copy Unicode emoji')
+    parser = argparse.ArgumentParser(description='Select, insert or copy Unicode emojis using rofi')
     parser.add_argument(
         '--use-clipboard',
         '-c',
         dest='use_clipboard',
         action='store_true',
-        help='Do not type the emoji directly, but copy it to the clipboard, insert it from there and then restore the clipboard\'s original value'
+        help='Do not type the emoji directly, but copy it to the clipboard, insert it from there '
+             'and then restore the clipboard\'s original value '
     )
     parser.add_argument(
         '--skin-tone',
@@ -1788,7 +1789,8 @@ def parse_arguments() -> argparse.Namespace:
         action='store',
         choices=['neutral', 'light', 'medium-light', 'moderate', 'dark brown', 'black', 'ask'],
         default='ask',
-        help='Decide on a skin-tone for all supported emojis. If nor set (or set to "ask"), you will be asked for each one'
+        help='Decide on a skin-tone for all supported emojis. If not set (or set to "ask"), '
+             'you will be asked for each one '
     )
     parser.add_argument(
         '--rofi-args',
@@ -1808,9 +1810,9 @@ def get_active_window() -> str:
     return xdotool.communicate()[0].decode("utf-8")[:-1]
 
 
-def open_main_rofi_window(args):
+def open_main_rofi_window(args) -> Tuple[int, bytes]:
     rofi = Popen(
-        args=[
+        [
             'rofi',
             '-dmenu',
             '-i',
@@ -1845,7 +1847,7 @@ def compile_chosen_emojis(chosen_emojis: List[bytes], skin_tone: str, rofi_args:
     return emojis
 
 
-def select_skin_tone(selected_emoji: chr, skin_tone: str, rofi_args: List[str]):
+def select_skin_tone(selected_emoji: chr, skin_tone: str, rofi_args: List[str]) -> str:
     if skin_tone == 'neutral':
         return selected_emoji
     elif skin_tone != 'ask':
@@ -1857,7 +1859,7 @@ def select_skin_tone(selected_emoji: chr, skin_tone: str, rofi_args: List[str]):
         ))
 
         rofi_skin = Popen(
-            args=[
+            [
                 'rofi',
                 '-dmenu',
                 '-i',
@@ -1877,49 +1879,53 @@ def select_skin_tone(selected_emoji: chr, skin_tone: str, rofi_args: List[str]):
         return stdout_skin.split()[0].decode('utf-8')
 
 
-def insert_emojis(emojis: str, active_window: str, use_clipboard: bool = False):
+def insert_emojis(emojis: str, active_window: str, use_clipboard: bool = False) -> None:
     if use_clipboard:
         copy_paste_emojis(emojis, active_window)
     else:
         type_emojis(emojis, active_window)
 
 
-def copy_paste_emojis(emojis: str, active_window: str):
-    xsel = Popen(args=['xsel', '-o', '-b'], stdout=PIPE)
-    old_clipboard_content = xsel.communicate()[0].decode("utf-8")
-    xsel = Popen(args=['xsel', '-o', '-p'], stdout=PIPE)
-    old_primary_content = xsel.communicate()[0].decode("utf-8")
+def copy_paste_emojis(emojis: str, active_window: str) -> None:
+    old_clipboard_content = Popen(args=['xsel', '-o', '-b'], stdout=PIPE) \
+        .communicate()[0]
+    old_primary_content = Popen(args=['xsel', '-o', '-p'], stdout=PIPE) \
+        .communicate()[0]
 
-    xsel = Popen(args=['xsel', '-i', '-b'], stdin=PIPE)
-    xsel.communicate(input=emojis.encode('utf-8'))
-    xsel = Popen(args=['xsel', '-i', '-p'], stdin=PIPE)
-    xsel.communicate(input=emojis.encode('utf-8'))
+    Popen(args=['xsel', '-i', '-b'], stdin=PIPE) \
+        .communicate(input=emojis.encode('utf-8'))
+    Popen(args=['xsel', '-i', '-p'], stdin=PIPE) \
+        .communicate(input=emojis.encode('utf-8'))
 
-    Popen(args=['xdotool', 'key', '--clearmodifiers', '--window', active_window,
-                'Shift+Insert']).wait()
+    Popen([
+        'xdotool',
+        'key',
+        '--clearmodifiers',
+        '--window',
+        active_window,
+        'Shift+Insert'
+    ]).wait()
 
-    xsel = Popen(args=['xsel', '-i', '-b'], stdin=PIPE)
-    xsel.communicate(input=old_clipboard_content.encode('utf-8'))
-    xsel = Popen(args=['xsel', '-i', '-p'], stdin=PIPE)
-    xsel.communicate(input=old_primary_content.encode('utf-8'))
-
-
-def type_emojis(emojis: str, active_window: str):
-    Popen(
-        args=[
-            'xdotool',
-            'type',
-            '--clearmodifiers',
-            '--window',
-            active_window,
-            emojis
-        ]
-    )
+    Popen(args=['xsel', '-i', '-b'], stdin=PIPE) \
+        .communicate(input=old_clipboard_content)
+    Popen(args=['xsel', '-i', '-p'], stdin=PIPE) \
+        .communicate(input=old_primary_content)
 
 
-def copy_emojis_to_clipboard(emojis: str):
+def type_emojis(emojis: str, active_window: str) -> None:
+    Popen([
+        'xdotool',
+        'type',
+        '--clearmodifiers',
+        '--window',
+        active_window,
+        emojis
+    ])
+
+
+def copy_emojis_to_clipboard(emojis: str) -> None:
     xsel = Popen(
-        args=[
+        [
             'xsel',
             '-i',
             '-b'

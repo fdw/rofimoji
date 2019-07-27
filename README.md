@@ -25,6 +25,8 @@ By default, `rofimoji` uses `xdotool type`. To choose to spam your clipboards, y
 ## Configuration
 You can choose a skin tone with the `--skin-tone` (or `-s`) parameter. The available values are `light`, `medium-light`, `moderate`, `dark brown`, `black`, as well as `neutral` and `ask` to be shown the prompt (this is also the default).
 
+If you have any arguments for rofi, you can make `rofimoji` pass them through like this: `rofimoji --rofi-args="-columns 3"`.
+
 ## Installation
 
 ### Arch

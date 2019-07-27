@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 import argparse
+import sys
 from subprocess import Popen, PIPE
+from typing import List
 
 emoji_list = """😀 grinning face
 😃 grinning face with big eyes
@@ -1749,7 +1751,7 @@ fitzpatrick_modifiers_reversed = {" ".join(name.split()[:-1]): modifier for modi
                                   fitzpatrick_modifiers.items() if name != "neutral"}
 
 
-def select_skin_tone(selected_emoji: chr, skin_tone: str):
+def select_skin_tone(selected_emoji: chr, skin_tone: str, rofi_args: List[str]):
     if skin_tone == 'neutral':
         return selected_emoji
     elif skin_tone != 'ask':
@@ -1769,7 +1771,8 @@ def select_skin_tone(selected_emoji: chr, skin_tone: str):
                 '-p',
                 selected_emoji + '   ',
                 '-kb-custom-1',
-                'Alt+c'
+                'Alt+c',
+                *rofi_args
             ],
             stdin=PIPE,
             stdout=PIPE
@@ -1848,11 +1851,22 @@ def parse_arguments() -> argparse.Namespace:
         '--skin-tone',
         '-s',
         dest='skin_tone',
+        action='store',
         choices=['neutral', 'light', 'medium-light', 'moderate', 'dark brown', 'black', 'ask'],
         default='ask',
-        action='store'
+        help='Decide on a skin-tone for all supported emojis. If nor set (or set to "ask"), you will be asked for each one'
     )
-    return parser.parse_args()
+    parser.add_argument(
+        '--rofi-args',
+        dest='rofi_args',
+        action='store',
+        default='',
+        help='A string of arguments to give to rofi'
+    )
+    parsed_args = parser.parse_args()
+    parsed_args.rofi_args = parsed_args.rofi_args.split()
+
+    return parsed_args
 
 
 def get_active_window() -> str:
@@ -1860,13 +1874,13 @@ def get_active_window() -> str:
     return xdotool.communicate()[0].decode("utf-8")[:-1]
 
 
-def compile_chosen_emojis(chosen_emojis, skin_tone) -> str:
+def compile_chosen_emojis(chosen_emojis: List[bytes], skin_tone: str, rofi_args: List[str]) -> str:
     emojis = ""
     for line in chosen_emojis:
-        emoji = line.split()[0].decode('utf-8')
+        emoji = line.decode('utf-8').split()[0]
 
         if emoji in skin_tone_selectable_emojis:
-            emoji = select_skin_tone(emoji, skin_tone)
+            emoji = select_skin_tone(emoji, skin_tone, rofi_args)
 
         emojis += emoji
 
@@ -1891,7 +1905,8 @@ if __name__ == "__main__":
             '-kb-custom-2',
             'Alt+t',
             '-kb-custom-3',
-            'Alt+p'
+            'Alt+p',
+            *args.rofi_args
         ],
         stdin=PIPE,
         stdout=PIPE
@@ -1899,9 +1914,9 @@ if __name__ == "__main__":
     (stdout, stderr) = rofi.communicate(input=emoji_list.encode('utf-8'))
 
     if rofi.returncode == 1:
-        exit()
+        sys.exit()
     else:
-        emojis = compile_chosen_emojis(stdout.splitlines(), args.skin_tone)
+        emojis = compile_chosen_emojis(stdout.splitlines(), args.skin_tone, args.rofi_args)
 
         if rofi.returncode == 0:
             insert_emojis(emojis, active_window, args.use_clipboard)

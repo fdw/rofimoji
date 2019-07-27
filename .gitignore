@@ -4,3 +4,4 @@ __pycache__/
 .direnv
 .idea
 emoji-picker.iml
+emojis.py

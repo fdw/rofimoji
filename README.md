@@ -27,6 +27,8 @@ You can choose a skin tone with the `--skin-tone` (or `-s`) parameter. The avail
 
 If you have any arguments for rofi, you can make `rofimoji` pass them through like this: `rofimoji --rofi-args="-columns 3"`.
 
+You can also define your own set of emojis (or whatever) and use `rofimoji` to pick them by providing the `--emoji-file` (`-f`) parameter. This could be helpful if you want them ordered in some way, only use a subset or if you want non-English descriptions.
+
 ## Installation
 
 ### Arch

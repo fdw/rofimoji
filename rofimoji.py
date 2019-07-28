@@ -3,7 +3,7 @@
 import argparse
 import sys
 from subprocess import Popen, PIPE
-from typing import List, Tuple
+from typing import List, Tuple, Union
 
 emoji_list = """😀 grinning face <small>(face, grin, grinning face)</small>
 😃 grinning face with big eyes <small>(face, grinning face with big eyes, mouth, open, smile)</small>
@@ -1755,7 +1755,7 @@ def main() -> None:
     args = parse_arguments()
     active_window = get_active_window()
 
-    returncode, stdout = open_main_rofi_window(args)
+    returncode, stdout = open_main_rofi_window(args.rofi_args, load_emojis(args.file))
 
     if returncode == 1:
         sys.exit()
@@ -1793,6 +1793,14 @@ def parse_arguments() -> argparse.Namespace:
              'you will be asked for each one '
     )
     parser.add_argument(
+        '--emoji-file',
+        '-f',
+        dest='file',
+        action='store',
+        default=None,
+        help='Read emojis from this file instead, one entry per line'
+    )
+    parser.add_argument(
         '--rofi-args',
         dest='rofi_args',
         action='store',
@@ -1810,7 +1818,18 @@ def get_active_window() -> str:
     return xdotool.communicate()[0].decode("utf-8")[:-1]
 
 
-def open_main_rofi_window(args) -> Tuple[int, bytes]:
+def load_emojis(file_name: Union[str, None]):
+    if file_name is not None:
+        try:
+            with open(file_name, "r") as file:
+                return file.read()
+        except IOError:
+            return emoji_list
+    else:
+        return emoji_list
+
+
+def open_main_rofi_window(args: List[str], emojis: str) -> Tuple[int, bytes]:
     rofi = Popen(
         [
             'rofi',
@@ -1826,12 +1845,12 @@ def open_main_rofi_window(args) -> Tuple[int, bytes]:
             'Alt+t',
             '-kb-custom-3',
             'Alt+p',
-            *args.rofi_args
+            *args
         ],
         stdin=PIPE,
         stdout=PIPE
     )
-    (stdout, _) = rofi.communicate(input=emoji_list.encode('utf-8'))
+    (stdout, _) = rofi.communicate(input=emojis.encode('UTF-8'))
     return rofi.returncode, stdout
 
 

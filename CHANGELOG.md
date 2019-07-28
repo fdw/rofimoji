@@ -1,8 +1,10 @@
 # [3.0.0]
 ## Added
 - You can choose a new input method: `rofimoji` can copy your emojis, paste them into the application and restore the previous contents
+- There are now more keywords included so you can find the appropriate emoji more easily
 - You can select a skin tone by default using cli args
 - You can pass arguments to rofi using `--rofi-args`
+- And you can use alternative emoji lists when you provide the `--emoji-file` parameter
 
 # [2.1.0]
 ## Changed

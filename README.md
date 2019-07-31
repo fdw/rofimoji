@@ -1,4 +1,4 @@
-# Emoji-Picker
+# Rofimoji: An emoji picker for rofi
 How often did you want to insert one of those Unicode emoji only to learn that there is no nice picker for Linux?
 Fear no more, this script uses the power of [rofi](https://github.com/DaveDavenport/rofi/) to present exactly the picker you always wanted.
 Inserts the selected emoji directly, or copies it to the clipboard.

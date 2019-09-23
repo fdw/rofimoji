@@ -4,7 +4,6 @@ import argparse
 import sys
 from subprocess import Popen, PIPE
 from typing import List, Tuple, Union
-from time import sleep
 
 emoji_list = """😀 grinning face <small>(face, grin, grinning face)</small>
 😃 grinning face with big eyes <small>(face, grinning face with big eyes, mouth, open, smile)</small>
@@ -1921,12 +1920,14 @@ def copy_paste_emojis(emojis: str, active_window: str) -> None:
     Popen([
         'xdotool',
         'windowfocus',
+        '--sync',
         active_window,
         'key',
         '--clearmodifiers',
-        'Shift+Insert'
+        'Shift+Insert',
+        'sleep',
+        '0.05',
     ]).wait()
-    sleep(0.05)
     
     Popen(args=['xsel', '-i', '-b'], stdin=PIPE) \
         .communicate(input=old_clipboard_content)

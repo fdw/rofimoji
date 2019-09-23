@@ -1919,13 +1919,16 @@ def copy_paste_emojis(emojis: str, active_window: str) -> None:
 
     Popen([
         'xdotool',
+        'windowfocus',
+        '--sync',
+        active_window,
         'key',
         '--clearmodifiers',
-        '--window',
-        active_window,
-        'Shift+Insert'
+        'Shift+Insert',
+        'sleep',
+        '0.05',
     ]).wait()
-
+    
     Popen(args=['xsel', '-i', '-b'], stdin=PIPE) \
         .communicate(input=old_clipboard_content)
     Popen(args=['xsel', '-i', '-p'], stdin=PIPE) \

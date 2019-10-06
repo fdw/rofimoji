@@ -1,3 +1,7 @@
+# [3.0.1]
+## Fixed
+- @chmduquesne fixed a race condition with Firefox (#23)
+
 # [3.0.0]
 ## Added
 - You can choose a new input method: `rofimoji` can copy your emojis, paste them into the application and restore the previous contents

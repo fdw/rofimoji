@@ -5,12 +5,40 @@ import requests
 from bs4 import BeautifulSoup
 from lxml import etree
 from lxml.etree import XPath
+import unicodedata
 
 Emoji = namedtuple('Emoji', 'char name')
 
 
 def fetch_emoji_list() -> List[Emoji]:
-    return extract_from_html(fetch_emoji_html())
+    return extract_from_html(fetch_emoji_html()) + fetch_math_symbols()
+
+
+def fetch_math_symbols() -> List[Emoji]:
+    print('Downloading list of maths symbols...')
+
+    data = requests.get(
+        'https://unicode.org/Public/math/latest/MathClassEx-15.txt',
+        timeout=60
+    )  # type: requests.Response
+
+    started = False
+    chars = []
+    for line in data.content.decode(data.encoding).split('\n'):
+        if not started and line != '#code point;class;char;entity name;entity set;note/description;CHARACTER NAME':
+            continue
+        started = True
+        if started and line == '# EOF':
+            break
+        if started and (line.startswith('#') or len(line) == 0):
+            continue
+        chars.extend(extract_emojis_from_line(line))
+
+    emojis = []
+    for char in chars:
+        emojis.append(Emoji(char, unicodedata.name(char).lower()))
+
+    return emojis
 
 
 def fetch_emoji_html() -> BeautifulSoup:

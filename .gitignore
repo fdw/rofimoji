@@ -5,3 +5,5 @@ __pycache__/
 .idea
 emoji-picker.iml
 emojis.py
+.dist
+rofimoji.egg-info

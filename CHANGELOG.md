@@ -1,5 +1,6 @@
 # [4.0.0]
 ## Changed
+- `rofimoji` is now modular and has an actual `setup.py`, as the emojis are no longer part of the picker code.
 - The arguments to insert using the clipboard have been renamed: `--insert-with-clipboard` and `-p`
 
 ## Added

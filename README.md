@@ -1,7 +1,8 @@
-# Rofimoji: An emoji picker for rofi
+# Rofimoji: A character picker for rofi
 How often did you want to insert one of those Unicode emoji only to learn that there is no nice picker for Linux?
 Fear no more, this script uses the power of [rofi](https://github.com/DaveDavenport/rofi/) to present exactly the picker you always wanted.
-Inserts the selected emoji directly, or copies it to the clipboard.
+Insert the selected emoji directly, or copy it to the clipboard.
+And it can be extended to pick any weird character someone got into Unicode.
 
 ## Usage
 1. Run `rofimoji.py`
@@ -44,8 +45,9 @@ To only ever copy the selected emojis to the clipboard (but not typing them), us
 A kind soul has packaged it as [rofimoji](https://www.archlinux.org/packages/community/any/rofimoji/). To, install, use `sudo pacman -Syu rofimoji`.
 
 ### From sources
-Download `rofimoji.py` and move it somewhere on your path, for example `/usr/local/bin`.
+Download the `src` directory. In the `picker` subdirectory, execute `python setup.py install --user`.
 
+### Dependencies
 What else do you need:
 - Python 3
 - A font that can display emoji, for example [EmojiOne](https://github.com/emojione/emojione) or [Noto Emoji](https://www.google.com/get/noto/)
@@ -58,13 +60,6 @@ For Arch: `sudo pacman -Syu emoji-font python rofi xdotool xsel`
 ## Updating the emojis
 This is only needed if a new Unicode version came out and you can't wait for the official update!
 
-1. Install Python 3 and `pip install -r requirements-dev.txt`
+1. Install Python 3 and `pip install -r requirements.txt` in the `src/extractors` directory.
 2. Run `extract_emojis.py` - this downloads the complete list from https://unicode.org/emoji/charts-12.0/full-emoji-list.html, so don't do it too often!
-3. A new file `emojis.py` should have been created. Open it and copy the contents
-4. Open `rofimoji.py` and replace the emoji list with the contents of `emojis.py`
-
-## FAQ
-
-### Why is it so pedestrian? Why not simply import from `emojis.py`?
-Because now you only have to download one file, and it works 
-Additionally, we need no separate I/O just to load the emojis. This is good, right?
+3. The new `emojis.csv` should have been created. You might need to install `rofimoji` again.

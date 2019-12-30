@@ -13,9 +13,8 @@ setup(
         'License :: OSI Approved :: MIT License'
     ],
 
-    py_modules=['picker.rofimoji']
-    # package_data={
-    #
-    # }
-
+    packages=['picker'],
+    package_data={
+        'picker': ['data/*.csv']
+    }
 )

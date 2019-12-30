@@ -13,8 +13,7 @@ setup(
         'License :: OSI Approved :: MIT License'
     ],
 
-    packages=find_packages(),
-    scripts=['rofimoji.py'],
+    py_modules=['picker.rofimoji']
     # package_data={
     #
     # }

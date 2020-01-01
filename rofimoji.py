@@ -1386,7 +1386,7 @@ emoji_list = """😀 grinning face <small>(face, grin, grinning face)</small>
 🔠 input latin uppercase <small>(ABCD, input, latin, letters, uppercase)</small>
 🔡 input latin lowercase <small>(abcd, input, latin, letters, lowercase)</small>
 🔢 input numbers <small>(1234, input, numbers)</small>
-🔣 input symbols <small>(〒♪&%, input, input symbols)</small>
+🔣 input symbols <small>(〒♪&amp;%, input, input symbols)</small>
 🔤 input latin letters <small>(abc, alphabet, input, latin, letters)</small>
 🅰 A button (blood type) <small>(a, A button (blood type), blood type)</small>
 🆎 AB button (blood type) <small>(ab, AB button (blood type), blood type)</small>
@@ -1467,7 +1467,7 @@ emoji_list = """😀 grinning face <small>(face, grin, grinning face)</small>
 🇦🇩 flag: Andorra
 🇦🇪 flag: United Arab Emirates
 🇦🇫 flag: Afghanistan
-🇦🇬 flag: Antigua & Barbuda
+🇦🇬 flag: Antigua &amp; Barbuda
 🇦🇮 flag: Anguilla
 🇦🇱 flag: Albania
 🇦🇲 flag: Armenia
@@ -1480,7 +1480,7 @@ emoji_list = """😀 grinning face <small>(face, grin, grinning face)</small>
 🇦🇼 flag: Aruba
 🇦🇽 flag: Åland Islands
 🇦🇿 flag: Azerbaijan
-🇧🇦 flag: Bosnia & Herzegovina
+🇧🇦 flag: Bosnia &amp; Herzegovina
 🇧🇧 flag: Barbados
 🇧🇩 flag: Bangladesh
 🇧🇪 flag: Belgium
@@ -1528,7 +1528,7 @@ emoji_list = """😀 grinning face <small>(face, grin, grinning face)</small>
 🇩🇲 flag: Dominica
 🇩🇴 flag: Dominican Republic
 🇩🇿 flag: Algeria
-🇪🇦 flag: Ceuta & Melilla
+🇪🇦 flag: Ceuta &amp; Melilla
 🇪🇨 flag: Ecuador
 🇪🇪 flag: Estonia
 🇪🇬 flag: Egypt
@@ -1557,13 +1557,13 @@ emoji_list = """😀 grinning face <small>(face, grin, grinning face)</small>
 🇬🇵 flag: Guadeloupe
 🇬🇶 flag: Equatorial Guinea
 🇬🇷 flag: Greece
-🇬🇸 flag: South Georgia & South Sandwich Islands
+🇬🇸 flag: South Georgia &amp; South Sandwich Islands
 🇬🇹 flag: Guatemala
 🇬🇺 flag: Guam
 🇬🇼 flag: Guinea-Bissau
 🇬🇾 flag: Guyana
 🇭🇰 flag: Hong Kong SAR China
-🇭🇲 flag: Heard & McDonald Islands
+🇭🇲 flag: Heard &amp; McDonald Islands
 🇭🇳 flag: Honduras
 🇭🇷 flag: Croatia
 🇭🇹 flag: Haiti
@@ -1588,7 +1588,7 @@ emoji_list = """😀 grinning face <small>(face, grin, grinning face)</small>
 🇰🇭 flag: Cambodia
 🇰🇮 flag: Kiribati
 🇰🇲 flag: Comoros
-🇰🇳 flag: St. Kitts & Nevis
+🇰🇳 flag: St. Kitts &amp; Nevis
 🇰🇵 flag: North Korea
 🇰🇷 flag: South Korea
 🇰🇼 flag: Kuwait
@@ -1648,7 +1648,7 @@ emoji_list = """😀 grinning face <small>(face, grin, grinning face)</small>
 🇵🇭 flag: Philippines
 🇵🇰 flag: Pakistan
 🇵🇱 flag: Poland
-🇵🇲 flag: St. Pierre & Miquelon
+🇵🇲 flag: St. Pierre &amp; Miquelon
 🇵🇳 flag: Pitcairn Islands
 🇵🇷 flag: Puerto Rico
 🇵🇸 flag: Palestinian Territories
@@ -1669,7 +1669,7 @@ emoji_list = """😀 grinning face <small>(face, grin, grinning face)</small>
 🇸🇬 flag: Singapore
 🇸🇭 flag: St. Helena
 🇸🇮 flag: Slovenia
-🇸🇯 flag: Svalbard & Jan Mayen
+🇸🇯 flag: Svalbard &amp; Jan Mayen
 🇸🇰 flag: Slovakia
 🇸🇱 flag: Sierra Leone
 🇸🇲 flag: San Marino
@@ -1677,13 +1677,13 @@ emoji_list = """😀 grinning face <small>(face, grin, grinning face)</small>
 🇸🇴 flag: Somalia
 🇸🇷 flag: Suriname
 🇸🇸 flag: South Sudan
-🇸🇹 flag: São Tomé & Príncipe
+🇸🇹 flag: São Tomé &amp; Príncipe
 🇸🇻 flag: El Salvador
 🇸🇽 flag: Sint Maarten
 🇸🇾 flag: Syria
 🇸🇿 flag: Eswatini
 🇹🇦 flag: Tristan da Cunha
-🇹🇨 flag: Turks & Caicos Islands
+🇹🇨 flag: Turks &amp; Caicos Islands
 🇹🇩 flag: Chad
 🇹🇫 flag: French Southern Territories
 🇹🇬 flag: Togo
@@ -1695,7 +1695,7 @@ emoji_list = """😀 grinning face <small>(face, grin, grinning face)</small>
 🇹🇳 flag: Tunisia
 🇹🇴 flag: Tonga
 🇹🇷 flag: Turkey
-🇹🇹 flag: Trinidad & Tobago
+🇹🇹 flag: Trinidad &amp; Tobago
 🇹🇻 flag: Tuvalu
 🇹🇼 flag: Taiwan
 🇹🇿 flag: Tanzania
@@ -1707,13 +1707,13 @@ emoji_list = """😀 grinning face <small>(face, grin, grinning face)</small>
 🇺🇾 flag: Uruguay
 🇺🇿 flag: Uzbekistan
 🇻🇦 flag: Vatican City
-🇻🇨 flag: St. Vincent & Grenadines
+🇻🇨 flag: St. Vincent &amp; Grenadines
 🇻🇪 flag: Venezuela
 🇻🇬 flag: British Virgin Islands
 🇻🇮 flag: U.S. Virgin Islands
 🇻🇳 flag: Vietnam
 🇻🇺 flag: Vanuatu
-🇼🇫 flag: Wallis & Futuna
+🇼🇫 flag: Wallis &amp; Futuna
 🇼🇸 flag: Samoa
 🇽🇰 flag: Kosovo
 🇾🇪 flag: Yemen
@@ -1928,7 +1928,7 @@ def copy_paste_emojis(emojis: str, active_window: str) -> None:
         'sleep',
         '0.05',
     ]).wait()
-    
+
     Popen(args=['xsel', '-i', '-b'], stdin=PIPE) \
         .communicate(input=old_clipboard_content)
     Popen(args=['xsel', '-i', '-p'], stdin=PIPE) \

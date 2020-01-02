@@ -1763,7 +1763,10 @@ def main() -> None:
         emojis = compile_chosen_emojis(stdout.splitlines(), args.skin_tone, args.rofi_args)
 
         if returncode == 0:
-            insert_emojis(emojis, active_window, args.use_clipboard)
+            if args.copy_only:
+                copy_emojis_to_clipboard(emojis)
+            else:
+                insert_emojis(emojis, active_window, args.insert_with_clipboard)
         elif returncode == 10:
             copy_emojis_to_clipboard(emojis)
         elif returncode == 11:
@@ -1775,12 +1778,19 @@ def main() -> None:
 def parse_arguments() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description='Select, insert or copy Unicode emojis using rofi')
     parser.add_argument(
-        '--use-clipboard',
-        '-c',
-        dest='use_clipboard',
+        '--insert-with-clipboard',
+        '-p',
+        dest='insert_with_clipboard',
         action='store_true',
         help='Do not type the emoji directly, but copy it to the clipboard, insert it from there '
              'and then restore the clipboard\'s original value '
+    )
+    parser.add_argument(
+        '--copy-only',
+        '-c',
+        dest='copy_only',
+        action='store_true',
+        help='Only copy the emoji to the clipboard but do not insert it'
     )
     parser.add_argument(
         '--skin-tone',
@@ -1899,8 +1909,8 @@ def select_skin_tone(selected_emoji: chr, skin_tone: str, rofi_args: List[str]) 
         return stdout_skin.split()[0].decode('utf-8')
 
 
-def insert_emojis(emojis: str, active_window: str, use_clipboard: bool = False) -> None:
-    if use_clipboard:
+def insert_emojis(emojis: str, active_window: str, insert_with_clipboard: bool = False) -> None:
+    if insert_with_clipboard:
         copy_paste_emojis(emojis, active_window)
     else:
         type_emojis(emojis, active_window)

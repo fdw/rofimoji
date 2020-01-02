@@ -1,3 +1,10 @@
+# [4.0.0]
+## Changed
+- The arguments to insert using the clipboard have been renamed: `--insert-with-clipboard` and `-p`
+
+## Added
+- You can ask `rofimoji` to only ever copy the emojis to the clipboard with `--copy-only` (`-c`)
+
 # [3.0.1]
 ## Fixed
 - @chmduquesne fixed a race condition with Firefox (#23)

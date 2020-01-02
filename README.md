@@ -17,17 +17,26 @@ Inserts the selected emoji directly, or copies it to the clipboard.
 ![Screenshot of rofimoji](screenshot.png?raw=true)
 
 ## Insertion method
-For some applications, `xdotool` cannot type emojis (f.e. Firefox). To work around this, `rofimoji` can copy the emojis to your clipboard and insert them from there with `shift+insert`. Afterwards, it will restore the previous contents.
-Unfortunately, it depends on the receiving application whether `shift+insert` uses the clipboard or the primary selection. Therefore, `rofimoji` uses both and also restores both 😐.
+For some applications, `xdotool` cannot type emojis (f.e. Firefox).
+To work around this, `rofimoji` can copy the emojis to your clipboard and insert them from there with `shift+insert`.
+Afterwards, it will restore the previous contents.
+Unfortunately, it depends on the receiving application whether `shift+insert` uses the clipboard or the primary selection.
+Therefore, `rofimoji` uses both and also restores both.
 
-By default, `rofimoji` uses `xdotool type`. To choose to spam your clipboards, you can either use the keybinding `alt+p` or start it as `rofimoji --use-clipboard` (`-c`). If you want to use typing, you can hit `alt+t`, even though it was started with `--use-clipboard`.
+By default, `rofimoji` uses `xdotool type`.
+To choose to spam your clipboards, you can either use the keybinding `alt+p` or start it as `rofimoji --insert-with-clipboard` (`-p`).
+If you want to use typing, you can hit `alt+t`, even though it was started with `--insert-with-clipboard`.
 
 ## Configuration
-You can choose a skin tone with the `--skin-tone` (or `-s`) parameter. The available values are `light`, `medium-light`, `moderate`, `dark brown`, `black`, as well as `neutral` and `ask` to be shown the prompt (this is also the default).
+You can choose a skin tone with the `--skin-tone` (or `-s`) parameter.
+The available values are `light`, `medium-light`, `moderate`, `dark brown`, `black`, as well as `neutral` and `ask` to be shown the prompt (this is also the default).
 
 If you have any arguments for rofi, you can make `rofimoji` pass them through like this: `rofimoji --rofi-args="-columns 3"`.
 
-You can also define your own set of emojis (or whatever) and use `rofimoji` to pick them by providing the `--emoji-file` (`-f`) parameter. This could be helpful if you want them ordered in some way, only use a subset or if you want non-English descriptions.
+You can also define your own set of emojis (or whatever) and use `rofimoji` to pick them by providing the `--emoji-file` (`-f`) parameter.
+This could be helpful if you want them ordered in some way, only use a subset or if you want non-English descriptions.
+
+To only ever copy the selected emojis to the clipboard (but not typing them), use `--copy-only` (`-c`)
 
 ## Installation
 

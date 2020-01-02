@@ -6,6 +6,9 @@
 ## Added
 - You can ask `rofimoji` to only ever copy the emojis to the clipboard with `--copy-only` (`-c`)
 
+## Added
+- A configuration can also be stored in `$XDG_CONFIG_HOME/rofimoji.rc`.
+
 # [3.0.1]
 ## Fixed
 - @chmduquesne fixed a race condition with Firefox (#23)

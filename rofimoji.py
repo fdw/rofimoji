@@ -1777,6 +1777,7 @@ def main() -> None:
 
 def parse_arguments() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description='Select, insert or copy Unicode emojis using rofi')
+    parser.add_argument('--version', action='version', version='rofimoji 4.0.0-SNAPSHOT')
     parser.add_argument(
         '--insert-with-clipboard',
         '-p',

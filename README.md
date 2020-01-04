@@ -37,9 +37,17 @@ You can configure `rofimoji` either with cli arguments or with a config file cal
 | --- | --- | --- | --- |
 | `--skin-tone` | `-s` | `light`, `medium-light`, `moderate`, `dark brown`, `black`, as well as `neutral` and `ask` | Define the skin tone of supporting emojis. `ask` will always ask the user. |
 | `--rofi-args` | | | Define arguments that `rofimoji` will pass through to `rofi`. |
-| `--emoji-file` | `-f` | | Set a file to load emojis from. This could be helpful if you want them ordered in some way, only use a subset or if you want non-English descriptions.<br/>If no file is set, the default emoji list is used. |
+| `--files` | `-f` | `emojis`, `arabic`, `arabic-indic`, `armenian`, `balinese`, `bamum`, `bengali`, `bopomofo`, `brahmi`, `braille`, `cherokee`, `coptic`, `cuneiform`, `cypriot`, `cyrillic`, `devanagari`, `egyptian`, `ethiopic`, `georgian`, `glagolitic`, `grantha`, `greek`, `gujarati`, `gurmukhi`, `hangul`, `hebrew`, `hiragana`, `kannada`, `katakana`, `khmer`, `latin`, `malayalam`, `miao`, `mongolian`, `myanmar`, `samaritan`, `sharada`, `signwriting`, `sinhala`, `tangut`, `telugu`, `tibetan`, `vai`, `yi` or your file | Define which file(s) to load characters from. You can define your own files, or use any of the default ones.<br/>If no file is set, the default emoji list is used. |
 | `--insert-with-clipboard` | `-p` | | Insert the selected emoji through pasting from the clipboard, instead of directly typing them. See [Insertion Method](#insertion-method). |
-| `--copy-only | `-c` | | Only copy the selected characters to the clipboard without typing them. |
+| `--copy-only` | `-c` | | Only copy the selected characters to the clipboard without typing them. |
+
+### Example config file
+`~/.config/rofimoji.rc`:
+```
+insert-with-clipboard = false
+files = [emojis, hebrew]
+skin-tone = moderate
+```
 
 ## Installation
 
@@ -53,7 +61,7 @@ This also installs the python dependencies `xdg` and `configargparse`.
 ### Dependencies
 What else do you need:
 - Python 3
-- A font that can display emoji, for example [EmojiOne](https://github.com/emojione/emojione) or [Noto Emoji](https://www.google.com/get/noto/)
+- A font that can display your scripts, (for emojis, [EmojiOne](https://github.com/emojione/emojione) or [Noto Emoji](https://www.google.com/get/noto/) work)
 - xdotool for typing the emoji
 - xsel to copy the emoji to the clipboard
 

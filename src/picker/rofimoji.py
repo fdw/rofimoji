@@ -39,7 +39,7 @@ def main() -> None:
     args = parse_arguments()
     active_window = get_active_window()
 
-    returncode, stdout = open_main_rofi_window(args.rofi_args, load_characters(args.file))
+    returncode, stdout = open_main_rofi_window(args.rofi_args, read_character_files(args.files))
 
     if returncode == 1:
         sys.exit()
@@ -91,12 +91,14 @@ def parse_arguments() -> argparse.Namespace:
              'you will be asked for each one '
     )
     parser.add_argument(
-        '--emoji-file',
+        '--files',
         '-f',
-        dest='file',
+        dest='files',
         action='store',
-        default=None,
-        help='Read emojis from this file instead, one entry per line'
+        default=['emojis'],
+        nargs='+',
+        metavar='FILE',
+        help='Read characters from this file instead, one entry per line'
     )
     parser.add_argument(
         '--rofi-args',
@@ -116,15 +118,25 @@ def get_active_window() -> str:
     return xdotool.communicate()[0].decode("utf-8")[:-1]
 
 
-def load_characters(file_name: Union[str, None]) -> str:
-    if file_name is not None:
-        try:
-            with open(file_name, "r") as file:
-                return file.read()
-        except IOError:
-            return load_all_characters()
+def read_character_files(file_names: List[str]) -> str:
+    entries = ''
+    for file_name in file_names:
+        entries = entries + load_from_file(file_name)
+
+    return entries
+
+
+def load_from_file(file_name: str) -> str:
+    provided_file = os.path.join(os.path.dirname(__file__), "data", file_name + '.csv')
+    if os.path.isfile(provided_file):
+        actual_file_name = provided_file
+    elif os.path.isfile(file_name):
+        actual_file_name = file_name
     else:
-        return load_all_characters()
+        raise FileNotFoundError()
+
+    with open(actual_file_name, "r") as file:
+        return file.read()
 
 
 def load_all_characters() -> str:

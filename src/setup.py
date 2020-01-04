@@ -19,6 +19,6 @@ setup(
     },
     install_requires=[
         'pyxdg==0.26',
-        'ConfigArgParse>1.0.0,<2.0.0'
+        'ConfigArgParse>0.15,<2.0.0'
     ]
 )

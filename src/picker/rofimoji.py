@@ -6,6 +6,10 @@ import sys
 from subprocess import Popen, PIPE
 from typing import List, Tuple, Union
 
+import configargparse
+import xdg
+from xdg import BaseDirectory
+
 skin_tone_selectable_emojis = {'☝', '⛹', '✊', '✋', '✌', '✍', '🎅', '🏂', '🏃', '🏄', '🏇', '🏊',
                                '🏋', '🏌', '👂', '👃', '👆', '👇', '👈', '👉', '👊', '👋', '👌',
                                '👍', '👎', '👏', '👐', '👦', '👧', '👨', '👩', '👪', '👫', '👬',
@@ -56,7 +60,10 @@ def main() -> None:
 
 
 def parse_arguments() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description='Select, insert or copy Unicode emojis using rofi')
+    parser = configargparse.ArgumentParser(
+        description='Select, insert or copy Unicode emojis using rofi',
+        default_config_files=[os.path.join(directory, 'rofimoji.rc') for directory in xdg.BaseDirectory.xdg_config_dirs]
+    )
     parser.add_argument('--version', action='version', version='rofimoji 4.0.0-SNAPSHOT')
     parser.add_argument(
         '--insert-with-clipboard',

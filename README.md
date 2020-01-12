@@ -29,15 +29,17 @@ To choose to spam your clipboards, you can either use the keybinding `alt+p` or 
 If you want to use typing, you can hit `alt+t`, even though it was started with `--insert-with-clipboard`.
 
 ## Configuration
-You can choose a skin tone with the `--skin-tone` (or `-s`) parameter.
-The available values are `light`, `medium-light`, `moderate`, `dark brown`, `black`, as well as `neutral` and `ask` to be shown the prompt (this is also the default).
+You can configure `rofimoji` either with cli arguments or with a config file called `$XDG_CONFIG_HOME/rofimoji.rc`. For the file, use the long option names without double dashes.
 
-If you have any arguments for rofi, you can make `rofimoji` pass them through like this: `rofimoji --rofi-args="-columns 3"`.
+### Options
 
-You can also define your own set of emojis (or whatever) and use `rofimoji` to pick them by providing the `--emoji-file` (`-f`) parameter.
-This could be helpful if you want them ordered in some way, only use a subset or if you want non-English descriptions.
-
-To only ever copy the selected emojis to the clipboard (but not typing them), use `--copy-only` (`-c`)
+| long option | short option | possible values | description |
+| --- | --- | --- | --- |
+| `--skin-tone` | `-s` | `light`, `medium-light`, `moderate`, `dark brown`, `black`, as well as `neutral` and `ask` | Define the skin tone of supporting emojis. `ask` will always ask the user. |
+| `--rofi-args` | | | Define arguments that `rofimoji` will pass through to `rofi`. |
+| `--emoji-file` | `-f` | | Set a file to load emojis from. This could be helpful if you want them ordered in some way, only use a subset or if you want non-English descriptions.<br/>If no file is set, the default emoji list is used. |
+| `--insert-with-clipboard` | `-p` | | Insert the selected emoji through pasting from the clipboard, instead of directly typing them. See [Insertion Method](#insertion-method). |
+| `--copy-only | `-c` | | Only copy the selected characters to the clipboard without typing them. |
 
 ## Installation
 
@@ -46,6 +48,7 @@ A kind soul has packaged it as [rofimoji](https://www.archlinux.org/packages/com
 
 ### From sources
 Download the `src` directory. In the `picker` subdirectory, execute `python setup.py install --user`.
+This also installs the python dependencies `xdg` and `configargparse`.
 
 ### Dependencies
 What else do you need:

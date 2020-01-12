@@ -16,5 +16,9 @@ setup(
     packages=['picker'],
     package_data={
         'picker': ['data/*.csv']
-    }
+    },
+    install_requires=[
+        'pyxdg==0.26',
+        'ConfigArgParse>1.0.0,<2.0.0'
+    ]
 )

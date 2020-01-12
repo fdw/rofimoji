@@ -92,21 +92,24 @@ def fetch_annotations() -> Dict[chr, List[str]]:
             xpath(etree.fromstring(data.content))}
 
 
-def write_file(all_emojis: List[Emoji], human_emojis: Set[chr], annotations: Dict[chr, List[str]]):
-    print('Writing collected emojis to file')
-    python_file = open('emojis.py', 'w')
-    python_file.write('emoji_list="""')
+def write_symbol_file(all_emojis: List[Emoji],  annotations: Dict[chr, List[str]]):
+    print('Writing collected emojis to symbol file')
+    symbol_file = open('../picker/data/emojis.csv', 'w')
 
     for entry in compile_entries(all_emojis, annotations):
-        python_file.write(entry + "\n")
+        symbol_file.write(entry + "\n")
 
-    python_file.write('"""\n\n')
+    symbol_file.close()
 
-    python_file.write('skin_tone_selectable_emojis={\'')
-    python_file.write('\', \''.join(human_emojis))
-    python_file.write('\'}\n')
 
-    python_file.close()
+def write_metadata_file(human_emojis: List[chr]):
+    print('Writing metadata to metadata file')
+    metadata_file = open('../picker/copyme.py', 'w')
+
+    metadata_file.write('skin_tone_selectable_emojis={\'')
+    metadata_file.write('\', \''.join(human_emojis))
+    metadata_file.write('\'}\n')
+    metadata_file.close()
 
 
 def compile_entries(emojis: List[Emoji], annotations: Dict[chr, List[str]]) -> List[str]:
@@ -123,4 +126,5 @@ def compile_entries(emojis: List[Emoji], annotations: Dict[chr, List[str]]) -> L
 
 
 if __name__ == "__main__":
-    write_file(fetch_emoji_list(), fetch_human_emojis(), fetch_annotations())
+    write_symbol_file(fetch_emoji_list(), fetch_annotations())
+    write_metadata_file(fetch_human_emojis())

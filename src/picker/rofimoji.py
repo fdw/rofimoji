@@ -39,29 +39,29 @@ def main() -> None:
     args = parse_arguments()
     active_window = get_active_window()
 
-    returncode, stdout = open_main_rofi_window(args.rofi_args, load_emojis(args.file))
+    returncode, stdout = open_main_rofi_window(args.rofi_args, read_character_files(args.files))
 
     if returncode == 1:
         sys.exit()
     else:
-        emojis = compile_chosen_emojis(stdout.splitlines(), args.skin_tone, args.rofi_args)
+        characters = process_chosen_characters(stdout.splitlines(), args.skin_tone, args.rofi_args)
 
         if returncode == 0:
             if args.copy_only:
-                copy_emojis_to_clipboard(emojis)
+                copy_characters_to_clipboard(characters)
             else:
-                insert_emojis(emojis, active_window, args.insert_with_clipboard)
+                insert_characters(characters, active_window, args.insert_with_clipboard)
         elif returncode == 10:
-            copy_emojis_to_clipboard(emojis)
+            copy_characters_to_clipboard(characters)
         elif returncode == 11:
-            type_emojis(emojis, active_window)
+            type_characters(characters, active_window)
         elif returncode == 12:
-            copy_paste_emojis(emojis, active_window)
+            copy_paste_characters(characters, active_window)
 
 
 def parse_arguments() -> argparse.Namespace:
     parser = configargparse.ArgumentParser(
-        description='Select, insert or copy Unicode emojis using rofi',
+        description='Select, insert or copy Unicode characters using rofi',
         default_config_files=[os.path.join(directory, 'rofimoji.rc') for directory in xdg.BaseDirectory.xdg_config_dirs]
     )
     parser.add_argument('--version', action='version', version='rofimoji 4.0.0-SNAPSHOT')
@@ -70,15 +70,15 @@ def parse_arguments() -> argparse.Namespace:
         '-p',
         dest='insert_with_clipboard',
         action='store_true',
-        help='Do not type the emoji directly, but copy it to the clipboard, insert it from there '
-             'and then restore the clipboard\'s original value '
+        help='Do not type the character directly, but copy it to the clipboard, insert it from '
+             'there and then restore the clipboard\'s original value '
     )
     parser.add_argument(
         '--copy-only',
         '-c',
         dest='copy_only',
         action='store_true',
-        help='Only copy the emoji to the clipboard but do not insert it'
+        help='Only copy the character to the clipboard but do not insert it'
     )
     parser.add_argument(
         '--skin-tone',
@@ -91,12 +91,14 @@ def parse_arguments() -> argparse.Namespace:
              'you will be asked for each one '
     )
     parser.add_argument(
-        '--emoji-file',
+        '--files',
         '-f',
-        dest='file',
+        dest='files',
         action='store',
-        default=None,
-        help='Read emojis from this file instead, one entry per line'
+        default=['emojis'],
+        nargs='+',
+        metavar='FILE',
+        help='Read characters from this file instead, one entry per line'
     )
     parser.add_argument(
         '--rofi-args',
@@ -116,18 +118,28 @@ def get_active_window() -> str:
     return xdotool.communicate()[0].decode("utf-8")[:-1]
 
 
-def load_emojis(file_name: Union[str, None]) -> str:
-    if file_name is not None:
-        try:
-            with open(file_name, "r") as file:
-                return file.read()
-        except IOError:
-            return load_all_emojis()
+def read_character_files(file_names: List[str]) -> str:
+    entries = ''
+    for file_name in file_names:
+        entries = entries + load_from_file(file_name)
+
+    return entries
+
+
+def load_from_file(file_name: str) -> str:
+    provided_file = os.path.join(os.path.dirname(__file__), "data", file_name + '.csv')
+    if os.path.isfile(provided_file):
+        actual_file_name = provided_file
+    elif os.path.isfile(file_name):
+        actual_file_name = file_name
     else:
-        return load_all_emojis()
+        raise FileNotFoundError()
+
+    with open(actual_file_name, "r") as file:
+        return file.read()
 
 
-def load_all_emojis() -> str:
+def load_all_characters() -> str:
     characters = ""
 
     directory = os.path.join(os.path.dirname(__file__), "data")
@@ -137,7 +149,7 @@ def load_all_emojis() -> str:
     return characters
 
 
-def open_main_rofi_window(args: List[str], emojis: str) -> Tuple[int, bytes]:
+def open_main_rofi_window(args: List[str], characters: str) -> Tuple[int, bytes]:
     rofi = Popen(
         [
             'rofi',
@@ -158,21 +170,21 @@ def open_main_rofi_window(args: List[str], emojis: str) -> Tuple[int, bytes]:
         stdin=PIPE,
         stdout=PIPE
     )
-    (stdout, _) = rofi.communicate(input=emojis.encode('UTF-8'))
+    (stdout, _) = rofi.communicate(input=characters.encode('UTF-8'))
     return rofi.returncode, stdout
 
 
-def compile_chosen_emojis(chosen_emojis: List[bytes], skin_tone: str, rofi_args: List[str]) -> str:
-    emojis = ""
-    for line in chosen_emojis:
-        emoji = line.decode('utf-8').split()[0]
+def process_chosen_characters(chosen_characters: List[bytes], skin_tone: str, rofi_args: List[str]) -> str:
+    result = ""
+    for line in chosen_characters:
+        character = line.decode('utf-8').split()[0]
 
-        if emoji in skin_tone_selectable_emojis:
-            emoji = select_skin_tone(emoji, skin_tone, rofi_args)
+        if character in skin_tone_selectable_emojis:
+            character = select_skin_tone(character, skin_tone, rofi_args)
 
-        emojis += emoji
+        result += character
 
-    return emojis
+    return result
 
 
 def select_skin_tone(selected_emoji: chr, skin_tone: str, rofi_args: List[str]) -> str:
@@ -207,23 +219,24 @@ def select_skin_tone(selected_emoji: chr, skin_tone: str, rofi_args: List[str]) 
         return stdout_skin.split()[0].decode('utf-8')
 
 
-def insert_emojis(emojis: str, active_window: str, insert_with_clipboard: bool = False) -> None:
+def insert_characters(characters: str, active_window: str,
+                      insert_with_clipboard: bool = False) -> None:
     if insert_with_clipboard:
-        copy_paste_emojis(emojis, active_window)
+        copy_paste_characters(characters, active_window)
     else:
-        type_emojis(emojis, active_window)
+        type_characters(characters, active_window)
 
 
-def copy_paste_emojis(emojis: str, active_window: str) -> None:
+def copy_paste_characters(characters: str, active_window: str) -> None:
     old_clipboard_content = Popen(args=['xsel', '-o', '-b'], stdout=PIPE) \
         .communicate()[0]
     old_primary_content = Popen(args=['xsel', '-o', '-p'], stdout=PIPE) \
         .communicate()[0]
 
     Popen(args=['xsel', '-i', '-b'], stdin=PIPE) \
-        .communicate(input=emojis.encode('utf-8'))
+        .communicate(input=characters.encode('utf-8'))
     Popen(args=['xsel', '-i', '-p'], stdin=PIPE) \
-        .communicate(input=emojis.encode('utf-8'))
+        .communicate(input=characters.encode('utf-8'))
 
     Popen([
         'xdotool',
@@ -243,18 +256,18 @@ def copy_paste_emojis(emojis: str, active_window: str) -> None:
         .communicate(input=old_primary_content)
 
 
-def type_emojis(emojis: str, active_window: str) -> None:
+def type_characters(characters: str, active_window: str) -> None:
     Popen([
         'xdotool',
         'type',
         '--clearmodifiers',
         '--window',
         active_window,
-        emojis
+        characters
     ])
 
 
-def copy_emojis_to_clipboard(emojis: str) -> None:
+def copy_characters_to_clipboard(characters: str) -> None:
     xsel = Popen(
         [
             'xsel',
@@ -263,7 +276,7 @@ def copy_emojis_to_clipboard(emojis: str) -> None:
         ],
         stdin=PIPE
     )
-    xsel.communicate(input=emojis.encode('utf-8'))
+    xsel.communicate(input=characters.encode('utf-8'))
 
 
 if __name__ == "__main__":

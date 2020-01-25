@@ -6,8 +6,6 @@
 ## Added
 - You can ask `rofimoji` to only ever copy the emojis to the clipboard with `--copy-only` (`-c`)
 - There are now data files for all of Unicode's scripts.
-
-## Added
 - A configuration can also be stored in `$XDG_CONFIG_HOME/rofimoji.rc`.
 
 # [3.0.1]

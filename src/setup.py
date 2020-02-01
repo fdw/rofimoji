@@ -17,6 +17,11 @@ setup(
     package_data={
         'picker': ['data/*.csv']
     },
+    entry_points ={
+        'console_scripts': [
+            'rofimoji = picker.rofimoji:main'
+        ]
+    },
     install_requires=[
         'pyxdg==0.26',
         'ConfigArgParse>0.15,<2.0.0'

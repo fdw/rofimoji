@@ -133,7 +133,7 @@ def load_from_file(file_name: str) -> str:
     elif os.path.isfile(file_name):
         actual_file_name = file_name
     else:
-        raise FileNotFoundError()
+        raise FileNotFoundError(f"Couldn't find file {file_name}")
 
     with open(actual_file_name, "r") as file:
         return file.read()

@@ -1,3 +1,4 @@
+import html
 from collections import namedtuple
 from typing import List, Dict
 
@@ -99,7 +100,7 @@ def write_symbol_files(all_characters: Dict[str, List[Character]]):
         symbol_file = open(f"../picker/data/{script}.csv", 'w')
 
         for character in all_characters[script]:
-            symbol_file.write(f"{character.char} {character.name}\n")
+            symbol_file.write(f"{character.char} {html.escape(character.name)}\n")
 
         symbol_file.close()
 

@@ -1,5 +1,6 @@
+import html
 from collections import namedtuple
-from typing import List, Set, Dict
+from typing import List, Dict
 
 import requests
 from bs4 import BeautifulSoup
@@ -116,9 +117,9 @@ def compile_entries(emojis: List[Emoji], annotations: Dict[chr, List[str]]) -> L
     annotated_emojis = []
     for emoji in emojis:
         if emoji.char in annotations:
-            entry = f"{emoji.char} {emoji.name} <small>({', '.join(annotations[emoji.char])})</small>"
+            entry = f"{emoji.char} {html.escape(emoji.name)} <small>({html.escape(', '.join(annotations[emoji.char]))})</small>"
         else:
-            entry = f"{emoji.char} {emoji.name}"
+            entry = f"{emoji.char} {html.escape(emoji.name)}"
 
         annotated_emojis.append(entry)
 

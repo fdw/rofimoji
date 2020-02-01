@@ -55,7 +55,7 @@ skin-tone = moderate
 A kind soul has packaged it as [rofimoji](https://www.archlinux.org/packages/community/any/rofimoji/). To, install, use `sudo pacman -Syu rofimoji`.
 
 ### From sources
-Download the `src` directory. In the `picker` subdirectory, execute `python setup.py install --user`.
+Download the `src` directory and execute `python setup.py install` (with `--user` if you want to install it only for your user).
 This also installs the python dependencies `xdg` and `configargparse`.
 
 ### Dependencies

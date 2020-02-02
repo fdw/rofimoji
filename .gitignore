@@ -4,7 +4,8 @@ __pycache__/
 .direnv
 .idea
 emoji-picker.iml
-emojis.py
 .dist
 rofimoji.egg-info
-src/dist
+dist
+build
+picker/data/copyme.py

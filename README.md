@@ -55,7 +55,7 @@ skin-tone = moderate
 A kind soul has packaged it as [rofimoji](https://www.archlinux.org/packages/community/any/rofimoji/). To, install, use `sudo pacman -Syu rofimoji`.
 
 ### From sources
-Download the `src` directory and execute `python setup.py install` (with `--user` if you want to install it only for your user).
+Download/clone the repository and call `python setup.py install` (with `--user` if you want to install it only for your user).
 This also installs the python dependencies `xdg` and `configargparse`.
 
 ### Dependencies
@@ -71,6 +71,6 @@ For Arch: `sudo pacman -Syu emoji-font python rofi xdotool xsel`
 ## Updating the emojis
 This is only needed if a new Unicode version came out and you can't wait for the official update!
 
-1. Install Python 3 and `pip install -r requirements.txt` in the `src/extractors` directory.
+1. Install Python 3 and `pip install -r requirements.txt` in the `extractors` directory.
 2. Run `extract_emojis.py` - this downloads the complete list from https://unicode.org/emoji/charts-12.0/full-emoji-list.html, so don't do it too often!
 3. The new `emojis.csv` should have been created. You might need to install `rofimoji` again.

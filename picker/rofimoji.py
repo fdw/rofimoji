@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import argparse
+import fnmatch
 import os
 import sys
 from subprocess import Popen, PIPE
-from typing import List, Tuple, Union
+from typing import List, Tuple
 
 import configargparse
-import xdg
 from xdg import BaseDirectory
 
 skin_tone_selectable_emojis = {'☝', '⛹', '✊', '✋', '✌', '✍', '🎅', '🏂', '🏃', '🏄', '🏇', '🏊',
@@ -62,7 +62,8 @@ def main() -> None:
 def parse_arguments() -> argparse.Namespace:
     parser = configargparse.ArgumentParser(
         description='Select, insert or copy Unicode characters using rofi',
-        default_config_files=[os.path.join(directory, 'rofimoji.rc') for directory in xdg.BaseDirectory.xdg_config_dirs]
+        default_config_files=[os.path.join(directory, 'rofimoji.rc') for directory in
+                              BaseDirectory.xdg_config_dirs]
     )
     parser.add_argument('--version', action='version', version='rofimoji 4.0.0-SNAPSHOT')
     parser.add_argument(
@@ -120,6 +121,12 @@ def get_active_window() -> str:
 
 def read_character_files(file_names: List[str]) -> str:
     entries = ''
+
+    if len(file_names) == 1 and file_names[0] == 'all':
+        file_names = [os.path.splitext(file)[0] for file in
+                      os.listdir(os.path.join(os.path.dirname(__file__), "data"))
+                      if fnmatch.fnmatch(file, "*.csv")]
+
     for file_name in file_names:
         entries = entries + load_from_file(file_name)
 
@@ -128,10 +135,10 @@ def read_character_files(file_names: List[str]) -> str:
 
 def load_from_file(file_name: str) -> str:
     provided_file = os.path.join(os.path.dirname(__file__), "data", file_name + '.csv')
-    if os.path.isfile(provided_file):
-        actual_file_name = provided_file
-    elif os.path.isfile(file_name):
+    if os.path.isfile(file_name):
         actual_file_name = file_name
+    elif os.path.isfile(provided_file):
+        actual_file_name = provided_file
     else:
         raise FileNotFoundError(f"Couldn't find file {file_name}")
 
@@ -174,7 +181,11 @@ def open_main_rofi_window(args: List[str], characters: str) -> Tuple[int, bytes]
     return rofi.returncode, stdout
 
 
-def process_chosen_characters(chosen_characters: List[bytes], skin_tone: str, rofi_args: List[str]) -> str:
+def process_chosen_characters(
+        chosen_characters: List[bytes],
+        skin_tone: str,
+        rofi_args: List[str]
+) -> str:
     result = ""
     for line in chosen_characters:
         character = line.decode('utf-8').split()[0]
@@ -219,8 +230,11 @@ def select_skin_tone(selected_emoji: chr, skin_tone: str, rofi_args: List[str]) 
         return stdout_skin.split()[0].decode('utf-8')
 
 
-def insert_characters(characters: str, active_window: str,
-                      insert_with_clipboard: bool = False) -> None:
+def insert_characters(
+        characters: str,
+        active_window: str,
+        insert_with_clipboard: bool = False
+) -> None:
     if insert_with_clipboard:
         copy_paste_characters(characters, active_window)
     else:

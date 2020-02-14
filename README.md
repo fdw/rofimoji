@@ -36,7 +36,7 @@ You can configure `rofimoji` either with cli arguments or with a config file cal
 | long option | short option | possible values | description |
 | --- | --- | --- | --- |
 | `--skin-tone` | `-s` | `light`, `medium-light`, `moderate`, `dark brown`, `black`, as well as `neutral` and `ask` | Define the skin tone of supporting emojis. `ask` will always ask the user. |
-| `--rofi-args` | | | Define arguments that `rofimoji` will pass through to `rofi`. |
+| `--rofi-args` | | | Define arguments that `rofimoji` will pass through to `rofi`.<br/>Please note that you need to specify it as `--rofi-args="<rofi-args>"` or `--rofi-args " <rofi-args>"` because of a [bug in argparse](https://bugs.python.org/issue9334) |
 | `--files` | `-f` | `emojis`, `arabic`, `arabic-indic`, `armenian`, `balinese`, `bamum`, `bengali`, `bopomofo`, `brahmi`, `braille`, `cherokee`, `coptic`, `cuneiform`, `cypriot`, `cyrillic`, `devanagari`, `egyptian`, `ethiopic`, `georgian`, `glagolitic`, `grantha`, `greek`, `gujarati`, `gurmukhi`, `hangul`, `hebrew`, `hiragana`, `kannada`, `katakana`, `khmer`, `latin`, `malayalam`, `miao`, `mongolian`, `myanmar`, `samaritan`, `sharada`, `signwriting`, `sinhala`, `tangut`, `telugu`, `tibetan`, `vai`, `yi` or `all` or your file | Define which file(s) to load characters from. You can define your own files, or use any of the default ones.<br/>If set to `all`, all default files are used. Use with caution, that is a *lot*<br/>If no file is set, the default emoji list is used. |
 | `--insert-with-clipboard` | `-p` | | Insert the selected emoji through pasting from the clipboard, instead of directly typing them. See [Insertion Method](#insertion-method). |
 | `--copy-only` | `-c` | | Only copy the selected characters to the clipboard without typing them. |

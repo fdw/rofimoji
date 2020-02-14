@@ -3,6 +3,7 @@
 import argparse
 import fnmatch
 import os
+import shlex
 import sys
 from subprocess import Popen, PIPE
 from typing import List, Tuple
@@ -108,8 +109,9 @@ def parse_arguments() -> argparse.Namespace:
         default='',
         help='A string of arguments to give to rofi'
     )
+
     parsed_args = parser.parse_args()
-    parsed_args.rofi_args = parsed_args.rofi_args.split()
+    parsed_args.rofi_args = shlex.split(parsed_args.rofi_args)
 
     return parsed_args
 

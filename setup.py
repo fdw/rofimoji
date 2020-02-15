@@ -1,8 +1,8 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name='rofimoji',
-    version='4.0.0',
+    version='4.0.1-SNAPSHOT',
     description='Simple character picker using rofi',
     author='fdw',
     author_email='5821180+fdw@users.noreply.github.com',
@@ -17,7 +17,7 @@ setup(
     package_data={
         'picker': ['data/*.csv']
     },
-    entry_points ={
+    entry_points={
         'console_scripts': [
             'rofimoji = picker.rofimoji:main'
         ]

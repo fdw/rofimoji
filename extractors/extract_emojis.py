@@ -19,7 +19,7 @@ def fetch_emoji_html() -> BeautifulSoup:
     for i in range(max_tries):
         print('Downloading emojis... try %s' % (i + 1))
         data = requests.get(
-            'https://unicode.org/emoji/charts-12.0/full-emoji-list.html',
+            'https://unicode.org/emoji/charts-13.0/full-emoji-list.html',
             timeout=120
         )  # type: requests.Response
         if data:
@@ -49,7 +49,7 @@ def fetch_human_emojis() -> List[chr]:
     print('Downloading list of human emojis...')
 
     data = requests.get(
-        'https://unicode.org/Public/emoji/12.0/emoji-data.txt',
+        'https://unicode.org/Public/13.0.0/ucd/emoji/emoji-data.txt',
         timeout=60
     )  # type: requests.Response
 
@@ -59,7 +59,7 @@ def fetch_human_emojis() -> List[chr]:
         if not started and line != '# All omitted code points have Emoji_Modifier_Base=No ':
             continue
         started = True
-        if started and line == '# Total elements: 120':
+        if started and line == '# Total elements: 122':
             break
         if started and (line.startswith('#') or len(line) == 0):
             continue
@@ -84,7 +84,7 @@ def fetch_annotations() -> Dict[chr, List[str]]:
     print('Downloading annotations')
 
     data = requests.get(
-        'https://raw.githubusercontent.com/unicode-org/cldr/release-35-1/common/annotations/en.xml',
+        'https://raw.githubusercontent.com/unicode-org/cldr/latest/common/annotations/en.xml',
         timeout=60
     )  # type: requests.Response
 

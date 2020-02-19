@@ -55,7 +55,8 @@ skin-tone = moderate
 A kind soul has packaged it as [rofimoji](https://www.archlinux.org/packages/community/any/rofimoji/). To, install, use `sudo pacman -Syu rofimoji`.
 
 ### From sources
-Download the wheel file from releases and install it with  `pip install $filename` (You can use `--user` to only install it for the local user). 
+Download the wheel file from releases and install it with  `sudo pip install $filename` (or you can use `pip install --user $filename` to only install it for the local user).
+Afterwards, there should be a `rofimoji` on your `$path`.
 This also installs the python dependencies `xdg` and `configargparse`.
 
 ### Dependencies

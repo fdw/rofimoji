@@ -30,7 +30,7 @@ class Extractor(object):
 
         return characters
 
-    def resolve_character_range(self, line: str) -> List[chr]:
+    def resolve_character_range(self, line: str) -> List[str]:
         try:
             (start, end) = line.split('..')
             symbols = []
@@ -38,4 +38,21 @@ class Extractor(object):
                 symbols.append(chr(char))
             return symbols
         except ValueError:
-            return [chr(int(line, 16))]
+            return [self.resolve_character(line)]
+
+    def resolve_character(self, string: str) -> str:
+        result = []
+        for character in string.split(' '):
+            result.append(chr(int(character, 16)))
+
+        return "".join(result)
+
+
+if __name__ == "__main__":
+    from extractors.extract_emojis import EmojiExtractor
+    from extractors.extract_maths_symbols import MathExtractor
+    from extractors.extract_scripts import ScriptsExtractor
+
+    EmojiExtractor().extract()
+    ScriptsExtractor().extract()
+    MathExtractor().extract()

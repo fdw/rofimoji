@@ -43,7 +43,3 @@ class MathExtractor(Extractor):
 
     def extract(self):
         self.write_file(self.fetch_math_symbols())
-
-
-if __name__ == "__main__":
-    MathExtractor().extract()

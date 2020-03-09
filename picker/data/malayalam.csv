@@ -1,100 +1,86 @@
-൏ Malayalam Sign Para
-൘ Malayalam Fraction One One-Hundred-And-Sixtieth
-൙ Malayalam Fraction One Fortieth
-൚ Malayalam Fraction Three Eightieths
-൛ Malayalam Fraction One Twentieth
-൜ Malayalam Fraction One Tenth
-൝ Malayalam Fraction Three Twentieths
-൞ Malayalam Fraction One Fifth
-൰ Malayalam Number Ten
-൱ Malayalam Number One Hundred
-൲ Malayalam Number One Thousand
-൳ Malayalam Fraction One Quarter
-൴ Malayalam Fraction One Half
-൵ Malayalam Fraction Three Quarters
-൶ Malayalam Fraction One Sixteenth
-൷ Malayalam Fraction One Eighth
-൸ Malayalam Fraction Three Sixteenths
-൹ Malayalam Date Mark
-ഁ Malayalam Sign Candrabindu
-ഀ Malayalam Sign Combining Anusvara Above
-ം Malayalam Sign Anusvara
-ഃ Malayalam Sign Visarga
-൦ Malayalam Digit Zero
-൧ Malayalam Digit One
-൨ Malayalam Digit Two
-൩ Malayalam Digit Three
-൪ Malayalam Digit Four
-൫ Malayalam Digit Five
-൬ Malayalam Digit Six
-൭ Malayalam Digit Seven
-൮ Malayalam Digit Eight
-൯ Malayalam Digit Nine
-അ Malayalam Letter A
-ആ Malayalam Letter Aa
-ഇ Malayalam Letter I
-ഈ Malayalam Letter Ii
-ൟ Malayalam Letter Archaic Ii
 ഉ Malayalam Letter U
+൧ Malayalam Digit One
 ഊ Malayalam Letter Uu
+൨ Malayalam Digit Two
 ഋ Malayalam Letter Vocalic R
-ൠ Malayalam Letter Vocalic Rr
+൩ Malayalam Digit Three
 ഌ Malayalam Letter Vocalic L
-ൡ Malayalam Letter Vocalic Ll
+൪ Malayalam Digit Four
 എ Malayalam Letter E
+൫ Malayalam Digit Five
 ഏ Malayalam Letter Ee
+൬ Malayalam Digit Six
 ഐ Malayalam Letter Ai
+൭ Malayalam Digit Seven
 ഒ Malayalam Letter O
+൮ Malayalam Digit Eight
 ഓ Malayalam Letter Oo
+൯ Malayalam Digit Nine
 ഔ Malayalam Letter Au
+൰ Malayalam Number Ten
 ക Malayalam Letter Ka
-ൿ Malayalam Letter Chillu K
+൱ Malayalam Number One Hundred
 ഖ Malayalam Letter Kha
+൲ Malayalam Number One Thousand
 ഗ Malayalam Letter Ga
+൳ Malayalam Fraction One Quarter
 ഘ Malayalam Letter Gha
+൴ Malayalam Fraction One Half
 ങ Malayalam Letter Nga
+൵ Malayalam Fraction Three Quarters
 ച Malayalam Letter Ca
+൶ Malayalam Fraction One Sixteenth
 ഛ Malayalam Letter Cha
+൷ Malayalam Fraction One Eighth
 ജ Malayalam Letter Ja
+൸ Malayalam Fraction Three Sixteenths
 ഝ Malayalam Letter Jha
+൹ Malayalam Date Mark
 ഞ Malayalam Letter Nya
-ട Malayalam Letter Tta
-ഠ Malayalam Letter Ttha
-ഡ Malayalam Letter Dda
-ഢ Malayalam Letter Ddha
-ണ Malayalam Letter Nna
 ൺ Malayalam Letter Chillu Nn
+ട Malayalam Letter Tta
+ൻ Malayalam Letter Chillu N
+ഠ Malayalam Letter Ttha
+ർ Malayalam Letter Chillu Rr
+ഡ Malayalam Letter Dda
+ൽ Malayalam Letter Chillu L
+ഢ Malayalam Letter Ddha
+ൾ Malayalam Letter Chillu Ll
+ണ Malayalam Letter Nna
+ൿ Malayalam Letter Chillu K
 ത Malayalam Letter Ta
 ഥ Malayalam Letter Tha
 ദ Malayalam Letter Da
 ധ Malayalam Letter Dha
 ന Malayalam Letter Na
-ൻ Malayalam Letter Chillu N
 ഩ Malayalam Letter Nnna
 പ Malayalam Letter Pa
 ഫ Malayalam Letter Pha
 ബ Malayalam Letter Ba
+ഀ Malayalam Sign Combining Anusvara Above
 ഭ Malayalam Letter Bha
+ഁ Malayalam Sign Candrabindu
 മ Malayalam Letter Ma
-ൔ Malayalam Letter Chillu M
+ം Malayalam Sign Anusvara
 യ Malayalam Letter Ya
-ൕ Malayalam Letter Chillu Y
+ഃ Malayalam Sign Visarga
 ര Malayalam Letter Ra
-ൎ Malayalam Letter Dot Reph
-ർ Malayalam Letter Chillu Rr
+അ Malayalam Letter A
+റ Malayalam Letter Rra
+ആ Malayalam Letter Aa
 ല Malayalam Letter La
-ൽ Malayalam Letter Chillu L
+ഇ Malayalam Letter I
+ള Malayalam Letter Lla
+ഴ Malayalam Letter Llla
+ഈ Malayalam Letter Ii
 വ Malayalam Letter Va
 ശ Malayalam Letter Sha
 ഷ Malayalam Letter Ssa
 സ Malayalam Letter Sa
 ഹ Malayalam Letter Ha
-ള Malayalam Letter Lla
-ൾ Malayalam Letter Chillu Ll
-ഴ Malayalam Letter Llla
-ൖ Malayalam Letter Chillu Lll
-റ Malayalam Letter Rra
 ഺ Malayalam Letter Ttta
+഻ Malayalam Sign Vertical Bar Virama
+഼ Malayalam Sign Circular Virama
 ഽ Malayalam Sign Avagraha
 ാ Malayalam Vowel Sign Aa
 ി Malayalam Vowel Sign I
@@ -103,18 +89,29 @@
 ൂ Malayalam Vowel Sign Uu
 ൃ Malayalam Vowel Sign Vocalic R
 ൄ Malayalam Vowel Sign Vocalic Rr
-ൢ Malayalam Vowel Sign Vocalic L
-ൣ Malayalam Vowel Sign Vocalic Ll
 െ Malayalam Vowel Sign E
 േ Malayalam Vowel Sign Ee
 ൈ Malayalam Vowel Sign Ai
 ൊ Malayalam Vowel Sign O
-ൊ Malayalam Vowel Sign O
 ോ Malayalam Vowel Sign Oo
-ോ Malayalam Vowel Sign Oo
 ൌ Malayalam Vowel Sign Au
-ൌ Malayalam Vowel Sign Au
-ൗ Malayalam Au Length Mark
 ് Malayalam Sign Virama
-഻ Malayalam Sign Vertical Bar Virama
-഼ Malayalam Sign Circular Virama
+ൎ Malayalam Letter Dot Reph
+൏ Malayalam Sign Para
+ൔ Malayalam Letter Chillu M
+ൕ Malayalam Letter Chillu Y
+ൖ Malayalam Letter Chillu Lll
+ൗ Malayalam Au Length Mark
+൘ Malayalam Fraction One One-Hundred-And-Sixtieth
+൙ Malayalam Fraction One Fortieth
+൚ Malayalam Fraction Three Eightieths
+൛ Malayalam Fraction One Twentieth
+൜ Malayalam Fraction One Tenth
+൝ Malayalam Fraction Three Twentieths
+൞ Malayalam Fraction One Fifth
+ൟ Malayalam Letter Archaic Ii
+ൠ Malayalam Letter Vocalic Rr
+ൡ Malayalam Letter Vocalic Ll
+ൢ Malayalam Vowel Sign Vocalic L
+ൣ Malayalam Vowel Sign Vocalic Ll
+൦ Malayalam Digit Zero

@@ -1,7 +1,16 @@
+ר Hebrew Letter Resh
+ש Hebrew Letter Shin
+ת Hebrew Letter Tav
+ׯ Hebrew Yod Triangle
+װ Hebrew Ligature Yiddish Double Vav
 ֑ Hebrew Accent Etnahta
+ױ Hebrew Ligature Yiddish Vav Yod
 ֒ Hebrew Accent Segol
+ײ Hebrew Ligature Yiddish Double Yod
 ֓ Hebrew Accent Shalshelet
+׳ Hebrew Punctuation Geresh
 ֔ Hebrew Accent Zaqef Qatan
+״ Hebrew Punctuation Gershayim
 ֕ Hebrew Accent Zaqef Gadol
 ֖ Hebrew Accent Tipeha
 ֗ Hebrew Accent Revia
@@ -29,16 +38,6 @@
 ֭ Hebrew Accent Dehi
 ֮ Hebrew Accent Zinor
 ֯ Hebrew Mark Masora Circle
-ֽ Hebrew Point Meteg
-־ Hebrew Punctuation Maqaf
-׀ Hebrew Punctuation Paseq
-׃ Hebrew Punctuation Sof Pasuq
-ׄ Hebrew Mark Upper Dot
-ׅ Hebrew Mark Lower Dot
-׆ Hebrew Punctuation Nun Hafukha
-׳ Hebrew Punctuation Geresh
-״ Hebrew Punctuation Gershayim
-﬩ Hebrew Letter Alternative Plus Sign
 ְ Hebrew Point Sheva
 ֱ Hebrew Point Hataf Segol
 ֲ Hebrew Point Hataf Patah
@@ -48,87 +47,42 @@
 ֶ Hebrew Point Segol
 ַ Hebrew Point Patah
 ָ Hebrew Point Qamats
-ׇ Hebrew Point Qamats Qatan
 ֹ Hebrew Point Holam
 ֺ Hebrew Point Holam Haser For Vav
 ֻ Hebrew Point Qubuts
-ׂ Hebrew Point Sin Dot
-ׁ Hebrew Point Shin Dot
 ּ Hebrew Point Dagesh Or Mapiq
+ֽ Hebrew Point Meteg
+־ Hebrew Punctuation Maqaf
 ֿ Hebrew Point Rafe
-ﬞ Hebrew Point Judeo-Spanish Varika
+׀ Hebrew Punctuation Paseq
+ׁ Hebrew Point Shin Dot
+ׂ Hebrew Point Sin Dot
+׃ Hebrew Punctuation Sof Pasuq
+ׄ Hebrew Mark Upper Dot
+ׅ Hebrew Mark Lower Dot
+׆ Hebrew Punctuation Nun Hafukha
+ׇ Hebrew Point Qamats Qatan
 א Hebrew Letter Alef
-ﬡ Hebrew Letter Wide Alef
-אַ Hebrew Letter Alef With Patah
-אָ Hebrew Letter Alef With Qamats
-אּ Hebrew Letter Alef With Mapiq
-ﭏ Hebrew Ligature Alef Lamed
 ב Hebrew Letter Bet
-בּ Hebrew Letter Bet With Dagesh
-בֿ Hebrew Letter Bet With Rafe
 ג Hebrew Letter Gimel
-גּ Hebrew Letter Gimel With Dagesh
 ד Hebrew Letter Dalet
-ﬢ Hebrew Letter Wide Dalet
-דּ Hebrew Letter Dalet With Dagesh
 ה Hebrew Letter He
-ﬣ Hebrew Letter Wide He
-הּ Hebrew Letter He With Mapiq
 ו Hebrew Letter Vav
-וֹ Hebrew Letter Vav With Holam
-וּ Hebrew Letter Vav With Dagesh
-װ Hebrew Ligature Yiddish Double Vav
-ױ Hebrew Ligature Yiddish Vav Yod
 ז Hebrew Letter Zayin
-זּ Hebrew Letter Zayin With Dagesh
 ח Hebrew Letter Het
 ט Hebrew Letter Tet
-טּ Hebrew Letter Tet With Dagesh
 י Hebrew Letter Yod
-יִ Hebrew Letter Yod With Hiriq
-יּ Hebrew Letter Yod With Dagesh
-ׯ Hebrew Yod Triangle
-ײ Hebrew Ligature Yiddish Double Yod
-ײַ Hebrew Ligature Yiddish Yod Yod Patah
-כ Hebrew Letter Kaf
-ﬤ Hebrew Letter Wide Kaf
 ך Hebrew Letter Final Kaf
-כּ Hebrew Letter Kaf With Dagesh
-ךּ Hebrew Letter Final Kaf With Dagesh
-כֿ Hebrew Letter Kaf With Rafe
+כ Hebrew Letter Kaf
 ל Hebrew Letter Lamed
-ﬥ Hebrew Letter Wide Lamed
-לּ Hebrew Letter Lamed With Dagesh
-מ Hebrew Letter Mem
-ﬦ Hebrew Letter Wide Final Mem
 ם Hebrew Letter Final Mem
-מּ Hebrew Letter Mem With Dagesh
-נ Hebrew Letter Nun
+מ Hebrew Letter Mem
 ן Hebrew Letter Final Nun
-נּ Hebrew Letter Nun With Dagesh
+נ Hebrew Letter Nun
 ס Hebrew Letter Samekh
-סּ Hebrew Letter Samekh With Dagesh
 ע Hebrew Letter Ayin
-ﬠ Hebrew Letter Alternative Ayin
-פ Hebrew Letter Pe
 ף Hebrew Letter Final Pe
-פּ Hebrew Letter Pe With Dagesh
-ףּ Hebrew Letter Final Pe With Dagesh
-פֿ Hebrew Letter Pe With Rafe
-צ Hebrew Letter Tsadi
+פ Hebrew Letter Pe
 ץ Hebrew Letter Final Tsadi
-צּ Hebrew Letter Tsadi With Dagesh
+צ Hebrew Letter Tsadi
 ק Hebrew Letter Qof
-קּ Hebrew Letter Qof With Dagesh
-ר Hebrew Letter Resh
-ﬧ Hebrew Letter Wide Resh
-רּ Hebrew Letter Resh With Dagesh
-ש Hebrew Letter Shin
-שׂ Hebrew Letter Shin With Sin Dot
-שׁ Hebrew Letter Shin With Shin Dot
-שּ Hebrew Letter Shin With Dagesh
-שּׂ Hebrew Letter Shin With Dagesh And Sin Dot
-שּׁ Hebrew Letter Shin With Dagesh And Shin Dot
-ת Hebrew Letter Tav
-ﬨ Hebrew Letter Wide Tav
-תּ Hebrew Letter Tav With Dagesh

@@ -1,24 +1,62 @@
-ゝ Hiragana Iteration Mark
-ゞ Hiragana Voiced Iteration Mark
-ぁ Hiragana Letter Small A
-あ Hiragana Letter A
-ぃ Hiragana Letter Small I
-い Hiragana Letter I
-ぅ Hiragana Letter Small U
-う Hiragana Letter U
+び Hiragana Letter Bi
+ゟ Hiragana Digraph Yori
+ぴ Hiragana Letter Pi
+ふ Hiragana Letter Hu
+ぶ Hiragana Letter Bu
+ぷ Hiragana Letter Pu
+へ Hiragana Letter He
+べ Hiragana Letter Be
+ぺ Hiragana Letter Pe
+ほ Hiragana Letter Ho
+ぼ Hiragana Letter Bo
+ぽ Hiragana Letter Po
+ま Hiragana Letter Ma
+み Hiragana Letter Mi
+む Hiragana Letter Mu
+め Hiragana Letter Me
+も Hiragana Letter Mo
+ゃ Hiragana Letter Small Ya
+や Hiragana Letter Ya
+ゅ Hiragana Letter Small Yu
+ゆ Hiragana Letter Yu
+ょ Hiragana Letter Small Yo
+よ Hiragana Letter Yo
+ら Hiragana Letter Ra
+り Hiragana Letter Ri
+る Hiragana Letter Ru
+れ Hiragana Letter Re
+ろ Hiragana Letter Ro
+ゎ Hiragana Letter Small Wa
+わ Hiragana Letter Wa
+ゐ Hiragana Letter Wi
+ゑ Hiragana Letter We
+を Hiragana Letter Wo
+ん Hiragana Letter N
 ゔ Hiragana Letter Vu
+ぁ Hiragana Letter Small A
+ゕ Hiragana Letter Small Ka
+あ Hiragana Letter A
+ゖ Hiragana Letter Small Ke
+ぃ Hiragana Letter Small I
+゙ Combining Katakana-Hiragana Voiced Sound Mark
+い Hiragana Letter I
+゚ Combining Katakana-Hiragana Semi-Voiced Sound Mark
+ぅ Hiragana Letter Small U
+゛ Katakana-Hiragana Voiced Sound Mark
+う Hiragana Letter U
+゜ Katakana-Hiragana Semi-Voiced Sound Mark
 ぇ Hiragana Letter Small E
+ゝ Hiragana Iteration Mark
 え Hiragana Letter E
+ゞ Hiragana Voiced Iteration Mark
 ぉ Hiragana Letter Small O
 お Hiragana Letter O
-ゕ Hiragana Letter Small Ka
 か Hiragana Letter Ka
 が Hiragana Letter Ga
 き Hiragana Letter Ki
 ぎ Hiragana Letter Gi
 く Hiragana Letter Ku
 ぐ Hiragana Letter Gu
-ゖ Hiragana Letter Small Ke
 け Hiragana Letter Ke
 げ Hiragana Letter Ge
 こ Hiragana Letter Ko
@@ -53,41 +91,3 @@
 ば Hiragana Letter Ba
 ぱ Hiragana Letter Pa
 ひ Hiragana Letter Hi
-び Hiragana Letter Bi
-ぴ Hiragana Letter Pi
-ふ Hiragana Letter Hu
-ぶ Hiragana Letter Bu
-ぷ Hiragana Letter Pu
-へ Hiragana Letter He
-べ Hiragana Letter Be
-ぺ Hiragana Letter Pe
-ほ Hiragana Letter Ho
-ぼ Hiragana Letter Bo
-ぽ Hiragana Letter Po
-ま Hiragana Letter Ma
-み Hiragana Letter Mi
-む Hiragana Letter Mu
-め Hiragana Letter Me
-も Hiragana Letter Mo
-ゃ Hiragana Letter Small Ya
-や Hiragana Letter Ya
-ゅ Hiragana Letter Small Yu
-ゆ Hiragana Letter Yu
-ょ Hiragana Letter Small Yo
-よ Hiragana Letter Yo
-ゟ Hiragana Digraph Yori
-ら Hiragana Letter Ra
-り Hiragana Letter Ri
-る Hiragana Letter Ru
-れ Hiragana Letter Re
-ろ Hiragana Letter Ro
-ゎ Hiragana Letter Small Wa
-わ Hiragana Letter Wa
-𛅐 Hiragana Letter Small Wi
-ゐ Hiragana Letter Wi
-𛅑 Hiragana Letter Small We
-ゑ Hiragana Letter We
-𛅒 Hiragana Letter Small Wo
-を Hiragana Letter Wo
-ん Hiragana Letter N
-𛀁 Hiragana Letter Archaic Ye

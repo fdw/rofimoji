@@ -1,8 +1,25 @@
-಄ Kannada Sign Siddham
-಼ Kannada Sign Nukta
-ಁ Kannada Sign Candrabindu
-ಂ Kannada Sign Anusvara
-ಃ Kannada Sign Visarga
+ಽ Kannada Sign Avagraha
+ಾ Kannada Vowel Sign Aa
+ಿ Kannada Vowel Sign I
+ೀ Kannada Vowel Sign Ii
+ು Kannada Vowel Sign U
+ೂ Kannada Vowel Sign Uu
+ೃ Kannada Vowel Sign Vocalic R
+ೄ Kannada Vowel Sign Vocalic Rr
+ೆ Kannada Vowel Sign E
+ೇ Kannada Vowel Sign Ee
+ೈ Kannada Vowel Sign Ai
+ೊ Kannada Vowel Sign O
+ೋ Kannada Vowel Sign Oo
+ೌ Kannada Vowel Sign Au
+್ Kannada Sign Virama
+ೕ Kannada Length Mark
+ೖ Kannada Ai Length Mark
+ೞ Kannada Letter Fa
+ೠ Kannada Letter Vocalic Rr
+ೡ Kannada Letter Vocalic Ll
+ೢ Kannada Vowel Sign Vocalic L
+ೣ Kannada Vowel Sign Vocalic Ll
 ೦ Kannada Digit Zero
 ೧ Kannada Digit One
 ೨ Kannada Digit Two
@@ -10,9 +27,16 @@
 ೪ Kannada Digit Four
 ೫ Kannada Digit Five
 ೬ Kannada Digit Six
+ಀ Kannada Sign Spacing Candrabindu
 ೭ Kannada Digit Seven
+ಁ Kannada Sign Candrabindu
 ೮ Kannada Digit Eight
+ಂ Kannada Sign Anusvara
 ೯ Kannada Digit Nine
+ಃ Kannada Sign Visarga
+ೱ Kannada Sign Jihvamuliya
+಄ Kannada Sign Siddham
+ೲ Kannada Sign Upadhmaniya
 ಅ Kannada Letter A
 ಆ Kannada Letter Aa
 ಇ Kannada Letter I
@@ -20,9 +44,7 @@
 ಉ Kannada Letter U
 ಊ Kannada Letter Uu
 ಋ Kannada Letter Vocalic R
-ೠ Kannada Letter Vocalic Rr
 ಌ Kannada Letter Vocalic L
-ೡ Kannada Letter Vocalic Ll
 ಎ Kannada Letter E
 ಏ Kannada Letter Ee
 ಐ Kannada Letter Ai
@@ -58,38 +80,10 @@
 ರ Kannada Letter Ra
 ಱ Kannada Letter Rra
 ಲ Kannada Letter La
+ಳ Kannada Letter Lla
 ವ Kannada Letter Va
 ಶ Kannada Letter Sha
 ಷ Kannada Letter Ssa
 ಸ Kannada Letter Sa
 ಹ Kannada Letter Ha
-ಳ Kannada Letter Lla
-ೞ Kannada Letter Fa
-ಽ Kannada Sign Avagraha
-ೱ Kannada Sign Jihvamuliya
-ೲ Kannada Sign Upadhmaniya
-ಀ Kannada Sign Spacing Candrabindu
-ಾ Kannada Vowel Sign Aa
-ಿ Kannada Vowel Sign I
-ೀ Kannada Vowel Sign Ii
-ೀ Kannada Vowel Sign Ii
-ು Kannada Vowel Sign U
-ೂ Kannada Vowel Sign Uu
-ೃ Kannada Vowel Sign Vocalic R
-ೄ Kannada Vowel Sign Vocalic Rr
-ೢ Kannada Vowel Sign Vocalic L
-ೣ Kannada Vowel Sign Vocalic Ll
-ೆ Kannada Vowel Sign E
-ೇ Kannada Vowel Sign Ee
-ೇ Kannada Vowel Sign Ee
-ೈ Kannada Vowel Sign Ai
-ೈ Kannada Vowel Sign Ai
-ೊ Kannada Vowel Sign O
-ೊ Kannada Vowel Sign O
-ೋ Kannada Vowel Sign Oo
-ೋ Kannada Vowel Sign Oo
-ೋ Kannada Vowel Sign Oo
-ೌ Kannada Vowel Sign Au
-್ Kannada Sign Virama
-ೕ Kannada Length Mark
-ೖ Kannada Ai Length Mark
+಼ Kannada Sign Nukta

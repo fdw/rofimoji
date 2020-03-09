@@ -1,15 +1,5 @@
-૰ Gujarati Abbreviation Sign
-ૻ Gujarati Sign Shadda
-ૺ Gujarati Sign Sukun
-ૼ Gujarati Sign Maddah
-઼ Gujarati Sign Nukta
-૽ Gujarati Sign Three-Dot Nukta Above
-૾ Gujarati Sign Circle Nukta Above
-૿ Gujarati Sign Two-Circle Nukta Above
-ઁ Gujarati Sign Candrabindu
-ં Gujarati Sign Anusvara
-ઃ Gujarati Sign Visarga
-૱ Gujarati Rupee Sign
+ૢ Gujarati Vowel Sign Vocalic L
+ૣ Gujarati Vowel Sign Vocalic Ll
 ૦ Gujarati Digit Zero
 ૧ Gujarati Digit One
 ૨ Gujarati Digit Two
@@ -20,17 +10,26 @@
 ૭ Gujarati Digit Seven
 ૮ Gujarati Digit Eight
 ૯ Gujarati Digit Nine
-ૐ Gujarati Om
+૰ Gujarati Abbreviation Sign
+૱ Gujarati Rupee Sign
+ઁ Gujarati Sign Candrabindu
+ૹ Gujarati Letter Zha
+ં Gujarati Sign Anusvara
+ૺ Gujarati Sign Sukun
+ઃ Gujarati Sign Visarga
+ૻ Gujarati Sign Shadda
 અ Gujarati Letter A
+ૼ Gujarati Sign Maddah
 આ Gujarati Letter Aa
+૽ Gujarati Sign Three-Dot Nukta Above
 ઇ Gujarati Letter I
+૾ Gujarati Sign Circle Nukta Above
 ઈ Gujarati Letter Ii
+૿ Gujarati Sign Two-Circle Nukta Above
 ઉ Gujarati Letter U
 ઊ Gujarati Letter Uu
 ઋ Gujarati Letter Vocalic R
-ૠ Gujarati Letter Vocalic Rr
 ઌ Gujarati Letter Vocalic L
-ૡ Gujarati Letter Vocalic Ll
 ઍ Gujarati Vowel Candra E
 એ Gujarati Letter E
 ઐ Gujarati Letter Ai
@@ -45,7 +44,6 @@
 ચ Gujarati Letter Ca
 છ Gujarati Letter Cha
 જ Gujarati Letter Ja
-ૹ Gujarati Letter Zha
 ઝ Gujarati Letter Jha
 ઞ Gujarati Letter Nya
 ટ Gujarati Letter Tta
@@ -66,12 +64,13 @@
 ય Gujarati Letter Ya
 ર Gujarati Letter Ra
 લ Gujarati Letter La
+ળ Gujarati Letter Lla
 વ Gujarati Letter Va
 શ Gujarati Letter Sha
 ષ Gujarati Letter Ssa
 સ Gujarati Letter Sa
 હ Gujarati Letter Ha
-ળ Gujarati Letter Lla
+઼ Gujarati Sign Nukta
 ઽ Gujarati Sign Avagraha
 ા Gujarati Vowel Sign Aa
 િ Gujarati Vowel Sign I
@@ -80,8 +79,6 @@
 ૂ Gujarati Vowel Sign Uu
 ૃ Gujarati Vowel Sign Vocalic R
 ૄ Gujarati Vowel Sign Vocalic Rr
-ૢ Gujarati Vowel Sign Vocalic L
-ૣ Gujarati Vowel Sign Vocalic Ll
 ૅ Gujarati Vowel Sign Candra E
 ે Gujarati Vowel Sign E
 ૈ Gujarati Vowel Sign Ai
@@ -89,3 +86,6 @@
 ો Gujarati Vowel Sign O
 ૌ Gujarati Vowel Sign Au
 ્ Gujarati Sign Virama
+ૐ Gujarati Om
+ૠ Gujarati Letter Vocalic Rr
+ૡ Gujarati Letter Vocalic Ll

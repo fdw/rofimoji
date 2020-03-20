@@ -1,3 +1,10 @@
+# [4.1.0]
+## Changed
+- The extractors have been rewritten: There are now many, *many* supported symbols (all that Unicode offers), but some may have been renamed.
+
+## Added
+- A new file for all kinds of maths symbols
+
 # [4.0.0]
 ## Changed
 - `rofimoji` is now modular and has an actual `setup.py`, as the emojis are no longer part of the picker code.

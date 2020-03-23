@@ -66,7 +66,7 @@ def parse_arguments() -> argparse.Namespace:
         default_config_files=[os.path.join(directory, 'rofimoji.rc') for directory in
                               BaseDirectory.xdg_config_dirs]
     )
-    parser.add_argument('--version', action='version', version='rofimoji 4.1.0')
+    parser.add_argument('--version', action='version', version='rofimoji 4.1.1')
     parser.add_argument(
         '--insert-with-clipboard',
         '-p',
@@ -190,7 +190,7 @@ def process_chosen_characters(
 ) -> str:
     result = ""
     for line in chosen_characters:
-        character = line.decode('utf-8').split()[0]
+        character = line.decode('utf-8').split(" ")[0]
 
         if character in skin_tone_selectable_emojis:
             character = select_skin_tone(character, skin_tone, rofi_args)

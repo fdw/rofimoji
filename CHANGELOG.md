@@ -1,3 +1,7 @@
+# [4.1.1]
+## Fixed
+- Whitespace characters can be inserted
+
 # [4.1.0]
 ## Changed
 - The extractors have been rewritten: There are now many, *many* supported symbols (all that Unicode offers), but some may have been renamed.

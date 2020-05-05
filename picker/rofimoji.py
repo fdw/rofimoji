@@ -109,7 +109,7 @@ def parse_arguments() -> argparse.Namespace:
         '-r',
         dest='prompt',
         action='store',
-        default='😀',
+        default='😀 ',
         help='Set rofimoj\'s  prompt'
     )
     parser.add_argument(

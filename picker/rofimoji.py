@@ -40,7 +40,9 @@ def main() -> None:
     args = parse_arguments()
     active_window = get_active_window()
 
-    returncode, stdout = open_main_rofi_window(args.rofi_args, read_character_files(args.files))
+    returncode, stdout = open_main_rofi_window(args.rofi_args,
+                                               read_character_files(args.files),
+                                               args.prompt)
 
     if returncode == 1:
         sys.exit()
@@ -103,6 +105,14 @@ def parse_arguments() -> argparse.Namespace:
         help='Read characters from this file instead, one entry per line'
     )
     parser.add_argument(
+        '--prompt',
+        '-r',
+        dest='prompt',
+        action='store',
+        default='😀',
+        help='Set rofimoj\'s  prompt'
+    )
+    parser.add_argument(
         '--rofi-args',
         dest='rofi_args',
         action='store',
@@ -158,7 +168,7 @@ def load_all_characters() -> str:
     return characters
 
 
-def open_main_rofi_window(args: List[str], characters: str) -> Tuple[int, bytes]:
+def open_main_rofi_window(args: List[str], characters: str, prompt: str) -> Tuple[int, bytes]:
     rofi = Popen(
         [
             'rofi',
@@ -167,7 +177,7 @@ def open_main_rofi_window(args: List[str], characters: str) -> Tuple[int, bytes]
             '-i',
             '-multi-select',
             '-p',
-            ' 😀   ',
+            prompt,
             '-kb-custom-1',
             'Alt+c',
             '-kb-custom-2',

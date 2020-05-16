@@ -50,15 +50,12 @@ def main() -> None:
         characters = process_chosen_characters(stdout.splitlines(), args.skin_tone, args.rofi_args)
 
         if returncode == 0:
-            if args.copy_only:
-                copy_characters_to_clipboard(characters)
-            else:
-                insert_characters(characters, active_window, args.insert_with_clipboard)
-        elif returncode == 10:
+            default_handle(characters, args, active_window)
+        elif returncode == 20:
             copy_characters_to_clipboard(characters)
-        elif returncode == 11:
+        elif returncode == 21:
             type_characters(characters, active_window)
-        elif returncode == 12:
+        elif returncode == 22:
             copy_paste_characters(characters, active_window)
 
 
@@ -68,7 +65,7 @@ def parse_arguments() -> argparse.Namespace:
         default_config_files=[os.path.join(directory, 'rofimoji.rc') for directory in
                               BaseDirectory.xdg_config_dirs]
     )
-    parser.add_argument('--version', action='version', version='rofimoji 4.1.1')
+    parser.add_argument('--version', action='version', version='rofimoji 4.2.0')
     parser.add_argument(
         '--insert-with-clipboard',
         '-p',
@@ -134,15 +131,20 @@ def get_active_window() -> str:
 def read_character_files(file_names: List[str]) -> str:
     entries = ''
 
-    if len(file_names) == 1 and file_names[0] == 'all':
-        file_names = [os.path.splitext(file)[0] for file in
-                      os.listdir(os.path.join(os.path.dirname(__file__), "data"))
-                      if fnmatch.fnmatch(file, "*.csv")]
+    file_names = resolve_all_files(file_names)
 
     for file_name in file_names:
         entries = entries + load_from_file(file_name)
 
     return entries
+
+
+def resolve_all_files(file_names):
+    if len(file_names) == 1 and file_names[0] == 'all':
+        file_names = [os.path.splitext(file)[0] for file in
+                      os.listdir(os.path.join(os.path.dirname(__file__), "data"))
+                      if fnmatch.fnmatch(file, "*.csv")]
+    return file_names
 
 
 def load_from_file(file_name: str) -> str:
@@ -178,11 +180,11 @@ def open_main_rofi_window(args: List[str], characters: str, prompt: str) -> Tupl
             '-multi-select',
             '-p',
             prompt,
-            '-kb-custom-1',
+            '-kb-custom-11',
             'Alt+c',
-            '-kb-custom-2',
+            '-kb-custom-12',
             'Alt+t',
-            '-kb-custom-3',
+            '-kb-custom-13',
             'Alt+p',
             *args
         ],
@@ -242,12 +244,10 @@ def select_skin_tone(selected_emoji: chr, skin_tone: str, rofi_args: List[str]) 
         return stdout_skin.split()[0].decode('utf-8')
 
 
-def insert_characters(
-        characters: str,
-        active_window: str,
-        insert_with_clipboard: bool = False
-) -> None:
-    if insert_with_clipboard:
+def default_handle(characters, args, active_window):
+    if args.copy_only:
+        copy_characters_to_clipboard(characters)
+    elif args.insert_with_clipboard:
         copy_paste_characters(characters, active_window)
     else:
         type_characters(characters, active_window)

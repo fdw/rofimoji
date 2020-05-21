@@ -21,7 +21,8 @@ skin_tone_selectable_emojis = {'☝', '⛹', '✊', '✋', '✌', '✍', '🎅',
                                '🤘', '🤙', '🤚', '🤛', '🤜', '🤝', '🤞', '🤟', '🤦', '🤰', '🤱',
                                '🤲', '🤳', '🤴', '🤵', '🤶', '🤷', '🤸', '🤹', '🤼', '🤽', '🤾',
                                '🥷', '🦵', '🦶', '🦸', '🦹', '🦻', '🧍', '🧎', '🧏', '🧑', '🧒',
-                               '🧓', '🧔', '🧕', '🧖', '🧗', '🧘', '🧙', '🧚', '🧛', '🧜', '🧝'}
+                               '🧓', '🧔', '🧕', '🧖', '🧗', '🧘', '🧙', '🧚',
+                               '🧛', '🧜', '🧝'}
 
 fitzpatrick_modifiers = {
     '': 'neutral',
@@ -232,7 +233,8 @@ def process_chosen_characters(
     for line in chosen_characters:
         character = line.split(" ")[0]
 
-        if character in skin_tone_selectable_emojis:
+        if any(character.startswith(selectable) for selectable in
+               skin_tone_selectable_emojis):
             character = select_skin_tone(character, skin_tone, rofi_args)
 
         result += character
@@ -244,10 +246,16 @@ def select_skin_tone(selected_emoji: chr, skin_tone: str, rofi_args: List[str]) 
     if skin_tone == 'neutral':
         return selected_emoji
     elif skin_tone != 'ask':
-        return selected_emoji + fitzpatrick_modifiers_reversed[skin_tone]
+        if len(selected_emoji) == 1:
+            selected_emoji += fitzpatrick_modifiers_reversed[skin_tone]
+        else:
+            selected_emoji =  selected_emoji[:1] + fitzpatrick_modifiers_reversed[skin_tone]+ selected_emoji[1:]
+
+        return selected_emoji
     else:
         modified_emojis = '\n'.join(map(
-            lambda modifier: selected_emoji + modifier + " " + fitzpatrick_modifiers[modifier],
+            lambda modifier: (selected_emoji + modifier if len(selected_emoji) ==
+            1 else selected_emoji[:1] + modifier + selected_emoji[1:]) + " " + fitzpatrick_modifiers[modifier],
             fitzpatrick_modifiers.keys()
         ))
 
@@ -275,7 +283,7 @@ def save_characters_to_recent_file(characters: str, max_recent_from_conf: int):
     old_file_name = os.path.join(BaseDirectory.xdg_data_home, 'rofimoji', 'recent')
     new_file_name = os.path.join(BaseDirectory.xdg_data_home, 'rofimoji', 'recent_temp')
 
-    max_recent = min(max_recent_from_conf, 10)
+    max_recent = min(int(max_recent_from_conf), 10)
 
     os.makedirs(os.path.dirname(new_file_name), exist_ok=True)
     with open(new_file_name, 'w+') as new_file:

@@ -5,7 +5,7 @@ import fnmatch
 import os
 import shlex
 import sys
-from subprocess import Popen, PIPE
+from subprocess import run
 from typing import List, Tuple
 
 import configargparse
@@ -124,8 +124,7 @@ def parse_arguments() -> argparse.Namespace:
 
 
 def get_active_window() -> str:
-    xdotool = Popen(args=['xdotool', 'getactivewindow'], stdout=PIPE)
-    return xdotool.communicate()[0].decode("utf-8")[:-1]
+    return run(args=['xdotool', 'getactivewindow'], capture_output=True, encoding='utf-8').stdout[:-1]
 
 
 def read_character_files(file_names: List[str]) -> str:
@@ -170,8 +169,8 @@ def load_all_characters() -> str:
     return characters
 
 
-def open_main_rofi_window(args: List[str], characters: str, prompt: str) -> Tuple[int, bytes]:
-    rofi = Popen(
+def open_main_rofi_window(args: List[str], characters: str, prompt: str) -> Tuple[int, str]:
+    rofi = run(
         [
             'rofi',
             '-dmenu',
@@ -188,21 +187,21 @@ def open_main_rofi_window(args: List[str], characters: str, prompt: str) -> Tupl
             'Alt+p',
             *args
         ],
-        stdin=PIPE,
-        stdout=PIPE
+        input=characters,
+        capture_output=True,
+        encoding='utf-8'
     )
-    (stdout, _) = rofi.communicate(input=characters.encode('UTF-8'))
-    return rofi.returncode, stdout
+    return rofi.returncode, rofi.stdout
 
 
 def process_chosen_characters(
-        chosen_characters: List[bytes],
+        chosen_characters: List[str],
         skin_tone: str,
         rofi_args: List[str]
 ) -> str:
     result = ""
     for line in chosen_characters:
-        character = line.decode('utf-8').split(" ")[0]
+        character = line.split(" ")[0]
 
         if character in skin_tone_selectable_emojis:
             character = select_skin_tone(character, skin_tone, rofi_args)
@@ -223,7 +222,7 @@ def select_skin_tone(selected_emoji: chr, skin_tone: str, rofi_args: List[str]) 
             fitzpatrick_modifiers.keys()
         ))
 
-        rofi_skin = Popen(
+        rofi_skin = run(
             [
                 'rofi',
                 '-dmenu',
@@ -232,19 +231,18 @@ def select_skin_tone(selected_emoji: chr, skin_tone: str, rofi_args: List[str]) 
                 selected_emoji + '   ',
                 *rofi_args
             ],
-            stdin=PIPE,
-            stdout=PIPE
+            input=modified_emojis,
+            capture_output=True,
+            encoding='utf-8'
         )
-
-        (stdout_skin, _) = rofi_skin.communicate(input=modified_emojis.encode('utf-8'))
 
         if rofi_skin.returncode == 1:
             return ''
 
-        return stdout_skin.split()[0].decode('utf-8')
+        return rofi_skin.stdout.split(' ')[0]
 
 
-def default_handle(characters, args, active_window):
+def default_handle(characters: str, args: argparse.Namespace, active_window: str):
     if args.copy_only:
         copy_characters_to_clipboard(characters)
     elif args.insert_with_clipboard:
@@ -254,17 +252,13 @@ def default_handle(characters, args, active_window):
 
 
 def copy_paste_characters(characters: str, active_window: str) -> None:
-    old_clipboard_content = Popen(args=['xsel', '-o', '-b'], stdout=PIPE) \
-        .communicate()[0]
-    old_primary_content = Popen(args=['xsel', '-o', '-p'], stdout=PIPE) \
-        .communicate()[0]
+    old_clipboard_content = run(args=['xsel', '-o', '-b'], capture_output=True).stdout
+    old_primary_content = run(args=['xsel', '-o', '-p'], capture_output=True).stdout
 
-    Popen(args=['xsel', '-i', '-b'], stdin=PIPE) \
-        .communicate(input=characters.encode('utf-8'))
-    Popen(args=['xsel', '-i', '-p'], stdin=PIPE) \
-        .communicate(input=characters.encode('utf-8'))
+    run(args=['xsel', '-i', '-b'], input=characters, encoding='utf-8')
+    run(args=['xsel', '-i', '-p'], input=characters, encoding='utf-8')
 
-    Popen([
+    run([
         'xdotool',
         'windowfocus',
         '--sync',
@@ -274,16 +268,14 @@ def copy_paste_characters(characters: str, active_window: str) -> None:
         'Shift+Insert',
         'sleep',
         '0.05',
-    ]).wait()
+    ])
 
-    Popen(args=['xsel', '-i', '-b'], stdin=PIPE) \
-        .communicate(input=old_clipboard_content)
-    Popen(args=['xsel', '-i', '-p'], stdin=PIPE) \
-        .communicate(input=old_primary_content)
+    run(args=['xsel', '-i', '-b'], input=old_clipboard_content)
+    run(args=['xsel', '-i', '-p'], input=old_primary_content)
 
 
 def type_characters(characters: str, active_window: str) -> None:
-    Popen([
+    run([
         'xdotool',
         'type',
         '--clearmodifiers',
@@ -294,15 +286,14 @@ def type_characters(characters: str, active_window: str) -> None:
 
 
 def copy_characters_to_clipboard(characters: str) -> None:
-    xsel = Popen(
-        [
-            'xsel',
-            '-i',
-            '-b'
-        ],
-        stdin=PIPE
+    run([
+        'xsel',
+        '-i',
+        '-b'
+    ],
+        input=characters,
+        encoding='utf-8'
     )
-    xsel.communicate(input=characters.encode('utf-8'))
 
 
 if __name__ == "__main__":

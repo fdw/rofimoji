@@ -1,3 +1,7 @@
+# [4.2.0]
+## Added
+- The most recently characters are now shown in a separate strip and can be selected with shortcuts (`alt+1` etc).
+
 # [4.1.1]
 ## Fixed
 - Whitespace characters can be inserted

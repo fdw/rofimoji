@@ -10,7 +10,8 @@ And you can use it to pick any weird character someone got into Unicode, too.
 3. (optional) Select multiple emoji with `shift+enter`
 4. Hit `enter` to insert the emoji directly \
    Hit `alt+c` to copy it to the clipboard \
-   `alt+t` or `alt+p` can be used to select a specific input method
+   `alt+t` or `alt+p` can be used to select a specific input method \
+   `alt+1` inserts the most recently used character (`alt+2` for the second most recently one etc.)
 5. Maybe select a skin color
 6. 🎠
 
@@ -28,6 +29,12 @@ By default, `rofimoji` uses `xdotool type`.
 To choose to spam your clipboards, you can either use the keybinding `alt+p` or start it as `rofimoji --insert-with-clipboard` (`-p`).
 If you want to use typing, you can hit `alt+t`, even though it was started with `--insert-with-clipboard`.
 
+## Most recently used characters
+By default, `rofimoji` will show the last ten recently used characters separately; you can insert them with `alt+1`, `alt+2` and so on. It will use the default [insertion Method](#insertion-method).
+If you don't want this, you can set `--max=recent` to `0`.
+
+The characters are saved in `$XDG_DATA_HOME/rofimoji/recent`.
+
 ## Configuration
 You can configure `rofimoji` either with cli arguments or with a config file called `$XDG_CONFIG_HOME/rofimoji.rc`. For the file, use the long option names without double dashes.
 
@@ -41,6 +48,7 @@ You can configure `rofimoji` either with cli arguments or with a config file cal
 | `--files` | `-f` | `all`, `<yourfile>` or [any of the files in `data`](https://github.com/fdw/rofimoji/tree/master/picker/data)| Define which file(s) to load characters from. You can define your own files, or use any of the default ones.<br/>If set to `all`, all default files are used. Use with caution, that is a *lot*.<br/>If no file is set, the default emoji list is used. |
 | `--insert-with-clipboard` | `-p` | | Insert the selected emoji through pasting from the clipboard, instead of directly typing them. See [Insertion Method](#insertion-method). |
 | `--copy-only` | `-c` | | Only copy the selected characters to the clipboard without typing them. |
+| `--max-recent` |  | 1-10 | Show at most this many recently picked characters. The number will be capped at 10. |
 
 ### Example config file
 `~/.config/rofimoji.rc`:

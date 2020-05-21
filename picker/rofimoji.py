@@ -47,16 +47,24 @@ def main() -> None:
     if returncode == 1:
         sys.exit()
     else:
-        characters = process_chosen_characters(stdout.splitlines(), args.skin_tone, args.rofi_args)
+        if 10 <= returncode <= 19:
+            default_handle_recent_character(returncode - 9, args, active_window)
+        else:
+            characters = process_chosen_characters(
+                stdout.splitlines(),
+                args.skin_tone,
+                args.rofi_args
+            )
+            save_characters_to_recent_file(characters, args.max_recent)
 
-        if returncode == 0:
-            default_handle(characters, args, active_window)
-        elif returncode == 20:
-            copy_characters_to_clipboard(characters)
-        elif returncode == 21:
-            type_characters(characters, active_window)
-        elif returncode == 22:
-            copy_paste_characters(characters, active_window)
+            if returncode == 0:
+                default_handle(characters, args, active_window)
+            elif returncode == 20:
+                copy_characters_to_clipboard(characters)
+            elif returncode == 21:
+                type_characters(characters, active_window)
+            elif returncode == 22:
+                copy_paste_characters(characters, active_window)
 
 
 def parse_arguments() -> argparse.Namespace:
@@ -116,6 +124,13 @@ def parse_arguments() -> argparse.Namespace:
         default='',
         help='A string of arguments to give to rofi'
     )
+    parser.add_argument(
+        '--max-recent',
+        dest='max_recent',
+        action='store',
+        default=10,
+        help='Show at most this number of recently used characters (cannot be larger than 10)'
+    )
 
     parsed_args = parser.parse_args()
     parsed_args.rofi_args = shlex.split(parsed_args.rofi_args)
@@ -169,6 +184,18 @@ def load_all_characters() -> str:
     return characters
 
 
+def load_recent_characters() -> List[str]:
+    with open(os.path.join(BaseDirectory.xdg_data_home, 'rofimoji', 'recent'), 'r') as file:
+        return file.read().strip().split('\n')
+
+
+def format_recent_characters() -> str:
+    pairings = [f'{(index + 1) % 10}: {character}' for index, character in
+                enumerate(load_recent_characters())]
+
+    return ' | '.join(pairings)
+
+
 def open_main_rofi_window(args: List[str], characters: str, prompt: str) -> Tuple[int, str]:
     rofi = run(
         [
@@ -185,6 +212,8 @@ def open_main_rofi_window(args: List[str], characters: str, prompt: str) -> Tupl
             'Alt+t',
             '-kb-custom-13',
             'Alt+p',
+            '-mesg',
+            format_recent_characters(),
             *args
         ],
         input=characters,
@@ -242,6 +271,42 @@ def select_skin_tone(selected_emoji: chr, skin_tone: str, rofi_args: List[str]) 
         return rofi_skin.stdout.split(' ')[0]
 
 
+def save_characters_to_recent_file(characters: str, max_recent_from_conf: int):
+    old_file_name = os.path.join(BaseDirectory.xdg_data_home, 'rofimoji', 'recent')
+    new_file_name = os.path.join(BaseDirectory.xdg_data_home, 'rofimoji', 'recent_temp')
+
+    max_recent = min(max_recent_from_conf, 10)
+
+    os.makedirs(os.path.dirname(new_file_name), exist_ok=True)
+    with open(new_file_name, 'w+') as new_file:
+        new_file.write(characters + '\n')
+
+        try:
+            with open(old_file_name, 'r') as old_file:
+                index = 0
+                for line in old_file:
+                    if characters == line.strip():
+                        continue
+                    if index == max_recent - 1:
+                        break
+                    new_file.write(line)
+                    index = index + 1
+
+            os.remove(old_file_name)
+        except FileNotFoundError:
+            pass
+
+    os.rename(new_file_name, old_file_name)
+
+
+def append_to_favorites_file(characters: str):
+    file_name = os.path.join(BaseDirectory.xdg_data_home, 'rofimoji', 'favorites')
+
+    os.makedirs(os.path.dirname(file_name), exist_ok=True)
+    with open(file_name, 'a+') as file:
+        file.write(characters + '\n')
+
+
 def default_handle(characters: str, args: argparse.Namespace, active_window: str):
     if args.copy_only:
         copy_characters_to_clipboard(characters)
@@ -249,6 +314,12 @@ def default_handle(characters: str, args: argparse.Namespace, active_window: str
         copy_paste_characters(characters, active_window)
     else:
         type_characters(characters, active_window)
+
+
+def default_handle_recent_character(position: int, args: argparse.Namespace, active_window: str):
+    recent_characters = load_recent_characters()
+
+    default_handle(recent_characters[position - 1].strip(), args, active_window)
 
 
 def copy_paste_characters(characters: str, active_window: str) -> None:
@@ -278,7 +349,6 @@ def type_characters(characters: str, active_window: str) -> None:
     run([
         'xdotool',
         'type',
-        '--clearmodifiers',
         '--window',
         active_window,
         characters

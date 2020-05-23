@@ -2,6 +2,9 @@
 ## Added
 - The most recently characters are now shown in a separate strip and can be selected with shortcuts (`alt+1` etc). (#39)
 
+## Fixed
+- Human emojis can now have their own skin tone even if they're part of a larger sequence (#41)
+
 # [4.1.1]
 ## Fixed
 - Whitespace characters can be inserted

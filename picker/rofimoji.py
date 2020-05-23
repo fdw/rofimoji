@@ -243,10 +243,14 @@ def process_chosen_characters(
     for line in chosen_characters:
         character = line.split(" ")[0]
 
-        if character in skin_tone_selectable_emojis:
-            character = select_skin_tone(character, skin_tone, rofi_args)
+        characters_with_skin_tone = ''
+        for element in character:
+            if element in skin_tone_selectable_emojis:
+                characters_with_skin_tone += select_skin_tone(element, skin_tone, rofi_args)
+            else:
+                characters_with_skin_tone += element
 
-        result += character
+        result += characters_with_skin_tone
 
     return result
 

@@ -75,12 +75,12 @@ What else do you need:
 - xdotool for typing the emoji
 - xsel to copy the emoji to the clipboard
 
-For Ubuntu zesty: `sudo aptitude install fonts-emojione python3 rofi xdotool xsel` \
+For Ubuntu focal: `sudo aptitude install fonts-emojione python3 rofi xdotool xsel` \
 For Arch: `sudo pacman -Syu emoji-font python rofi xdotool xsel`
 
 ## Updating the emojis
-This is only needed if a new Unicode version came out and you can't wait for the official update!
+If you really, really need to update the characters and cannot wait for the official update:
 
 1. Install Python 3 and `pip install -r requirements.txt` in the `extractors` directory.
-2. Run `extract_emojis.py` - this downloads the complete list from https://unicode.org/emoji/charts-12.0/full-emoji-list.html, so don't do it too often!
-3. The new `emojis.csv` should have been created. You might need to install `rofimoji` again.
+2. Still in the `extraactors` directory, run `python main.py`: This downloads several large lists from [unicode.org](https://unicode.org), so please don't do it too often!
+3. The data files should have been updated. You probably need to install `rofimoji` again from source.

@@ -11,6 +11,9 @@ from typing import List, Tuple
 import configargparse
 from xdg import BaseDirectory
 
+from picker.Clipboarder import Clipboarder
+from picker.Typer import Typer
+
 
 class Rofimoji:
     skin_tone_selectable_emojis = {'☝', '⛹', '✊', '✋', '✌', '✍', '🎅', '🏂', '🏃', '🏄', '🏇', '🏊',
@@ -39,7 +42,9 @@ class Rofimoji:
 
     def __init__(self) -> None:
         self.args = self.parse_arguments()
-        self.active_window = self.get_active_window()
+        self.typer = Typer.bestOption()
+        self.clipboarder = Clipboarder.bestOption()
+        self.active_window = self.typer.get_active_window()
 
         returncode, stdout = self.open_main_rofi_window(
         )
@@ -58,15 +63,15 @@ class Rofimoji:
                 if returncode == 0:
                     self.default_handle(characters)
                 elif returncode == 20:
-                    self.copy_characters_to_clipboard(characters)
+                    self.clipboarder.copy_characters_to_clipboard(characters)
                 elif returncode == 21:
-                    self.type_characters(characters, self.active_window)
+                    self.typer.type_characters(characters, self.active_window)
                 elif returncode == 22:
-                    self.copy_paste_characters(characters, self.active_window)
+                    self.clipboarder.copy_paste_characters(characters, self.active_window, self.typer)
                 elif returncode == 23:
                     self.default_handle(self.get_codepoints(characters))
                 elif returncode == 24:
-                    self.copy_characters_to_clipboard(self.get_codepoints(characters))
+                    self.clipboarder.copy_characters_to_clipboard(self.get_codepoints(characters))
 
     def parse_arguments(self) -> argparse.Namespace:
         parser = configargparse.ArgumentParser(
@@ -138,9 +143,6 @@ class Rofimoji:
         parsed_args.rofi_args = shlex.split(parsed_args.rofi_args)
 
         return parsed_args
-
-    def get_active_window(self) -> str:
-        return run(args=['xdotool', 'getactivewindow'], capture_output=True, encoding='utf-8').stdout[:-1]
 
     def read_character_files(self) -> str:
         entries = ''
@@ -326,58 +328,16 @@ class Rofimoji:
 
     def default_handle(self, characters: str):
         if self.args.copy_only:
-            self.copy_characters_to_clipboard(characters)
+            self.clipboarder.copy_characters_to_clipboard(characters)
         elif self.args.insert_with_clipboard:
-            self.copy_paste_characters(characters, self.active_window)
+            self.clipboarder.copy_paste_characters(characters, self.active_window, self.typer)
         else:
-            self.type_characters(characters, self.active_window)
+            self.typer.type_characters(characters, self.active_window)
 
     def default_handle_recent_character(self, position: int):
         recent_characters = self.load_recent_characters(position)
 
         self.default_handle(recent_characters[position - 1].strip())
-
-    def copy_paste_characters(self, characters: str, active_window: str) -> None:
-        old_clipboard_content = run(args=['xsel', '-o', '-b'], capture_output=True).stdout
-        old_primary_content = run(args=['xsel', '-o', '-p'], capture_output=True).stdout
-
-        run(args=['xsel', '-i', '-b'], input=characters, encoding='utf-8')
-        run(args=['xsel', '-i', '-p'], input=characters, encoding='utf-8')
-
-        run([
-            'xdotool',
-            'windowfocus',
-            '--sync',
-            active_window,
-            'key',
-            '--clearmodifiers',
-            'Shift+Insert',
-            'sleep',
-            '0.05',
-        ])
-
-        run(args=['xsel', '-i', '-b'], input=old_clipboard_content)
-        run(args=['xsel', '-i', '-p'], input=old_primary_content)
-
-    def type_characters(self, characters: str, active_window: str) -> None:
-        run([
-            'xdotool',
-            'type',
-            '--clearmodifiers',
-            '--window',
-            active_window,
-            characters
-        ])
-
-    def copy_characters_to_clipboard(self, characters: str) -> None:
-        run([
-            'xsel',
-            '-i',
-            '-b'
-        ],
-            input=characters,
-            encoding='utf-8'
-        )
 
 
 def main():

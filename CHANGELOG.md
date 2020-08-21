@@ -1,6 +1,7 @@
 # [next]
 ## Added
 - You can type and copy the unicode codepoints (#48)
+- TODO
 
 # [4.2.0]
 ## Added

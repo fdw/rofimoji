@@ -239,7 +239,6 @@ class Rofimoji:
             self,
             chosen_characters: List[str]
     ) -> str:
-        skin_tone = self.args.skin_tone,
 
         result = ""
         for line in chosen_characters:
@@ -248,7 +247,7 @@ class Rofimoji:
             characters_with_skin_tone = ''
             for element in character:
                 if element in self.skin_tone_selectable_emojis:
-                    characters_with_skin_tone += self.select_skin_tone(element, str(skin_tone))
+                    characters_with_skin_tone += self.select_skin_tone(element)
                 else:
                     characters_with_skin_tone += element
 
@@ -256,7 +255,9 @@ class Rofimoji:
 
         return result
 
-    def select_skin_tone(self, selected_emoji: chr, skin_tone: str) -> str:
+    def select_skin_tone(self, selected_emoji: chr) -> str:
+        skin_tone = self.args.skin_tone
+
         if skin_tone == 'neutral':
             return selected_emoji
         elif skin_tone != 'ask':

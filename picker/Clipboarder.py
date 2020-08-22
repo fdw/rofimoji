@@ -1,3 +1,4 @@
+import os
 import shutil
 from subprocess import run
 
@@ -80,7 +81,7 @@ class XClipClipboarder:
 class WlClipboarder(Clipboarder):
     @staticmethod
     def supported() -> bool:
-        return shutil.which('wl-copy') is not None
+        return os.environ.get('WAYLAND_DISPLAY', False)
 
     def copy_characters_to_clipboard(self, characters: str) -> None:
         run(

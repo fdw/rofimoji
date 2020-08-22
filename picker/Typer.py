@@ -1,12 +1,14 @@
+import shutil
 from subprocess import run
 
 
 class Typer:
     @staticmethod
     def bestOption() -> 'Typer':
-        return next(typer for typer in [XDoToolTyper()] if typer.supported())
+        return next(typer for typer in [XDoToolTyper, WTypeTyper] if typer.supported())()
 
-    def supported(self) -> bool:
+    @staticmethod
+    def supported() -> bool:
         pass
 
     def get_active_window(self) -> str:
@@ -20,8 +22,9 @@ class Typer:
 
 
 class XDoToolTyper(Typer):
-    def supported(self) -> bool:
-        return True
+    @staticmethod
+    def supported() -> bool:
+        return shutil.which('xdotool') is not None
 
     def get_active_window(self) -> str:
         return run(args=['xdotool', 'getactivewindow'], capture_output=True,
@@ -48,4 +51,27 @@ class XDoToolTyper(Typer):
             'Shift+Insert',
             'sleep',
             '0.05',
+        ])
+
+
+class WTypeTyper:
+    @staticmethod
+    def supported() -> bool:
+        return shutil.which('wtype') is not None
+
+    def get_active_window(self) -> str:
+        pass
+
+    def type_characters(self, characters: str, active_window: str) -> None:
+        run([
+            'wtype',
+            characters
+        ])
+
+    def insert_from_clipboard(self, active_window: str) -> None:
+        run([
+            'wtype',
+            'key',
+            '--clearmodifiers',
+            'Shift+Insert'
         ])

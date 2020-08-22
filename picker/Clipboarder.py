@@ -1,3 +1,4 @@
+import shutil
 from subprocess import run
 
 from picker.Typer import Typer
@@ -6,9 +7,10 @@ from picker.Typer import Typer
 class Clipboarder:
     @staticmethod
     def bestOption() -> 'Clipboarder':
-        return next(clipboarder for clipboarder in [XSelClipboarder()] if clipboarder.supported())
+        return next(clipboarder for clipboarder in [XSelClipboarder, WlClipboarder] if clipboarder.supported())()
 
-    def supported(self) -> bool:
+    @staticmethod
+    def supported() -> bool:
         pass
 
     def copy_characters_to_clipboard(self, characters: str) -> None:
@@ -19,8 +21,9 @@ class Clipboarder:
 
 
 class XSelClipboarder(Clipboarder):
-    def supported(self) -> bool:
-        return True
+    @staticmethod
+    def supported() -> bool:
+        return shutil.which('xsel') is not None
 
     def copy_characters_to_clipboard(self, characters: str) -> None:
         run([
@@ -43,3 +46,28 @@ class XSelClipboarder(Clipboarder):
 
         run(args=['xsel', '-i', '-b'], input=old_clipboard_content)
         run(args=['xsel', '-i', '-p'], input=old_primary_content)
+
+
+class WlClipboarder(Clipboarder):
+    @staticmethod
+    def supported() -> bool:
+        return shutil.which('wl-copy') is not None
+
+    def copy_characters_to_clipboard(self, characters: str) -> None:
+        run(
+            ['wl-copy'],
+            input=characters,
+            encoding='utf-8'
+        )
+
+    def copy_paste_characters(self, characters: str, active_window: str, typer: Typer) -> None:
+        old_clipboard_content = run(args=['wl-paste'], capture_output=True).stdout
+        old_primary_content = run(args=['wl-paste', '--primary'], capture_output=True).stdout
+
+        run(args=['wl-copy'], input=characters, encoding='utf-8')
+        run(args=['wl-copy', '--primary'], input=characters, encoding='utf-8')
+
+        typer.insert_from_clipboard(active_window)
+
+        run(args=['wl-copy'], input=old_clipboard_content)
+        run(args=['wl-copy', '--primary'], input=old_primary_content)

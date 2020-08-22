@@ -8,7 +8,7 @@ from picker.Typer import Typer
 class Clipboarder:
     @staticmethod
     def bestOption() -> 'Clipboarder':
-        return next(clipboarder for clipboarder in [XSelClipboarder, WlClipboarder] if clipboarder.supported())()
+        return next(clipboarder for clipboarder in [XSelClipboarder, XClipClipboarder, WlClipboarder] if clipboarder.supported())()
 
     @staticmethod
     def supported() -> bool:
@@ -47,6 +47,35 @@ class XSelClipboarder(Clipboarder):
 
         run(args=['xsel', '-i', '-b'], input=old_clipboard_content)
         run(args=['xsel', '-i', '-p'], input=old_primary_content)
+
+
+class XClipClipboarder:
+    @staticmethod
+    def supported() -> bool:
+        return shutil.which('xclip') is not None
+
+    def copy_characters_to_clipboard(self, characters: str) -> None:
+        run([
+            'xclip',
+            '-i',
+            '-selection',
+            'clipboard'
+        ],
+            input=characters,
+            encoding='utf-8'
+        )
+
+    def copy_paste_characters(self, characters: str, active_window: str, typer: Typer) -> None:
+        old_clipboard_content = run(args=['xclip', '-o', '-selection', 'clipboard'], capture_output=True).stdout
+        old_primary_content = run(args=['xclip', '-o', '-selection', 'primary'], capture_output=True).stdout
+
+        run(args=['xclip', '-i', '-selection', 'clipboard'], input=characters, encoding='utf-8')
+        run(args=['xclip', '-i', '-selection', 'primary'], input=characters, encoding='utf-8')
+
+        typer.insert_from_clipboard(active_window)
+
+        run(args=['xclip', '-i', '-selection', 'clipboard'], input=old_clipboard_content)
+        run(args=['xclip', '-i', '-selection', 'primary'], input=old_primary_content)
 
 
 class WlClipboarder(Clipboarder):

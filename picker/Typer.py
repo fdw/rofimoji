@@ -1,3 +1,4 @@
+import os
 import shutil
 from subprocess import run
 
@@ -57,7 +58,7 @@ class XDoToolTyper(Typer):
 class WTypeTyper:
     @staticmethod
     def supported() -> bool:
-        return shutil.which('wtype') is not None
+        return os.environ.get('WAYLAND_DISPLAY', False)
 
     def get_active_window(self) -> str:
         return "not possible with wtype"

@@ -35,6 +35,8 @@ fitzpatrick_modifiers = {
 fitzpatrick_modifiers_reversed = {" ".join(name.split()[:-1]): modifier for modifier, name in
                                   fitzpatrick_modifiers.items() if name != "neutral"}
 
+invisible_codepoints = {'\u200c', '\u200d', '\ufe0f'}
+
 
 def main() -> None:
     args = parse_arguments()
@@ -42,7 +44,7 @@ def main() -> None:
 
     returncode, stdout = open_main_rofi_window(
         args.rofi_args,
-        read_character_files(args.files),
+        read_character_files(args.files, args),
         args.prompt,
         args.max_recent
     )
@@ -135,6 +137,12 @@ def parse_arguments() -> argparse.Namespace:
         default=10,
         help='Show at most this number of recently used characters (cannot be larger than 10)'
     )
+    parser.add_argument(
+        '--codepoints',
+        dest='codepoints',
+        action='store_true',
+        help='Show character codepoints next to the character'
+    )
 
     parsed_args = parser.parse_args()
     parsed_args.rofi_args = shlex.split(parsed_args.rofi_args)
@@ -146,13 +154,25 @@ def get_active_window() -> str:
     return run(args=['xdotool', 'getactivewindow'], capture_output=True, encoding='utf-8').stdout[:-1]
 
 
-def read_character_files(file_names: List[str]) -> str:
+def insert_codepoint(line):
+    sep = line.find(' ', 1)
+    if sep < 1: print(sep)
+    char = line[:sep]
+    desc = line[sep+1:]
+    codepoint = [str(hex(ord(c)))[2:] for c in char if c not in invisible_codepoints]
+    return ' '.join((char, '<small>'+'+'.join(codepoint)+'</small>', desc))
+
+
+def read_character_files(file_names: List[str], args: argparse.Namespace) -> str:
     entries = ''
 
     file_names = resolve_all_files(file_names)
 
     for file_name in file_names:
         entries = entries + load_from_file(file_name)
+    
+    if args.codepoints:
+        entries = '\n'.join(map(insert_codepoint, entries.rstrip().split('\n')))
 
     return entries
 

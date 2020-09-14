@@ -44,7 +44,7 @@ def main() -> None:
 
     returncode, stdout = open_main_rofi_window(
         args.rofi_args,
-        read_character_files(args.files, args),
+        read_character_files(args.files, args.codepoints),
         args.prompt,
         args.max_recent
     )
@@ -163,7 +163,7 @@ def insert_codepoint(line):
     return ' '.join((char, '<small>'+'+'.join(codepoint)+'</small>', desc))
 
 
-def read_character_files(file_names: List[str], args: argparse.Namespace) -> str:
+def read_character_files(file_names: List[str], show_codepoints : bool) -> str:
     entries = ''
 
     file_names = resolve_all_files(file_names)
@@ -171,7 +171,7 @@ def read_character_files(file_names: List[str], args: argparse.Namespace) -> str
     for file_name in file_names:
         entries = entries + load_from_file(file_name)
     
-    if args.codepoints:
+    if show_codepoints:
         entries = '\n'.join(map(insert_codepoint, entries.rstrip().split('\n')))
 
     return entries

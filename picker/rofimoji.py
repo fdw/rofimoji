@@ -70,6 +70,8 @@ def main() -> None:
                 type_characters(characters, active_window)
             elif returncode == 22:
                 copy_paste_characters(characters, active_window)
+            elif returncode == 23:
+                copy_characters_to_clipboard('-'.join(get_codepoints(characters)))
 
 
 def parse_arguments() -> argparse.Namespace:
@@ -141,7 +143,7 @@ def parse_arguments() -> argparse.Namespace:
         '--codepoints',
         dest='codepoints',
         action='store_true',
-        help='Show character codepoints next to the character'
+        help='Show Unicode codepoints next to the character'
     )
 
     parsed_args = parser.parse_args()
@@ -154,13 +156,15 @@ def get_active_window() -> str:
     return run(args=['xdotool', 'getactivewindow'], capture_output=True, encoding='utf-8').stdout[:-1]
 
 
+def get_codepoints(char):
+    return [str(hex(ord(c)))[2:] for c in char]
+
+
 def insert_codepoint(line):
     sep = line.find(' ', 1)
-    if sep < 1: print(sep)
     char = line[:sep]
     desc = line[sep+1:]
-    codepoint = [str(hex(ord(c)))[2:] for c in char if c not in invisible_codepoints]
-    return ' '.join((char, '<small>'+'+'.join(codepoint)+'</small>', desc))
+    return ' '.join((char, ' <small>'+'-'.join(get_codepoints(char))+'</small> ', desc))
 
 
 def read_character_files(file_names: List[str], show_codepoints : bool) -> str:
@@ -171,8 +175,8 @@ def read_character_files(file_names: List[str], show_codepoints : bool) -> str:
     for file_name in file_names:
         entries = entries + load_from_file(file_name)
     
-    if show_codepoints:
-        entries = '\n'.join(map(insert_codepoint, entries.rstrip().split('\n')))
+    # if show_codepoints:
+    entries = '\n'.join(map(insert_codepoint, entries.rstrip().split('\n')))
 
     return entries
 
@@ -238,6 +242,8 @@ def open_main_rofi_window(rofi_args: List[str], characters: str, prompt: str, ma
         'Alt+t',
         '-kb-custom-13',
         'Alt+p',
+        '-kb-custom-14',
+        'Alt+u',
         *rofi_args
     ]
 

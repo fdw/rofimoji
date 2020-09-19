@@ -69,9 +69,9 @@ def main(show_codepoints: bool = False) -> None:
             elif returncode == 22:
                 copy_paste_characters(characters, active_window)
             elif returncode == 23:
-                copy_characters_to_clipboard('-'.join(get_codepoints(characters)))
-            elif returncode == 24:
                 main(not show_codepoints)
+            elif returncode == 24:
+                copy_characters_to_clipboard('-'.join(get_codepoints(characters)))
 
 
 def parse_arguments() -> argparse.Namespace:

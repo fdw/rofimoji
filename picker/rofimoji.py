@@ -35,16 +35,14 @@ fitzpatrick_modifiers = {
 fitzpatrick_modifiers_reversed = {" ".join(name.split()[:-1]): modifier for modifier, name in
                                   fitzpatrick_modifiers.items() if name != "neutral"}
 
-invisible_codepoints = {'\u200c', '\u200d', '\ufe0f'}
 
-
-def main() -> None:
+def main(show_codepoints: bool = False) -> None:
     args = parse_arguments()
     active_window = get_active_window()
 
     returncode, stdout = open_main_rofi_window(
         args.rofi_args,
-        read_character_files(args.files, args.codepoints),
+        read_character_files(args.files, show_codepoints),
         args.prompt,
         args.max_recent
     )
@@ -72,6 +70,8 @@ def main() -> None:
                 copy_paste_characters(characters, active_window)
             elif returncode == 23:
                 copy_characters_to_clipboard('-'.join(get_codepoints(characters)))
+            elif returncode == 24:
+                main(not show_codepoints)
 
 
 def parse_arguments() -> argparse.Namespace:
@@ -139,12 +139,6 @@ def parse_arguments() -> argparse.Namespace:
         default=10,
         help='Show at most this number of recently used characters (cannot be larger than 10)'
     )
-    parser.add_argument(
-        '--codepoints',
-        dest='codepoints',
-        action='store_true',
-        help='Show Unicode codepoints next to the character'
-    )
 
     parsed_args = parser.parse_args()
     parsed_args.rofi_args = shlex.split(parsed_args.rofi_args)
@@ -156,18 +150,18 @@ def get_active_window() -> str:
     return run(args=['xdotool', 'getactivewindow'], capture_output=True, encoding='utf-8').stdout[:-1]
 
 
-def get_codepoints(char):
+def get_codepoints(char: str) -> str:
     return [str(hex(ord(c)))[2:] for c in char]
 
 
-def insert_codepoint(line):
+def insert_codepoint(line: str) -> str:
     sep = line.find(' ', 1)
     char = line[:sep]
     desc = line[sep+1:]
     return ' '.join((char, ' <small>'+'-'.join(get_codepoints(char))+'</small> ', desc))
 
 
-def read_character_files(file_names: List[str], show_codepoints : bool) -> str:
+def read_character_files(file_names: List[str], show_codepoints: bool) -> str:
     entries = ''
 
     file_names = resolve_all_files(file_names)
@@ -175,13 +169,13 @@ def read_character_files(file_names: List[str], show_codepoints : bool) -> str:
     for file_name in file_names:
         entries = entries + load_from_file(file_name)
     
-    # if show_codepoints:
-    entries = '\n'.join(map(insert_codepoint, entries.rstrip().split('\n')))
+    if show_codepoints:
+        entries = '\n'.join(map(insert_codepoint, entries.rstrip().split('\n')))
 
     return entries
 
 
-def resolve_all_files(file_names):
+def resolve_all_files(file_names: List[str]) -> List[str]:
     if len(file_names) == 1 and file_names[0] == 'all':
         file_names = [os.path.splitext(file)[0] for file in
                       os.listdir(os.path.join(os.path.dirname(__file__), "data"))
@@ -244,6 +238,8 @@ def open_main_rofi_window(rofi_args: List[str], characters: str, prompt: str, ma
         'Alt+p',
         '-kb-custom-14',
         'Alt+u',
+        '-kb-custom-15',
+        'Alt+i',
         *rofi_args
     ]
 

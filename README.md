@@ -12,7 +12,7 @@ And you can use it to pick any weird character someone got into Unicode, too.
    Hit `alt+c` to copy it to the clipboard \
    `alt+t` or `alt+p` can be used to select a specific input method \
    `alt+1` inserts the most recently used character (`alt+2` for the second most recently one etc.) \
-   Hit `alt+u` to copy the Unicode codepoint or hit `alt+i` to show them in the list
+   `alt+u` inserts the Unicode codepoint, `alt+i` copies it to the clipboard
 5. Maybe select a skin color
 6. 🎠
 

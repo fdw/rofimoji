@@ -36,13 +36,13 @@ fitzpatrick_modifiers_reversed = {" ".join(name.split()[:-1]): modifier for modi
                                   fitzpatrick_modifiers.items() if name != "neutral"}
 
 
-def main(show_codepoints: bool = False) -> None:
+def main() -> None:
     args = parse_arguments()
     active_window = get_active_window()
 
     returncode, stdout = open_main_rofi_window(
         args.rofi_args,
-        read_character_files(args.files, show_codepoints),
+        read_character_files(args.files),
         args.prompt,
         args.max_recent
     )
@@ -69,9 +69,9 @@ def main(show_codepoints: bool = False) -> None:
             elif returncode == 22:
                 copy_paste_characters(characters, active_window)
             elif returncode == 23:
-                main(not show_codepoints)
+                copy_paste_characters(get_codepoints(characters), active_window)
             elif returncode == 24:
-                copy_characters_to_clipboard('-'.join(get_codepoints(characters)))
+                copy_characters_to_clipboard(get_codepoints(characters))
 
 
 def parse_arguments() -> argparse.Namespace:
@@ -150,18 +150,7 @@ def get_active_window() -> str:
     return run(args=['xdotool', 'getactivewindow'], capture_output=True, encoding='utf-8').stdout[:-1]
 
 
-def get_codepoints(char: str) -> str:
-    return [str(hex(ord(c)))[2:] for c in char]
-
-
-def insert_codepoint(line: str) -> str:
-    sep = line.find(' ', 1)
-    char = line[:sep]
-    desc = line[sep+1:]
-    return ' '.join((char, ' <small>'+'-'.join(get_codepoints(char))+'</small> ', desc))
-
-
-def read_character_files(file_names: List[str], show_codepoints: bool) -> str:
+def read_character_files(file_names: List[str]) -> str:
     entries = ''
 
     file_names = resolve_all_files(file_names)
@@ -169,9 +158,6 @@ def read_character_files(file_names: List[str], show_codepoints: bool) -> str:
     for file_name in file_names:
         entries = entries + load_from_file(file_name)
     
-    if show_codepoints:
-        entries = '\n'.join(map(insert_codepoint, entries.rstrip().split('\n')))
-
     return entries
 
 
@@ -306,6 +292,10 @@ def select_skin_tone(selected_emoji: chr, skin_tone: str, rofi_args: List[str]) 
             return ''
 
         return rofi_skin.stdout.split(' ')[0]
+
+
+def get_codepoints(char: str) -> str:
+    return '-'.join([str(hex(ord(c)))[2:] for c in char])
 
 
 def save_characters_to_recent_file(characters: str, max_recent_from_conf: int):

@@ -69,7 +69,7 @@ def main() -> None:
             elif returncode == 22:
                 copy_paste_characters(characters, active_window)
             elif returncode == 23:
-                copy_paste_characters(get_codepoints(characters), active_window)
+                default_handle(get_codepoints(characters), args, active_window)
             elif returncode == 24:
                 copy_characters_to_clipboard(get_codepoints(characters))
 
@@ -376,6 +376,7 @@ def type_characters(characters: str, active_window: str) -> None:
     run([
         'xdotool',
         'type',
+        '--clearmodifiers',
         '--window',
         active_window,
         characters

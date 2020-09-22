@@ -1,3 +1,7 @@
+# [next]
+## Added
+- You can type and copy the unicode codepoints (#48)
+
 # [4.2.0]
 ## Added
 - The most recently characters are now shown in a separate strip and can be selected with shortcuts (`alt+1` etc). (#39)

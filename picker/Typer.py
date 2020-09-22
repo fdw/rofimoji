@@ -35,7 +35,7 @@ class XDoToolTyper(Typer):
         run([
             'xdotool',
             'type',
-            '--clearmodifiers'
+            '--clearmodifiers',
             '--window',
             active_window,
             characters

@@ -11,7 +11,8 @@ And you can use it to pick any weird character someone got into Unicode, too.
 4. Hit `enter` to insert the emoji directly \
    Hit `alt+c` to copy it to the clipboard \
    `alt+t` or `alt+p` can be used to select a specific input method \
-   `alt+1` inserts the most recently used character (`alt+2` for the second most recently one etc.)
+   `alt+1` inserts the most recently used character (`alt+2` for the second most recently one etc.) \
+   `alt+u` inserts the Unicode codepoint, `alt+i` copies it to the clipboard
 5. Maybe select a skin color
 6. 🎠
 

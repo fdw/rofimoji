@@ -68,6 +68,10 @@ def main() -> None:
                 type_characters(characters, active_window)
             elif returncode == 22:
                 copy_paste_characters(characters, active_window)
+            elif returncode == 23:
+                default_handle(get_codepoints(characters), args, active_window)
+            elif returncode == 24:
+                copy_characters_to_clipboard(get_codepoints(characters))
 
 
 def parse_arguments() -> argparse.Namespace:
@@ -153,11 +157,11 @@ def read_character_files(file_names: List[str]) -> str:
 
     for file_name in file_names:
         entries = entries + load_from_file(file_name)
-
+    
     return entries
 
 
-def resolve_all_files(file_names):
+def resolve_all_files(file_names: List[str]) -> List[str]:
     if len(file_names) == 1 and file_names[0] == 'all':
         file_names = [os.path.splitext(file)[0] for file in
                       os.listdir(os.path.join(os.path.dirname(__file__), "data"))
@@ -218,6 +222,10 @@ def open_main_rofi_window(rofi_args: List[str], characters: str, prompt: str, ma
         'Alt+t',
         '-kb-custom-13',
         'Alt+p',
+        '-kb-custom-14',
+        'Alt+u',
+        '-kb-custom-15',
+        'Alt+i',
         *rofi_args
     ]
 
@@ -284,6 +292,10 @@ def select_skin_tone(selected_emoji: chr, skin_tone: str, rofi_args: List[str]) 
             return ''
 
         return rofi_skin.stdout.split(' ')[0]
+
+
+def get_codepoints(char: str) -> str:
+    return '-'.join([str(hex(ord(c)))[2:] for c in char])
 
 
 def save_characters_to_recent_file(characters: str, max_recent_from_conf: int):
@@ -364,6 +376,7 @@ def type_characters(characters: str, active_window: str) -> None:
     run([
         'xdotool',
         'type',
+        '--clearmodifiers',
         '--window',
         active_window,
         characters

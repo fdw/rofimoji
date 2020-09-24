@@ -8,7 +8,7 @@ from picker.Typer import Typer
 class Clipboarder:
     @staticmethod
     def bestOption() -> 'Clipboarder':
-        return next(clipboarder for clipboarder in [XSelClipboarder, XClipClipboarder, WlClipboarder] if clipboarder.supported())()
+        return next(clipboarder for clipboarder in [WlClipboarder, XSelClipboarder, XClipClipboarder] if clipboarder.supported())()
 
     @staticmethod
     def supported() -> bool:

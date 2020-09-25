@@ -1,14 +1,17 @@
-import os
-import shutil
 from subprocess import run
 
+from picker.AbstractionHelper import is_wayland, is_installed
 from picker.Typer import Typer
 
 
 class Clipboarder:
     @staticmethod
-    def bestOption() -> 'Clipboarder':
-        return next(clipboarder for clipboarder in [WlClipboarder, XSelClipboarder, XClipClipboarder] if clipboarder.supported())()
+    def best_option() -> 'Clipboarder':
+        try:
+            return next(clipboarder for clipboarder in [WlClipboarder, XSelClipboarder, XClipClipboarder] if clipboarder.supported())()
+        except StopIteration:
+            print('Could not find a valid way to copy to clipboard.')
+            exit(6)
 
     @staticmethod
     def supported() -> bool:
@@ -24,7 +27,7 @@ class Clipboarder:
 class XSelClipboarder(Clipboarder):
     @staticmethod
     def supported() -> bool:
-        return shutil.which('xsel') is not None
+        return not is_wayland() and is_installed('xsel')
 
     def copy_characters_to_clipboard(self, characters: str) -> None:
         run([
@@ -49,10 +52,10 @@ class XSelClipboarder(Clipboarder):
         run(args=['xsel', '-i', '-p'], input=old_primary_content)
 
 
-class XClipClipboarder:
+class XClipClipboarder(Clipboarder):
     @staticmethod
     def supported() -> bool:
-        return shutil.which('xclip') is not None
+        return not is_wayland() and is_installed('xclip')
 
     def copy_characters_to_clipboard(self, characters: str) -> None:
         run([
@@ -81,7 +84,7 @@ class XClipClipboarder:
 class WlClipboarder(Clipboarder):
     @staticmethod
     def supported() -> bool:
-        return os.environ.get('WAYLAND_DISPLAY', False)
+        return is_wayland() and is_installed('wl-copy')
 
     def copy_characters_to_clipboard(self, characters: str) -> None:
         run(

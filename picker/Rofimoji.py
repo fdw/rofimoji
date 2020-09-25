@@ -42,8 +42,8 @@ class Rofimoji:
 
     def __init__(self) -> None:
         self.args = self.parse_arguments()
-        self.typer = Typer.bestOption()
-        self.clipboarder = Clipboarder.bestOption()
+        self.typer = Typer.best_option()
+        self.clipboarder = Clipboarder.best_option()
         self.active_window = self.typer.get_active_window()
 
         returncode, stdout = self.open_main_rofi_window(

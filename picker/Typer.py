@@ -1,12 +1,16 @@
-import os
-import shutil
 from subprocess import run
+
+from picker.AbstractionHelper import is_wayland, is_installed
 
 
 class Typer:
     @staticmethod
-    def bestOption() -> 'Typer':
-        return next(typer for typer in [XDoToolTyper, WTypeTyper] if typer.supported())()
+    def best_option() -> 'Typer':
+        try:
+            return next(typer for typer in [XDoToolTyper, WTypeTyper] if typer.supported())()
+        except StopIteration:
+            print('Could not find a valid way to type characters.')
+            exit(5)
 
     @staticmethod
     def supported() -> bool:
@@ -25,7 +29,7 @@ class Typer:
 class XDoToolTyper(Typer):
     @staticmethod
     def supported() -> bool:
-        return shutil.which('xdotool') is not None
+        return not is_wayland() and is_installed('xdotool')
 
     def get_active_window(self) -> str:
         return run(args=['xdotool', 'getactivewindow'], capture_output=True,
@@ -55,10 +59,10 @@ class XDoToolTyper(Typer):
         ])
 
 
-class WTypeTyper:
+class WTypeTyper(Typer):
     @staticmethod
     def supported() -> bool:
-        return os.environ.get('WAYLAND_DISPLAY', False)
+        return is_wayland() and is_installed('wtype')
 
     def get_active_window(self) -> str:
         return "not possible with wtype"

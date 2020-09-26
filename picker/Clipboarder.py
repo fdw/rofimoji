@@ -6,15 +6,23 @@ from picker.Typer import Typer
 
 class Clipboarder:
     @staticmethod
-    def best_option() -> 'Clipboarder':
+    def best_option(name: str = None) -> 'Clipboarder':
         try:
-            return next(clipboarder for clipboarder in [WlClipboarder, XSelClipboarder, XClipClipboarder] if clipboarder.supported())()
+            return next(clipboarder for clipboarder in Clipboarder.__subclasses__() if clipboarder.name() == name)()
         except StopIteration:
-            print('Could not find a valid way to copy to clipboard.')
-            exit(6)
+            try:
+                return next(clipboarder for clipboarder in Clipboarder.__subclasses__() if clipboarder.supported())()
+            except StopIteration:
+                print('Could not find a valid way to copy to clipboard.')
+                exit(6)
 
     @staticmethod
     def supported() -> bool:
+        pass
+
+
+    @staticmethod
+    def name() -> str:
         pass
 
     def copy_characters_to_clipboard(self, characters: str) -> None:
@@ -28,6 +36,10 @@ class XSelClipboarder(Clipboarder):
     @staticmethod
     def supported() -> bool:
         return not is_wayland() and is_installed('xsel')
+
+    @staticmethod
+    def name() -> str:
+        return 'xsel'
 
     def copy_characters_to_clipboard(self, characters: str) -> None:
         run([
@@ -57,6 +69,10 @@ class XClipClipboarder(Clipboarder):
     def supported() -> bool:
         return not is_wayland() and is_installed('xclip')
 
+    @staticmethod
+    def name() -> str:
+        return 'xclip'
+
     def copy_characters_to_clipboard(self, characters: str) -> None:
         run([
             'xclip',
@@ -85,6 +101,10 @@ class WlClipboarder(Clipboarder):
     @staticmethod
     def supported() -> bool:
         return is_wayland() and is_installed('wl-copy')
+
+    @staticmethod
+    def name() -> str:
+        return 'wl-copy'
 
     def copy_characters_to_clipboard(self, characters: str) -> None:
         run(

@@ -42,12 +42,11 @@ class Rofimoji:
 
     def __init__(self) -> None:
         self.args = self.parse_arguments()
-        self.typer = Typer.best_option()
-        self.clipboarder = Clipboarder.best_option()
+        self.typer = Typer.best_option(self.args.typer)
+        self.clipboarder = Clipboarder.best_option(self.args.clipboarder)
         self.active_window = self.typer.get_active_window()
 
-        returncode, stdout = self.open_main_rofi_window(
-        )
+        returncode, stdout = self.open_main_rofi_window()
 
         if returncode == 1:
             sys.exit()
@@ -137,6 +136,22 @@ class Rofimoji:
             type=int,
             default=10,
             help='Show at most this number of recently used characters (cannot be larger than 10)'
+        )
+        parser.add_argument(
+            '--clipboarder',
+            dest='clipboarder',
+            action='store',
+            type=str,
+            default=None,
+            help='Choose the application to access the clipboard with'
+        )
+        parser.add_argument(
+            '--typer',
+            dest='typer',
+            action='store',
+            type=str,
+            default=None,
+            help='Choose the application to type with'
         )
 
         parsed_args = parser.parse_args()

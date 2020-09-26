@@ -5,15 +5,22 @@ from picker.AbstractionHelper import is_wayland, is_installed
 
 class Typer:
     @staticmethod
-    def best_option() -> 'Typer':
+    def best_option(name: str = None) -> 'Typer':
         try:
-            return next(typer for typer in [XDoToolTyper, WTypeTyper] if typer.supported())()
+            return next(typer for typer in Typer.__subclasses__() if typer.name() == name)()
         except StopIteration:
-            print('Could not find a valid way to type characters.')
-            exit(5)
+            try:
+                return next(typer for typer in Typer.__subclasses__() if typer.supported())()
+            except StopIteration:
+                print('Could not find a valid way to type characters.')
+                exit(5)
 
     @staticmethod
     def supported() -> bool:
+        pass
+
+    @staticmethod
+    def name() -> str:
         pass
 
     def get_active_window(self) -> str:
@@ -30,6 +37,10 @@ class XDoToolTyper(Typer):
     @staticmethod
     def supported() -> bool:
         return not is_wayland() and is_installed('xdotool')
+
+    @staticmethod
+    def name() -> str:
+        return 'xdotool'
 
     def get_active_window(self) -> str:
         return run(args=['xdotool', 'getactivewindow'], capture_output=True,
@@ -63,6 +74,11 @@ class WTypeTyper(Typer):
     @staticmethod
     def supported() -> bool:
         return is_wayland() and is_installed('wtype')
+
+    @staticmethod
+    def name() -> str:
+        return 'wtype'
+
 
     def get_active_window(self) -> str:
         return "not possible with wtype"

@@ -36,6 +36,10 @@ If you don't want this, you can set `--max=recent` to `0`.
 
 The characters are saved in `$XDG_DATA_HOME/rofimoji/recent`.
 
+## Display Server Support
+`rofimoji` supports both X11 and Wayland by using either `xsel`/`xclip` and `xdotool` on X11 or `wl-copy` and `wtype` on Wayland. It chooses automatically the right one for the currently running session.
+If you want to manually overwrite this, have a look at the `--clipboarder` and `--typer` options [below](#options).
+
 ## Configuration
 You can configure `rofimoji` either with cli arguments or with a config file called `$XDG_CONFIG_HOME/rofimoji.rc`. For the file, use the long option names without double dashes.
 
@@ -50,6 +54,8 @@ You can configure `rofimoji` either with cli arguments or with a config file cal
 | `--insert-with-clipboard` | `-p` | | Insert the selected emoji through pasting from the clipboard, instead of directly typing them. See [Insertion Method](#insertion-method). |
 | `--copy-only` | `-c` | | Only copy the selected characters to the clipboard without typing them. |
 | `--max-recent` |  | 1-10 | Show at most this many recently picked characters. The number will be capped at 10. |
+| `--clipboarder` | | `xsel`, `xclip`, `wl-copy` | Access the clipboard with this application. |
+| `--typer` | | `xdotool`, `wtype` | Type the characters using this application. |
 
 ### Example config file
 `~/.config/rofimoji.rc`:
@@ -73,9 +79,10 @@ This also installs the python dependencies `xdg` and `configargparse`.
 What else do you need:
 - Python 3
 - A font that can display your scripts, (for emojis, [EmojiOne](https://github.com/emojione/emojione) or [Noto Emoji](https://www.google.com/get/noto/) work)
-- xdotool for typing the emoji
-- xsel to copy the emoji to the clipboard
+- A tool to programmatically type characters into applications. Either `xdotool` for X11 or `wtype` for Wayland
+- A tool to copy the characters to the clipboard. `xsel` and `xclip` work on X11; `wl-copy` on Wayland
 
+#### Examples for X11
 For Ubuntu focal: `sudo aptitude install fonts-emojione python3 rofi xdotool xsel` \
 For Arch: `sudo pacman -Syu emoji-font python rofi xdotool xsel`
 

@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='rofimoji',
-    version='4.2.0',
+    version='4.3.0-SNAPSHOT',
     description='Simple character picker using rofi',
     author='fdw',
     author_email='5821180+fdw@users.noreply.github.com',
@@ -19,7 +19,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'rofimoji = picker.rofimoji:main'
+            'rofimoji = picker.Rofimoji:main'
         ]
     },
     install_requires=[

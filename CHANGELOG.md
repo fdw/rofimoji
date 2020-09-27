@@ -1,5 +1,7 @@
-# [next]
+# [4.3.0]
 ## Added
+- Added support for Wayland! (#47)
+- Added support for `xclip` (#21)
 - You can type and copy the unicode codepoints (#48)
 
 # [4.2.0]

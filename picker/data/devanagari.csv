@@ -1,12 +1,5 @@
-ॺ Devanagari Letter Heavy Ya
-ॻ Devanagari Letter Gga
-ॼ Devanagari Letter Jja
-ॹ Devanagari Letter Zha
-ॽ Devanagari Letter Glottal Stop
 ऀ Devanagari Sign Inverted Candrabindu
-ॾ Devanagari Letter Ddda
 ँ Devanagari Sign Candrabindu
-ॿ Devanagari Letter Bba
 ं Devanagari Sign Anusvara
 ः Devanagari Sign Visarga
 ऄ Devanagari Letter Short A
@@ -44,85 +37,92 @@
 त Devanagari Letter Ta
 थ Devanagari Letter Tha
 द Devanagari Letter Da
-ॐ Devanagari Om
 ध Devanagari Letter Dha
-॑ Devanagari Stress Sign Udatta
 न Devanagari Letter Na
-॒ Devanagari Stress Sign Anudatta
 ऩ Devanagari Letter Nnna
-॓ Devanagari Grave Accent
 प Devanagari Letter Pa
-॔ Devanagari Acute Accent
 फ Devanagari Letter Pha
-ॕ Devanagari Vowel Sign Candra Long E
 ब Devanagari Letter Ba
-ॖ Devanagari Vowel Sign Ue
 भ Devanagari Letter Bha
-ॗ Devanagari Vowel Sign Uue
 म Devanagari Letter Ma
-क़ Devanagari Letter Qa
 य Devanagari Letter Ya
-ख़ Devanagari Letter Khha
 र Devanagari Letter Ra
-ग़ Devanagari Letter Ghha
 ऱ Devanagari Letter Rra
-ज़ Devanagari Letter Za
 ल Devanagari Letter La
-ड़ Devanagari Letter Dddha
 ळ Devanagari Letter Lla
-ढ़ Devanagari Letter Rha
 ऴ Devanagari Letter Llla
-फ़ Devanagari Letter Fa
 व Devanagari Letter Va
-य़ Devanagari Letter Yya
 श Devanagari Letter Sha
-ॠ Devanagari Letter Vocalic Rr
 ष Devanagari Letter Ssa
-ॡ Devanagari Letter Vocalic Ll
 स Devanagari Letter Sa
-ॢ Devanagari Vowel Sign Vocalic L
 ह Devanagari Letter Ha
-ॣ Devanagari Vowel Sign Vocalic Ll
 ऺ Devanagari Vowel Sign Oe
-। Devanagari Danda
 ऻ Devanagari Vowel Sign Ooe
-॥ Devanagari Double Danda
 ़ Devanagari Sign Nukta
-० Devanagari Digit Zero
 ऽ Devanagari Sign Avagraha
-१ Devanagari Digit One
 ा Devanagari Vowel Sign Aa
-२ Devanagari Digit Two
 ि Devanagari Vowel Sign I
-३ Devanagari Digit Three
 ी Devanagari Vowel Sign Ii
-४ Devanagari Digit Four
 ु Devanagari Vowel Sign U
-५ Devanagari Digit Five
 ू Devanagari Vowel Sign Uu
-६ Devanagari Digit Six
 ृ Devanagari Vowel Sign Vocalic R
-७ Devanagari Digit Seven
 ॄ Devanagari Vowel Sign Vocalic Rr
-८ Devanagari Digit Eight
 ॅ Devanagari Vowel Sign Candra E
-९ Devanagari Digit Nine
 ॆ Devanagari Vowel Sign Short E
-॰ Devanagari Abbreviation Sign
 े Devanagari Vowel Sign E
-ॱ Devanagari Sign High Spacing Dot
 ै Devanagari Vowel Sign Ai
-ॲ Devanagari Letter Candra A
 ॉ Devanagari Vowel Sign Candra O
-ॳ Devanagari Letter Oe
 ॊ Devanagari Vowel Sign Short O
-ॴ Devanagari Letter Ooe
 ो Devanagari Vowel Sign O
-ॵ Devanagari Letter Aw
 ौ Devanagari Vowel Sign Au
-ॶ Devanagari Letter Ue
 ् Devanagari Sign Virama
-ॷ Devanagari Letter Uue
 ॎ Devanagari Vowel Sign Prishthamatra E
-ॸ Devanagari Letter Marwari Dda
 ॏ Devanagari Vowel Sign Aw
+ॐ Devanagari Om
+॑ Devanagari Stress Sign Udatta
+॒ Devanagari Stress Sign Anudatta
+॓ Devanagari Grave Accent
+॔ Devanagari Acute Accent
+ॕ Devanagari Vowel Sign Candra Long E
+ॖ Devanagari Vowel Sign Ue
+ॗ Devanagari Vowel Sign Uue
+क़ Devanagari Letter Qa
+ख़ Devanagari Letter Khha
+ग़ Devanagari Letter Ghha
+ज़ Devanagari Letter Za
+ड़ Devanagari Letter Dddha
+ढ़ Devanagari Letter Rha
+फ़ Devanagari Letter Fa
+य़ Devanagari Letter Yya
+ॠ Devanagari Letter Vocalic Rr
+ॡ Devanagari Letter Vocalic Ll
+ॢ Devanagari Vowel Sign Vocalic L
+ॣ Devanagari Vowel Sign Vocalic Ll
+। Devanagari Danda
+॥ Devanagari Double Danda
+० Devanagari Digit Zero
+१ Devanagari Digit One
+२ Devanagari Digit Two
+३ Devanagari Digit Three
+४ Devanagari Digit Four
+५ Devanagari Digit Five
+६ Devanagari Digit Six
+७ Devanagari Digit Seven
+८ Devanagari Digit Eight
+९ Devanagari Digit Nine
+॰ Devanagari Abbreviation Sign
+ॱ Devanagari Sign High Spacing Dot
+ॲ Devanagari Letter Candra A
+ॳ Devanagari Letter Oe
+ॴ Devanagari Letter Ooe
+ॵ Devanagari Letter Aw
+ॶ Devanagari Letter Ue
+ॷ Devanagari Letter Uue
+ॸ Devanagari Letter Marwari Dda
+ॹ Devanagari Letter Zha
+ॺ Devanagari Letter Heavy Ya
+ॻ Devanagari Letter Gga
+ॼ Devanagari Letter Jja
+ॽ Devanagari Letter Glottal Stop
+ॾ Devanagari Letter Ddda
+ॿ Devanagari Letter Bba

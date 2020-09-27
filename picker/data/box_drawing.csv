@@ -1,3 +1,13 @@
+─ Box Drawings Light Horizontal
+━ Box Drawings Heavy Horizontal
+│ Box Drawings Light Vertical
+┃ Box Drawings Heavy Vertical
+┄ Box Drawings Light Triple Dash Horizontal
+┅ Box Drawings Heavy Triple Dash Horizontal
+┆ Box Drawings Light Triple Dash Vertical
+┇ Box Drawings Heavy Triple Dash Vertical
+┈ Box Drawings Light Quadruple Dash Horizontal
+┉ Box Drawings Heavy Quadruple Dash Horizontal
 ┊ Box Drawings Light Quadruple Dash Vertical
 ┋ Box Drawings Heavy Quadruple Dash Vertical
 ┌ Box Drawings Light Down And Right
@@ -30,94 +40,50 @@
 ┧ Box Drawings Down Heavy And Left Up Light
 ┨ Box Drawings Vertical Heavy And Left Light
 ┩ Box Drawings Down Light And Left Up Heavy
-─ Box Drawings Light Horizontal
 ┪ Box Drawings Up Light And Left Down Heavy
-━ Box Drawings Heavy Horizontal
 ┫ Box Drawings Heavy Vertical And Left
-│ Box Drawings Light Vertical
 ┬ Box Drawings Light Down And Horizontal
-┃ Box Drawings Heavy Vertical
 ┭ Box Drawings Left Heavy And Right Down Light
-┄ Box Drawings Light Triple Dash Horizontal
 ┮ Box Drawings Right Heavy And Left Down Light
-┅ Box Drawings Heavy Triple Dash Horizontal
 ┯ Box Drawings Down Light And Horizontal Heavy
-┆ Box Drawings Light Triple Dash Vertical
 ┰ Box Drawings Down Heavy And Horizontal Light
-┇ Box Drawings Heavy Triple Dash Vertical
 ┱ Box Drawings Right Light And Left Down Heavy
-┈ Box Drawings Light Quadruple Dash Horizontal
 ┲ Box Drawings Left Light And Right Down Heavy
 ┳ Box Drawings Heavy Down And Horizontal
-┉ Box Drawings Heavy Quadruple Dash Horizontal
 ┴ Box Drawings Light Up And Horizontal
-╞ Box Drawings Vertical Single And Right Double
 ┵ Box Drawings Left Heavy And Right Up Light
-╟ Box Drawings Vertical Double And Right Single
 ┶ Box Drawings Right Heavy And Left Up Light
-╠ Box Drawings Double Vertical And Right
 ┷ Box Drawings Up Light And Horizontal Heavy
-╡ Box Drawings Vertical Single And Left Double
 ┸ Box Drawings Up Heavy And Horizontal Light
-╢ Box Drawings Vertical Double And Left Single
 ┹ Box Drawings Right Light And Left Up Heavy
-╣ Box Drawings Double Vertical And Left
 ┺ Box Drawings Left Light And Right Up Heavy
-╤ Box Drawings Down Single And Horizontal Double
 ┻ Box Drawings Heavy Up And Horizontal
-╥ Box Drawings Down Double And Horizontal Single
 ┼ Box Drawings Light Vertical And Horizontal
-╦ Box Drawings Double Down And Horizontal
 ┽ Box Drawings Left Heavy And Right Vertical Light
-╧ Box Drawings Up Single And Horizontal Double
 ┾ Box Drawings Right Heavy And Left Vertical Light
-╨ Box Drawings Up Double And Horizontal Single
 ┿ Box Drawings Vertical Light And Horizontal Heavy
-╩ Box Drawings Double Up And Horizontal
 ╀ Box Drawings Up Heavy And Down Horizontal Light
-╪ Box Drawings Vertical Single And Horizontal Double
 ╁ Box Drawings Down Heavy And Up Horizontal Light
-╫ Box Drawings Vertical Double And Horizontal Single
 ╂ Box Drawings Vertical Heavy And Horizontal Light
-╬ Box Drawings Double Vertical And Horizontal
 ╃ Box Drawings Left Up Heavy And Right Down Light
-╭ Box Drawings Light Arc Down And Right
 ╄ Box Drawings Right Up Heavy And Left Down Light
-╮ Box Drawings Light Arc Down And Left
 ╅ Box Drawings Left Down Heavy And Right Up Light
-╯ Box Drawings Light Arc Up And Left
 ╆ Box Drawings Right Down Heavy And Left Up Light
-╰ Box Drawings Light Arc Up And Right
 ╇ Box Drawings Down Light And Up Horizontal Heavy
-╱ Box Drawings Light Diagonal Upper Right To Lower Left
 ╈ Box Drawings Up Light And Down Horizontal Heavy
-╲ Box Drawings Light Diagonal Upper Left To Lower Right
 ╉ Box Drawings Right Light And Left Vertical Heavy
-╳ Box Drawings Light Diagonal Cross
 ╊ Box Drawings Left Light And Right Vertical Heavy
-╴ Box Drawings Light Left
 ╋ Box Drawings Heavy Vertical And Horizontal
-╵ Box Drawings Light Up
 ╌ Box Drawings Light Double Dash Horizontal
-╶ Box Drawings Light Right
 ╍ Box Drawings Heavy Double Dash Horizontal
-╷ Box Drawings Light Down
 ╎ Box Drawings Light Double Dash Vertical
-╸ Box Drawings Heavy Left
 ╏ Box Drawings Heavy Double Dash Vertical
-╹ Box Drawings Heavy Up
 ═ Box Drawings Double Horizontal
-╺ Box Drawings Heavy Right
 ║ Box Drawings Double Vertical
-╻ Box Drawings Heavy Down
 ╒ Box Drawings Down Single And Right Double
-╼ Box Drawings Light Left And Heavy Right
 ╓ Box Drawings Down Double And Right Single
-╽ Box Drawings Light Up And Heavy Down
 ╔ Box Drawings Double Down And Right
-╾ Box Drawings Heavy Left And Light Right
 ╕ Box Drawings Down Single And Left Double
-╿ Box Drawings Heavy Up And Light Down
 ╖ Box Drawings Down Double And Left Single
 ╗ Box Drawings Double Down And Left
 ╘ Box Drawings Up Single And Right Double
@@ -126,3 +92,37 @@
 ╛ Box Drawings Up Single And Left Double
 ╜ Box Drawings Up Double And Left Single
 ╝ Box Drawings Double Up And Left
+╞ Box Drawings Vertical Single And Right Double
+╟ Box Drawings Vertical Double And Right Single
+╠ Box Drawings Double Vertical And Right
+╡ Box Drawings Vertical Single And Left Double
+╢ Box Drawings Vertical Double And Left Single
+╣ Box Drawings Double Vertical And Left
+╤ Box Drawings Down Single And Horizontal Double
+╥ Box Drawings Down Double And Horizontal Single
+╦ Box Drawings Double Down And Horizontal
+╧ Box Drawings Up Single And Horizontal Double
+╨ Box Drawings Up Double And Horizontal Single
+╩ Box Drawings Double Up And Horizontal
+╪ Box Drawings Vertical Single And Horizontal Double
+╫ Box Drawings Vertical Double And Horizontal Single
+╬ Box Drawings Double Vertical And Horizontal
+╭ Box Drawings Light Arc Down And Right
+╮ Box Drawings Light Arc Down And Left
+╯ Box Drawings Light Arc Up And Left
+╰ Box Drawings Light Arc Up And Right
+╱ Box Drawings Light Diagonal Upper Right To Lower Left
+╲ Box Drawings Light Diagonal Upper Left To Lower Right
+╳ Box Drawings Light Diagonal Cross
+╴ Box Drawings Light Left
+╵ Box Drawings Light Up
+╶ Box Drawings Light Right
+╷ Box Drawings Light Down
+╸ Box Drawings Heavy Left
+╹ Box Drawings Heavy Up
+╺ Box Drawings Heavy Right
+╻ Box Drawings Heavy Down
+╼ Box Drawings Light Left And Heavy Right
+╽ Box Drawings Light Up And Heavy Down
+╾ Box Drawings Heavy Left And Light Right
+╿ Box Drawings Heavy Up And Light Down

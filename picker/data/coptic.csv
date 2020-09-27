@@ -1,14 +1,3 @@
-⳰ Coptic Combining Spiritus Asper
-⳱ Coptic Combining Spiritus Lenis
-Ⳳ Coptic Capital Letter Bohairic Khei
-ⳳ Coptic Small Letter Bohairic Khei
-⳹ Coptic Old Nubian Full Stop
-⳺ Coptic Old Nubian Direct Question Mark
-⳻ Coptic Old Nubian Indirect Question Mark
-⳼ Coptic Old Nubian Verse Divider
-⳽ Coptic Fraction One Half
-⳾ Coptic Full Stop
-⳿ Coptic Morphological Divider
 Ⲁ Coptic Capital Letter Alfa
 ⲁ Coptic Small Letter Alfa
 Ⲃ Coptic Capital Letter Vida
@@ -33,91 +22,102 @@
 ⲕ Coptic Small Letter Kapa
 Ⲗ Coptic Capital Letter Laula
 ⲗ Coptic Small Letter Laula
-⳯ Coptic Combining Ni Above
 Ⲙ Coptic Capital Letter Mi
 ⲙ Coptic Small Letter Mi
 Ⲛ Coptic Capital Letter Ni
 ⲛ Coptic Small Letter Ni
 Ⲝ Coptic Capital Letter Ksi
-Ⳇ Coptic Capital Letter Old Coptic Esh
 ⲝ Coptic Small Letter Ksi
-ⳇ Coptic Small Letter Old Coptic Esh
 Ⲟ Coptic Capital Letter O
-Ⳉ Coptic Capital Letter Akhmimic Khei
 ⲟ Coptic Small Letter O
-ⳉ Coptic Small Letter Akhmimic Khei
 Ⲡ Coptic Capital Letter Pi
-Ⳋ Coptic Capital Letter Dialect-P Hori
 ⲡ Coptic Small Letter Pi
-ⳋ Coptic Small Letter Dialect-P Hori
 Ⲣ Coptic Capital Letter Ro
-Ⳍ Coptic Capital Letter Old Coptic Hori
 ⲣ Coptic Small Letter Ro
-ⳍ Coptic Small Letter Old Coptic Hori
 Ⲥ Coptic Capital Letter Sima
-Ⳏ Coptic Capital Letter Old Coptic Ha
 ⲥ Coptic Small Letter Sima
-ⳏ Coptic Small Letter Old Coptic Ha
 Ⲧ Coptic Capital Letter Tau
-Ⳑ Coptic Capital Letter L-Shaped Ha
 ⲧ Coptic Small Letter Tau
-ⳑ Coptic Small Letter L-Shaped Ha
 Ⲩ Coptic Capital Letter Ua
-Ⳓ Coptic Capital Letter Old Coptic Hei
 ⲩ Coptic Small Letter Ua
-ⳓ Coptic Small Letter Old Coptic Hei
 Ⲫ Coptic Capital Letter Fi
-Ⳕ Coptic Capital Letter Old Coptic Hat
 ⲫ Coptic Small Letter Fi
-ⳕ Coptic Small Letter Old Coptic Hat
 Ⲭ Coptic Capital Letter Khi
-Ⳗ Coptic Capital Letter Old Coptic Gangia
 ⲭ Coptic Small Letter Khi
-ⳗ Coptic Small Letter Old Coptic Gangia
 Ⲯ Coptic Capital Letter Psi
-Ⳙ Coptic Capital Letter Old Coptic Dja
 ⲯ Coptic Small Letter Psi
-ⳙ Coptic Small Letter Old Coptic Dja
 Ⲱ Coptic Capital Letter Oou
-Ⳛ Coptic Capital Letter Old Coptic Shima
 ⲱ Coptic Small Letter Oou
-ⳛ Coptic Small Letter Old Coptic Shima
 Ⲳ Coptic Capital Letter Dialect-P Alef
-Ⳝ Coptic Capital Letter Old Nubian Shima
 ⲳ Coptic Small Letter Dialect-P Alef
-ⳝ Coptic Small Letter Old Nubian Shima
 Ⲵ Coptic Capital Letter Old Coptic Ain
-Ⳟ Coptic Capital Letter Old Nubian Ngi
 ⲵ Coptic Small Letter Old Coptic Ain
-ⳟ Coptic Small Letter Old Nubian Ngi
 Ⲷ Coptic Capital Letter Cryptogrammic Eie
-Ⳡ Coptic Capital Letter Old Nubian Nyi
 ⲷ Coptic Small Letter Cryptogrammic Eie
-ⳡ Coptic Small Letter Old Nubian Nyi
 Ⲹ Coptic Capital Letter Dialect-P Kapa
-Ⳣ Coptic Capital Letter Old Nubian Wau
 ⲹ Coptic Small Letter Dialect-P Kapa
-ⳣ Coptic Small Letter Old Nubian Wau
 Ⲻ Coptic Capital Letter Dialect-P Ni
-ⳤ Coptic Symbol Kai
 ⲻ Coptic Small Letter Dialect-P Ni
-⳥ Coptic Symbol Mi Ro
 Ⲽ Coptic Capital Letter Cryptogrammic Ni
-⳦ Coptic Symbol Pi Ro
 ⲽ Coptic Small Letter Cryptogrammic Ni
-⳧ Coptic Symbol Stauros
 Ⲿ Coptic Capital Letter Old Coptic Oou
-⳨ Coptic Symbol Tau Ro
 ⲿ Coptic Small Letter Old Coptic Oou
-⳩ Coptic Symbol Khi Ro
 Ⳁ Coptic Capital Letter Sampi
-⳪ Coptic Symbol Shima Sima
 ⳁ Coptic Small Letter Sampi
-Ⳬ Coptic Capital Letter Cryptogrammic Shei
 Ⳃ Coptic Capital Letter Crossed Shei
-ⳬ Coptic Small Letter Cryptogrammic Shei
 ⳃ Coptic Small Letter Crossed Shei
-Ⳮ Coptic Capital Letter Cryptogrammic Gangia
 Ⳅ Coptic Capital Letter Old Coptic Shei
-ⳮ Coptic Small Letter Cryptogrammic Gangia
 ⳅ Coptic Small Letter Old Coptic Shei
+Ⳇ Coptic Capital Letter Old Coptic Esh
+ⳇ Coptic Small Letter Old Coptic Esh
+Ⳉ Coptic Capital Letter Akhmimic Khei
+ⳉ Coptic Small Letter Akhmimic Khei
+Ⳋ Coptic Capital Letter Dialect-P Hori
+ⳋ Coptic Small Letter Dialect-P Hori
+Ⳍ Coptic Capital Letter Old Coptic Hori
+ⳍ Coptic Small Letter Old Coptic Hori
+Ⳏ Coptic Capital Letter Old Coptic Ha
+ⳏ Coptic Small Letter Old Coptic Ha
+Ⳑ Coptic Capital Letter L-Shaped Ha
+ⳑ Coptic Small Letter L-Shaped Ha
+Ⳓ Coptic Capital Letter Old Coptic Hei
+ⳓ Coptic Small Letter Old Coptic Hei
+Ⳕ Coptic Capital Letter Old Coptic Hat
+ⳕ Coptic Small Letter Old Coptic Hat
+Ⳗ Coptic Capital Letter Old Coptic Gangia
+ⳗ Coptic Small Letter Old Coptic Gangia
+Ⳙ Coptic Capital Letter Old Coptic Dja
+ⳙ Coptic Small Letter Old Coptic Dja
+Ⳛ Coptic Capital Letter Old Coptic Shima
+ⳛ Coptic Small Letter Old Coptic Shima
+Ⳝ Coptic Capital Letter Old Nubian Shima
+ⳝ Coptic Small Letter Old Nubian Shima
+Ⳟ Coptic Capital Letter Old Nubian Ngi
+ⳟ Coptic Small Letter Old Nubian Ngi
+Ⳡ Coptic Capital Letter Old Nubian Nyi
+ⳡ Coptic Small Letter Old Nubian Nyi
+Ⳣ Coptic Capital Letter Old Nubian Wau
+ⳣ Coptic Small Letter Old Nubian Wau
+ⳤ Coptic Symbol Kai
+⳥ Coptic Symbol Mi Ro
+⳦ Coptic Symbol Pi Ro
+⳧ Coptic Symbol Stauros
+⳨ Coptic Symbol Tau Ro
+⳩ Coptic Symbol Khi Ro
+⳪ Coptic Symbol Shima Sima
+Ⳬ Coptic Capital Letter Cryptogrammic Shei
+ⳬ Coptic Small Letter Cryptogrammic Shei
+Ⳮ Coptic Capital Letter Cryptogrammic Gangia
+ⳮ Coptic Small Letter Cryptogrammic Gangia
+⳯ Coptic Combining Ni Above
+⳰ Coptic Combining Spiritus Asper
+⳱ Coptic Combining Spiritus Lenis
+Ⳳ Coptic Capital Letter Bohairic Khei
+ⳳ Coptic Small Letter Bohairic Khei
+⳹ Coptic Old Nubian Full Stop
+⳺ Coptic Old Nubian Direct Question Mark
+⳻ Coptic Old Nubian Indirect Question Mark
+⳼ Coptic Old Nubian Verse Divider
+⳽ Coptic Fraction One Half
+⳾ Coptic Full Stop
+⳿ Coptic Morphological Divider

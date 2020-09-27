@@ -1,32 +1,26 @@
+🨀 Neutral Chess King
+🨁 Neutral Chess Queen
+🨂 Neutral Chess Rook
+🨃 Neutral Chess Bishop
+🨄 Neutral Chess Knight
 🨅 Neutral Chess Pawn
-🩥 Xiangqi Red Cannon
 🨆 White Chess Knight Rotated Forty-Five Degrees
-🩦 Xiangqi Red Soldier
 🨇 Black Chess Knight Rotated Forty-Five Degrees
-🩧 Xiangqi Black General
 🨈 Neutral Chess Knight Rotated Forty-Five Degrees
-🩨 Xiangqi Black Mandarin
 🨉 White Chess King Rotated Ninety Degrees
-🩩 Xiangqi Black Elephant
 🨊 White Chess Queen Rotated Ninety Degrees
-🩪 Xiangqi Black Horse
 🨋 White Chess Rook Rotated Ninety Degrees
-🩫 Xiangqi Black Chariot
 🨌 White Chess Bishop Rotated Ninety Degrees
-🩬 Xiangqi Black Cannon
 🨍 White Chess Knight Rotated Ninety Degrees
-🩭 Xiangqi Black Soldier
 🨎 White Chess Pawn Rotated Ninety Degrees
 🨏 Black Chess King Rotated Ninety Degrees
 🨐 Black Chess Queen Rotated Ninety Degrees
 🨑 Black Chess Rook Rotated Ninety Degrees
-🩣 Xiangqi Red Horse
 🨒 Black Chess Bishop Rotated Ninety Degrees
 🨓 Black Chess Knight Rotated Ninety Degrees
 🨔 Black Chess Pawn Rotated Ninety Degrees
 🨕 Neutral Chess King Rotated Ninety Degrees
 🨖 Neutral Chess Queen Rotated Ninety Degrees
-🩤 Xiangqi Red Chariot
 🨗 Neutral Chess Rook Rotated Ninety Degrees
 🨘 Neutral Chess Bishop Rotated Ninety Degrees
 🨙 Neutral Chess Knight Rotated Ninety Degrees
@@ -88,11 +82,17 @@
 🩑 Black Chess Knight-Queen
 🩒 Black Chess Knight-Rook
 🩓 Black Chess Knight-Bishop
-🨀 Neutral Chess King
 🩠 Xiangqi Red General
-🨁 Neutral Chess Queen
 🩡 Xiangqi Red Mandarin
-🨂 Neutral Chess Rook
 🩢 Xiangqi Red Elephant
-🨃 Neutral Chess Bishop
-🨄 Neutral Chess Knight
+🩣 Xiangqi Red Horse
+🩤 Xiangqi Red Chariot
+🩥 Xiangqi Red Cannon
+🩦 Xiangqi Red Soldier
+🩧 Xiangqi Black General
+🩨 Xiangqi Black Mandarin
+🩩 Xiangqi Black Elephant
+🩪 Xiangqi Black Horse
+🩫 Xiangqi Black Chariot
+🩬 Xiangqi Black Cannon
+🩭 Xiangqi Black Soldier

@@ -1,18 +1,47 @@
-- Hyphen-Minus
-F Latin Capital Letter F
   Space
+! Exclamation Mark
+" Quotation Mark
+# Number Sign
 $ Dollar Sign
-, Comma
-' Apostrophe
-G Latin Capital Letter G
 % Percent Sign
-H Latin Capital Letter H
 & Ampersand
-I Latin Capital Letter I
+' Apostrophe
+( Left Parenthesis
+) Right Parenthesis
 * Asterisk
++ Plus Sign
+, Comma
+- Hyphen-Minus
+. Full Stop
+/ Solidus
+0 Digit Zero
+1 Digit One
+2 Digit Two
+3 Digit Three
+4 Digit Four
+5 Digit Five
+6 Digit Six
+7 Digit Seven
+8 Digit Eight
+9 Digit Nine
+: Colon
+; Semicolon
+< Less-Than Sign
+= Equals Sign
+> Greater-Than Sign
+? Question Mark
+@ Commercial At
+A Latin Capital Letter A
+B Latin Capital Letter B
+C Latin Capital Letter C
+D Latin Capital Letter D
+E Latin Capital Letter E
+F Latin Capital Letter F
+G Latin Capital Letter G
+H Latin Capital Letter H
+I Latin Capital Letter I
 J Latin Capital Letter J
 K Latin Capital Letter K
-+ Plus Sign
 L Latin Capital Letter L
 M Latin Capital Letter M
 N Latin Capital Letter N
@@ -20,60 +49,34 @@ O Latin Capital Letter O
 P Latin Capital Letter P
 Q Latin Capital Letter Q
 R Latin Capital Letter R
-/ Solidus
 S Latin Capital Letter S
 T Latin Capital Letter T
-. Full Stop
 U Latin Capital Letter U
-0 Digit Zero
 V Latin Capital Letter V
 W Latin Capital Letter W
 X Latin Capital Letter X
 Y Latin Capital Letter Y
 Z Latin Capital Letter Z
-1 Digit One
 [ Left Square Bracket
-2 Digit Two
 \ Reverse Solidus
-3 Digit Three
 ] Right Square Bracket
-4 Digit Four
 ^ Circumflex Accent
-5 Digit Five
 _ Low Line
-6 Digit Six
 ` Grave Accent
-7 Digit Seven
 a Latin Small Letter A
-8 Digit Eight
 b Latin Small Letter B
-9 Digit Nine
 c Latin Small Letter C
-: Colon
 d Latin Small Letter D
-; Semicolon
 e Latin Small Letter E
-< Less-Than Sign
 f Latin Small Letter F
-= Equals Sign
 g Latin Small Letter G
-> Greater-Than Sign
 h Latin Small Letter H
-? Question Mark
 i Latin Small Letter I
-@ Commercial At
 j Latin Small Letter J
-A Latin Capital Letter A
 k Latin Small Letter K
-B Latin Capital Letter B
 l Latin Small Letter L
-C Latin Capital Letter C
 m Latin Small Letter M
-( Left Parenthesis
-D Latin Capital Letter D
 n Latin Small Letter N
-) Right Parenthesis
-E Latin Capital Letter E
 o Latin Small Letter O
 p Latin Small Letter P
 q Latin Small Letter Q
@@ -90,6 +93,3 @@ z Latin Small Letter Z
 | Vertical Line
 } Right Curly Bracket
 ~ Tilde
-# Number Sign
-! Exclamation Mark
-" Quotation Mark

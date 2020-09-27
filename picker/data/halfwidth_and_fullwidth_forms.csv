@@ -1,42 +1,62 @@
+！ Fullwidth Exclamation Mark
+＂ Fullwidth Quotation Mark
+＃ Fullwidth Number Sign
+＄ Fullwidth Dollar Sign
+％ Fullwidth Percent Sign
+＆ Fullwidth Ampersand
+＇ Fullwidth Apostrophe
+（ Fullwidth Left Parenthesis
+） Fullwidth Right Parenthesis
+＊ Fullwidth Asterisk
+＋ Fullwidth Plus Sign
+， Fullwidth Comma
+－ Fullwidth Hyphen-Minus
+． Fullwidth Full Stop
+／ Fullwidth Solidus
+０ Fullwidth Digit Zero
+１ Fullwidth Digit One
+２ Fullwidth Digit Two
+３ Fullwidth Digit Three
+４ Fullwidth Digit Four
+５ Fullwidth Digit Five
+６ Fullwidth Digit Six
+７ Fullwidth Digit Seven
+８ Fullwidth Digit Eight
+９ Fullwidth Digit Nine
+： Fullwidth Colon
+； Fullwidth Semicolon
+＜ Fullwidth Less-Than Sign
+＝ Fullwidth Equals Sign
+＞ Fullwidth Greater-Than Sign
+？ Fullwidth Question Mark
+＠ Fullwidth Commercial At
+Ａ Fullwidth Latin Capital Letter A
+Ｂ Fullwidth Latin Capital Letter B
+Ｃ Fullwidth Latin Capital Letter C
+Ｄ Fullwidth Latin Capital Letter D
+Ｅ Fullwidth Latin Capital Letter E
+Ｆ Fullwidth Latin Capital Letter F
+Ｇ Fullwidth Latin Capital Letter G
+Ｈ Fullwidth Latin Capital Letter H
 Ｉ Fullwidth Latin Capital Letter I
-ￚ Halfwidth Hangul Letter Eu
 Ｊ Fullwidth Latin Capital Letter J
-ￛ Halfwidth Hangul Letter Yi
 Ｋ Fullwidth Latin Capital Letter K
-ￜ Halfwidth Hangul Letter I
 Ｌ Fullwidth Latin Capital Letter L
-￠ Fullwidth Cent Sign
 Ｍ Fullwidth Latin Capital Letter M
-￡ Fullwidth Pound Sign
 Ｎ Fullwidth Latin Capital Letter N
-￢ Fullwidth Not Sign
 Ｏ Fullwidth Latin Capital Letter O
-￣ Fullwidth Macron
 Ｐ Fullwidth Latin Capital Letter P
-￤ Fullwidth Broken Bar
 Ｑ Fullwidth Latin Capital Letter Q
-￥ Fullwidth Yen Sign
 Ｒ Fullwidth Latin Capital Letter R
-￦ Fullwidth Won Sign
 Ｓ Fullwidth Latin Capital Letter S
-￨ Halfwidth Forms Light Vertical
-ｼ Halfwidth Katakana Letter Si
 Ｔ Fullwidth Latin Capital Letter T
-￩ Halfwidth Leftwards Arrow
 Ｕ Fullwidth Latin Capital Letter U
-￪ Halfwidth Upwards Arrow
 Ｖ Fullwidth Latin Capital Letter V
-ﾦ Halfwidth Hangul Letter Nieun-Hieuh
-￫ Halfwidth Rightwards Arrow
 Ｗ Fullwidth Latin Capital Letter W
-￬ Halfwidth Downwards Arrow
 Ｘ Fullwidth Latin Capital Letter X
-￭ Halfwidth Black Square
 Ｙ Fullwidth Latin Capital Letter Y
-￮ Halfwidth White Circle
 Ｚ Fullwidth Latin Capital Letter Z
 ［ Fullwidth Left Square Bracket
-ￗ Halfwidth Hangul Letter Yu
 ＼ Fullwidth Reverse Solidus
 ］ Fullwidth Right Square Bracket
 ＾ Fullwidth Circumflex Accent
@@ -61,165 +81,145 @@
 ｑ Fullwidth Latin Small Letter Q
 ｒ Fullwidth Latin Small Letter R
 ｓ Fullwidth Latin Small Letter S
-ｽ Halfwidth Katakana Letter Su
-ﾧ Halfwidth Hangul Letter Tikeut
 ｔ Fullwidth Latin Small Letter T
-ｾ Halfwidth Katakana Letter Se
-ﾨ Halfwidth Hangul Letter Ssangtikeut
-！ Fullwidth Exclamation Mark
 ｕ Fullwidth Latin Small Letter U
-ｿ Halfwidth Katakana Letter So
-ﾩ Halfwidth Hangul Letter Rieul
-＂ Fullwidth Quotation Mark
 ｖ Fullwidth Latin Small Letter V
-ﾀ Halfwidth Katakana Letter Ta
-ﾪ Halfwidth Hangul Letter Rieul-Kiyeok
-＃ Fullwidth Number Sign
 ｗ Fullwidth Latin Small Letter W
-ﾁ Halfwidth Katakana Letter Ti
-ﾫ Halfwidth Hangul Letter Rieul-Mieum
-＄ Fullwidth Dollar Sign
 ｘ Fullwidth Latin Small Letter X
-ﾂ Halfwidth Katakana Letter Tu
-ﾬ Halfwidth Hangul Letter Rieul-Pieup
-％ Fullwidth Percent Sign
 ｙ Fullwidth Latin Small Letter Y
-ﾃ Halfwidth Katakana Letter Te
-ﾭ Halfwidth Hangul Letter Rieul-Sios
-＆ Fullwidth Ampersand
 ｚ Fullwidth Latin Small Letter Z
-ﾄ Halfwidth Katakana Letter To
-ﾮ Halfwidth Hangul Letter Rieul-Thieuth
-＇ Fullwidth Apostrophe
 ｛ Fullwidth Left Curly Bracket
-ﾅ Halfwidth Katakana Letter Na
-ﾯ Halfwidth Hangul Letter Rieul-Phieuph
-（ Fullwidth Left Parenthesis
 ｜ Fullwidth Vertical Line
-ﾆ Halfwidth Katakana Letter Ni
-ﾰ Halfwidth Hangul Letter Rieul-Hieuh
-） Fullwidth Right Parenthesis
 ｝ Fullwidth Right Curly Bracket
-ﾇ Halfwidth Katakana Letter Nu
-ﾱ Halfwidth Hangul Letter Mieum
-＊ Fullwidth Asterisk
 ～ Fullwidth Tilde
-ﾈ Halfwidth Katakana Letter Ne
-ﾲ Halfwidth Hangul Letter Pieup
-＋ Fullwidth Plus Sign
 ｟ Fullwidth Left White Parenthesis
-ﾉ Halfwidth Katakana Letter No
-ﾳ Halfwidth Hangul Letter Ssangpieup
-， Fullwidth Comma
 ｠ Fullwidth Right White Parenthesis
-ﾊ Halfwidth Katakana Letter Ha
-ﾴ Halfwidth Hangul Letter Pieup-Sios
-－ Fullwidth Hyphen-Minus
 ｡ Halfwidth Ideographic Full Stop
-ﾋ Halfwidth Katakana Letter Hi
-ﾵ Halfwidth Hangul Letter Sios
-． Fullwidth Full Stop
 ｢ Halfwidth Left Corner Bracket
-ﾌ Halfwidth Katakana Letter Hu
-ﾶ Halfwidth Hangul Letter Ssangsios
-／ Fullwidth Solidus
 ｣ Halfwidth Right Corner Bracket
-ﾍ Halfwidth Katakana Letter He
-ﾷ Halfwidth Hangul Letter Ieung
-０ Fullwidth Digit Zero
 ､ Halfwidth Ideographic Comma
-ﾎ Halfwidth Katakana Letter Ho
-ﾸ Halfwidth Hangul Letter Cieuc
-１ Fullwidth Digit One
 ･ Halfwidth Katakana Middle Dot
-ﾏ Halfwidth Katakana Letter Ma
-ﾹ Halfwidth Hangul Letter Ssangcieuc
-２ Fullwidth Digit Two
 ｦ Halfwidth Katakana Letter Wo
-ﾐ Halfwidth Katakana Letter Mi
-ﾺ Halfwidth Hangul Letter Chieuch
-３ Fullwidth Digit Three
 ｧ Halfwidth Katakana Letter Small A
-ﾑ Halfwidth Katakana Letter Mu
-ﾻ Halfwidth Hangul Letter Khieukh
-４ Fullwidth Digit Four
 ｨ Halfwidth Katakana Letter Small I
-ﾒ Halfwidth Katakana Letter Me
-ﾼ Halfwidth Hangul Letter Thieuth
-５ Fullwidth Digit Five
 ｩ Halfwidth Katakana Letter Small U
-ﾓ Halfwidth Katakana Letter Mo
-ﾽ Halfwidth Hangul Letter Phieuph
-６ Fullwidth Digit Six
 ｪ Halfwidth Katakana Letter Small E
-ﾔ Halfwidth Katakana Letter Ya
-ﾾ Halfwidth Hangul Letter Hieuh
-７ Fullwidth Digit Seven
 ｫ Halfwidth Katakana Letter Small O
-ﾕ Halfwidth Katakana Letter Yu
-ￂ Halfwidth Hangul Letter A
-８ Fullwidth Digit Eight
 ｬ Halfwidth Katakana Letter Small Ya
-ﾖ Halfwidth Katakana Letter Yo
-ￃ Halfwidth Hangul Letter Ae
-９ Fullwidth Digit Nine
 ｭ Halfwidth Katakana Letter Small Yu
-ﾗ Halfwidth Katakana Letter Ra
-ￄ Halfwidth Hangul Letter Ya
-： Fullwidth Colon
 ｮ Halfwidth Katakana Letter Small Yo
-ﾘ Halfwidth Katakana Letter Ri
-ￅ Halfwidth Hangul Letter Yae
-； Fullwidth Semicolon
 ｯ Halfwidth Katakana Letter Small Tu
-ﾙ Halfwidth Katakana Letter Ru
-ￆ Halfwidth Hangul Letter Eo
-＜ Fullwidth Less-Than Sign
 ｰ Halfwidth Katakana-Hiragana Prolonged Sound Mark
-ﾚ Halfwidth Katakana Letter Re
-ￇ Halfwidth Hangul Letter E
-＝ Fullwidth Equals Sign
 ｱ Halfwidth Katakana Letter A
-ﾛ Halfwidth Katakana Letter Ro
-ￊ Halfwidth Hangul Letter Yeo
-＞ Fullwidth Greater-Than Sign
 ｲ Halfwidth Katakana Letter I
-ﾜ Halfwidth Katakana Letter Wa
-ￋ Halfwidth Hangul Letter Ye
-？ Fullwidth Question Mark
 ｳ Halfwidth Katakana Letter U
-ﾝ Halfwidth Katakana Letter N
-ￌ Halfwidth Hangul Letter O
-＠ Fullwidth Commercial At
 ｴ Halfwidth Katakana Letter E
-ﾞ Halfwidth Katakana Voiced Sound Mark
-ￍ Halfwidth Hangul Letter Wa
-Ａ Fullwidth Latin Capital Letter A
 ｵ Halfwidth Katakana Letter O
-ﾟ Halfwidth Katakana Semi-Voiced Sound Mark
-ￎ Halfwidth Hangul Letter Wae
-Ｂ Fullwidth Latin Capital Letter B
 ｶ Halfwidth Katakana Letter Ka
-ﾠ Halfwidth Hangul Filler
-ￏ Halfwidth Hangul Letter Oe
-Ｃ Fullwidth Latin Capital Letter C
 ｷ Halfwidth Katakana Letter Ki
-ﾡ Halfwidth Hangul Letter Kiyeok
-ￒ Halfwidth Hangul Letter Yo
-Ｄ Fullwidth Latin Capital Letter D
 ｸ Halfwidth Katakana Letter Ku
-ﾢ Halfwidth Hangul Letter Ssangkiyeok
-ￓ Halfwidth Hangul Letter U
-Ｅ Fullwidth Latin Capital Letter E
 ｹ Halfwidth Katakana Letter Ke
-ﾣ Halfwidth Hangul Letter Kiyeok-Sios
-ￔ Halfwidth Hangul Letter Weo
-Ｆ Fullwidth Latin Capital Letter F
 ｺ Halfwidth Katakana Letter Ko
-ﾤ Halfwidth Hangul Letter Nieun
-ￕ Halfwidth Hangul Letter We
-Ｇ Fullwidth Latin Capital Letter G
 ｻ Halfwidth Katakana Letter Sa
+ｼ Halfwidth Katakana Letter Si
+ｽ Halfwidth Katakana Letter Su
+ｾ Halfwidth Katakana Letter Se
+ｿ Halfwidth Katakana Letter So
+ﾀ Halfwidth Katakana Letter Ta
+ﾁ Halfwidth Katakana Letter Ti
+ﾂ Halfwidth Katakana Letter Tu
+ﾃ Halfwidth Katakana Letter Te
+ﾄ Halfwidth Katakana Letter To
+ﾅ Halfwidth Katakana Letter Na
+ﾆ Halfwidth Katakana Letter Ni
+ﾇ Halfwidth Katakana Letter Nu
+ﾈ Halfwidth Katakana Letter Ne
+ﾉ Halfwidth Katakana Letter No
+ﾊ Halfwidth Katakana Letter Ha
+ﾋ Halfwidth Katakana Letter Hi
+ﾌ Halfwidth Katakana Letter Hu
+ﾍ Halfwidth Katakana Letter He
+ﾎ Halfwidth Katakana Letter Ho
+ﾏ Halfwidth Katakana Letter Ma
+ﾐ Halfwidth Katakana Letter Mi
+ﾑ Halfwidth Katakana Letter Mu
+ﾒ Halfwidth Katakana Letter Me
+ﾓ Halfwidth Katakana Letter Mo
+ﾔ Halfwidth Katakana Letter Ya
+ﾕ Halfwidth Katakana Letter Yu
+ﾖ Halfwidth Katakana Letter Yo
+ﾗ Halfwidth Katakana Letter Ra
+ﾘ Halfwidth Katakana Letter Ri
+ﾙ Halfwidth Katakana Letter Ru
+ﾚ Halfwidth Katakana Letter Re
+ﾛ Halfwidth Katakana Letter Ro
+ﾜ Halfwidth Katakana Letter Wa
+ﾝ Halfwidth Katakana Letter N
+ﾞ Halfwidth Katakana Voiced Sound Mark
+ﾟ Halfwidth Katakana Semi-Voiced Sound Mark
+ﾠ Halfwidth Hangul Filler
+ﾡ Halfwidth Hangul Letter Kiyeok
+ﾢ Halfwidth Hangul Letter Ssangkiyeok
+ﾣ Halfwidth Hangul Letter Kiyeok-Sios
+ﾤ Halfwidth Hangul Letter Nieun
 ﾥ Halfwidth Hangul Letter Nieun-Cieuc
+ﾦ Halfwidth Hangul Letter Nieun-Hieuh
+ﾧ Halfwidth Hangul Letter Tikeut
+ﾨ Halfwidth Hangul Letter Ssangtikeut
+ﾩ Halfwidth Hangul Letter Rieul
+ﾪ Halfwidth Hangul Letter Rieul-Kiyeok
+ﾫ Halfwidth Hangul Letter Rieul-Mieum
+ﾬ Halfwidth Hangul Letter Rieul-Pieup
+ﾭ Halfwidth Hangul Letter Rieul-Sios
+ﾮ Halfwidth Hangul Letter Rieul-Thieuth
+ﾯ Halfwidth Hangul Letter Rieul-Phieuph
+ﾰ Halfwidth Hangul Letter Rieul-Hieuh
+ﾱ Halfwidth Hangul Letter Mieum
+ﾲ Halfwidth Hangul Letter Pieup
+ﾳ Halfwidth Hangul Letter Ssangpieup
+ﾴ Halfwidth Hangul Letter Pieup-Sios
+ﾵ Halfwidth Hangul Letter Sios
+ﾶ Halfwidth Hangul Letter Ssangsios
+ﾷ Halfwidth Hangul Letter Ieung
+ﾸ Halfwidth Hangul Letter Cieuc
+ﾹ Halfwidth Hangul Letter Ssangcieuc
+ﾺ Halfwidth Hangul Letter Chieuch
+ﾻ Halfwidth Hangul Letter Khieukh
+ﾼ Halfwidth Hangul Letter Thieuth
+ﾽ Halfwidth Hangul Letter Phieuph
+ﾾ Halfwidth Hangul Letter Hieuh
+ￂ Halfwidth Hangul Letter A
+ￃ Halfwidth Hangul Letter Ae
+ￄ Halfwidth Hangul Letter Ya
+ￅ Halfwidth Hangul Letter Yae
+ￆ Halfwidth Hangul Letter Eo
+ￇ Halfwidth Hangul Letter E
+ￊ Halfwidth Hangul Letter Yeo
+ￋ Halfwidth Hangul Letter Ye
+ￌ Halfwidth Hangul Letter O
+ￍ Halfwidth Hangul Letter Wa
+ￎ Halfwidth Hangul Letter Wae
+ￏ Halfwidth Hangul Letter Oe
+ￒ Halfwidth Hangul Letter Yo
+ￓ Halfwidth Hangul Letter U
+ￔ Halfwidth Hangul Letter Weo
+ￕ Halfwidth Hangul Letter We
 ￖ Halfwidth Hangul Letter Wi
-Ｈ Fullwidth Latin Capital Letter H
+ￗ Halfwidth Hangul Letter Yu
+ￚ Halfwidth Hangul Letter Eu
+ￛ Halfwidth Hangul Letter Yi
+ￜ Halfwidth Hangul Letter I
+￠ Fullwidth Cent Sign
+￡ Fullwidth Pound Sign
+￢ Fullwidth Not Sign
+￣ Fullwidth Macron
+￤ Fullwidth Broken Bar
+￥ Fullwidth Yen Sign
+￦ Fullwidth Won Sign
+￨ Halfwidth Forms Light Vertical
+￩ Halfwidth Leftwards Arrow
+￪ Halfwidth Upwards Arrow
+￫ Halfwidth Rightwards Arrow
+￬ Halfwidth Downwards Arrow
+￭ Halfwidth Black Square
+￮ Halfwidth White Circle

@@ -1,8 +1,13 @@
-▝ Quadrant Upper Right
+▀ Upper Half Block
+▁ Lower One Eighth Block
+▂ Lower One Quarter Block
+▃ Lower Three Eighths Block
+▄ Lower Half Block
+▅ Lower Five Eighths Block
+▆ Lower Three Quarters Block
+▇ Lower Seven Eighths Block
 █ Full Block
-▞ Quadrant Upper Right And Lower Left
 ▉ Left Seven Eighths Block
-▟ Quadrant Upper Right And Lower Left And Lower Right
 ▊ Left Three Quarters Block
 ▋ Left Five Eighths Block
 ▌ Left Half Block
@@ -14,19 +19,14 @@
 ▒ Medium Shade
 ▓ Dark Shade
 ▔ Upper One Eighth Block
-▀ Upper Half Block
 ▕ Right One Eighth Block
-▁ Lower One Eighth Block
 ▖ Quadrant Lower Left
-▂ Lower One Quarter Block
 ▗ Quadrant Lower Right
-▃ Lower Three Eighths Block
 ▘ Quadrant Upper Left
-▄ Lower Half Block
 ▙ Quadrant Upper Left And Lower Left And Lower Right
-▅ Lower Five Eighths Block
 ▚ Quadrant Upper Left And Lower Right
-▆ Lower Three Quarters Block
 ▛ Quadrant Upper Left And Upper Right And Lower Left
-▇ Lower Seven Eighths Block
 ▜ Quadrant Upper Left And Upper Right And Lower Right
+▝ Quadrant Upper Right
+▞ Quadrant Upper Right And Lower Left
+▟ Quadrant Upper Right And Lower Left And Lower Right

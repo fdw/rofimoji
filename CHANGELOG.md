@@ -1,8 +1,12 @@
 # [4.3.0]
 ## Added
 - Added support for Wayland! (#47)
-- Added support for `xclip` (#21)
-- You can type and copy the unicode codepoints (#48)
+- Added support for `xclip`. (#21)
+- You can type and copy the unicode codepoints. (#48)
+
+## Changed
+- The order of the characters in all scripts is now the same as the official one.
+- All character data has been updated.
 
 # [4.2.0]
 ## Added

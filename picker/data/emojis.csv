@@ -54,7 +54,7 @@
 🥵 hot face <small>(feverish, heat stroke, hot, hot face, red-faced, sweating)</small>
 🥶 cold face <small>(blue-faced, cold, cold face, freezing, frostbite, icicles)</small>
 🥴 woozy face <small>(dizzy, intoxicated, tipsy, uneven eyes, wavy mouth, woozy face)</small>
-😵 dizzy face <small>(dizzy, face)</small>
+😵 knocked-out face <small>(dizzy, face)</small>
 🤯 exploding head <small>(exploding head, mind blown, shocked)</small>
 🤠 cowboy hat face <small>(cowboy, cowgirl, face, hat)</small>
 🥳 partying face <small>(celebration, hat, horn, party, partying face)</small>
@@ -207,7 +207,7 @@
 🧑 person <small>(adult, gender-neutral, person, unspecified gender)</small>
 👱 person: blond hair <small>(blond, blond-haired person, hair, person: blond hair)</small>
 👨 man <small>(adult, man)</small>
-🧔 man: beard <small>(beard, man, man: beard, person)</small>
+🧔 person: beard <small>(beard, man, man: beard, person)</small>
 👨‍🦰 man: red hair
 👨‍🦱 man: curly hair
 👨‍🦳 man: white hair
@@ -322,23 +322,23 @@
 👳 person wearing turban <small>(person wearing turban, turban)</small>
 👳‍♂️ man wearing turban
 👳‍♀️ woman wearing turban
-👲 person with skullcap <small>(cap, gua pi mao, hat, man, man with skullcap, skullcap)</small>
+👲 person with skullcap <small>(cap, gua pi mao, hat, person, person with skullcap, skullcap)</small>
 🧕 woman with headscarf <small>(headscarf, hijab, mantilla, tichel, woman with headscarf)</small>
-🤵 person in tuxedo <small>(groom, man, man in tuxedo, tuxedo)</small>
+🤵 person in tuxedo <small>(groom, person, person in tuxedo, tuxedo)</small>
 🤵‍♂️ man in tuxedo
 🤵‍♀️ woman in tuxedo
-👰 person with veil <small>(bride, bride with veil, veil, wedding)</small>
+👰 person with veil <small>(bride, person, person with veil, veil, wedding)</small>
 👰‍♂️ man with veil
 👰‍♀️ woman with veil
 🤰 pregnant woman <small>(pregnant, woman)</small>
 🤱 breast-feeding <small>(baby, breast, breast-feeding, nursing)</small>
-👩‍🍼 woman feeding baby
-👨‍🍼 man feeding baby
-🧑‍🍼 person feeding baby
+👩‍🍼 woman feeding baby <small>(baby, feeding, nursing, woman)</small>
+👨‍🍼 man feeding baby <small>(baby, feeding, man, nursing)</small>
+🧑‍🍼 person feeding baby <small>(baby, feeding, nursing, person)</small>
 👼 baby angel <small>(angel, baby, face, fairy tale, fantasy)</small>
 🎅 Santa Claus <small>(celebration, Christmas, claus, father, santa, Santa Claus)</small>
 🤶 Mrs. Claus <small>(celebration, Christmas, claus, mother, Mrs., Mrs. Claus)</small>
-🧑‍🎄 mx claus
+🧑‍🎄 mx claus <small>(Claus, christmas, mx claus)</small>
 🦸 superhero <small>(good, hero, heroine, superhero, superpower)</small>
 🦸‍♂️ man superhero
 🦸‍♀️ woman superhero
@@ -381,9 +381,9 @@
 🧎 person kneeling <small>(kneel, kneeling, person kneeling)</small>
 🧎‍♂️ man kneeling
 🧎‍♀️ woman kneeling
-🧑‍🦯 person with white cane <small>(accessibility, blind, person with probing cane)</small>
-👨‍🦯 man with white cane <small>(accessibility, blind, man, man with probing cane)</small>
-👩‍🦯 woman with white cane <small>(accessibility, blind, woman, woman with probing cane)</small>
+🧑‍🦯 person with white cane <small>(accessibility, blind, person with white cane)</small>
+👨‍🦯 man with white cane <small>(accessibility, blind, man, man with white cane)</small>
+👩‍🦯 woman with white cane <small>(accessibility, blind, woman, woman with white cane)</small>
 🧑‍🦼 person in motorized wheelchair <small>(accessibility, person in motorized wheelchair, wheelchair)</small>
 👨‍🦼 man in motorized wheelchair <small>(accessibility, man, man in motorized wheelchair, wheelchair)</small>
 👩‍🦼 woman in motorized wheelchair <small>(accessibility, wheelchair, woman, woman in motorized wheelchair)</small>
@@ -395,7 +395,7 @@
 🏃‍♀️ woman running
 💃 woman dancing <small>(dancing, woman)</small>
 🕺 man dancing <small>(dance, man, man dancing)</small>
-🕴 person in suit levitating <small>(business, man, man in suit levitating, suit)</small>
+🕴 person in suit levitating <small>(business, person, person in suit levitating, suit)</small>
 👯 people with bunny ears <small>(bunny ear, dancer, partying, people with bunny ears)</small>
 👯‍♂️ men with bunny ears
 👯‍♀️ women with bunny ears
@@ -514,7 +514,7 @@
 🦝 raccoon <small>(curious, raccoon, sly)</small>
 🐱 cat face <small>(cat, face, pet)</small>
 🐈 cat <small>(cat, pet)</small>
-🐈‍⬛ black cat
+🐈‍⬛ black cat <small>(black, cat, unlucky)</small>
 🦁 lion <small>(face, Leo, lion, zodiac)</small>
 🐯 tiger face <small>(face, tiger)</small>
 🐅 tiger <small>(tiger)</small>
@@ -1258,7 +1258,7 @@
 🛠 hammer and wrench <small>(hammer, hammer and wrench, spanner, tool, wrench)</small>
 🗡 dagger <small>(dagger, knife, weapon)</small>
 ⚔ crossed swords <small>(crossed, swords, weapon)</small>
-🔫 pistol <small>(gun, handgun, pistol, revolver, tool, weapon)</small>
+🔫 water pistol <small>(gun, handgun, pistol, revolver, tool, weapon)</small>
 🪃 boomerang <small>(australia, boomerang, rebound, repercussion)</small>
 🏹 bow and arrow <small>(archer, arrow, bow, bow and arrow, Sagittarius, zodiac)</small>
 🛡 shield <small>(shield, weapon)</small>
@@ -1269,7 +1269,7 @@
 ⚙ gear <small>(cog, cogwheel, gear, tool)</small>
 🗜 clamp <small>(clamp, compress, tool, vice)</small>
 ⚖ balance scale <small>(balance, justice, Libra, scale, zodiac)</small>
-🦯 white cane <small>(accessibility, blind, probing cane)</small>
+🦯 white cane <small>(accessibility, blind, white cane)</small>
 🔗 link <small>(link)</small>
 ⛓ chains <small>(chain, chains)</small>
 🪝 hook <small>(catch, crook, curve, ensnare, hook, selling point)</small>
@@ -1420,14 +1420,14 @@
 ✖ multiply <small>(×, cancel, multiplication, multiply, sign, x)</small>
 ➕ plus <small>(+, math, plus, sign)</small>
 ➖ minus <small>(-, −, math, minus, sign)</small>
-➗ divide <small>(÷, division, math, sign)</small>
+➗ divide <small>(÷, divide, division, math, sign)</small>
 ♾ infinity <small>(forever, infinity, unbounded, universal)</small>
 ‼ double exclamation mark <small>(!, !!, bangbang, double exclamation mark, exclamation, mark)</small>
 ⁉ exclamation question mark <small>(!, !?, ?, exclamation, interrobang, mark, punctuation, question)</small>
-❓ question mark <small>(?, mark, punctuation, question)</small>
+❓ red question mark <small>(?, mark, punctuation, question)</small>
 ❔ white question mark <small>(?, mark, outlined, punctuation, question, white question mark)</small>
 ❕ white exclamation mark <small>(!, exclamation, mark, outlined, punctuation, white exclamation mark)</small>
-❗ exclamation mark <small>(!, exclamation, mark, punctuation)</small>
+❗ red exclamation mark <small>(!, exclamation, mark, punctuation)</small>
 〰 wavy dash <small>(dash, punctuation, wavy)</small>
 💱 currency exchange <small>(bank, currency, exchange, money)</small>
 💲 heavy dollar sign <small>(currency, dollar, heavy dollar sign, money)</small>

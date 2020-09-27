@@ -24,8 +24,8 @@ class BlockFactory(object):
         return Block(name.strip().title(), start, end, self.__fill_characters(start, end))
 
     def __fill_characters(self: 'BlockFactory', start: int, end: int) -> List[Character]:
-        characters = set()
+        characters = list()
         for char in range(start, end + 1):
-            characters.add(self.__char_factory.get_character(char))
+            characters.append(self.__char_factory.get_character(char))
 
         return list(filter(lambda it: it is not None, characters))

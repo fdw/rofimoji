@@ -78,7 +78,7 @@ class Rofimoji:
             default_config_files=[os.path.join(directory, 'rofimoji.rc') for directory in
                                   BaseDirectory.xdg_config_dirs]
         )
-        parser.add_argument('--version', action='version', version='rofimoji 4.3.0-SNAPSHOT')
+        parser.add_argument('--version', action='version', version='rofimoji 4.3.0')
         parser.add_argument(
             '--insert-with-clipboard',
             '-p',

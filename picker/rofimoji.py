@@ -75,19 +75,13 @@ class Rofimoji:
         )
         parser.add_argument('--version', action='version', version='rofimoji 5.0.0-SNAPSHOT')
         parser.add_argument(
-            '--insert-with-clipboard',
-            '-p',
-            dest='insert_with_clipboard',
-            action='store_true',
-            help='Do not type the character directly, but copy it to the clipboard, insert it from '
-                 'there and then restore the clipboard\'s original value '
-        )
-        parser.add_argument(
-            '--copy-only',
-            '-c',
-            dest='copy_only',
-            action='store_true',
-            help='Only copy the character to the clipboard but do not insert it'
+            '--action',
+            '-a',
+            dest='action',
+            action='store',
+            choices=['type', 'copy', 'clipboard'],
+            default='type',
+            help='How to insert the chosen characters'
         )
         parser.add_argument(
             '--skin-tone',
@@ -137,6 +131,7 @@ class Rofimoji:
             dest='clipboarder',
             action='store',
             type=str,
+            choices=['xsel', 'xclip', 'wl-copy'],
             default=None,
             help='Choose the application to access the clipboard with'
         )
@@ -145,6 +140,7 @@ class Rofimoji:
             dest='typer',
             action='store',
             type=str,
+            choices=['xdotool', 'wtype'],
             default=None,
             help='Choose the application to type with'
         )
@@ -316,9 +312,9 @@ class Rofimoji:
             file.write(characters + '\n')
 
     def default_handle(self, characters: str) -> None:
-        if self.args.copy_only:
+        if self.args.action == 'copy':
             self.clipboarder.copy_characters_to_clipboard(characters)
-        elif self.args.insert_with_clipboard:
+        elif self.args.action == 'clipboard':
             self.clipboarder.copy_paste_characters(characters, self.active_window, self.typer)
         else:
             self.typer.type_characters(characters, self.active_window)

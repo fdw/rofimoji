@@ -53,10 +53,7 @@ class Rofimoji:
             if 10 <= returncode <= 19:
                 self.default_handle_recent_character(returncode - 9)
             else:
-                characters = self.process_chosen_characters(
-                    stdout.splitlines()
-                )
-                self.save_characters_to_recent_file(characters)
+                characters = self.process_chosen_characters(stdout.splitlines())
 
                 if returncode == 0:
                     self.default_handle(characters)
@@ -229,14 +226,24 @@ class Rofimoji:
         return rofi.returncode, rofi.stdout
 
     def process_chosen_characters(self, chosen_characters: List[str]) -> str:
-        result = []
-        for line in chosen_characters:
-            for element in line.split(" ")[0]:
-                if element in self.skin_tone_selectable_emojis:
-                    result.append(self.select_skin_tone(element))
-                else:
-                    result.append(element)
-        return ''.join(result)
+        processed_characters = ''.join(
+            self.add_skin_tone(line.split(' ')[0])
+            for line in chosen_characters
+        )
+        self.save_characters_to_recent_file(processed_characters)
+
+        return processed_characters
+
+    def add_skin_tone(self, character: str) -> str:
+        characters_with_skin_tone = []
+
+        for element in character:
+            if element in self.skin_tone_selectable_emojis:
+                characters_with_skin_tone.append(self.select_skin_tone(element))
+            else:
+                characters_with_skin_tone.append(element)
+
+        return ''.join(characters_with_skin_tone)
 
     def select_skin_tone(self, selected_emoji: chr) -> str:
         skin_tone = self.args.skin_tone

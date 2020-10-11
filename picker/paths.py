@@ -20,3 +20,10 @@ else:
 
 recents_file_location = data_home / 'rofimoji' / 'recent'
 favorites_file_location = data_home / 'rofimoji' / 'favorites'
+
+if os.environ.get('XDG_CACHE_HOME'):
+    cache_home = Path(os.environ.get('XDG_CACHE_HOME'))
+else:
+    cache_home = Path.home() / '.cache'
+
+cache_file_location = cache_home / 'rofimoji'

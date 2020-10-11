@@ -1,6 +1,7 @@
 # [NEXT]
 ## Added
-- rofimoji now has a manpage. (#57)
+- `rofimoji` can now be called as a modus from rofi! (#44)
+- `rofimoji` now has a manpage. (#57)
 - There's a new file for [Nerd Font icons](https://www.nerdfonts.com/).
 
 ## Changed

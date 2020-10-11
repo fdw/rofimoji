@@ -4,9 +4,13 @@ Fear no more, this script uses the power of [rofi](https://github.com/DaveDavenp
 Insert the selected emoji directly, or copy it to the clipboard.
 And you can use it to pick any weird character someone got into Unicode, too.
 
+## How does it look?
+![Screenshot of rofimoji](screenshot.png?raw=true)
+
 ## Usage
+### Standalone
 1. Run `rofimoji.py`
-2. Search for the emoji you want
+2. Search for the character you want
 3. (optional) Select multiple emoji with `shift+enter`
 4. Hit `enter` to insert the emoji directly \
    Hit `alt+c` to copy it to the clipboard \
@@ -16,8 +20,15 @@ And you can use it to pick any weird character someone got into Unicode, too.
 5. Maybe select a skin color
 6. 🎠
 
-## How does it look?
-![Screenshot of rofimoji](screenshot.png?raw=true)
+### As a rofi "mode"
+1. Call rofi with `rofi -modi "emoji:<path to rofimoji.py>" -show emoji`
+2. Search for the character you want
+3. Hit `enter` to exexute your default action; \
+   `Alt+Shift+1` for copying to the clipboard
+   `Alt+Shift+3` for the "[clipboard](#insertion-method)" insertion method
+   `alt+1` inserts the most recently used character (`alt+2` for the second most recently one etc.)
+4. Maybe select a skin color
+5. 🐉
 
 ## Insertion method
 By default, `rofimoji` types the characters using either `xdotool` or `wtype` (see [Display server support](#display-server-support)). You can enforce this behavior with `--action type` (`-a type`).
@@ -67,7 +78,15 @@ skin-tone = moderate
 ## Custom character files
 You can define additional character files and load them with `-f` (see [options](#options)). In each line, one 'character' can be defined, followed by a single space character (` `). After that, you can write whatever description you want.
 
-If you think your file is useful to others, you can open a PR to include it in future versions of `rofimoji`.
+If you think your file is useful to others, please open a PR to include it in a future version of `rofimoji`.
+
+## Caveats when running `rofimoji` as a rofi "mode"
+Running as rofi mode has several drawbacks that cannot be changed:
+- Because `rofi` is the main process, `rofimoji` cannot directly type to any window. Only copying the character works, so set the `--action` accordingly.
+- You can only select one character at a time.
+- The custom keyboard shortcuts are still there, but mapped to `Alt+Shift+1` (on a Qwerty keyboard) etc.
+
+The configuration still works as described. You can have several modes in a `combi` for different character sets, for example, or set a default action and skin tone.
 
 ## Installation
 
@@ -90,7 +109,7 @@ What else do you need:
 For Ubuntu focal: `sudo aptitude install fonts-emojione python3 rofi xdotool xsel` \
 For Arch: `sudo pacman -Syu emoji-font python rofi xdotool xsel`
 
-## Updating the emojis
+## Updating the characters
 If you really, really need to update the characters and cannot wait for the official update:
 
 1. Install Python 3 and `pip install -r requirements.txt` in the `extractors` directory.

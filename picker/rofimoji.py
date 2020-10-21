@@ -76,7 +76,7 @@ class Rofimoji:
             description='Select, insert or copy Unicode characters using rofi.',
             default_config_files=[Path(directory) / 'rofimoji.rc' for directory in BaseDirectory.xdg_config_dirs]
         )
-        parser.add_argument('--version', action='version', version='rofimoji 4.3.0')
+        parser.add_argument('--version', action='version', version='rofimoji 5.0.0-SNAPSHOT')
         parser.add_argument(
             '--insert-with-clipboard',
             '-p',

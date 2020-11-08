@@ -65,6 +65,11 @@ files = [emojis, hebrew]
 skin-tone = moderate
 ```
 
+## Custom character files
+You can define additional character files and load them with `-f` (see [options](#options)). In each line, one 'character' can be defined, followed by a single space character (` `). After that, you can write whatever description you want.
+
+If you think your file is useful to others, you can open a PR to include it in future versions of `rofimoji`.
+
 ## Installation
 
 ### Arch

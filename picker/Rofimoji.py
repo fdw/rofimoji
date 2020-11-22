@@ -212,6 +212,22 @@ class Rofimoji:
 
         return ' | '.join(pairings)
 
+    def format_recent_characters_with_desc(self) -> str:
+        recent_characters = self.load_recent_characters(self.args.max_recent)
+        file_names = self.resolve_all_files()
+        character_to_description = {}
+
+        for file_name in file_names:
+            descriptions = self.load_from_file(file_name).split('\n')
+            matches = list(filter(lambda x: len(x) > 0 and x[0] in recent_characters, descriptions))
+            for match in matches:
+                character_to_description[match[0]] = match
+
+        return '\n'.join([character_to_description[character] for character in
+                          recent_characters
+                          if character in character_to_description])
+
+
     def open_main_rofi_window(self) -> Tuple[int, str]:
         rofi_args = self.args.rofi_args
         characters = self.read_character_files()
@@ -238,9 +254,12 @@ class Rofimoji:
             *rofi_args
         ]
 
-        recent_characters = self.format_recent_characters()
-        if len(recent_characters) > 0:
-            parameters.extend(['-mesg', recent_characters])
+        recent_characters = self.format_recent_characters_with_desc()
+        characters = '\n'.join(list(filter(lambda line: line not in recent_characters, characters.split('\n'))))
+        characters = recent_characters + '\n' + characters
+
+        # if len(recent_characters) > 0:
+        #     parameters.extend(['-mesg', recent_characters])
 
         rofi = run(
             parameters,
@@ -312,7 +331,8 @@ class Rofimoji:
         old_file_name = os.path.join(BaseDirectory.xdg_data_home, 'rofimoji', 'recent')
         new_file_name = os.path.join(BaseDirectory.xdg_data_home, 'rofimoji', 'recent_temp')
 
-        max_recent = min(max_recent_from_conf, 10)
+        # max_recent = min(max_recent_from_conf, 10)
+        max_recent = max_recent_from_conf
 
         os.makedirs(os.path.dirname(new_file_name), exist_ok=True)
         with open(new_file_name, 'w+') as new_file:

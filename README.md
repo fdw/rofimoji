@@ -82,7 +82,7 @@ This also installs the python dependencies `xdg` and `configargparse`.
 
 ### Dependencies
 What else do you need:
-- Python 3
+- Python 3.7 or higher
 - A font that can display your scripts, (for emojis, [EmojiOne](https://github.com/emojione/emojione) or [Noto Emoji](https://www.google.com/get/noto/) work)
 - A tool to programmatically type characters into applications. Either `xdotool` for X11 or `wtype` for Wayland
 - A tool to copy the characters to the clipboard. `xsel` and `xclip` work on X11; `wl-copy` on Wayland

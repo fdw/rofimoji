@@ -1,4 +1,5 @@
 import html
+from pathlib import Path
 
 import requests
 
@@ -33,12 +34,9 @@ class BlockExtractor(object):
             if len(block.characters) == 0:
                 continue
 
-            symbol_file = open(f"../picker/data/{block.name.lower().replace(' ', '_')}.csv", 'w')
-
-            for character in block.characters:
-                symbol_file.write(f"{character.char} {html.escape(character.name)}\n")
-
-            symbol_file.close()
+            with Path(f"../picker/data/{block.name.lower().replace(' ', '_')}.csv").open('w') as symbol_file:
+                for character in block.characters:
+                    symbol_file.write(f"{character.char} {html.escape(character.name)}\n")
 
     def extract(self):
         self.fetch_blocks()

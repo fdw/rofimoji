@@ -1,4 +1,5 @@
 import html
+from pathlib import Path
 from typing import List
 
 import requests
@@ -44,12 +45,9 @@ class MathExtractor(object):
             return [int(line, 16)]
 
     def write_file(self: 'MathExtractor', symbols: List[Character]):
-        symbol_file = open(f"../picker/data/math.csv", 'w')
-
-        for character in symbols:
-            symbol_file.write(f"{character.char} {html.escape(character.name)}\n")
-
-        symbol_file.close()
+        with Path(f"../picker/data/math.csv").open('w') as symbol_file:
+            for character in symbols:
+                symbol_file.write(f"{character.char} {html.escape(character.name)}\n")
 
     def extract(self):
         self.write_file(self.fetch_math_symbols())

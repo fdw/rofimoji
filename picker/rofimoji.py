@@ -6,6 +6,7 @@ import sys
 from pathlib import Path
 from subprocess import run
 from typing import List, Tuple
+import enum
 
 import configargparse
 from xdg import BaseDirectory
@@ -35,6 +36,13 @@ class Rofimoji:
         '🏾': 'dark brown skin',
         '🏿': 'black skin'
     }
+
+    class Action(enum.Enum):
+        TYPE = 'type'
+        COPY = 'copy'
+        CLIPBOARD = 'clipboard'
+        UNICODE = 'unicode'
+        COPY_UNICODE = 'copy-unicode'
 
     fitzpatrick_modifiers_reversed = {" ".join(name.split()[:-1]): modifier for modifier, name in
                                       fitzpatrick_modifiers.items() if name != "neutral"}
@@ -69,8 +77,8 @@ class Rofimoji:
             '-a',
             dest='action',
             action='store',
-            choices=['type', 'copy', 'clipboard', 'unicode', 'copy-unicode'],
-            default='type',
+            choices=[action.value for action in self.Action],
+            default=self.Action.TYPE.value,
             help='How to insert the chosen characters'
         )
         parser.add_argument(
@@ -137,20 +145,21 @@ class Rofimoji:
 
         parsed_args = parser.parse_args()
         parsed_args.rofi_args = shlex.split(parsed_args.rofi_args)
+        parsed_args.action = next(action for action in self.Action if action.value == parsed_args.action)
 
         return parsed_args
 
     def choose_action_from_return_code(self, return_code: int):
         if return_code == 20:
-            self.args.action = 'copy'
+            self.args.action = self.Action.COPY
         elif return_code == 21:
-            self.args.action = 'type'
+            self.args.action = self.Action.TYPE
         elif return_code == 22:
-            self.args.action = 'clipboard'
+            self.args.action = self.Action.CLIPBOARD
         elif return_code == 23:
-            self.args.action = 'unicode'
+            self.args.action = self.Action.UNICODE
         elif return_code == 24:
-            self.args.action = 'copy-unicode'
+            self.args.action = self.Action.COPY_UNICODE
 
     def read_character_files(self) -> str:
         return ''.join(self.load_from_file(file_name) for file_name in self.resolve_all_files())
@@ -314,15 +323,15 @@ class Rofimoji:
             file.write(characters + '\n')
 
     def execute_action(self, characters: str) -> None:
-        if self.args.action == 'type':
+        if self.args.action == self.Action.TYPE:
             self.typer.type_characters(characters, self.active_window)
-        elif self.args.action == 'copy':
+        elif self.args.action == self.Action.COPY:
             self.clipboarder.copy_characters_to_clipboard(characters)
-        elif self.args.action == 'clipboard':
+        elif self.args.action == self.Action.CLIPBOARD:
             self.clipboarder.copy_paste_characters(characters, self.active_window, self.typer)
-        elif self.args.action == 'unicode':
+        elif self.args.action == self.Action.UNICODE:
             self.typer.type_characters(self.get_codepoints(characters), self.active_window)
-        elif self.args.action == 'copy-unicode':
+        elif self.args.action == self.Action.COPY_UNICODE:
             self.clipboarder.copy_characters_to_clipboard(self.get_codepoints(characters))
 
 

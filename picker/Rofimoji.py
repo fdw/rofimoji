@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import argparse
-import fnmatch
-import os
 import shlex
 import sys
+from pathlib import Path
 from subprocess import run
 from typing import List, Tuple
 
@@ -75,8 +74,7 @@ class Rofimoji:
     def parse_arguments(self) -> argparse.Namespace:
         parser = configargparse.ArgumentParser(
             description='Select, insert or copy Unicode characters using rofi.',
-            default_config_files=[os.path.join(directory, 'rofimoji.rc') for directory in
-                                  BaseDirectory.xdg_config_dirs]
+            default_config_files=[Path(directory) / 'rofimoji.rc' for directory in BaseDirectory.xdg_config_dirs]
         )
         parser.add_argument('--version', action='version', version='rofimoji 4.3.0')
         parser.add_argument(
@@ -173,36 +171,26 @@ class Rofimoji:
         file_names = self.args.files
 
         if len(file_names) == 1 and file_names[0] == 'all':
-            file_names = [os.path.splitext(file)[0] for file in
-                          os.listdir(os.path.join(os.path.dirname(__file__), "data"))
-                          if fnmatch.fnmatch(file, "*.csv")]
+            file_names = [file.stem for file in (Path(__file__).parent / "data").glob("*.csv")]
         return file_names
 
     def load_from_file(self, file_name: str) -> str:
-        provided_file = os.path.join(os.path.dirname(__file__), "data", file_name + '.csv')
-        if os.path.isfile(file_name):
-            actual_file_name = file_name
-        elif os.path.isfile(provided_file):
+        provided_file = Path(__file__).parent / "data" / f"{file_name}.csv"
+        if Path(file_name).is_file():
+            actual_file_name = Path(file_name)
+        elif provided_file.is_file():
             actual_file_name = provided_file
         else:
-            raise FileNotFoundError(f"Couldn't find file {file_name}")
+            raise FileNotFoundError(f"Couldn't find file {file_name!r}")
 
-        with open(actual_file_name, "r") as file:
-            return file.read()
+        return actual_file_name.read_text()
 
     def load_all_characters(self) -> str:
-        characters = ""
-
-        directory = os.path.join(os.path.dirname(__file__), "data")
-        for filename in os.listdir(directory):
-            with open(os.path.join(directory, filename), "r") as file:
-                characters = characters + file.read()
-        return characters
+        return "".join(file.read_text() for file in (Path(__file__).parent / "data").iterdir())
 
     def load_recent_characters(self, max: int) -> List[str]:
         try:
-            with open(os.path.join(BaseDirectory.xdg_data_home, 'rofimoji', 'recent'), 'r') as file:
-                return file.read().strip().split('\n')[:max]
+            return (Path(BaseDirectory.xdg_data_home) / 'rofimoji' / 'recent').read_text().strip().split('\n')[:max]
         except FileNotFoundError:
             return []
 
@@ -309,17 +297,17 @@ class Rofimoji:
     def save_characters_to_recent_file(self, characters: str):
         max_recent_from_conf = self.args.max_recent
 
-        old_file_name = os.path.join(BaseDirectory.xdg_data_home, 'rofimoji', 'recent')
-        new_file_name = os.path.join(BaseDirectory.xdg_data_home, 'rofimoji', 'recent_temp')
+        old_file_name = Path(BaseDirectory.xdg_data_home) / 'rofimoji' / 'recent'
+        new_file_name = Path(BaseDirectory.xdg_data_home) / 'rofimoji' / 'recent_temp'
 
         max_recent = min(max_recent_from_conf, 10)
 
-        os.makedirs(os.path.dirname(new_file_name), exist_ok=True)
-        with open(new_file_name, 'w+') as new_file:
+        new_file_name.parent.mkdir(parents=True, exist_ok=True)
+        with new_file_name.open('w+') as new_file:
             new_file.write(characters + '\n')
 
             try:
-                with open(old_file_name, 'r') as old_file:
+                with old_file_name.open('r') as old_file:
                     index = 0
                     for line in old_file:
                         if characters == line.strip():
@@ -329,17 +317,17 @@ class Rofimoji:
                         new_file.write(line)
                         index = index + 1
 
-                os.remove(old_file_name)
+                old_file_name.unlink()
             except FileNotFoundError:
                 pass
 
-        os.rename(new_file_name, old_file_name)
+        new_file_name.rename(old_file_name)
 
     def append_to_favorites_file(self, characters: str):
-        file_name = os.path.join(BaseDirectory.xdg_data_home, 'rofimoji', 'favorites')
+        file_name = Path(BaseDirectory.xdg_data_home) / 'rofimoji' / 'favorites'
 
-        os.makedirs(os.path.dirname(file_name), exist_ok=True)
-        with open(file_name, 'a+') as file:
+        file_name.parent.mkdir(parents=True, exist_ok=True)
+        with file_name.open('a+') as file:
             file.write(characters + '\n')
 
     def default_handle(self, characters: str):

@@ -1,5 +1,6 @@
 import html
 from collections import namedtuple
+from pathlib import Path
 from typing import List, Dict
 
 import requests
@@ -91,12 +92,9 @@ class EmojiExtractor(object):
 
     def write_symbol_file(self: 'EmojiExtractor'):
         print('Writing collected emojis to symbol file')
-        symbol_file = open('../picker/data/emojis.csv', 'w')
-
-        for entry in self.compile_entries(self.all_emojis):
-            symbol_file.write(entry + "\n")
-
-        symbol_file.close()
+        with Path('../picker/data/emojis.csv').open('w') as symbol_file:
+            for entry in self.compile_entries(self.all_emojis):
+                symbol_file.write(entry + "\n")
 
     def compile_entries(self: 'EmojiExtractor', emojis: List[Emoji]) -> List[str]:
         annotated_emojis = []
@@ -112,12 +110,10 @@ class EmojiExtractor(object):
 
     def write_metadata_file(self: 'EmojiExtractor'):
         print('Writing metadata to metadata file')
-        metadata_file = open('../picker/copyme.py', 'w')
-
-        metadata_file.write('skin_tone_selectable_emojis={\'')
-        metadata_file.write('\', \''.join(self.base_emojis))
-        metadata_file.write('\'}\n')
-        metadata_file.close()
+        with Path('../picker/copyme.py').open('w') as metadata_file:
+            metadata_file.write('skin_tone_selectable_emojis={\'')
+            metadata_file.write('\', \''.join(self.base_emojis))
+            metadata_file.write('\'}\n')
 
     def extract(self: 'EmojiExtractor'):
         self.write_symbol_file()

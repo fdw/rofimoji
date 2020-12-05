@@ -1,7 +1,7 @@
-from extractors.BlockExtractor import BlockExtractor
-from extractors.CharacterFactory import CharacterFactory
-from extractors.EmojiExtractor import EmojiExtractor
-from extractors.MathCollectionExtractor import MathExtractor
+from extractors.blockextractor import BlockExtractor
+from extractors.characterfactory import CharacterFactory
+from extractors.emojiextractor import EmojiExtractor
+from extractors.mathcollectionextractor import MathExtractor
 
 if __name__ == "__main__":
     character_factory = CharacterFactory()

@@ -10,8 +10,8 @@ from typing import List, Tuple
 import configargparse
 from xdg import BaseDirectory
 
-from picker.Clipboarder import Clipboarder
-from picker.Typer import Typer
+from picker.clipboarder import Clipboarder
+from picker.typer import Typer
 
 
 class Rofimoji:

@@ -19,7 +19,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'rofimoji = picker.Rofimoji:main'
+            'rofimoji = picker.rofimoji:main'
         ]
     },
     install_requires=[

@@ -167,7 +167,7 @@ class Rofimoji:
 
         return entries
 
-    def resolve_all_files(self):
+    def resolve_all_files(self) -> List[str]:
         file_names = self.args.files
 
         if len(file_names) == 1 and file_names[0] == 'all':
@@ -184,9 +184,6 @@ class Rofimoji:
             raise FileNotFoundError(f"Couldn't find file {file_name!r}")
 
         return actual_file_name.read_text()
-
-    def load_all_characters(self) -> str:
-        return "".join(file.read_text() for file in (Path(__file__).parent / "data").iterdir())
 
     def load_recent_characters(self, max: int) -> List[str]:
         try:
@@ -238,11 +235,7 @@ class Rofimoji:
         )
         return rofi.returncode, rofi.stdout
 
-    def process_chosen_characters(
-            self,
-            chosen_characters: List[str]
-    ) -> str:
-
+    def process_chosen_characters(self, chosen_characters: List[str]) -> str:
         result = ""
         for line in chosen_characters:
             character = line.split(" ")[0]
@@ -294,7 +287,7 @@ class Rofimoji:
     def get_codepoints(self, char: str) -> str:
         return '-'.join([str(hex(ord(c)))[2:] for c in char])
 
-    def save_characters_to_recent_file(self, characters: str):
+    def save_characters_to_recent_file(self, characters: str) -> None:
         max_recent_from_conf = self.args.max_recent
 
         old_file_name = Path(BaseDirectory.xdg_data_home) / 'rofimoji' / 'recent'
@@ -323,14 +316,14 @@ class Rofimoji:
 
         new_file_name.rename(old_file_name)
 
-    def append_to_favorites_file(self, characters: str):
+    def append_to_favorites_file(self, characters: str) -> None:
         file_name = Path(BaseDirectory.xdg_data_home) / 'rofimoji' / 'favorites'
 
         file_name.parent.mkdir(parents=True, exist_ok=True)
         with file_name.open('a+') as file:
             file.write(characters + '\n')
 
-    def default_handle(self, characters: str):
+    def default_handle(self, characters: str) -> None:
         if self.args.copy_only:
             self.clipboarder.copy_characters_to_clipboard(characters)
         elif self.args.insert_with_clipboard:
@@ -338,7 +331,7 @@ class Rofimoji:
         else:
             self.typer.type_characters(characters, self.active_window)
 
-    def default_handle_recent_character(self, position: int):
+    def default_handle_recent_character(self, position: int) -> None:
         recent_characters = self.load_recent_characters(position)
 
         self.default_handle(recent_characters[position - 1].strip())

@@ -26,16 +26,10 @@ class CharacterFactory(object):
         lines = response.content.decode(response.encoding).split('\n')
 
         for line in lines:
-            if len(line) == 0:
-                continue
             fields = line.split(';')
-            if fields[1].startswith('<'):
-                continue
-            character = Character(int(fields[0], 16), fields[1])
-            self.__characters[character.char] = character
+            if len(fields) >= 2 and not fields[1].startswith('<'):
+                character = Character(int(fields[0], 16), fields[1])
+                self.__characters[character.char] = character
 
     def get_character(self: 'CharacterFactory', char: int) -> Union[Character, None]:
-        try:
-            return self.__characters[chr(char)]
-        except KeyError:
-            return None
+        return self.__characters.get(chr(char))

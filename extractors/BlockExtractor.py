@@ -24,14 +24,14 @@ class BlockExtractor(object):
         lines = response.content.decode(response.encoding).split('\n')
 
         for line in lines:
-            if line.startswith('#') or line.startswith('@') or len(line) == 0:
+            if not line or line.startswith(('#', '@')):
                 continue
-            fields = line.split(';')
-            self.__blocks.append(self.__block_factory.build_block_from_range(fields[1].strip(), fields[0].strip()))
+            key, _, value = line.partition(';')
+            self.__blocks.append(self.__block_factory.build_block_from_range(value.strip(), key.strip()))
 
     def write_to_files(self: 'BlockExtractor'):
         for block in self.__blocks:
-            if len(block.characters) == 0:
+            if not block.characters:
                 continue
 
             with Path(f"../picker/data/{block.name.lower().replace(' ', '_')}.csv").open('w') as symbol_file:

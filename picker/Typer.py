@@ -79,7 +79,6 @@ class WTypeTyper(Typer):
     def name() -> str:
         return 'wtype'
 
-
     def get_active_window(self) -> str:
         return "not possible with wtype"
 

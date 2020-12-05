@@ -20,7 +20,6 @@ class Clipboarder:
     def supported() -> bool:
         pass
 
-
     @staticmethod
     def name() -> str:
         pass

@@ -10,8 +10,8 @@ from typing import List, Tuple
 import configargparse
 from xdg import BaseDirectory
 
-from picker.Clipboarder import Clipboarder
-from picker.Typer import Typer
+from picker.clipboarder import Clipboarder
+from picker.typer import Typer
 
 
 class Rofimoji:
@@ -158,14 +158,7 @@ class Rofimoji:
         return parsed_args
 
     def read_character_files(self) -> str:
-        entries = ''
-
-        file_names = self.resolve_all_files()
-
-        for file_name in file_names:
-            entries = entries + self.load_from_file(file_name)
-
-        return entries
+        return ''.join(self.load_from_file(file_name) for file_name in self.resolve_all_files())
 
     def resolve_all_files(self) -> List[str]:
         file_names = self.args.files
@@ -224,7 +217,7 @@ class Rofimoji:
         ]
 
         recent_characters = self.format_recent_characters()
-        if len(recent_characters) > 0:
+        if recent_characters:
             parameters.extend(['-mesg', recent_characters])
 
         rofi = run(
@@ -236,20 +229,14 @@ class Rofimoji:
         return rofi.returncode, rofi.stdout
 
     def process_chosen_characters(self, chosen_characters: List[str]) -> str:
-        result = ""
+        result = []
         for line in chosen_characters:
-            character = line.split(" ")[0]
-
-            characters_with_skin_tone = ''
-            for element in character:
+            for element in line.split(" ")[0]:
                 if element in self.skin_tone_selectable_emojis:
-                    characters_with_skin_tone += self.select_skin_tone(element)
+                    result.append(self.select_skin_tone(element))
                 else:
-                    characters_with_skin_tone += element
-
-            result += characters_with_skin_tone
-
-        return result
+                    result.append(element)
+        return ''.join(result)
 
     def select_skin_tone(self, selected_emoji: chr) -> str:
         skin_tone = self.args.skin_tone
@@ -259,11 +246,10 @@ class Rofimoji:
         elif skin_tone != 'ask':
             return selected_emoji + self.fitzpatrick_modifiers_reversed[skin_tone]
         else:
-            modified_emojis = '\n'.join(map(
-                lambda modifier: selected_emoji + modifier + " " + self.fitzpatrick_modifiers[
-                    modifier],
-                self.fitzpatrick_modifiers.keys()
-            ))
+            modified_emojis = '\n'.join(
+                selected_emoji + modifier + " " + self.fitzpatrick_modifiers[modifier]
+                for modifier in self.fitzpatrick_modifiers
+            )
 
             rofi_skin = run(
                 [
@@ -285,13 +271,13 @@ class Rofimoji:
             return rofi_skin.stdout.split(' ')[0]
 
     def get_codepoints(self, char: str) -> str:
-        return '-'.join([str(hex(ord(c)))[2:] for c in char])
+        return '-'.join(f'{ord(c):x}' for c in char)
 
     def save_characters_to_recent_file(self, characters: str) -> None:
         max_recent_from_conf = self.args.max_recent
 
         old_file_name = Path(BaseDirectory.xdg_data_home) / 'rofimoji' / 'recent'
-        new_file_name = Path(BaseDirectory.xdg_data_home) / 'rofimoji' / 'recent_temp'
+        new_file_name = old_file_name.with_name('recent_temp')
 
         max_recent = min(max_recent_from_conf, 10)
 
@@ -303,12 +289,11 @@ class Rofimoji:
                 with old_file_name.open('r') as old_file:
                     index = 0
                     for line in old_file:
-                        if characters == line.strip():
-                            continue
-                        if index == max_recent - 1:
-                            break
-                        new_file.write(line)
-                        index = index + 1
+                        if characters != line.strip():
+                            if index == max_recent - 1:
+                                break
+                            new_file.write(line)
+                            index += 1
 
                 old_file_name.unlink()
             except FileNotFoundError:

@@ -1,6 +1,6 @@
 from subprocess import run
 
-from picker.AbstractionHelper import is_wayland, is_installed
+from picker.abstractionhelper import is_wayland, is_installed
 
 
 class Typer:
@@ -78,7 +78,6 @@ class WTypeTyper(Typer):
     @staticmethod
     def name() -> str:
         return 'wtype'
-
 
     def get_active_window(self) -> str:
         return "not possible with wtype"

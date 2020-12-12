@@ -1,3 +1,11 @@
+# [NEXT]
+## Added
+- rofimoji now has a manpage (#57)
+
+## Changed
+- The annotations on emojis don't contain their name (#59)
+- Some code cleanup (#56, #58)
+
 # [4.3.0]
 ## Added
 - Added support for Wayland! (#47)

@@ -1,10 +1,11 @@
 # [NEXT]
 ## Added
-- rofimoji now has a manpage (#57)
+- rofimoji now has a manpage (#57).
 
 ## Changed
-- The annotations on emojis don't contain their name (#59)
-- Some code cleanup (#56, #58)
+- Instead of several parameters to choose the input method, they have been consolidated into `--action` (`-a`).
+- The annotations on emojis don't contain their name (#59).
+- Some code cleanup (#56, #58).
 
 # [4.3.0]
 ## Added

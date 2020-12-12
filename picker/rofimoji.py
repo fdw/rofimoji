@@ -6,6 +6,7 @@ import sys
 from pathlib import Path
 from subprocess import run
 from typing import List, Tuple
+import enum
 
 import configargparse
 from xdg import BaseDirectory
@@ -36,6 +37,13 @@ class Rofimoji:
         '🏿': 'black skin'
     }
 
+    class Action(enum.Enum):
+        TYPE = 'type'
+        COPY = 'copy'
+        CLIPBOARD = 'clipboard'
+        UNICODE = 'unicode'
+        COPY_UNICODE = 'copy-unicode'
+
     fitzpatrick_modifiers_reversed = {" ".join(name.split()[:-1]): modifier for modifier, name in
                                       fitzpatrick_modifiers.items() if name != "neutral"}
 
@@ -51,46 +59,27 @@ class Rofimoji:
             sys.exit()
         else:
             if 10 <= returncode <= 19:
-                self.default_handle_recent_character(returncode - 9)
+                characters = self.load_recent_characters(self.args.max_recent)[returncode - 10].strip()
             else:
-                characters = self.process_chosen_characters(
-                    stdout.splitlines()
-                )
-                self.save_characters_to_recent_file(characters)
+                self.choose_action_from_return_code(returncode)
+                characters = self.process_chosen_characters(stdout.splitlines())
 
-                if returncode == 0:
-                    self.default_handle(characters)
-                elif returncode == 20:
-                    self.clipboarder.copy_characters_to_clipboard(characters)
-                elif returncode == 21:
-                    self.typer.type_characters(characters, self.active_window)
-                elif returncode == 22:
-                    self.clipboarder.copy_paste_characters(characters, self.active_window, self.typer)
-                elif returncode == 23:
-                    self.default_handle(self.get_codepoints(characters))
-                elif returncode == 24:
-                    self.clipboarder.copy_characters_to_clipboard(self.get_codepoints(characters))
+            self.execute_action(characters)
 
     def parse_arguments(self) -> argparse.Namespace:
         parser = configargparse.ArgumentParser(
             description='Select, insert or copy Unicode characters using rofi.',
             default_config_files=[Path(directory) / 'rofimoji.rc' for directory in BaseDirectory.xdg_config_dirs]
         )
-        parser.add_argument('--version', action='version', version='rofimoji 4.3.0')
+        parser.add_argument('--version', action='version', version='rofimoji 5.0.0-SNAPSHOT')
         parser.add_argument(
-            '--insert-with-clipboard',
-            '-p',
-            dest='insert_with_clipboard',
-            action='store_true',
-            help='Do not type the character directly, but copy it to the clipboard, insert it from '
-                 'there and then restore the clipboard\'s original value '
-        )
-        parser.add_argument(
-            '--copy-only',
-            '-c',
-            dest='copy_only',
-            action='store_true',
-            help='Only copy the character to the clipboard but do not insert it'
+            '--action',
+            '-a',
+            dest='action',
+            action='store',
+            choices=[action.value for action in self.Action],
+            default=self.Action.TYPE.value,
+            help='How to insert the chosen characters'
         )
         parser.add_argument(
             '--skin-tone',
@@ -140,6 +129,7 @@ class Rofimoji:
             dest='clipboarder',
             action='store',
             type=str,
+            choices=['xsel', 'xclip', 'wl-copy'],
             default=None,
             help='Choose the application to access the clipboard with'
         )
@@ -148,14 +138,28 @@ class Rofimoji:
             dest='typer',
             action='store',
             type=str,
+            choices=['xdotool', 'wtype'],
             default=None,
             help='Choose the application to type with'
         )
 
         parsed_args = parser.parse_args()
         parsed_args.rofi_args = shlex.split(parsed_args.rofi_args)
+        parsed_args.action = next(action for action in self.Action if action.value == parsed_args.action)
 
         return parsed_args
+
+    def choose_action_from_return_code(self, return_code: int):
+        if return_code == 20:
+            self.args.action = self.Action.COPY
+        elif return_code == 21:
+            self.args.action = self.Action.TYPE
+        elif return_code == 22:
+            self.args.action = self.Action.CLIPBOARD
+        elif return_code == 23:
+            self.args.action = self.Action.UNICODE
+        elif return_code == 24:
+            self.args.action = self.Action.COPY_UNICODE
 
     def read_character_files(self) -> str:
         return ''.join(self.load_from_file(file_name) for file_name in self.resolve_all_files())
@@ -229,14 +233,24 @@ class Rofimoji:
         return rofi.returncode, rofi.stdout
 
     def process_chosen_characters(self, chosen_characters: List[str]) -> str:
-        result = []
-        for line in chosen_characters:
-            for element in line.split(" ")[0]:
-                if element in self.skin_tone_selectable_emojis:
-                    result.append(self.select_skin_tone(element))
-                else:
-                    result.append(element)
-        return ''.join(result)
+        processed_characters = ''.join(
+            self.add_skin_tone(line.split(' ')[0])
+            for line in chosen_characters
+        )
+        self.save_characters_to_recent_file(processed_characters)
+
+        return processed_characters
+
+    def add_skin_tone(self, character: str) -> str:
+        characters_with_skin_tone = []
+
+        for element in character:
+            if element in self.skin_tone_selectable_emojis:
+                characters_with_skin_tone.append(self.select_skin_tone(element))
+            else:
+                characters_with_skin_tone.append(element)
+
+        return ''.join(characters_with_skin_tone)
 
     def select_skin_tone(self, selected_emoji: chr) -> str:
         skin_tone = self.args.skin_tone
@@ -308,18 +322,17 @@ class Rofimoji:
         with file_name.open('a+') as file:
             file.write(characters + '\n')
 
-    def default_handle(self, characters: str) -> None:
-        if self.args.copy_only:
-            self.clipboarder.copy_characters_to_clipboard(characters)
-        elif self.args.insert_with_clipboard:
-            self.clipboarder.copy_paste_characters(characters, self.active_window, self.typer)
-        else:
+    def execute_action(self, characters: str) -> None:
+        if self.args.action == self.Action.TYPE:
             self.typer.type_characters(characters, self.active_window)
-
-    def default_handle_recent_character(self, position: int) -> None:
-        recent_characters = self.load_recent_characters(position)
-
-        self.default_handle(recent_characters[position - 1].strip())
+        elif self.args.action == self.Action.COPY:
+            self.clipboarder.copy_characters_to_clipboard(characters)
+        elif self.args.action == self.Action.CLIPBOARD:
+            self.clipboarder.copy_paste_characters(characters, self.active_window, self.typer)
+        elif self.args.action == self.Action.UNICODE:
+            self.typer.type_characters(self.get_codepoints(characters), self.active_window)
+        elif self.args.action == self.Action.COPY_UNICODE:
+            self.clipboarder.copy_characters_to_clipboard(self.get_codepoints(characters))
 
 
 def main():

@@ -20,25 +20,25 @@ And you can use it to pick any weird character someone got into Unicode, too.
 ![Screenshot of rofimoji](screenshot.png?raw=true)
 
 ## Insertion method
-For some applications, `xdotool` cannot type emojis (f.e. Firefox).
-To work around this, `rofimoji` can copy the emojis to your clipboard and insert them from there with `shift+insert`.
-Afterwards, it will restore the previous contents.
+By default, `rofimoji` types the characters using either `xdotool` or `wtype` (see [Display server support](#display-server-support)). You can enforce this behavior with `--action type` (`-a type`).
+
+For some applications (f.e. Firefox), this does not work. To work around this, `rofimoji` can copy the emojis to your clipboard and insert them from there with `shift+insert`. Afterwards, it will restore the previous contents.
 Unfortunately, it depends on the receiving application whether `shift+insert` uses the clipboard or the primary selection.
 Therefore, `rofimoji` uses both and also restores both.
+To choose to spam your clipboards, you can either use the keybinding `alt+p` or start it as `rofimoji --action clipboard` (`-a clipboard`).
+If you want to use typing, you can hit `alt+t`, even though it was started with `--action clipboard`.
 
-By default, `rofimoji` uses `xdotool type`.
-To choose to spam your clipboards, you can either use the keybinding `alt+p` or start it as `rofimoji --insert-with-clipboard` (`-p`).
-If you want to use typing, you can hit `alt+t`, even though it was started with `--insert-with-clipboard`.
+Finally, with `--action copy` (or `-a copy`) you can also tell `rofimoji` to only copy the selected characters to your clipboard.
+
+## Display server support
+`rofimoji` supports both X11 and Wayland by using either `xsel`/`xclip` and `xdotool` on X11 or `wl-copy` and `wtype` on Wayland. It chooses automatically the right one for the currently running session.
+If you want to manually overwrite this, have a look at the `--clipboarder` and `--typer` options [below](#options).
 
 ## Most recently used characters
 By default, `rofimoji` will show the last ten recently used characters separately; you can insert them with `alt+1`, `alt+2` and so on. It will use the default [insertion Method](#insertion-method).
 If you don't want this, you can set `--max=recent` to `0`.
 
 The characters are saved in `$XDG_DATA_HOME/rofimoji/recent`.
-
-## Display Server Support
-`rofimoji` supports both X11 and Wayland by using either `xsel`/`xclip` and `xdotool` on X11 or `wl-copy` and `wtype` on Wayland. It chooses automatically the right one for the currently running session.
-If you want to manually overwrite this, have a look at the `--clipboarder` and `--typer` options [below](#options).
 
 ## Configuration
 You can configure `rofimoji` either with cli arguments or with a config file called `$XDG_CONFIG_HOME/rofimoji.rc`. For the file, use the long option names without double dashes.
@@ -47,20 +47,19 @@ You can configure `rofimoji` either with cli arguments or with a config file cal
 
 | long option | short option | possible values | description |
 | --- | --- | --- | --- |
+| `--action` | `-a` | `type`, `copy`, `clipboard` | Chose what `rofimoji` should do with the selected characters. See [Insertion Method](#insertion-method).<br/>`type`: Directly type the characters into the last active window.<br/>`copy`: Copy them to the clipboard.<br/>`clipboard`: Insert the selected emoji through pasting from the clipboard, instead of directly typing them.  |
+| `--files` | `-f` | `all`, `<yourfile>` or [any of the files in `data`](https://github.com/fdw/rofimoji/tree/master/picker/data)| Define which file(s) to load characters from. You can define your own files, or use any of the default ones.<br/>If set to `all`, all default files are used. Use with caution, that is a *lot*.<br/>If no file is set, the default emoji list is used. |
 | `--skin-tone` | `-s` | `light`, `medium-light`, `moderate`, `dark brown`, `black`, as well as `neutral` and `ask` | Define the skin tone of supporting emojis. `ask` will always ask the user. |
+| `--max-recent` |  | 1-10 | Show at most this many recently picked characters. The number will be capped at 10. |
 | `--prompt` | `-r` | any string | Define the prompt text for `rofimoji`. |
 | `--rofi-args` | | | Define arguments that `rofimoji` will pass through to `rofi`.<br/>Please note that you need to specify it as `--rofi-args="<rofi-args>"` or `--rofi-args " <rofi-args>"` because of a [bug in argparse](https://bugs.python.org/issue9334) |
-| `--files` | `-f` | `all`, `<yourfile>` or [any of the files in `data`](https://github.com/fdw/rofimoji/tree/master/picker/data)| Define which file(s) to load characters from. You can define your own files, or use any of the default ones.<br/>If set to `all`, all default files are used. Use with caution, that is a *lot*.<br/>If no file is set, the default emoji list is used. |
-| `--insert-with-clipboard` | `-p` | | Insert the selected emoji through pasting from the clipboard, instead of directly typing them. See [Insertion Method](#insertion-method). |
-| `--copy-only` | `-c` | | Only copy the selected characters to the clipboard without typing them. |
-| `--max-recent` |  | 1-10 | Show at most this many recently picked characters. The number will be capped at 10. |
 | `--clipboarder` | | `xsel`, `xclip`, `wl-copy` | Access the clipboard with this application. |
 | `--typer` | | `xdotool`, `wtype` | Type the characters using this application. |
 
 ### Example config file
 `~/.config/rofimoji.rc`:
 ```
-insert-with-clipboard = false
+action = copy
 files = [emojis, hebrew]
 skin-tone = moderate
 ```

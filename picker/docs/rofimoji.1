@@ -8,7 +8,8 @@
 .SH SYNOPSIS
 .PP
 \f[B]rofimoji\f[R] [\f[B]-h\f[R]] [\f[B]\[en]version\f[R]]
-[\f[B]\[en]insert-with-clipboard\f[R]] [\f[B]\[en]copy-only\f[R]]
+[\f[B]\[en]action\f[R]
+{\f[I]type\f[R],\f[I]copy\f[R],\f[I]clipboard\f[R],\f[I]unicode\f[R],\f[I]copy-unicode\f[R]}]
 [\f[B]\[en]skin-tone\f[R]
 {\f[I]neutral\f[R],\f[I]light\f[R],\f[I]medium-light\f[R],\f[I]moderate\f[R],\f[I]dark
 brown\f[R],\f[I]black\f[R],\f[I]ask\f[R]}] [\f[B]\[en]files\f[R]
@@ -28,12 +29,16 @@ Prints brief usage information.
 \[en]version
 show program\[cq]s version number and exit
 .TP
-\[en]insert-with-clipboard, -p
-Do not type the character directly, but copy it to the clipboard, insert
-it from there and then restore the clipboard\[cq]s original value
-.TP
-\[en]copy-only, -c
-Only copy the character to the clipboard but do not insert it
+\[en]action, -a
+Possible values: type, copy, clipboard, unicode, copy-unicode
+.RS
+.PP
+Choose what to do with the selected characters: Directly type them with
+the \[lq]Typer\[rq], copy them to the clipboard using the
+\[lq]Clipboarder\[rq], or insert them indirectly using the clipboard.
+\[lq]unicode\[rq] will type the unicode codepoints of the chosen
+characters, \[lq]copy-unicode\[rq] will copy it.
+.RE
 .TP
 \[en]skin-tone=\f[I]skin-tone\f[R], -s \f[I]skin-tone\f[R]
 Possible values: neutral, light, medium-light, moderate, dark brown,

@@ -91,7 +91,7 @@ class EmojiExtractor(object):
         for emoji in emojis:
             entry = f"{emoji.char} {html.escape(emoji.name)}"
             if emoji.char in self.annotations:
-                entry += f" <small>({html.escape(', '.join(self.annotations[emoji.char]))})</small>"
+                entry += f" <small>({html.escape(', '.join([annotation for annotation in self.annotations[emoji.char] if annotation != emoji.name]))})</small>"
             annotated_emojis.append(entry)
         return annotated_emojis
 

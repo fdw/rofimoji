@@ -1,6 +1,7 @@
 # [NEXT]
 ## Added
 - rofimoji now has a manpage (#57).
+- There's a new file for [Nerd Font icons](https://www.nerdfonts.com/).
 
 ## Changed
 - Instead of several parameters to choose the input method, they have been consolidated into `--action` (`-a`).

@@ -19,7 +19,7 @@ class NerdExtractor(object):
             timeout=60
         )
 
-        characters = BeautifulSoup(response.content.decode(response.encoding), 'html.parser').find(id='glyphCheatSheet').find_all(class_='column')
+        characters = BeautifulSoup(response.text, 'html.parser').find(id='glyphCheatSheet').find_all(class_='column')
         for c in characters:
             icon = chr(int(c.find(class_='codepoint').string, 16))
             name = c.find(class_='class-name').string
@@ -33,8 +33,6 @@ class NerdExtractor(object):
         with Path("../picker/data/nerd_font.csv").open('w') as symbol_file:
             for icon in self.icons:
                 symbol_file.write(f'{icon.icon} {html.escape(icon.name.lower())}\n')
-
-        symbol_file.close()
 
     def extract(self: 'NerdExtractor'):
         self.fetch_icons()

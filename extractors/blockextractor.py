@@ -21,7 +21,7 @@ class BlockExtractor(object):
             timeout=60
         )  # type: requests.Response
 
-        lines = response.content.decode(response.encoding).split('\n')
+        lines = response.text.split('\n')
 
         for line in lines:
             if not line or line.startswith(('#', '@')):

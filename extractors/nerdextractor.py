@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 
 Icon = namedtuple('Icon', 'icon name')
 
+
 class NerdExtractor(object):
     def __init__(self: 'NerdExtractor'):
         self.icons = []
@@ -24,7 +25,6 @@ class NerdExtractor(object):
             icon = chr(int(c.find(class_='codepoint').string, 16))
             name = c.find(class_='class-name').string
             self.icons.append(Icon(icon, name))
-
 
     def write_to_file(self: 'NerdExtractor'):
         if len(self.icons) == 0:

@@ -26,7 +26,7 @@ class EmojiExtractor(object):
             timeout=120
         )  # type: requests.Response
 
-        html = BeautifulSoup(data.content, 'lxml')
+        html = BeautifulSoup(data.text, 'lxml')
 
         emojis = []
         for row in html.find('table').find_all('tr'):
@@ -59,7 +59,7 @@ class EmojiExtractor(object):
 
         started = False
         emojis = []
-        for line in data.content.decode(data.encoding).split('\n'):
+        for line in data.text.split('\n'):
             if not started and line != '# All omitted code points have Emoji_Modifier_Base=No ':
                 continue
             started = True

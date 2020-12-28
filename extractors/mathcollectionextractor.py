@@ -21,7 +21,7 @@ class MathExtractor(object):
         )  # type: requests.Response
 
         characters = []
-        for line in data.content.decode(data.encoding).split('\n'):
+        for line in data.text.split('\n'):
             if line and not line.startswith('#'):
                 fields = line.split(';')
                 symbols = self.resolve_character_range(fields[0].strip())

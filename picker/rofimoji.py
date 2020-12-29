@@ -69,7 +69,7 @@ class Rofimoji:
     def parse_arguments(self) -> argparse.Namespace:
         parser = configargparse.ArgumentParser(
             description='Select, insert or copy Unicode characters using rofi.',
-            default_config_files=[Path(directory) / 'rofimoji.rc' for directory in BaseDirectory.xdg_config_dirs]
+            default_config_files=[str(Path(directory) / 'rofimoji.rc') for directory in BaseDirectory.xdg_config_dirs]
         )
         parser.add_argument('--version', action='version', version='rofimoji 5.0.0-SNAPSHOT')
         parser.add_argument(

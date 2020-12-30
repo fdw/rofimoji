@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import argparse
+import enum
 import shlex
 import sys
 from pathlib import Path
 from subprocess import run
 from typing import List, Tuple
-import enum
 
 import configargparse
-from xdg import BaseDirectory
 
 from picker.clipboarder import Clipboarder
 from picker.typer import Typer
+from picker.paths import *
 
 
 class Rofimoji:
@@ -69,7 +69,7 @@ class Rofimoji:
     def parse_arguments(self) -> argparse.Namespace:
         parser = configargparse.ArgumentParser(
             description='Select, insert or copy Unicode characters using rofi.',
-            default_config_files=[str(Path(directory) / 'rofimoji.rc') for directory in BaseDirectory.xdg_config_dirs]
+            default_config_files=config_file_locations
         )
         parser.add_argument('--version', action='version', version='rofimoji 5.0.0-SNAPSHOT')
         parser.add_argument(
@@ -184,7 +184,7 @@ class Rofimoji:
 
     def load_recent_characters(self, max: int) -> List[str]:
         try:
-            return (Path(BaseDirectory.xdg_data_home) / 'rofimoji' / 'recent').read_text().strip().split('\n')[:max]
+            return recents_file_location.read_text().strip().split('\n')[:max]
         except FileNotFoundError:
             return []
 
@@ -290,7 +290,7 @@ class Rofimoji:
     def save_characters_to_recent_file(self, characters: str) -> None:
         max_recent_from_conf = self.args.max_recent
 
-        old_file_name = Path(BaseDirectory.xdg_data_home) / 'rofimoji' / 'recent'
+        old_file_name = recents_file_location
         new_file_name = old_file_name.with_name('recent_temp')
 
         max_recent = min(max_recent_from_conf, 10)
@@ -316,10 +316,8 @@ class Rofimoji:
         new_file_name.rename(old_file_name)
 
     def append_to_favorites_file(self, characters: str) -> None:
-        file_name = Path(BaseDirectory.xdg_data_home) / 'rofimoji' / 'favorites'
-
-        file_name.parent.mkdir(parents=True, exist_ok=True)
-        with file_name.open('a+') as file:
+        favorites_file_location.parent.mkdir(parents=True, exist_ok=True)
+        with favorites_file_location.open('a+') as file:
             file.write(characters + '\n')
 
     def execute_action(self, characters: str) -> None:

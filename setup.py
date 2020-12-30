@@ -23,7 +23,6 @@ setup(
         ]
     },
     install_requires=[
-        'pyxdg==0.26',
         'ConfigArgParse>0.15,<2.0.0'
     ],
     data_files=[

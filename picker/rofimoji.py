@@ -200,7 +200,7 @@ class Rofimoji:
         prompt = self.args.prompt
 
         parameters = [
-            'rofi',
+            'wofi',
             '-dmenu',
             '-markup-rows',
             '-i',
@@ -267,7 +267,7 @@ class Rofimoji:
 
             rofi_skin = run(
                 [
-                    'rofi',
+                    'wofi',
                     '-dmenu',
                     '-i',
                     '-p',

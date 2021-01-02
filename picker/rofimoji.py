@@ -201,22 +201,22 @@ class Rofimoji:
 
         parameters = [
             'wofi',
-            '-dmenu',
-            '-markup-rows',
+            '--dmenu',
+            '--allow-markup',
             '-i',
-            '-multi-select',
+            #  '-multi-select',
             '-p',
             prompt,
-            '-kb-custom-11',
-            'Alt+c',
-            '-kb-custom-12',
-            'Alt+t',
-            '-kb-custom-13',
-            'Alt+p',
-            '-kb-custom-14',
-            'Alt+u',
-            '-kb-custom-15',
-            'Alt+i',
+            #  '-kb-custom-11',
+            #  'Alt+c',
+            #  '-kb-custom-12',
+            #  'Alt+t',
+            #  '-kb-custom-13',
+            #  'Alt+p',
+            #  '-kb-custom-14',
+            #  'Alt+u',
+            #  '-kb-custom-15',
+            #  'Alt+i',
             *rofi_args
         ]
 
@@ -268,7 +268,7 @@ class Rofimoji:
             rofi_skin = run(
                 [
                     'wofi',
-                    '-dmenu',
+                    '--dmenu',
                     '-i',
                     '-p',
                     selected_emoji + '   ',

@@ -1,6 +1,6 @@
 # Rofimoji: A character picker for rofi
 How often did you want to insert one of those Unicode emoji only to learn that there is no nice picker for Linux?
-Fear no more, this script uses the power of [rofi](https://github.com/DaveDavenport/rofi/) to present exactly the picker you always wanted.
+Fear no more, this script uses the power of [rofi](https://github.com/DaveDavenport/rofi/) (and other dmenu-derivatives like [wofi](https://hg.sr.ht/~scoopta/wofi)) to present exactly the picker you always wanted.
 Insert the selected emoji directly, or copy it to the clipboard.
 And you can use it to pick any weird character someone got into Unicode, too.
 
@@ -42,8 +42,10 @@ If you want to use typing, you can hit `alt+t`, even though it was started with 
 Finally, with `--action copy` (or `-a copy`) you can also tell `rofimoji` to only copy the selected characters to your clipboard.
 
 ## Display server support
-`rofimoji` supports both X11 and Wayland by using either `xsel`/`xclip` and `xdotool` on X11 or `wl-copy` and `wtype` on Wayland. It chooses automatically the right one for the currently running session.
-If you want to manually overwrite this, have a look at the `--clipboarder` and `--typer` options [below](#options).
+`rofimoji` supports both X11 and Wayland by using either `rofi`, `xsel`/`xclip` and `xdotool` on X11 or `wofi` (or some adapted `rofi`), `wl-copy` and `wtype` on Wayland. It chooses automatically the right one for the currently running session.
+If you want to manually overwrite this, have a look at the `--selector`, `--clipboarder` and `--typer` options [below](#options).
+
+Please note that `wofi` does not support custom keyboard shortcuts or recent files at the moment.
 
 ## Most recently used characters
 By default, `rofimoji` will show the last ten recently used characters separately; you can insert them with `alt+1`, `alt+2` and so on. It will use the default [insertion Method](#insertion-method).
@@ -64,6 +66,7 @@ You can configure `rofimoji` either with cli arguments or with a config file cal
 | `--max-recent` |  | 1-10 | Show at most this many recently picked characters. The number will be capped at 10. |
 | `--prompt` | `-r` | any string | Define the prompt text for `rofimoji`. |
 | `--rofi-args` | | | Define arguments that `rofimoji` will pass through to `rofi`.<br/>Please note that you need to specify it as `--rofi-args="<rofi-args>"` or `--rofi-args " <rofi-args>"` because of a [bug in argparse](https://bugs.python.org/issue9334) |
+| `--selector` | | `rofi`, `wofi` | Show the selection dialog with this application. |
 | `--clipboarder` | | `xsel`, `xclip`, `wl-copy` | Access the clipboard with this application. |
 | `--typer` | | `xdotool`, `wtype` | Type the characters using this application. |
 
@@ -102,6 +105,7 @@ This also installs the python dependency `configargparse`.
 What else do you need:
 - Python 3.7 or higher
 - A font that can display your scripts, (for emojis, [EmojiOne](https://github.com/emojione/emojione) or [Noto Emoji](https://www.google.com/get/noto/) work)
+- `rofi` or `wofi`
 - A tool to programmatically type characters into applications. Either `xdotool` for X11 or `wtype` for Wayland
 - A tool to copy the characters to the clipboard. `xsel` and `xclip` work on X11; `wl-copy` on Wayland
 

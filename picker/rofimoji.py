@@ -13,10 +13,12 @@ import configargparse
 try:
     from picker.clipboarder import Clipboarder
     from picker.typer import Typer
+    from picker.selector import Selector
     from picker.paths import *
 except ModuleNotFoundError:
     from clipboarder import Clipboarder
     from typer import Typer
+    from selector import Selector
     from paths import *
 
 
@@ -54,6 +56,7 @@ class Rofimoji:
 
     def __init__(self) -> None:
         self.args = self.parse_arguments()
+        self.selector = Selector.best_option(self.args.selector)
         self.typer = Typer.best_option(self.args.typer)
         self.clipboarder = Clipboarder.best_option(self.args.clipboarder)
         self.active_window = self.typer.get_active_window()
@@ -115,6 +118,15 @@ class Rofimoji:
             type=int,
             default=10,
             help='Show at most this number of recently used characters (cannot be larger than 10)'
+        )
+        parser.add_argument(
+            '--selector',
+            dest='selector',
+            action='store',
+            type=str,
+            choices=['rofi', 'wofi'],
+            default=None,
+            help='Choose the application to select the characters with'
         )
         parser.add_argument(
             '--clipboarder',
@@ -238,43 +250,12 @@ class Rofimoji:
         return ' | '.join(pairings)
 
     def open_main_rofi_window(self) -> Tuple[int, str]:
-        rofi_args = self.args.rofi_args
-        characters = self.read_character_files()
-        prompt = self.args.prompt
-
-        parameters = [
-            'rofi',
-            '-dmenu',
-            '-markup-rows',
-            '-sort',
-            '-i',
-            '-multi-select',
-            '-p',
-            prompt,
-            '-kb-custom-11',
-            'Alt+c',
-            '-kb-custom-12',
-            'Alt+t',
-            '-kb-custom-13',
-            'Alt+p',
-            '-kb-custom-14',
-            'Alt+u',
-            '-kb-custom-15',
-            'Alt+i',
-            *rofi_args
-        ]
-
-        recent_characters = self.format_recent_characters()
-        if recent_characters:
-            parameters.extend(['-mesg', recent_characters])
-
-        rofi = run(
-            parameters,
-            input=characters,
-            capture_output=True,
-            encoding='utf-8'
+        return self.selector.show_character_selection(
+            self.read_character_files(),
+            self.format_recent_characters(),
+            self.args.prompt,
+            self.args.rofi_args
         )
-        return rofi.returncode, rofi.stdout
 
     def process_chosen_characters(self, chosen_characters: List[str]) -> str:
         processed_characters = ''.join(
@@ -309,24 +290,16 @@ class Rofimoji:
                 for modifier in self.fitzpatrick_modifiers
             )
 
-            rofi_skin = run(
-                [
-                    'rofi',
-                    '-dmenu',
-                    '-i',
-                    '-p',
-                    selected_emoji + '   ',
-                    *self.args.rofi_args
-                ],
-                input=modified_emojis,
-                capture_output=True,
-                encoding='utf-8'
+            returncode, skin_tone = self.selector.show_skin_tone_selection(
+                modified_emojis,
+                selected_emoji + '   ',
+                self.args.rofi_args
             )
 
-            if rofi_skin.returncode == 1:
+            if returncode == 1:
                 return ''
 
-            return rofi_skin.stdout.split(' ')[0]
+            return skin_tone.split(' ')[0]
 
     def get_codepoints(self, char: str) -> str:
         return '-'.join(f'{ord(c):x}' for c in char)

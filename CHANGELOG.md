@@ -6,6 +6,7 @@
 ## Changed
 - Instead of several parameters to choose the input method, they have been consolidated into `--action` (`-a`).
 - The annotations on emojis don't contain their name (#59).
+- The results are now sorted by rofi, by default based on Levenshtein distance (#59).
 - The dependency on `pyxdg` was removed.
 - Some code cleanup (#56, #58).
 

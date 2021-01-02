@@ -203,6 +203,7 @@ class Rofimoji:
             'rofi',
             '-dmenu',
             '-markup-rows',
+            '-sort',
             '-i',
             '-multi-select',
             '-p',

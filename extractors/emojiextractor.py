@@ -22,7 +22,7 @@ class EmojiExtractor(object):
         print('Downloading list of all emojis')
 
         data = requests.get(
-            'https://unicode.org/emoji/charts-13.0/full-emoji-list.html',
+            'https://unicode.org/emoji/charts-13.1/full-emoji-list.html',
             timeout=120
         )  # type: requests.Response
 

@@ -4,6 +4,7 @@
 - There's a new file for [Nerd Font icons](https://www.nerdfonts.com/).
 
 ## Changed
+- The emojis from 13.1 have been added!
 - Instead of several parameters to choose the input method, they have been consolidated into `--action` (`-a`).
 - The annotations on emojis don't contain their name (#59).
 - The results are now sorted by rofi, by default based on Levenshtein distance (#59).

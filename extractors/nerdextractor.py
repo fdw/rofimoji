@@ -1,12 +1,13 @@
 import html
 from pathlib import Path
 from collections import namedtuple
+from unicodedata import bidirectional
 
 import requests
 from bs4 import BeautifulSoup
 
-Icon = namedtuple('Icon', 'icon name')
-
+Icon = namedtuple('Icon', 'icon name force_ltr')
+ltr_mark = '\u200e'
 
 class NerdExtractor(object):
     def __init__(self: 'NerdExtractor'):
@@ -24,7 +25,8 @@ class NerdExtractor(object):
         for c in characters:
             icon = chr(int(c.find(class_='codepoint').string, 16))
             name = c.find(class_='class-name').string
-            self.icons.append(Icon(icon, name))
+            force_ltr = True if bidirectional(icon) == 'AL' else False
+            self.icons.append(Icon(icon, name, force_ltr))
 
     def write_to_file(self: 'NerdExtractor'):
         if len(self.icons) == 0:
@@ -32,7 +34,7 @@ class NerdExtractor(object):
 
         with Path("../picker/data/nerd_font.csv").open('w') as symbol_file:
             for icon in self.icons:
-                symbol_file.write(f'{icon.icon} {html.escape(icon.name.lower())}\n')
+                symbol_file.write(f"{ltr_mark if icon.force_ltr else ''}{icon.icon} {html.escape(icon.name.lower())}\n")
 
     def extract(self: 'NerdExtractor'):
         self.fetch_icons()

@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 import argparse
 import enum
+import re
 import shlex
 import sys
 from subprocess import run
@@ -234,7 +235,7 @@ class Rofimoji:
 
     def process_chosen_characters(self, chosen_characters: List[str]) -> str:
         processed_characters = ''.join(
-            self.add_skin_tone(line.split(' ')[0])
+            self.add_skin_tone(re.match(r'^(?:\u200e(?! ))?(?P<char>.[^ ]*) .*', line).group('char'))
             for line in chosen_characters
         )
         self.save_characters_to_recent_file(processed_characters)

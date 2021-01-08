@@ -235,7 +235,7 @@ class Rofimoji:
 
     def process_chosen_characters(self, chosen_characters: List[str]) -> str:
         processed_characters = ''.join(
-            self.add_skin_tone(re.match(r'^[\u200e\u200f]?(?P<char>.)\s', line).group('char'))
+            self.add_skin_tone(re.match(r'^(?:\u200e(?! ))?(?P<char>.[^ ]*) .*', line).group('char'))
             for line in chosen_characters
         )
         self.save_characters_to_recent_file(processed_characters)

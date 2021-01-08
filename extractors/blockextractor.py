@@ -36,7 +36,7 @@ class BlockExtractor(object):
 
             with Path(f"../picker/data/{block.name.lower().replace(' ', '_')}.csv").open('w') as symbol_file:
                 for character in block.characters:
-                    symbol_file.write(f"{character.char} {html.escape(character.name)}\n")
+                    symbol_file.write(f'{character.directional_char} {html.escape(character.name)}\n')
 
     def extract(self):
         self.fetch_blocks()

@@ -13,7 +13,7 @@
 ‌ Zero Width Non-Joiner
 ‍ Zero Width Joiner
 ‎ Left-To-Right Mark
-‏ Right-To-Left Mark
+‎‏ Right-To-Left Mark
 ‐ Hyphen
 ‑ Non-Breaking Hyphen
 ‒ Figure Dash
@@ -41,10 +41,10 @@
   Line Separator
   Paragraph Separator
 ‪ Left-To-Right Embedding
-‫ Right-To-Left Embedding
+‎‫ Right-To-Left Embedding
 ‬ Pop Directional Formatting
 ‭ Left-To-Right Override
-‮ Right-To-Left Override
+‎‮ Right-To-Left Override
   Narrow No-Break Space
 ‰ Per Mille Sign
 ‱ Per Ten Thousand Sign
@@ -100,7 +100,7 @@
 ⁣ Invisible Separator
 ⁤ Invisible Plus
 ⁦ Left-To-Right Isolate
-⁧ Right-To-Left Isolate
+‎⁧ Right-To-Left Isolate
 ⁨ First Strong Isolate
 ⁩ Pop Directional Isolate
 ⁪ Inhibit Symmetric Swapping

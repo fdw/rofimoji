@@ -189,7 +189,7 @@ class Rofimoji:
             return []
 
     def format_recent_characters(self) -> str:
-        pairings = [f'{(index + 1) % 10}: {character}' for index, character in
+        pairings = [f'\u200e{(index + 1) % 10}: {character}' for index, character in
                     enumerate(self.load_recent_characters(self.args.max_recent))]
 
         return ' | '.join(pairings)

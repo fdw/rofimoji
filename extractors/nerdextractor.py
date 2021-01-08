@@ -25,7 +25,7 @@ class NerdExtractor(object):
         for c in characters:
             icon = chr(int(c.find(class_='codepoint').string, 16))
             name = c.find(class_='class-name').string
-            force_ltr = True if bidirectional(icon) == 'AL' else False
+            force_ltr = bidirectional(icon) in ('AL', 'AN', 'R', 'RLE', 'RLI', 'RLO')
             self.icons.append(Icon(icon, name, force_ltr))
 
     def write_to_file(self: 'NerdExtractor'):

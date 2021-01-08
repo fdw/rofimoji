@@ -1224,8 +1224,8 @@
 ‎ﳿ nf-mdi-account_plus_outline
  nf-mdi-account_remove
  nf-mdi-account_search
-אָ nf-mdi-account_settings
-אּ nf-mdi-account_settings_variant
+‎אָ nf-mdi-account_settings
+‎אּ nf-mdi-account_settings_variant
  nf-mdi-account_star
  nf-mdi-account_switch
  nf-mdi-adjust
@@ -1273,11 +1273,11 @@
  nf-mdi-apple
  nf-mdi-apple_finder
  nf-mdi-apple_ios
-בּ nf-mdi-apple_keyboard_caps
-גּ nf-mdi-apple_keyboard_command
-דּ nf-mdi-apple_keyboard_control
-הּ nf-mdi-apple_keyboard_option
-וּ nf-mdi-apple_keyboard_shift
+‎בּ nf-mdi-apple_keyboard_caps
+‎גּ nf-mdi-apple_keyboard_command
+‎דּ nf-mdi-apple_keyboard_control
+‎הּ nf-mdi-apple_keyboard_option
+‎וּ nf-mdi-apple_keyboard_shift
  nf-mdi-apple_mobileme
  nf-mdi-apple_safari
 ﬓ nf-mdi-application
@@ -1492,7 +1492,7 @@
  nf-mdi-bowling
  nf-mdi-box
  nf-mdi-box_cutter
-זּ nf-mdi-box_shadow
+‎זּ nf-mdi-box_shadow
 ﬗ nf-mdi-bridge
  nf-mdi-briefcase
  nf-mdi-briefcase_check
@@ -1579,8 +1579,8 @@
  nf-mdi-car_wash
 ‎ﲫ nf-mdi-caravan
 ﬷ nf-mdi-cards
-טּ nf-mdi-cards_outline
-יּ nf-mdi-cards_playing_outline
+‎טּ nf-mdi-cards_outline
+‎יּ nf-mdi-cards_playing_outline
 ﯅ nf-mdi-cards_variant
  nf-mdi-carrot
  nf-mdi-cart
@@ -1638,11 +1638,11 @@
  nf-mdi-checkbox_marked_circle_outline
  nf-mdi-checkbox_marked_outline
  nf-mdi-checkbox_multiple_blank
-ךּ nf-mdi-checkbox_multiple_blank_circle
-כּ nf-mdi-checkbox_multiple_blank_circle_outline
+‎ךּ nf-mdi-checkbox_multiple_blank_circle
+‎כּ nf-mdi-checkbox_multiple_blank_circle_outline
  nf-mdi-checkbox_multiple_blank_outline
  nf-mdi-checkbox_multiple_marked
-לּ nf-mdi-checkbox_multiple_marked_circle
+‎לּ nf-mdi-checkbox_multiple_marked_circle
 ﬽ nf-mdi-checkbox_multiple_marked_circle_outline
  nf-mdi-checkbox_multiple_marked_outline
  nf-mdi-checkerboard
@@ -1701,7 +1701,7 @@
  nf-mdi-cloud_outline
  nf-mdi-cloud_print
  nf-mdi-cloud_print_outline
-מּ nf-mdi-cloud_sync
+‎מּ nf-mdi-cloud_sync
 ‎ﲴ nf-mdi-cloud_tags
  nf-mdi-cloud_upload
 ‎ﴔ nf-mdi-clover
@@ -1853,7 +1853,7 @@
 ﬜ nf-mdi-dictionary
 ‎ﲿ nf-mdi-dip_switch
  nf-mdi-directions
-נּ nf-mdi-directions_fork
+‎נּ nf-mdi-directions_fork
 ‎ﭮ nf-mdi-discord
 﫭 nf-mdi-disk
  nf-mdi-disk_alert
@@ -1924,7 +1924,7 @@
  nf-mdi-equal
  nf-mdi-equal_box
  nf-mdi-eraser
-סּ nf-mdi-eraser_variant
+‎סּ nf-mdi-eraser_variant
  nf-mdi-escalator
  nf-mdi-ethernet
  nf-mdi-ethernet_cable
@@ -1943,7 +1943,7 @@
  nf-mdi-eyedropper
  nf-mdi-eyedropper_variant
 ﭂ nf-mdi-face
-ףּ nf-mdi-face_profile
+‎ףּ nf-mdi-face_profile
  nf-mdi-facebook
  nf-mdi-facebook_box
  nf-mdi-facebook_messenger
@@ -1983,7 +1983,7 @@
  nf-mdi-file_presentation_box
 ‎ﭯ nf-mdi-file_restore
  nf-mdi-file_send
-פּ nf-mdi-file_tree
+‎פּ nf-mdi-file_tree
  nf-mdi-file_video
  nf-mdi-file_word
  nf-mdi-file_word_box
@@ -2081,9 +2081,9 @@
  nf-mdi-format_header_equal
  nf-mdi-format_header_increase
  nf-mdi-format_header_pound
-יִ nf-mdi-format_horizontal_align_center
+‎יִ nf-mdi-format_horizontal_align_center
 ﬞ nf-mdi-format_horizontal_align_left
-ײַ nf-mdi-format_horizontal_align_right
+‎ײַ nf-mdi-format_horizontal_align_right
  nf-mdi-format_indent_decrease
  nf-mdi-format_indent_increase
  nf-mdi-format_italic
@@ -2112,9 +2112,9 @@
  nf-mdi-format_textdirection_r_to_l
 﫳 nf-mdi-format_title
  nf-mdi-format_underline
-ﬠ nf-mdi-format_vertical_align_bottom
-ﬡ nf-mdi-format_vertical_align_center
-ﬢ nf-mdi-format_vertical_align_top
+‎ﬠ nf-mdi-format_vertical_align_bottom
+‎ﬡ nf-mdi-format_vertical_align_center
+‎ﬢ nf-mdi-format_vertical_align_top
  nf-mdi-format_wrap_inline
  nf-mdi-format_wrap_square
  nf-mdi-format_wrap_tight
@@ -2135,7 +2135,7 @@
  nf-mdi-gamepad_variant
 ‎ﯗ nf-mdi-garage
 ‎ﯘ nf-mdi-garage_open
-צּ nf-mdi-gas_cylinder
+‎צּ nf-mdi-gas_cylinder
  nf-mdi-gas_station
  nf-mdi-gate
  nf-mdi-gauge
@@ -2196,7 +2196,7 @@
  nf-mdi-google_translate
  nf-mdi-google_wallet
 ‎ﮞ nf-mdi-gradient
-קּ nf-mdi-grease_pencil
+‎קּ nf-mdi-grease_pencil
  nf-mdi-grid
 ‎ﱖ nf-mdi-grid_large
  nf-mdi-grid_off
@@ -2206,7 +2206,7 @@
  nf-mdi-guitar_pick
  nf-mdi-guitar_pick_outline
 ‎ﴣ nf-mdi-guy_fawkes_mask
-ﬣ nf-mdi-hackernews
+‎ﬣ nf-mdi-hackernews
 ‎ﮃ nf-mdi-hamburger
  nf-mdi-hand_pointing_right
  nf-mdi-hanger
@@ -2232,7 +2232,7 @@
  nf-mdi-help
 ‎ﲉ nf-mdi-help_box
  nf-mdi-help_circle
-ﬤ nf-mdi-help_circle_outline
+‎ﬤ nf-mdi-help_circle_outline
 ‎ﯳ nf-mdi-help_network
  nf-mdi-hexagon
 ‎ﯟ nf-mdi-hexagon_multiple
@@ -2264,11 +2264,11 @@
 ‎ﴧ nf-mdi-hulu
  nf-mdi-human
  nf-mdi-human_child
-רּ nf-mdi-human_female
-שּ nf-mdi-human_greeting
-תּ nf-mdi-human_handsdown
-וֹ nf-mdi-human_handsup
-בֿ nf-mdi-human_male
+‎רּ nf-mdi-human_female
+‎שּ nf-mdi-human_greeting
+‎תּ nf-mdi-human_handsdown
+‎וֹ nf-mdi-human_handsup
+‎בֿ nf-mdi-human_male
  nf-mdi-human_male_female
 龜 nf-mdi-human_pregnant
 ‎ﱂ nf-mdi-humble_bundle
@@ -2299,7 +2299,7 @@
 ‎ﯢ nf-mdi-infinity
  nf-mdi-information
  nf-mdi-information_outline
-כֿ nf-mdi-information_variant
+‎כֿ nf-mdi-information_variant
  nf-mdi-instagram
  nf-mdi-instapaper
  nf-mdi-internet_explorer
@@ -2308,7 +2308,7 @@
  nf-mdi-jeepney
  nf-mdi-jira
  nf-mdi-jsfiddle
-ﬥ nf-mdi-json
+‎ﬥ nf-mdi-json
 ‎ﴪ nf-mdi-karate
  nf-mdi-keg
 﫹 nf-mdi-kettle
@@ -2331,7 +2331,7 @@
  nf-mdi-label
  nf-mdi-label_outline
 ‎ﴫ nf-mdi-ladybug
-ﬦ nf-mdi-lambda
+‎ﬦ nf-mdi-lambda
 ‎﮳ nf-mdi-lamp
  nf-mdi-lan
  nf-mdi-lan_connect
@@ -2361,7 +2361,7 @@
 ‎ﳓ nf-mdi-lava_lamp
  nf-mdi-layers
  nf-mdi-layers_off
-פֿ nf-mdi-lead_pencil
+‎פֿ nf-mdi-lead_pencil
  nf-mdi-leaf
  nf-mdi-led_off
  nf-mdi-led_on
@@ -2415,7 +2415,7 @@
  nf-mdi-map
  nf-mdi-map_marker
  nf-mdi-map_marker_circle
-ﭏ nf-mdi-map_marker_minus
+‎ﭏ nf-mdi-map_marker_minus
  nf-mdi-map_marker_multiple
  nf-mdi-map_marker_off
 ‎ﳗ nf-mdi-map_marker_outline
@@ -2428,7 +2428,7 @@
  nf-mdi-martini
  nf-mdi-material_ui
  nf-mdi-math_compass
-ﬧ nf-mdi-matrix
+‎ﬧ nf-mdi-matrix
  nf-mdi-maxcdn
 ‎ﯭ nf-mdi-medical_bag
  nf-mdi-medium
@@ -2456,7 +2456,7 @@
  nf-mdi-message_text
  nf-mdi-message_text_outline
  nf-mdi-message_video
-ﬨ nf-mdi-meteor
+‎ﬨ nf-mdi-meteor
 ‎ﳘ nf-mdi-metronome
 ‎ﳙ nf-mdi-metronome_tick
 ‎ﳚ nf-mdi-micro_sd
@@ -2883,7 +2883,7 @@
 劣 nf-mdi-shuffle_disabled
 咽 nf-mdi-shuffle_variant
 烈 nf-mdi-sigma
-שׁ nf-mdi-sigma_lower
+‎שׁ nf-mdi-sigma_lower
 裂 nf-mdi-sign_caution
 ‎ﱿ nf-mdi-sign_direction
 ‎ﲀ nf-mdi-sign_text
@@ -2933,7 +2933,7 @@
 尿 nf-mdi-sort_numeric
 料 nf-mdi-sort_variant
 樂 nf-mdi-soundcloud
-שׂ nf-mdi-source_branch
+‎שׂ nf-mdi-source_branch
 ‎ﰖ nf-mdi-source_commit
 ‎ﰗ nf-mdi-source_commit_end
 ‎ﰘ nf-mdi-source_commit_end_local
@@ -2942,7 +2942,7 @@
 ‎ﰛ nf-mdi-source_commit_start
 ‎ﰜ nf-mdi-source_commit_start_next_local
 燎 nf-mdi-source_fork
-שּׁ nf-mdi-source_merge
+‎שּׁ nf-mdi-source_merge
 療 nf-mdi-source_pull
 ‎ﳬ nf-mdi-soy_sauce
 蓼 nf-mdi-speaker
@@ -3128,7 +3128,7 @@
 憎 nf-mdi-tshirt_v
 懲 nf-mdi-tumblr
 敏 nf-mdi-tumblr_reblog
-שּׂ nf-mdi-tune
+‎שּׂ nf-mdi-tune
 ‎ﭩ nf-mdi-tune_vertical
 既 nf-mdi-twitch
 暑 nf-mdi-twitter
@@ -3261,7 +3261,7 @@
 瞧 nf-mdi-weather_windy_variant
 爵 nf-mdi-web
 犯 nf-mdi-webcam
-אַ nf-mdi-webhook
+‎אַ nf-mdi-webhook
 ‎ﰩ nf-mdi-webpack
 ﬐ nf-mdi-wechat
 猪 nf-mdi-weight

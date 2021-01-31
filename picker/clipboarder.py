@@ -1,7 +1,11 @@
 from subprocess import run
 
-from picker.abstractionhelper import is_wayland, is_installed
-from picker.typer import Typer
+try:
+    from picker.abstractionhelper import is_wayland, is_installed
+    from picker.typer import Typer
+except ModuleNotFoundError:
+    from abstractionhelper import is_wayland, is_installed
+    from typer import Typer
 
 
 class Clipboarder:

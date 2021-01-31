@@ -10,9 +10,14 @@ from typing import List, Tuple
 
 import configargparse
 
-from picker.clipboarder import Clipboarder
-from picker.typer import Typer
-from picker.paths import *
+try:
+    from picker.clipboarder import Clipboarder
+    from picker.typer import Typer
+    from picker.paths import *
+except ModuleNotFoundError:
+    from clipboarder import Clipboarder
+    from typer import Typer
+    from paths import *
 
 
 class Rofimoji:
@@ -52,19 +57,6 @@ class Rofimoji:
         self.typer = Typer.best_option(self.args.typer)
         self.clipboarder = Clipboarder.best_option(self.args.clipboarder)
         self.active_window = self.typer.get_active_window()
-
-        returncode, stdout = self.open_main_rofi_window()
-
-        if returncode == 1:
-            sys.exit()
-        else:
-            if 10 <= returncode <= 19:
-                characters = self.load_recent_characters(self.args.max_recent)[returncode - 10].strip()
-            else:
-                self.choose_action_from_return_code(returncode)
-                characters = self.process_chosen_characters(stdout.splitlines())
-
-            self.execute_action(characters)
 
     def parse_arguments(self) -> argparse.Namespace:
         parser = configargparse.ArgumentParser(
@@ -148,6 +140,57 @@ class Rofimoji:
         parsed_args.action = next(action for action in self.Action if action.value == parsed_args.action)
 
         return parsed_args
+
+    def standalone(self) -> None:
+        returncode, stdout = self.open_main_rofi_window()
+
+        if returncode == 1:
+            sys.exit()
+        else:
+            if 10 <= returncode <= 19:
+                characters = self.load_recent_characters(self.args.max_recent)[returncode - 10].strip()
+            else:
+                self.choose_action_from_return_code(returncode)
+                characters = self.process_chosen_characters(stdout.splitlines())
+
+            self.execute_action(characters)
+
+    def mode_show_characters(self) -> None:
+        recent_characters = self.format_recent_characters()
+
+        print("\x00markup-rows\x1ftrue\n")
+        if len(recent_characters) > 0:
+            print(f"\x00message\x1f{recent_characters}")
+        print(self.read_character_files())
+
+    def mode_act_on_selection(self, chosen_character: str, returncode: int) -> None:
+        if 10 <= returncode <= 19:
+            characters = self.load_recent_characters(self.args.max_recent)[returncode - 10].strip()
+            self.execute_action(characters)
+        else:
+            self.choose_action_from_return_code(returncode)
+            self.save_selection_to_cache(re.match(r'^(?:\u200e(?! ))?(?P<char>.[^ ]*) .*', chosen_character).group('char'), '')
+            self.mode_select_skin_tone('')
+
+    def mode_select_skin_tone(self, processed_character: str) -> None:
+        (characters, processed_characters) = self.load_selection_from_cache()
+        processed_characters += processed_character.split(' ')[0]
+
+        for character in characters:
+            if character not in self.skin_tone_selectable_emojis:
+                processed_characters += character
+                characters = characters[1:]
+            else:
+                self.save_selection_to_cache(characters[1:], processed_characters)
+                print('\n'.join(
+                    character + modifier + " " + self.fitzpatrick_modifiers[modifier]
+                    for modifier in self.fitzpatrick_modifiers
+                ))
+                return
+
+        cache_file_location.unlink()
+        self.save_characters_to_recent_file(processed_characters)
+        self.execute_action(processed_characters)
 
     def choose_action_from_return_code(self, return_code: int):
         if return_code == 20:
@@ -235,8 +278,8 @@ class Rofimoji:
 
     def process_chosen_characters(self, chosen_characters: List[str]) -> str:
         processed_characters = ''.join(
-            self.add_skin_tone(re.match(r'^(?:\u200e(?! ))?(?P<char>.[^ ]*) .*', line).group('char'))
-            for line in chosen_characters
+            self.add_skin_tone(re.match(r'^(?:\u200e(?! ))?(?P<char>.[^ ]*) .*', character).group('char'))
+            for character in chosen_characters
         )
         self.save_characters_to_recent_file(processed_characters)
 
@@ -333,9 +376,31 @@ class Rofimoji:
         elif self.args.action == self.Action.COPY_UNICODE:
             self.clipboarder.copy_characters_to_clipboard(self.get_codepoints(characters))
 
+    def save_selection_to_cache(self, characters: str, processed_characters: str) -> None:
+        with cache_file_location.open('w+') as file:
+            file.write(f'{self.args.action.value}\n{characters}\n{processed_characters}')
+
+    def load_selection_from_cache(self) -> Tuple[str, str]:
+        cache = cache_file_location.read_text().split('\n')
+        self.args.action = next(action for action in self.Action if action.value == cache[0].strip())
+        return cache[1], cache[2]
+
 
 def main():
-    Rofimoji()
+    return_value = os.environ.get('ROFI_RETV')
+
+    if return_value is None:
+        Rofimoji().standalone()
+    if return_value == "0":
+        Rofimoji().mode_show_characters()
+    elif not cache_file_location.is_file():
+        chosen = sys.argv[-1]
+        del sys.argv[-1]
+        Rofimoji().mode_act_on_selection(chosen, int(return_value))
+    else:
+        chosen = sys.argv[-1]
+        del sys.argv[-1]
+        Rofimoji().mode_select_skin_tone(chosen)
 
 
 if __name__ == "__main__":

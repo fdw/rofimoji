@@ -391,7 +391,7 @@ def main():
 
     if return_value is None:
         Rofimoji().standalone()
-    if return_value == "0":
+    elif return_value == "0":
         Rofimoji().mode_show_characters()
     elif not cache_file_location.is_file():
         chosen = sys.argv[-1]

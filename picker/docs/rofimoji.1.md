@@ -1,6 +1,6 @@
 % ROFIMOJI(1) Version 5.0.0 | Rofi Third-party Add-on Documentation
 % Fabian Winter
-% January 04, 2021
+% February 07, 2021
 
 # NAME
 
@@ -13,7 +13,7 @@
          \[**--skin-tone** {*neutral*,*light*,*medium-light*,*moderate*,*dark brown*,*black*,*ask*}]
          \[**--files** {*all*,*FILE* \[*FILE* ...]]} \[**--prompt** *PROMPT*]
          \[**--rofi-args** *ROFI_ARGS*] \[**--max-recent** *MAX_RECENT*]
-         \[**--clipboarder** *CLIPBOARDER*] \[**--typer** *TYPER*]
+         \[**--clipboarder** *CLIPBOARDER*] \[**--typer** *TYPER*] \[**--selector** *SELECTOR*]
 
 # DESCRIPTION
 
@@ -52,7 +52,7 @@ Select, insert, or copy Unicode characters like emoji using rofi.
 
 --rofi-args _ROFI-ARGS_
 
-:  A string of arguments to give to rofi
+:  A string of arguments to give to the selector.
 
 --max-recent _MAX-RECENT_
 
@@ -63,14 +63,19 @@ Select, insert, or copy Unicode characters like emoji using rofi.
 
 : Possible values: xsel, xclip, wl-copy
 
-      Choose the application to access the clipboard with
+      Choose the application to access the clipboard with manually.
 
 --typer _TYPER_
 
 : Possible values: xdotool, wtype
 
-      Choose the application to type with
+      Choose the application to type with manually.
 
+--selector _SELECTOR_
+
+: Possible values: rofi, wofi
+
+      Choose the selector application manually. Usually `rofi`, but for Wayland, you may want `wofi`.
 # KEYBINDINGS
 
 (optional) Select multiple emoji with shift+enter
@@ -88,6 +93,8 @@ Select, insert, or copy Unicode characters like emoji using rofi.
 *alt+u* to insert the Unicode codepoint
 
 *alt+i* to copy the Unicode codepoint to the clipboard
+
+Please note that wofi does not support keybindings other than *enter*.
 
 # FILES
 

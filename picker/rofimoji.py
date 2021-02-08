@@ -228,8 +228,8 @@ class Rofimoji:
 
     def load_from_file(self, file_name: str) -> str:
         provided_file = Path(__file__).parent / "data" / f"{file_name}.csv"
-        if Path(file_name).is_file():
-            actual_file_name = Path(file_name)
+        if Path(file_name).expanduser().is_file():
+            actual_file_name = Path(file_name).expanduser()
         elif provided_file.is_file():
             actual_file_name = provided_file
         else:

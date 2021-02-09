@@ -15,7 +15,8 @@ class Typer:
             try:
                 return next(typer for typer in Typer.__subclasses__() if typer.supported())()
             except StopIteration:
-                print('Could not find a valid way to type characters.')
+                print('Could not find a valid way to type characters. Please '
+                      'double-check the dependencies on the README.')
                 exit(5)
 
     @staticmethod

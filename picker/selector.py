@@ -13,8 +13,7 @@ class Selector:
             try:
                 return next(selector for selector in Selector.__subclasses__() if selector.supported())()
             except StopIteration:
-                print('Could not find a valid way to show the selection.')
-                exit(4)
+                return Selector()
 
     @staticmethod
     def supported() -> bool:
@@ -25,10 +24,12 @@ class Selector:
         pass
 
     def show_character_selection(self, characters: str, recent_characters: str, prompt: str, additional_args: List[str]) -> Tuple[int, str]:
-        pass
+        print('Could not find a valid way to show the selection. Please check the required dependencies.')
+        exit(4)
 
     def show_skin_tone_selection(self, skin_tones: str, prompt: str, additional_args: List[str]) -> Tuple[int, str]:
-        pass
+        print('Could not find a valid way to show the selection. Please check the required dependencies.')
+        exit(4)
 
 
 class Rofi(Selector):

@@ -17,8 +17,7 @@ class Clipboarder:
             try:
                 return next(clipboarder for clipboarder in Clipboarder.__subclasses__() if clipboarder.supported())()
             except StopIteration:
-                print('Could not find a valid way to copy to clipboard.')
-                exit(6)
+                return Clipboarder()
 
     @staticmethod
     def supported() -> bool:
@@ -29,10 +28,12 @@ class Clipboarder:
         pass
 
     def copy_characters_to_clipboard(self, characters: str) -> None:
-        pass
+        print('Could not find a valid way to copy to clipboard. Please check the required dependencies.')
+        exit(6)
 
     def copy_paste_characters(self, characters: str, active_window: str, typer: Typer) -> None:
-        pass
+        print('Could not find a valid way to copy to clipboard. Please check the required dependencies.')
+        exit(6)
 
 
 class XSelClipboarder(Clipboarder):

@@ -15,9 +15,7 @@ class Typer:
             try:
                 return next(typer for typer in Typer.__subclasses__() if typer.supported())()
             except StopIteration:
-                print('Could not find a valid way to type characters. Please '
-                      'double-check the dependencies on the README.')
-                exit(5)
+                return Typer()
 
     @staticmethod
     def supported() -> bool:
@@ -28,13 +26,16 @@ class Typer:
         pass
 
     def get_active_window(self) -> str:
-        pass
+        print('Could not find a valid way to type characters. Please check the required dependencies.')
+        exit(5)
 
     def type_characters(self, characters: str, active_window: str) -> None:
-        pass
+        print('Could not find a valid way to type characters. Please check the required dependencies.')
+        exit(5)
 
     def insert_from_clipboard(self, active_window: str) -> None:
-        pass
+        print('Could not find a valid way to type characters. Please check the required dependencies.')
+        exit(5)
 
 
 class XDoToolTyper(Typer):

@@ -1,6 +1,6 @@
 % ROFIMOJI(1) Version 5.0.0 | Rofi Third-party Add-on Documentation
 % Fabian Winter
-% February 07, 2021
+% February 20, 2021
 
 # NAME
 

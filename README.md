@@ -84,6 +84,8 @@ You can define additional character files and load them with `-f` (see [options]
 If you think your file is useful to others, please open a PR to include it in a future version of `rofimoji`.
 
 ## Caveats when running `rofimoji` as a rofi "mode"
+(This needs `rofi` in version 1.6.0 or later.)
+
 Running as rofi mode has several drawbacks that cannot be changed:
 - Because `rofi` is the main process, `rofimoji` cannot directly type to any window. Only copying the character works, so set the `--action` accordingly.
 - You can only select one character at a time.
@@ -105,7 +107,7 @@ This also installs the python dependency `configargparse`.
 What else do you need:
 - Python 3.7 or higher
 - A font that can display your scripts, (for emojis, [EmojiOne](https://github.com/emojione/emojione) or [Noto Emoji](https://www.google.com/get/noto/) work)
-- `rofi` or `wofi`
+- `rofi` (in version 1.6.0 or higher if you want to use the mode) or `wofi`
 - A tool to programmatically type characters into applications. Either `xdotool` for X11 or `wtype` for Wayland
 - A tool to copy the characters to the clipboard. `xsel` and `xclip` work on X11; `wl-copy` on Wayland
 

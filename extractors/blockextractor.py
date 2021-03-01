@@ -1,9 +1,10 @@
 import html
+from pathlib import Path
 
 import requests
 
-from extractors.BlockFactory import BlockFactory
-from extractors.CharacterFactory import CharacterFactory
+from extractors.blockfactory import BlockFactory
+from extractors.characterfactory import CharacterFactory
 
 
 class BlockExtractor(object):
@@ -20,25 +21,22 @@ class BlockExtractor(object):
             timeout=60
         )  # type: requests.Response
 
-        lines = response.content.decode(response.encoding).split('\n')
+        lines = response.text.split('\n')
 
         for line in lines:
-            if line.startswith('#') or line.startswith('@') or len(line) == 0:
+            if not line or line.startswith(('#', '@')):
                 continue
-            fields = line.split(';')
-            self.__blocks.append(self.__block_factory.build_block_from_range(fields[1].strip(), fields[0].strip()))
+            key, _, value = line.partition(';')
+            self.__blocks.append(self.__block_factory.build_block_from_range(value.strip(), key.strip()))
 
     def write_to_files(self: 'BlockExtractor'):
         for block in self.__blocks:
-            if len(block.characters) == 0:
+            if not block.characters:
                 continue
 
-            symbol_file = open(f"../picker/data/{block.name.lower().replace(' ', '_')}.csv", 'w')
-
-            for character in block.characters:
-                symbol_file.write(f"{character.char} {html.escape(character.name)}\n")
-
-            symbol_file.close()
+            with Path(f"../picker/data/{block.name.lower().replace(' ', '_')}.csv").open('w') as symbol_file:
+                for character in block.characters:
+                    symbol_file.write(f'{character.directional_char} {html.escape(character.name)}\n')
 
     def extract(self):
         self.fetch_blocks()

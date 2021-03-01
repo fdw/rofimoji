@@ -1,9 +1,10 @@
 import html
+from pathlib import Path
 from typing import List
 
 import requests
 
-from extractors.CharacterFactory import CharacterFactory, Character
+from extractors.characterfactory import CharacterFactory, Character
 
 
 class MathExtractor(object):
@@ -20,36 +21,26 @@ class MathExtractor(object):
         )  # type: requests.Response
 
         characters = []
-        for line in data.content.decode(data.encoding).split('\n'):
-            if line.startswith('#') or len(line) == 0:
-                continue
-
-            fields = line.split(';')
-
-            symbols = self.resolve_character_range(fields[0].strip())
-
-            for symbol in symbols:
-                characters.append(self.__char_factory.get_character(symbol))
+        for line in data.text.split('\n'):
+            if line and not line.startswith('#'):
+                fields = line.split(';')
+                symbols = self.resolve_character_range(fields[0].strip())
+                for symbol in symbols:
+                    characters.append(self.__char_factory.get_character(symbol))
 
         return characters
 
     def resolve_character_range(self, line: str) -> List[int]:
         try:
             (start, end) = line.split('..')
-            symbols = []
-            for char in range(int(start, 16), int(end, 16) + 1):
-                symbols.append(char)
-            return symbols
+            return list(range(int(start, 16), int(end, 16) + 1))
         except ValueError:
             return [int(line, 16)]
 
     def write_file(self: 'MathExtractor', symbols: List[Character]):
-        symbol_file = open(f"../picker/data/math.csv", 'w')
-
-        for character in symbols:
-            symbol_file.write(f"{character.char} {html.escape(character.name)}\n")
-
-        symbol_file.close()
+        with Path("../picker/data/math.csv").open('w') as symbol_file:
+            for character in symbols:
+                symbol_file.write(f"{character.char} {html.escape(character.name)}\n")
 
     def extract(self):
         self.write_file(self.fetch_math_symbols())

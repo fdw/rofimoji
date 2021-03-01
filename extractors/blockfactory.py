@@ -1,7 +1,7 @@
 from dataclasses import dataclass
-from typing import Set, List
+from typing import List
 
-from extractors.CharacterFactory import Character, CharacterFactory
+from extractors.characterfactory import Character, CharacterFactory
 
 
 @dataclass
@@ -24,8 +24,6 @@ class BlockFactory(object):
         return Block(name.strip().title(), start, end, self.__fill_characters(start, end))
 
     def __fill_characters(self: 'BlockFactory', start: int, end: int) -> List[Character]:
-        characters = list()
-        for char in range(start, end + 1):
-            characters.append(self.__char_factory.get_character(char))
-
-        return list(filter(lambda it: it is not None, characters))
+        return [char
+                for char in (self.__char_factory.get_character(pos) for pos in range(start, end + 1))
+                if char is not None]

@@ -1,12 +1,20 @@
 from typing import Union
 
 import requests
+from unicodedata import bidirectional
 
 
 class Character(object):
+    ltr_mark = '\u200e'
+
     def __init__(self, char: int, name: str):
         self.char = chr(char)
         self.name = name.strip().title()
+        self.force_ltr = bidirectional(self.char) in ('AL', 'AN', 'R', 'RLE', 'RLI', 'RLO')
+
+    @property
+    def directional_char(self):
+        return f'{self.ltr_mark if self.force_ltr else ""}{self.char}'
 
 
 class CharacterFactory(object):
@@ -26,16 +34,10 @@ class CharacterFactory(object):
         lines = response.content.decode(response.encoding).split('\n')
 
         for line in lines:
-            if len(line) == 0:
-                continue
             fields = line.split(';')
-            if fields[1].startswith('<'):
-                continue
-            character = Character(int(fields[0], 16), fields[1])
-            self.__characters[character.char] = character
+            if len(fields) >= 2 and not fields[1].startswith('<'):
+                character = Character(int(fields[0], 16), fields[1])
+                self.__characters[character.char] = character
 
     def get_character(self: 'CharacterFactory', char: int) -> Union[Character, None]:
-        try:
-            return self.__characters[chr(char)]
-        except KeyError:
-            return None
+        return self.__characters.get(chr(char))

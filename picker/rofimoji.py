@@ -60,6 +60,8 @@ class Rofimoji:
         self.typer = Typer.best_option(self.args.typer)
         self.clipboarder = Clipboarder.best_option(self.args.clipboarder)
         self.active_window = self.typer.get_active_window()
+        # TODO does parse_arguments have a way of encapsulating this?
+        self.display_recents_bar = self.args.display_recents == 'bar'
 
     def parse_arguments(self) -> argparse.Namespace:
         parser = configargparse.ArgumentParser(
@@ -145,6 +147,15 @@ class Rofimoji:
             choices=['xdotool', 'wtype'],
             default=None,
             help='Choose the application to type with'
+        )
+        parser.add_argument(
+            '--display-recents',
+            dest='display_recents',
+            action='store',
+            type=str,
+            choices=['bar', 'display-first'],
+            default='bar',
+            help='Choose the way of displaying recent characters'
         )
 
         parsed_args = parser.parse_args()
@@ -249,10 +260,35 @@ class Rofimoji:
 
         return ' | '.join(pairings)
 
+    def format_recent_characters_with_desc(self) -> str:
+        recent_characters = self.load_recent_characters(self.args.max_recent)
+        file_names = self.resolve_all_files()
+        character_to_description = {}
+
+        for file_name in file_names:
+            descriptions = self.load_from_file(file_name).split('\n')
+            matches = list(filter(lambda x: len(x) > 0 and x[0] in recent_characters, descriptions))
+            for match in matches:
+                character_to_description[match[0]] = match
+
+        return '\n'.join([character_to_description[character] for character in recent_characters
+                                                              if character in character_to_description])
+
     def open_main_rofi_window(self) -> Tuple[int, str]:
+        characters = self.read_character_files()
+
+        if self.display_recents_bar:
+            recent_characters_bar = self.format_recent_characters()
+        else:
+            recent_characters_bar = ''
+            # TODO handle empty recent_characters
+            recent_characters = self.format_recent_characters_with_desc()
+            characters = '\n'.join(list(filter(lambda line: line not in recent_characters, characters.split('\n'))))
+            characters = recent_characters + '\n' + characters
+
         return self.selector.show_character_selection(
-            self.read_character_files(),
-            self.format_recent_characters(),
+            characters,
+            recent_characters_bar,
             self.args.prompt,
             self.args.rofi_args
         )

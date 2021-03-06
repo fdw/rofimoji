@@ -1,4 +1,6 @@
 # [NEXT]
+
+# [5.0.0]
 ## Added
 - `rofimoji` can now be called as a modus from rofi! (#44)
 - rofimoji now also works with [wofi](https://hg.sr.ht/~scoopta/wofi/). (#53)

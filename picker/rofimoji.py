@@ -66,7 +66,7 @@ class Rofimoji:
             description='Select, insert or copy Unicode characters using rofi.',
             default_config_files=config_file_locations
         )
-        parser.add_argument('--version', action='version', version='rofimoji 5.0.0')
+        parser.add_argument('--version', action='version', version='rofimoji 5.1.0-SNAPSHOT')
         parser.add_argument(
             '--action',
             '-a',

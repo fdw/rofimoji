@@ -50,6 +50,7 @@ class Rofimoji:
         CLIPBOARD = 'clipboard'
         UNICODE = 'unicode'
         COPY_UNICODE = 'copy-unicode'
+        STDOUT = 'print'
 
     fitzpatrick_modifiers_reversed = {" ".join(name.split()[:-1]): modifier for modifier, name in
                                       fitzpatrick_modifiers.items() if name != "neutral"}
@@ -348,6 +349,8 @@ class Rofimoji:
             self.typer.type_characters(self.get_codepoints(characters), self.active_window)
         elif self.args.action == self.Action.COPY_UNICODE:
             self.clipboarder.copy_characters_to_clipboard(self.get_codepoints(characters))
+        elif self.args.action == self.Action.STDOUT:
+            print(characters)
 
     def save_selection_to_cache(self, characters: str, processed_characters: str) -> None:
         with cache_file_location.open('w+') as file:

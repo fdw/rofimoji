@@ -1,4 +1,6 @@
 # [NEXT]
+## Added
+- There is a new `print` action to just print out the characters. (#75)
 
 # [5.0.0]
 ## Added

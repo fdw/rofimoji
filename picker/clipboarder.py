@@ -1,3 +1,4 @@
+import subprocess
 from subprocess import run
 
 try:
@@ -85,7 +86,9 @@ class XClipClipboarder(Clipboarder):
             'clipboard'
         ],
             input=characters,
-            encoding='utf-8'
+            encoding='utf-8',
+            stderr=subprocess.DEVNULL,
+            stdout=subprocess.DEVNULL
         )
 
     def copy_paste_characters(self, characters: str, active_window: str, typer: Typer) -> None:

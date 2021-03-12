@@ -2,6 +2,9 @@
 ## Added
 - There is a new `print` action to just print out the characters. (#75)
 
+## Fixed
+- `xclip` is called correctly. (#79)
+
 # [5.0.0]
 ## Added
 - `rofimoji` can now be called as a modus from rofi! (#44)

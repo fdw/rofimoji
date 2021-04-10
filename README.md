@@ -98,6 +98,9 @@ The configuration still works as described. You can have several modes in a `com
 ### Arch
 A kind soul has packaged it as [rofimoji](https://www.archlinux.org/packages/community/any/rofimoji/). To, install, use `sudo pacman -Syu rofimoji`.
 
+### From PyPI
+`rofimoji` is on [PyPI](https://pypi.org/project/rofimoji/). You can install it with `pip install --user rofimoji` (or `sudo pip install rofimoji`).
+
 ### From sources
 Download the wheel file from releases and install it with  `sudo pip install $filename` (or you can use `pip install --user $filename` to only install it for the local user).
 Afterwards, there should be a `rofimoji` on your `$path`.

@@ -1,27 +1,27 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import argparse
-import enum
 import re
 import shlex
 import sys
-from subprocess import run
 from typing import List, Tuple
 
 import configargparse
 
 try:
+    from picker.action import Action
     from picker.clipboarder import Clipboarder
     from picker.typer import Typer
     from picker.selector import Selector
     from picker.paths import *
 except ModuleNotFoundError:
+    from action import Action
     from clipboarder import Clipboarder
     from typer import Typer
     from selector import Selector
     from paths import *
 
-__version__ = '5.1.0'
+__version__ = '5.2.0'
 
 
 class Rofimoji:
@@ -46,14 +46,6 @@ class Rofimoji:
         '🏿': 'black skin'
     }
 
-    class Action(enum.Enum):
-        TYPE = 'type'
-        COPY = 'copy'
-        CLIPBOARD = 'clipboard'
-        UNICODE = 'unicode'
-        COPY_UNICODE = 'copy-unicode'
-        STDOUT = 'print'
-
     fitzpatrick_modifiers_reversed = {" ".join(name.split()[:-1]): modifier for modifier, name in
                                       fitzpatrick_modifiers.items() if name != "neutral"}
 
@@ -75,8 +67,8 @@ class Rofimoji:
             '-a',
             dest='action',
             action='store',
-            choices=[action.value for action in self.Action],
-            default=self.Action.TYPE.value,
+            choices=[action.value for action in Action],
+            default=Action.TYPE.value,
             help='How to insert the chosen characters'
         )
         parser.add_argument(
@@ -149,10 +141,57 @@ class Rofimoji:
             default=None,
             help='Choose the application to type with'
         )
+        parser.add_argument(
+            '--keybinding-copy',
+            dest='keybinding_copy',
+            action='store',
+            type=str,
+            default='Alt+c',
+            help='Choose the keyboard shortcut to copy the character to the clipboard'
+        )
+        parser.add_argument(
+            '--keybinding-type',
+            dest='keybinding_type',
+            action='store',
+            type=str,
+            default='Alt+t',
+            help='Choose the keyboard shortcut to directly type the character'
+        )
+        parser.add_argument(
+            '--keybinding-clipboard',
+            dest='keybinding_clipboard',
+            action='store',
+            type=str,
+            default='Alt+p',
+            help='Choose the keyboard shortcut to insert the character via the clipboard'
+        )
+        parser.add_argument(
+            '--keybinding-unicode',
+            dest='keybinding_unicode',
+            action='store',
+            type=str,
+            default='Alt+u',
+            help='Choose the keyboard shortcut to directly type the character\'s unicode codepoint'
+        )
+        parser.add_argument(
+            '--keybinding-copy-unicode',
+            dest='keybinding_copy_unicode',
+            action='store',
+            type=str,
+            default='Alt+i',
+            help='Choose the keyboard shortcut to copy the character\'s unicode codepoint to the clipboard'
+        )
 
         parsed_args = parser.parse_args()
         parsed_args.rofi_args = shlex.split(parsed_args.rofi_args)
-        parsed_args.action = next(action for action in self.Action if action.value == parsed_args.action)
+        parsed_args.action = next(action for action in Action if action.value == parsed_args.action)
+        parsed_args.keybindings = {
+            Action.TYPE: parsed_args.keybinding_type,
+            Action.COPY: parsed_args.keybinding_copy,
+            Action.CLIPBOARD: parsed_args.keybinding_clipboard,
+            Action.UNICODE: parsed_args.keybinding_unicode,
+            Action.COPY_UNICODE: parsed_args.keybinding_copy_unicode,
+        }
 
         return parsed_args
 
@@ -209,15 +248,15 @@ class Rofimoji:
 
     def choose_action_from_return_code(self, return_code: int):
         if return_code == 20:
-            self.args.action = self.Action.COPY
+            self.args.action = Action.COPY
         elif return_code == 21:
-            self.args.action = self.Action.TYPE
+            self.args.action = Action.TYPE
         elif return_code == 22:
-            self.args.action = self.Action.CLIPBOARD
+            self.args.action = Action.CLIPBOARD
         elif return_code == 23:
-            self.args.action = self.Action.UNICODE
+            self.args.action = Action.UNICODE
         elif return_code == 24:
-            self.args.action = self.Action.COPY_UNICODE
+            self.args.action = Action.COPY_UNICODE
 
     def read_character_files(self) -> str:
         return ''.join(self.load_from_file(file_name) for file_name in self.resolve_all_files())
@@ -257,6 +296,7 @@ class Rofimoji:
             self.read_character_files(),
             self.format_recent_characters(),
             self.args.prompt,
+            self.args.keybindings,
             self.args.rofi_args
         )
 
@@ -341,17 +381,17 @@ class Rofimoji:
             file.write(characters + '\n')
 
     def execute_action(self, characters: str) -> None:
-        if self.args.action == self.Action.TYPE:
+        if self.args.action == Action.TYPE:
             self.typer.type_characters(characters, self.active_window)
-        elif self.args.action == self.Action.COPY:
+        elif self.args.action == Action.COPY:
             self.clipboarder.copy_characters_to_clipboard(characters)
-        elif self.args.action == self.Action.CLIPBOARD:
+        elif self.args.action == Action.CLIPBOARD:
             self.clipboarder.copy_paste_characters(characters, self.active_window, self.typer)
-        elif self.args.action == self.Action.UNICODE:
+        elif self.args.action == Action.UNICODE:
             self.typer.type_characters(self.get_codepoints(characters), self.active_window)
-        elif self.args.action == self.Action.COPY_UNICODE:
+        elif self.args.action == Action.COPY_UNICODE:
             self.clipboarder.copy_characters_to_clipboard(self.get_codepoints(characters))
-        elif self.args.action == self.Action.STDOUT:
+        elif self.args.action == Action.STDOUT:
             print(characters)
 
     def save_selection_to_cache(self, characters: str, processed_characters: str) -> None:
@@ -360,7 +400,7 @@ class Rofimoji:
 
     def load_selection_from_cache(self) -> Tuple[str, str]:
         cache = cache_file_location.read_text().split('\n')
-        self.args.action = next(action for action in self.Action if action.value == cache[0].strip())
+        self.args.action = next(action for action in Action if action.value == cache[0].strip())
         return cache[1], cache[2]
 
 

@@ -37,7 +37,7 @@ For some applications (f.e. Firefox), this does not work. To work around this, `
 Unfortunately, it depends on the receiving application whether `shift+insert` uses the clipboard or the primary selection.
 Therefore, `rofimoji` uses both and also restores both.
 To choose to spam your clipboards, you can either use the keybinding `alt+p` or start it as `rofimoji --action clipboard` (`-a clipboard`).
-If you want to use typing, you can hit `alt+t`, even though it was started with `--action clipboard`.
+If you want to use typing, you can hit `alt+t`, even though it was started with `--action clipboard`. Note that you can [change the keybindings](#options).
 
 Finally, with `--action copy` (or `-a copy`) you can also tell `rofimoji` to only copy the selected characters to your clipboard.
 
@@ -69,6 +69,7 @@ You can configure `rofimoji` either with cli arguments or with a config file cal
 | `--selector` | | `rofi`, `wofi` | Show the selection dialog with this application. |
 | `--clipboarder` | | `xsel`, `xclip`, `wl-copy` | Access the clipboard with this application. |
 | `--typer` | | `xdotool`, `wtype` | Type the characters using this application. |
+| `--keybinding-copy`, `--keybinding-type`, `--keybinding-clipboard`, `--keybinding-unicode`, `--keybinding-copy-unicode` | | | Choose different keybindings than the default values (`Alt+c`, `Alt+t`, `Alt+p`, `Alt+u`, `Alt+i`). |
 
 ### Example config file
 `~/.config/rofimoji.rc`:

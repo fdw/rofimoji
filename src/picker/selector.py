@@ -1,7 +1,12 @@
 from picker.abstractionhelper import is_wayland, is_installed
 
-from typing import List, Tuple
+from typing import List, Tuple, Dict
 from subprocess import run
+
+try:
+    from picker.action import Action
+except ModuleNotFoundError:
+    from action import Action
 
 
 class Selector:
@@ -23,7 +28,14 @@ class Selector:
     def name() -> str:
         pass
 
-    def show_character_selection(self, characters: str, recent_characters: str, prompt: str, additional_args: List[str]) -> Tuple[int, str]:
+    def show_character_selection(
+            self,
+            characters: str,
+            recent_characters: str,
+            prompt: str,
+            keybindings: Dict[Action, str],
+            additional_args: List[str]
+    ) -> Tuple[int, str]:
         print('Could not find a valid way to show the selection. Please check the required dependencies.')
         exit(4)
 
@@ -41,7 +53,14 @@ class Rofi(Selector):
     def name() -> str:
         return 'rofi'
 
-    def show_character_selection(self, characters: str, recent_characters: str, prompt: str, additional_args: List[str]) -> Tuple[int, str]:
+    def show_character_selection(
+            self,
+            characters: str,
+            recent_characters: str,
+            prompt: str,
+            keybindings: Dict[Action, str],
+            additional_args: List[str]
+    ) -> Tuple[int, str]:
         parameters = [
             'rofi',
             '-dmenu',
@@ -52,15 +71,15 @@ class Rofi(Selector):
             '-p',
             prompt,
             '-kb-custom-11',
-            'Alt+c',
+            keybindings[Action.COPY],
             '-kb-custom-12',
-            'Alt+t',
+            keybindings[Action.TYPE],
             '-kb-custom-13',
-            'Alt+p',
+            keybindings[Action.CLIPBOARD],
             '-kb-custom-14',
-            'Alt+u',
+            keybindings[Action.UNICODE],
             '-kb-custom-15',
-            'Alt+i',
+            keybindings[Action.COPY_UNICODE],
             *additional_args
         ]
 
@@ -102,7 +121,14 @@ class Wofi(Selector):
     def name() -> str:
         return 'wofi'
 
-    def show_character_selection(self, characters: str, recent_characters: str, prompt: str, additional_args: List[str]) -> Tuple[int, str]:
+    def show_character_selection(
+            self,
+            characters: str,
+            recent_characters: str,
+            prompt: str,
+            keybindings: Dict[Action, str],
+            additional_args: List[str]
+    ) -> Tuple[int, str]:
         parameters = [
             'wofi',
             '--dmenu',

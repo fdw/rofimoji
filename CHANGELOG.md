@@ -1,3 +1,7 @@
+# [NEXT]
+## Fixed
+- The recents file will not grow limitless anymore. (#86)
+
 # [5.1.0]
 ## Added
 - There is a new `print` action to just print out the characters. (#75)

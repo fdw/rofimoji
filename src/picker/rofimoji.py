@@ -350,6 +350,9 @@ class Rofimoji:
     def save_characters_to_recent_file(self, characters: str) -> None:
         max_recent_from_conf = self.args.max_recent
 
+        if max_recent_from_conf == 0:
+            return
+
         old_file_name = recents_file_location
         new_file_name = old_file_name.with_name('recent_temp')
 

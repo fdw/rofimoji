@@ -65,7 +65,7 @@ You can configure `rofimoji` either with cli arguments or with a config file cal
 | `--skin-tone` | `-s` | `light`, `medium-light`, `moderate`, `dark brown`, `black`, as well as `neutral` and `ask` | Define the skin tone of supporting emojis. `ask` will always ask the user. |
 | `--max-recent` |  | 1-10 | Show at most this many recently picked characters. The number will be capped at 10. |
 | `--prompt` | `-r` | any string | Define the prompt text for `rofimoji`. |
-| `--rofi-args` | | | Define arguments that `rofimoji` will pass through to `rofi`.<br/>Please note that you need to specify it as `--rofi-args="<rofi-args>"` or `--rofi-args " <rofi-args>"` because of a [bug in argparse](https://bugs.python.org/issue9334) |
+| `--selector-args` | | | Define arguments that `rofimoji` will pass through to the selctor (`rofi` or `wofi`).<br/>Please note that you need to specify it as `--selector-args="<selector-args>"` or `--selector-args " <selector-args>"` because of a [bug in argparse](https://bugs.python.org/issue9334) |
 | `--selector` | | `rofi`, `wofi` | Show the selection dialog with this application. |
 | `--clipboarder` | | `xsel`, `xclip`, `wl-copy` | Access the clipboard with this application. |
 | `--typer` | | `xdotool`, `wtype` | Type the characters using this application. |

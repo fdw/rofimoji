@@ -103,8 +103,15 @@ class Rofimoji:
             '--rofi-args',
             dest='rofi_args',
             action='store',
-            default='',
-            help='A string of arguments to give to rofi'
+            default=False,
+            help=configargparse.SUPPRESS
+        )
+        parser.add_argument(
+            '--selector-args',
+            dest='selector_args',
+            action='store',
+            default=False,
+            help='A string of arguments to give to the selector (rofi or wofi)'
         )
         parser.add_argument(
             '--max-recent',
@@ -183,7 +190,28 @@ class Rofimoji:
         )
 
         parsed_args = parser.parse_args()
-        parsed_args.rofi_args = shlex.split(parsed_args.rofi_args)
+
+        # Store the additional arguments for the rofi/wofi selector if they
+        # were provided.
+        if parsed_args.selector_args:
+            parsed_args.selector_args = shlex.split(parsed_args.selector_args)
+
+        # If the deprecated '--rofi-args' was used and '--selector-args', was
+        # not used, let's assume the user is unaware that '--selector-args'
+        # exists. We will use those arguments as our selector_args.
+        # If they provided both, we assume they know about '--selector-args'
+        # and they need to adjust their script that calls rofimoji.
+        if parsed_args.rofi_args and not parsed_args.selector_args:
+            print(
+                "🛑 The --rofi-args option is deprecated. "
+                "Please migrate to using --selector-args exclusively."
+            )
+            parsed_args.selector_args = shlex.split(parsed_args.rofi_args)
+
+        # Use an empty list if no selector or rofi args were passed.
+        if not parsed_args.selector_args:
+            parsed_args.selector_args = []
+
         parsed_args.action = next(action for action in Action if action.value == parsed_args.action)
         parsed_args.keybindings = {
             Action.TYPE: parsed_args.keybinding_type,
@@ -297,7 +325,7 @@ class Rofimoji:
             self.format_recent_characters(),
             self.args.prompt,
             self.args.keybindings,
-            self.args.rofi_args
+            self.args.selector_args
         )
 
     def process_chosen_characters(self, chosen_characters: List[str]) -> str:
@@ -336,7 +364,7 @@ class Rofimoji:
             returncode, skin_tone = self.selector.show_skin_tone_selection(
                 modified_emojis,
                 selected_emoji + '   ',
-                self.args.rofi_args
+                self.args.selector_args
             )
 
             if returncode == 1:

@@ -12,7 +12,7 @@
 | **rofimoji** \[**-h**] \[**--version**] \[**--action** {*type*,*copy*,*clipboard*,*unicode*,*copy-unicode*,*print*}]
          \[**--skin-tone** {*neutral*,*light*,*medium-light*,*moderate*,*dark brown*,*black*,*ask*}]
          \[**--files** {*all*,*FILE* \[*FILE* ...]]} \[**--prompt** *PROMPT*]
-         \[**--rofi-args** *ROFI_ARGS*] \[**--max-recent** *MAX_RECENT*]
+         \[**--selector-args** *SELECTOR_ARGS*] \[**--max-recent** *MAX_RECENT*]
          \[**--clipboarder** *CLIPBOARDER*] \[**--typer** *TYPER*] \[**--selector** *SELECTOR*]
 
 # DESCRIPTION
@@ -48,9 +48,9 @@ Select, insert, or copy Unicode characters like emoji using rofi.
 
 --prompt _PROMPT_, -r _PROMPT_
 
-:  Set rofimoj's prompt
+:  Set rofimoji's prompt
 
---rofi-args _ROFI-ARGS_
+--selector-args _SELECTOR-ARGS_
 
 :  A string of arguments to give to the selector.
 

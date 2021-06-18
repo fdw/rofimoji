@@ -153,7 +153,7 @@ class Wofi(Selector):
     def show_skin_tone_selection(self, skin_tones: str, prompt: str, additional_args: List[str]) -> Tuple[int, str]:
         wofi = run(
             [
-                'rofi',
+                'wofi',
                 '--dmenu',
                 '-i',
                 '-p',

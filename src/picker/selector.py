@@ -139,9 +139,6 @@ class Wofi(Selector):
             *additional_args
         ]
 
-        if recent_characters:
-            parameters.extend(['-mesg', recent_characters])
-
         wofi = run(
             parameters,
             input=characters,

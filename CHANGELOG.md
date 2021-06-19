@@ -1,6 +1,15 @@
-# [NEXT]
+# [5.2.0]
+## Added
+- The keybindings for direct actions are now configurable. (#84)
+- `rofimoji` is now also on [PyPI](https://pypi.org/project/rofimoji/)
+
+## Changed
+- The `--rofi-args` parameter is now deprecated in favor of a more generic `--selector-args`. It still works, but it will be removed in a later release.
+
 ## Fixed
 - The recents file will not grow limitless anymore. (#86)
+- The skin tone selection was calling `rofi` even if `wofi` was preferred.
+- `wofi` is now called with the correct arguments to work as expected now. (#89)
 
 # [5.1.0]
 ## Added

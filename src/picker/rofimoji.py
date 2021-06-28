@@ -22,7 +22,7 @@ except ModuleNotFoundError:
     from selector import Selector
     from paths import *
 
-__version__ = '5.2.0'
+__version__ = '5.3.0-SNAPSHOT'
 
 
 class Rofimoji:
@@ -252,7 +252,7 @@ class Rofimoji:
             self.execute_action(characters)
         else:
             self.choose_action_from_return_code(returncode)
-            self.save_selection_to_cache(re.match(r'^(?:\u200e(?! ))?(?P<char>.[^ ]*) .*', chosen_character).group('char'), '')
+            self.save_selection_to_cache( self._parse_line(chosen_character), '')
             self.mode_select_skin_tone('')
 
     def mode_select_skin_tone(self, processed_character: str) -> None:
@@ -260,6 +260,7 @@ class Rofimoji:
         processed_characters += processed_character.split(' ')[0]
 
         for character in characters:
+            self.save_characters_to_frecency_file(characters.split(' ')[0])
             if character not in self.skin_tone_selectable_emojis:
                 processed_characters += character
                 characters = characters[1:]
@@ -286,6 +287,9 @@ class Rofimoji:
             self.args.action = Action.UNICODE
         elif return_code == 24:
             self.args.action = Action.COPY_UNICODE
+
+    def _parse_line(self, line) -> str:
+        return re.match(r'^(?:\u200e(?! ))?(?P<char>.[^ ]*) .*', line).group('char')
 
     def read_character_files(self) -> str:
         all_characters = OrderedDict()
@@ -337,8 +341,11 @@ class Rofimoji:
         )
 
     def process_chosen_characters(self, chosen_characters: List[str]) -> str:
+        for character in chosen_characters:
+            self.save_characters_to_frecency_file(character.split(' ')[0])
+
         processed_characters = ''.join(
-            self.add_skin_tone(re.match(r'^(?:\u200e(?! ))?(?P<char>.[^ ]*) .*', character).group('char'))
+            self.add_skin_tone(self._parse_line(character))
             for character in chosen_characters
         )
         self.save_characters_to_recent_file(processed_characters)
@@ -390,7 +397,7 @@ class Rofimoji:
             return
 
         old_file_name = recents_file_location
-        new_file_name = old_file_name.with_name('recent_temp')
+        new_file_name = old_file_name.with_name('recent.tmp')
 
         max_recent = min(max_recent_from_conf, 10)
 
@@ -411,6 +418,29 @@ class Rofimoji:
                 old_file_name.unlink()
             except FileNotFoundError:
                 pass
+
+        new_file_name.rename(old_file_name)
+
+    def save_characters_to_frecency_file(self, chosen_character: str) -> None:
+        old_file_name = frecency_file_location
+        new_file_name = old_file_name.with_name('frecency.tmp')
+
+        new_file_name.parent.mkdir(parents=True, exist_ok=True)
+
+        frecencies = {}
+        try:
+            with old_file_name.open('r') as old_file:
+                for line in old_file:
+                    (frecency, character) = line.strip().split(' ')
+                    frecencies[character] = int(frecency)
+        except FileNotFoundError:
+            pass
+
+        frecencies[chosen_character] = frecencies.get(chosen_character, 0) + 1
+
+        with new_file_name.open('w+') as new_file:
+            for (character, frecency) in sorted(frecencies.items(), key=lambda item: item[1], reverse=True):
+                new_file.write(f'{frecency} {character}\n')
 
         new_file_name.rename(old_file_name)
 

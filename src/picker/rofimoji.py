@@ -4,7 +4,7 @@ import argparse
 import re
 import shlex
 import sys
-from typing import List, Tuple
+from typing import List, Tuple, Dict
 from collections import OrderedDict
 
 import configargparse
@@ -293,19 +293,24 @@ class Rofimoji:
 
     def read_character_files(self) -> str:
         all_characters = OrderedDict()
+
+        for character in self.read_frecencies().keys():
+            all_characters[character] = ''
+
         for file_name in self.resolve_all_files():
             characters_from_file = self.load_from_file(file_name)
             for line in characters_from_file:
                 parsed_line = line.split(' ', 1)
                 all_characters[parsed_line[0]] = all_characters.get(parsed_line[0], '') + parsed_line[1] if 1 < len(parsed_line) else ''
 
-        return '\n'.join(f"{key} {value}" for key, value in all_characters.items())
+        return '\n'.join(f"{key} {value}" for key, value in all_characters.items() if value != '')
 
     def resolve_all_files(self) -> List[str]:
         file_names = self.args.files
 
         if len(file_names) == 1 and file_names[0] == 'all':
             file_names = [file.stem for file in (Path(__file__).parent / "data").glob("*.csv")]
+
         return file_names
 
     def load_from_file(self, file_name: str) -> List[str]:
@@ -421,20 +426,24 @@ class Rofimoji:
 
         new_file_name.rename(old_file_name)
 
-    def save_characters_to_frecency_file(self, chosen_character: str) -> None:
-        old_file_name = frecency_file_location
-        new_file_name = old_file_name.with_name('frecency.tmp')
-
-        new_file_name.parent.mkdir(parents=True, exist_ok=True)
-
+    def read_frecencies(self) -> Dict[str, int]:
         frecencies = {}
         try:
-            with old_file_name.open('r') as old_file:
-                for line in old_file:
+            with frecency_file_location.open('r') as file:
+                for line in file:
                     (frecency, character) = line.strip().split(' ')
                     frecencies[character] = int(frecency)
         except FileNotFoundError:
             pass
+
+        return frecencies
+
+    def save_characters_to_frecency_file(self, chosen_character: str) -> None:
+        new_file_name = frecency_file_location.with_name('frecency.tmp')
+
+        new_file_name.parent.mkdir(parents=True, exist_ok=True)
+
+        frecencies = self.read_frecencies()
 
         frecencies[chosen_character] = frecencies.get(chosen_character, 0) + 1
 
@@ -442,7 +451,7 @@ class Rofimoji:
             for (character, frecency) in sorted(frecencies.items(), key=lambda item: item[1], reverse=True):
                 new_file.write(f'{frecency} {character}\n')
 
-        new_file_name.rename(old_file_name)
+        new_file_name.rename(frecency_file_location)
 
     def append_to_favorites_file(self, characters: str) -> None:
         favorites_file_location.parent.mkdir(parents=True, exist_ok=True)

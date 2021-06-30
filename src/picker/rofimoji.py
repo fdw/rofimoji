@@ -123,6 +123,13 @@ class Rofimoji:
             help='Show at most this number of recently used characters (cannot be larger than 10)'
         )
         parser.add_argument(
+            '--no-frecency',
+            dest='frecency',
+            action='store_false',
+            help='Don\'t show frequently used characters first'
+        )
+        parser.set_defaults(frecency=True)
+        parser.add_argument(
             '--selector',
             dest='selector',
             action='store',
@@ -294,8 +301,9 @@ class Rofimoji:
     def read_character_files(self) -> str:
         all_characters = OrderedDict()
 
-        for character in self.read_frecencies().keys():
-            all_characters[character] = ''
+        if self.args.frecency:
+            for character in self.read_frecencies().keys():
+                all_characters[character] = ''
 
         for file_name in self.resolve_all_files():
             characters_from_file = self.load_from_file(file_name)
@@ -439,6 +447,9 @@ class Rofimoji:
         return frecencies
 
     def save_characters_to_frecency_file(self, chosen_character: str) -> None:
+        if not self.args.frecency:
+            return
+
         new_file_name = frecency_file_location.with_name('frecency.tmp')
 
         new_file_name.parent.mkdir(parents=True, exist_ok=True)

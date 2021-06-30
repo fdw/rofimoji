@@ -1,3 +1,7 @@
+# [5.3.0]
+## Added
+- Characters are now ordered by their usage.
+
 # [5.2.0]
 ## Added
 - The keybindings for direct actions are now configurable. (#84)

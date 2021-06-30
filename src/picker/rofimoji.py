@@ -102,13 +102,6 @@ class Rofimoji:
             help='Set rofimoj\'s  prompt'
         )
         parser.add_argument(
-            '--rofi-args',
-            dest='rofi_args',
-            action='store',
-            default=False,
-            help=configargparse.SUPPRESS
-        )
-        parser.add_argument(
             '--selector-args',
             dest='selector_args',
             action='store',
@@ -200,25 +193,9 @@ class Rofimoji:
 
         parsed_args = parser.parse_args()
 
-        # Store the additional arguments for the rofi/wofi selector if they
-        # were provided.
         if parsed_args.selector_args:
             parsed_args.selector_args = shlex.split(parsed_args.selector_args)
-
-        # If the deprecated '--rofi-args' was used and '--selector-args', was
-        # not used, let's assume the user is unaware that '--selector-args'
-        # exists. We will use those arguments as our selector_args.
-        # If they provided both, we assume they know about '--selector-args'
-        # and they need to adjust their script that calls rofimoji.
-        if parsed_args.rofi_args and not parsed_args.selector_args:
-            print(
-                "🛑 The --rofi-args option is deprecated. "
-                "Please migrate to using --selector-args exclusively."
-            )
-            parsed_args.selector_args = shlex.split(parsed_args.rofi_args)
-
-        # Use an empty list if no selector or rofi args were passed.
-        if not parsed_args.selector_args:
+        else:
             parsed_args.selector_args = []
 
         parsed_args.action = next(action for action in Action if action.value == parsed_args.action)

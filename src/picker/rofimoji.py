@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import argparse
+import math
 import re
 import shlex
 import sys
@@ -456,11 +457,11 @@ class Rofimoji:
 
         frecencies = self.read_frecencies()
 
-        frecencies[chosen_character] = frecencies.get(chosen_character, 0) + 1
+        frecencies[chosen_character] = frecencies.get(chosen_character, 0) + 1.1
 
         with new_file_name.open('w+') as new_file:
             for (character, frecency) in sorted(frecencies.items(), key=lambda item: item[1], reverse=True):
-                new_file.write(f'{frecency} {character}\n')
+                new_file.write(f'{math.floor(frecency)} {character}\n')
 
         new_file_name.rename(frecency_file_location)
 

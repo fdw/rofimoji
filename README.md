@@ -64,6 +64,7 @@ You can configure `rofimoji` either with cli arguments or with a config file cal
 | `--files` | `-f` | `all`, `<yourfile>` or [any of the files in `data`](https://github.com/fdw/rofimoji/tree/main/src/picker/data)| Define which file(s) to load characters from. You can define your own files, or use any of the default ones.<br/>If set to `all`, all default files are used. Use with caution, that is a *lot*.<br/>If no file is set, the default emoji list is used. |
 | `--skin-tone` | `-s` | `light`, `medium-light`, `moderate`, `dark brown`, `black`, as well as `neutral` and `ask` | Define the skin tone of supporting emojis. `ask` will always ask the user. |
 | `--max-recent` |  | 1-10 | Show at most this many recently picked characters. The number will be capped at 10. |
+| `--no-frecency`<br/>(`no-frecency=True` in the config file) |  | - | By default, `rofimoji` shows frequently used items first. With this option, they're shown in the order of the file. |
 | `--prompt` | `-r` | any string | Define the prompt text for `rofimoji`. |
 | `--selector-args` | | | Define arguments that `rofimoji` will pass through to the selctor (`rofi` or `wofi`).<br/>Please note that you need to specify it as `--selector-args="<selector-args>"` or `--selector-args " <selector-args>"` because of a [bug in argparse](https://bugs.python.org/issue9334) |
 | `--selector` | | `rofi`, `wofi` | Show the selection dialog with this application. |

@@ -54,10 +54,11 @@ class XDoToolTyper(Typer):
     def type_characters(self, characters: str, active_window: str) -> None:
         run([
             'xdotool',
+            'windowactivate',
+            '--sync',
+            active_window,
             'type',
             '--clearmodifiers',
-            '--window',
-            active_window,
             characters
         ])
 

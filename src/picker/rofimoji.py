@@ -244,6 +244,7 @@ class Rofimoji:
                 self.choose_action_from_return_code(returncode)
                 characters = self.process_chosen_characters(stdout.splitlines())
 
+            self.save_characters_to_recent_file(characters)
             self.execute_action(characters)
 
     def mode_show_characters(self) -> None:
@@ -257,6 +258,7 @@ class Rofimoji:
     def mode_act_on_selection(self, chosen_character: str, returncode: int) -> None:
         if 10 <= returncode <= 19:
             characters = self.load_recent_characters(self.args.max_recent)[returncode - 10].strip()
+            self.save_characters_to_recent_file(characters)
             self.execute_action(characters)
         else:
             self.choose_action_from_return_code(returncode)
@@ -362,7 +364,6 @@ class Rofimoji:
             self.add_skin_tone(self._parse_line(character))
             for character in chosen_characters
         )
-        self.save_characters_to_recent_file(processed_characters)
 
         return processed_characters
 

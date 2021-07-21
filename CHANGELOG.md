@@ -1,6 +1,9 @@
 # [5.3.0]
 ## Added
-- Characters are now ordered by their usage.
+- Characters are now ordered by their usage. (#74)
+
+## Changed
+- Recently used characters are now also re-ordered on usage. (#97)
 
 # [5.2.0]
 ## Added

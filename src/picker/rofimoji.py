@@ -23,7 +23,7 @@ except ModuleNotFoundError:
     from selector import Selector
     from paths import *
 
-__version__ = '5.3.0-SNAPSHOT'
+__version__ = '5.3.0'
 
 
 class Rofimoji:

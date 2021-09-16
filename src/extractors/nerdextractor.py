@@ -4,7 +4,7 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
-from extractors.characterfactory import Character
+from characterfactory import Character
 
 
 class NerdExtractor(object):

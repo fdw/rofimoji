@@ -3,8 +3,8 @@ from pathlib import Path
 
 import requests
 
-from extractors.blockfactory import BlockFactory
-from extractors.characterfactory import CharacterFactory
+from blockfactory import BlockFactory
+from characterfactory import CharacterFactory
 
 
 class BlockExtractor(object):

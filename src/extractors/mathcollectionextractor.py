@@ -4,7 +4,7 @@ from typing import List
 
 import requests
 
-from extractors.characterfactory import CharacterFactory, Character
+from characterfactory import CharacterFactory, Character
 
 
 class MathExtractor(object):

@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import List
 
-from extractors.characterfactory import Character, CharacterFactory
+from characterfactory import Character, CharacterFactory
 
 
 @dataclass

@@ -22,7 +22,7 @@ class EmojiExtractor(object):
         print('Downloading list of all emojis')
 
         data = requests.get(
-            'https://unicode.org/emoji/charts-13.1/full-emoji-list.html',
+            'https://unicode.org/emoji/charts-14.0/full-emoji-list.html',
             timeout=120
         )  # type: requests.Response
 
@@ -53,7 +53,7 @@ class EmojiExtractor(object):
         print('Downloading list of human emojis...')
 
         data = requests.get(
-            'https://unicode.org/Public/13.0.0/ucd/emoji/emoji-data.txt',
+            'https://unicode.org/Public/14.0.0/ucd/emoji/emoji-data.txt',
             timeout=60
         )  # type: requests.Response
 
@@ -63,7 +63,7 @@ class EmojiExtractor(object):
             if not started and line != '# All omitted code points have Emoji_Modifier_Base=No ':
                 continue
             started = True
-            if line == '# Total elements: 122':
+            if line == '# Total elements: 132':
                 break
             if line and not line.startswith('#'):
                 emojis.extend(self.resolve_character_range(line.split(';')[0].strip()))

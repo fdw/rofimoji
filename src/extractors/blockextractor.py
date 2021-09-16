@@ -17,7 +17,7 @@ class BlockExtractor(object):
         print('Downloading list of all blocks')
 
         response = requests.get(
-            'https://www.unicode.org/Public/13.0.0/ucd/Blocks.txt',
+            'https://www.unicode.org/Public/14.0.0/ucd/Blocks.txt',
             timeout=60
         )  # type: requests.Response
 

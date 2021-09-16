@@ -8,6 +8,7 @@
 😂 face with tears of joy <small>(face, joy, laugh, tear)</small>
 🙂 slightly smiling face <small>(face, smile)</small>
 🙃 upside-down face <small>(face, upside-down)</small>
+🫠 melting face
 😉 winking face <small>(face, wink)</small>
 😊 smiling face with smiling eyes <small>(blush, eye, face, smile)</small>
 😇 smiling face with halo <small>(angel, face, fantasy, halo, innocent)</small>
@@ -26,15 +27,19 @@
 🤪 zany face <small>(eye, goofy, large, small)</small>
 😝 squinting face with tongue <small>(eye, face, horrible, taste, tongue)</small>
 🤑 money-mouth face <small>(face, money, mouth)</small>
-🤗 hugging face <small>(face, hug, hugging)</small>
+🤗 smiling face with open hands <small>(face, hug, hugging)</small>
 🤭 face with hand over mouth <small>(whoops)</small>
+🫢 face with open eyes and hand over mouth
+🫣 face with peeking eye
 🤫 shushing face <small>(quiet, shush)</small>
 🤔 thinking face <small>(face, thinking)</small>
+🫡 saluting face
 🤐 zipper-mouth face <small>(face, mouth, zipper)</small>
 🤨 face with raised eyebrow <small>(distrust, skeptic)</small>
 😐 neutral face <small>(deadpan, face, meh, neutral)</small>
 😑 expressionless face <small>(expressionless, face, inexpressive, meh, unexpressive)</small>
 😶 face without mouth <small>(face, mouth, quiet, silent)</small>
+🫥 dotted line face
 😶‍🌫️ face in clouds
 😏 smirking face <small>(face, smirk)</small>
 😒 unamused face <small>(face, unamused, unhappy)</small>
@@ -56,7 +61,7 @@
 🥵 hot face <small>(feverish, heat stroke, hot, red-faced, sweating)</small>
 🥶 cold face <small>(blue-faced, cold, freezing, frostbite, icicles)</small>
 🥴 woozy face <small>(dizzy, intoxicated, tipsy, uneven eyes, wavy mouth)</small>
-😵 knocked-out face <small>(dizzy, face)</small>
+😵 face with crossed-out eyes <small>(dizzy, face)</small>
 😵‍💫 face with spiral eyes
 🤯 exploding head <small>(mind blown, shocked)</small>
 🤠 cowboy hat face <small>(cowboy, cowgirl, face, hat)</small>
@@ -66,6 +71,7 @@
 🤓 nerd face <small>(face, geek, nerd)</small>
 🧐 face with monocle <small>(stuffy)</small>
 😕 confused face <small>(confused, face, meh)</small>
+🫤 face with diagonal mouth
 😟 worried face <small>(face, worried)</small>
 🙁 slightly frowning face <small>(face, frown)</small>
 ☹ frowning face <small>(face, frown)</small>
@@ -74,6 +80,7 @@
 😲 astonished face <small>(astonished, face, shocked, totally)</small>
 😳 flushed face <small>(dazed, face, flushed)</small>
 🥺 pleading face <small>(begging, mercy, puppy eyes)</small>
+🥹 face holding back tears
 😦 frowning face with open mouth <small>(face, frown, mouth, open)</small>
 😧 anguished face <small>(anguished, face)</small>
 😨 fearful face <small>(face, fear, fearful, scared)</small>
@@ -159,11 +166,16 @@
 🖐 hand with fingers splayed <small>(finger, hand, splayed)</small>
 ✋ raised hand <small>(hand)</small>
 🖖 vulcan salute <small>(finger, hand, spock, vulcan)</small>
+🫱 rightwards hand
+🫲 leftwards hand
+🫳 palm down hand
+🫴 palm up hand
 👌 OK hand <small>(hand, OK)</small>
 🤌 pinched fingers <small>(fingers, hand gesture, interrogation, pinched, sarcastic)</small>
 🤏 pinching hand <small>(small amount)</small>
 ✌ victory hand <small>(hand, v, victory)</small>
 🤞 crossed fingers <small>(cross, finger, hand, luck)</small>
+🫰 hand with index finger and thumb crossed
 🤟 love-you gesture <small>(hand, ILY)</small>
 🤘 sign of the horns <small>(finger, hand, horns, rock-on)</small>
 🤙 call me hand <small>(call, hand)</small>
@@ -173,6 +185,7 @@
 🖕 middle finger <small>(finger, hand)</small>
 👇 backhand index pointing down <small>(backhand, down, finger, hand, point)</small>
 ☝ index pointing up <small>(finger, hand, index, point, up)</small>
+🫵 index pointing at the viewer
 👍 thumbs up <small>(+1, hand, thumb, up)</small>
 👎 thumbs down <small>(-1, down, hand, thumb)</small>
 ✊ raised fist <small>(clenched, fist, hand, punch)</small>
@@ -181,6 +194,7 @@
 🤜 right-facing fist <small>(fist, rightwards)</small>
 👏 clapping hands <small>(clap, hand)</small>
 🙌 raising hands <small>(celebration, gesture, hand, hooray, raised)</small>
+🫶 heart hands
 👐 open hands <small>(hand, open)</small>
 🤲 palms up together <small>(prayer)</small>
 🤝 handshake <small>(agreement, hand, meeting, shake)</small>
@@ -205,6 +219,7 @@
 👁 eye <small>(body)</small>
 👅 tongue <small>(body)</small>
 👄 mouth <small>(lips)</small>
+🫦 biting lip
 👶 baby <small>(young)</small>
 🧒 child <small>(gender-neutral, unspecified gender, young)</small>
 👦 boy <small>(young)</small>
@@ -324,6 +339,7 @@
 👷 construction worker <small>(construction, hat, worker)</small>
 👷‍♂️ man construction worker
 👷‍♀️ woman construction worker
+🫅 person with crown
 🤴 prince <small>()</small>
 👸 princess <small>(fairy tale, fantasy)</small>
 👳 person wearing turban <small>(turban)</small>
@@ -338,6 +354,8 @@
 👰‍♂️ man with veil
 👰‍♀️ woman with veil
 🤰 pregnant woman <small>(pregnant, woman)</small>
+🫃 pregnant man
+🫄 pregnant person
 🤱 breast-feeding <small>(baby, breast, nursing)</small>
 👩‍🍼 woman feeding baby <small>(baby, feeding, nursing, woman)</small>
 👨‍🍼 man feeding baby <small>(baby, feeding, man, nursing)</small>
@@ -373,6 +391,7 @@
 🧟 zombie <small>(undead, walking dead)</small>
 🧟‍♂️ man zombie
 🧟‍♀️ woman zombie
+🧌 troll
 💆 person getting massage <small>(face, massage, salon)</small>
 💆‍♂️ man getting massage
 💆‍♀️ woman getting massage
@@ -608,6 +627,7 @@
 🦈 shark <small>(fish)</small>
 🐙 octopus <small>()</small>
 🐚 spiral shell <small>(shell, spiral)</small>
+🪸 coral
 🐌 snail <small>()</small>
 🦋 butterfly <small>(insect, pretty)</small>
 🐛 bug <small>(insect)</small>
@@ -627,6 +647,7 @@
 💐 bouquet <small>(flower)</small>
 🌸 cherry blossom <small>(blossom, cherry, flower)</small>
 💮 white flower <small>(flower)</small>
+🪷 lotus
 🏵 rosette <small>(plant)</small>
 🌹 rose <small>(flower)</small>
 🥀 wilted flower <small>(flower, wilted)</small>
@@ -647,6 +668,8 @@
 🍁 maple leaf <small>(falling, leaf, maple)</small>
 🍂 fallen leaf <small>(falling, leaf)</small>
 🍃 leaf fluttering in wind <small>(blow, flutter, leaf, wind)</small>
+🪹 empty nest
+🪺 nest with eggs
 🍇 grapes <small>(fruit, grape)</small>
 🍈 melon <small>(fruit)</small>
 🍉 watermelon <small>(fruit)</small>
@@ -680,6 +703,7 @@
 🧅 onion <small>(flavoring)</small>
 🍄 mushroom <small>(toadstool)</small>
 🥜 peanuts <small>(food, nut, peanut, vegetable)</small>
+🫘 beans
 🌰 chestnut <small>(plant)</small>
 🍞 bread <small>(loaf)</small>
 🥐 croissant <small>(bread, breakfast, food, french, roll)</small>
@@ -765,6 +789,7 @@
 🍻 clinking beer mugs <small>(bar, beer, clink, drink, mug)</small>
 🥂 clinking glasses <small>(celebrate, clink, drink, glass)</small>
 🥃 tumbler glass <small>(glass, liquor, shot, tumbler, whisky)</small>
+🫗 pouring liquid
 🥤 cup with straw <small>(juice, soda)</small>
 🧋 bubble tea <small>(bubble, milk, pearl, tea)</small>
 🧃 beverage box <small>(beverage, box, juice, straw, sweet)</small>
@@ -775,6 +800,7 @@
 🍴 fork and knife <small>(cooking, cutlery, fork, knife)</small>
 🥄 spoon <small>(tableware)</small>
 🔪 kitchen knife <small>(cooking, hocho, knife, tool, weapon)</small>
+🫙 jar
 🏺 amphora <small>(Aquarius, cooking, drink, jug, zodiac)</small>
 🌍 globe showing Europe-Africa <small>(Africa, earth, Europe, globe, world)</small>
 🌎 globe showing Americas <small>(Americas, earth, globe, world)</small>
@@ -837,6 +863,7 @@
 🌉 bridge at night <small>(bridge, night)</small>
 ♨ hot springs <small>(hot, hotsprings, springs, steaming)</small>
 🎠 carousel horse <small>(carousel, horse)</small>
+🛝 playground slide
 🎡 ferris wheel <small>(amusement park, ferris, wheel)</small>
 🎢 roller coaster <small>(amusement park, coaster, roller)</small>
 💈 barber pole <small>(barber, haircut, pole)</small>
@@ -885,12 +912,14 @@
 🛤 railway track <small>(railway, train)</small>
 🛢 oil drum <small>(drum, oil)</small>
 ⛽ fuel pump <small>(diesel, fuel, fuelpump, gas, pump, station)</small>
+🛞 wheel
 🚨 police car light <small>(beacon, car, light, police, revolving)</small>
 🚥 horizontal traffic light <small>(light, signal, traffic)</small>
 🚦 vertical traffic light <small>(light, signal, traffic)</small>
 🛑 stop sign <small>(octagonal, sign, stop)</small>
 🚧 construction <small>(barrier)</small>
 ⚓ anchor <small>(ship, tool)</small>
+🛟 ring buoy
 ⛵ sailboat <small>(boat, resort, sea, yacht)</small>
 🛶 canoe <small>(boat)</small>
 🚤 speedboat <small>(boat)</small>
@@ -1052,6 +1081,7 @@
 🔮 crystal ball <small>(ball, crystal, fairy tale, fantasy, fortune, tool)</small>
 🪄 magic wand <small>(magic, witch, wizard)</small>
 🧿 nazar amulet <small>(bead, charm, evil-eye, nazar, talisman)</small>
+🪬 hamsa
 🎮 video game <small>(controller, game)</small>
 🕹 joystick <small>(game, video game)</small>
 🎰 slot machine <small>(game, slot)</small>
@@ -1059,6 +1089,7 @@
 🧩 puzzle piece <small>(clue, interlocking, jigsaw, piece, puzzle)</small>
 🧸 teddy bear <small>(plaything, plush, stuffed, toy)</small>
 🪅 piñata <small>(celebration, party)</small>
+🪩 mirror ball
 🪆 nesting dolls <small>(doll, nesting, russia)</small>
 ♠ spade suit <small>(card, game)</small>
 ♥ heart suit <small>(card, game)</small>
@@ -1154,6 +1185,7 @@
 📟 pager <small>()</small>
 📠 fax machine <small>(fax)</small>
 🔋 battery <small>()</small>
+🪫 low battery
 🔌 electric plug <small>(electric, electricity, plug)</small>
 💻 laptop <small>(computer, pc, personal)</small>
 🖥 desktop computer <small>(computer, desktop)</small>
@@ -1294,7 +1326,9 @@
 🩸 drop of blood <small>(bleed, blood donation, injury, medicine, menstruation)</small>
 💊 pill <small>(doctor, medicine, sick)</small>
 🩹 adhesive bandage <small>(bandage)</small>
+🩼 crutch
 🩺 stethoscope <small>(doctor, heart, medicine)</small>
+🩻 x-ray
 🚪 door <small>()</small>
 🛗 elevator <small>(accessibility, hoist, lift)</small>
 🪞 mirror <small>(reflection, reflector, speculum)</small>
@@ -1315,6 +1349,7 @@
 🧻 roll of paper <small>(paper towels, toilet paper)</small>
 🪣 bucket <small>(cask, pail, vat)</small>
 🧼 soap <small>(bar, bathing, cleaning, lather, soapdish)</small>
+🫧 bubbles
 🪥 toothbrush <small>(bathroom, brush, clean, dental, hygiene, teeth)</small>
 🧽 sponge <small>(absorbing, cleaning, porous)</small>
 🧯 fire extinguisher <small>(extinguish, fire, quench)</small>
@@ -1325,6 +1360,7 @@
 ⚱ funeral urn <small>(ashes, death, funeral, urn)</small>
 🗿 moai <small>(face, moyai, statue)</small>
 🪧 placard <small>(demonstration, picket, protest, sign)</small>
+🪪 identification card
 🏧 ATM sign <small>(atm, automated, bank, teller)</small>
 🚮 litter in bin sign <small>(litter, litter bin)</small>
 🚰 potable water <small>(drinking, potable, water)</small>
@@ -1428,6 +1464,7 @@
 ➕ plus <small>(+, math, sign)</small>
 ➖ minus <small>(-, −, math, sign)</small>
 ➗ divide <small>(÷, division, math, sign)</small>
+🟰 heavy equals sign
 ♾ infinity <small>(forever, unbounded, universal)</small>
 ‼ double exclamation mark <small>(!, !!, bangbang, exclamation, mark)</small>
 ⁉ exclamation question mark <small>(!, !?, ?, exclamation, interrobang, mark, punctuation, question)</small>

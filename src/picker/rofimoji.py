@@ -37,7 +37,8 @@ class Rofimoji:
                                    '🤘', '🤙', '🤚', '🤛', '🤜', '🤝', '🤞', '🤟', '🤦', '🤰', '🤱',
                                    '🤲', '🤳', '🤴', '🤵', '🤶', '🤷', '🤸', '🤹', '🤼', '🤽', '🤾',
                                    '🥷', '🦵', '🦶', '🦸', '🦹', '🦻', '🧍', '🧎', '🧏', '🧑', '🧒',
-                                   '🧓', '🧔', '🧕', '🧖', '🧗', '🧘', '🧙', '🧚', '🧛', '🧜', '🧝'}
+                                   '🧓', '🧔', '🧕', '🧖', '🧗', '🧘', '🧙', '🧚', '🧛', '🧜', '🧝',
+                                   '🫃', '🫄', '🫅', '🫰', '🫱', '🫲', '🫳', '🫴', '🫵', '🫶'}
 
     fitzpatrick_modifiers = {
         '': 'neutral',
@@ -239,7 +240,7 @@ class Rofimoji:
             self.execute_action(characters)
         else:
             self.choose_action_from_return_code(returncode)
-            self.save_selection_to_cache( self._parse_line(chosen_character), '')
+            self.save_selection_to_cache(self._parse_line(chosen_character), '')
             self.mode_select_skin_tone('')
 
     def mode_select_skin_tone(self, processed_character: str) -> None:

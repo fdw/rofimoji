@@ -18,9 +18,9 @@ class BlockFactory(object):
 
     def build_block_from_range(self: 'BlockFactory', name: str, range: str) -> Block:
         (start, end) = range.split('..')
-        return self.build_block(name, int(start.strip(), 16), int(end.strip(), 16))
+        return self.__build_block(name, int(start.strip(), 16), int(end.strip(), 16))
 
-    def build_block(self: 'BlockFactory', name: str, start: int, end: int) -> Block:
+    def __build_block(self: 'BlockFactory', name: str, start: int, end: int) -> Block:
         return Block(name.strip().title(), start, end, self.__fill_characters(start, end))
 
     def __fill_characters(self: 'BlockFactory', start: int, end: int) -> List[Character]:

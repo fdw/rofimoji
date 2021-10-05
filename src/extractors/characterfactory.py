@@ -20,17 +20,17 @@ class Character(object):
 
 
 class CharacterFactory(object):
-    INDEX_CHAR = 0
-    INDEX_NAME = 1
-    INDEX_BIDI_CLASS = 4
-
     def __init__(self: 'CharacterFactory'):
+        self.__characters = {}
         self.__fetch_characters()
 
-    def __fetch_characters(self: 'CharacterFactory'):
-        print('Downloading the character\'s names')
+    def __fetch_characters(self: 'CharacterFactory') -> None:
+        INDEX_CODEPOINT = 0
+        INDEX_NAME = 1
+        INDEX_CATEGORY = 2
+        INDEX_BIDI_CLASS = 4
 
-        self.__characters = {}
+        print('Downloading the character\'s names')
 
         response = requests.get(
             'https://unicode.org/Public/UNIDATA/UnicodeData.txt',
@@ -41,11 +41,12 @@ class CharacterFactory(object):
 
         for line in lines:
             fields = line.split(';')
-            if len(fields) >= 2 and not fields[1].startswith('<'):
+            if len(fields) >= 2 and not fields[INDEX_CATEGORY] in ('Cc', 'Co', 'Cs') and \
+                    not (fields[INDEX_NAME].startswith('<') and fields[INDEX_NAME].endswith('>')):
                 character = Character(
-                    int(fields[self.INDEX_CHAR], 16),
-                    fields[self.INDEX_NAME],
-                    fields[self.INDEX_BIDI_CLASS]
+                    int(fields[INDEX_CODEPOINT], 16),
+                    fields[INDEX_NAME],
+                    fields[INDEX_BIDI_CLASS]
                 )
                 self.__characters[character.char] = character
 

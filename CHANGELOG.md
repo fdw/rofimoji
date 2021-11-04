@@ -2,6 +2,9 @@
 ## Changed
 - Updated to Unicode v14!
 
+## Fixed
+- The shortcut for `all` files can now be combined with custom files. (#101)
+
 # [5.3.0]
 ## Added
 - Characters are now ordered according to their usage. (#74)

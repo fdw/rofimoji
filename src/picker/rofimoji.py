@@ -286,32 +286,31 @@ class Rofimoji:
             for character in self.read_frecencies().keys():
                 all_characters[character] = ''
 
-        for file_name in self.resolve_all_files():
-            characters_from_file = self.load_from_file(file_name)
+        for file in self.resolve_all_files():
+            characters_from_file = self.load_from_file(file)
             for line in characters_from_file:
                 parsed_line = line.split(' ', 1)
                 all_characters[parsed_line[0]] = all_characters.get(parsed_line[0], '') + parsed_line[1] if 1 < len(parsed_line) else ''
 
         return '\n'.join(f"{key} {value}" for key, value in all_characters.items() if value != '')
 
-    def resolve_all_files(self) -> List[str]:
-        file_names = self.args.files
+    def resolve_all_files(self) -> List[Path]:
+        resolved_file_names = []
+        for file_name in self.args.files:
+            provided_file = Path(__file__).parent / "data" / f"{file_name}.csv"
+            if Path(file_name).expanduser().is_file():
+                resolved_file_names.append(Path(file_name).expanduser())
+            elif provided_file.is_file():
+                resolved_file_names.append(provided_file)
+            elif file_name == 'all':
+                resolved_file_names += (Path(__file__).parent / "data").glob("*.csv")
+            else:
+                raise FileNotFoundError(f"Couldn't find file {file_name!r}")
 
-        if len(file_names) == 1 and file_names[0] == 'all':
-            file_names = [file.stem for file in (Path(__file__).parent / "data").glob("*.csv")]
+        return resolved_file_names
 
-        return file_names
-
-    def load_from_file(self, file_name: str) -> List[str]:
-        provided_file = Path(__file__).parent / "data" / f"{file_name}.csv"
-        if Path(file_name).expanduser().is_file():
-            actual_file_name = Path(file_name).expanduser()
-        elif provided_file.is_file():
-            actual_file_name = provided_file
-        else:
-            raise FileNotFoundError(f"Couldn't find file {file_name!r}")
-
-        return actual_file_name.read_text().strip().split('\n')
+    def load_from_file(self, file: Path) -> List[str]:
+        return file.read_text().strip().split('\n')
 
     def load_recent_characters(self, max: int) -> List[str]:
         try:

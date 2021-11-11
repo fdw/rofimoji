@@ -1,42 +1,86 @@
-⁰ Superscript Zero
-ⁱ Superscript Latin Small Letter I
-⁴ Superscript Four
-⁵ Superscript Five
-⁶ Superscript Six
-⁷ Superscript Seven
-⁸ Superscript Eight
-⁹ Superscript Nine
-⁺ Superscript Plus Sign
-⁻ Superscript Minus
-⁼ Superscript Equals Sign
-⁽ Superscript Left Parenthesis
-⁾ Superscript Right Parenthesis
-ⁿ Superscript Latin Small Letter N
-₀ Subscript Zero
-₁ Subscript One
-₂ Subscript Two
-₃ Subscript Three
-₄ Subscript Four
-₅ Subscript Five
-₆ Subscript Six
-₇ Subscript Seven
-₈ Subscript Eight
-₉ Subscript Nine
-₊ Subscript Plus Sign
-₋ Subscript Minus
-₌ Subscript Equals Sign
-₍ Subscript Left Parenthesis
-₎ Subscript Right Parenthesis
-ₐ Latin Subscript Small Letter A
-ₑ Latin Subscript Small Letter E
-ₒ Latin Subscript Small Letter O
-ₓ Latin Subscript Small Letter X
-ₔ Latin Subscript Small Letter Schwa
-ₕ Latin Subscript Small Letter H
-ₖ Latin Subscript Small Letter K
-ₗ Latin Subscript Small Letter L
-ₘ Latin Subscript Small Letter M
-ₙ Latin Subscript Small Letter N
-ₚ Latin Subscript Small Letter P
-ₛ Latin Subscript Small Letter S
-ₜ Latin Subscript Small Letter T
+⁰ superscript zero ^0
+¹ superscript one ^1
+² superscript two ^2
+³ superscript three ^3
+⁴ superscript four ^4
+⁵ superscript five ^5
+⁶ superscript six ^6
+⁷ superscript seven ^7
+⁸ superscript eight ^8
+⁹ superscript nine ^9
+ᵃ superscript a ^a
+ᵇ superscript b ^b
+ᶜ superscript c ^c
+ᵈ superscript d ^d
+ᵉ superscript e ^e
+ᶠ superscript f ^f
+ᵍ superscript g ^g
+ʰ superscript h ^h
+ⁱ superscript i ^i
+ʲ superscript j ^j
+ᵏ superscript k ^k
+ˡ superscript l ^l
+ᵐ superscript m ^m
+ⁿ superscript n ^n
+ᵒ superscript o ^o
+ᵖ superscript p ^p
+ʳ superscript r ^r
+ˢ superscript s ^s
+ᵗ superscript t ^t
+ᵘ superscript u ^u
+ᵛ superscript v ^v
+ʷ superscript w ^w
+ˣ superscript x ^x
+ʸ superscript y ^y
+ᶻ superscript z ^z
+⁺ superscript plus sign ^+
+⁻ superscript minus ^-
+⁼ superscript equals sign ^=
+⁽ superscript left parenthesis ^(
+⁾ superscript right parenthesis ^)
+ᵝ superscript beta ^beta
+ᵞ superscript gamma ^gamma
+ᵟ superscript delta ^delta
+ᵋ superscript epsilon ^epsilon
+ᶿ superscript theta ^theta
+ᶥ superscript iota ^iota
+ᶹ superscript upsilon ^upsilon
+ᵠ superscript phi ^phi
+ᵡ superscript chi ^chi
+₀ subscript zero _0
+₁ subscript one _1
+₂ subscript two _2
+₃ subscript three _3
+₄ subscript four _4
+₅ subscript five _5
+₆ subscript six _6
+₇ subscript seven _7
+₈ subscript eight _8
+₉ subscript nine _9
+ₐ subscript a _a
+ₑ subscript e _e
+ₓ subscript x _x
+ₕ subscript h _h
+ᵢ subscript i _i
+ⱼ subscript j _j
+ₖ subscript k _k
+ₗ subscript l _l
+ₘ subscript m _m
+ₙ subscript n _n
+ₒ subscript o _o
+ₚ subscript p _p
+ₛ subscript s _s
+ₜ subscript t _t
+ᵤ subscript u _u
+ᵥ subscript v _v
+ₓ subscript x _x
+₊ subscript plus sign _+
+₋ subscript minus _-
+₌ subscript equals sign _=
+₍ subscript left parenthesis _(
+₎ subscript right parenthesis _)
+ᵦ subscript beta _beta
+ᵧ subscript gamma _gamma
+ᵨ subscript rho _rho
+ᵩ subscript phi _phi
+ᵪ subscript chi _chi

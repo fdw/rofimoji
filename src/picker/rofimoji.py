@@ -296,15 +296,27 @@ class Rofimoji:
     def resolve_all_files(self) -> List[Path]:
         resolved_file_names = []
         for file_name in self.args.files:
-            provided_file = Path(__file__).parent / "data" / f"{file_name}.csv"
-            if Path(file_name).expanduser().is_file():
-                resolved_file_names.append(Path(file_name).expanduser())
-            elif provided_file.is_file():
-                resolved_file_names.append(provided_file)
-            elif file_name == 'all':
-                resolved_file_names += (Path(__file__).parent / "data").glob("*.csv")
-            else:
-                raise FileNotFoundError(f"Couldn't find file {file_name!r}")
+            resolved_file_names += self.resolve_file(file_name)
+
+        return resolved_file_names
+
+    def resolve_file(self, file_name: str) -> List[Path]:
+        resolved_file_names = []
+
+        provided_file = Path(__file__).parent / "data" / f"{file_name}.csv"
+
+        if Path(file_name).expanduser().is_file():
+            resolved_file_names.append(Path(file_name).expanduser())
+        elif provided_file.is_file():
+            resolved_file_names.append(provided_file)
+            additional_file = additional_files_location / f"{file_name}.additional.csv"
+            if additional_file.is_file():
+                resolved_file_names.append(additional_file)
+        elif file_name == 'all':
+            nested_file_names = [self.resolve_file(file.stem) for file in (Path(__file__).parent / "data").glob("*.csv")]
+            resolved_file_names += [file_name for file_names in nested_file_names for file_name in file_names]
+        else:
+            raise FileNotFoundError(f"Couldn't find file {file_name!r}")
 
         return resolved_file_names
 

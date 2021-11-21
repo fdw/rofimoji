@@ -105,7 +105,9 @@ If you miss something that should be there, please open an issue.
 ## Custom character files and descriptions
 If the predefined ones are not enough, you can define additional character files and load them with `-f` (see [options](#options)). In each line, one 'character' can be defined, followed by a single space character (` `). After that, you can write whatever description you want.
 
-If the character already exists, its descriptions will be appended. In other words, if you're not happy with the official descriptions, you can define a custom character file, add the character and your description, and this descriptions will now also be shown.
+If the character already exists, the new description will be appended. In other words, if you're not happy with the official descriptions, you can define a custom character file, add the character and your description, and this descriptions will now also be shown.
+
+For added comfort, `rofimoji` will automatically load an "additional" file for predefined ones. This file needs to called `<filename>.additional.csv` and lie in `${XDG_DATA_DIR}/rofimoji/data/`. For example, if you want to extend `emojis`, call the file `emojis.additional.csv`.
 
 If you think your file is useful to others, please open a PR to include it in a future version of `rofimoji`.
 

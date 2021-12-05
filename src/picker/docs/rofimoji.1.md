@@ -45,6 +45,7 @@ Select, insert, or copy Unicode characters like emoji using rofi.
 \--files=_FILE_ [_FILE_ ...], -f _FILE_ [_FILE_ ...]
 
 :  Read characters from this file instead, one entry per line
+:  In the config file, several files need to be listed as `files=[_FILE_, _FILE_ ]`.
 
 \--prompt _PROMPT_, -r _PROMPT_
 

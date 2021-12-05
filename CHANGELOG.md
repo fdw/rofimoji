@@ -1,4 +1,7 @@
 # [NEXT]
+## Added
+- `rofmoji`'s predefined characters now also contain all of CJK.
+
 ## Changed
 - Updated to Unicode v14!
 

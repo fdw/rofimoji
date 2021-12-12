@@ -290,13 +290,15 @@ class Rofimoji:
 
         if self.args.frecency:
             for character in self.read_frecencies().keys():
-                all_characters[character] = ''
+                all_characters[character] = []
 
         for file in self.resolve_all_files():
             characters_from_file = self.load_from_file(file)
             for line in characters_from_file:
                 parsed_line = line.split(' ', 1)
-                all_characters[parsed_line[0]] = all_characters.get(parsed_line[0], '') + parsed_line[1] if 1 < len(parsed_line) else ''
+                all_characters.setdefault(parsed_line[0], []).append(parsed_line[1]) if 1 < len(parsed_line) else ''
+
+        all_characters = {character: ', '.join(descriptions) for character, descriptions in all_characters.items()}
 
         return '\n'.join(f"{key} {value}" for key, value in all_characters.items() if value != '')
 

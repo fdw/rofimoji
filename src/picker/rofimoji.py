@@ -190,6 +190,13 @@ class Rofimoji:
             default='Alt+i',
             help='Choose the keyboard shortcut to copy the character\'s unicode codepoint to the clipboard'
         )
+        parser.add_argument(
+            '--only-official',
+            dest='use_additional',
+            action='store_false',
+            help='Use only the official Unicode descriptions'
+        )
+        parser.set_defaults(use_additional=True)
 
         parsed_args = parser.parse_args()
 
@@ -309,9 +316,12 @@ class Rofimoji:
             resolved_file_names.append(Path(file_name).expanduser())
         elif provided_file.is_file():
             resolved_file_names.append(provided_file)
-            additional_file = additional_files_location / f"{file_name}.additional.csv"
-            if additional_file.is_file():
-                resolved_file_names.append(additional_file)
+            custom_additional_file = custom_additional_files_location / f"{file_name}.additional.csv"
+            if custom_additional_file.is_file():
+                resolved_file_names.append(custom_additional_file)
+            provided_additional_file = Path(__file__).parent / "data" / "additional" / f"{file_name}.csv"
+            if self.args.use_additional and provided_additional_file.is_file():
+                resolved_file_names.append(provided_additional_file)
         elif file_name == 'all':
             nested_file_names = [self.resolve_file(file.stem) for file in (Path(__file__).parent / "data").glob("*.csv")]
             resolved_file_names += [file_name for file_names in nested_file_names for file_name in file_names]

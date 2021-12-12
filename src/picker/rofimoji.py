@@ -6,7 +6,6 @@ import re
 import shlex
 import sys
 from typing import List, Tuple, Dict
-from collections import OrderedDict
 
 import configargparse
 
@@ -280,7 +279,7 @@ class Rofimoji:
         return re.match(r'^(?:\u200e(?! ))?(?P<char>.[^ ]*) .*', line).group('char')
 
     def read_character_files(self) -> str:
-        all_characters = OrderedDict()
+        all_characters = {}
 
         if self.args.frecency:
             for character in self.read_frecencies().keys():

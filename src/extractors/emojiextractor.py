@@ -1,12 +1,12 @@
 import html
+import io
+import zipfile
 from collections import namedtuple
 from pathlib import Path
 from typing import List, Dict
 
 import requests
 from bs4 import BeautifulSoup
-from lxml import etree
-from lxml.etree import XPath
 
 Emoji = namedtuple('Emoji', 'char name')
 
@@ -37,17 +37,35 @@ class EmojiExtractor(object):
 
         return emojis
 
-    def fetch_annotations(self: 'EmojiExtractor') -> Dict[chr, List[str]]:
+    def fetch_annotations(self: 'EmojiExtractor') -> Dict[str, Dict[chr, List[str]]]:
         print('Downloading annotations')
 
-        data = requests.get(
-            'https://raw.githubusercontent.com/unicode-org/cldr/latest/common/annotations/en.xml',
+        response = requests.get(
+            'https://unicode.org/Public/cldr/39/cldr-common-39.0.zip',
             timeout=60
         )  # type: requests.Response
 
-        xpath = XPath('./annotations/annotation[not(@type="tts")]')
-        return {element.get('cp'): element.text.split(' | ')
-                for element in xpath(etree.fromstring(data.content))}
+        characters = {}
+        with zipfile.ZipFile(io.BytesIO(response.content)) as zip:
+            for path in zipfile.Path(zip, at='common/annotations/').iterdir():
+                with path.open(encoding='utf-8') as file:
+                    data = BeautifulSoup(file.read(), 'lxml-xml')
+
+                    language = data.identity.language.attrs['type']
+
+                    if language not in characters:
+                        characters[language] = {}
+
+                    if not data.annotations:
+                        continue
+
+                    for annotation in data.annotations.find_all('annotation'):
+                        if 'type' in annotation.attrs and annotation.attrs['type'] == 'tts':
+                            continue
+
+                        characters[language][annotation['cp']] = [it.strip() for it in annotation.string.split('|')]
+
+        return characters
 
     def fetch_base_emojis(self: 'EmojiExtractor') -> List[chr]:
         print('Downloading list of human emojis...')
@@ -83,17 +101,25 @@ class EmojiExtractor(object):
     def write_symbol_file(self: 'EmojiExtractor'):
         print('Writing collected emojis to symbol file')
         with Path('../picker/data/emojis.csv').open('w') as symbol_file:
-            for entry in self.compile_entries(self.all_emojis):
+            for entry in self.compile_entries():
                 symbol_file.write(entry + "\n")
 
-    def compile_entries(self: 'EmojiExtractor', emojis: List[Emoji]) -> List[str]:
+    def compile_entries(self: 'EmojiExtractor') -> List[str]:
         annotated_emojis = []
-        for emoji in emojis:
+        for emoji in self.all_emojis:
             entry = f"{emoji.char} {html.escape(emoji.name)}"
-            if emoji.char in self.annotations:
-                entry += f" <small>({html.escape(', '.join([annotation for annotation in self.annotations[emoji.char] if annotation != emoji.name]))})</small>"
+            if emoji.char in self.annotations['en']:
+                entry += f" <small>({html.escape(', '.join([annotation for annotation in self.annotations['en'][emoji.char] if annotation != emoji.name]))})</small>"
             annotated_emojis.append(entry)
         return annotated_emojis
+
+    def write_localized_files(self: 'EmojiExtractor') -> None:
+        print('Writing localized annotations files')
+        for language in self.annotations.keys():
+            filename = f'../picker/data/additional/emojis.{language}.csv'
+            with Path(filename).open('w') as additional_file:
+                for (character, annotations) in self.annotations[language].items():
+                    additional_file.write(f'{character} <small>({html.escape(", ".join(annotations))})</small>\n')
 
     def write_metadata_file(self: 'EmojiExtractor'):
         print('Writing metadata to metadata file')
@@ -102,6 +128,7 @@ class EmojiExtractor(object):
             metadata_file.write('\', \''.join(self.base_emojis))
             metadata_file.write('\'}\n')
 
-    def extract(self: 'EmojiExtractor'):
+    def extract(self: 'EmojiExtractor') -> None:
         self.write_symbol_file()
+        self.write_localized_files()
         self.write_metadata_file()

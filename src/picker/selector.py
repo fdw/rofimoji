@@ -1,11 +1,11 @@
-from picker.abstractionhelper import is_wayland, is_installed
-
-from typing import List, Tuple, Dict
 from subprocess import run
+from typing import List, Tuple, Dict
 
 try:
+    from picker.abstractionhelper import is_wayland, is_installed
     from picker.action import Action
 except ModuleNotFoundError:
+    from abstractionhelper import is_wayland, is_installed
     from action import Action
 
 

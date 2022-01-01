@@ -1,0 +1,1873 @@
+{ oop-krulhakie
+🏻 kleur, ligte velkleur, vel, velkleur, veltipe 1–2
+🏼 kleur, medium-ligte velkleur, vel, velkleur, veltipe 3
+🏽 kleur, medium velkleur, vel, velkleur, veltipe 4
+🏾 kleur, medium-donker velkleur, vel, velkleur, veltipe 5
+🏿 donker velkleur, kleur, vel, velkleur, veltipe 6
+‾ oorheendruk, oorstreep, vinkulum
+_ lyntjie, onder-streep, onderste streep
+- koppelteken, koppelteken-minus, minus
+‐ koppelteken, leesteken
+– en, en-streep, streep
+— em, em-streep, streep
+― em-streep, horisontale balk, lyn
+・ katakana, katakana-middelkol, kol, middelkol
+, komma
+، arabies, arabiese komma, komma
+、 ideografies, ideografiese komma, komma
+; kommapunt, leesteken
+؛ arabies, arabiese kommapunt, kommapunt
+: dubbelpunt, leesteken
+! leesteken, uitroep, uitroepteken
+¡ hard, omgekeerde uitroepteken, uitroepteken
+? leesteken, vraag, vraagteken
+¿ omgekeer, omgekeerde vraagteken, vraag
+؟ arabies, arabiese vraagteken, leesteken, vraag
+‽ kombinasie, uitroepteken, vraag- en uitroepteken, vraagroepteken, vraagteken
+. kolletjie, punt
+… beletselteken, ellips, kolletjies, weglating
+。 ideografies, ideografiese punt, punt
+· interpunkt, kol, middel, middelkol
+' aanhaling, afkappingsteken, apostroof, enkelaanhaling, tikmasjien-apostroof
+‘ aanhaling, apostroof links, begin, enkelaanhaling, slimaanhaling
+’ aanhaling, apostroof regs, enkelaanhaling, slimaanhaling, sluit
+‚ aanhalingsteken, apostroof, onderste aanhalingsteken, onderste regter-apostroof
+“ aanhaling, begin, dubbelaanhaling, linkeraanhalingsteken, slimaanhaling
+” aanhaling, dubbelaanhaling, regteraanhalingsteken, slimaanhaling, sluit
+„ aanhaling, dubbelaanhaling, onder-aanhaling, onderste regter-enkelaanhaling, slimaanhaling
+« chevron, hakes, hoek, inlastekens, links, links-guillemet, quote
+» aanhaling, chevron, hakies, hoek, inlastekens, regs, regs-guillemet
+) parentese, ronde hakie, sluithakie
+[ oop-blokhakie
+] blokhakie, hakie, sluit-blokhakie
+} krulhakie, sluit, sluit-krulhakie
+〈 oop-hoekhakie
+〉 sluit-hoekhakie
+《 oop-dubbelhoekhakie
+》 dubbelhoekhakie, hakies, sluit-dubbelhoekhakie
+「 oop-raamhakie
+」 hakie, raamhakie, sluit, sluit-raamhakie
+『 hol, oop, oop-holraamhakie, raamhakie
+』 hol, raamhakie, sluit, sluit-holraamhakie
+【 lenshakie, oop, oop-swartlenshakie, swart
+】 hakie, lenshakie, sluit, sluit-swartlenshakie, swart
+〔 dophakie, hakie, oop-skilpaddophakie, skilpaddophakie
+〕 dophakie, hakie, skilpaddophakie, sluit-skilpaddophakie, sluithakie
+〖 hol, lenshakie, oop, oop-hollenshakie
+〗 hol, lenshakie, sluit, sluit-hollenshakie
+§ afdeling, deel, paragraaf, silcrow
+¶ alinea, paragraaf, paragraafteken
+@ &quot;at&quot;-teken, aapstert, by
+* asterisk, sterretjie
+/ leesteken, skuins, skuinsstreep, streep, vorentoe, vorentoe-skuinsstreep
+\ agtertoe, agtertoe-skuinsstreep, leesteken, skuins, streep
+& ampersand, en, et
+# huts, hutsmerk, nommer, pond
+% persent, persentasie
+‰ permil, permille
+† dolk, dolkteken, obelisk, obelus
+‡ dolk, dubbel, dubbeldolkteken, obelisk, obelus
+• kol
+‧ koppelteken, koppeltekenpunt, punt, streep
+′ priem
+″ dubbelpriem, priem
+‴ priem, trippelpriem
+‸ inlasteken, invoeg, uitlatingsaanwysing
+※ verwysing, verwysingsteken
+⁂ asteriske, asterisme, drie sterretjies
+` aksent, gravis, gravisaksent, toon
+´ aksent, akuut, akuutaksent, toon
+^ kappie, mag, sirkumfleks, wiggie
+¨ deelteken, diërese, leesteken, umlaut
+° graad, proef, uur
+℗ klank, kopiereg, kopiereg vir klankopname, opname
+← links, linkswysende pyltjie, pyltjie
+↚ links, pyl, pyl na links met streep, streep
+→ pyltjie, regs, regswysende pyltjie
+↛ pyl, pyl na regs met streep, regs, streep
+↑ op, opwysende pyltjie, pyltjie
+↓ af, afwysende pyltjie, pyltjie
+↜ golwende, golwende pyl na links, linker, links, pyl
+↝ golwende, golwende pyl na regs, pyl, regs, regter
+↞ dubbelkop, dubbelkoppyl na links, linker, links, pyl
+↟ boontoe, dubbelkop, dubbelkoppyl na bo, op, pyltjie
+↠ dubbelkop, dubbelkoppyl na regs, pyltjie, regs, regter
+↡ af, dubbelkop, dubbelkoppyl na onder, ondertoe, pyltjie
+↢ links, na links, pyl met stert, pyl met stert na links
+↣ na regs, pyl met stert, pyl met stert na regs, regs
+↤ balk, links, pyl, pyl na links vanaf balk
+↥ balk, boontoe, na bo, pyl, pyl na bo vanaf balk
+↦ balk, pyl na regs, pyl na regs vanaf balk, regs
+↧ af, balk, pyl na onder, pyl na onder vanaf balk
+↨ basis, op en af, pyl op en af, pyl op en af met basis
+↫ links, lus, na links, pyl, pyl na links met lus
+↬ lus, na regs, pyl, pyl na regs met lus, regs
+↭ golwende, golwende pyl links en regs, links en regs, pyl
+↯ kronkel, sigsag, sigsag pyl na onder
+↰ na links, opwaarts, opwaartse pylpunt na links, pylpunt
+↱ na regs, opwaarts, opwaartse pylpunt na regs, pylpunt
+↲ afwaarts, afwaartse pylpunt na links, na links, pylpunt
+↳ afwaarts, afwaartse pylpunt na regs, na regs, pylpunt
+↴ ondertoe, pylhoek, pylhoek na regs ondertoe, regs
+↵ links, ondertoe, pylhoek, pylhoek na links ondertoe
+↶ boonste, halfsirkel, pyl, teenkloksgewyse, teenkloksgewyse boonste halfsirkelpyl
+↷ boonste, halfsirkelpyl, kloksgewyse
+↸ lang balk, noordwes, noordwes-pyl met lang balk, pyl
+↹ bo-op, na links, na regs, pylbalk, pylbalk na links bo-op pylbalk na regs
+↺ oopsirkel, pyl, teenkloksgewyse, teenkloksgewyse oopsirkelpyl
+↻ kloksgewyse, kloksgewyse oopsirkelpyl, oopsirkel, pyl
+↼ hoek, linkswaartse harpoenhoek na bo, stekel, weerhaak
+↽ harpoenhoek, linkswaarts, linkswaartse harpoenhoek na onder, na onder, ondertoe
+↾ hoek, opwaartse harpoenhoek na regs, stekel, weerhaak
+↿ hoek, opwaartse harpoenhoek na links, stekel, weerhaak
+⇀ hoek, regswaartse harpoenhoek na bo, stekel, weerhaak
+⇁ hoek, regswaartse harpoenhoek na onder, stekel, weerhaak
+⇂ afwaartse harpoenhoek na regs, hoek, stekel, weerhaak
+⇃ afwaartse harpoenhoek na links, hoek, stekel, weerhaak
+⇄ bo-op, na links, na regs, pyl, pyl na regs bo-op pyl na links
+⇅ af, op, opwysende en afwysende pyltjies, pyltjie
+⇆ links, linkswysende oor regswysende pyltjies, pyltjie, regs
+⇇ gepaarde, gepaarde pyle na links, links, na links, pyle
+⇈ boontoe, gepaarde, gepaarde pyle na bo, na bo, opwaarts, pyle
+⇉ gepaarde, gepaarde pyle na regs, na regs, pyle
+⇊ afwaarts, gepaarde, gepaarde pyle na onder, na onder, ondertoe, pyle
+⇋ bo-op, harpoen, harpoen na links bo-op harpoen na regs, na links, na regs
+⇌ bo-op, harpoen, harpoen na regs bo-op harpoen na links, na links, na regs
+⇐ dubbel, dubbelpyl, dubbelpyl na links, na links, pyl
+⇍ deurgehaalde, dubbelpyl, dubbelpyl na links met streep, met streep, na links
+⇑ boontoe, dubbelpyl, dubbelpyl na bo, na bo, op
+⇒ dubbelpyl, dubbelpyl na regs, na regs, regswaarts
+⇏ deurgehaalde, dubbelpyl, dubbelpyl na regs met streep, met streep, regswaarts
+⇓ afwaarts, dubbelpyl, dubbelpyl na onder, na onder, ondertoe
+⇔ dubbel, dubbelpyl, dubbelpyl links en regs, links en regs, pyl
+⇎ deurgehaalde, dubbelpyl, dubbelpyl links en regs met streep, links en regs, met streep
+⇖ dubbel, dubbelpyl, noordwes, noordwes-dubbelpyl, pyl
+⇗ dubbel, dubbelpyl, noordoos, noordoos-dubbelpyl, pyl
+⇘ dubbel, dubbelpyl, pyl, suidoos, suidoos-dubbelpyl
+⇙ dubbel, dubbelpyl, pyl, suidwes, suidwes-dubbelpyl
+⇚ driedubbele, driedubbele pyl na links, linkswaarts, na links, pyl
+⇛ driedubbele, driedubbele pyl na regs, na regs, pyl, regswaarts
+⇜ na links, opgewende, opgewende pyl na links, pyl
+⇝ na regs, opgewende, opgewende pyl na regs, pyl
+⇞ met twee strepe, na bo, opwaarts, pyl, pyl na bo met twee strepe
+⇟ af, afwaartse, met twee strepe, na onder, pyl, pyl na onder met twee strepe
+⇠ gestippelde, gestippelde pyl na links, na links, pyl
+⇡ gestippelde, gestippelde pyl na bo, na bo, opwaartse, pyl
+⇢ gestippelde, gestippelde pyl na regs, na regs, pyl, regswaartse
+⇣ afwaartse, gestippelde, gestippelde pyl na onder, na onder, pyl
+⇤ linkswaarts, na links, pylbalk, pylbalk na links
+⇥ na regs, pylbalk, pylbalk na regs, regswaartse
+⇦ hol, hol pyl na links, linkswaartse, na links, pyl
+⇧ hol, hol pyl na bo, na bo, opwaartse, pyl
+⇨ hol, hol pyl na regs, na regs, pyl, regswaartse
+⇩ afwaartse, hol, hol pyl na onder, na onder, pyl
+⇪ hol, hol pyl na bo vanaf balk, na bo, pyl, vanaf balk
+⇵ linkswaartse, pyl na bo, pyl na onder, pyl na onder en linkswaartse pyl na bo
+∀ alles, enige, universeel, vir alles
+∂ differensiaal, gedeeltelik differensiaal
+∃ bestaan, daar
+∅ leë stel, steloperator, wiskundig
+∆ driehoek, vermeerdering
+∇ driehoek, nabla
+∈ bevat, element, element van, lidmaatskap, stel
+∉ element, nie ‘n element nie
+∋ bevat as ‘n lid, element
+∎ eindbewys, grafsteen, halmos, q.e.d, QED, wat bewys moes word
+∏ logika, n-êre produk, produk
+∑ n-êre opsomming, opsomming, wiskunde, wiskundige
++ optel, plus, plusteken
+± plus-minus
+÷ deel, deelteken, deelteken wiskunde, deling, obelus
+× maal, vermenigvuldig, vermenigvuldiging, vermenigvuldigteken
+< kleiner as, merker, oop merker
+≮ nie kleiner-as nie, ongelykheid, wiskunde, wiskundige
+= gelyk, gelyk aan
+≠ nie gelyk, ongelyk
+> groter as, merker, sluit merker
+≯ nie groter-as nie, ongelykheid, wiskunde, wiskundige
+¬ negering, nie
+| lyntjie, pyp, stok, strepie, strook, vertikale streep
+~ tilde
+− aftrek, minus, minusteken
+⁻ boskrif, boskrifminus, minus
+∓ minus-of-plus, plusminus
+∕ deelteken-skuinsstreep, skuinsstreep, virgule, vooroorskuinsstreep
+⁄ breukskuinsstreep, skuinsstreep, virgule, vooroorskuinsstreep
+∗ asterisk, asteriskoperator, sterretjie
+∘ komposisie, operator, ringoperator, samestelling Add
+∙ koeëlpuntoperator, operator
+√ radikaal, vierkant, vierkantswortel, wortel, wortelgetal, wortelvorm
+∝ proporsionaliteit, proporsioneel
+∞ oneindigheid, oneindigheidsteken
+∟ haaks, loodreg, regte hoek, wiskunde, wiskundig
+∠ hoekpunt, skerphoek
+∣ deler, verdeel
+∥ parallel
+∧ atque, logika en, wig
+∩ interseksie, stel
+∪ stel, unie, versameling
+∫ differensiaal- en integraalberekening, integraal
+∬ differensiaal- en integraalberekening, dubbele integraal
+∮ integraal, kontoer, kontoerintegraal
+∴ dus, logika
+∵ logika, omdat
+∶ ratio, verhouding
+∷ proporsie, proporsionaliteit
+∼ operator, tilde-operator
+∽ omgekeerde tilde, tilde
+∾ -s, lui, omgekeerde
+≃ asimptoties, asimptotiese gelykheid, wiskunde, wiskundige
+≅ gelykvormigheid, isomorfie, kongruensie, ongeveer gelyk, wiskunde, wiskundige
+≈ amper gelyk, ongeveer
+≌ alles gelyk, gelykvormigheid, wiskunde, wiskundige
+≒ beeld, beeld is ongeveer gelykvormig, gelykvormig, ongeveer
+≖ gelykvormige ring, gelykvormigheid, wiskunde, wiskundige
+≡ driemaal, identies, identies aan, presies
+≣ gelykvormigheid, streng ekwivalent, wiskunde, wiskundige
+≤ gelyk aan, kleiner as, kleiner as of gelyk aan
+≥ gelyk aan, groter as, groter as of gelyk aan
+≦ kleiner-as bo-op gelyk aan, ongelykvormigheid, wiskunde, wiskundige
+≧ groter-as bo-op gelyk aan, ongelykvormigheid, wiskunde, wiskundige
+≪ baie kleiner as, ongelykvormigheid, wiskunde, wiskundige
+≫ baie groter as, ongelykvormigheid, wiskunde, wiskundige
+≬ tussen, tussen-in
+≳ groter-as-ekwivalent, ongelykvormigheid, wiskunde, wiskundige
+≺ steloperator, voorafgaan, wiskunde, wiskundige
+≻ steloperator, volg op, wiskunde, wiskundige
+⊁ steloperator, volg nie daarop nie, wiskunde, wiskundige
+⊂ stel, substel, substel van
+⊃ steloperator, superstel, wiskunde, wiskundige
+⊆ gelyk, gelyk aan, gelyk aan substel, substel
+⊇ gelyk aan superstel, gelykvormigheid, wiskunde, wiskundige
+⊕ omsirkelde, plus, plusteken
+⊖ erosie, omsirkelde minus, simmetriese verskil
+⊗ omsirkelde maalteken, produk van, tensor
+⊘ deelagtig, omsirkelde deelskuinsstreep, wiskunde
+⊙ omsirkelde kolletjieoperator, operator, XNOR
+⊚ omsirkelde, operator, ring, ringoperator
+⊛ asterisk, omsirkelde asteriskoperator, operator, sterretjie
+⊞ byvoeging, plusteken in vierkant, wiskunde
+⊟ aftrekking, minusteken in vierkant, wiskunde
+⊥ absurdum, eet, falsum, valse logika
+⊮ nie dwing nie, ongedwonge, ongeforseer
+⊰ steloperator, voorafgegaan onder verhouding, wiskunde, wiskundige
+⊱ daaropvolgend onder verhouding, steloperator, wiskunde, wiskundige
+⋭ bevat nie soos normale subgroepgelykvormigheid nie, groepsteorie, wiskunde, wiskundige
+⊶ oorspronklike
+⊹ hermitiese gekonjugeerde matriks, self-toegevoegde matriks, wiskunde, wiskundige
+⊿ driehoek, reghoekige, wiskunde
+⋁ disjunktiewe, logika, n-êre logika
+⋂ aansluiting, interseksie, n-êre-aansluiting, steloperator, wiskunde
+⋃ eenheid, n-êre vereniging, steloperator, wiskunde
+⋅ kolletjie-operator, operator
+⋆ operator, sterretjie-operator
+⋈ binêre operator, natuurlike vereniging, strikdas
+⋒ dubbele aansluiting, interseksie, steloperator, wiskunde
+⋘ ongelykheid, veel meer kleiner as, wiskunde
+⋙ ongelykheid, veel meer groter as, wiskunde
+⋮ ellips, vertikale ellips, wiskunde
+⋯ ellips, middellyn horisontale ellips
+⋰ diagonale, diagonale ellips na regs bo, ellips, regs bo, wiskunde
+⋱ diagonale, diagonale ellips na regs onder, ellips, regs onder, wiskunde
+■ gevulde, vierkant
+□ hol, leë, vierkant
+▢ hoeke, hol, hol vierkant met ronde hoeke, ronde, vierkant
+▣ binne, gevulde vierkant, gevulde vierkant binne hol vierkant, hol, vierkant
+▤ horisontale, strepies, vierkant, vierkant met horisontale strepies
+▥ strepies, vertikale, vierkant, vierkant met vertikale strepies
+▦ arsering, ortogonale, vierkant, vierkant met ortogonale arsering
+▧ linksbo, regsonder, vierkant, vierkant met linksbo-regsonder-vulsel, vulsel
+▨ linksonder, regsbo, vierkant, vierkant met regsbo-linksonder-vulsel, vulsel
+▩ arsering, diagonale, vierkant, vierkant met diagonale arsering
+▬ gevulde, reghoek
+▭ hol, reghoek
+▮ gevulde, reghoek, vertikale
+▰ gevulde, parallelogram
+▲ driehoek, gevul, gevulde opwysende driehoek, op, pyltjie
+△ driehoek, hol, hol driehoek wat na bo wys, opwysend, wys na bo
+▴ gevulde, gevulde klein driehoek wat na bo wys, klein driehoek, wat na bo wys
+▵ driehoek, hol, hol klein driehoek wat na bo wys, klein, wat na bo wys
+▷ driehoek, hol, hol driehoek wat regs wys, wat regs wys, wys regs
+▸ gevulde, gevulde klein driehoek wat regs wys, klein driehoek, wat regs wys, wys regs
+▹ hol, hol klein driehoek wat regs wys, klein driehoek, wat regs wys, wys regs
+► aanwyser, gevulde, gevulde aanwyser wat regs wys, wat regs wys
+▻ aanwyser, hol, hol aanwyser wat regs weys, wat regs wys, wys regs
+▼ af, driehoek, gevul, gevulde afwysende driehoek, pyltjie
+▽ driehoek, hol, hol driehoek wat af wys, wat af wys, wys af
+▾ gevulde, gevulde klein driehoek wat af wys, klein driehoek, wat af wys
+▿ hol, hol klein driehoek wat af wys, klein driehoek, wat af wys
+◁ driehoek, hol, hol driehoek wat links wys, wat links wys
+◂ gevulde, gevulde klein driehoek wat links wys, klein driehoek, wat links wys, wys links
+◃ hol, hol klein driehoek wat links wys, klein driehoek, wat links wys, wys links
+◄ aanwyser, gevulde, gevulde aanwyser wat links wys, wat links wys
+◅ aanwyser, hol, hol aanwyser wat links wys, wat links wys
+◆ diamant, gevulde
+◇ diamant, hol
+◈ binne, gevulde diamant, gevulde diamant binne hol diamant, hol diamant
+◉ gevulde konsentriese sirkels, gevulde sirkel binne hol sirkel, omsirkelde kolletjie, visoog
+◊ diamant, rombus, ruit
+○ leë sirkel, ring, sirkel
+◌ gestippelde, sirkel, stippels
+◍ sirkel, sirkel met vertikale vulsel, vertikale, vulsel
+◎ dubbelsirkel, konsentriese sirkels, teiken, volskoot
+● gevulde sirkel, sirkel
+◐ gevul, linkerhelfte, sirkel, sirkel met linkerhelfte gevul
+◑ gevul, regterhelfte, sirkel, sirkel met regterhelfte gevul
+◒ gevul, onderste helfte, sirkel, sirkel met onderste helfte gevul
+◓ boonste helfte, gevul, sirkel, sirkel met boonste helfte gevul
+◔ boonste regterkwadrant, gevul, sirkel, sirkel met boonste regterkwadrant gevul
+◕ alles behalwe, boonste linkerkwadrant, gevul, sirkel, sirkel met alles behalwe boonste linkerkwadrant gevul
+◖ linkergevulde, sirkelhelfte
+◗ regtergevulde, sirkelhelfte
+◘ inverse, koeëlpunt
+◙ hol sirkel, hol sirkel binne gevulde vierkant, inverse
+◜ boog, links bo, links bo sirkelkwadrantboog, sirkelkwadrant
+◝ regs bo, regs bo sirkelkwadrantboog, sirkelkwadrant
+◞ boog, regs onder, regs onder sirkelkwadrantboog, sirkelkwadrant
+◟ boog, links onder, links onder sirkelkwadrantboog, sirkelkwadrant
+◠ boonste, boonste helfte van sirkel, helfte, sirkel
+◡ helfte, onderste, onderste helfte van sirkel, sirkel
+◢ driehoek, gevulde, gevulde regsonder-driehoek, regsonder
+◣ driehoek, gevul, gevulde linksonder-driehoek, linksonder
+◤ driehoek, gevulde, gevulde linksbo-driehoek, linksbo
+◥ driehoek, gevulde, gevulde regsbo-driehoek, regsbo
+◦ hol, koeëlpunt
+◯ groot leë sirkel, ring, sirkel
+◳ boonste regterkwadrant, boonste regterkwadrant van hol vierkant, hol vierkant
+◷ boonste regterkwadrant, hol sirkel, hol sirkel met boonste regterkwadrant
+◿ driehoek, regsonder, regsonder-driehoek
+♪ agste, agstenoot, musiek, noot
+⨧ onderskrif, plus, plusteken, plusteken met onderskrif twee, twee
+⨯ kruis, produk, vektor, vektor kruisproduk
+⨼ interior, interiorproduk, produk
+⩣ dubbele, logiese, logiese of dubbele onderbalk, onderbalk
+⩽ gelyk aan, kleiner as, kleiner-as skuins gelyk aan, skuins
+⪍ bo-op, kleiner-as, kleiner-as bo-op soortgelyke gelyk aan, soortgelyke gelyk aan
+⪚ dubbellyn gelyk aan groter as, ongelykvormigheid, wiskunde
+⪺ bo-op, nie amper gelyk nie, volg daarop, volg daarop bo-op nie amper gelyk nie
+♭ mol, musiek, noot
+♯ kruis, musiek, noot
+😀 gesig, grinnik, grinnikende gesig
+😃 gesig, glimlag, glimlaggende gesig met oop mond, mond, oop
+😄 gesig, gesig en oë glimlag, glimlag, glimlaggende gesig met oop mond en glimlaggende oë, mond, oog, oop
+😁 gesig, glimlag, grinnik, grinnikende gesig met glimlaggende oë, oog
+😆 gesig, glimlag, glimlaggende gesig met oop mond en oë styf toe, lag, lag gesig met toe oë, mond, oop, tevrede
+😅 gesig, glimlag, glimlaggende gesig met oop mond en koue sweet, koud, lag gesig met sweet, oop, sweet
+🤣 gesig, gesig wat hard lag, histeries, lag, rol
+😂 gesig, gesig met trane van vreugde, lag, traan, vreugde
+🙂 gesig, gesig wat effens glimlag, glimlag
+🙃 gesig, onderstebo
+😉 gesig, gesig wat knipoog, knipoog
+😊 bloos, gesig, glimlag, glimlaggende gesig met glimlaggende oë, oog
+😇 engel, gesig, glimlag, glimlaggende gesig met stralekrans, onskuldig, stralekrans
+🥰 bewonder, geliefd, glimlaggende gesig met 3 hartjies, verlief
+😍 gesig, glimlag, glimlaggende gesig met hartvormige oë, hart, liefde, oog
+🤩 gesig, glimlag, oë, ster, sterre in die oë
+😘 gesig, gesig wat ‘n soentjie blaas, hart, soen
+😗 gesig, gesig wat soen, soen
+☺ gesig, glimlag, glimlaggende gesig, ontspanne
+😚 gesig, gesig wat soen met toe oë, oog, soen, toe
+😙 gesig, gesig wat soen met glimlaggende oë, glimlag, oog, soen
+🥲 aangeraak, dankbaar, glimlaggend, glimlaggende gesig met traan, traan, trots, verlig
+😋 geniet, gesig, gesig wat heerlike kos geniet, glimlag, heerlik, lekker
+😛 gesig, gesig met tong wat uitsteek, tong
+😜 gesig, gesig met tong wat uitsteek en wat knipoog, grap, knipoog, oog, tong
+🤪 groot, klein, mal gesig, oog
+😝 aaklig, gesig, gesig met tong wat uitsteek en oë styf toe, oog, smaak, tong
+🤑 geld, gesig, gesig met geldmond, mond
+🤗 drukkie, gesig, gesig wat drukkie gee
+🤭 gesig met hand oor die mond, oeps
+🤫 Sjuut, stilbly, stilmaak gesig
+🤔 dink, gesig, gesig wat dink
+🤐 gesig, gesig met ritssluitermond, mond, ritssluiter
+🤨 gesig met geligte wenkbroue, skepties, wantrou
+😐 gesig, neutraal, neutrale gesig, uitdrukkingloos
+😑 gesig, uitdrukkingloos, uitdrukkinglose gesig
+😶 gesig, gesig sonder mond, mond, stil
+😶‍🌫 deur die mis, gesig in wolke, kop in die wolke, lugkastele, verstrooid
+😏 gesig, gesig wat grynslag, grynslag
+😒 gesig, ongelukkig, ontevrede
+🙄 gesig, gesig met oë wat rol, oë, rol
+😬 gesig, grynsend, grynsende gesig
+😮‍💨 asem uit, fluister, fluit, gesig asem uit, kreun, snak, verlig
+🤥 gesig, gesig wat jok, jok, leuen, lieg, onwaar
+😌 gesig, verlig, verligte gesig
+😔 gesig, neerslagtig, peinsend, peinsende gesig
+😪 gesig, slaap, vaak gesig
+🤤 gesig, gesig wat kwyl, honger, kwyl
+😴 gesig, gesig wat slaap, slaap, zzz
+😷 dokter, gesig, gesig met mediese masker, koud, masker, medisyne, siek
+🤒 gesig, gesig met koorspen, koorspen, siek
+🤕 besering, gesig, gesig met kopverband, seer, verband
+🤢 gesig, kots, naar, opgooi
+🤮 gesig wat opgooi, opgooi, siek
+🤧 atsjoe, gesig, gesig wat nies, nies
+🥵 hitte-uitputting, koorsig, rooi gesig, sweet, warm, warm gesig
+🥶 bibber, blou gesig, koud, koue gesig, vries
+🥴 dronk, dronk gesig, duiselig, gesuip, lighoofdig, onewe oë
+😵 dronk, duiselig, gesig
+😵‍💫 duiselig, gehipnotiseer, gesig met spiraaloë, moeilikheid, spiraal
+🤯 geskok, kop wat ontplof
+🤠 cowboy, gesig, gesig met cowboy-hoed, hoed
+🥳 blaas, hoedjie, partytjie, partytjie gesig, vier
+🥸 bril, gesig, incognito, neus, vermom, vermomde gesig
+😎 bril, gesig, glimlag, glimlaggende gesig met sonbril, helder, koel, oog, son, sonbril, weer
+🤓 bleeksiel, bleeksielgesig, gesig
+🧐 bedompig, gesig met oogglas
+😕 gesig, verward, verwarde gesig
+😟 bekommerd, bekommerde gesig, gesig
+🙁 frons, gesig, gesig wat effens frons
+☹ frons, gesig, gesig wat frons
+😮 gesig, gesig met oop mond, mond, oop, simpatie
+😯 gedemp, gedempte gesig, gesig, stil, verbaas
+😲 gesig, geskok, verbaas, verstom, verstomde gesig
+😳 blosend, blosende gesig, gesig, verbysterd
+🥺 asseblief, ontferming, smeek, soebat, soebat gesig
+😦 frons, fronsende gesig met oop mond, gesig, mond, oop
+😧 beangs, beangste gesig, gesig
+😨 bang, bevrees, gesig, vrees
+😰 blou, gesig, gesig met oop mond en koue sweet, koud, mond, oop, sweet
+😥 gesig, sjoe, teleurgesteld, teleurgestelde maar verligte gesig, verlig
+😢 gesig, gesig wat huil, hartseer, huil, traan
+😭 gesig, gesig wat hard huil, hartseer, huil, snik, traan
+😱 bang, beangs, bevrees, gesig, gesig wat beangs skree, skree
+😖 gesig, oorbluf, oorblufte gesig
+😣 deurdruk, gesig, gesig wat vasbyt, vasbyt
+😞 gesig, teleurgesteld, teleurgestelde gesig
+😓 gesig, gesig met koue sweet, koud, sweet
+😩 gesig, moeg, uitgeput, uitgeputte gesig
+😫 gesig, moeë gesig, moeg
+🥱 gaap, gapende gesig, moeg, verveeld
+😤 gesig, gesig met stoom uit neus, triomf, wen
+😡 gesig, kwaad, pruilend, pruilende gesig, rooi, woedend
+😠 gesig, kwaad, kwaai gesig, woedend
+🤬 gesig met simbole op mond, vloek
+😈 fantasie, gesig, glimlag, glimlaggende gesig met horings, horings
+👿 boos, demoon, duiwel, gesig
+💀 dood, gesig, kopbeen, liggaam, monster, sprokie
+☠ bene, dood, gesig, kopbeen, kopbeen en gekruiste beendere, liggaam, monster
+💩 gesig, mis, mishoop, monster, poef, strokie
+🤡 gesig, hanswors, hansworsgesig, nar
+👹 fantasie, gesig, japannees, kreatuur, mensvreter, monster, sprokie
+👺 fantasie, gesig, japannees, kreatuur, monster, sprokie, tokkelos
+👻 fantasie, gesig, kreatuur, monster, spook, sprokie
+👽 buiteruimtelik, buiteruimtelike wese, fantasie, gesig, kreatuur, monster, ruimte, sprokie, vvv
+👾 buiteruimtelik, buiteruimtelike monster, fantasie, gesig, kreatuur, monster, ruimte, sprokie, vvv
+🤖 gesig, monster, robot, robotgesig
+😺 gesig, glimlag, glimlaggende katgesig met oopmond, kat, mond, oop
+😸 gesig, glimlag, grinnik, grinnikende katgesig met glimlaggende oë, kat, oog
+😹 gesig, kat, katgesig met trane van vreugde, traan, vreugde
+😻 gesig, glimlag, glimlaggende katgesig met hartvormige oë, hart, kat, liefde, oog
+😼 gesig, glimlag, ironies, kat, katgesig met wrang glimlag, wrang
+😽 gesig, kat, katgesig met geslote oë wat soen, oog, soen
+🙀 gesig, kat, verbaas, vermoeid, vermoeide katgesig
+😿 gesig, hartseer, huil, kat, katgesig wat huil, traan
+😾 gesig, kat, pruil, pruilende katgesig
+🙈 aap, boos, gebaar, geen, kwaad, sien, sien geen kwaad nie, verbode
+🙉 aap, boos, gebaar, geen, hoor, hoor geen kwaad nie, kwaad, verbode
+🙊 aap, boos, gebaar, geen, kwaad, praat, praat geen kwaad nie, verbode
+💋 hart, lippe, merk, romanse, soen, soenmerk
+💌 brief, hart, liefde, liefdesbrief, pos, romanse
+💘 cupido, hart, hartjie met pyl, kupido, pyl, romanse
+💝 hart, hartjie met lint, lint, valentyn
+💖 hart, opgewonde, skitter, sprankelende hartjie
+💗 groei, groeiende hartjie, hart, hartklop, opgewonde, senuweeagtig
+💓 hart, hartklop, klop, kloppende hartjie, pols
+💞 draai, hart, wentel, wentelende hartjies
+💕 hart, liefde, twee hartjies
+💟 hart, hartversiering
+❣ dik hartuitroepteken, hart, leesteken, teken, uitroep
+💔 breek, gebroke, gebroke hartjie, hart
+❤‍🔥 brand, hart, hart wat brand, liefde, lus
+❤‍🩹 beter, gesonder, helend, helende hart, herstel
+❤ hart, rooi, rooi hartjie
+🧡 oranje, oranje hartjie
+💛 geel, geel hartjie, hart
+💚 groen, groen hartjie, hart
+💙 blou, blou hartjie, hart
+💜 hart, pers, pers hartjie
+🤎 bruin, hartjie
+🖤 boos, hart, sleg, swart, swart hartjie
+🤍 hartjie, wit
+💯 100, honderd, honderd punte, persent, telling, vol
+💢 kwaad, strokie, woede, woedesimbool
+💥 boem, botsing, ontplof, strokie
+💫 duiselig, ster, strokie
+💦 spat, strokie, sweet, sweetdruppels
+💨 blits, blitsig, hardloop, strokie
+🕳 gat
+💣 bom, strokie
+💬 ballon, borrel, dialoog, spraak, spraakballon, strokie
+👁‍🗨 afloer, getuie, oog in spraakborrel, spraakborrel
+🗨 dialoog, spraak, spraakborrel links
+🗯 ballon, borrel, kwaad, woede, woedeborrel regs
+💭 ballon, borrel, dink, dinkballon, strokie
+💤 slaap, strokie, zzz
+👋 hand, liggaam, waai, wuif, wuiwende hand
+🤚 agterkant van hand, hand, handrug
+🖐 hand, hand in die lug met vingers oopgesprei, liggaam, oopgesprei, vinger
+✋ hand, hand in die lug, liggaam
+🖖 hand, liggaam, vinger, vulkan, vulkansaluut
+👌 hand, liggaam, ok, ok-handteken
+🤌 beklemtoon, handgebaar, ondervraging, sarkasties, vingerpunte saamgedruk, vingers
+🤏 klein hoeveelheid, knypende hand
+✌ hand, liggaam, oorwinning, oorwinninghandteken, v
+🤞 duim vashou, duimvashou, geluk, hand, hoop
+🤟 hand, lief-vir-jou-gebaar, Lvj
+🤘 hand, horings, horingteken, liggaam, rock, vinger
+🤙 bel, bel my hand, hand
+👈 hand, liggaam, rughand, vinger, wys, wysvinger, wysvingerrughand wat links wys
+👉 hand, liggaam, rughand, vinger, wys, wysvinger, wysvingerrughand wat regs wys
+👆 hand, liggaam, op, rughand, vinger, wys, wysvingerrughand wat op wys
+🖕 hand, liggaam, middelvinger, op, vinger, wys
+👇 af, hand, liggaam, rughand, vinger, wys, wysvingerrughand wat af wys
+☝ hand, liggaam, op, vinger, wys, wysvinger wat op wys
+👍 +1, duim, hand, laaik baie, liggaam, op
+👎 -1, af, duim, hand, laaik niks, liggaam
+✊ gebal, hand, liggaam, slaan, vuis, vuis in die lug
+👊 gebal, hand, liggaam, slaan, vuis, vuishou
+🤛 linkerkant, links, vuis
+🤜 regs, regterkant, vuis
+👏 hand, handeklap, klap, liggaam
+🙌 gebaar, hand, hande in die lug, hoera, liggaam, omhoog, persoon met hande in die lug, viering
+👐 hand, liggaam, oop, oop hande
+🤲 bid, palms op teen mekaar, palms teenaan langs mekaar
+🤝 bladskud, groet, handskud, ooreenkoms
+🙏 asseblief, bid, dankie, gebaar, gevoude hande, hand, liggaam
+✍ hand, hand wat skryf, liggaam, skryf
+💅 kosmetiek, liggaam, manikuur, nael, naellak, verf, versorg
+🤳 foon, kamera, selfie
+💪 biseps, bult, gebulte biseps, komies, liggaam, spier
+🦾 meganiese arm, prostese, toeganklikheid
+🦿 meganiese been, prestese, toeganklikheid
+🦵 been, ledemaat, skop
+🦶 skop, stamp, voet
+👂 liggaam, oor
+🦻 gehoorprobleme, oor met gehoorapparaat, toeganklikheid
+👃 liggaam, neus
+🧠 brein, intelligent
+🫀 hart, hartklop, kardiologie, orgaan, orgaanhart, pols
+🫁 asem, asemhaal, inasem, longe, orgaan, uitasem
+🦷 tand, tandarts
+🦴 beendere, geraamte, vleislose been
+👀 gesig, oë, oog
+👁 liggaam, oog
+👅 liggaam, tong
+👄 liggaam, lippe, mond
+👶 baba, jonk
+🧒 geslag-neutraal, jongmens, kind
+👦 jonk, kind, seun
+👧 diereriem, jonk, kind, meisie, virgo
+🧑 geslagneutraal, ongespesifiseerde geslag, persoon, volwassene
+👱 blond, hare, persoon met blonde hare
+👨 man, volwassene
+🧔 baard, bebaarde persoon, man
+🧔‍♂ baard, baard: man, man, man: baard
+👱‍♂ blond, blonde man, hare, man
+👩 volwassene, vrou
+🧔‍♀ baard, vrou, vrou: baard
+👱‍♀ blond, blonde vrou, blondine, hare, vrou
+🧓 geslagneutraal, ongespesifiseerde geslag, oud, ouer persoon, ouer volwassene, volwassene
+👴 man, ou man, oud
+👵 ou vrou, oud, volwassene, vrou
+🙍 frons, gebaar, ongelukkig, persoon wat frons
+🙍‍♂ frons, gebaar, man wat frons, ongelukkig
+🙍‍♀ frons, gebaar, ongelukkig, vrou wat frons
+🙎 dikbek, dikbek persoon, dikbekpersoon, gebaar
+🙎‍♂ dikbek, dikbek man, gebaar
+🙎‍♀ dikbek, dikbek vrou, gebaar
+🙅 gebaar, hand, keer, nee, persoon wat wys NEE, verbied, verbode, wys nee
+🙅‍♂ gebaar, hand, man, man wys NEE, nee, verbied, verbode, wys nee
+🙅‍♀ gebaar, hand, nee, verbied, verbode, vrou, vrou wys NEE, wys nee
+🙆 gebaar, goed, hand, ok, persoon wys als is goed, wys goed
+🙆‍♂ gebaar, goed, hand, man, man wys als is goed, ok, wys goed
+🙆‍♀ gebaar, goed, hand, ok, vrou, vrou wys als is goed, wys goed
+💁 fooitjie, hand, help, inligting, persoon hou hand geknak, persoon wat hand geknak hou, skrander
+💁‍♂ fooitjie, hand, help, inligting, man, man hou hand geknak, man wat hand geknak hou, skrander
+💁‍♀ fooitjie, hand, help, inligting, skrander, vrou, vrou hou hand geknak, vrou wat hand geknak hou
+🙋 gebaar, gelukkig, gelukkige persoon met hand in die lug, hand, omhoog, persoon wat hand opsteek
+🙋‍♂ groet, lig hand, man lig hand, man wat hand opsteek, waai
+🙋‍♀ groet, lig hand, vrou lig hand, vrou wat hand opsteek, waai
+🧏 doof, dowe persoon, hoor, oor, toeganklikheid
+🧏‍♂ doof, dowe man, man
+🧏‍♀ doof, dowe vrou, vrou
+🙇 buig, gebaar, guns, jammer, persoon wat buig, verskoning
+🙇‍♂ buig, gebaar, guns, jammer, man, verskoning
+🙇‍♀ buig, gebaar, guns, jammer, verskoning, vrou
+🤦 facepalm, gsig, hand teen voorkop slaan, moedeloos, ongeloof, palm, verbyster
+🤦‍♂ facepalm, gsig, hand teen voorkop slaan, man, man slaan hand teen voorkop, moedeloos, ongeloof, palm, verbyster
+🤦‍♀ facepalm, gsig, hand teen voorkop slaan, moedeloos, ongeloof, palm, verbyster, vrou, vrou slaan hand teen voorkop
+🤷 onseker, persoon skouerophaal, skouerophaal, skouers, weet nie
+🤷‍♂ man skouerophaal, onseker, skouers, weet nie
+🤷‍♀ onseker, skouers, vrou skouerophaal, weet nie
+🧑‍⚕ dokter, gesondheidsorg, gesondheidswerker, terapeut, verpleegster, verpleër
+👨‍⚕ dokter, man, manlike gesondheidswerker, medies, mediese sorg, mediese werker, terapeut, verpleër
+👩‍⚕ dokter, medies, mediese werker, terapeut, verpleegster, vrou, vroulike gesondheidswerker
+🧑‍🎓 graad, gradeplegtigheid, gradueer, student
+👨‍🎓 graad, gradeplegtigheid, manlike student, toga
+👩‍🎓 graad, gradeplegtigheid, toga, vroulike student
+🧑‍🏫 instrukteur, onderwyser, professor
+👨‍🏫 manlike onderwyser, meneer, onderwyser, opvoeder, skool
+👩‍🏫 juffrou, onderwyser, onderwyseres, opvoeder, skool, vroulike onderwyser
+🧑‍⚖ regter, regtershammer
+👨‍⚖ hof, landdros, magistraat, manlike regter, regter
+👩‍⚖ hof, landdros, magistraat, regter, vroulike regter
+🧑‍🌾 boer, tuinier
+👨‍🌾 boer, koringaar, manlike boer, plaas
+👩‍🌾 boer, koringaar, plaas, vroulike boer
+🧑‍🍳 kok, sjef
+👨‍🍳 eier, kok, manlike kok, pan
+👩‍🍳 eier, kok, pan, vroulike kok
+🧑‍🔧 elektrisiën, loodgieter, werktuigkundige
+👨‍🔧 manlike motorwerktuigkundige, mechanic, moersleutel, motorwerktuigkundige
+👩‍🔧 mechanic, moersleutel, motorwerktuigkundige, vroulike motorwerktuigkundige
+🧑‍🏭 fabriek, fabriekswerker, industrieel, montering, nywerheid, werker
+👨‍🏭 fabriekswerker, manlike fabriekswerker
+👩‍🏭 fabriekswerker, vroulike fabriekswerker
+🧑‍💼 argitek, besigheid, bestuurder, kantoorwerker, witboordjiewerker
+👨‍💼 besigheid, bestuurder, kantoorwerker, manlike kantoorwerker, witboordjie
+👩‍💼 besigheid, bestuurder, kantoorwerker, vroulike kantoorwerker, witboordjie
+🧑‍🔬 bioloog, chemikus, fisikus, ingenieur, wetenskaplike
+👨‍🔬 bioloog, manlike wetenskaplike, proefbuis, wetenskaplike
+👩‍🔬 bioloog, proefbuis, vroulike wetenskaplike, wetenskaplike
+🧑‍💻 kodeerder, ontwikkelaar, sagteware, skepper, tegnoloog
+👨‍💻 manlike tegnoloog, ontwikkelaar, rekenaar, sagteware, skepper, tegnologie
+👩‍💻 ontwikkelaar, rekenaar, sagteware, skepper, tegnologie, vroulike tegnoloog
+🧑‍🎤 akteur, sanger, ster, vermaaklikheidster
+👨‍🎤 man, manlike sanger, rock, sanger, ster, vermaaklikheid
+👩‍🎤 man, rock, sanger, ster, vermaaklikheid, vroulike sanger
+🧑‍🎨 kuns, kunstenaar, palet
+👨‍🎨 kunstenaar, manlike kunstenaar, skilder, verwer
+👩‍🎨 kunstenaar, skilder, verwer, vroulike kunstenaar
+🧑‍✈ vlieënier, vliegtuig
+👨‍✈ kaptein, loods, manlike vlieënier, vlieënier
+👩‍✈ kaptein, loods, vlieënier, vroulike vlieënier
+🧑‍🚀 ruimtetuig, ruimtevaarder
+👨‍🚀 manlike ruimtevaarder, ruimtevaarder
+👩‍🚀 ruimtevaarder, vroulike ruimtevaarder
+🧑‍🚒 brandbestryder, brandweer, brandweerlorrie, brandweerman
+👨‍🚒 brandweer, brandweerman
+👩‍🚒 brandweer, brandweervrou
+👮 beampte, polisie, polisiebeampte
+👮‍♂ polisie, polisiebeampte, polisieman
+👮‍♀ polisie, polisiebeampte, polisievrou
+🕵 speurder, spioen
+🕵‍♂ manlike speurder, speurder, spioen
+🕵‍♀ speurder, spioen, vroulike speurder
+💂 gardeoffisier, wag
+💂‍♂ manlike wag, wag
+💂‍♀ vroulike wag, wag
+🥷 ninja, stilletjies, vegter, verberg
+👷 hoed, konstruksie, konstruksiewerker, werker
+👷‍♂ konstruksie, man, manlike bouer, werker
+👷‍♀ konstruksie, vrou, vroulike bouer, werker
+🤴 prins
+👸 fantasie, prinses, sprokie
+👳 persoon met tulband, tulband
+👳‍♂ man met tulband, tulband
+👳‍♀ tulband, vrou met tulband
+👲 hoed, man met mus, mus
+🧕 hiijab, kopdoek, mantilla, vrou met kopdoek
+🤵 bruidegom, pak, persoon, persoon in pak, tuxedo
+🤵‍♂ man, man in pak, pak
+🤵‍♀ pak, vrou, vrou in pak
+👰 bruid, persoon, persoon met sluier, sluier, troue
+👰‍♂ man, man met sluier, sluier
+👰‍♀ sluier, vrou, vrou met sluier
+🤰 swanger, vrou
+🤱 baba, bors, borsvoed, voeding
+👩‍🍼 baba, voedend, vrou, vrou wat baba voed
+👨‍🍼 baba, iemand wat baba voed, man wat baba voed, persoon, voedend
+🧑‍🍼 baba, persoon, persoon wat baba voed, voedend
+👼 baba, baba-engel, engel, fantasie, gesig, sprokie
+🎅 Kersfees, Kersvader, vader, viering
+🤶 Kersfees, Kersmoeder, moeder, Moeder Kersfees, viering
+🧑‍🎄 Claus, Kersfeess, mx claus
+🦸 goeie, held, heldin, superheld, superkrag
+🦸‍♂ goeie, held, man, manlike superheld, superkrag
+🦸‍♀ goeie, held, heldin, superkrag, vroulike superheld
+🦹 boos, krimineel, skurk, superkrag, superskurk
+🦹‍♂ boos, krimineel, man, manlike superskurk, skurk, superkrag
+🦹‍♀ boos, krimineel, skurk, superkrag, vrou, vroulike superskurk
+🧙 heks, magus, toorder, towenaar, towenares
+🧙‍♂ manlike magus, towenaar
+🧙‍♀ heks, towenares, vroulike magus
+🧚 feetjie, Oberan, Puck, Tatania
+🧚‍♂ manlike fee, Oberon, Puck
+🧚‍♀ Tatania, vroulike feetjie
+🧛 Dracula, vampier
+🧛‍♂ Dracula, manlike vampier
+🧛‍♀ lewende dooies, vroulike vampier
+🧜 meerman, meermin, meerpersoon
+🧜‍♂ meerman, Triton
+🧜‍♀ meermin
+🧝 elf, toweragtig
+🧝‍♂ manlike elf, toweragtig
+🧝‍♀ toweragtig, vroulike elf
+🧞 djinn, towergees
+🧞‍♂ djinn, manlike towergees
+🧞‍♀ djinn, vroulike towergees
+🧟 lewende dooies, wandelende dooies, zombie
+🧟‍♂ lewende dooies, manlike zombie, wandelende dooies
+🧟‍♀ lewende dooies, vroulike zombie, wandelende dooies
+💆 gesigmassering, masseer, persoon kry massering, salon
+💆‍♂ gesigmassering, man kry massering, masseer
+💆‍♀ gesigmassering, masseer, vrou kry massering
+💇 barbier, haarkapper, haarsny, salon, skoonheid
+💇‍♂ barbier, haarsalon, haarsny, man kry haarsny, salon
+💇‍♀ haarsalon, haarsny, salon, vrou kry haarsny
+🚶 loop, stap, voetganger
+🚶‍♂ man stap, stap, voetganger
+🚶‍♀ stap, voetganger, vrou stap
+🧍 persoon wat staan, staan
+🧍‍♂ man, man wat staan, staan
+🧍‍♀ staan, vrou, vrou wat staan
+🧎 kniel, persoon wat kniel
+🧎‍♂ kniel, man, man wat kniel
+🧎‍♀ kniel, vrou, vrou wat kniel
+🧑‍🦯 blind, persoon met gidsstok, toeganklikheid
+👨‍🦯 blind, man, man met gidsstok, toeganklikheid
+👩‍🦯 blind, toeganklikheid, vrou, vrou met gidsstok
+🧑‍🦼 persoon in motoraangedrewe rolstoel, rolstoel, toeganklikheid
+👨‍🦼 man, man in motoraangedrewe rolstoel, rolstoel, toeganklikheid
+👩‍🦼 rolstoel, toeganklikheid, vrou, vrou in motoraangedrewe rolstoel
+🧑‍🦽 persoon in handgedrewe rolstoel, rolstoel, toeganklikheid
+👨‍🦽 man, man in handgedrewe rolstoel, rolstoel, toeganklikheid
+👩‍🦽 rolstoel, toeganklikheid, vrou, vrou in handgedrewe rolstoel
+🏃 draf, hardloper, marathon, persoon wat hardloop
+🏃‍♂ draf, haastig, hardloop, man hardloop
+🏃‍♀ draf, haastig, hardloop, vrou hardloop
+💃 dans, flamenco, vrou dans
+🕺 dans, man
+🕴 besigheid, man, man in sakepak wat sweef, pak, sake
+👯 danser, haasore, mense met haasore, partytjie
+👯‍♂ dansers, haasore, mans met haasore
+👯‍♀ dansers, partytjie, vroue, vroue met haasore
+🧖 persoon in stoomkamer, sauna, stoomkamer
+🧖‍♂ man in stoomkamer, sauna, stoomkamer
+🧖‍♀ sauna, stoomkamer, vrou in stoomkamer
+🧗 persoon wat rotsklim, rotsklimmer
+🧗‍♂ manlike rotsklimmer, rotsklimmer
+🧗‍♀ rotsklimmer, vroulike rotsklimmer
+🤺 skerm, skermkuns, skermvegter, sport, swaard
+🏇 jokkie, perd, perdewedrenne, resiesperd, wedren
+⛷ ski, skiër, sneeu
+🏂 ski, sneeu, sneeuplank, sneeuplankryer
+🏌 bal, gholf, gholfspeler, slaan
+🏌‍♂ gholf, manlike gholfspeler
+🏌‍♀ gholf, vroulike gholfspeler
+🏄 branderplank, branderplankryer, golf, see
+🏄‍♂ branderplankry, man, manlike branderplankryer
+🏄‍♀ branderplankry, vrou, vroulike branderplankryer
+🚣 boot, persoon in roeiboot, persoon roei, roei, roeiboot
+🚣‍♂ kano, man wat roei, roei, roeiboot
+🚣‍♀ kano, roei, roeiboot, vrou wat roei
+🏊 swem, swemmer
+🏊‍♂ manlike swemmer, swem
+🏊‍♀ swem, vroulike swemmer
+⛹ bal, persoon hop bal
+⛹‍♂ bal, man, man hop bal
+⛹‍♀ bal, vrou, vrou hop bal
+🏋 gewig, gewigopteller, optel
+🏋‍♂ gewigoptel, manlike gewigopteller, sterk
+🏋‍♀ gewigoptel, sterk, vroulike gewigopteller
+🚴 fiets, fietsry, fietsryer
+🚴‍♂ fiets, fietsry, fietsryer, man, manlike fietsryer
+🚴‍♀ fiets, fietsry, fietsryer, vrou, vroulike fietsryer
+🚵 berg, bergfietsryer, fiets, fietsry
+🚵‍♂ bergfiets, bergfietsry, fietsry, fietsryer, man, manlike bergfietsryer
+🚵‍♀ bergfiets, bergfietsry, fietsry, fietsryer, vrou, vroulike bergfietsryer
+🤸 bollemakiesie, gimnastiek, persoon wat ‘n wawiel doen, wawiel
+🤸‍♂ bollemakiesie, man doen wawiel, wawiel
+🤸‍♀ bollemakiesie, vrou doen wawiel, wawiel
+🤼 rofstoei, sport, stoei, stoeiers
+🤼‍♂ manlike stoeiers, mans, stoei
+🤼‍♀ stoei, vroue, vroulike stoeiers
+🤽 sport, swem, waterpolo
+🤽‍♂ manlike waterpolospeler, waterpolo
+🤽‍♀ vroulike waterpolospeler, waterpolo
+🤾 bal, handbal, persoon wat handbal speel
+🤾‍♂ handbal, manlike handbalspeler
+🤾‍♀ handbal, vroulike handbalspeler
+🤹 balanseer, jongleur, vaardigheid, veelsydig
+🤹‍♂ jongleur, man, manlike jongleur, veelsydig, wiggelaar
+🤹‍♀ jongleur, veelsydig, vrou, vroulike jongleur, wiggelaar
+🧘 joga, meditasie, persoon in die lotusposisie
+🧘‍♂ joga, man in lotusposisie, meditasie
+🧘‍♀ joga, meditasie, vrou in lotusposisie
+🛀 bad, badskuim, persoon wat bad, water
+🛌 bed, hotel, persoon in bed, slaap
+🧑‍🤝‍🧑 hand, hande vashou, mense wat hande vashou, paartjie, vashou
+👭 hand, hande vashou, paartjie, twee vroue wat hande vashou, vroue
+👫 hand, hande vashou, hou, man, man en vrou wat hande vashou, paartjie, vrou
+👬 hande vashou, man, mans, paartjie, sodiak, twee mans wat hande vashou, Tweeling
+💏 paartjie, romanse, soen
+💑 hartjie, liefde, paartjie, paartjie met hartjie, romanse
+👪 gesin, kind, moeder, vader
+🗣 gesig, kop, kop wat praat, praat, silhoeët
+👤 borssilhoeët, profiel, silhoeët
+👥 borssilhoeëtte, profiele, silhoeëtte
+🫂 dankie, druk, drukkie, hallo, mense wat mekaar druk, totsiens
+👣 klere, spoor, voetafdrukke, voetspoor, voetspore
+🦰 gemmer, rooi hare, rooikop
+🦱 afro, krul, krulhare, krulletjie
+🦳 grys, hare, oud, wit
+🦲 bles, chemoterapie, haarloos, kaalgeskeerde kop, kaalkop
+🐵 aap, aapgesig, gesig
+🐒 aap
+🦍 dier, gesig, gorilla, groot aap
+🦧 aap, oerangoetang
+🐶 gesig, hond, hondgesig, troeteldier
+🐕 hond, troeteldier
+🦮 blind, gids, gidshond, toeganklikheid
+🐕‍🦺 diens, dienshond, hond, hulp, toeganklikheid
+🐩 hond, poedel, troeteldier
+🐺 gesig, wolf, wolfgesig
+🦊 dier, gesig, jakkals, vos
+🦝 nuuskierig, slinks, wasbeer
+🐱 gesig, kat, katgesig, troeteldier
+🐈 kat, troeteldier
+🐈‍⬛ kat, ongelukkig, swart
+🦁 diereriem, gesig, leeu, leeugesig, Leo
+🐯 gesig, tier, tiergesig
+🐅 tier
+🐆 luiperd
+🐴 gesig, perd, perdgesig
+🐎 perd, resiesperd, wedren
+🦄 eenhoring, eenhoringgesig, gesig
+🦓 sebra, streep
+🦌 bok, dier, gesig, wildsbok
+🦬 Amerikaanse buffel, bison, buffel, oeros, trop
+🐮 bees, gesig, koei, koeigesig
+🐂 bul, diereriem, os, Taurus
+🐃 buffel, water, waterbuffel
+🐄 bees, koei
+🐷 gesig, vark, varkgesig
+🐖 sog, vark
+🐗 beer, vark, varkbeer
+🐽 gesig, snoet, vark, varksnoet
+🐏 Aries, diereriem, ram, skaap
+🐑 ooi, skaap, skaapooi, vroulik
+🐐 bok, Capricornus, diereriem
+🐪 boggel, dromedaris, kameel
+🐫 boggel, kameel, kameel met twee boggels, tweebult
+🦙 alpakka, guanaco, lama, wol
+🦒 kameelperd, kolle
+🐘 olifant
+🦣 groot, mammoet, tande, uitgestorwe, wollerig
+🦏 renoster
+🦛 seekoei
+🐭 gesig, muis, muisgesig
+🐁 muis
+🐀 rot
+🐹 gesig, hamster, hamstergesig, troeteldier
+🐰 gesig, haas, haasgesig, hasie, konyn, troeteldier
+🐇 haas, hasie, troeteldier
+🐿 grondeekhoring
+🦫 bewer, dam, opdam
+🦔 krimpvarkie, stekelrig
+🦇 dier, vampier, vlermuis
+🐻 beer, beergesig, gesig
+🐻‍❄ arkties, beer, wit, ysbeer
+🐨 beer, koala
+🐼 gesig, panda, pandagesig
+🦥 lui, luidier, stadig
+🦦 otter, speel, visvang
+🦨 muishond, stink
+🦘 Australië, buideldier, kangaroe, kangaroetjie, spring
+🦡 ratel, verpes
+🐾 poot, pootafdrukke, spoor, voete
+🦃 kalkoen, voël
+🐔 hoender, voël
+🐓 haan, voël
+🐣 baba, kuiken, kuiken wat uitbroei, uitbroei, voël
+🐤 baba, babakuiken, kuiken, voël
+🐥 baba, kuiken, kuiken wat vorentoe kyk, voël
+🐦 voël
+🐧 pikkewyn, voël
+🕊 duif, vlieg, voël, vrede
+🦅 arend, voël
+🦆 eend, voël
+🦢 lelike eendjie, swaan, swaankuiken, voël
+🦉 oud, uil, voël, wys
+🦤 dodo, groot, Mauritius, uitgestorwe
+🪶 lig, veer, vere, vlug, voël
+🦩 flambojant, flamink, tropies
+🦚 pou, pouhen, pronkerig, trots, voël
+🦜 papegaai, praat, seerower, voël
+🐸 gesig, padda
+🐊 krokodil
+🐢 waterskilpad
+🦎 akkedis, geitjie, reptiel
+🐍 diereriem, Ophiochus, slang, Slangdraer
+🐲 draak, draakgesig, fantasie, gesig
+🐉 draak, sprokie
+🦕 bragiosourus, brontosourus, dinosourus, diplodicus, souropode
+🦖 T-Rex, Tirannosourus Rex
+🐳 gesig, spuit, walvis, walvis wat spuit
+🐋 Jona, walvis
+🐬 dolfyn, vin
+🦭 rob, seeleeu
+🐟 diereriem, Pisces, vis
+🐠 tropies, tropiese vis, vis
+🐡 blaasoppie, vis
+🦈 haai, vis
+🐙 seekat
+🐚 skulp, spiraal, spiraalskulp
+🐌 slak
+🦋 insek, mooi, skoenlapper
+🐛 gogga, insek, ruspe
+🐜 insek, mier
+🐝 by, heuningby, insek
+🪲 gogga, insek, kewer
+🐞 besie, insek, kewer, liewenheersbesie
+🦗 kriek, sprinkaan
+🪳 gogga, insek, kakkerlak, kokkerot, pes
+🕷 gogga, insek, spinnekop
+🕸 spinnekop, spinnerak, web
+🦂 diereriem, Scorpius, skerpioen
+🦟 insek, koors, malaria, muskiet, siekte, virus
+🪰 huisvlieg, lastig, maaier, vlieg, vuil
+🪱 annelied, erdwurm, parasiet, wurm
+🦠 amoeba, bakterieë, mikrobe, virus
+💐 blom, plant, romanse, ruiker
+🌸 bloeisel, blom, kersie, kersiebloeisel, plant
+💮 blom, wit
+🏵 plant, roset
+🌹 blom, plant, roos
+🥀 blom, droog, verlep, verlepte blom, warm
+🌺 blom, hibiskus, plant
+🌻 blom, plant, son, sonneblom
+🌼 bloeisel, blom, plant
+🌷 blom, plant, tulp
+🌱 jonk, plant, saailing
+🪴 groei, huis, huisplant, plant, potplant, vertroetel
+🌲 boom, immergroen, plant
+🌳 bladwisselend, bladwisselende boom, blare, boom, plant
+🌴 boom, palm, palmboom, plant
+🌵 kaktus, plant
+🌾 gerf, plant, rys, rysgerf
+🌿 blaar, krui, kruie, plant
+☘ klawer, plant
+🍀 4, blaar, klawer, plant, vier, vierblaarklawer
+🍁 blaar, esdoring, esdoringblaar, plant, val
+🍂 blaar, plant, val, vallende blaar
+🍃 blaar, blaar wat in die wind fladder, fladder, plant, waai, wind
+🍇 druif, druiwe, plant, vrug
+🍈 plant, spanspek, vrug
+🍉 plant, vrug, waatlemoen
+🍊 nartjie, oranje, plant, vrug
+🍋 plant, sitrus, suur, suurlemoen, vrug
+🍌 piesang, plant, vrug
+🍍 plant, pynappel, vrug
+🥭 mango, tropies, tropiese vrug, vrug, vrugte
+🍎 appel, plant, rooi, vrug
+🍏 appel, groen, plant, vrug
+🍐 peer, plant, vrug
+🍑 perske, plant, vrug
+🍒 kersie, kersies, plant, vrug
+🍓 aarbei, bessie, plant, vrug
+🫐 bessie, blou, bloubessie, bloubessies
+🥝 kiwi, kiwivrug, kos, vrug
+🍅 groente, plant, tamatie
+🫒 kos, olyf
+🥥 kokosneut, palm, skemerkelkie
+🥑 avokado, kos, vrug
+🍆 brinjal, eiervrug, groente, plant
+🥔 aartappel, groente, kos, stysel
+🥕 groente, kos, wortel
+🌽 mielie, pitte, plant, stronk
+🌶 brand, brandrissie, plant, rissie
+🫑 groente, rissies, soetrissie
+🥒 groente, komkommer, kos
+🥬 blaarslaai, groen blare, kool, krulkool
+🥦 broccoli, wilde kool
+🧄 geurmiddel, knoffel
+🧅 geurmiddel, ui
+🍄 paddastoel, plant, sampioen
+🥜 grondboontjie, grondboontjies, kos, peule
+🌰 kastaiing, plant
+🍞 brood, sny
+🥐 brood, croissant, frankryk, kos
+🥖 baguette, brood, frankryk, kos
+🫓 focaccia, lavash, pita, platbrood
+🥨 gevleg, pretzel
+🥯 bagel, bakkery, smeersel
+🥞 kos, pannekoek, pannekoeke, plaatkoekie, plaatkoekies
+🧇 onbeslis, pan, wafel
+🧀 kaas, kaaswiggie
+🍖 been, vleis, vleis aan been
+🍗 been, boudjie, hoender, pluimvee, pluimveeboudjie
+🥩 skaaptjop, steak, tjop, varktjop, vleissnit
+🥓 kos, spek, vleis
+🍔 burger, hamburger
+🍟 aartappel, aartappelskyfies, skyfies, tjips
+🍕 kaas, kos, pizza, skyf
+🌭 brood, kos, wors, worsbroodjie
+🥪 brood, toebroodjie
+🌮 kos, meksikaans, taco
+🌯 burrito, kos, meksikaans
+🫔 Meksikaans, omhulsel, tamale
+🥙 bunny chow, kos, platbrood, wrap
+🧆 falafel, frikkadel, keker-ertjie
+🥚 eier, kos
+🍳 bak, eier, gebakte eier in pan, kook, pan
+🥘 kos, paella, pan, vlak, vlak pan met kos
+🍲 ‘n pot kos, bredie, kastrol, kos, pot
+🫕 diepbraai, fondue, gesmelt, kaas, pot, sjokolade, Switsers
+🥣 bakkie met lepel, conjee, ontbyt, ryswater
+🥗 blaarslaai, groenslaai, kos, slaai
+🍿 fliek, springmielies
+🧈 botter, suiwel
+🧂 pot, sout, soutpot, speserye, speserypot
+🥫 blik, geblikte kos
+🍱 bento, bentoboks, boks, kos
+🍘 beskuitjie, kos, rys, rysbeskuitjie
+🍙 bal, japannees, kos, rys, rysbal
+🍚 gekookte rys, kook, kos, rys
+🍛 kerrie, kerrierys, kos, rys
+🍜 bak, kos, noedel, stomende bak, stoom
+🍝 kos, pasta, spaghetti
+🍠 braai, gebraaide patat, kos, patat
+🍢 kebab, oden, seekos, sosatie, stokkie
+🍣 kos, rys, soesji, vis
+🍤 braai, garnaal, gebraaide garnaal, kos, tempoera
+🍥 koekie, kos, spiraal, vis, viskoekie met spiraal
+🥮 fees, herfs, maankoek
+🍡 dango, japannees, kos, nagereg, soet, stokkie
+🥟 empanada, kluitjie, toevoupasteitjie
+🥠 fortuinkoekie, voorspelling
+🥡 toevouwegneemboks, wegneemeteboks
+🦀 cancer, diereriem, krap, Kreef
+🦞 bisque, kreef, seekos, stert
+🦐 garnaal, kos, skulpvis
+🦑 calamari, inkvis, kos, mollusk, seekat, tjokka
+🦪 duik, oester, pêrel
+🍦 nagereg, room, roomys, sag, sagte roomys, ys
+🍧 kos, nagereg, rasper, skaaf, soet, ysskaafsels
+🍨 nagereg, room, roomys, soet, ys
+🍩 kos, nagereg, oliebol, soet
+🍪 koek, koekie, kos, nagereg, soet
+🎂 koek, nagereg, verjaardagkoek, verjaarsdag, verjaarsdagkoek, viering
+🍰 broskoek, gebak, koek, kos, nagereg, sny, soet
+🧁 bakkery, koek, kolwyntjie, soet
+🥧 pastei, tertjie, vulsel
+🍫 blok, kos, sjokolade, sjokoladestaaf, soet, staaf
+🍬 lekker, lekkergoed, soet
+🍭 lekkergoed, soet, suig, suiglekker
+🍮 kos, nagereg, poeding, soet, vla
+🍯 heuning, heuningpot, pot, soet
+🍼 baba, bababottel, bottel, drink, melk
+🥛 glas melk, kos, melk
+☕ drankie, drink, koffie, koppie, stoom, tee, warm
+🫖 drink, pot, tee, teepot
+🍵 drankie, drink, koppie, tee, teekoppie, teekoppie sonder handvatsel
+🍶 bottel, drankie, glas, kroeg, rysbier, sake
+🍾 bottel, bottel met prop wat uitskiet, drink, kroeg, kurk, skiet
+🍷 drankie, drink, glas, kroeg, wyn, wynglas
+🍸 drink, glas, kelkie, kroek, skemer, skemerkelkieglas
+🍹 drankie, drink, kroeg, tropies, tropiese drankie
+🍺 beker, bier, bierbeker, drink, kroeg
+🍻 beker, bier, drink, klink, klinkende bierbekers, kroeg
+🥂 drink, gesondheid, heildronk, klink, vonkelwyn
+🥃 bolglas, glas, hardehout, whiskey, whiskeyglas
+🥤 beker met strooitjie, koeldrank, sap
+🧋 borrel, borreltee, melk, pêrels, tee
+🧃 koeldrankboksie, sapboksie
+🧉 drankie, maté
+🧊 koud, ysberg, ysblokkie
+🥢 eetstokkies
+🍽 bord, bord met mes en vurk, eet, kook, kos, mes, vurk
+🍴 eet, kook, kos, mes, mes en vurk, vurk
+🥄 lepel, messegoed
+🔪 kombuis, kombuismes, kos, mes, wapen
+🏺 amfoor, aquarius, diereriem, drink, kook, kruik
+🌍 aardbol, aardbol met europa-afrika, aarde, afrika, europa, wêreld
+🌎 aardbol, aardbol met amerikas, aarde, amerika, wêreld
+🌏 aardbol, aardbol met asië-australië, aarde, asië, australië, wêreld
+🌐 aardbol, aardbol met kringlyne, aarde, kring, lyn, wêreld
+🗺 kaart, wêreld, wêreldkaart
+🗾 japan, kaart, kaart van japan
+🧭 kompas, magneties, navigasie, oriëntering
+🏔 berg, berg met sneeu op, koud, sneeu
+⛰ berg
+🌋 berg, uitbarsting, vulkaan, weer
+🗻 berg, foedji, fuji, japan
+🏕 kampeer, tent, veld
+🏖 sambreel, see, strand, strand met sambreel
+🏜 kaktus, woestyn
+🏝 eiland, palm, woestyn, woestyneiland
+🏞 nasionale park, park, reservaat, wildtuin
+🏟 sport, stadion
+🏛 gebou, klassiek, klassieke gebou
+🏗 gebou, konstruksie
+🧱 baksteenmuur, bakstene, messel, muur, sement
+🪨 klip, rots, solied, steen, swaar
+🪵 blok, hout, stomp, timmerhout
+🛖 huis, hut, joert, rondawel
+🏘 geboue, huise
+🏚 gebou, huis, vervalle
+🏠 gebou, huis, tuiste
+🏡 gebou, huis, huis met tuin, tuin
+🏢 gebou, kantoor, kantoorgebou
+🏣 gebou, japannees, japanse poskantoor, pos
+🏤 europees, gebou, pos, poskantoor
+🏥 dokter, gebou, hospitaal, medisyne
+🏦 bank, gebou
+🏨 gebou, hotel
+🏩 gebou, hotel, liefde, liefdeshotel
+🏪 gebou, gerief, geriefswinkel, winkel
+🏫 gebou, skool
+🏬 afdeling, afdelingswinkel, gebou, winkel
+🏭 fabriek, gebou
+🏯 gebou, japannees, japanse kasteel, kasteel
+🏰 europees, gebou, kasteel
+💒 gebou, kapel, romanse, trou, troue
+🗼 tokio, tokio-toring, toring
+🗽 standbeeld, vryheid, vryheidstandbeeld
+⛪ christelik, gebou, godsdiens, kerk, kruis
+🕌 godsdiens, islam, moskee, moslem
+🛕 hindoe, Hindoetempel, tempel
+🕍 godsdiens, joods, sinagoge, tempel
+⛩ altaar, godsdiens, sjinto, sjinto-altaar, tempel
+🕋 godsdiens, islam, kaäba, moslem
+⛲ fontein
+⛺ kampeer, nag, tent
+🌁 mis, mistig, weer
+🌃 nag, nag met sterre, stad, ster, weer
+🏙 geboue, stad, stadslandskap
+🌄 berg, oggend, opkoms, son, sonsopkoms oor berge, weer
+🌅 oggend, opkoms, son, sonsopkoms, weer
+🌆 aand, skemer, skemer stadslandskap, stad, stad teen skemer
+🌇 gebou, skemer, son, sonsondergang, weer
+🌉 brug, brug in die aand, nag, weer
+♨ fontein, stoom, warm, warmbron, water
+🎠 mallemeule, mallemeuleperd, perd
+🎡 ferris, ferriswiel, pretpark, wiel
+🎢 pretpark, trein, tuimel, tuimeltrein
+💈 barbier, barbierpaal, haarsny, paal
+🎪 sirkus, sirkustent, tent
+🚂 lokomotief, spoor, stoom, trein, voertuig
+🚃 elektries, motor, trein, treinspoor, treintrok, trem
+🚄 snel, sneltrein, spoed, spoor, trein, voertuig
+🚅 snel, spoed, spoor, supersneltrein, trein, voertuig
+🚆 spoor, trein, voertuig
+🚇 mol, moltrein, ondergronds, trein, voertuig
+🚈 smalspoortrein, spoor, trein, voertuig
+🚉 spoor, stasie, trein, voertuig
+🚊 spoor, trem, voertuig
+🚝 enkelspoortrein, spoor, trein, voertuig
+🚞 berg, bergtreinspoor, spoor, trein, voertuig
+🚋 elektries, trem, tremwa, voertuig, wa
+🚌 bus, voertuig
+🚍 aankomend, aankomende bus, bus, voertuig
+🚎 bus, trem, trembus, voertuig
+🚐 bus, minibus, taxi, voertuig
+🚑 ambulans, hospitaal, voertuig
+🚒 brand, brandweer, brandweerwa, voertuig, wa
+🚓 kar, motor, polisie, polisiemotor, voertuig
+🚔 aankomend, aankomende polisiemotor, kar, motor, polisie, voertuig
+🚕 taxi, voertuig
+🚖 aankomend, aankomende taxi, taxi, voertuig
+🚗 kar, motor, voertuig
+🚘 aankomend, aankomende motor, kar, motor, voertuig
+🚙 motor, ontspanning, ontspanningvoertuig, voertuig
+🛻 bakkie, kap, vrag
+🚚 aflewering, afleweringswa, voertuig, vragmotor, wa
+🚛 gelede voertuig, trok, voertuig, vragmotor
+🚜 plaas, trekker, voertuig
+🏎 kar, motor, resies, resiesmotor, wedren
+🏍 motorfiets, wedren
+🛵 bromponie, motorfiets, skoeter
+🦽 handgedrewe rolstoel, toeganklikheid
+🦼 motoraangedrewe rolstoel, toeganklikheid
+🛺 outoriksja, toek-toek
+🚲 fiets, voertuig
+🛴 skoeter, skopfiets
+🛹 skaatsplank
+🛼 rolskaats, Rolskaats, skaats
+🚏 bus, bushalte, halte, stop
+🛣 hoofweg, pad, snelweg
+🛤 spoor, trein, treinspoor
+🛢 blik, drom, olie, oliedrom
+⛽ brandstof, petrol, petrolpomp, pomp, stasie
+🚨 flits, lig, motor, polisie, polisiemotor se lig, voertuig
+🚥 horisontale verkeerslig, lig, teken, verkeer
+🚦 lig, teken, verkeer, vertikale verkeerslig
+🛑 agthoekig, stop, stopteken
+🚧 konstruksieteken, teken, versperring
+⚓ anker, skip
+⛵ boot, jag, see, seil, seilboot, voertuig
+🛶 boot, kano
+🚤 boot, snelboot, voertuig
+🛳 passasier, passasierskip, see, skip, vaar, voertuig
+⛴ boot, pont, veerboot
+🛥 boot, motorboot, voertuig
+🚢 boot, skip, voertuig
+✈ vliegtuig, voertuig
+🛩 klein vliegtuig, vliegtuig, voertuig
+🛫 lughawe, opstyg, vertrek, vliegtuig, vliegtuig styg op, voertuig
+🛬 aankoms, land, lughawe, vliegtuig, voertuig
+🪂 hangsweef, sweefseil, valskerm, valskermspring
+💺 sitplek, stoel
+🚁 helikopter, voertuig
+🚟 hang, hangspoor, spoor, voertuig
+🚠 berg, bergkabelspoor, hang, kabel, spoor, voertuig
+🚡 hang, kabel, spoor, sweef, sweefspoor, voertuig
+🛰 ruimte, satelliet, voertuig
+🚀 ruimte, voertuig, vuurpyl
+🛸 vlieënde piering, VVV
+🛎 hotel, joggie, klok, klokkie vir hoteljoggie
+🧳 bagasie, pak, reis
+⌛ leë uurglas, sand, tydmeter, uurglas
+⏳ sand, tyd, uurglas, uurglas met sand wat uitloop, val
+⌚ horlosie, tyd
+⏰ klok, wekker
+⏱ horlosie, klok, stophorlosie, tyd
+⏲ aftel, afteller, horlosie, klok, tyd
+🕰 horlosie, kaggelklok, klok, tyd
+🕛 00, 12, 12:00, horlosie, twaalf, twaalfuur, uur
+🕧 12, 12:30, 30, een, half, halfeen, horlosie
+🕐 00, 1, 1:00, een, eenuur, horlosie, klok, uur
+🕜 1, 1:30, 30, half, halftwee, horlosie, klok, twee
+🕑 00, 2, 2:00, horlosie, klok, twee, twee-uur, tweeuur, uur
+🕝 2, 2:30, 30, drie, half, halfdrie, horlosie, klok
+🕒 00, 3, 3:00, drie, drie-uur, drieuur, horlosie, klok, uur
+🕞 3, 3:30, 30, drie, half, halfvier, horlosie, klok
+🕓 00, 4, 4:00, horlosie, klok, uur, vier, vieruur
+🕟 30, 4, 4:30, half, halfvyf, horlosie, klok, vier
+🕔 00, 5, 5:00, horlosie, klok, uur, vyf, vyfuur
+🕠 30, 5, 5:30, half, halfses, horlosie, klok, ses
+🕕 00, 6, 6:00, horlosie, klok, ses, sesuur, uur
+🕡 30, 6, 6:30, half, halfsewe, horlosie, klok, sewe
+🕖 00, 7, 7:00, horlosie, klok, sewe, sewe-uur, seweuur, uur
+🕢 30, 7, 7:30, agt, half, halfagt, horlosie, klok
+🕗 00, 8, 8:00, agt, agtuur, horlosie, klok, uur
+🕣 30, 8, 8:30, half, halfnege, horlosie, klok, nege
+🕘 00, 9, 9:00, horlosie, klok, nege, nege-uur, negeuur, uur
+🕤 30, 9, 9:30, half, halftien, horlosie, klok, tien
+🕙 00, 10, 10:00, horlosie, klok, tien, tienuur, uur
+🕥 10, 10:30, 30, elf, half, halfelf, horlosie, klok
+🕚 00, 11, 11:00, elf, elfuur, horlosie, klok, uur
+🕦 11, 11:30, 30, half, halftwaalf, horlosie, klok, twaalf
+🌑 donker, maan, nuwe, nuwemaan, ruimte, weer
+🌒 groei, groeiende sekelmaan, maan, ruimte, sekel, weer
+🌓 eerste, eerstekwartiermaan, kwartier, maan, ruimte, weer
+🌔 bol, groei, groeiende bolmaan, maan, ruimte, weer
+🌕 maan, ruimte, vol, volmaan, weer
+🌖 afneem, afnemende bolmaan, bol, maan, ruimte, weer
+🌗 kwartier, laaste, laastekwartiermaan, maan, ruimte, weer
+🌘 afneem, afnemende sekelmaan, maan, ruimte, sekel, weer
+🌙 maan, ruimte, sekel, sekelmaan, weer
+🌚 gesig, maan, nuwe, nuwemaangesig, ruimte, weer
+🌛 eerste, eerstekwartiermaan met gesig, gesig, kwartier, maan, ruimte
+🌜 gesig, kwartier, laaste, laastekwartiermaan met gesig, maan, ruimte
+🌡 temperatuur, termometer, weer
+☀ helder, ruimte, son, strale, weer
+🌝 gesig, helder, maan, ruimte, vol, volmaan met gesig
+🌞 gesig, helder, ruimte, son, son met gesig, weer
+🪐 planeet met ring om, saturnus
+⭐ geel, ster
+🌟 glans, gloei, gloeiende ster, skitter, skyn, ster
+🌠 ruimte, skiet, ster, val, verskiet, verskietende ster
+🌌 melkweg, ruimte, sterre
+☁ weer, wolk
+⛅ son, son agter wolk, weer, wolk
+⛈ blits, donder, reën, weer, wolk, wolk met weerlig en reën
+🌤 son, son agter klein wolk, weer, wolk
+🌥 son, son agter groot wolk, weer, wolk
+🌦 reën, son, son agter wolk met reën, weer, wolk
+🌧 reën, weer, wolk, wolk met reën
+🌨 koud, sneeu, weer, wolk, wolk met sneeu
+🌩 blits, weer, weerlig, wolk, wolk met weerlig
+🌪 storm, tornado, warrel, weer, wolk
+🌫 mis, weer, wolk
+🌬 blaas, gesig, weer, wind, windgesig, wolk
+🌀 duiselig, sikloon, storm, tifoon, weer
+🌈 boog, reën, reënboog, weer
+🌂 klere, opgevoude sambreel, reën, sambreel, weer
+☂ klere, reën, sambreel, weer
+☔ druppel, klere, reën, sambreel, sambreel met reëndruppels, weer
+⛱ reën, sambreel, sambreel op die grond, son, weer
+⚡ elektrisiteit, gevaar, hoogspanning, skok, spanning, weerlig
+❄ koud, sneeu, sneeuvlokkie, weer
+☃ koud, man, sneeu, sneeuman, weer
+⛄ koud, sneeu, sneeuman, sneeuman sonder sneeu, weer
+☄ komeet, ruimte
+🔥 brand, vlam, vuur
+💧 druppel, koud, sweet, weer
+🌊 brander, golf, oseaan, see, weer
+🎃 allerheiligeaand, halloween, pampoen, pampoenlantern, spook
+🎄 boom, kersboom, Kersfees, viering
+🎆 liggies, skiet, viering, vuurwerke
+🎇 skitterstokkie, viering, vonk, vonkstok, vuurwerk
+🧨 dinamiet, klapper, klappers, plofstof, vuurwerke
+✨ ster, vonk, vonke
+🎈 ballon, viering
+🎉 klapper, partytjie, partytjieklapper, viering
+🎊 bal, konfetti, konfettibal, viering
+🎋 banier, boom, japannees, tanabataboom, vaandel, viering
+🎍 bamboes, den, denneversiering, japannees, plant, viering
+🎎 fees, japannees, japanse poppe, pop, viering
+🎏 banier, karp, karpbanier, viering
+🎐 klok, viering, wind, windklokkie
+🎑 maan, maankykseremonie, seremonie, viering
+🧧 geld, geskenk, goeie geluk, lai see, rooi koevert
+🎀 lint, strik, viering
+🎁 boks, geskenk, lint, present, toegedraaide geskenk, viering
+🎗 herinner, herinneringslint, lint, viering
+🎟 kaartjie, toegang, toegangskaartjie
+🎫 kaartjie, toegang
+🎖 medalje, militêr, militêre medalje, viering, weermag
+🏆 beker, prys, trofee
+🏅 medalje, sport, sportmedalje
+🥇 eerste, goud, goudmedalje, medalje
+🥈 medalje, silwer, silwermedalje, tweede
+🥉 brons, bronsmedalje, derde, medalje
+⚽ bal, sokker, sokkerbal
+⚾ bal, bofbal
+🥎 bal, handskoen, onderarm, sagtebal
+🏀 bal, basket, basketbal, hoepel
+🏐 bal, speel, vlugbal
+🏈 amerikaans, amerikaanse voetbal, bal, voetbal
+🏉 bal, rugby, rugbyvoetbal, voetbal
+🎾 bal, raket, tennis
+🥏 diskus, Toppunt
+🎳 bal, kegel, kegelbal, speel
+🏏 bal, kolf, krieket, speel
+🏑 bal, hokkie, speel, stok, veld
+🏒 hokkie, skyf, speel, stok, ys, yshokkie, yshokkiestok en -skyf
+🥍 bal, doel, lacrosse, stok
+🏓 bal, raket, speel, tafeltennis
+🏸 pluimbal, pluimpie, raket, speel, veer
+🥊 boks, bokshandskoen, handskoen, sport
+🥋 gevegskuns, gevegskunsuniform, judo, karate, sport, taekwondo, uniform
+🥅 doel, doelhok, doelwit, sport
+⛳ gat, gholf, putjie, vlag in putjie
+⛸ skaats, ys, ysskaats
+🎣 hengel, stok, vis, visstok
+🤿 duik, duikmasker, skubaduik, snorkel
+🎽 atletiek, band, draf, drafhemp, hardloop, hemp
+🎿 ski, ski’s, sneeu
+🛷 slee, ysslee
+🥌 klip, speletjie, ysbal
+🎯 bord, kol, kolskoot, middel, pyltjie, speel, teiken
+🪀 jojo, op en af, speelding
+🪁 sweef, vlieër, vlieg
+🎱 8, agt, bal, biljart, snoeker, speel
+🔮 bal, fortuinverteller, kristal, kristalbal, okkulte
+🪄 heks, towenaar, towerkrag, towerstaf
+🧿 bose oog, gelukbringer, nazar, nazar-gelukbringer, talisman
+🎮 beheer, kontrole, speel, video, videospeletjie
+🕹 speel, speelstok, stang, stok, video
+🎰 casino, dobbel, munt, muntoutomaat
+🎲 dobbelsteen, speletjie
+🧩 deel, legkaart, legkaartstuk, skakeling, wenk
+🧸 opgestop, sag, sagte speelding, speelding, teddiebeer
+🪅 Meksiko, partytjie, piñata, slaan, verjaarsdag, viering
+🪆 ineenpassende, ineenpassende poppe, pas ineen, pop, poppies, Rusland
+♠ kaart, skoppens, speelkaarte, speletjie
+♥ harte, kaart, speletjie
+♦ diamante, kaart, speletjie
+♣ kaart, klawers, speletjie
+♟ mislei, opofferbaar, skaak, skaakpion
+🃏 joker, kaart, speel
+🀄 mahjong, mahjong rooi draak, rooi, speel
+🎴 blom, blomspeelkaarte, Japannees, kaart, speel, speletjie
+🎭 drama, kuns, masker, teater, uitvoerende kunste
+🖼 kuns, museum, prent, raam, raam met prent, skildery
+🎨 kuns, kunstenaarpalet, museum, palet, skilder, verf
+🧵 gare, garing, naald, naaldwerk, tol
+🪡 borduur, naald, naaldwerk, naaldwerknaald, steke
+🧶 bol wol, brei, hekel, wol
+🪢 kinkel, knoop, tou
+👓 bril, klere, oog
+🕶 bril, donker, oog, son, sonbril
+🥽 duik, oogbeskerming, skermbril, sweis, swem
+🥼 dokter, eksperiment, laboratoriumjas, wetenskaplike
+🦺 nooddiens, noodgeval, onderbaadjie, veiligheid, veiligheidsonderbaadjie
+👔 das, klere
+👕 hemp, klere, t-hemp
+👖 broek, denim, jean, klere
+🧣 nek, serp
+🧤 hand, handskoene
+🧥 baadjie, jas
+🧦 sokkies, sykouse
+👗 klere, rok
+👘 kimono, klere
+🥻 klere, rok, sari
+🩱 eenstukswembroek, swembroek
+🩲 eenstuk, mansportswembroek, onderklere, swembroek
+🩳 broek, manswembroek, onderklere, swembroek
+👙 bikini, klere, swem
+👚 klere, vrou, vroueklere
+👛 beursie, geld, klere
+👜 handsak, klere, sak, tas
+👝 klere, palmtassie, sakkie
+🛍 inkopies, sak, winkel, winkelsakke
+🎒 rugsak, sak, skool, skoolrugsak, tas
+🩴 deurtoonplakkies, plakkies, stortplakkies, strandplakkies, tussentoonplakkie
+👞 klere, man, manskoen, skoen
+👟 atletiek, draf, hardloopskoen, klere, skoen
+🥾 kamp, rugsakstap, stap, stapskoen, staptog
+🥿 aanglip, aanglipskoen, balletskoen, plat, plat skoen
+👠 hak, hoëhakskoen, klere, skoen, vrou
+👡 klere, sandaal, skoen, vrou, vrouesandaal
+🩰 ballet, balletskoene, dans
+👢 klere, skoen, stewel, vrou, vrouestewel
+👑 klere, koning, koningin, kroon
+👒 hoed, klere, vrou, vrouehoed
+🎩 hoed, keil, klere, pluiskeil
+🎓 graad, gradeplegtigheidsmus, hoed, klere, mus, viering
+🧢 bofbalpet, hardepuntpet
+🪖 helm, kryger, militêr, militêre helm, soldaat, weermag
+⛑ gesig, helm, helm met wit kruis, hoed, hulp, kruis
+📿 bidkrale, gebed, godsdiens, halssnoer, klere, krale
+💄 grimering, kosmetiek, lipstiffie
+💍 diamant, ring, romanse
+💎 diamant, edelsteen, juweel, romanse
+🔇 demp, luidspreker, luidspreker af, stil, volume
+🔈 luidspreker, sag, volume
+🔉 klank, klankgolf, luidspreker, luidspreker aan, medium, volume
+🔊 3, drie, hard, luidspreker, volume
+📢 aankondiging, aankondigingsluidspreker, hard, luidspreker
+📣 aankondiging, luidspreker, megafoon
+📯 horing, pos, poshoring
+🔔 klokkie
+🔕 gedemp, klok, nee, stil, verbied, verbode
+🎼 balk, musiek, musiekbalk, partituur
+🎵 musiek, musieknoot, noot
+🎶 musiek, musieknote, noot, note
+🎙 ateljee, ateljeemikrofoon, mikrofoon, musiek
+🎚 glyer, musiek, vlak, vlakglyer
+🎛 knoppe, kontrole, kontroleknoppe, musiek
+🎤 karaoke, mikrofoon, musiek
+🎧 musiek, oorfoon, oorknoppie
+📻 draadloos, radio
+🎷 instrument, musiek, saxofoon
+🪗 konsertina, trekklavier
+🎸 ghitaar, instrument, kitaar, musiek
+🎹 instrument, klavier, klawerbord, musiek, orrel
+🎺 blaas, instrument, musiek, trompet
+🎻 instrument, musiek, stryk, viool
+🪕 banjo, musiek, snaarinstrument
+🥁 musiek, trom, tromme
+🪘 drom, lang drom, maatslag, pols, ritme
+📱 foon, mobiel, sel, selfoon, telefoon
+📲 mobiel, pyl, selfoon, selfoon met pyl
+☎ foon, telefoon
+📞 foon, gehoorstuk, telefoon, telefoongehoorstuk
+📟 roeper
+📠 faks, faksmasjien, masjien
+🔋 battery, krag
+🔌 elektries, elektriese prop, elektrisiteit, prop
+💻 rekenaar, skoot, skootrekenaar
+🖥 lessenaar, rekenaar, tafel, tafelrekenaar
+🖨 druk, drukker, rekenaar
+⌨ rekenaar, sleutel, sleutelbord, tik, toets
+🖱 3, drie, knoppie, muis, rekenaar, rekenaarmuis
+🖲 bal, rekenaar, stuur, stuurbal
+💽 miniskyf, opties, rekenaar, skyf
+💾 disket, rekenaar, skyf, slap, slapskyf
+💿 blu-ray, cd, dvd, opties, optiese skyf, rekenaar, skyf
+📀 blu-ray, cd, dvd, opties, rekenaar, skyf
+🧮 somme, telraam
+🎥 bioskoop, fliek, kamera, rolprent, rolprentkamera
+🎞 bioskoop, filmraampies, fliek, raam, rolprent
+📽 bioskoop, fliek, projektor, rolprent, rolprentprojektor, video
+🎬 bord, klapbord, klapper, rolprent
+📺 televisie, tv, video
+📷 foto, kamera, video
+📸 flits, foto, kamera, kamera met flits, video
+📹 kamera, video, videokamera
+📼 band, kasset, vhs, video, videokasset
+🔍 glas, soek, vergroot, vergrootglas na links
+🔎 glas, soek, vergroot, vergrootglas na regs
+🕯 kers, lig, vlam
+💡 elektries, gloeilamp, idee, lig, skyn
+🔦 elektries, flits, lig
+🏮 japannees, kroeg, lantern, lig, rooi, rooi papierlantern
+🪔 diya, Indies, Indiese olielamp, olielamp
+📔 boek, notaboek, notaboek met sieromslag, omslag, versiering
+📕 boek, geslote boek, toe
+📖 boek, oop
+📗 boek, groen
+📘 blou, boek
+📙 boek, oranje
+📚 boeke
+📓 notaboek
+📒 lêer, omslag
+📃 bladsy, bladsy met krul, dokument, krul, papier
+📜 boekrol, perkament
+📄 bladsy, bladsy na bo, dokument, papier
+📰 koerant, nuus
+🗞 gerol, koerant, nuus, opgerolde koerant
+📑 boekmerk, boekmerkoortjies, merker, oortjies
+🔖 boekmerk, merker
+🏷 etiket
+💰 dollar, geld, geldsak, sak
+🪙 geld, goud, muntstuk, silwer, skat
+💴 bank, banknoot, geld, jen, jenbanknoot, noot
+💵 bank, banknoot, dollar, dollarbanknoot, geld, noot
+💶 bank, banknoot, euro, eurobanknoot, geld, noot
+💷 bank, banknoot, geld, noot, pond, pondbanknoot
+💸 banknoot, geld, geld met vlerke, noot, vlerke
+💳 bank, geld, kaart, krediet, kredietkaart
+🧾 bewys, bewyse, boekhou, kwitansie, rekeningkunde
+💹 grafiek, grafiek met stygende jen, jen, mark, wisselkoers
+✉ brief, koevert, pos
+📧 brief, e-pos, koevert
+📨 brief, e-pos, inkomend, inkomende koevert, koevert, ontvang
+📩 af, brief, e-pos, koevert, koevert met pyl, pyl, stuur
+📤 brief, dokumente, kassie, pos, stuur, uitkassie, werk
+📥 brief, dokumente, inkassie, kassie, ontvang, pos, werk
+📦 boks, pakket, pakkie
+📫 geslote posbus met vlag omhoog, pos, posbus, toe, vlag
+📪 geslote posbus met vlag plat, pos, posbus, toe, vlag
+📬 oop, oop posbos met vlag omhoog, pos, posbus, vlag
+📭 oop, oop posbus met vlag plat, pos, posbus, vlag
+📮 brief, pos, posbus
+🗳 boks, stem, stembus met stembriefie, verkiesing
+✏ potlood, skryf
+✒ pen, punt, skryf, swart penpunt
+🖋 pen, skryf, vul, vulpen
+🖊 bolpunt, pen, skryf
+🖌 kwas, skilder, verf, verfkwas
+🖍 inkleur, kryt, teken, vetkryt
+📝 aantekening, papier, potlood, skryf
+💼 aktetas, dokumente, tas, werk
+📁 lêer, lêervouer, vouer
+📂 lêer, oop, oop lêervouer, vouer
+🗂 indeks, kaart, kaartindeksverdelers, verdelers
+📅 almanak, dag, datum, kalender
+📆 afskeurkalender, almanak, dag, datum, kalender
+🗒 aantekening, boek, nota, spiraal, spiraalnotaboek
+🗓 almanak, datum, kalender, spiraal, spiraalkalender
+📇 indeks, kaart, kaartindeks, nommers
+📈 grafiek, grafiek wat styg, groei, statistiek, styging, tendens
+📉 daling, grafiek, grafiek wat daal, statistiek, tendens, val
+📊 grafiek, staaf, staafgrafiek
+📋 bord, knip, knyp, knypbord
+📌 duim, duimspyker, speld, spyker
+📍 duim, ronde duimspyker, speld, spyker
+📎 papier, skuifspeld, speld
+🖇 haak, ingehaakte skuifspeld, koppel, skakel, skuifspeld
+📏 liniaal, meet, streep
+📐 driehoek, driekantliniaal, hoek, liniaal, meet, teken
+✂ knip, skêr, sny
+🗃 boks, kaart, kaartlêerboks, lêer
+🗄 kabinet, kas, laai, lêer, lêerkabinet
+🗑 blik, drom, mandjie, snippermandjie, vullis
+🔒 gesluit, slot, toe
+🔓 ontsluit, oop, slot
+🔏 ink, pen, privaat, slot, slot met pen
+🔐 gesluit, sleutel, slot, toe, toe slot met sleutel, veilig
+🔑 sleutel, slot, wagwoord
+🗝 leidraad, ou sleutel, oud, sleutel, slot
+🔨 gereedskap, hamer, kap
+🪓 byl, handbyl, hout, kap, kloof
+⛏ gereedskap, kap, myn, pik
+⚒ gereedskap, hamer, hamer en pik, pik
+🛠 gereedskap, hamer, hamer en moersleutel, moersleutel
+🗡 dolk, mes, wapen
+⚔ gekruiste swaarde, swaarde, wapen
+🔫 rewolwer, skiet, vuurwapen, wapen
+🪃 Australië, boemerang, terugdraai, terugkeer
+🏹 boog, boogskutter, diereriem, pyl, pyl en boog, sagittarius, wapen
+🛡 beskerm, skild, wapen
+🪚 gereedskap, hout, houtsaag, houtwerk, saag, skrynwerker, timmerhout
+🔧 gereedskap, moersleutel
+🪛 gereedskap, skroef, skroewedraaier
+🔩 bout, bout en moer, gereedskap, moer
+⚙ gereedskap, rat
+🗜 gereedskap, klamp, kompressie, pers, samepersing
+⚖ diereriem, geregtigheid, gewig, libra, skaal, weeg, weegskaal
+🦯 blind, gidsstok, toeganklikheid
+🔗 skakel
+⛓ ketting, kettings, skakel
+🪝 hoek, strik, vang, vangs, verkoopspunt
+🧰 gereedskap, gereedskaptrommel, trommel, werktuigkundige
+🧲 aantrekking, hoefyster, magneet, magneties
+🪜 klim, leer, trappie
+⚗ alembiek, chemie, laboratorium
+🧪 chemie, chemikus, eksperiment, laboratorium, proefbuis, wetenskap
+🧫 bakterieë, biologie, bioloog, laboratorium, petribakkie
+🧬 bioloog, dna, evolusie, gene, genetika, lewe
+🔬 mikroskoop, ondersoek, vergroot
+🔭 hemelruim, sterre, teleskoop
+📡 antenna, satelliet, satellietantenna, skottel
+💉 dokter, inspuiting, medisyne, naald, siek
+🩸 bloeddruppel, bloedskenk, medisyne, menstruasie
+💊 dokter, medisyne, pil, siek
+🩹 plakpleister, pleister
+🩺 dokter, hart, medisyne, stetoskoop
+🚪 deur, kosyn
+🛗 hys, hysbak, lig, toeganklikheid
+🪞 spektrum, spieël, weerkaats, weerkaatsing
+🪟 deursigtig, opening, raam, uitsig, vars, venster
+🛏 bed, hotel, slaap
+🛋 bank, hotel, lamp, rus, rusbank en lamp
+🪑 sit, sitplek, stoel
+🚽 toilet, toiletbak
+🪠 druksuier, loodgieter, suigkrag, toilet
+🚿 stort, water
+🛁 bad, water
+🪤 lokaas, muisvalletjie, strik, wip
+🪒 skeer, skeermes, skerp
+🧴 lyfroom, lyfroombottel, room, sjampoe, sonbrandmiddel
+🧷 doek, haakspeld, punk rock
+🧹 besem, heks, skoonmaak, vee
+🧺 mandjie, oes, piekniek, plaas, wasgoed
+🧻 kombuispapier, papierrol, toiletpapier
+🪣 emmer, vat
+🧼 bad, koekie seep, seep, seepbakkie, skoon, skuim
+🪥 badkamer, borsel, higiëne, skoon, tande, tandeborsel
+🧽 absorbeer, opsuig, poreus, skoonmaak, spons
+🧯 blus, uitdoof, vuur, vuurblusser
+🛒 inkopies, trollie, winkeltrollie
+🚬 rook, sigaret
+⚰ begrawe, dood, doodskis, kis
+🪦 graf, grafsteen, kopsteen
+⚱ as, begrafnis, begrafniskruik, dood, kruik
+🗿 gesig, moai, Paaseiland, reis, standbeeld
+🪧 betoging, plakkaat, protes
+🏧 ATM-teken, bank, kassier, kitsbank, OTM
+🚮 &quot;vullis in drom&quot;-teken, vullis, vullisblik
+🚰 drink, drinkbaar, drinkbare water, water
+♿ rolstoel-simbool, toegang
+🚹 kleedkamer, man, manskleedkamer, toilet
+🚺 kleedkamer, toilet, vrou, vrouekleedkamer
+🚻 kleedkamer, toilet
+🚼 baba, babasimbool, doekomruil
+🚾 kleedkamer, toilet, water, WC
+🛂 beheer, kontrole, paspoort, paspoortbeheer, paspoortkontrole
+🛃 doeane
+🛄 bagasie, bagasiesaal, haal
+🛅 bagasie, bagasiesluitkas, sluitkas
+⚠ waarskuwing
+🚸 kind, kinders stap oor, stap oor, verkeer, voetganger
+⛔ geen, nie, toegang, verbode, verkeer
+🚫 geen, nie, toegang, verbode
+🚳 fiets, fietse verbode, geen, verbode
+🚭 geen, nie, rook, verbode
+🚯 geen rommelstrooi, moenie rommel strooi nie, verbode, vullis
+🚱 moenie drink nie, niedrinkbaar, niedrinkbare water, water
+🚷 geen, nie, verbode, voetganger, voetgangers verbode
+📵 foon, geen, sel, selfone verbode, selfoon
+🔞 18, agtien, jonger as agtien verbode, minderjarig, ouderdomsbeperking, verbode
+☢ radioaktief, teken
+☣ biogevaar, teken
+⬆ noord, op, pyl, pyl na bo, rigting
+↗ noordoos, pyl, pyl na regs bo, rigting
+➡ oos, pyl, pyl na regs, regs, rigting
+↘ pyl, pyl na regs onder, rigting, suidoos
+⬇ af, pyl, pyl na onder, rigting, suid
+↙ pyl, pyl na links onder, rigting, suidwes
+⬅ links, pyl, pyl na links, rigting, wes
+↖ noordwes, pyl, pyl na links bo, rigting
+↕ pyl op en af, pyle
+↔ pyl links en regs, pyle
+↮ deurgehaal, linksregspyl met streep, streep
+↩ pyl, pyl na regs buig na links
+↪ pyl, pyl na links buig na regs
+⤴ pyl, pyl na regs buig op
+⤵ af, krulpyl na regs onder, pyl, pyl na regs buig af
+🔃 herlaai, kloksgewys, kloksgewyse vertikale pyle, pyl
+🔄 agteruit, antikloksgewys, knoppie, knoppie vir teenkloksgewyse pyle, pyl, teenkloksgewys, teenkloksgewyse pyle
+🔙 pyl, terug, terugpyl
+🔚 einde, eindpyl, pyl
+🔛 aan, aan!-pyl, merk, pyl
+🔜 binnekort, binnekortpyl, gou, pyl
+🔝 bopunt, op, pyl, top, toppyl
+🛐 aanbidding, godsdiens, plek van aanbidding
+⚛ ateïs, atoom, atoomsimbool
+🕉 godsdiens, Hindoe, om
+✡ Dawid, Dawidster, godsdiens, Jood, Joods, ster
+☸ Boeddhis, dharma, dharmawiel, godsdiens, wiel
+☯ godsdiens, jang, jin, jin-jang, tao, taois
+✝ christen, godsdiens, kruis, Latynse kruis
+☦ christen, godsdiens, kruis, ortodokse kruis
+☪ godsdiens, Islam, moslem, ster en sekelmaan
+☮ vrede, vredesimbool
+🕎 godsdiens, kandelaber, kershouer, menora
+🔯 fortuin, sespuntster met kol, ster
+♈ diereriem, ram, Ram-sterrebeeld
+♉ bul, Bul-sterrebeeld, diereriem, os
+♊ diereriem, tweeling, Tweeling-sterrebeeld
+♋ diereriem, krap, Kreef-sterrebeeld
+♌ diereriem, leeu, Leeu-sterrebeeld
+♍ diereriem, Maagd-sterrebeeld
+♎ balans, diereriem, geregtigheid, skaal, Weegskaal-sterrebeeld
+♏ diereriem, skerpioen, Skerpioen-sterrebeeld
+♐ boogskutter, Boogskutter-sterrebeeld, diereriem
+♑ boerbok, diereriem, Steenbok-sterrebeeld
+♒ diereriem, draer, water, Waterdraer-sterrebeeld
+♓ diereriem, vis, Visse-sterrebeeld
+⛎ diereriem, draer, slang, Slangdraer-sterrebeeld
+🔀 gekruis, pyle, skommel, skommelsnitteknoppie
+🔁 herhaal, herhaalknoppie, kloksgewys, pyle
+🔂 een, enkel, herhaalsnitknoppie, kloksgewys, pyle
+▶ driehoek, pyl, regs, speel, speelknoppie
+⏩ dubbel, pyl, spoelvorentoe-knoppie, vinnig, vorentoe
+⏭ driehoek, laaste, pyl, volgende, volgendesnit-knoppie
+⏯ driehoek, onderbreek, pyl, regs, speel, speel-of-onderbreekknoppie, wag
+◀ driehoek, links, pyl, speelterug-knoppie, terug
+⏪ dubbel, pyl, spoelterug-knoppie, terug
+⏮ driehoek, eerste, pyl, vorige, vorigesnit-knoppie
+🔼 driehoek, knoppie, op, opknoppie, pyl
+⏫ dubbel, op, pyl, vinnig-op-knoppie
+🔽 af, afknoppie, driehoek, knoppie, pyl
+⏬ af, dubbel, pyl, vinnig-af-knoppie
+⏸ dubbel, onderbreek, onderbreekknoppie, strepe, wag
+⏹ blok, stop, stopknoppie, vierkant
+⏺ kring, opneem, opneemknoppie, sirkel
+⏏ uitskiet, uitskietknoppie
+🎦 bioskoop, fliek, kamera, rolprent
+🔅 dof, flou, helderheid, verdofknoppie
+🔆 helder, helderheid, helderknoppie, skerp
+📶 antenna, antennastawe, sein, seinsterkte, selfoon, selfoonsein
+📳 foon, mobiel, sel, telefoon, vibrasiemodus, vibreer
+📴 af, foon, mobiel, sel, selfoon af, telefoon
+♀ vroulik, vroulik-teken
+♂ manlik, manlik-teken
+⚧ transgender, transgendersimbool
+✖ kanselleer, maal, maalteken, verkeerd, vermenigvuldig, x
+➕ plus, teken, wiskunde
+➖ minus, teken, wiskunde
+➗ deel, teken, wiskunde
+♾ altyd, oneindig, oneindigheid, universeel, vir ewig
+‼ dubbeluitroepteken, leesteken, teken, uitroep
+⁉ leesteken, teken, uitroep, uitroep-vraagteken, vraag
+❓ leesteken, rooi vraagteken, teken, vraag, vraagteken
+❔ buitelyn, leesteken, teken, vraag, wit vraagteken
+❕ buitelyn, leesteken, teken, uitroep, wit uitroepteken
+❗ leesteken, rooi, teken, uitroep, uitroepteken
+〰 golf, golfstreep, leesteken, streep
+💱 bank, geld, wisselkoers
+💲 dik dollarteken, dollar, geld, wisselkoers
+⚕ eskulaap, mediese simbool
+♻ herwin, herwinning, herwinningsimbool
+⚜ fleur, fleur de lis, lelie
+🔱 anker, drie, drietandvurkembleem, embleem, skip, vurk
+📛 etiket, naam, naametiket
+🔰 beginner, blaar, chevron, geel, groen, japannees, japanse beginnersimbool
+⭕ groot, hol rooi sirkel, o, rooi, sirkel
+✅ ✓, knoppie, merk, regmerk, regmerkknoppie
+☑ ✓, blokkie, merkblokkie met regmerk, regmerk
+✔ dik regmerk, merk, reg, regmerk
+❌ kanselleer, kruismerkie, maal, verkeerd, vermenigvuldig, x
+❎ kanselleer, kruismerkknoppie, maal, verkeerd, vermenigvuldig, x
+➰ krul, krullus, lus
+➿ dubbel, dubbelkrullus, krul, lus
+〽 begin, merk, stem, stembeginteken
+✳ agtspeekasterisk, asterisk, ster
+✴ agtpuntster, ster
+❇ ster, vonk, vonkster
+© kopiereg, kopieregmerk
+® geregistreer, registrasie, registrasiemerk
+™ handelmerk, handelsmerk, merk, tm
+🔠 ABCD, bokas, invoer, invoer- Latynse bokas, Latyn, letters
+🔡 ABCD, invoer, invoer- Latynse onderkas, Latyn, letters, onderkas
+🔢 1234, invoer, invoersyfers, syfers
+🔣 〒♪&amp;%, invoer, invoersimbole
+🔤 ABC, alfabet, invoer, invoer- Latynse letters, Latyn, letters
+🅰 A, A-knopie (bloedgroep), bloedgroep
+🆎 AB, AB-knopie (bloedgroep), bloedgroep
+🅱 B, B-knopie (bloedgroep), bloedgroep
+🆑 CL, CL-knopie
+🆒 COOL-knopie, koel
+🆓 FREE-knopie, gratis
+ℹ I, inligting
+🆔 ID, ID-knopie, identiteit
+Ⓜ M, M in sirkel, sirkel
+🆕 NEW-knopie, nuut
+🆖 NG, NG-knopie
+🅾 bloedgroep, O, O-knopie (bloedgroep)
+🆗 OK-knopie, oukei
+🅿 P-knopie, parkering
+🆘 hulp, SOS, SOS-knopie
+🆙 merk, op, UP!-knopie
+🆚 versus, vs, VS-knopie
+🈁 “hier”, Japannees, Japannese “hier”-knopie, Japannese “hier”-knoppie, katakana
+🈂 “diensfooi”, Japannees, Japannese “diensfooi”-knopie, Japannese “diensfooi”-knoppie, katakana
+🈷 “maandrekening”, ideogram, Japannees, Japannese “maandrekening”-knoppie
+🈶 “nie gratis nie”, ideogram, Japannees, Japannese “nie gratis nie”-knoppie
+🈯 “gereserveer”, ideogram, Japannees, Japannese “gereserveer”-knoppie
+🉐 “winskopie”, ideogram, Japannees, Japannese “winskopie”-knoppie
+🈹 “afslag”, ideogram, Japannees, Japannese “afslag”-knoppie
+🈚 “gratis”, ideogram, Japannees, Japannese “gratis”-knoppie
+🈲 “verbode”, ideogram, Japannees, Japannese “verbode”-knoppie
+🉑 “aanvaarbaar”, ideogram, Japannees, Japannese “aanvaarbaar”-knoppie
+🈸 &quot;aansoek&quot;, ideogram, Japannees, Japannese &quot;aansoek&quot;-knoppie
+🈴 &quot;slaagsyfer&quot;, ideogram, Japannees, Japannese &quot;slaagsyfer&quot;-knoppie
+🈳 &quot;vakant&quot;, ideogram, Japannees, Japannese &quot;vakant&quot;-knoppie
+㊗ &quot;veels geluk&quot;, ideogram, Japannees, Japannese &quot;veels geluk&quot;-knoppie
+㊙ &quot;geheim&quot;, ideogram, Japannees, Japannese &quot;geheim&quot;-knoppie
+🈺 &quot;oop vir besigheid&quot;, ideogram, Japannees, Japannese &quot;oop vir besigheid&quot;-knoppie
+🈵 &quot;geen vakant&quot;, ideogram, Japannees, Japannese &quot;geen vakant&quot;-knoppie
+🔴 geometries, rooi, sirkel
+🟠 oranje, sirkel
+🟡 geel, sirkel
+🟢 groen, sirkel
+🔵 blou, geometries, sirkel
+🟣 pers, sirkel
+🟤 bruin, sirkel
+⚫ geometries, sirkel, swart
+⚪ geometries, sirkel, wit
+🟥 rooi, vierkant
+🟧 oranje, vierkant
+🟨 geel, vierkant
+🟩 groen, vierkant
+🟦 blou, vierkant
+🟪 pers, vierkant
+🟫 bruin, vierkant
+⬛ geometries, groot swart vierkant, swart, vierkant
+⬜ geometries, groot wit vierkant, vierkant, wit
+◼ geometries, swart, swart mediumvierkant, vierkant
+◻ geometries, vierkant, wit, wit mediumvierkant
+◾ geometries, swart, swart mediumklein vierkant, vierkant
+◽ geometries, vierkant, wit, wit mediumklein vierkant
+▪ geometries, klein swart vierkant, swart, vierkant
+▫ geometries, klein wit vierkant, vierkant, wit
+🔶 diamant, geometries, groot oranje diamant, oranje
+🔷 blou, diamant, geometries, groot blou diamant
+🔸 diamant, geometries, klein oranje diamant, oranje
+🔹 blou, diamant, geometries, klein blou diamant
+🔺 driehoek, geometries, op, rooi, rooi driehoek wat op wys
+🔻 af, driehoek, geometries, rooi, rooi driehoek wat af wys
+💠 binne, diamant, diamant met ‘n kol, geometries, kol
+🔘 geometries, knoppie, radio, radioknoppie
+🔳 geometries, knoppie, vierkant, wit buitelyn, wit vierkant-knoppie
+🔲 geometries, knoppie, swart buitelyn, swart vierkant-knoppie, vierkant
+🏁 geruit, ruitvlag, vlag, wedren
+🚩 driehoek, driehoekige vlag, rooi, vlag
+🎌 gekruiste vlae, japannees, kruis, viering, vlag
+🏴 swart, vlag, wapper, wapperende swart vlag
+🏳 vlag, vrede, wapper, wapperende wit vlag, wit
+🏳‍🌈 reënboog, reënboogvlag
+🏳‍⚧ ligblou, pienk, transgender, transgendervlag, vlag, wit
+🏴‍☠ Jolly Roger, plunder, seerower, seerowervlag, skat
+¢ geld, munte, sent
+$ dollar, geld, USD
+£ EGP, GBP, geldeenheid, pond
+¥ CNY, geldeenheid, JPY, yen, yuan
+₢ BRL, cruzeiro, geldeenheid
+₣ frank, Franse frank, geldeenheid
+₤ geldeenheid, lier
+₥ abstrak, geldeenheid, mill, rekeningkunde, US
+₩ geldeenheid, Noord-Korea, Suid-Korea, won
+€ EUR, euro, geldeenheid
+₰ Duitse pennie, geldeenheid, pennie
+₱ geldeenheid, peso
+₳ ARS, austral, geldeenheid
+₶ geldeenheid, livre tournois
+₷ geldeenheid, spesmilo
+₹ geldeenheid, indiese roepee, roepee
+₽ geldeenheid, roebel
+₿ bitcoin, elektroniese geldeenheid, kriptogeld
+₨ geldeenheid, roepee
+﷼ geldeenheid, rial
+¹ boskrif, boskrif-een, een
+² boskrif, twee, vierkant
+³ boskrif, boskrifdrie, drie, gekubeer
+µ mate, mikroteken

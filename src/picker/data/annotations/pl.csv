@@ -1,0 +1,1661 @@
+{ nawias, nawias klamrowy, nawias otwierający, otwierający nawias klamrowy
+🏻 karnacja, karnacja jasna, odcień skóry, typ 1–2
+🏼 karnacja, karnacja średnio jasna, odcień skóry, typ 3
+🏽 karnacja, karnacja średnia, odcień skóry, typ 4
+🏾 karnacja, karnacja średnio ciemna, odcień skóry, typ 5
+🏿 karnacja, karnacja ciemna, odcień skóry, typ 6
+‾ nadkreślenie
+_ dolny myślnik, linia, podkreślenie, podkreślnik, znak podkreślenia
+- łącznik, łącznik-minus, minus, myślnik, pauza
+‐ dywiz, łącznik, myślnik
+– myślnik, półpauza, znak półpauzy
+— myślnik, pauza, znak pauzy
+― kreska, linia, myślnik, pozioma kreska
+・ katakana, kropka, kropka środkowa, kropka środkowa katakana
+, przecinek
+، arabski, przecinek
+、 ideograficzny, przecinek
+; średnik
+؛ arabski, średnik
+: dwukropek
+! wykrzyknąć, wykrzyknik, znak, znak wykrzyknika
+¡ odwrócony, wykrzyknik, znak wykrzyknika
+? pytajnik, pytanie, znak zapytania
+¿ odwrócony, odwrócony znak zapytania, pytajnik, znak zapytania
+؟ arabski, arabski znak zapytania, pytajnik, znak zapytania
+‽ interrobang
+. kropka, punkt, znak kropki
+… trzy kropki, wielokropek, znak wielokropka
+。 kropka, kropka chińska, kropka ideograficzna, znak ideograficzny
+· kropka, kropka środkowa, punkt, środek
+' apostrof, apostrof drukarski, cytat, pojedynczy apostrof
+‘ apostrof, cytat, lewy apostrof, pojedynczy apostrof
+’ apostrof, cytat, pojedynczy apostrof, prawy apostrof
+‚ apostrof, apostrof dolny, cytat, prawy apostrof dolny
+“ cudzysłów, cytat, lewy cudzysłów
+” cudzysłów, cytat, prawy cudzysłów
+„ cudzysłów, cytat, dolny cudzysłów, dolny prawy cudzysłów, prawy cudzysłów
+« cudzysłów, daszki, lewy, lewy cudzysłów ostrokątny, nawias ostry, nawiasy, szewron
+» cudzysłów, daszki, nawias ostry, nawiasy, prawy, prawy cudzysłów ostrokątny, szewron
+) nawias, nawias końcowy, nawias okrągły, nawias zamykający
+[ nawias, nawias kwadratowy, otwierający nawias kwadratowy
+] nawias, nawias kwadratowy, zamykający nawias kwadratowy
+} nawias, nawias klamrowy, nawias zamykający, zamykający nawias klamrowy
+〈 nawias, nawias ostrokątny, nawias otwierający, ostry nawias, otwierający nawias ostrokątny
+〉 nawias, nawias ostrokątny, nawias zamykający, ostry nawias, zamykający nawias ostrokątny
+《 nawias, nawias ostrokątny, podwójny nawias, podwójny otwierający nawias ostrokątny
+》 nawias, nawias ostrokątny, podwójny nawias, podwójny zamykający nawias ostrokątny
+「 lewy nawias, lewy sufit, nawias, nawias kątowy
+」 nawias, nawias kątowy, prawa podłoga, prawy nawias
+『 gruby lewy sufit, gruby nawias kątowy, nawias
+』 gruba prawa podłoga, gruby nawias kątowy, nawias
+【 nawias, nawias soczewkowy, otwierający czarny nawias soczewkowy
+】 nawias, nawias soczewkowy, zamykający czarny nawias soczewkowy
+〔 nawias, nawias zaokrąglony, otwierający nawias zaokrąglony
+〕 nawias, nawias zaokrąglony, zamykający nawias zaokrąglony
+〖 gruby nawias soczewkowy, nawias, otwierający gruby nawias soczewkowy
+〗 gruby nawias soczewkowy, nawias, zamykający gruby nawias soczewkowy
+§ artykuł, paragraf
+¶ akapit, znak, znak akapitu
+@ małpa, symbol małpy, znak małpy
+* gwiazdka, symbol gwiazdki, wieloznacznik
+/ slash, solidus, ukośnik, ukośny, znak ukośny
+\ backslash, ukośnik, ukośnik wsteczny
+& et, i, znak and
+# hash, kratka, krzyżyk, numer, płotek
+% procent, znak procenta
+‰ promil, symbol promila
+† crux philologorum, obelisk, obelos, obelus, sztylet, znak sztyletu
+‡ obelisk, obelos, obelus, podwójny, sztylet, znak podwójnego sztyletu
+• kropka, punktor
+‧ kropka, myślnik, podział, punkt, punkt podziału
+′ prim
+″ bis, prim, symbol bis
+‴ prim, ter
+‸ kareta
+※ odniesienie, znak odniesienia
+⁂ asteryzm
+` akcent, grawis, znak diakrytyczny
+´ akcent, akcent ostry, akcent silny, akut, znak diakrytyczny
+^ akcent, akcent przeciągły, cyrkumfleks, daszek, znak diakrytyczny
+¨ diereza, umlaut
+° stopień, symbol stopnia
+℗ muzyczne, nagranie, znak praw autorskich, znak praw autorskich do nagrań muzycznych
+← lewo, strzałka, strzałka skierowana w lewo
+↚ przekreślona strzałka w lewo
+→ prawo, strzałka, strzałka skierowana w prawo
+↛ przekreślona strzałka w prawo
+↑ góra, strzałka, strzałka skierowana w górę
+↓ dół, strzałka, strzałka skierowana w dół
+↜ falista strzałka w lewo
+↝ falista strzałka w prawo
+↞ strzałka w lewo z podwójnym grotem
+↟ strzałka w górę z podwójnym grotem
+↠ strzałka w prawo z podwójnym grotem
+↡ strzałka w dół z podwójnym grotem
+↢ strzałka w lewo z lotką
+↣ strzałka w prawo z lotką
+↤ strzałka w lewo z kreski
+↥ strzałka w górę z kreski
+↦ strzałka w prawo z kreski
+↧ strzałka w dół z kreski
+↨ strzałka w górę i w dół z podstawą
+↫ strzałka w lewo z pętlą
+↬ strzałka w prawo z pętlą
+↭ falista strzałka w lewo i prawo
+↯ zygzakowata strzałka w dół
+↰ strzałka w górę z grotem skierowanym w lewo
+↱ strzałka w górę z grotem skierowanym w prawo
+↲ strzałka w dół z grotem skierowanym w lewo
+↳ strzałka w dół z grotem skierowanym w prawo
+⇅ dół, góra, strzałka, strzałki skierowane w górę i w dół
+⇆ lewo, prawo, strzałka, strzałka skierowana w lewo nad strzałką skierowaną w prawo, strzałka w lewo nad strzałką w prawo
+∆ delta, trójkąt
+∇ nabla, trójkąt
+∈ element, jest elementem, należy do, zbiór, znak przynależności do zbioru
++ dodawać, dodawanie, plus
+± plus-minus
+÷ dzielenie, iloraz, podzielić, znak dzielenia, znak ilorazu
+× iloczyn, mnożenie, mnożyć, razy, znak iloczynu, znak mnożenia
+< mniej, mniej niż, mniejsze niż
+= równość, znak równości
+≠ różne, znak nierówności
+> więcej, więcej niż, większe niż
+¬ negacja, zaprzeczenie
+| kreska, kreska pionowa, linia pionowa, pipe
+~ fala, tylda, wężyk
+− minus, odejmować, odejmowanie
+⁻ indeks górny, minus, minus w indeksie górnym
+√ kwadratowy, pierwiastek
+∞ nieskończoność, znak nieskończoności
+∩ część wspólna zbiorów, iloczyn zbiorów, przecięcie
+∪ suma zbiorów, zbiór
+≈ około, prawie równe, w przybliżeniu
+≡ identyczny, identyczny z, równoważny, tożsamy, tożsamy z, trzy kreski
+≤ mniej niż, mniejsze niż lub równe, równa się, równe, różne
+≥ równa się, równe, różne, więcej niż, większe niż lub równe
+⊂ jest zawarty w, podzbiór, zbiór
+▲ strzałka, trójkąt, w górę, wypełniony, wypełniony trójkąt skierowany w górę
+▼ strzałka, trójkąt, w dół, wypełniony, wypełniony trójkąt skierowany w dół
+◊ karo, romb
+○ okrąg, pierścień
+● koło, wypełniony okrąg
+◯ duży okrąg, okrąg, pierścień
+♪ muzyka, nuta, ósemka
+♭ bemol, muzyka, ton, znak chromatyczny
+♯ krzyżyk, muzyka, ton, znak chromatyczny
+😀 roześmiana buźka, szeroko uśmiechnięta twarz
+😃 uśmiech, uśmiechnięta twarz z otwartymi ustami, wesoły
+😄 uśmiech, uśmiechnięta twarz z otwartymi ustami i roześmianymi oczami, wesoły
+😁 śmiech, szeroko uśmiechnięta twarz o roześmianych oczach, uśmiech, wyszczerzone, zęby
+😆 satysfakcja, uśmiech, uśmiechnięta twarz z przymrużonymi oczami, wesoły
+😅 kropla potu, uśmiech, uśmiechnięta twarz z otwartymi ustami, oblana zimnym potem, wesoły
+🤣 kulać się, śmiech, tarza się ze śmiechu
+😂 łzy, śmiech, twarz ze łzami radości
+🙂 buźka, lekko uśmiechnięta twarz
+🙃 do góry nogami, odwrócona twarz
+😉 puszczać oko, twarz puszczająca oko
+😊 przyjazny, serdeczny, uśmiech, uśmiechnięta twarz o roześmianych oczach
+😇 nic nie zrobiłem, świętoszek, uśmiechnięta twarz z aureolą
+🥰 uśmiechnięta buźka z sercami, uśmiechnięta twarz z sercami, uwielbienie, zadurzenie, zakochany
+😍 buźka, kocham, serca, uśmiech, uśmiechnięta twarz z oczami w kształcie serca, zakochany
+🤩 buźka, gwiazdy, zafascynowanie, zafascynowany
+😘 całus, kocham, ślę całusa, twarz przesyłająca całusa
+😗 całująca twarz, całus, ślę całusa
+☺ buźka, uśmiech, uśmiechnięta twarz, zrelaksowany
+😚 całująca twarz z zamkniętymi oczami, całus, ślę całusa
+😙 całująca twarz o roześmianych oczach, całus, ślę całusa
+🥲 dumny, łza, ulga, uśmiechnięta buźka ze łzą, uśmiechnięty, wdzięczny, wzruszony
+😋 oblizywać się, twarz delektująca się pysznym jedzeniem
+😛 buźka pokazująca język, twarz wystawiająca język
+😜 język, mrugnięcie, pokazuję język, twarz wystawiająca język i puszczająca oko
+🤪 duże, małe, oko, szalona twarz
+😝 język, okropne, pokazywać język, smak, twarz ze zmrużonymi oczami wystawiająca język, zamknięte oczy
+🤑 hajs, kasa, pieniądze, twarz, twarz z pieniędzmi na ustach
+🤗 ściskam, twarz z gestem przytulania, uśmiech
+🤭 twarz z ręką na ustach, ups
+🤫 cicho, uciszać, uciszająca twarz
+🤔 buźka, myśląca twarz, myślę, zamyślony, zastanawiam się
+🤐 buzia na kłódkę, nic nie powiem, twarz z zamkiem błyskawicznym na ustach
+🤨 brew, buźka, sceptyczny, twarz z podniesioną brwią
+😐 hm, neutralna twarz, nic, nie mam zdania
+😑 nic, nie mam zdania, nie obchodzi mnie, twarz bez wyrazu
+😶 buźka, cisza, nic nie mówię, twarz bez ust
+😶‍🌫 bujać w obłokach, głowa w chmurach, twarz w chmurach, zamyślenie
+😏 twarz z uśmieszkiem, uśmieszek
+😒 niezadowolona buźka, niezadowolona twarz
+🙄 buźka, przewracam oczami, twarz przewracająca oczami
+😬 grymaśna buźka, twarz z grymasem
+😮‍💨 gwizd, twarz wypuszczająca powietrze, ulga, westchnienie, wydmuchiwać powietrze, wypuszczać powietrze
+🤥 długi nos, kłamać, pinokio, twarz kłamcy
+😌 odprężona buźka, twarz z wyrazem ulgi
+😔 zamyślona buźka, zamyślona twarz
+😪 senna twarz, śpiąca buźka
+🤤 ślina, śliniąca się twarz, ślinka
+😴 sen, spanie, śpiąca twarz, twarz, zzz
+😷 choroba, lekarz, maska, operacja, pielęgniarka, twarz, twarz w masce medycznej
+🤒 choroba, gorączka, temperatura, termometr, twarz z termometrem
+🤕 bandaż, czoło, głowa, rana, skaleczenie, twarz z bandażem
+🤢 mdłości, twarz z mdłościami, wymiotować
+🤮 chory, wymiotująca twarz, wymioty
+🤧 katar, kichać, kichająca twarz, na zdrowie, smarkanie
+🥵 czerwona buźka, rozgrzana buźka, rozgrzana twarz, rozpalony, spocony, udar cieplny, upał
+🥶 mróz, niebieska twarz, odmrożenie, sopel lodu, zimno, zmarznięta twarz
+🥴 faliste usta, na gazie, nierówne oczy, odurzony, pod wpływem, wstawiony, zamroczona twarz
+😵 oszołomiona twarz, oszołomiony
+😵‍💫 spirale, twarz ze spiralnymi oczami, wow, zahipnotyzowana twarz, zawroty głowy
+🤯 eksplodująca głowa, szok
+🤠 głowa w kapeluszu kowbojskim, kapelusz, kowboj, kowbojka
+🥳 czapeczka, piszczałka, przyjęcie, świętowanie, świętująca buźka, świętująca twarz, trąbka
+🥸 anonimowy, buźka w przebraniu, incognito, nos, okulary, przebranie, twarz, wąsy
+😎 luzak, na luzie, okulary, uśmiechnięta twarz w okularach przeciwsłonecznych, zadowolony
+🤓 buźka w okularach, inteligent, kujon
+🧐 twarz z monoklem, wyniosły
+😕 zakłopotana buźka, zdezorientowana twarz
+😟 zmartwiona buźka, zmartwiona twarz
+🙁 grymas, lekko zachmurzona twarz, niezadowolenie
+☹ grymas, niezadowolenie, zachmurzona twarz
+😮 twarz z otwartymi ustami, zaskoczenie, zaskoczona buźka
+😯 zaskoczenie, zaskoczona buźka, zdumiona twarz
+😲 zadziwiona twarz, zaskoczenie, zaskoczona buźka
+😳 twarz z rumieńcami, twarz z wypiekami
+🥺 błagająca twarz, błaganie, litość, słodkie oczy
+😦 rozzłoszczona buźka, zachmurzona twarz z otwartymi ustami
+😧 udręczona twarz, złość
+😨 przestraszona twarz, wystraszona buźka
+😰 zaniepokojona twarz oblana potem, zziajana buźka
+😥 smutna twarz z wyrazem ulgi, smutna ulga
+😢 buźka ze łzą w oku, płacząca twarz
+😭 głośno płacząca twarz, zapłakana buźka
+😱 krzycząca buźka, twarz krzycząca ze strachu
+😖 zakłopotana twarz, zirytowana buźka
+😣 napięcie, uparta twarz, zacięta twarz
+😞 rozczarowana buźka, rozczarowana twarz
+😓 kropla potu, spocony, twarz ze spuszczonymi oczami oblana potem
+😩 zmęczenie, zmęczona buźka, znużona twarz
+😫 zmęczenie, zmęczona buźka, zmęczona twarz
+🥱 nuda, ziewać, ziewająca twarz, zmęczenie, znudzony
+😤 prychająca twarz, triumf, twarz z parą wylatującą z nosa, wygrana
+😡 dąsy, nadąsana twarz, twarz, wściekłość, złość
+😠 rozgniewana buźka, zagniewana twarz
+🤬 przekleństwo, twarz z symbolami na ustach
+😈 diabełek, fantasy, rogi, różki, uśmiechnięta twarz z rogami, wesoły
+👿 diabełek, fantasy, rogi, różki, smutny, zagniewana twarz z rogami
+💀 czaszka, duch, kościotrup, potwór, śmierć, szkielet, trupia czaszka
+☠ czaszka z piszczelami, duch, kościotrup, piraci, piszczele, potwór, śmierć, szkielet, trupia czaszka
+💩 gnój, kupa, obornik, odchody, potwór, twarz
+🤡 cyrk, klown, twarz klauna
+👹 maska, ogr, potwór
+👺 diabeł, goblin, maska, stwór
+👻 duch, duszek, język, wesoły duch
+👽 kosmita, obcy, pozaziemski, twarz, ufo, ufoludek
+👾 kosmiczny potwór, kosmita, obcy, potwór, pozaziemski, twarz, ufo
+🤖 głowa robota, monstrum, robot, twarz
+😺 kot, uśmiech, uśmiechnięty kot, uśmiechnięty kot z otwartym pyszczkiem, zęby
+😸 kot, oczy, roześmiany, uśmiech, uśmiechnięty kot o wesołych oczach, wesoły
+😹 kot, kot ze łzami radości, płaczę ze śmiechu, uśmiech, zęby
+😻 kot, miłość, oczy, serca, uśmiechnięty kot z oczami w kształcie serca, zakochany
+😼 ironia, ironiczny, kot, kot z drwiącym uśmiechem, kpiarski, kpina
+😽 całuję, całuski, kot, kot przesyłający całusa, rumieniec
+🙀 kot, przestraszony kot, w szoku, zaskoczony, zdumiony, zszokowany
+😿 kot, łza, płaczący kot, płaczę, smutny
+😾 grymas, kot, nadąsany kot, obrażony
+🙈 gest, małpa zasłaniająca oczy, nie, nie widzę, nie widzieć, niedobre, zabronione, zakrywam oczy
+🙉 gest, małpa zasłaniająca uszy, nie, nie słyszę, nie słyszeć, niedobre, zabronione, zakrywam uszy
+🙊 co ja mówię, gest, małpa zasłaniająca pyszczek, nie, nie mówić, nie mówię, niedobre, zabronione, zakrywam usta
+💋 odcisk ust, pocałunek, ślad po pocałunku, usta
+💌 liścik, list, list miłosny, miłość, serce, wiadomość
+💘 przebite strzałą, serce przebite strzałą, serce ze strzałą
+💝 serce, serce ze wstążką, walentynki, wstążka
+💖 błyszczące serce, migoczące serce
+💗 bicie serca, puls, rosnące serce, serce rośnie, tętno, zdenerwowany
+💓 bijące serce, kocham cię
+💞 miłość, para, serca dwa, tańczące serca, wirujące serca
+💕 dwa serca, kocham, miłość, serca
+💟 dekoracja, dekoracja z sercem, ozdoba
+❣ czerwony wykrzyknik, serce, wykrzyknik, wykrzyknik w kształcie serca, znak interpunkcyjny
+💔 pęknięte, serce, złamane serce
+❤‍🔥 miłość, płomienie, płonąć, serce, serce w płomieniach, święte serce
+❤‍🩹 dobrze, lepiej, lepsze samopoczucie, uleczone serce, zdrowsze
+❤ czerwone, kocham, miłość, serce
+🧡 pomarańczowe, pomarańczowe serce
+💛 serce, żółte
+💚 serce, zielone
+💙 niebieskie, serce
+💜 fioletowe, purpurowe serce, serce
+🤎 brązowe, serce
+🖤 czarne serce, czarny, serce, zło
+🤍 białe, serce
+💯 100, setka, sto punktów, stówa, stówka
+💢 symbol gniewu, złość
+💥 kolizja, wybuch, żartobliwy
+💫 spadająca gwiazda, zawroty głowy
+💦 krople, krople potu, pot, woda
+💨 pęd, pędzić, podmuch wiatru, szybkie poruszanie się, szybkość, wiatr
+🕳 dziura, otwór
+💣 bomba, żartobliwy
+💬 dialog, dymek, rozmowa
+👁‍🗨 dymek, oko, oko w dymku, wzrok
+🗨 dialog, dymek, lewostronny dymek, rozmowa
+🗯 dymek, prawostronny dymek złości, zdenerwowany, złość
+💭 dymek myśli, myśl, myśleć
+💤 chrapanie, zabawny, żartobliwy
+👋 machająca dłoń
+🤚 powitanie, pozdrowienie, pożegnanie, uniesiona dłoń, wzniesiony grzbiet dłoni
+🖐 otwarta dłoń wszystkie palce, palce, rozpostarte palce, uniesiona otwarta dłoń
+✋ dłoń, stop, uwaga, wzniesiona dłoń
+🖖 dłoń, palce, salut wolkański, wolkański
+👌 dłoń z gestem OK, znak OK
+🤌 gest, palce, przesłuchanie, sarkazm, złączone palce
+🤏 dłoń z gestem „trochę”, mała ilość
+✌ gest V, gest zwycięstwa, znak V, znak Victorii
+🤞 kciuki, powodzenia, skrzyżowane palce, trzymać
+🤟 gest Kocham cię, kocham, ręka
+🤘 gest rogów, rocker, rogi, znak rockersów
+🤙 dłoń w geście „Zadzwoń do mnie”, dzwonić, telefonować
+👈 lewa strona, palec, palec w lewo, w lewo, wskazujący
+👉 dłoń z palcem wskazującym w prawo, palec, prawa strona, w prawo, wskazujący
+👆 dłoń z palcem wskazującym w górę, do góry, góra, palec, w górę, wskazujący
+🖕 gest, środkowy palec, wulgarny gest
+👇 dłoń z palcem wskazującym w dół, dół, na dół, palec, w dół, wskazujący
+☝ do góry, góra, palec, palec wskazujący w górę, w górę, wskazujący
+👍 brawo, kciuk w górę, lubię, OK, podoba mi się
+👎 brzydkie, kciuk w dół, nie lubię, nie podoba mi się
+✊ pięść, uniesiona, wzniesiona pięść, zaciśnięta
+👊 cios pięścią, pięść, pięść od przodu, prawy prosty, sierpowy, zaciśnięta pięść
+🤛 cios, pięść, pięść skierowana w lewo, uderzenie z prawej
+🤜 cios, pięść, pięść skierowana w prawo, uderzenie z lewej
+👏 brawa, klaskać, klaskanie, oklaski
+🙌 hura!, super, wzniesione ręce
+👐 otwarte dłonie, puste ręce, złapać
+🤲 dłonie do góry razem, modlitwa
+🤝 powitanie, spotkanie, uścisk, uścisk dłoni, zgoda
+🙏 modlitwa, prosić, złożone ręce
+✍ pisać, pisać odręcznie, pisząca dłoń, piszę
+💅 ciało, kosmetyki, lakier do paznokci, lakierować paznokcie, manicure, pielęgnacja
+🤳 aparat, selfie, telefon, zdjęcie
+💪 mięśnie, muskularny, muskuły, napięty biceps, siła, silny
+🦾 dostępność, mechaniczne ramię, proteza
+🦿 dostępność, proteza, proteza nogi
+🦵 kończyna, kopniak, noga
+🦶 kopniak, stopa, tupanie
+👂 ciało, ucho
+🦻 niedosłuch, niedosłyszący, ucho z aparatem słuchowym
+👃 ciało, nos
+🧠 inteligentny, mózg
+🫀 anatomia, bicie serca, kardiologia, mięsień sercowy, narząd, organ, puls, serce
+🫁 narząd, oddech, oddychanie, organ, płuca, wdech, wydech
+🦷 dentysta, stomatolog, ząb
+🦴 kość, szkielet
+👀 oczy, oko, twarz
+👁 ciało, oko
+👅 ciało, język
+👄 ciało, usta, wargi
+👶 dziecko, niemowlę
+🧒 dziecko, młody, płeć neutralna
+👦 chłopiec
+👧 dziewczynka, panna, znak zodiaku
+🧑 dorosły, płeć neutralna
+👱 blond, osoba z włosami blond, włosy
+👨 mężczyzna
+🧔 broda, osoba, osoba z brodą
+🧔‍♂ broda, mężczyzna, mężczyzna z brodą
+👱‍♂ blondyn, mężczyzna
+👩 kobieta
+🧔‍♀ broda, kobieta, kobieta z brodą
+👱‍♀ blondynka, kobieta
+🧓 płeć neutralna, starszy dorosły, stary
+👴 starszy mężczyzna, staruszek, starzec
+👵 kobieta, starsza kobieta, staruszka
+🙍 smutek na twarzy, smutny, zachmurzona osoba
+🙍‍♂ mężczyzna, zachmurzony mężczyzna, zmarszczone brwi
+🙍‍♀ kobieta, zachmurzona kobieta, zmarszczone brwi
+🙎 buźka, kapryśna, mina, nadąsana osoba, niezadowolona
+🙎‍♂ mężczyzna, nadąsany, niezadowolony
+🙎‍♀ kobieta, nadąsana, niezadowolona
+🙅 nie wolno, osoba pokazująca gest NIE, zakaz
+🙅‍♂ mężczyzna, mężczyzna pokazujący gest NIE, nie, ręce, zakaz
+🙅‍♀ kobieta, kobieta pokazująca gest NIE, nie, ręce, zakaz
+🙆 OK, osoba pokazująca gest OK, ręce
+🙆‍♂ mężczyzna, mężczyzna pokazujący „ojej!”, ojej, ręce, zachwyt
+🙆‍♀ kobieta, kobieta pokazująca gest OK, ręce
+💁 osoba z wystawioną dłonią, pomoc, pomocna dłoń, pomogę, życzliwy
+💁‍♂ mężczyzna, mężczyzna z wystawioną dłonią, otwarta dłoń
+💁‍♀ kobieta, kobieta z wystawioną dłonią, otwarta dłoń
+🙋 osoba podnosząca rękę, ręka do góry, witaj!
+🙋‍♂ gest, hej, mężczyzna, mężczyzna podnoszący rękę, powitanie
+🙋‍♀ gest, hej, kobieta, kobieta podnosząca rękę, powitanie
+🧏 dostępność, głuchota, osoba głucha, słuch, ucho
+🧏‍♂ głuchota, głuchy mężczyzna, mężczyzna
+🧏‍♀ głucha kobieta, głuchota, kobieta
+🙇 opuszczona głowa, osoba w ukłonie, przepraszam, przykro mi
+🙇‍♂ gest, mężczyzna, mężczyzna w ukłonie, przepraszam, ukłon
+🙇‍♀ gest, kobieta, kobieta w ukłonie, przepraszam, ukłon
+🤦 fejspalm, niedowierzanie, osoba trzymająca się za czoło, załamanie
+🤦‍♂ brak słów, facepalm, mężczyzna, mężczyzna trzymający się za czoło, niedowierzanie, załamka
+🤦‍♀ brak słów, fejspalm, kobieta, kobieta trzymająca się za czoło, niedowierzanie, załamka
+🤷 niewiedza, obojętność, osoba wzruszająca ramionami, wątpliwość
+🤷‍♂ mężczyzna, mężczyzna wzruszający ramionami, obojętność, wątpliwość, wzruszenie ramion
+🤷‍♀ kobieta, kobieta wzruszająca ramionami, obojętność, wątpliwość, wzruszenie ramion
+🧑‍⚕ lekarz, opieka zdrowotna, pracownik służby zdrowia, terapeuta
+👨‍⚕ lekarz, mężczyzna, terapeuta
+👩‍⚕ kobieta, lekarka, terapeutka
+🧑‍🎓 absolwent, student
+👨‍🎓 mężczyzna, student
+👩‍🎓 kobieta, studentka
+🧑‍🏫 instruktor, nauczyciel, pedagog, profesor
+👨‍🏫 mężczyzna, nauczyciel, profesor, wykładowca
+👩‍🏫 kobieta, nauczycielka, profesor, wykładowczyni
+🧑‍⚖ orzekać, sędzia
+👨‍⚖ mężczyzna, sędzia
+👩‍⚖ kobieta, kobieta sędzia, sędzina
+🧑‍🌾 farmer, ogrodnik, rolnik
+👨‍🌾 farmer, mężczyzna, ogrodnik, rolnik
+👩‍🌾 farmerka, kobieta, ogrodniczka, rolniczka
+🧑‍🍳 kucharz, szef kuchni
+👨‍🍳 kucharz, mężczyzna, szef kuchni
+👩‍🍳 kobieta, kucharka, szef kuchni
+🧑‍🔧 elektryk, hydraulik, mechanik
+👨‍🔧 elektryk, hydraulik, mechanik, mężczyzna
+👩‍🔧 elektryk, hydraulik, kobieta, mechanik
+🧑‍🏭 fabryka, montażysta, pracownik, pracownik fabryki
+👨‍🏭 fabryka, mężczyzna, mężczyzna pracownik fabryki, montażysta, pracownik, pracownik fabryki
+👩‍🏭 fabryka, kobieta, montażystka, pracownica, pracownica fabryki
+🧑‍💼 architekt, biznesmen, menedżer, praca biurowa, pracownik biurowy
+👨‍💼 architekt, biuro, biznesmen, mężczyzna, mężczyzna pracownik biurowy, pracownik biurowy
+👩‍💼 architekt, biuro, bizneswoman, kobieta, pracownica biurowa
+🧑‍🔬 biolog, chemik, fizyk, inżynier, naukowiec
+👨‍🔬 biolog, chemik, inżynier, mężczyzna, mężczyzna naukowiec
+👩‍🔬 biolog, chemik, inżynier, kobieta, kobieta naukowiec
+🧑‍💻 deweloper, oprogramowanie, programista, technolog, wynalazca
+👨‍💻 mężczyzna, mężczyzna technolog, oprogramowanie, programista, wynalazca
+👩‍💻 kobieta, kobieta technolog, oprogramowanie, programistka, wynalazczyni
+🧑‍🎤 aktor, artysta, gwiazda, muzyka, piosenkarz
+👨‍🎤 aktor, mężczyzna, piosenkarz, rock
+👩‍🎤 aktorka, kobieta, piosenkarka, rock
+🧑‍🎨 artysta, malarz, paleta
+👨‍🎨 artysta, mężczyzna, paleta
+👩‍🎨 artystka, kobieta, paleta
+🧑‍✈ pilot, pilotować, samolot
+👨‍✈ mężczyzna, pilot, samolot
+👩‍✈ kobieta, pilot, samolot
+🧑‍🚀 astronauta, rakieta, statek kosmiczny
+👨‍🚀 astronauta, kosmos, mężczyzna, rakieta
+👩‍🚀 astronautka, kobieta, kosmos, rakieta
+🧑‍🚒 straż pożarna, strażak, wóz strażacki
+👨‍🚒 mężczyzna, strażak, wóz strażacki
+👩‍🚒 kobieta, strażak, wóz strażacki
+👮 oficer, policjant
+👮‍♂ glina, mężczyzna, oficer, policjant
+👮‍♀ glina, kobieta, kobieta policjant, oficer, policjantka
+🕵 detektyw, śledczy, szpieg
+🕵‍♂ detektyw, mężczyzna, szpieg
+🕵‍♀ detektyw, kobieta, szpieg
+💂 gwardzista, strażnik
+💂‍♂ gwardzista, mężczyzna, strażnik
+💂‍♀ gwardzistka, kobieta, kobieta gwardzista, strażniczka
+🥷 niewidoczny, ninja, skradać się, ukryty, wojownik
+👷 budowlaniec, kask
+👷‍♂ budowlaniec, mężczyzna, robotnik
+👷‍♀ budowlaniec, kobieta, robotnik
+🤴 książę
+👸 bajka, baśń, królewna, księżniczka
+👳 mężczyzna, osoba w turbanie, turban
+👳‍♂ mężczyzna, mężczyzna w turbanie, turban
+👳‍♀ kobieta, kobieta w turbanie, turban
+👲 chińska czapka, czapka, gua pi mao, mężczyzna w chińskiej czapce
+🧕 chusta, hidżab, kobieta w chuście
+🤵 elegancja, osoba, osoba w smokingu, smoking
+🤵‍♂ mężczyzna, mężczyzna w smokingu, smoking
+🤵‍♀ kobieta, kobieta w smokingu, smoking
+👰 osoba, osoba w welonie, panna młoda, ślub, welon, wesele
+👰‍♂ mężczyzna, mężczyzna w welonie, welon
+👰‍♀ kobieta, kobieta w welonie, welon
+🤰 ciąża, kobieta w ciąży
+🤱 karmienie piersią, niemowlę, pierś
+👩‍🍼 karmienie, karmienie piersią, kobieta, kobieta karmiąca niemowlę, niemowlę
+👨‍🍼 karmienie, mężczyzna, mężczyzna karmiący niemowlę, niemowlę
+🧑‍🍼 karmienie, karmienie piersią, niemowlę, osoba, osoba karmiąca niemowlę
+👼 aniołek, bajka, buzia aniołka, fantasy
+🎅 boże narodzenie, legenda, święta, święty mikołaj, Święty Mikołaj
+🤶 mikołaj, mikołajowa, święta, żona św. Mikołaja
+🧑‍🎄 Boże Narodzenie, Mikołaj, Mikołajka, święta
+🦸 bohater, bohaterka, pozytywny, superbohater, supermoc
+🦸‍♂ bohater, mężczyzna, mężczyzna superbohater, pozytywny, supermoc
+🦸‍♀ bohaterka, kobieta, kobieta superbohater, pozytywna, supermoc
+🦹 czarny charakter, przestępca, superłotr, supermoc, złoczyńca
+🦹‍♂ czarny bohater, mężczyzna, mężczyzna superłotr, przestępca, supermoc, złoczyńca
+🦹‍♀ czarny bohater, kobieta, kobieta superłotr, przestępca, supermoc, złoczyńca
+🧙 czarnoksiężnik, czarodziej, mag
+🧙‍♂ czarnoksiężnik, czarodziej, mężczyzna mag
+🧙‍♀ czarownica, kobieta mag, wiedźma
+🧚 Oberon, Puk, Tytania, wróżka
+🧚‍♂ mężczyzna wróżka, Oberon, Puk
+🧚‍♀ kobieta wróżka, Tytania
+🧛 Drakula, nieumarli, wampir
+🧛‍♂ Drakula, mężczyzna wampir, nieumarły
+🧛‍♀ kobieta wampir, nieumarli
+🧜 syrena
+🧜‍♂ mężczyzna syrena, Tryton
+🧜‍♀ kobieta syrena, syrena
+🧝 elf, magiczny
+🧝‍♂ magiczny, mężczyzna elf
+🧝‍♀ kobieta elf, magiczny
+🧞 dżin
+🧞‍♂ dżin, mężczyzna dżin
+🧞‍♀ dżin, kobieta dżin
+🧟 chodzące trupy, nieumarli, zombie
+🧟‍♂ chodzące trupy, mężczyzna zombie, nieumarli
+🧟‍♀ chodzące trupy, kobieta zombie, nieumarli
+💆 kosmetyczka, masaż, osoba podczas masażu, salon masażu
+💆‍♂ głowa, masaż, mężczyzna, mężczyzna podczas masażu, twarz
+💆‍♀ głowa, kobieta, kobieta podczas masażu, masaż, twarz
+💇 cięcie włosów, fryzjerka, fryzura, osoba podczas strzyżenia
+💇‍♂ fryzura, mężczyzna, mężczyzna podczas strzyżenia, strzyżenie
+💇‍♀ fryzura, kobieta, kobieta podczas strzyżenia, strzyżenie
+🚶 idąca osoba, iść, na piechotę, piechur, pieszo, spacer
+🚶‍♂ chodzenie, idący mężczyzna, mężczyzna, piechur, spacer
+🚶‍♀ chodzenie, idąca kobieta, kobieta, piechur, spacer
+🧍 stać, stoi, stojąca osoba
+🧍‍♂ mężczyzna, stać, stojący mężczyzna
+🧍‍♀ kobieta, stać, stojąca kobieta
+🧎 klęcząca osoba, klęczeć, na kolanach
+🧎‍♂ klęczący mężczyzna, klęczeć, mężczyzna
+🧎‍♀ klęcząca kobieta, klęczeć, kobieta
+🧑‍🦯 dostępność, niewidoma, niewidomy, osoba z białą laską
+👨‍🦯 dostępność, mężczyzna, mężczyzna z białą laską, niewidomy
+👩‍🦯 dostępność, kobieta, kobieta z białą laską, niewidoma
+🧑‍🦼 dostępność, osoba na elektrycznym wózku inwalidzkim, wózek inwalidzki
+👨‍🦼 dostępność, mężczyzna, mężczyzna na elektrycznym wózku inwalidzkim, wózek inwalidzki
+👩‍🦼 dostępność, kobieta, kobieta na elektrycznym wózku inwalidzkim, wózek inwalidzki
+🧑‍🦽 dostępność, osoba na wózku inwalidzkim, wózek inwalidzki
+👨‍🦽 dostępność, mężczyzna, mężczyzna na wózku inwalidzkim, wózek inwalidzki
+👩‍🦽 dostępność, kobieta, kobieta na wózku inwalidzkim, wózek inwalidzki
+🏃 bieg, bieganie, biegnąca osoba, maraton, pośpiech
+🏃‍♂ bieg, bieganie, biegnący mężczyzna, maraton, mężczyzna
+🏃‍♀ bieg, bieganie, biegnąca kobieta, kobieta, maraton
+💃 tańcząca kobieta, tańczyć, taniec
+🕺 tańczący mężczyzna, tańczyć, taniec
+🕴 biznesmen, garnitur, lewitacja, lewitować, lewitujący mężczyzna w garniturze, mężczyzna
+👯 dziewczyny, kobiety, króliczki, osoby z uszami królika na przyjęciu, tancerki, uszy
+👯‍♂ impreza, królicze uszy, mężczyźni, mężczyźni z uszami królika na przyjęciu, tancerze
+👯‍♀ impreza, kobiety, kobiety z uszami królika na przyjęciu, królicze uszy, tancerki
+🧖 osoba w zaparowanym pomieszczeniu, sauna, zaparowane pomieszczenie
+🧖‍♂ mężczyzna w zaparowanym pomieszczeniu, sauna, zaparowane pomieszczenie
+🧖‍♀ kobieta w zaparowanym pomieszczeniu, sauna, zaparowane pomieszczenie
+🧗 osoba wspinająca się, wspinacz
+🧗‍♂ mężczyzna wspinający się, wspinacz
+🧗‍♀ kobieta wspinająca się, wspinacz
+🤺 osoba uprawiająca szermierkę, sport, szermierka, szermierz, szpada
+🏇 jeździec, koń, wyścigi konne
+⛷ narciarz, narty, śnieg, stok
+🏂 snowboard, snowboardzista
+🏌 golf, osoba grająca w golfa, piłka
+🏌‍♂ golf, mężczyzna, mężczyzna grający w golfa
+🏌‍♀ golf, kobieta, kobieta grająca w golfa
+🏄 deska, fale, surfing, surfująca osoba
+🏄‍♂ deska, mężczyzna, surfing, surfujący mężczyzna
+🏄‍♀ deska, kobieta, surfing, surfująca kobieta
+🚣 łódka, osoba wiosłująca w łodzi, pojazd
+🚣‍♂ łódka, mężczyzna, mężczyzna wiosłujący w łodzi, wiosłowanie
+🚣‍♀ kobieta, kobieta wiosłująca w łodzi, łódka, wiosłowanie
+🏊 kraulem, pływająca osoba, pływak
+🏊‍♂ kraul, mężczyzna, pływający mężczyzna, pływanie
+🏊‍♀ kobieta, kraul, pływająca kobieta, pływanie
+⛹ kozłować, osoba kozłująca piłkę, piłka
+⛹‍♂ kozłowanie, mężczyzna, mężczyzna kozłujący piłkę, piłka
+⛹‍♀ kobieta, kobieta kozłująca piłkę, kozłowanie, piłka
+🏋 atleta, osoba podnosząca ciężary
+🏋‍♂ ciężar, ciężarowiec, mężczyzna, mężczyzna podnoszący ciężary
+🏋‍♀ ciężar, ciężarowiec, kobieta, kobieta podnosząca ciężary
+🚴 kolarz, osoba na rowerze, peleton, rower
+🚴‍♂ jazda, mężczyzna, mężczyzna na rowerze, rower
+🚴‍♀ jazda, kobieta, kobieta na rowerze, rower
+🚵 górski, osoba na rowerze górskim, rower, rowerzysta
+🚵‍♂ jazda, mężczyzna, mężczyzna na rowerze górskim, rower górski
+🚵‍♀ jazda, kobieta, kobieta na rowerze górskim, rower górski
+🤸 gimnastyka, gwiazda, osoba robiąca gwiazdę, sport
+🤸‍♂ gimnastyka, gwiazda, mężczyzna, mężczyzna robiący gwiazdę, sport
+🤸‍♀ gimnastyka, gwiazda, kobieta, kobieta robiąca gwiazdę, sport
+🤼 osoby uprawiające zapasy, sport, zapaśnik, zapasy
+🤼‍♂ mężczyźni, mężczyźni uprawiający zapasy, sport, zapaśnicy, zapasy
+🤼‍♀ kobiety, kobiety uprawiające zapasy, sport, zapaśniczki, zapasy
+🤽 gra, osoba grająca w piłkę wodną, piłka, sport, woda
+🤽‍♂ mężczyzna, mężczyzna grający w piłkę wodną, piłka, piłka wodna, sport
+🤽‍♀ kobieta, kobieta grająca w piłkę wodną, piłka, piłka wodna, sport
+🤾 gra, osoba grająca w piłkę ręczną, piłka, sport
+🤾‍♂ mężczyzna, mężczyzna grający w piłkę ręczną, piłka ręczna, sport
+🤾‍♀ kobieta, kobieta grająca w piłkę ręczną, piłka ręczna, sport
+🤹 cyrk, spryt, żonglerka, żonglerz, żonglująca osoba
+🤹‍♂ mężczyzna, żonglerka, żonglowanie, żonglujący mężczyzna
+🤹‍♀ kobieta, żonglerka, żonglowanie, żonglująca kobieta
+🧘 joga, medytacja, osoba w pozycji lotosu
+🧘‍♂ joga, medytacja, mężczyzna w pozycji lotosu
+🧘‍♀ joga, kobieta w pozycji lotosu, medytacja
+🛀 kąpiel, osoba biorąca kąpiel, wanna
+🛌 hotel, nocleg, osoba w łóżku, sen
+🧑‍🤝‍🧑 osoby trzymające się za ręce, para, za ręce
+👭 dwie kobiety trzymające się za ręce, kobiety trzymające się za ręce, miłość, para, za ręce, zakochani
+👫 mężczyzna i kobieta trzymający się za ręce, miłość, para, za ręce, zakochani
+👬 dwóch mężczyzn trzymających się za ręce, miłość, para, za ręce, zakochani
+💏 miłość, para, pocałunek, zakochani
+💑 miłość, para, para z sercem, pocałunek, zakochani
+👪 dziecko, mama, matka, ojciec, rodzice, rodzina, tata
+🗣 mówiąca głowa, mówić, powiedzieć, profil, sylwetka
+👤 osoba, sylwetka popiersia
+👥 osoby, sylwetki, sylwetki popiersi
+🫂 cześć, do widzenia, dzięki, obejmujące się osoby, uścisk
+👣 odciski stóp, ślady, ślady stóp, stopy
+🦰 ruda, rude, rude włosy, rudy
+🦱 afro, kędzierzawe, kędzierzawy, kręcone, kręcone włosy
+🦳 białe, siwe, starsza, starszy, włosy
+🦲 bez włosów, bezwłosa, bezwłosy, chemioterapia, łysy, ogolona
+🐵 buźka, głowa małpy, małpka
+🐒 małpa, zwierzątko
+🦍 goryl, zwierzę
+🦧 małpa człekokształtna, orangutan
+🐶 głowa psa, pies, psiaczek, pysk, pyszczek
+🐕 pies, piesek, psiaczek, psinka, zwierzę
+🦮 dostępność, niewidomi, pies przewodnik, przewodnik, ułatwienia dostępu
+🐕‍🦺 dostępność, opiekun, pies, pies pomocnik, pomoc
+🐩 ostrzyżony, pies, piesek, pudel, pudelek
+🐺 głowa wilka, pysk
+🦊 głowa lisa, lis, zwierzę
+🦝 ciekawski, szop, szop pracz
+🐱 głowa kota, kicia, kot, pysk, pyszczek, zwierzę
+🐈 kot, zwierzę
+🐈‍⬛ czarny, kot, nieszczęście, pech
+🦁 buźka, głowa lwa, grzywa, lew, pysk
+🐯 buźka, głowa tygrysa, kot, pyszczek
+🐅 tygrys
+🐆 lampart
+🐴 głowa, konia, końska, koński, łeb
+🐎 koń, koń wyścigowy, wierzchowiec, wyścigi konne
+🦄 głowa, głowa jednorożca, jednorożec, łeb
+🦓 zebra
+🦌 jeleń, zwierzę
+🦬 bizon, stado, żubr
+🐮 głowa, głowa krowy, krowa, łeb
+🐂 byk, wół, zodiak
+🐃 bawół wodny, wół domowy
+🐄 krowa, krówka
+🐷 buźka, głowa świni, świnia, świnka
+🐖 maciora, świnia
+🐗 dzik, dzika świnia, knur
+🐽 nosek, ryj świni, ryjek, świński ryjek
+🐏 baranek, biały baran, owca, rogaty, rogi
+🐑 baranek, owca, samica
+🐐 koza, koziorożec, zodiak
+🐪 dromader, wielbłąd
+🐫 baktrian, garby, wielbłąd, wielbłąd dwugarbny
+🦙 alpaka, gwanako, lama, wełna, wikunia
+🦒 żyrafa
+🐘 słoń
+🦣 kieł, mamut, ogromny, włochaty, wymarły
+🦏 nosorożec, zwierzę
+🦛 hipopotam
+🐭 buźka, głowa myszy, mysz, myszka
+🐁 mysz, myszka
+🐀 szczur
+🐹 głowa chomika, mysz
+🐰 głowa królika, królik, zając
+🐇 królik, zając
+🐿 gryzoń, pręgowiec, wiewiórka
+🦫 bóbr, gryzoń, tama
+🦔 jeż
+🦇 nietoperz, wampir, zwierzę
+🐻 buźka, głowa niedźwiedzia, niedźwiedź
+🐻‍❄ arktyczny, biały, miś, miś polarny, niedźwiedź, niedźwiedź polarny
+🐨 koala, miś
+🐼 głowa pandy, miś
+🦥 leniwiec, leniwy, powolny
+🦦 bystre, łapanie ryb, wydra
+🦨 skunks, smród
+🦘 Australia, kangur, skoczny, torbacz
+🦡 borsuk
+🐾 łapy, odciski, ślady, ślady łap, tropy
+🦃 indyk
+🐔 kura, kurczak
+🐓 kogut
+🐣 kurczaczek, kurczątko, pisklak, wykluwać się, wykluwające się kurczątko
+🐤 kurczaczek, kurczątko, pisklak
+🐥 kurczątko od przodu, pisklak, pisklę
+🐦 ptak, ptaszek
+🐧 pingwin
+🕊 gołąb, gołąbek
+🦅 orzeł, ptak
+🦆 kaczka, ptak
+🦢 brzydkie kaczątko, łabędź, ptak
+🦉 mądrość, ptak, sowa
+🦤 dodo, duży, Mauritius, wymarły
+🪶 latanie, lekkość, pierze, pióra, pióro, upierzenie
+🦩 ekstrawagancja, flaming, tropikalny
+🦚 dumny, paw, ptak
+🦜 gadająca, papuga, pirat, ptak
+🐸 głowa żaby, ropucha, traszka, żaba, żabka
+🐊 aligator, krokodyl
+🐢 żółw
+🦎 gad, jaszczurka
+🐍 dusiciel, jadowity, wąż, żmija
+🐲 bajka, baśń, głowa smoka, smok
+🐉 bajka, baśń, smok
+🦕 zauropod
+🦖 t-rex
+🐳 fontanna, strumień wody, wieloryb, wieloryb tryskający wodą
+🐋 wieloryb
+🐬 delfin
+🦭 foka, lew morski
+🐟 ryba, zodiak
+🐠 ryba, tropikalna
+🐡 rozdymka, ryba rozdymka
+🦈 rekin, ryba
+🐙 ośmiornica
+🐚 muszelka, muszla spiralna, spirala
+🐌 ślimak
+🦋 kolorowy, motyl, owad
+🐛 gąsienica, insekt, owad
+🐜 insekt, mrówka, owad
+🐝 insekt, owad, pszczoła, pszczółka
+🪲 chrząszcz, owad, żuk
+🐞 biedronka, chrabąszcz, kropki, owad, żuk
+🦗 świerszcz
+🪳 karaczan, karaluch, owad
+🕷 pajączek, pająk, pajęczak
+🕸 pajęczyna, sieć pająka
+🦂 brązowy skorpion, skorpion, zodiak
+🦟 choroba, gorączka, komar, malaria, owad, wirus
+🪰 choroby, giez, gnicie, mucha, owad, tse-tse
+🪱 dżdżownica, glista, pasożyt, pierścienice, robak
+🦠 ameba, bakteria, drobnoustrój, mikrob, wirus, zarazek
+💐 bukiet, bukiet kwiatów, kwiaty
+🌸 kwiat wiśni, kwitnąca wiśnia
+💮 biały kwiat, kontury
+🏵 kwiat, roślina, rozeta
+🌹 kwiat, roślina, róża
+🥀 kwiat, róża, więdnąć, zwiędły kwiat
+🌺 kwiat hibiskusa, kwiatek, kwitnie, roślina
+🌻 kwiat, roślina, słońce, słonecznik
+🌼 kwiat, kwiatek, kwitnie, roślina
+🌷 kwiat, kwiatek, pąk, tulipan
+🌱 pęd, roślinka, sadzonka
+🪴 dom, kwiat doniczkowy, podlewać, roślina, roślina doniczkowa
+🌲 drzewo iglaste, wiecznie zielone drzewo
+🌳 drzewo liściaste, roślina
+🌴 drzewo, palma
+🌵 kaktus, roślina
+🌾 pędy ryżu, roślina, ryż
+🌿 liście, zioła, zioło
+☘ koniczyna, koniczynka, roślina
+🍀 czterolistna koniczyna, koniczyna, koniczynka, szczęście
+🍁 liść, liść jesienny, liść klonowy, liść klonu
+🍂 liście, roślina, spadające liście, spadanie
+🍃 liście na wietrze, podmuch, roślina, trzepotanie, wiatr, wicher
+🍇 owoce, winogrona
+🍈 melon, owoc
+🍉 arbuz, kawałek arbuza, owoc
+🍊 cytrus, mandarynka, owoc, pomarańcza
+🍋 cytrus, cytryna, kwaśny, owoc, żółty
+🍌 banan, egzotyczny, owoc
+🍍 ananas, egzotyczny, owoc
+🥭 mango, owoc, tropikalny
+🍎 czerwone, czerwone jabłko, owoc, słodkie
+🍏 jabłko, owoc, zielone jabłko, zielone jabłuszko
+🍐 gruszka, owoc
+🍑 brzoskwinia, owoc
+🍒 owoce, wiśnie
+🍓 owoc, truskawka
+🫐 borówka, borówka amerykańska, jagoda, owoc
+🥝 jedzenie, kiwi, owoc
+🍅 pomidor, szklarniowe, warzywo
+🫒 jedzenie, oliwka, oliwki
+🥥 kokos
+🥑 awokado, jedzenie, owoc
+🍆 bakłażan, oberżyna, warzywo
+🥔 jedzenie, kartofel, warzywo, ziemniak
+🥕 jedzenie, marchew, marchewka, warzywo
+🌽 kolba kukurydzy, kukurydza
+🌶 ostra papryka, ostry, papryka
+🫑 papryka, papryka słodka, paprykowy, warzywo
+🥒 jedzenie, korniszon, ogórek, pikle, warzywo
+🥬 bok choy, jarmuż, kapusta, kapusta pekińska, sałata, zielenina liściasta
+🥦 brokuł
+🧄 aromatyczny, czosnek
+🧅 aromatyczna, cebula
+🍄 grzyb, muchomor, trujący
+🥜 fistaszki, jedzenie, orzeszki, orzeszki ziemne
+🌰 jedzenie, kasztan, kasztan jadalny
+🍞 bochenek, chleb, kawałek chleba, pieczywo
+🥐 jedzenie, pieczywo, rogal, rogalik, rogalik francuski
+🥖 bagietka, bułka, chleb, jedzenie, pieczywo
+🫓 arepa, lawasz, naan, pita, podpłomyk
+🥨 precel
+🥯 bajgiel, pieczywo, piekarnia, posmarować
+🥞 jedzenie, naleśniki, placki
+🧇 gofr, gofrownica
+🧀 kawałek sera, ser, szwajcarski, z dziurami, żółty
+🍖 kość, mięso, mięso z kością
+🍗 nóżka, udko kurczaka
+🥩 kawałek mięsa
+🥓 bekon, boczek, jedzenie, mięso
+🍔 fast food, hamburger
+🍟 frytki
+🍕 kawałek pizzy, pizza
+🌭 bułka, frankfurterka, gorący pies, hot dog, hotdog, parówka
+🥪 kanapka
+🌮 meksykańskie jedzenie, taco
+🌯 burito, burrito, meksykańskie jedzenie
+🫔 meksykańskie, tamales, zawijane
+🥙 falafel, gyros, jedzenie, kebab, tortilla, wrap
+🧆 ciecierzyca, falafel, kotlecik z ciecierzycy
+🥚 jajko, jajo, jedzenie
+🍳 gotowanie, jajko, smażyć
+🥘 danie z patelni, jedzenie, paella, patelnia, wok
+🍲 garnek z jedzeniem, jedzenie, potrawka
+🫕 czekolada, fondue, garnek, roztopione, ser, szwajcarskie
+🥣 miska z łyżką
+🥗 jedzenie, sałata, sałatka
+🍿 popcorn
+🧈 masło, nabiał
+🧂 przyprawa, sól, solniczka
+🥫 jedzenie w puszce
+🍱 bento, pudełko bento
+🍘 krakers, ryż, ryżowy
+🍙 kulka ryżowa, onigiri, ryż
+🍚 gotowany ryż, ryż
+🍛 curry, ryż, sos
+🍜 miska, miska parującego jedzenia, parująca miska
+🍝 kluski, makaron, pasta, spaghetti
+🍠 batat, pieczony batat, słodki ziemniak
+🍢 oden, owoce morza, owoce morza na patyku
+🍣 sushi, suszi
+🍤 smażona krewetka
+🍥 ciastko, ryba, rybne, spirala
+🥮 ciasteczko księżycowe, jesień, święto, yuèbǐng
+🍡 dango, kulki mochi
+🥟 pieróg
+🥠 ciastko z wróżbą
+🥡 pudełko na wynos
+🦀 krab, rak, zodiak
+🦞 homar, owoce morza, szczypce
+🦐 jedzenie, krewetka, owoce morza
+🦑 jedzenie, kałamarnica, mięczak, ośmiornica
+🦪 małże, nurkowanie, ostryga, perły
+🍦 lody śmietankowe, lody włoskie, w kubku
+🍧 deser, lody, lody hawajskie, lody kulki
+🍨 deser, lód, lody
+🍩 ciasto, deser, pączek, pączek z dziurką, z dziurką
+🍪 ciastko, deser, słodki, słodkie ciastko
+🎂 świeczki, tort urodzinowy, zdmuchnąć
+🍰 ciasto, deser, słodycze, tort
+🧁 babeczka, cukiernia, deser
+🥧 ciasto
+🍫 deser, słodycze, tabliczka czekolady
+🍬 cukierek, deser, słodki, słodycze
+🍭 deser, lizak, słodki, słodycze
+🍮 ciastko kremowe, deser typu krem angielski, krem
+🍯 beczka z miodem, garnek miodu, słoik miodu
+🍼 butelka, butelka ze smoczkiem, dzidziuś, mleko, napój, niemowlęca, ze smoczkiem
+🥛 mleko, napój, szklanka, szklanka mleka
+☕ gorąca, gorący napój, herbata, kawa, napój, parująca, picie
+🫖 czajniczek, dzbanek na herbatę, herbata, imbryk
+🍵 filiżanka, filiżanka bez uszka, spodek
+🍶 butelka i kubek, sake
+🍾 bar, butelka, butelka z wystrzelającym korkiem, korek, nowy rok, sylwester, toast
+🍷 alkohol, kieliszek, kieliszek wina, wino
+🍸 kieliszek, kieliszek z koktajlem, koktajl
+🍹 bar, drink tropikalny, tropikalny
+🍺 kufel, kufel piwa, kufel z piwem
+🍻 kufle, kufle z piwem, piwiarnia, stukające się kufle piwa
+🥂 kieliszki, na zdrowie, stukające się kieliszki, świętowanie, toast
+🥃 alkohol, drink, grube dno, szklanka, szklanka z grubym dnem, whisky
+🥤 szklanka ze słomką
+🧋 herbata, kuleczka, kulki tapioki, mleko, napój bubble tea
+🧃 napój w kartoniku, słodki, słomka, sok w kartoniku
+🧉 napój, yerba mate
+🧊 kostka lodu, lód, zimny
+🥢 pałeczki
+🍽 naczynia, nóż, sztućce, talerz, talerz z nożem i widelcem, widelec
+🍴 gotowanie, nóż, widelec, widelec i nóż
+🥄 łyżeczka, łyżka, sztućce
+🔪 broń, gotowanie, narzędzie, nóż, nóż kuchenny
+🏺 amfora, dzban, puchar, stągiew, waza, wodnik, zodiak
+🌍 Afryka, Europa, kula ziemska przedstawiająca Europę i Afrykę, Ziemia
+🌎 Ameryka, Ameryka Północna i Południowa, kula ziemska przedstawiająca Ameryki, Ziemia
+🌏 Australia, Azja, kula ziemska przedstawiająca Azję i Australię, Ziemia
+🌐 glob, globus, kula ziemska z południkami, południki, równoleżniki
+🗺 mapa, mapa świata, świat
+🗾 japonia, mapa, mapa Japonii
+🧭 kompas, magnetyzm, nawigacja, orientacja w terenie
+🏔 góra, góra z czapą lodową, śnieg, zima
+⛰ góra
+🌋 erupcja, góra, wulkan
+🗻 fudżi, fuji, góra, góra Fudżi
+🏕 kamping, kemping, namiot, obóz
+🏖 morze, parasol, parasol na plaży, piasek, plaża
+🏜 pustynia
+🏝 bezludna, pusta, pustynia, samotna, wyspa
+🏞 natura, park, park narodowy, przyroda
+🏟 boisko, stadion
+🏛 budowla, budynek, klasyczna budowla, klasyczny, klasyka
+🏗 budowa, dźwig, dźwig budowlany, roboty budowlane
+🧱 cegła, cegły, glina, mur, ściana, zaprawa
+🪨 ciężki, głaz, kamień, skała
+🪵 drewno, kłoda, polano, tarcica
+🛖 chata, dom, jurta, okrągły
+🏘 domki, domy, osiedle
+🏚 podupadły, ruina, stary, stary dom, zniszczony, zrujnowany
+🏠 budynek, dom, mieszkalny
+🏡 dom, dom z ogrodem, drzewo, ogród
+🏢 biurowiec, blok
+🏣 budynek, japońska poczta, poczta
+🏤 budynek, urząd pocztowy
+🏥 budynek, lecznica, lekarz, medycyna, szpital
+🏦 bank, budynek
+🏨 budynek, hotel
+🏩 hotel, hotel miłości, japoński hotel miłości
+🏪 sklep, sklep całodobowy
+🏫 budynek, szkoła
+🏬 dom towarowy, sklep, supermarket
+🏭 budynek, fabryka, produkcyjny, zakład pracy
+🏯 budynek, japoński, zamek
+🏰 budynek, europejski, zamek
+💒 kaplica, kościół, miłość, serce, ślub, uroczystość
+🗼 tokio, Tokyo Tower, wieża
+🗽 statua, Statua Wolności, wolności
+⛪ chrześcijański, kościół, krzyż, religia, świątynia
+🕌 islam, meczet, muzułmanin, religia
+🛕 hinduizm, świątynia, świątynia hinduistyczna
+🕍 religia, świątynia, synagoga, żyd, żydowski
+⛩ japońska, religia, shinto, świątynia
+🕋 islam, kaaba, muzułmanin, religia
+⛲ fontanna
+⛺ kemping, namiot, obóz, pole namiotowe
+🌁 mgła, mglisto, pogoda, zamglenie, zamglone
+🌃 gwiazdy, noc z gwiazdami, rozgwieżdżone niebo
+🏙 drapacze chmur, miasto, wieżowce
+🌄 góry, ranek, słońce, wschód, wschód słońca zza gór
+🌅 brzask, wschód słońca
+🌆 budynki, miasto, miasto o zmierzchu, wieżowce, zachód słońca, zmierzch
+🌇 budynki, miasto, zachód słońca, zmierzch
+🌉 most nocą, most w nocy
+♨ gorące, gorące źródła, para, woda, źródło
+🎠 koń z karuzeli, konik
+🎡 diabelski, karuzela, młyn, park rozrywki, wesołe miasteczko
+🎢 kolejka górska, park rozrywki, wesołe miasteczko
+💈 fryzjer, słup fryzjerski
+🎪 namiot, namiot cyrkowy
+🚂 ciuchcia, kolej, lokomotywa, pociąg, stara lokomotywa
+🚃 elektryczny, kolejowy, pociąg, pojazd, szynowy, tramwaj, wagon kolejowy
+🚄 kolej, pendolino, pojazd szynowy, shinkansen, szybki pociąg
+🚅 kolej, pendolino, pojazd szynowy, szybki pociąg, szybki pociąg z zaokrąglonym przodem
+🚆 kolej, pociąg, pojazd
+🚇 kolejka, metro, pociąg, tunel
+🚈 kolej, kolej miejska, kolejka, pociąg, podmiejski
+🚉 dworzec, kolej, stacja
+🚊 szynowy, tramwaj, trolejbus
+🚝 kolej, kolej jednoszynowa, pojazd, szynowy
+🚞 górski, kolej, kolej górska, pojazd, wagon
+🚋 pojazd, szynowy, tramwaj, trolejbus, wagon, wagon tramwajowy
+🚌 autobus, autokar, pojazd
+🚍 autobus, nadjeżdżać, nadjeżdżający autobus, przód
+🚎 autobus, elektryczny, pojazd, trolejbus
+🚐 busik, minibus
+🚑 ambulans, erka, karetka, karetka pogotowia, pogotowie
+🚒 pożar, samochód strażacki, straż pożarna, wóz strażacki
+🚓 patrol, policja, samochód policyjny
+🚔 nadjeżdżający radiowóz, patrol, policja, samochód policyjny
+🚕 taksówka, taxi
+🚖 nadjeżdżać, nadjeżdżająca taksówka, taksówka, taxi
+🚗 auto, pojazd, samochód
+🚘 auto, nadjeżdżające auto, nadjeżdżający pojazd, nadjeżdżający samochód, pojazd, samochód
+🚙 pojazd, samochód, samochód SUV, wypoczynkowy
+🛻 furgonetka, pick-up, pikap, półciężarówka
+🚚 ciężarówka, dostawczy, samochód dostawczy
+🚛 ciężarówka, dostawczy, samochód ciężarowy
+🚜 ciągnik, rolniczy
+🏎 samochód, samochód wyścigowy, wyścigi
+🏍 motocykl, wyścigi
+🛵 motor, pojazd, skuter
+🦽 dostępność, wózek inwalidzki ręczny
+🦼 dostępność, wózek inwalidzki elektryczny
+🛺 autoriksza, tuk-tuk
+🚲 pojazd, rower, rowerek
+🛴 hulajnoga, pojazd
+🛹 deska, deskorolka, skateboard
+🛼 rolki, wrotka, wrotkarstwo, wrotki
+🚏 przystanek, przystanek autobusowy
+🛣 autostrada, droga, szybkiego ruchu
+🛤 kolej, pociąg, tor, tor kolejowy, tory
+🛢 beczka, beczka oleju, olej
+⛽ benzyna, dystrybutor, dystrybutor paliwa, stacja paliw
+🚨 kogut policyjny, lampa obrotowa, policyjny, sygnalizator świetlny
+🚥 pozioma sygnalizacja uliczna, sygnalizacja świetlna
+🚦 pionowa sygnalizacja uliczna, sygnalizacja świetlna
+🛑 stop, znak, znak drogowy, znak stopu
+🚧 bariera, prace drogowe, znak drogowy
+⚓ kotwica, okręt, przyrząd, statek
+⛵ jacht, kurort, łódka, morze, pojazd, żaglówka
+🛶 kajak, łódź
+🚤 łódka, łódź, ścigacz wodny
+🛳 okręt, pasażerski, pojazd, statek
+⛴ łódź, prom
+🛥 łódź motorowa, motorówka, pojazd
+🚢 okręt, statek
+✈ samolot
+🛩 awionetka, mały samolot, samolot
+🛫 odlot, odlot samolotu, odprawa, samolot, start, wylot
+🛬 lądowanie, przylot, przylot samolotu, samolot
+🪂 lotnia, lotniarstwo za łodzią motorową, spadochron, spadochroniarstwo
+💺 fotel, krzesło
+🚁 helikopter, śmigłowiec
+🚟 kolej, pociąg, podwieszana
+🚠 gondola, gondolowa, górska, górska kolej linowa, linowa
+🚡 gondola, górska, kolej linowa, kolejka, linowa, podwieszana, wagonik
+🛰 kosmos, satelita, statek kosmiczny
+🚀 kosmiczny, rakieta, statek
+🛸 latający talerz, UFO
+🛎 dzwonek, dzwonek w recepcji, hotel, przywołać, recepcja
+🧳 bagaż, pakowanie, podróż, walizka
+⌛ czas, klepsydra, odmierzać, piasek
+⏳ czas, klepsydra, klepsydra z przesypującym się piaskiem, odmierzać, piasek
+⌚ godzina, zegarek
+⏰ budzik, zegar
+⏱ czasomierz, stoper
+⏲ czasomierz, minutnik, zegar
+🕰 czasomierz, zegar, zegar kominkowy
+🕛 00, 12, 12:00, dwunasta, godzina, zero
+🕧 12, 12:30, 30, dwunasta trzydzieści, godzina, zero trzydzieści
+🕐 00, 1, 1:00, godzina, pierwsza, trzynasta
+🕜 1, 1:30, 30, godzina, pierwsza trzydzieści, trzynasta trzydzieści
+🕑 00, 2, 2:00, czternasta, druga, godzina
+🕝 2, 2:30, 30, czternasta trzydzieści, druga trzydzieści, godzina
+🕒 00, 3, 3:00, godzina, piętnasta, trzecia
+🕞 3, 3:30, 30, godzina, piętnasta trzydzieści, trzecia trzydzieści
+🕓 00, 4, 4:00, czwarta, godzina, szesnasta
+🕟 30, 4, 4:30, czwarta trzydzieści, godzina, szesnasta trzydzieści
+🕔 00, 5, 5:00, godzina, piąta, siedemnasta
+🕠 30, 5, 5:30, godzina, piąta trzydzieści, siedemnasta trzydzieści
+🕕 00, 6, 6:00, godzina, osiemnasta, szósta
+🕡 30, 6, 6:30, godzina, osiemnasta trzydzieści, szósta trzydzieści
+🕖 00, 7, 7:00, dziewiętnasta, godzina, siódma
+🕢 30, 7, 7:30, dziewiętnasta trzydzieści, godzina, siódma trzydzieści
+🕗 00, 8, 8:00, dwudziesta, godzina, ósma
+🕣 30, 8, 8:30, dwudziesta trzydzieści, godzina, ósma trzydzieści
+🕘 00, 9, 9:00, dwudziesta pierwsza, dziewiąta, godzina
+🕤 30, 9, 9:30, dwudziesta pierwsza trzydzieści, dziewiąta trzydzieści, godzina
+🕙 00, 10, 10:00, dwudziesta druga, dziesiąta, godzina
+🕥 10, 10:30, 30, dwudziesta druga trzydzieści, dziesiąta trzydzieści, godzina
+🕚 00, 11, 11:00, dwudziesta trzecia, godzina, jedenasta
+🕦 11, 11:30, 30, dwudziesta trzecia trzydzieści, godzina, jedenasta trzydzieści
+🌑 ciemny księżyc, nów
+🌒 cieniutki księżyc, księżyc, narastający półksiężyc, sierp
+🌓 księżyc, kwadra, pierwsza kwadra księżyca
+🌔 księżyc z brzuszkiem, narastający księżyc między pierwszą kwadrą a pełnią, tłusty księżyc
+🌕 jasny księżyc, księżyc, pełnia, pełny księżyc
+🌖 chudnący, księżyc, księżyc z brzuszkiem, tłusty księżyc, zanikający księżyc między pełnią a ostatnią kwadrą
+🌗 księżyc, kwadra, ostatnia kwadra księżyca
+🌘 cieniutki księżyc, księżyc, sierp, zanikający półksiężyc
+🌙 księżyc, półksiężyc, sierp
+🌚 księżyc, księżyc w nowiu, nów z twarzą
+🌛 księżyc z twarzą, pierwsza kwadra, pierwsza kwadra księżyca, pierwsza kwadra księżyca z twarzą
+🌜 księżyc z twarzą, ostatnia kwadra, ostatnia kwadra księżyca, ostatnia kwadra księżyca z twarzą
+🌡 pogoda, temperatura, termometr
+☀ jasne, kosmos, pogoda, promienie, słońce, słonecznie
+🌝 księżyc w pełni, pełnia, pełnia z twarzą
+🌞 ciepło, promienny, słońce z twarzą, uśmiech
+🪐 pierścienie, planeta z pierścieniami, saturn
+⭐ gwiazda
+🌟 błyszcząca, błyszcząca gwiazda, lśniąca, świecąca gwiazdka
+🌠 gwiazda, kometa, spadająca, życzenie
+🌌 droga mleczna, Droga Mleczna, gwiazdy, niebo, noc
+☁ chmura, pogoda
+⛅ chmura, pogoda, słońce, słońce zza chmury
+⛈ błyskawica, chmura, chmura z piorunem i deszczem, deszcz, piorun, pogoda
+🌤 chmura, pogoda, słońce, słońce za chmurką
+🌥 chmura, pogoda, słońce, słońce za chmurą
+🌦 chmura, deszcz, pogoda, słońce, słońce za chmurą i deszcz
+🌧 chmura, chmura i deszcz, deszcz, pogoda
+🌨 chmura, chmura i śnieg, pogoda, śnieg, zimno
+🌩 błyskawica, chmura, chmura i piorun, piorun, pogoda
+🌪 chmura, lej, pogoda, tornado, wir powietrzny
+🌫 mgła, pogoda
+🌬 chmura, dmuchająca twarz wiatru, pogoda, twarz, wiać, wiatr
+🌀 cyklon, pogoda, spirala, tajfun
+🌈 deszcz, pogoda, słońce, tęcza
+🌂 parasolka, pogoda, złożona, złożony parasol
+☂ deszcz, opady, pada, parasol, pogoda
+☔ deszcz, opady, pada, parasol z kroplami deszczu, pogoda
+⛱ deszcz, parasol, parasol plażowy wbity w ziemię, pogoda, słońce
+⚡ błysk, błyskawica, elektryczność, napięcie, niebezpieczeństwo, piorun, wysokie napięcie
+❄ płatek śniegu, pogoda, śnieg, zimno
+☃ bałwanek i płatki śniegu, pogoda, śnieg, zabawa na śniegu, zimno
+⛄ bałwan, bałwan bez śniegu, pogoda, śnieg, zabawa na śniegu, zimno
+☄ kometa, kosmos, ogon
+🔥 ogień, płomień
+💧 kropelka, kropla, łza, pot
+🌊 fala, fale, morze, ocean, tsunami
+🎃 dynia, dynia na halloween, halloween
+🎄 boże narodzenie, choinka bożonarodzeniowa, drzewko, święta
+🎆 fajerwerki, nowy rok, obchody, święta
+🎇 ognie, petardy, sztuczne, zimne
+🧨 dynamit, fajerwerki, materiał wybuchowy, petarda
+✨ * gwiazdki, gwiazda, gwiazdki, gwiazdy
+🎈 balon, impreza, uroczystość
+🎉 bal, impreza, konfetti, tuba z konfetti, uroczystość
+🎊 bal, impreza, konfetti, kula z konfetti, uroczystość
+🎋 drzewko na Tanabata, drzewo, japońskie, tanabata, życzenia
+🎍 bambus, japońska dekoracja kadomatsu, roślina, sosna
+🎎 japońskie lalki, lalki
+🎏 flaga, flaga w kształcie karpia, ryby
+🎐 dzwonek, dzwonki, wietrzny
+🎑 ceremonia oglądania księżyca, księżyc, podziwiać, tsukimi
+🧧 czerwona koperta, hóngbāo, lai see, pieniądze, prezent, szczęście
+🎀 kokarda, kokardka, ozdoba, podarunek, prezent, wstążka
+🎁 kokarda, kokardka, paczka, podarunek, zapakowany prezent
+🎗 upamiętnić, uroczystość, wstążka, wstążka pamięci
+🎟 bilet, bilety wstępu, wstęp
+🎫 bilet, wstęp
+🎖 medal, order wojskowy, uroczystość, wojsko
+🏆 nagroda, puchar, trofeum
+🏅 medal, medal sportowy, nagroda
+🥇 medal, medal za 1. miejsce, pierwsze miejsce, złoto, zwycięstwo
+🥈 drugie miejsce, medal, medal za 2. miejsce, srebro
+🥉 brąz, medal, medal za 3. miejsce, trzecie miejsce
+⚽ futbolówka, nożna, piłka
+⚾ baseball, piłka
+🥎 piłka, rękawica, rzut od dołu, softball
+🏀 do kosza, koszykówka, piłka
+🏐 gra, piłka, siatkówka
+🏈 futbol amerykański, piłka
+🏉 piłka, piłka do rugby, rugby
+🎾 piłka, tenis
+🥏 frisbee, latający dysk, ultimate
+🎳 gra, kręgle, kula
+🏏 gra, kij, krykiet, piłka
+🏑 boisko, gra, hokej, hokej na trawie, kijek, na trawie, piłka
+🏒 gra, hokej, hokej na lodzie, kijek, krążek, lód, na lodzie
+🥍 bramka, kij, lacrosse, piłka
+🏓 piłeczka, ping pong, rakietka, siatka, tenis stołowy
+🏸 badminton, gra, lotka, paletki, rakieta
+🥊 boks, rękawica, rękawica bokserska, sport
+🥋 judo, karate, sport, strój do sztuk walki, sztuki walki, taekwondo
+🥅 bramka, gol, sport
+⛳ flaga w dołku, golf, otwór
+⛸ but z łyżwą, lód, lodowisko, łyżwa
+🎣 łowienie ryb, wędka, złowić
+🤿 akwalung, maska do nurkowania, nurkowanie, nurkowanie z rurką, snurkowanie
+🎽 bieganie, koszulka, koszulka do biegania, szarfa, t-shirt
+🎿 narty, śnieg, stok
+🛷 sanie
+🥌 kamień do curlingu
+🎯 dziesiątka, strzał, strzał w 10, trafienie, w dziesiątkę
+🪀 gra, jojo, zabawka
+🪁 latanie, latawiec, puszczanie
+🎱 8, bila, kula
+🔮 fortuna, kryształowa, kula, przepowiadać, wróżka, wróżyć
+🪄 czarodziej, czarodziejka, czarodziejska różdżka, czary, magia, magik
+🧿 amulet nazar, błękitne oko, koralik, nazar, oko proroka, talizman
+🎮 gamepad, gra wideo, pad
+🕹 dżojstik, gra, gra komputerowa, gra wideo
+🎰 automat do gier, automat do gry, jednoręki bandyta, kasyno
+🎲 gra, kostka, kostka do gry, w kości
+🧩 element, element układanki, łączenie, łamigłówka, puzzle
+🧸 miś pluszowy, pluszak, pluszowa, wypchana, zabawka
+🪅 impreza, piniata, świętowanie
+🪆 laleczka, lalka, matrioszka, matrioszki, rosyjska
+♠ gra, karta, pik, talia
+♥ gra, karta, kier, talia
+♦ gra, karo, karta, talia
+♣ gra, karta, talia, trefl
+♟ pionek, szachy
+🃏 dżoker, Joker, karta, karta do gry
+🀄 Czerwony smok, kafelek, madżong: czerwony smok, mahjong, Smok
+🎴 gra, gra karciana hanafuda, japońska, kwiat
+🎭 maski teatralne, teatr, występować
+🖼 malarstwo, muzeum, obraz, obrazek w ramce, ramka, sztuka
+🎨 farby, kolory, malarz, muzeum, paleta malarska, sztuka
+🧵 igła, nawlekać, nić, szpulka, szycie
+🪡 haft, igła, igła krawiecka, igła z nitką, krawiectwo, szwy, szycie
+🧶 kłębek, robienie na drutach, szydełkowanie, włóczka
+🪢 lina, sznur, sznurek, węzeł, wiązać
+👓 oczy, okulary, szkła
+🕶 ciemne okulary, okulary słoneczne, przeciwsłoneczne, słoneczne
+🥽 ochrona oczu, okulary ochronne, pływanie, spawanie
+🥼 biały fartuch, eksperyment, kitel, lekarz, naukowiec
+🦺 kamizelka, kamizelka ratunkowa, ratowanie, sytuacja awaryjna
+👔 koszula, krawat, męski, ozdoba
+👕 koszulka, męska, z krótkimi rękawami
+👖 dżinsy, jeansy, portki, ubiór, ubranie
+🧣 szalik, szyja
+🧤 ręka, rękawiczki
+🧥 kurtka, płaszcz
+🧦 skarpetki, skarpety
+👗 sukienka, suknia, ubiór, ubranie
+👘 kimono, ubiór, ubranie
+🥻 odzież, sari, suknia, ubranie
+🩱 kostium do kąpieli, strój kąpielowy jednoczęściowy
+🩲 bielizna, kąpielówki, majtki do kąpieli, strój do kąpieli
+🩳 bermudy, bielizna, spodenki, strój do kąpieli, szorty
+👙 bikini, do pływania, strój kąpielowy, ubiór, ubranie
+👚 damska, ubiór, ubranie, ubranie damskie
+👛 na monety, portmonetka, torebka
+👜 bagaż, damska torebka, torebka
+👝 damska, saszetka, torebka
+🛍 torby, torby na zakupy, torebki
+🎒 plecak, tornister
+🩴 japonka, japonki, sandały, sandały na plażę
+👞 but, męski
+👟 bieganie, but, but do biegania, sport, trampek
+🥾 biwak, but, but turystyczny, piesze wędrówki, wędrówki z plecakiem
+🥿 baleriny, baletki, but wsuwany, pantofelek
+👠 but na wysokim obcasie, na szpilkach, szpilka, wysoki obcas
+👡 but, damski, obuwie, sandał
+🩰 balet, baletki, taniec
+👢 kozaczek, kozak damski
+👑 korona, król, królowa
+👒 damski, kapelusz, nakrycie głowy, ze wstążką
+🎩 cylinder, kapelusz, męskie nakrycie głowy
+🎓 biret, czapka absolwenta, nakrycie głowy, ubiór, uroczystość
+🧢 bejsbolówka, czapeczka
+🪖 armia, hełm, hełm wojskowy, wojownik, wojsko, żołnierz
+⛑ hełm, kask, kask z krzyżykiem, krzyż, krzyżyk, pomoc
+📿 korale, koraliki, modlitwa, naszyjnik, religia, różaniec, sznur modlitewny
+💄 kosmetyki, makijaż, malować usta, szminka
+💍 diament, miłość, pierścionek, zaręczyny
+💎 diament, kamień szlachetny, miłość, romans
+🔇 cicho, cisza, głośnik, głośność, wyciszony głośnik, wyciszyć
+🔈 głośność, niska głośność głośnika
+🔉 średnia, średnia głośność głośnika
+🔊 duża głośność, wysoka głośność, wysoka głośność głośnika
+📢 głośnik, głośno, komunikaty publiczne
+📣 kibicować, megafon
+📯 poczta, pocztowa, róg, trąbka
+🔔 dzwon, dzwonek
+🔕 cicho, cisza, dzwonek, nie wolno, przekreślony dzwonek, zabroniony, zakazany
+🎼 klucz, muzyka, nuty, partytura, pięciolinia
+🎵 muzyka, nuta
+🎶 muzyka, nuta, nuty
+🎙 mikrofon, muzyka, nagrywać, studio, studyjny
+🎚 muzyka, poziom, suwak, suwak miksera dźwięku
+🎛 gałki, muzyka, pokrętła
+🎤 karaoke, mikrofon, muzyka
+🎧 słuchawki
+📻 odbiornik radiowy, radio, radioodbiornik, radyjko
+🎷 instrument, muzyka, saksofon
+🪗 akordeon, harmonia, koncertyna
+🎸 gitara, instrument, muzyka
+🎹 fortepian, instrument, keyboard, klawiatura, klawisze, muzyka, pianino
+🎺 instrument, muzyka, trąbka
+🎻 altówka, instrument, muzyczny, skrzypce, smyczek, strunowy
+🪕 banjo, instrument, muzyka, strunowy
+🥁 bęben, bębenek, grać, muzyka
+🪘 bęben, konga, rytm
+📱 komóra, komórka, smartfon, telefon, telefon komórkowy
+📲 dzwonić, komórka, odebrać, smartfon, strzałka, telefon, telefon komórkowy ze strzałką
+☎ aparat telefoniczny, telefon
+📞 słuchawka, słuchawka telefoniczna, telefon
+📟 pager
+📠 faks
+🔋 akumulator, akumulatorek, bateria
+🔌 elektryczna, podłączyć, wtyczka elektryczna
+💻 komputer, laptop, notebook, osobisty, wyświetlacz
+🖥 biurkowy, ekran, komputer, stacjonarny, wyświetlacz
+🖨 drukarka, komputer
+⌨ klawiatura, komputer, pisać
+🖱 komputerowa, mysz, trójprzyciskowa, trzyprzyciskowa
+🖲 komputer, trackball
+💽 dysk komputerowy, dysk MD, płyta
+💾 dyskietka, komputerowa, miękki dysk
+💿 Blu-ray, CD, DVD, dysk, dysk optyczny
+📀 Blu-ray, CD, DVD, dysk
+🧮 abakus, liczydło, obliczanie
+🎥 film, kamera, kamera filmowa, kinematografia, kino
+🎞 film, kino, klatki, taśma filmowa
+📽 film, kino, projekcja, projektor, projektor filmowy
+🎬 film, kino, klaps
+📺 kineskop, kineskopowy, odbiornik, stary telewizor, telewizja, z anteną
+📷 aparat fotograficzny, fotografia, robić zdjęcie, wideo, zdjęcie
+📸 aparat, aparat fotograficzny z lampą błyskową, flesz, lampa błyskowa
+📹 kamera, wideo
+📼 kaseta wideo, taśma
+🔍 lupa, lupa pochylona w lewo, skierowana w lewo, szukaj
+🔎 lupa, lupa pochylona w prawo, skierowana w prawo, szukaj
+🕯 światło, świeca, świeczka
+💡 pomysł, światło, żarówka
+🔦 elektryczna, lampka, latarka, światło
+🏮 bar izakaya, czerwony lampion, izakaya
+🪔 dipa, lampka, oliwna
+📔 książka, notatnik, notes, notes z dekoracyjną okładką, okładka, ozdobna
+📕 książka, zamknięta
+📖 książka, otwarta
+📗 książka, zielona
+📘 książka, niebieska
+📙 książka, pomarańczowa
+📚 książka, książki
+📓 notatnik, notes, szary, zeszyt
+📒 notatnik, skoroszyt, zeszyt, żółty
+📃 kartka, maszynopis, strona, zawinięta strona
+📜 edykt, pergamin, pismo, zwój
+📄 kartka, maszynopis, pismo, strona
+📰 gazeta, wiadomości
+🗞 gazeta, papier, rulon, zrolowana, zwinięta, zwitek
+📑 karta, karty zakładek, przekładka, zakładka, znak
+🔖 zakładka, zaznaczenie
+🏷 breloczek, etykieta, przywieszka do kluczy
+💰 dolary, pieniądze, worek, worek z pieniędzmi
+🪙 metalowa, moneta, pieniądze, skarb, srebrna, złota
+💴 bank, banknot, banknot jena, pieniądze, rachunek, waluta
+💵 bank, banknot, banknot dolara, pieniądze, rachunek, waluta
+💶 bank, banknot, banknot euro, pieniądze, rachunek, waluta
+💷 bank, banknot, banknot funta, pieniądze, rachunek, waluta
+💸 bank, banknot, pieniądze, rachunek, skrzydła, uskrzydlone pieniądze, waluta
+💳 bank, karta, karta kredytowa, kredyt, pieniądze
+🧾 dowód, księgowość, paragon, pokwitowanie
+💹 jen, pieniądze, trend wzrostowy, waluta, wykres, wykres wzrostu z symbolem jena, wzrost
+✉ e-mail, koperta, list, wiadomość
+📧 e-mail, email, list, mail, poczta elektroniczna
+📨 e-mail, email, koperta przychodząca, list, mail, poczta elektroniczna
+📩 koperta ze strzałką, odebrać, poczta, przychodząca, wiadomość
+📤 list, mail, na listy, nadawać, nadawcza, pocztowa, skrzynka, wysyłać
+📥 list, mail, odbierać, odbiorcza, otrzymywać, pocztowa, skrzynka
+📦 paczka, pakunek, przesyłka, pudełko
+📫 zamknięta skrzynka pocztowa, zamknięta skrzynka pocztowa z podniesioną flagą
+📪 zamknięta skrzynka pocztowa, zamknięta skrzynka pocztowa z opuszczoną flagą
+📬 otwarta skrzynka pocztowa, otwarta skrzynka pocztowa z podniesioną flagą
+📭 otwarta skrzynka pocztowa, otwarta skrzynka pocztowa z opuszczoną flagą
+📮 na listy, skrzynka na listy, skrzynka pocztowa
+🗳 głos, głosować, urna, urna wyborcza z głosem
+✏ ołówek, pisak
+✒ pióro, pióro z czarną stalówką, stalówka
+🖋 pióro, stalówka, wieczne
+🖊 długopis, pióro
+🖌 malarstwo, malować, pędzel
+🖍 kredka, rysować
+📝 kartka, notatka, ołówek, papier, zapiski
+💼 aktówka, neseser, teczka
+📁 folder, katalog
+📂 folder, katalog, otwarty
+🗂 kartoteka, karty, podział, rozdzielacze, rozdzielacze kartoteki
+📅 data, kalendarz
+📆 data, kalendarz z wyrywanymi kartkami, spirala, zdzierany kalendarz
+🗒 kołonotatnik, na spirali, notatnik, notes, spirala
+🗓 kalendarz, kalendarz na spirali, na spirali, notatnik, notes, spirala
+📇 wizytówka, wizytówki, wizytownik
+📈 tendencja wzrostowa, trend zwyżkowy, wykres wzrostu, wzrost
+📉 spadek, strata, tendencja spadkowa, trend zniżkowy, wykres spadku
+📊 słupek, wykres, wykres słupkowy
+📋 kartka, notes, pisać, pisanie, podkładka, podkładka do pisania
+📌 pinezka, przypiąć
+📍 okrągła pinezka, z główką
+📎 druciany, spinać, spinacz
+🖇 druciane, spinać, spinacze, złączone spinacze
+📏 linia, linijka, prosta, prosta krawędź
+📐 ekierka, linia prosta, linijka, trójkąt
+✂ narzędzie, nożyczki, ostre, przeciąć
+🗃 dokumenty, indeks, kartoteka, karty, pudełko, pudełko-kartoteka
+🗄 dokumenty, indeks, kartoteka, karty, szafka, szafka-kartoteka, szuflady
+🗑 kosz, kosz na śmieci, odpadki, śmieci
+🔒 kłódka, zablokowane, zamknięta kłódka, zamknięte
+🔓 kłódka, odblokować, otwarta
+🔏 atrament, niejawne, pióro, podpis, prywatność, zamknięta kłódka z piórem
+🔐 blokada, kłódka, kluczyk, zamknięcie, zamknięta kłódka z kluczem
+🔑 hasło, klucz, zamek, zamknąć
+🗝 kłódka, klucz, staroświecki klucz, stary, zamek, zamknąć
+🔨 młot, młotek, narzędzie
+🪓 drewno, rąbać, rozłupywać, siekiera, topór
+⛏ górnicze, kilof, narzędzie
+⚒ kilof, młot, młoty, narzędzia
+🛠 klucz, młot, młot i klucz, narzędzia, warsztatowy
+🗡 broń, nóż, sztylet
+⚔ biała broń, miecze, skrzyżowane
+🔫 broń, broń palna, pistolet, pistolet na wodę, rewolwer
+🪃 Aborygeni, Australia, bumerang, wraca
+🏹 broń, łucznik, łuk, łuk i strzała, narzędzie, strzała, strzelec, zodiak
+🛡 ochrona, osłona, tarcza
+🪚 narzędzie, piła, piła do drewna, stolarz, tarcica
+🔧 klucz warsztatowy, mechanik, narzędzie, warsztat
+🪛 narzędzie, śruba, śrubokręt, wkręt, wkrętak
+🔩 gwint, mocowanie, nakrętka, śruba, śruba i nakrętka
+⚙ kółko, koło zębate, skrzynia biegów, zębate, zębatka
+🗜 kompresja, nacisk, prasowanie, presja, ścisk, ściskanie
+⚖ ciężar, narzędzie, równowaga, sprawiedliwość, waga, waga szalkowa, ważyć, zodiak
+🦯 biała laska, dostępność, niewidomy
+🔗 hiperłącze, link, ogniwa, ogniwo, połączenie
+⛓ łańcuch, łańcuchy, ogniwa
+🪝 haczyk, hak, połknąć, zakrzywiony, złapać
+🧰 mechanik, narzędzie, skrzynka, skrzynka na narzędzia
+🧲 magnes, magnetyzm, podkowa, przyciąganie
+🪜 drabina, szczebel, wspinać się
+⚗ alembik, chemia, kolba, menzurka, naczynie, probówka, szklane
+🧪 chemia, chemik, eksperyment, laboratorium, nauka, probówka
+🧫 bakteria, biolog, biologia, kultura, laboratorium, płytka Petriego
+🧬 biolog, dna, ewolucja, gen, genetyka, życie
+🔬 mikroskop, obserwacja, powiększenie
+🔭 luneta, obserwacja, powiększenie, teleskop
+📡 antena satelitarna, czasza, satelita, talerz
+💉 chory, lekarstwo, strzykawka, szczepienie, szczepionka, zastrzyk
+🩸 kropla krwi, krwiodawstwo, medycyna, menstruacja, oddawanie krwi
+💊 kapsułka, lekarstwo, tabletka
+🩹 opatrunek, plaster
+🩺 lekarz, medycyna, serce, stetoskop
+🚪 drzwi
+🛗 dostępność, winda
+🪞 lustro, odbicie, zwierciadło
+🪟 framuga, okno, otwór, przezroczyste, świeże powietrze, widok
+🛏 hotel, łóżko, nocleg, sen
+🛋 hotel, kanapa, kanapa i lampa, lampa
+🪑 krzesło, siadać, siedzenie
+🚽 dolnopłuk, muszla klozetowa, sedes, toaleta, ubikacja
+🪠 hydraulik, odetkać, przepychać, przepychacz, toaleta
+🚿 łazienka, prysznic, woda
+🛁 kąpiel, wanna
+🪤 przynęta, pułapka, pułapka na myszy, sidła
+🪒 brzytwa, golenie, ostre narzędzie
+🧴 balsam, butelka z płynem, krem do opalania, mleczko, szampon
+🧷 agrafka, pielucha, punk, punk rock
+🧹 czarownica, miotła, sprzątanie, zamiatanie
+🧺 kosz, piknik, pranie, rolnictwo
+🧻 papier toaletowy, ręczniki papierowe, rolka papieru
+🪣 kubeł, wiaderko, wiadro
+🧼 kąpiel, kostka, mycie, mydelniczka, mydło, piana
+🪥 czyszczenie, higiena, jama ustna, łazienka, szczoteczka do zębów, szczotka, zęby
+🧽 gąbka, mycie, porowata, wchłanianie
+🧯 gaśnica, ogień, ugasić, zgasić
+🛒 koszyk, sklep, wózek, wózek sklepowy, zakupy
+🚬 dla palących, dym, dymek, papieros
+⚰ pogrzeb, śmierć, trumna
+🪦 cmentarz, grób, kamień nagrobny, nagrobek
+⚱ pogrzeb, śmierć, urna, urna na prochy
+🗿 moai, posąg, twarz, wyspa wielkanocna
+🪧 demonstracja, pikieta, protest, tabliczka, transparent, znak
+🏧 ATM, znak bankomatu
+🚮 kosz, nie śmiecić, śmieci, śmiecić, znak kosza na śmieci
+🚰 kran, pić, pitna, woda
+♿ inwalida, na wózku, niepełnosprawny, symbol wózka inwalidzkiego, wózek
+🚹 męski, szalet, toaleta, toaleta męska, ubikacja, ustęp
+🚺 damski, szalet, toaleta, toaleta damska, ubikacja, ustęp
+🚻 łazienka, toaleta, toalety, ubikacja
+🚼 niemowlę, symbol niemowlęcia
+🚾 szalet, toaleta, ubikacja, ustęp, wc, WC
+🛂 granica, graniczna, kontrola, kontrola paszportowa, paszport
+🛃 celna, komora celna, kontrola
+🛄 bagaż, odbiór, odbiór bagażu
+🛅 kluczyk, pozostawiony bagaż, przechowalnia bagażu, walizka, zamknięcie
+⚠ ostrzeżenie, uwaga, wykrzyknik, znak ostrzegawczy
+🚸 dzieci, dzieci przechodzące przez jezdnię, dziecko, przejście da pieszych, uwaga
+⛔ wejście, wstęp, zabroniony, zakaz, zakaz wjazdu
+🚫 brak przejścia, wejście, zabronione, zakaz
+🚳 nie wolno, pojazd, rower, zabroniony, zakaz, zakaz wjazdu rowerów
+🚭 nie wolno, palenie wzbronione, papieros, zabronione, zakaz, zakaz palenia
+🚯 nie wolno, nie wyrzucać, śmieci, zabronione, zakaz, zakaz śmiecenia
+🚱 nie pić, nie wolno, niezdatna, woda, woda niezdatna do picia, zabronione, zakaz
+🚷 nie wolno, pieszy, przejście wzbronione, zabronione, zakaz, zakaz ruchu pieszych
+📵 komórka, nie wnosić, nie wolno, telefon komórkowy, zabroniony, zakaz, zakaz korzystania z telefonów komórkowych
+🔞 18, niedozwolone poniżej osiemnastego roku życia, od lat osiemnastu, ograniczenie wiekowe, zakaz, zakaz poniżej osiemnastego roku życia
+☢ promieniowanie, radiacja, radioaktywne
+☣ biozagrożenie, niebezpieczeństwo, organizm, zagrożenie, zagrożenie ze strony organizmów żywych, żywy
+⬆ kierunek, północ, strzałka, strzałka do góry, strzałka w górę
+↗ kierunek, północny wschód, strzałka, strzałka do góry w prawo, strzałka w górę w prawo
+➡ kierunek, strzałka, strzałka w prawo, wschód
+↘ kierunek, południowy wschód, strzałka, strzałka w dół w prawo
+⬇ kierunek, południe, strzałka, strzałka na dół, strzałka w dół
+↙ kierunek, południowy zachód, strzałka, strzałka na dół w lewo, strzałka w dół w lewo
+⬅ kierunek, strzałka, strzałka w lewo, zachód
+↖ kierunek, północny zachód, strzałka, strzałka do góry w lewo, strzałka w górę w lewo
+↕ dwukierunkowa, góra-dół, strzałka do góry i na dół, strzałka w górę i w dół
+↔ dwukierunkowa, lewo-prawo, na boki, strzałka w lewo i w prawo
+↮ przekreślona strzałka w lewo i prawo
+↩ strzałka, strzałka zakręcona w lewo, zakręt, zawróć
+↪ strzałka, strzałka zakręcona w prawo, zakręt, zawróć
+⤴ strzałka, strzałka w prawo skręcająca w górę, zakręt
+⤵ strzałka, strzałka w prawo skręcająca dół, strzałka w prawo skręcająca w dół, zakręt
+🔃 odśwież, okrężny, pionowe strzałki zgodne z ruchem wskazówek zegara, pionowe strzałki zgodnie z ruchem wskazówek zegara, strzałka
+🔄 dookoła, okrężny, przycisk ze strzałkami przeciwnie do ruchu wskazówek zegara, przycisk ze strzałkami w kierunku przeciwnym do ruchu wskazówek zegara, strzałka
+🔙 strzałka, strzałka z napisem BACK, wstecz
+🔚 koniec, strzałka, strzałka z napisem END
+🔛 strzałka, strzałka z napisem ON!, włączone
+🔜 strzałka, strzałka z napisem SOON, wkrótce
+🔝 góra, strzałka, strzałka z napisem TOP
+🛐 kościół, kult, miejsce kultu, modlitwa, religia, świątynia
+⚛ atom, symbol atomu
+🕉 hinduizm, om, religia
+✡ Dawid, gwiazda, gwiazda Dawida, gwiazda dawidowa, religia, żyd, żydowska
+☸ buddysta, buddyzm, dharma, koło, koło dharmy, religia
+☯ religia, tao, taoizm, yang, yin, yin-yang
+✝ chrześcijaństwo, krzyż, krzyż łaciński, krzyżyk, religia
+☦ chrześcijaństwo, krzyż, krzyż ortodoksyjny, krzyż prawosławny, krzyżyk, religia
+☪ gwiazda i półksiężyc, islam, muzułmanin, religia
+☮ pacyfa, symbol pokoju
+🕎 kandelabr, menora, religia, świecznik
+🔯 gwiazda sześcioramienna z kropką, szczęście
+♈ baran, Baran, znak zodiaku, zodiak
+♉ byk, Byk, znak zodiaku, zodiak
+♊ bliźnięta, Bliźnięta, znak zodiaku, zodiak
+♋ rak, Rak, znak zodiaku, zodiak
+♌ lew, Lew, znak zodiaku, zodiak
+♍ panna, Panna, znak zodiaku, zodiak
+♎ waga, Waga, znak zodiaku, zodiak
+♏ skorpion, Skorpion, znak zodiaku, zodiak
+♐ strzelec, Strzelec, znak zodiaku, zodiak
+♑ koziorożec, Koziorożec, znak zodiaku, zodiak
+♒ wodnik, Wodnik, znak zodiaku, zodiak
+♓ ryby, Ryby, znak zodiaku, zodiak
+⛎ wężownik, Wężownik, znak zodiaku, zodiak
+🔀 krzyżujące się, przecinające się, przycisk losowego odtwarzania utworów, skrzyżowane, strzałki
+🔁 dookoła, okrężny, ponów, powtórz, przycisk powtarzania, strzałki, w prawo
+🔂 dookoła, okrężny, ponów raz, powtórz raz, przycisk powtarzania jednokrotnego, strzałki, w prawo
+▶ odtwórz, strzałka, trójkąt, w prawo
+⏩ do przodu, podwójna, przewiń, przycisk szybkiego przewijania do przodu, strzałka, szybkie przewijanie, trójkąt
+⏭ następny, następny utwór, strzałka, trójkąt
+⏯ odtwórz, odtwórz lub wstrzymaj, pauza, strzałka, trójkąt, w prawo, wstrzymaj
+◀ strzałka, trójkąt, w lewo, wstecz
+⏪ do tyłu, podwójna, przewiń, przycisk szybkiego przewijania do tyłu, strzałka, szybkie przewijanie, trójkąt, w lewo, wstecz
+⏮ poprzedni, poprzedni utwór, strzałka, trójkąt
+🔼 do góry, przycisk „w górę”, strzałka, trójkąt
+⏫ do góry, podwójna, przycisk „szybko w górę”, strzałka, w górę
+🔽 na dół, przycisk „w dół”, strzałka, trójkąt
+⏬ na dół, podwójna, przycisk „szybko w dół”, strzałka, w dół
+⏸ dwie, pauza, pionowe kreski, wstrzymaj
+⏹ kwadrat, stop, zatrzymaj
+⏺ kółko, nagraj, nagrywanie
+⏏ kreska, trójkąt, wysuń
+🎦 film, kino, kręcić film
+🔅 jasność, mała, niska, przyciemnić, przycisk małej jasności
+🔆 duża, jasność, przycisk dużej jasności, rozjaśnić, wysoka
+📶 sieć komórkowa, siła sygnału, zasięg
+📳 komórka, telefon komórkowy, tryb wibracji, wibracje
+📴 komórka, telefon komórkowy, wyłącz, wyłączony, wyłączony telefon komórkowy
+♀ kobieta, żeński, znak, znak kobiety
+♂ męski, mężczyzna, znak, znak mężczyzny
+⚧ symbol transpłciowości, transpłciowość
+✖ ×, anuluj, iks, mnożenie, x, znak, znak mnożenia
+➕ +, dodać, dodawać, dodawanie, matematyka, plus, znak
+➖ -, −, matematyka, odejmowanie, znak, znak minus
+➗ ÷, dzielenie, matematyka, znak, znak dzielenia
+♾ bezgraniczność, nieskończoność, wieczność
+‼ !, !!, krzyk, okrzyk, podwójny wykrzyknik, wykrzykniki
+⁉ !, !?, ?, nie rozumiem, pytajnik, pytanie, wykrzyknik, wykrzyknik ze znakiem zapytania, zaskoczenie, znak zapytania
+❓ ?, czerwony znak zapytania, o co chodzi, pytajnik, pytanie, znak zapytania
+❔ biały znak zapytania, o co chodzi?, pytajnik, pytanie, znak zapytania
+❕ !, biały wykrzyknik, krzyk, okrzyk, wykrzyknik
+❗ !, czerwony wykrzyknik, krzyk, okrzyk, wykrzyknik
+〰 fala, falista kreska, linia, pofalowana
+💱 kantor, waluta, wymiana, wymiana walut
+💲 dolary, gruby symbol dolara, pieniądze, usd, waluta
+⚕ eskulap, laska, medycyna, symbol medycyny
+♻ odpady, recykling, surowce wtórne
+⚜ harcerze, lilijka
+🔱 emblemat, emblemat z trójzębem, kotwica, okręt, statek
+📛 plakietka, z imieniem
+🔰 japoński symbol początkującego kierowcy, niebieski, początkujący, szewron, w dół, żółty
+⭕ gruby czerwony okrąg, kółko, koło, o, okrąg
+✅ parafka, przycisk ze znacznikiem wyboru, ptaszek, zaznaczenie, znacznik wyboru
+☑ parafka, pole ze znacznikiem wyboru, ptaszek, zaznaczenie
+✔ gruby znacznik wyboru, parafka, ptaszek, zaznaczenie, znacznik wyboru
+❌ ×, anuluj, krzyżyk, mnożenie, x, znak, znak krzyżyka, znak mnożenia
+❎ anuluj, iks, iks w kwadracie, krzyżyk w kwadracie, mnożenie, przycisk z krzyżykiem
+➰ pętla, zawijas
+➿ pętla, podwójna, zawijas
+〽 początek partii wokalnej, znak, zygzak
+✳ *, gwiazdka, gwiazdka ośmioramienna
+✴ *, gwiazda, gwiazda ośmioramienna
+❇ *, iskra
+© copyright, prawa autorskie, znak praw autorskich
+® R, towarowy, zarejestrowany, zarejestrowany znak towarowy
+™ TM, znak towarowy
+🔠 abcd, duże litery, kapitaliki, łacińskie, pisać, wielkie litery (alfabet łaciński), wielkimi literami, wprowadzać
+🔡 abcd, łacińskie, małe litery (alfabet łaciński), małymi literami, pisać, wprowadzać
+🔢 1234, cyfry, liczby, pisać
+🔣 pisać, symbole, wprowadzać, znaki
+🔤 abecadło, alfabet, litery (alfabet łaciński), małe litery, pierwsze litery
+🅰 A, grupa A, grupa krwi A, krew
+🆎 AB, grupa AB, grupa krwi AB, krew
+🅱 B, grupa B, grupa krwi B, krew
+🆑 przycisk CL, znak CL
+🆒 aprobata, cool, przycisk COOL, świetnie, zachwyt
+🆓 przycisk FREE, znak braku opłaty, znak FREE
+ℹ i, informacja, informacje, punkt informacyjny, źródło informacji
+🆔 ID, identyfikator, przycisk ID, znak ID
+Ⓜ kółko, koło z literą M, m, metro
+🆕 NEW, nowość, nowy, przycisk NEW
+🆖 NG, niedobrze, przycisk NG, źle
+🅾 0, grupa 0, grupa krwi 0, krew
+🆗 dobrze, przycisk OK, w porządku, zgoda
+🅿 parking, postój
+🆘 na pomoc, przycisk SOS, ratunek, ratunku
+🆙 do góry, przycisk UP!, znak UP!
+🆚 kontra, przycisk VS, versus, VS
+🈁 ideogram, japoński, japoński przycisk „tutaj”, koko
+🈂 ideogram, japoński, sa, sa w języku katakana
+🈷 ideogram, ideogram księżyca, japoński, księżyc
+🈶 ideogram, istnienie, japoński, japoński przycisk „płatne”
+🈯 ideogram, japoński, japoński przycisk „zarezerwowane”, palec
+🉐 ideogram, japoński, japoński przycisk „okazja”, korzyść, przewaga
+🈹 ideogram, japoński, japoński przycisk „rabat”, podział
+🈚 ideogram, japoński, japoński przycisk „bezpłatne”, negacja
+🈲 ideogram, japoński, japoński przycisk „zabronione”, zakaz
+🉑 akceptacja, chiński, ideogram, japoński przycisk „dozwolone”
+🈸 ideogram, japoński, japoński przycisk „wniosek”, zastosowanie
+🈴 ideogram, japoński, japoński przycisk „ocena pozytywna”, razem
+🈳 ideogram, japoński, japoński przycisk „wolne miejsce”, pusty
+㊗ gratulacje, ideogram, japoński, japoński przycisk „gratulacje”
+㊙ ideogram, japoński, japoński przycisk „tajemnica”, tajemnica
+🈺 działa, ideogram, japoński, japoński przycisk „czynne”
+🈵 ideogram, japoński, japoński przycisk „brak wolnych miejsc”, wypełnienie
+🔴 czerwone, figura geometryczna, kółko, koło
+🟠 kółko, koło, pomarańczowe
+🟡 kółko, koło, żółte
+🟢 kółko, koło, zielone
+🔵 figura geometryczna, kółko, koło, niebieskie
+🟣 fioletowe, kółko, koło
+🟤 brązowe, kółko, koło
+⚫ czarne, figura geometryczna, kółko, koło
+⚪ białe, figura geometryczna, kółko, koło
+🟥 czerwony, kwadrat, kwadratowy
+🟧 kwadrat, kwadratowy, pomarańczowy
+🟨 kwadrat, kwadratowy, żółty
+🟩 kwadrat, kwadratowy, zielony
+🟦 kwadrat, kwadratowy, niebieski
+🟪 fioletowy, kwadrat, kwadratowy
+🟫 brązowy, kwadrat, kwadratowy
+⬛ czarny, duży, figura geometryczna, kwadrat, średni
+⬜ biały, duży, figura geometryczna, kwadrat
+◼ czarny, duży, figura geometryczna, kwadrat, średni
+◻ biały, duży, figura geometryczna, kwadrat, średni
+◾ czarny, figura geometryczna, kwadrat, mały, mały/średni czarny kwadrat
+◽ biały, figura geometryczna, kwadracik, kwadrat, mały/średni biały kwadrat
+▪ czarny, figura geometryczna, kwadracik, kwadrat, mały czarny kwadrat
+▫ biały, figura geometryczna, kwadracik, kwadrat, mały biały kwadrat
+🔶 duży, figura geometryczna, kształt, pomarańczowy, romb
+🔷 duży, figura geometryczna, kształt, niebieski, romb
+🔸 figura geometryczna, kształt, mały, pomarańczowy, romb
+🔹 figura geometryczna, kształt, mały, niebieski, romb
+🔺 czerwony, czerwony trójkąt skierowany w górę, do góry, figura geometryczna, trójkąt, w górę, wierzchołkiem
+🔻 czerwony, czerwony trójkąt skierowany w dół, figura geometryczna, na dół, trójkąt, w dół, wierzchołkiem
+💠 klejnot, romb, romb z kropką
+🔘 figura geometryczna, kółko, przycisk radiowy, przycisk wyboru opcji
+🔳 biały, biały kwadratowy przycisk, czarny, figura geometryczna, kwadrat, obramowanie
+🔲 biały, czarny, czarny kwadratowy przycisk, figura geometryczna, kwadrat, obramowanie
+🏁 flaga w kratkę, flaga w szachownicę, wyścigi
+🚩 chorągiewka, czerwona flaga, flaga, flaga trójkątna, słupek
+🎌 japońskie, skrzyżowane, skrzyżowane flagi, uroczystość
+🏴 czarna flaga, flaga, na wietrze, żałoba
+🏳 biała flaga, flaga, kapitulacja, na wietrze, poddaję się, powiewająca biała flaga
+🏳‍🌈 flaga, tęcza, tęczowa flaga
+🏳‍⚧ flaga, flaga osób transpłciowych, transpłciowość
+🏴‍☠ czaszka i kości, Jolly Roger, piraci, piracka flaga, pirat, skarb
+¢ cent
+$ dolar, pieniądze, USD, waluta
+£ funt, funt szterling, GBP, waluta
+¥ CNY, jen, JPY, juan, waluta
+₥ mil, mill
+₩ KPW, KRW, waluta, won
+€ EUR, euro, waluta
+₱ peso
+₹ rupia, rupia indyjska, waluta
+₽ rubel, waluta
+₿ bitcoin, BTC
+¹ indeks górny, jeden, jeden w indeksie górnym
+² dwa, dwa w indeksie górnym, indeks górny, kwadrat
+³ indeks górny, sześcian, trzy, trzy w indeksie górnym
+µ miara, znak mikro

@@ -1,0 +1,1763 @@
+{ accolade, accolade ouvrante, accolades
+🏻 peau, peau claire, type 1–2
+🏼 peau, peau modérément claire, type 3
+🏽 peau, peau légèrement mate, type 4
+🏾 peau, peau modérément foncée, type 5
+🏿 peau, peau foncée, type 6
+_ ligne, tiret, tiret bas, trait de soulignement
+- moins, tiret, trait d’union, trait d’union-moins
+‐ tiret, trait d’union
+– demi-cadratin, tiret
+— cadratin, tiret
+― barre, barre horizontale, ligne, tiret
+・ katakana, point médian, point médian katakana, point milieu, points
+, virgule
+، arabe, virgule
+、 idéographique, virgule
+; point-virgule
+؛ arabe, point-virgule
+: deux-points
+! exclamation, point d’exclamation
+¡ exclamation, inversé, point d’exclamation, point d’exclamation inversé
+? point d’interrogation, question
+¿ inversé, point d’interrogation, point d’interrogation inversé, question
+؟ arabe, point d’interrogation, point d’interrogation arabe, question
+. point, point final
+… ellipse, points de suspension, suspension
+。 idéographique, point, point final
+· médian, milieu, point
+' apostrophe, apostrophe dactylographique, guillemet, guillemet simple
+‘ apostrophe, apostrophe gauche, guillemet, guillemet simple, guillemet typographique
+’ apostrophe, apostrophe droite, guillemet, guillemet simple, guillemet typographique
+‚ apostrophe, apostrophe droite basse, guillemet, guillemet inférieur
+“ guillemet, guillemet double, guillemet droit gauche, guillemets, guillemets doubles
+” guillemet, guillemet double, guillemet droit droit, guillemets, guillemets typographiques
+„ guillemet, guillemet double, guillemet droit bas, guillemets, guillemets bas, guillemets typographiques
+« anti-lambda, chevron, citation, crochet oblique, crochets, gauche, guillemet gauche
+» anti-lambda, chevron, citation, crochet oblique, crochets, droit, guillemet droit
+) parenthèse, parenthèse fermante, parenthèses
+[ crochet, crochet ouvrant, crochets
+] crochet, crochet fermant, crochets
+} accolade, accolade fermante, accolades
+〈 chevron, chevron angulaire, chevron pointu, crochet, crochet oblique ouvrant, crochets obliques, tuple
+〉 chevron, chevron angulaire, chevron pointu, crochet, crochet oblique fermant, crochets obliques, uplet
+《 crochet, crochet en chevron, crochet en chevron double ouvrant
+》 crochet, crochet en chevron double, crochet en chevron double fermant
+「 anglet gauche ouvrant, crochet, crochet de partie entière
+」 anglet fermant, crochet, crochet de partie entière
+『 crochet, crochet de partie entière creux, crochet de partie entière ouvrant creux
+』 crochet, crochet de partie entière creux, crochet de partie entière fermant creux
+【 crochet, crochet lenticulaire, crochet lenticulaire ouvrant noir
+】 crochet, crochet lenticulaire, crochet lenticulaire fermant noir
+〔 crochet, crochet en écaille, crochet en écaille ouvrant
+〕 crochet, crochet en écaille, crochet en écaille fermant
+〖 crochet, crochet lenticulaire creux, crochet lenticulaire ouvrant creux
+〗 crochet, crochet lenticulaire creux, crochet lenticulaire fermant creux
+§ paragraphe, partie, section, symbole
+¶ alinéa, paragraphe, paraphe, pied-de-mouche, symbole du paragraphe
+@ a commercial, arobas, arobase, arroba, arrobe
+* astérisque, caractère générique, étoile
+/ barre de division, barre de fraction, barre oblique, trait oblique
+\ barre oblique inverse, barre oblique inversée, oblique
+& esperluette, et, perluète, perluette
+# croisillon, dièse, lb, livre, numéro
+% pour cent, pourcent
+‰ par mille, pour mille
+† dague, obèle, obélus
+‡ dague, double, obèle, obélus
+• point, puce
+‧ emplacement de coupure de mots, point, tiret, union
+′ prime
+″ double prime, prime
+‴ prime, triple prime
+※ appel de note, marque de référence
+` accent, grave
+´ accent, aigu
+^ accent, caret, chapeau, chevron, circonflexe, contrôle, puissance, symbole xor
+¨ diérèse, tréma, umlaut
+° degré, heure, preuve
+℗ copyright, enregistrement, phonographique
+← flèche, flèche vers la gauche, gauche
+→ droite, flèche, flèche vers la droite
+↑ flèche, flèche vers le haut, haut
+↓ bas, flèche, flèche vers le bas
+⇅ bas, flèche, flèches vers le haut et vers le bas, haut
+⇆ droite, flèche, flèche gauche au-dessus de flèche droite, gauche
+⇐ double flèche vers la gauche
+⇑ double flèche vers le haut
+⇒ double flèche vers la droite
+⇓ double flèche vers le bas
+⇔ double flèche gauche-droite
+⇖ double flèche nord-ouest
+⇗ double flèche nord-est
+⇘ double flèche sud-est
+⇙ double flèche sud-ouest
+⇚ triple flèche vers la gauche
+⇛ triple flèche vers la droite
+⇜ flèche vers la gauche en tire-bouchon
+⇝ flèche vers la droite en tire-bouchon
+⇦ flèche creuse vers la gauche
+⇧ flèche creuse vers le haut
+⇨ flèche creuse vers la droite
+⇩ flèche creuse vers le bas
+∆ incrément, triangle
+∇ nabla, triangle
+∈ appartenance, contient, élément, élément de, ensemble
++ ajouter, plus, signe plus
+± plus-moins
+÷ diviser, division, obélus, signe de division
+× fois, multiplication, multiplier, signe de multiplication
+< chevron, chevron ouvrant, inférieur à
+= égal, est égal
+≠ inégalité, inéquation, pas égal
+> chevron, chevron fermant, supérieur à
+¬ négation, non
+| barre, barre de sheffer, barre verticale, ligne, ligne verticale, trait
+~ tilde
+− moins, signe moins, soustraire
+⁻ exposant, moins
+√ base, carrée, nombre sourd, racine, radical
+∞ infini, symbole de l’infini
+∩ ensemble, intersection
+∪ collection, ensemble, union
+≅ approximativement égal à
+≈ approximation, environ, presque égal
+≌ égalité, mathématiques
+≖ égalité, mathématiques
+≡ exact, identique, identique à, triple
+≣ strictement équivalent à
+≤ égal, inégalité, inférieur à, plus petit ou égal
+≥ égal, inégalité, plus grand ou égal, supérieur à
+≦ inférieur à sur égal à
+≧ supérieur à sur égal à
+≪ très inférieur à
+≫ très supérieur à
+≬ entre
+≳ inégalité, mathématiques
+≺ précède
+≻ suit
+⊁ ne suit pas
+⊂ ensemble, sous-ensemble, sous-ensemble de
+⊃ sur-ensemble de
+⊆ sous-ensemble égal à
+⊇ sur-ensemble égal à
+⊕ plus cerclé
+⊖ moins cerclé
+⊗ fois cerclé
+▲ flèche, haut, plein, triangle, triangle plein vers le haut
+▼ bas, flèche, plein, triangle, triangle plein vers le bas
+◊ losange, rhombe
+○ anneau, cercle, cercle vide
+● cercle, cercle plein
+◠ demi-cercle supérieur
+◡ demi-cercle inférieur
+◢ triangle rectangle inférieur droit plein
+◣ triangle rectangle inférieur gauche plein
+◤ triangle rectangle supérieur gauche plein
+◥ triangle rectangle supérieur droit plein
+◦ puce creuse
+◯ anneau, cercle, grand cercle vide
+◳ carré creux avec quadrant supérieur droit
+◷ cercle creux avec quadrant supérieur droit
+◿ triangle rectangle inférieur droit
+♪ croche, musique, note
+⨧ signe plus avec indice deux
+⨯ produit vectoriel
+⨼ produit intérieur
+⩣ ou logique à deux barres souscrites
+⩽ inférieur à ou égal à incliné
+⪍ inférieur à sur similaire ou égal à
+⪚ égal en deux lignes ou supérieur à
+⪺ suit sur non presque égal à
+♭ bémol, musique, note
+♯ dièse, musique, note
+😀 grand sourire, large sourire, visage, visage avec large sourire
+😃 bouche ouverte, sourire, visage, visage souriant les yeux grands ouverts
+😄 bouche ouverte, œil, sourire, visage, visage avec large sourire et yeux rieurs
+😁 grand sourire, large sourire, œil, sourire, visage, visage radieux et yeux rieurs
+😆 bouche ouverte, rire, satisfait, sourire, visage, visage avec large sourire, les yeux fermés
+😅 froide, sourire, sueur, un visage en sueur avec large sourire, visage, visage en sueur avec large sourire
+🤣 rire, rire à se rouler par terre, se rouler par terre, visage
+😂 joie, larme, rire, visage, visage pleurant de joie
+🙂 sourire, visage, visage avec un léger sourire
+🙃 à l’envers, renversé, visage, visage à l’envers
+😉 clin d’œil, visage, visage clignant d’un œil
+😊 œil, rougir, sourire, visage, visage souriant les yeux plissés
+😇 ange, auréole, innocent, visage, visage qui sourit avec une auréole
+🥰 aimer, amour, amoureuse, amoureux, béguin, cœurs, visage souriant avec cœurs
+😍 amour, œil, sourire, visage, visage souriant aux yeux en forme de cœur
+🤩 étoile, grand sourire, large sourire, visage, visage aux yeux en forme d’étoiles, yeux
+😘 baiser, visage, visage envoyant un baiser
+😗 baiser, visage, visage donnant un baiser
+☺ détendu, sourire, visage, visage souriant
+😚 baiser, visage, visage faisant un baiser les yeux fermés, yeux fermés
+😙 baiser, œil, sourire, visage, visage donnant un baiser avec les yeux plissés, visage faisant un baiser les yeux rieurs
+🥲 ému, fier, larme, soulagé, souriant, touché, visage souriant avec larme
+😋 délicieux, menoum, miam, savourant, sourire, visage
+😛 langue, langue sortie, tire la langue, visage, visage qui tire la langue
+😜 clin d’œil, langue, tire la langue, visage, visage qui tire la langue et fait un clin d’œil
+🤪 amusant, farfelu, idiot, niaiseux, tête de fou, visage
+😝 dégoût, horrible, langue, visage, visage qui tire la langue les yeux plissés, yeux plissés
+🤑 argent, argent dans les yeux et la bouche, bouche, dollar, visage, yeux
+🤗 câlin, visage, visage heureux et câlin
+🤭 main sur la bouche, Oups, visage, visage avec une main sur la bouche
+🤫 chut, doigt sur la bouche, silence, visage, visage avec un doigt sur la bouche
+🤔 réflexion, visage, visage en pleine réflexion
+🤐 bouche, bouche cousue, fermeture à glissière, visage, visage avec bouche fermeture éclair
+🤨 méfiant, sceptique, visage avec les sourcils relevés
+😐 impassible, neutre, visage
+😑 inexpressif, neutre, sans expression, visage, visage sans expression
+😶 muet, sans bouche, silence, silencieux, visage, visage sans bouche
+😶‍🌫 brouillard, dans les nuages, distrait, visage dans le brouillard, visage dans les nuages
+😏 malin, sourire, visage, visage au sourire malin
+😒 contrarié, désabusé, pas content, résigné, visage
+🙄 roule des yeux, visage, visage qui roule des yeux, yeux
+😬 grimace, visage, visage grimaçant
+😮‍💨 chuchoter, expiration, siffler, soulagement, sursaut, visage expirant
+🤥 mensonge, menteur, pinocchio, visage, visage de menteur
+😌 soulagé, soulagement, visage
+😔 déçu, pensif, visage
+😪 endormi, sommeil, visage
+🤤 bave, baver, salive, saliver, visage, visage qui bave
+😴 endormi, sommeil, visage, visage somnolent, zzz
+😷 docteur, froid, malade, masque, médical, visage, visage avec masque
+🤒 indisposé, malade, thermomètre, visage, visage avec thermomètre
+🤕 bandage, blessé, blessure, visage, visage bandé
+🤢 écœuré, nausée, visage
+🤮 malade, visage qui vomit, vomi, vomissure
+🤧 atchoum, éternuement, éternuer, rhume, visage, visage qui éternue
+🥵 canicule, chaud, fièvre, rouge, sueur, visage, visage rouge et chaud
+🥶 bleu, froid, gelé, gelure, glacial, visage, visage bleu et froid
+🥴 bouche ondulée, dans les vapes, hébété, pompette, rond, visage abruti, visage éméché
+😵 inconscient, mort, visage
+😵‍💫 confusion, étourdi, hagard, tête qui tourne, visage avec yeux en spirale
+🤯 choqué, tête qui explose
+🤠 chapeau, cowboy, visage, visage avec chapeau de cowboy
+🥳 célébration, chapeau, fête, sifflet, visage, visage festif
+🥸 déguisement, faux nez, incognito, lunettes, postiche, visage déguisé
+😎 cool, intelligent, soleil, visage, visage souriant avec des lunettes de soleil
+🤓 geek, lunettes, nerd, tronche, visage, visage de tronche
+🧐 monocle, sérieux, visage, visage avec un monocle
+😕 confus, visage
+😟 inquiet, visage
+🙁 mécontent, visage, visage légèrement mécontent
+☹ mécontent, visage
+😮 bouche ouverte, compassion, visage, visage épaté
+😯 ébahi, sans voix, stupéfait, surpris, visage
+😲 choqué, étonné, stupéfait, surpris, visage
+😳 rouge, rougissant, visage, visage qui rougit
+🥺 implorant, pitié, supplication, visage, yeux de chiot
+😦 béante, bouche, ouverte, renfrogné, visage, visage mécontent avec bouche ouverte
+😧 angoisse, visage, visage angoissé
+😨 apeuré, effrayé, peur, visage
+😰 anxieux, bleu, froide, sueur, visage, visage inquiet et en sueur
+😥 déçu, fiou, soulagé, visage, visage triste mais soulagé
+😢 larmes, pleure, triste, visage, visage qui pleure
+😭 chaudes larmes, pleure, sanglot, triste, visage, visage qui pleure à chaudes larmes
+😱 cri, munch, peur, terreur, visage, visage qui hurle de peur
+😖 déconcerté, visage
+😣 persévérant, visage
+😞 déçu, visage
+😓 froide, sueur, triste, visage, visage triste et en sueur
+😩 épuisé, fatigué, visage
+😫 fatigue, visage, visage fatigué
+🥱 bâiller, ennui, fatigue, visage bâillant
+😤 énervé, fumée, triomphe, victoire, visage, visage avec fumée sortant des narines
+😡 boudeur, énervé, furieux, rouge, visage
+😠 en colère, furieux, visage, visage en colère
+🤬 bipé, blasphème, censuré, sacre, visage, visage avec des symboles dans la bouche
+😈 cornes, fantastique, sourire, visage, visage souriant avec des cornes
+👿 cornes, démon, diable, diablotin, en colère, visage, visage en colère avec des cornes
+💀 crâne, fantastique, monstre, mort, visage
+☠ crâne, mort, os, tête, tête de mort
+💩 caca, crotte, marde, merde, tas de crotte, visage
+🤡 clown, visage, visage de clown
+👹 créature, fantastique, monstre, ogre, visage
+👺 créature, fantastique, gobelin, monstre, visage
+👻 créature, fantastique, fantôme, monstre, visage
+👽 alien, créature, extraterrestre, fantastique, ovni, visage
+👾 alien, créature, extraterrestre, monstre, monstre de l’espace, ovni, visage
+🤖 monstre, robot, visage
+😺 bouche, chat, chat qui sourit, ouverte, sourire, visage
+😸 chat, chat qui sourit avec des yeux rieurs, sourire, visage, yeux rieurs
+😹 chat, chat qui pleure de joie, joie, larmes, sourire, visage
+😻 amoureux, chat, chat souriant aux yeux en cœurs, sourire, visage, yeux en forme de cœurs
+😼 chat, chat avec sourire en coin, en coin, ironique, sourire, visage
+😽 baiser, bec, bisou, chat, chat qui fait un bisou, visage
+🙀 chat, chat fatigué, étonné, inquiet, surpris, visage
+😿 chat, chat qui pleure, larmes, pleure, triste, visage
+😾 chat, chat qui boude, colère, furieux, visage
+🙈 aveugle, rien de mal, singe, singe ne rien voir, visage, yeux couverts
+🙉 oreilles couvertes, rien de mal, singe, singe ne rien entendre, sourd, visage
+🙊 bouche couverte, muet, rien de mal, singe, singe ne rien dire, visage
+💋 baiser, lèvres, rouge, trace de rouge à lèvres
+💌 amour, cœur, lettre, lettre d’amour
+💘 cœur, cœur et flèche, cupidon, flèche
+💝 cœur, cœur avec ruban, ruban, saint valentin, st valentin
+💖 cœur, enthousiaste, étincelant
+💗 cœur, grandissant, nerveux, pouls, pulsations
+💓 battant, battement, cœur, pulsations
+💞 cœurs, cœurs qui tournent
+💕 amour, deux cœurs
+💟 cœur, décoration, décoration avec cœur
+❣ cœur, cœur point d’exclamation, exclamation, point
+💔 brisé, cœur
+❤‍🔥 amour, cœur en feu, désir, feu, passion
+❤‍🩹 cœur avec bandages, en convalescence, réconforter, récupérer, soigner
+❤ cœur, rouge
+🧡 cœur, orange
+💛 cœur, jaune
+💚 cœur, vert
+💙 bleu, cœur
+💜 cœur, violet
+🤎 brun, cœur
+🖤 cœur noir, noir
+🤍 blanc, cœur blanc
+💯 cent, cent points, marque, score
+💢 bande dessinée, colère, furieux, symbole, symbole de colère
+💥 bande dessinée, collision, explosion
+💫 bande dessinée, étourdissement, tournis
+💦 bande dessinée, éclaboussure, goutte, gouttes de sueur, sueur
+💨 bande dessinée, décamper, filer, fuir, s’enfuir, se sauver
+🕳 trou
+💣 bande dessinée, bombe
+💬 bande dessinée, bulle, bulle de parole, dialogue, parole
+👁‍🗨 bulle, œil, œil dans une bulle de parole, parole, témoin
+🗨 à gauche, bande dessinée, bulle, bulle de parole à gauche, dialogue, parole
+🗯 à droite, bande dessinée, bulle, bulle de colère à droite, dialogue, parole
+💭 bande dessinée, bulle, bulle de pensée, pensée
+💤 dormir, endormi, ronfler, zzz
+👋 coucou, main, signe, signe de la main
+🤚 dos de main, dos de main levée, levée, main
+🖐 doigts écartés, main, main aux doigts écartés
+✋ levée, main
+🖖 main, salut, spock, vulcain
+👌 main, ok, OK
+🤌 geste de la main, interrogation, main qui interroge, sarcastique
+🤏 petite quantité, petite somme, peu, pouce et index rapprochés, un peu
+✌ ciseaux, V de la victoire, victoire
+🤞 chance, croisés, doigts, main
+🤟 amour, je t’aime, main, signe, signe je t’aime
+🤘 cornes, cornes avec les doigts, doigts, main, rock
+🤙 appel, appelle-moi, main, signe, téléphone
+👈 dos de la main avec index pointant vers la gauche, gauche, index, main, main avec index pointant à gauche
+👉 dos de la main avec index pointant vers la droite, droite, index, main, main avec index pointant à droite
+👆 dos de la main avec index pointant vers le haut, haut, index, main, main avec index pointant vers le haut
+🖕 doigt d’honneur, main, majeur
+👇 bas, dos de la main avec index pointant vers le bas, index, main, main avec index pointant vers le bas
+☝ index pointant vers le haut
+👍 génial, OK, oui, pouce vers le haut, super
+👎 négatif, non, nul, pouce vers le bas
+✊ levé, main, pierre, poing
+👊 coup de poing, main, poing, poing de face
+🤛 gauche, poing, poing à gauche
+🤜 droite, poing, poing à droite
+👏 applaudissements, bravo, main
+🙌 air, célébration, geste, hourra, levées, mains
+👐 main, mains ouvertes, ouvertes
+🤲 moins jointes, paume contre paume, paume contre paume doigts vers le haut, prière
+🤝 accord, main, poignée, poignée de main, présentation, rencontre
+🙏 mains, mains en prière, merci, moins jointes, prière, svp
+✍ écrire, main, main qui écrit
+💅 manucure, maquillage, ongle, vernis, vernis à ongles
+🤳 appareil photo, autophoto, selfie, téléphone
+💪 biceps, contracté, corps, muscle
+🦾 accessibilité, bras, bras mécanique, prothèse
+🦿 accessibilité, jambe, jambe mécanique, prothèse
+🦵 coup de pied, jambe, membre
+🦶 coup de pied, pas lourd, pied
+👂 corps, oreille
+🦻 accessibilité, malentendant, oreille appareillée, prothèse auditive
+👃 corps, nez
+🧠 cerveau, intelligent
+🫀 battement de coeur, cardiologie, cœur, organe, pouls
+🫁 expiration, inspiration, organe, poumons, respiration, respirer
+🦷 dent, dentiste
+🦴 os, squelette
+👀 corps, œil, visage, yeux
+👁 corps, œil
+👅 corps, langue
+👄 bouche, corps, lèvres
+👶 bébé, petit
+🧒 enfant, genre non défini, jeune
+👦 garçon, jeune
+👧 fille, jeune, vierge, zodiaque
+🧑 adulte, genre non défini, personne
+👱 blond, personne blonde
+👨 adulte, homme
+🧔 barbe, barbu, homme barbu, personne, personne barbue
+🧔‍♂ barbe, homme, homme barbu
+👱‍♂ blond, homme
+👩 adulte, femme
+🧔‍♀ femme barbue
+👱‍♀ blonde, femme
+🧓 adulte, âgée, genre non défini, personne
+👴 adulte, âgé, homme
+👵 adulte, âgée, femme
+🙍 froncer, mécontente, personne, sourcils
+🙍‍♂ froncement, geste, homme, homme fronçant les sourcils, sourcils
+🙍‍♀ femme, femme fronçant les sourcils, froncement, geste, sourcils
+🙎 baboune, bouder, geste, moue, personne qui boude
+🙎‍♂ baboune, boude, geste, homme, homme qui boude, moue
+🙎‍♀ baboune, boude, femme, femme qui boude, geste, moue
+🙅 désaccord, Geste de négation, interdit, main, négation
+🙅‍♂ désaccord, homme, homme faisant un geste de négation, interdit, main, négation
+🙅‍♀ désaccord, femme, femme faisant un geste de négation, interdit, main, négation
+🙆 accord, affirmation, geste d’affirmation, main, OK
+🙆‍♂ accord, affirmation, homme, homme faisant un geste d’affirmation, main, OK
+🙆‍♀ accord, affirmation, femme, femme faisant un geste d’affirmation, main, OK
+💁 aide, information, main, personne au guichet, personne paume vers le haut
+💁‍♂ aide, assistant, concierge, guichetier, homme, information, réceptionniste
+💁‍♀ aide, assistante, concierge, femme, guichetière, information, réceptionniste
+🙋 content, geste, levée, main, personne qui lève la main
+🙋‍♂ geste, homme, homme qui lève la main, main levée
+🙋‍♀ femme, femme qui lève la main, geste, main levée
+🧏 accessibilité, entendre, malentendant, oreille, personne sourde, sourd
+🧏‍♂ accessibilité, entendre, homme sourd, malentendant, oreille, sourd
+🧏‍♀ femme, malentendante, sourde
+🙇 courbette, désolé, excuses, incliné, personne qui s’incline
+🙇‍♂ courbette, désolé, excuses, homme, homme qui s’incline, incliné
+🙇‍♀ courbette, désolée, excuses, femme, femme qui s’incline, homme qui s’incline, inclinée
+🤦 exaspération, incroyable, main, personne avec paume de la main sur le visage, visage
+🤦‍♂ exaspération, homme, homme avec paume de la main sur le visage, incroyable, main, visage
+🤦‍♀ exaspération, femme, femme avec paume de la main sur le visage, incroyable, main, visage
+🤷 doute, haussement d’épaules, ignorance, indifférence, personne qui hausse les épaules
+🤷‍♂ haussement, homme, homme qui hausse les épaules, ignorance, indifférence
+🤷‍♀ femme, femme qui hausse les épaules, haussement, ignorance, indifférence
+🧑‍⚕ docteur, infirmier, médecin, professionnel de la santé, professionnel de la santé (tous genres), santé, thérapeute
+👨‍⚕ docteur, homme, infirmier, professionnel de la santé, professionnel de la santé homme, santé
+👩‍⚕ docteur, docteure, femme, infirmière, professionnelle de la santé, santé
+🧑‍🎓 diplômé, étudiant, étudiant universitaire
+👨‍🎓 diplômé, étudiant, homme
+👩‍🎓 diplômée, étudiante, femme
+🧑‍🏫 enseignant, instituteur, professeur
+👨‍🏫 enseignant, homme, instituteur, instructeur, professeur
+👩‍🏫 enseignante, femme, institutrice, instructrice, professeure
+🧑‍⚖ balance, juge
+👨‍⚖ balance, homme, juge, justice
+👩‍⚖ balance, femme, juge
+🧑‍🌾 agriculteur, fermier, jardinier
+👨‍🌾 agriculteur, fermier, homme, jardinier
+👩‍🌾 agricultrice, femme, fermière, jardinière
+🧑‍🍳 chef
+👨‍🍳 chef, cuisinier, homme
+👩‍🍳 chef, cuisinière, femme
+🧑‍🔧 électricien, mécanicien, ouvrier, plombier
+👨‍🔧 électricien, homme, mécanicien, mécanique, plombier
+👩‍🔧 électricienne, femme, mécanicienne, mécanique, plombier
+🧑‍🏭 assemblage, industrie, ouvrier, ouvrier (tous genres), ouvrière, travailleur d’usine, usine
+👨‍🏭 assemblage, homme, industrie, ouvrier, usine
+👩‍🏭 assemblage, femme, industrie, ouvrière, usine
+🧑‍💼 affaires, architecte, cadre, col blanc, employé de bureau
+👨‍💼 affaires, architecte, bureau, employé de bureau, employé de bureau homme, homme
+👩‍💼 affaires, architecte, bureau, employée de bureau, femme
+🧑‍🔬 biologiste, chimiste, ingénieur, physicien, scientifique
+👨‍🔬 biologiste, chimiste, homme, physicien, scientifique
+👩‍🔬 biologiste, chimiste, femme, physicienne, scientifique
+🧑‍💻 développeur, homme, informaticien, logiciels, technologie
+👨‍💻 développeur, homme, informaticien, logiciels, technologie
+👩‍💻 développeuse, femme, informaticienne, logiciels, technologie
+🧑‍🎤 acteur, artiste, chanteur, rock, vedette
+👨‍🎤 artiste, chanteur, homme, rock, vedette
+👩‍🎤 artiste, chanteuse, femme, rock, vedette
+🧑‍🎨 artiste, palette
+👨‍🎨 artiste, homme, peintre
+👩‍🎨 artiste, femme, peintre
+🧑‍✈ avion, pilote
+👨‍✈ avion, homme, pilote
+👩‍✈ avion, femme, pilote
+🧑‍🚀 astronaute, fusée
+👨‍🚀 astronaute, espace, fusée, homme
+👩‍🚀 astronaute, espace, femme, fusée
+🧑‍🚒 camion de pompier, pompier
+👨‍🚒 camion de pompiers, homme, pompier
+👩‍🚒 camion de pompiers, femme, pompier
+👮 flic, officier, officier de police, police, policier
+👮‍♂ flic, homme, officier, police, policier
+👮‍♀ femme, flic, officier, police, policière
+🕵 détective, enquêteur, espion
+🕵‍♂ détective, enquêteur, espion, homme
+🕵‍♀ détective, enquêteuse, enquêtrice, espionne, femme
+💂 garde
+💂‍♂ garde, homme
+💂‍♀ femme, garde
+🥷 furtif, guerrier, masqué, ninja
+👷 bâtiment, casque, ouvrier, personnel du bâtiment
+👷‍♂ bâtiment, homme, ouvrier, ouvrier du bâtiment
+👷‍♀ bâtiment, femme, ouvrière, ouvrière du bâtiment
+🤴 prince
+👸 conte de fées, fantastique, princesse
+👳 personne en turban, turban
+👳‍♂ homme, homme en turban, turban
+👳‍♀ femme, femme en turban, turban
+👲 calotte chinoise, chapeau, gua pi mao, homme, homme coiffé d’une calotte chinoise
+🧕 femme avec foulard, foulard, hijab, mantilla, tichel
+🤵 marié, personne, personne en smoking, smoking
+🤵‍♂ homme, homme en smoking, smoking
+🤵‍♀ femme, femme en smoking, smoking
+👰 mariage, mariée, personne avec voile, voile
+👰‍♂ homme, homme avec voile, voile
+👰‍♀ femme, femme avec voile, voile
+🤰 enceinte, femme
+🤱 allaitement, bébé, sein, soins
+👩‍🍼 allaitement, bébé, biberon, femme, femme allaitant un bébé
+👨‍🍼 allaitement, bébé, biberon, homme, homme allaitant un bébé
+🧑‍🍼 allaitement, bébé, biberon, personne, personne allaitant un bébé
+👼 ange, bébé, fantastique, visage
+🎅 célébration, fête, Noël, père
+🤶 célébration, fête, mère, Noël
+🧑‍🎄 Noël, personnage de Noël
+🦸 gentil, héroïne, héros, super pouvoirs, superhéros
+🦸‍♂ super-héros
+🦸‍♀ bien, femme, héroïne, héros, super pouvoir, super-héroïne
+🦹 criminel, mal, méchant, super-pouvoir, super-vilain
+🦹‍♂ criminel, homme, mal, méchant, super pouvoir, super-vilain homme
+🦹‍♀ criminelle, femme, mal, méchante, super pouvoir, super-vilain femme
+🧙 enchanteur, mage, magicien, sorcier, sorcière
+🧙‍♂ enchanteur, homme, mage, magicien, sorcier
+🧙‍♀ enchanteresse, femme, mage, magicienne, sorcière
+🧚 fée, personnage féérique
+🧚‍♂ féetaud, homme
+🧚‍♀ fée, femme
+🧛 Dracula, mort-vivant, vampire
+🧛‍♂ Dracula, homme, mort-vivant, vampire
+🧛‍♀ femme, morte-vivante, vampire
+🧜 créature aquatique, sirène, triton
+🧜‍♂ triton
+🧜‍♀ sirène
+🧝 elfe, magique
+🧝‍♂ elfe, homme, magique
+🧝‍♀ elfe, femme, magique
+🧞 djinn, génie
+🧞‍♂ djinn, génie, homme
+🧞‍♀ djinn, femme, génie
+🧟 mort-vivant, zombie
+🧟‍♂ homme, mort-vivant, zombie
+🧟‍♀ femme, morte-vivante, zombie
+💆 massage, personne qui se fait masser, salon, visage
+💆‍♂ homme, homme qui se fait masser, massage, visage
+💆‍♀ femme, femme qui se fait masser, massage, visage
+💇 barbier, beauté, coiffure, personne qui se fait couper les cheveux, salon
+💇‍♂ homme qui se fait couper les cheveux
+💇‍♀ femme qui se fait couper les cheveux
+🚶 personne qui marche, piéton, randonnée
+🚶‍♂ homme, homme qui marche, marche, piéton, randonnée
+🚶‍♀ femme, femme qui marche, marche, piétonne, randonnée
+🧍 debout, personne debout
+🧍‍♂ debout, homme
+🧍‍♀ debout, femme
+🧎 à genoux, personne à genoux
+🧎‍♂ à genoux, homme, homme à genoux
+🧎‍♀ à genoux, femme, femme à genoux
+🧑‍🦯 accessibilité, aveugle, aveugle avec canne
+👨‍🦯 accessibilité, aveugle, déficient visuel, homme, homme avec canne blanche, malvoyant
+👩‍🦯 accessibilité, aveugle, déficiente visuelle, femme, femme avec canne blanche, malvoyante
+🧑‍🦼 accessibilité, fauteuil roulant, personne en fauteuil motorisé, personne en fauteuil roulant
+👨‍🦼 accessibilité, fauteuil roulant, homme, homme en fauteuil motorisé
+👩‍🦼 accessibilité, fauteuil roulant, femme, femme en fauteuil motorisé
+🧑‍🦽 accessibilité, fauteuil roulant, personne en fauteuil roulant manuel
+👨‍🦽 accessibilité, fauteuil roulant, homme, homme en fauteuil roulant manuel
+👩‍🦽 accessibilité, fauteuil roulant, femme, femme en fauteuil roulant manuel
+🏃 coureur, course à pied, jogging, marathon, personne qui court
+🏃‍♂ homme qui court
+🏃‍♀ femme qui court
+💃 danse, danseuse, femme
+🕺 danse, danseur, homme
+🕴 affaires, complet, homme, homme d’affaires en lévitation, lévitation
+👯 danseuse, femme, fille, oreilles, personnes qui portent des oreilles de lapin
+👯‍♂ danseur, fête, homme, hommes qui portent des oreilles de lapin, oreilles de lapin
+👯‍♀ danseuse, femme, femmes qui portent des oreilles de lapin, fête, oreilles de lapin
+🧖 hammam, personne dans un bain de vapeur, sauna
+🧖‍♂ hammam, homme dans un bain de vapeur, sauna
+🧖‍♀ femme dans un bain de vapeur, hammam, sauna
+🧗 alpiniste, grimpeur, personne qui grimpe
+🧗‍♂ alpiniste, grimpeur, homme qui grimpe
+🧗‍♀ alpiniste, femme qui grimpe, grimpeuse
+🤺 duel, épée, escrime, escrimeur, personne
+🏇 chevaux, course, hippique, jockey
+⛷ ski, skier, skieur, sport
+🏂 neige, planche de neige, planchiste, ski
+🏌 balle, golf, joueur de golf
+🏌‍♂ golf, golfeur, homme
+🏌‍♀ femme, golf, golfeuse
+🏄 personne, personne qui fait du surf, surf
+🏄‍♂ homme, surf, surfeur
+🏄‍♀ femme, surf, surfeuse
+🚣 barque, bateau, personne, personne qui rame dans une barque, ramer
+🚣‍♂ barque, bateau, homme, rameur, rameur dans une barque
+🚣‍♀ barque, bateau, femme, rameuse, rameuse dans une barque
+🏊 nager, natation, personne qui nage
+🏊‍♂ homme, nage, nageur
+🏊‍♀ femme, nage, nageuse
+⛹ ballon, personne qui fait rebondir un ballon, rebond, rebondir
+⛹‍♂ ballon, homme, homme qui fait rebondir un ballon, rebond, rebondir
+⛹‍♀ ballon, femme, femme qui fait rebondir un ballon, rebond, rebondir
+🏋 haltère, haltérophile, haltérophilie, levée, lever, poids
+🏋‍♂ haltère, haltérophile, homme, levée, lever, poids
+🏋‍♀ femme, haltère, haltérophile, levée, lever, poids
+🚴 bicyclette, cyclisme, cycliste, faire du vélo, personne, vélo
+🚴‍♂ bicyclette, cycliste, faire du vélo, homme, vélo
+🚴‍♀ bicyclette, cycliste, faire du vélo, femme, vélo
+🚵 cyclisme, montagne, personne en vélo de montagne, vélo
+🚵‍♂ cycliste, homme, homme en vélo de montagne, montagne, vélo, vététiste
+🚵‍♀ cycliste, femme, femme en vélo de montagne, montagne, vélo, vététiste
+🤸 gymnastique, personne, personne faisant la roue, roue
+🤸‍♂ gymnaste, homme, homme faisant la roue, roue
+🤸‍♀ femme, femme faisant la roue, gymnaste, roue
+🤼 lutte, lutteur, personnes, personnes faisant de la lutte
+🤼‍♂ hommes, lutte, lutteurs
+🤼‍♀ femmes, lutte, lutteuses
+🤽 personne, personne qui joue au water-polo, water-polo
+🤽‍♂ homme, joueur de water-polo, water-polo
+🤽‍♀ femme, joueuse de water-polo, water-polo
+🤾 ballon, handball, personne, personne qui joue au handball
+🤾‍♂ handball, handballeur, homme
+🤾‍♀ femme, handball, handballeuse
+🤹 jongler, jongleur, multitâche, personne qui jongle
+🤹‍♂ homme, jonglage, jongleur, multitâche
+🤹‍♀ femme, jonglage, jongleuse, multitâche
+🧘 méditation, personne dans la posture du lotus, position du lotus, yoga
+🧘‍♂ homme dans la posture du lotus, méditation, position du lotus, yoga
+🧘‍♀ femme dans la posture du lotus, méditation, position du lotus, yoga
+🛀 baignoire, bain, personne prenant un bain
+🛌 lit, personne au lit
+🧑‍🤝‍🧑 personnes se tenant par la main
+👭 couple, deux femmes se tenant par la main, ensemble, femmes, jumelles, main, main dans la main, se tenant par la main, union
+👫 couple, ensemble, femme, homme, homme et femme se tenant par la main, main, main dans la main, se tenant par la main, union
+👬 couple, deux hommes se tenant par la main, ensemble, gémeaux, hommes, jumeaux, main, main dans la main, se tenant par la main, union, zodiaque
+💏 baiser, bisou, couple
+💑 amour, cœur, couple, couple avec cœur
+👪 enfant, famille, mère, père
+🗣 parler, parole, silhouette, tête qui parle, visage
+👤 buste, silhouette, silhouette de buste
+👥 bustes, silhouettes, silhouettes de bustes
+🫂 accolade, au revoir, bonjour, merci, personnes qui s’étreignent
+👣 empreinte, pas, pied, trace, traces de pas
+🦰 cheveux roux, rouquin, rouquine
+🦱 afro, boucles, bouclés, cheveux bouclés
+🦳 blancs, cheveux, gris, vieux
+🦲 chauve, chimiothérapie, imberbe, rasé, sans cheveux
+🐵 singe, tête, tête de singe
+🐒 singe
+🦍 gorille
+🦧 orang-outan, singe
+🐶 animal, chien, compagnie, domestique, tête, tête de chien
+🐕 animal, chien, compagnie, domestique
+🦮 accessibilité, animal, aveugle, chien guide, chien-guide, guide, non-voyant
+🐕‍🦺 accessibilité, aide, assistance, chien, chien d’assistance
+🐩 animal, caniche, compagnie, domestique
+🐺 loup, tête
+🦊 renard, tête
+🦝 animal, curieux, raton laveur, sournois
+🐱 animal, chat, compagnie, domestique, tête, tête de chat
+🐈 animal, chat, compagnie, domestique
+🐈‍⬛ chat, malchanceux, noir
+🦁 lion, tête, tête de lion, zodiaque
+🐯 tête, tête de tigre, tigre
+🐅 tigre
+🐆 léopard
+🐴 cheval, tête, tête de cheval
+🐎 cheval, course, équestre, hippique
+🦄 licorne, tête
+🦓 animal, rayure, zèbre, zébrure
+🦌 cerf
+🦬 bison, buffle, troupeau
+🐮 tête, tête de vache, vache
+🐂 bœuf, taureau, zodiaque
+🐃 buffle
+🐄 vache
+🐷 cochon, porc, tête, tête de cochon
+🐖 cochon, porc
+🐗 sanglier
+🐽 cochon, groin, nez, nez de cochon, porc
+🐏 bélier, zodiaque
+🐑 brebis
+🐐 capricorne, chèvre, zodiaque
+🐪 bosse, dromadaire
+🐫 bosses, chameau
+🦙 alpaga, guanaco, laine, lama, vigogne
+🦒 animal, girafe, taches
+🐘 éléphant
+🦣 défenses, extinction, gros animal, mammouth
+🦏 rhinocéros
+🦛 animal, hippopotame
+🐭 souris, tête, tête de souris
+🐁 souris
+🐀 rat
+🐹 animal, compagnie, domestique, hamster, tête, tête de hamster
+🐰 lapin, tête, tête de lapin
+🐇 animal, compagnie, domestique, lapin
+🐿 écureuil, suisse, tamia
+🦫 barrage, castor
+🦔 animal, épineux, hérisson
+🦇 chauve-souris, vampire
+🐻 ours, tête
+🐻‍❄ arctique, blanc, ours, ours polaire
+🐨 koala
+🐼 panda, tête, tête de panda
+🦥 endormi, lent, paresseux
+🦦 joueur, loutre, pêcheur
+🦨 animal, bête puante, mouffette, odeur, puer, putois
+🦘 Australie, bébé kangourou, kangourou, marsupial, saut
+🦡 blaireau, ratel
+🐾 empreintes, empreintes d’animaux, foulées, marques, pas, pattes, traces
+🦃 dinde, oiseau
+🐔 oiseau, poule
+🐓 coq, oiseau
+🐣 éclosion, oiseau, poussin, poussin qui éclôt
+🐤 oiseau, poussin
+🐥 oiseau, poussin de face
+🐦 oiseau
+🐧 oiseau, pingouin
+🕊 animal, colombe, oiseau
+🦅 aigle, animal, oiseau, rapace
+🦆 canard, oiseau
+🦢 cygne, jeune cygne, oiseau, vilain petit canard
+🦉 animal, chouette, oiseau
+🦤 dodo, extinction, gros oiseau, Maurice
+🪶 léger, oiseau, plume, vol
+🦩 flamant, rose, tropical
+🦚 animal, fier, oiseau, paon, paonne, prétentieux
+🦜 animal, oiseau, parle, perroquet, pirate
+🐸 grenouille, tête, tête de grenouille
+🐊 crocodile
+🐢 tortue
+🦎 animal, lézard, reptile
+🐍 serpent, serpentaire, zodiaque
+🐲 dragon, tête, tête de dragon
+🐉 contes, dragon, fantastique, fées, merveilleux
+🦕 animal, brachiosaure, brontosaure, diplodocus, sauropode
+🦖 T. rex, Tyrannosaurus Rex
+🐳 baleine, baleine qui expulse de l’eau, expulse de l’eau, souffle
+🐋 baleine
+🐬 dauphin, flipper
+🦭 lion de mer, otarie, phoque
+🐟 animal, poisson, poissons, zodiaque
+🐠 poisson, tropical
+🐡 poisson, poisson-globe
+🦈 animal, poisson, requin
+🐙 pieuvre
+🐚 coquille, coquille en spirale, spirale
+🐌 escargot
+🦋 insecte, mignon, papillon
+🐛 chenille, insecte
+🐜 fourmi, insecte
+🐝 abeille, insecte
+🪲 insecte, scarabée
+🐞 bête à bon dieu, catherine, coccinelle, coléoptère, insecte
+🦗 animal, criquet, insecte, sauterelle
+🪳 cafard, coquerelle, insecte, nuisible
+🕷 araignée
+🕸 araignée, toile, toile d’araignée
+🦂 scorpion, zodiaque
+🦟 fièvre, insecte, maladie, malaria, moustique, virus
+🪰 maladie, mouche, pourrissement, puanteur, ver
+🪱 annélide, parasite, ver, ver de terre
+🦠 amibe, bactérie, microbe, virus
+💐 bouquet, fleur, plante
+🌸 cerisier, fleur, fleur de cerisier
+💮 blanche, fleur
+🏵 plante, rosette
+🌹 fleur, rose
+🥀 fanée, fleur
+🌺 fleur, hibiscus
+🌻 fleur, tournesol
+🌼 bourgeon, fleur
+🌷 fleur, tulipe
+🌱 jeune plant, jeune pousse, plantule
+🪴 ennuyeux, faire pousser, intérieur, inutile, plante, plante en pot, prendre soin
+🌲 arbre, conifère, feuillage persistant
+🌳 arbre, arbre à feuilles caduques, feuilles caduques, feuillu
+🌴 arbre, palmier
+🌵 cactus, plante
+🌾 plant, plant de riz, riz
+🌿 feuille, plante
+☘ plante, trèfle, trèfle à trois feuilles, trois feuilles
+🍀 chance, quatre feuilles, trèfle, trèfle à quatre feuilles
+🍁 érable, feuille, feuille d’érable
+🍂 feuille, morte
+🍃 feuille, virevoltante
+🍇 fruit, raisin
+🍈 fruit, melon
+🍉 fruit, melon d’eau
+🍊 fruit, orange, tangerine
+🍋 citron, fruit
+🍌 banane, fruit
+🍍 ananas, fruit
+🥭 fruit, mangue, tropical
+🍎 fruit, pomme, rouge
+🍏 fruit, pomme, verte
+🍐 fruit, poire
+🍑 fruit, pêche
+🍒 cerises, fruit
+🍓 fraise, fruit
+🫐 baies, bleuets, myrtilles
+🥝 fruit, kiwi
+🍅 légume, plante, tomate
+🫒 nourriture, olive
+🥥 fruit, noix de coco, palmier, piña colada
+🥑 avocat, fruit
+🍆 aubergine, légume
+🥔 légume, patate, pomme de terre
+🥕 carotte, légume
+🌽 blé d’Inde, épi de blé d’Inde, épi de maïs, maïs
+🌶 piment, piment rouge
+🫑 légume, piment, poivron, poivron rouge
+🥒 concombre, légume
+🥬 chinois, chou, frisé, laitue, légume à feuilles vertes, pommé
+🥦 brocoli, chou sauvage
+🧄 ail, aromatisant, assaisonnement, condiment
+🧅 aromatisant, assaisonnement, condiment, oignon
+🍄 champignon, vénéneux
+🥜 arachide, arachides, cacahuète, noisette
+🌰 châtaigne, plante
+🍞 baguette, pain
+🥐 croissant, pain, viennoiserie
+🥖 baguette, pain
+🫓 arepa, galette, lavash, naan, pain plat, pita
+🥨 bretzel, torsade
+🥯 bagel, boulangerie, petit-déjeuner, schmear
+🥞 crêpe, crêpes, pancake
+🧇 gaufre, gourmandise, moule, pâtisserie, petit-déjeuner
+🧀 fromage, morceau, morceau de fromage
+🍖 os, viande, viande sur son os
+🍗 cuisse, cuisse de poulet, os, poulet, volaille
+🥩 côtelette, côtelette d’agneau, côtelette de porc, morceau de viande, steak
+🥓 bacon, lard, viande
+🍔 burger, hambourgeois, hamburger
+🍟 frites, patate
+🍕 fromage, part, pizza
+🌭 chien chaud, Francfort, hot dog, saucisse
+🥪 pain, sandwich
+🌮 mexicain, taco
+🌯 burrito, mexicain
+🫔 mexicain, papillote, tamal
+🥙 chichekébab, doner, falafel, gyro, kébab, pain plat garni, pita
+🧆 boulettes, falafels, pois chiches, seitan, soja, viande
+🥚 aliment, nourriture, œuf
+🍳 cuisine, friture, œuf, poêle
+🥘 casserole, nourriture, paella, plat mitonné, poêle, repas
+🍲 bol de nourriture, marmite, ragoût
+🫕 chocolat, fondu, fondue, fromage, plat, suisse
+🥣 bol avec cuillère, céréales, congee, déjeuner
+🥗 salade, verte
+🍿 pop-corn, popcorn
+🧈 beurre, produit laitier
+🧂 condiment, mélangeur, sel
+🥫 aliments en conserve, conserve
+🍱 bento, boîte, boîte à bento
+🍘 craquelin, craquelin de riz, riz
+🍙 boulette, boulette de riz, riz
+🍚 bol, bol de riz, riz
+🍛 cari, carry, cary, curry, kari, riz, riz au curry
+🍜 bol fumant, nouilles, ramen, vapeur
+🍝 pâtes, spaghetti
+🍠 douce, grillée, patate
+🍢 brochette, fruits de mer, oden
+🍣 japonais, poisson, sushi
+🍤 crevette, crevette frite
+🍥 gâteau au poisson, narutomaki, pâté de poisson, surimi, surimi avec décoration
+🥮 automne, festival, gâteau de lune, yuèbǐng
+🍡 Brochette, dango, dessert, japonais, sucré
+🥟 dumpling, empanada, gyōza, jiaozi, pierogi, potsticker
+🥠 biscuit chinois, prophétie
+🥡 boîte à emporter, carton, chinois, nourriture à emporter
+🦀 cancer, crabe, zodiaque
+🦞 bisque, fruits de mer, homard, pinces
+🦐 crevette, crustacé, nourriture
+🦑 calamar, mollusque
+🦪 coquille, huître, mollusque, perle
+🍦 cornet, crème glacée, crème glacée molle, dessert, glace
+🍧 glace, pilée
+🍨 crème, crème glacée, dessert, glace, sucré
+🍩 beigne, beignet, dessert, sucré
+🍪 biscuit, dessert, sucré
+🎂 anniversaire, dessert, fête, gâteau, gâteau de fête, pâtisserie
+🍰 dessert, gâteau, gâteau sablé, part, pâtisserie, sucrerie
+🧁 cupcake, pâtisserie, petit gâteau, sucrerie
+🥧 décoration, garniture, gâteau, pâtisserie, tarte
+🍫 barre, chocolat, dessert, sucré, tablette de chocolat
+🍬 bonbon, dessert, sucré, sucrerie
+🍭 dessert, suçon, sucré, sucrerie
+🍮 crème caramel, dessert, pudding, sucré
+🍯 miel, pot, pot de miel, sucré
+🍼 bébé, biberon, boisson, lait
+🥛 boisson, lait, verre, verre de lait
+☕ boisson chaude, café, thé
+🫖 boisson, thé, théière
+🍵 boisson, tasse, thé
+🍶 bar, boisson, bouteille, saké, tasse
+🍾 boisson, bouchon, bouteille, bouteille de champagne, pop
+🍷 bar, boisson, verre, verre de vin, vin
+🍸 cocktail, verre
+🍹 cocktail, tropical, verre
+🍺 bar, bière, boisson, chope, chope de bière
+🍻 bar, bière, boisson, chope, chopes de bière qui tintent, trinquer
+🥂 boisson, célébrer, trinquer, verre, verres qui tintent
+🥃 bourbon, liqueur, spiritueux, verre, whisky
+🥤 jus de fruits, paille, soda, verre, verre avec paille
+🧋 lait, perles, thé, thé aux perles
+🧃 boîte à boire, briquette de jus, carton, jus de fruits
+🧉 boisson, maté
+🧊 froid, glace, glaçon, iceberg
+🥢 baguettes, hashi
+🍽 assiette, couteau, couverts, fourchette, fourchette et couteau avec assiette
+🍴 couteau, couverts, fourchette, fourchette et couteau, repas
+🥄 couvert, cuillère
+🔪 arme, couteau, couteau de cuisine, cuisine, outil
+🏺 amphore, cuisine, vase, verseau, zodiaque
+🌍 Afrique, Europe, globe, globe qui montre l’Europe et l’Afrique, monde
+🌎 Amérique, globe, globe qui montre l’Amérique, monde
+🌏 Asie, Australie, globe, globe qui montre l’Asie et l’Australie, monde
+🌐 globe, globe qui montre les méridiens, méridiens, monde, terre
+🗺 carte, carte du monde, monde
+🗾 carte, carte du Japon, Japon
+🧭 boussole, magnétique, navigation, orientation
+🏔 enneigée, montagne, neige
+⛰ montagne
+🌋 éruption, montagne, volcan
+🗻 Fuji, mont, montagne
+🏕 camping
+🏖 parasol, plage, plage et parasol
+🏜 désert
+🏝 déserte, île
+🏞 national, parc
+🏟 stade
+🏛 classique, monument
+🏗 bâtiment, construction, construction d’un bâtiment
+🧱 argile, brique, briques, mortier, mur
+🪨 lourde, roche, rocher, solide
+🪵 bois, bûche, rondins, tronc
+🛖 hutte, maison, ronde, yourte
+🏘 bâtiments, maisons
+🏚 abandonnée, maison, ruine
+🏠 bâtiment, maison, pavillon
+🏡 jardin, logement, maison, maison avec jardin
+🏢 bureaux, immeuble, immeuble de bureaux
+🏣 bâtiment, bureau de poste japonais, japon, poste, poste japonaise
+🏤 bureau, bureau de poste, poste
+🏥 bâtiment, docteur, hôpital, médecin, médecine
+🏦 banque, bâtiment
+🏨 bâtiment, hôtel
+🏩 couples, hôtel, hôtel pour couples
+🏪 dépanneur, épicerie, magasin
+🏫 bâtiment, école
+🏬 grand magasin, magasin
+🏭 bâtiment, usine
+🏯 château, japonais
+🏰 château, européen
+💒 amour, chapelle, idylle, mariage
+🗼 Tokyo, tour, tour de Tokyo
+🗽 statue de la Liberté
+⛪ bâtiment, chrétien, croix, église, religion
+🕌 islam, mosquée, musulman, religion
+🛕 hindou, temple
+🕍 juif, juive, religion, synagogue, temple
+⛩ religion, sanctuaire, shinto
+🕋 islam, kaaba, musulman, religion
+⛲ fontaine
+⛺ camping, tente
+🌁 brouillard, brume
+🌃 étoilée, étoiles, nuit
+🏙 bâtiment, paysage urbain, ville
+🌄 lever, lever de soleil sur les montagnes, montagnes, soleil
+🌅 levant, lever de soleil, matin, soleil
+🌆 coucher, crépuscule, paysage urbain, soir, soleil, ville, ville au crépuscule
+🌇 coucher, coucher de soleil, crépuscule, soleil
+🌉 nuit, pont, pont de nuit
+♨ source, sources thermales, thermale
+🎠 carrousel, cheval, cheval de carrousel, manège
+🎡 grande roue, parc d’attractions
+🎢 montagnes, parc d’attractions, russes
+💈 barbier, coiffure, enseigne, enseigne de barbier
+🎪 chapiteau, cirque
+🚂 chemin de fer, locomotive, train, vapeur
+🚃 chemin de fer, électrique, train, tram, trolley, voiture, wagon
+🚄 chemin de fer, grande vitesse, shinkansen, TGV, train, train à grande vitesse
+🚅 chemin de fer, shinkansen, superexpress, train, vitesse
+🚆 chemin de fer, train
+🚇 métro
+🚈 chemin de fer, métro léger, train de banlieue
+🚉 chemin de fer, gare, train
+🚊 tram, tramway, trolley, trolleybus
+🚝 monorail, véhicule
+🚞 chemin de fer, montagne, train, train de montagne, voiture, wagon
+🚋 tram, trolley, trolleybus, voiture, wagon de tramway
+🚌 autobus, bus, véhicule
+🚍 à l’arrivé, autobus, bus, bus de face, de face
+🚎 bus, tram, trolley, trolleybus
+🚐 bus, minibus
+🚑 ambulance, véhicule
+🚒 autopompe, camion, camion de pompier, incendie, pompier
+🚓 patrouille, police, voiture, voiture de police
+🚔 de face, police, voiture, voiture de police de face
+🚕 taxi, véhicule
+🚖 de face, taxi, taxi de face
+🚗 automobile, char, voiture
+🚘 automobile, char, de face, voiture, voiture de face
+🚙 loisirs, sport, utilitaire, véhicule
+🛻 camion, camionnette
+🚚 camion, camion de livraison, livraison
+🚛 camion, poids lourd, semi, semi-remorque
+🚜 tracteur, véhicule
+🏎 course, voiture, voiture de course
+🏍 course, moto
+🛵 scooter, scouteur
+🦽 accessibilité, fauteuil roulant manuel
+🦼 accessibilité, fauteuil motorisé, fauteuil roulant
+🛺 rickshaw, taxi, tricycle, tuk tuk
+🚲 bicyclette, vélo
+🛴 trottinette
+🛹 glisse, longboard, planche à roulettes, roulettes, skateboard
+🛼 patin, patin à roulettes, roulettes
+🚏 arrêt, arrêt de bus, autobus, bus
+🛣 autoroute, route, voie publique
+🛤 chemin de fer, train, voie ferrée
+🛢 baril, baril de pétrole, pétrole
+⛽ carburant, diesel, essence, pompe, pompe à essence, station
+🚨 gyrophare, lumière, police, voiture
+🚥 circulation, feu, feu de circulation horizontal, horizontal, tricolore
+🚦 circulation, feu, feu de circulation vertical, tricolore, vertical
+🛑 octogonal, signe, stop
+🚧 barrière, travaux
+⚓ ancre, bateau, outil
+⛵ bateau, mer, voile, voilier, yacht
+🛶 bateau, canoë
+🚤 bateau, hors-bord
+🛳 bateau, paquebot
+⛴ bateau, passager, traversier
+🛥 bateau, bateau à moteur, moteur
+🚢 bateau, navire, passager
+✈ avion
+🛩 avion, petit
+🛫 avion, avion au décollage, décollage, départ, embarquement
+🛬 arrivée, atterrissage, avion, avion à l’atterissage, débarquement
+🪂 chute libre, parachute, parachute ascensionnel, parapente
+💺 fauteuil, siège
+🚁 hélicoptère, véhicule
+🚟 suspendu, train
+🚠 montagne, télécabine, téléphérique
+🚡 funiculaire, téléphérique, tramway, voiture, wagon
+🛰 espace, satellite
+🚀 espace, fusée
+🛸 OVNI, soucoupe volante
+🛎 cloche, cloche de comptoir, comptoire, hôtel
+🧳 bagage, valise, voyage
+⌛ minuteur, sable, sablier
+⏳ en cours, minuteur, sable, sablier, sablier avec sable qui coule
+⌚ heure, montre
+⏰ alarme, heure, réveil
+⏱ chronomètre, heure
+⏲ heure, minuteur
+🕰 horloge, pendule de cheminée
+🕛 0 h, 12 h, midi, midi/minuit, minuit
+🕧 00 h 30, 12 h 30, midi et demie, midi/minuit et demie, minuit et demie
+🕐 1 h, 13 h, une heure
+🕜 1 h 30, 13 h 30, une heure et demie
+🕑 14 h, 2 h, deux heures
+🕝 14 h 30, 2 h 30, deux heures et demie
+🕒 15 h, 3 h, trois heures
+🕞 15 h 30, 3 h 30, trois heures et demie
+🕓 16 h, 4 h, quatre heures
+🕟 16 h 30, 4 h 30, quatre heures et demie
+🕔 17 h, 5 h, cinq heures
+🕠 17 h 30, 5 h 30, cinq heures et demie
+🕕 18 h, 6 h, six heures
+🕡 18 h 30, 6 h 30, six heures et demie
+🕖 19 h, 7 h, sept heures
+🕢 19 h 30, 7 h 30, sept heures et demie
+🕗 20 h, 8 h, huit heures
+🕣 20 h 30, 8 h 30, huit heures et demie
+🕘 21 h, 9 h, neuf heures
+🕤 21 h 30, 9 h 30, neuf heures et demie
+🕙 10 h, 22 h, dix heures
+🕥 10 h 30, 22 h 30, dix heures et demie
+🕚 11 h, 23 h, onze heures
+🕦 11 h 30, 23 h 30, onze heures et demie
+🌑 lune, nouvelle
+🌒 lune, premier croissant, premier croissant de lune
+🌓 lune, premier quartier, premier quartier de lune
+🌔 gibbeuse croissante, lune, lune gibbeuse croissante
+🌕 lune, pleine
+🌖 gibbeuse décroissante, lune, lune gibbeuse décroissante
+🌗 dernier quartier, dernier quartier de lune, lune
+🌘 dernier croissant, dernier croissant de lune, lune
+🌙 croissant, croissant de lune, lune
+🌚 lune, nouvelle, nouvelle lune avec visage, visage
+🌛 lune, premier quartier, premier quartier de lune avec visage, visage
+🌜 dernier quartier, dernier quartier de lune avec visage, lune, visage
+🌡 météo, thermomètre
+☀ brillant, météo, rayons, soleil
+🌝 lune, pleine, pleine lune avec visage, visage
+🌞 soleil, soleil avec visage, visage
+🪐 planète à anneaux, saturne, saturnien, saturnienne
+⭐ étoile, étoile moyenne
+🌟 brillante, étoile
+🌠 étoile, filante
+🌌 espace, voie lactée, Voie lactée
+☁ météo, nuage
+⛅ nuage, nuageux, soleil, soleil derrière un nuage
+⛈ éclair, nuage, nuage avec éclair et pluie, pluie
+🌤 nuage, petit nuage, soleil, soleil derrière un petit nuage
+🌥 gros nuage, nuage, soleil, soleil derrière un gros nuage
+🌦 nuage, nuage de pluie, soleil, soleil derrière un nuage de pluie
+🌧 nuage, nuage de pluie, pluie
+🌨 flocons, neige, nuage, nuage avec de la neige
+🌩 éclair, nuage, nuage avec un éclair
+🌪 nuage, tornade, tourbillon
+🌫 brouillard, nuage
+🌬 météo, souffle, vent, visage, visage qui souffle du vent
+🌀 cyclone, ouragan, tourbillon, typhon
+🌈 arc-en-ciel, pluie
+🌂 fermé, parapluie, pluie, vêtement
+☂ parapluie, parapluie ouvert, pluie, vêtement
+☔ gouttes, parapluie, parapluie avec gouttes de pluie, pluie
+⛱ météo, parapluie, parasol, parasol sur le sol, pluie, soleil
+⚡ danger, éclair, électricité, électrocuter, haute tension
+❄ flocon, flocon de neige, froid, neige
+☃ bonhomme de neige, bonhomme de neige avec flocons, flocons, froid, neige
+⛄ bonhomme de neige, bonhomme de neige sans neige, froid, neige, sans
+☄ comète, espace
+🔥 feu, flamme, outil
+💧 bande dessinée, eau, goutte, goutte d’eau, gouttelette, sueur
+🌊 eau, mer, océan, vague
+🎃 citrouille, citrouille lanterne, halloween
+🎄 célébration, noël, sapin de Noël
+🎆 artifice, célébration, feu, feu d’artifice
+🎇 artifice, bengale, célébration, feu, feu de Bengale
+🧨 dynamite, explosif, feu d’artifice, pétard
+✨ étincelles, étoile
+🎈 ballon, ballon de fête, fête
+🎉 célébration, confettis, cornet, cornet à confettis, fête
+🎊 boule, boule de confetti, célébration, confettis, fête
+🎋 arbre, arbre à prières, japonais, tanabata
+🎍 bambou, célébration, composition florale, composition florale japonaise, japonais
+🎎 festival, japonais, japonaises, poupées
+🎏 carpe, fête, koinobori
+🎐 carillon, carillon à vent, clochette, fête, vent
+🎑 cérémonie, cérémonie d’observation de la lune, lune
+🧧 argent, bonne chance, cadeau, enveloppe rouge, hóngbāo, lai see
+🎀 fête, ruban
+🎁 anniversaire, cadeau, célébration, fête, présent
+🎗 commémoratif, ruban, souvenir
+🎟 billet, billets d’entrée, entrée, spectacle
+🎫 billet, spectacle
+🎖 décoration, médaille, militaire
+🏆 prix, trophée
+🏅 médaille, sportive
+🥇 1er, 1re, médaille, médaille d’or, or, première place
+🥈 2e, argent, deuxième, deuxième place, médaille, médaille d’argent
+🥉 3e, bronze, médaille, médaille de bronze, troisième, troisième place
+⚽ ballon, ballon de soccer, foot, soccer
+⚾ balle, baseball
+🥎 balle, gant, molle, softball
+🏀 ballon, ballon de basket, basket, basketball, panier
+🏐 ballon, ballon de volley, volley
+🏈 ballon, ballon de football, football
+🏉 ballon, ballon de rugby, rugby
+🎾 balle, raquette, tennis
+🥏 disque d’équipe, disque volant
+🎳 boule, bowling, jeu de quilles, quilles
+🏏 balle, bâton, cricket
+🏑 balle, bâton, gazon, hockey, hockey sur gazon
+🏒 bâton, disque, glace, hockey, hockey sur glace, rondelle
+🥍 balle, but, crosse, sport
+🏓 balle, ping-pong, raquette, table, tennis, tennis de table
+🏸 badminton, moineau, raquette, volant
+🥊 boxe, gant, gant de boxe
+🥋 arts martiaux, judo, karaté, kimono, taekwondo, uniforme d’arts martiaux
+🥅 but, cage, filet
+⛳ drapeau, drapeau de golf, golf, trou
+⛸ glace, patin, patin à glace
+🎣 canne, ligne, pêche, pêche à la ligne
+🤿 apnée, masque de plongée, plonger, snorkeling, tuba
+🎽 athlétisme, course, maillot, maillot de course
+🎿 neige, ski, skis
+🛷 luge, traîneau
+🥌 granit, match, partie, pierre de curling, sport
+🎯 cible, dans le mille, fléchette
+🪀 descendre, jouet, monter, osciller, yoyo
+🪁 cerf-volant, planer, voler
+🎱 billard, boule de billard, jeu, pool
+🔮 boule, boule de cristal, cristal
+🪄 baguette magique, magicien, magicienne, magie, sorcier, sorcière
+🧿 amulette, mauvais œil, nazar, talisman
+🎮 jeu vidéo, manette
+🕹 jeu, jeu vidéo, joystick, manette de jeu
+🎰 jeu, machine à sous
+🎲 dé, dés, jeu
+🧩 casse-tête, pièce
+🧸 jeu, jouet, ours en peluche, peluche, toutou
+🪅 fête, piñata
+🪆 poupée russe, poupées russes, russie
+♠ carte, couleur, jeu, pique
+♥ carte, cœur, cœur cartes, couleur, jeu
+♦ carreau, carreaux, carte, couleur, jeu
+♣ carte, couleur, jeu, trèfle
+♟ duper, échec, pion, sacrifiable
+🃏 carte, jeu, joker
+🀄 dragon, mahjong, rouge
+🎴 carte, fleur, japonais, jeu, jeu des fleurs
+🎭 art, arts du spectacle, masque, spectacle, théâtre
+🖼 art, cadre avec image, image, musée, peinture
+🎨 art, musée, palette, palette de peinture, peinture
+🧵 aiguille, bobine, bobine de fil, couture, ficelle
+🪡 aiguille, aiguille à coudre, broderie, coudre, couture, coutures, points
+🧶 boule, crochet, fil, pelote, tricot
+🪢 attacher, corde, entrelacer, nœud, noué, tordre
+👓 lunettes, lunettes de vue, œil, vêtements
+🕶 lunettes, lunettes de soleil, soleil
+🥽 lunettes, natation, protection des yeux, soudage, soudure
+🥼 blouse blanche, docteur, expérience, scientifique
+🦺 sécurité, urgence, veste, veste de sécurité
+👔 cravate, vêtements
+👕 chandail, gaminet, T-shirt, tee-shirt, vêtements
+👖 jean, pantalon, vêtements
+🧣 cou, foulard, vêtements
+🧤 gants, main, vêtements
+🧥 manteau, veste, vêtements
+🧦 bas, chaussettes, pieds
+👗 robe, vêtements
+👘 kimono, vêtements
+🥻 robe, sari, vêtement
+🩱 maillot de bain, maillot de bain une pièce
+🩲 bobettes, maillot de bain, slip, sous-vêtement, une pièce
+🩳 caleçon, maillot de bain, short, sous-vêtement
+👙 bikini, maillot de bain, vêtements
+👚 femme, vêtements, vêtements de femme
+👛 monnaie, porte-monnaie, vêtements
+👜 sac, sac à main, vêtements
+👝 pochette, sac, vêtements
+🛍 hôtel, magasinage, sac, sacs de magasinage, shopping
+🎒 école, sac, sac à dos, sac d’école
+🩴 gougoune, sandales, sandales de plage, tongs, zōri
+👞 chaussure, chaussure d’homme, homme, soulier, vêtements
+👟 chaussure, chaussure de sport, course, espadrille, sport
+🥾 camping, chaussure, chaussure de marche, chaussure de randonnée, marche, randonnée, vêtements
+🥿 ballerine, chaussure plate, chaussure sans lacets, pantoufle
+👠 chaussure, chaussure à talon haut, femme, talon, vêtements
+👡 chaussure, femme, sandale, sandale à talon, talon, vêtements
+🩰 ballet, chaussons de danse, chaussures, danse
+👢 botte, botte de femme, chaussure, femme, vêtements
+👑 couronne, reine, roi, vêtements
+👒 chapeau, chapeau de femme, femme, vêtements
+🎩 chapeau, haut-de-forme, vêtements
+🎓 chapeau, chapeau de diplômé, diplômé, mortier, remise de diplômes, vêtements
+🧢 casquette de baseball
+🪖 armée, casque, guerrier, militaire, soldat
+⛑ casque, casque avec une croix blanche, chapeau, croix, secours, visage
+📿 chapelet, prière, religion, vêtements
+💄 maquillage, rouge à lèvres
+💍 bague, diamant
+💎 bijou, diamant, joyau, pierre précieuse
+🔇 enceinte, haut-parleur, silence, son, son coupé
+🔈 son bas, volume bas, volume faible
+🔉 son moyen, volume moyen
+🔊 son élevé, son fort, son puissant, volume élevé, volume fort
+📢 bruyant, discours, haut-parleur, porte-voix
+📣 manifestation, mégaphone, porte-voix
+📯 cor de facteur, cor postal, facteur, poste
+🔔 cloche
+🔕 barrée, cloche, silence, silencieux
+🎼 musique, partition
+🎵 musique, note, note de musique
+🎶 musique, note, notes, notes de musique
+🎙 micro, micro de studio
+🎚 curseur, curseur de niveau, musique, niveau
+🎛 boutons, boutons de commande, boutons de réglage
+🎤 karaoke, micro
+🎧 casque d’écoute, écouteur
+📻 radio, vidéo
+🎷 instrument, musique, saxophone
+🪗 accordéon, concertina
+🎸 guitare, instrument, musique
+🎹 clavier, instrument, musique, piano
+🎺 instrument, musique, trompette
+🎻 instrument, musique, violon
+🪕 banjo, cordes, instrument, musique
+🥁 baguettes, batterie, musique, tambour
+🪘 conga, djembé, rythme, tambour
+📱 téléphone, téléphone cellulaire
+📲 appel, téléphone cellulaire précédé par une flèche
+☎ téléphone
+📞 récepteur téléphonique, téléphone
+📟 pager, téléavertisseur
+📠 fax, télécopieur
+🔋 batterie, pile
+🔌 prise, prise électrique
+💻 ordinateur, ordinateur portable
+🖥 ordinateur, ordinateur de bureau
+🖨 imprimante, ordinateur
+⌨ clavier, ordinateur
+🖱 souris, souris d’ordinateur
+🖲 boule de commande
+💽 disque, disque dur, optique, ordinateur
+💾 disque, disquette, ordinateur
+💿 CD, disque, ordinateur
+📀 blu-ray, disque, DVD, ordinateur
+🧮 abaque, calcul
+🎥 caméra, cinéma, film
+🎞 bande, cinéma, film, pellicule
+📽 cinéma, film, projecteur, projecteur cinématographique, vidéo
+🎬 clap, film
+📺 télé, téléviseur, télévision, TV, vidéo
+📷 appareil photo, vidéo
+📸 appareil photo, appareil photo avec flash, flash
+📹 caméra, caméscope, vidéo
+📼 cassette, vhs, vidéo
+🔍 agrandir, loupe, loupe orientée à gauche, outil, rechercher
+🔎 agrandir, loupe, loupe orientée à droite, outil, rechercher
+🕯 bougie, lumière
+💡 ampoule, idée, lumière
+🔦 lampe de poche, lumière
+🏮 japonais, lanterne, lanterne d’izakaya, lumière, rouge
+🪔 ārtī, Diwali, diya, huile, lampe, lampe à beurre
+📔 bloc-notes, carnet avec couverture décorative, couverture, livre
+📕 livre, livre fermé
+📖 livre, livre ouvert
+📗 livre, livre vert
+📘 livre, livre bleu
+📙 livre, livre orange
+📚 livre, livres
+📓 cahier, carnet
+📒 carnet de compte, grand livre
+📃 page, page enroulée
+📜 papier, parchemin
+📄 document, page
+📰 actualités, journal
+🗞 journal, journal roulé
+📑 marque, marqueur, onglets, signet
+🔖 marque-page, marqueur
+🏷 étiquette
+💰 argent, dollar, sac, sac d’argent, sac plein d’argent
+🪙 argent, métal, monnaie, or, pièce de monnaie, trésor
+💴 billet, billet en yens, yen
+💵 billet, billet en dollars, dollar
+💶 billet, billet en euros, euro
+💷 billet, billet en livres, livre
+💸 billet, billet avec des ailes
+💳 argent, carte, carte de crédit, crédit
+🧾 comptabilité, justificatif, preuve, reçu
+💹 courbe, courbe croissante précédée du symbole du yen, croissance, graphique, monnaie, yen
+✉ courriel, courrier, enveloppe, lettre
+📧 courriel, courrier, lettre
+📨 courrier électronique, e-mail, message, message reçu
+📩 courriel, enveloppe, enveloppe avec flèche, envoi, flèche
+📤 boîte d’envoi, courrier électronique, e-mail, message
+📥 boîte de réception, courrier électronique, e-mail, message
+📦 colis, paquet
+📫 boîte aux lettres, boîte aux lettres fermée, boîte aux lettres fermée avec drapeau levé, courrier, drapeau levé
+📪 boîte aux lettres, boîte aux lettres fermée, boîte aux lettres fermée avec drapeau baissé, courrier, drapeau baissé
+📬 boîte aux lettres, boîte aux lettres ouverte, boîte aux lettres ouverte avec drapeau levé, courrier, drapeau levé
+📭 boîte aux lettres, boîte aux lettres ouverte, boîte aux lettres ouverte avec drapeau baissé, courrier, drapeau baissé
+📮 boîte aux lettres, boîte postale, courrier
+🗳 urne, urne électorale
+✏ crayon
+✒ plume noire, stylo
+🖋 stylo, stylo-plume
+🖊 stylo, stylo bille
+🖌 peinture, pinceau
+🖍 crayon de cire, crayon pastel
+📝 crayon, mémo
+💼 porte-documents
+📁 dossier, fichier
+📂 dossier, dossier ouvert
+🗂 classement, index, intercalaire, intercalaires
+📅 calendrier, date
+📆 calendrier, calendrier à effeuiller, éphéméride
+🗒 bloc-notes à spirale, notes
+🗓 calendrier, calendrier à spirale
+📇 carte, fiche, index, rolodex
+📈 croissance, graphique, graphique en hausse, hausse, tendance
+📉 baisse, graphique, graphique en baisse, tendance
+📊 barres, graphique, graphiques à barres
+📋 fournitures, presse-papiers
+📌 épingle, fournitures
+📍 épingle à tête ronde, fournitures
+📎 fournitures, trombone
+🖇 fournitures, trombones accrochés
+📏 fournitures, règle
+📐 équerre, fournitures
+✂ ciseaux, fournitures
+🗃 boîte à dossiers, dossier
+🗄 classeur, dossier
+🗑 corbeille
+🔒 cadenas, fermé, verrouillé, verrouiller
+🔓 cadenas, déverrouillé, déverrouiller, ouvert
+🔏 cadenas, cadenas fermé avec stylo, confidentialité, encre, stylo
+🔐 cadenas, cadenas avec clé, clé, fermé, sécurisé, sûr, verrouillé
+🔑 clé, mot de passe, serrure
+🗝 clé, clé ancienne, serrure
+🔨 marteau, outil
+🪓 bois, fendre, hache, hachette
+⛏ mine, outil, pic
+⚒ marteau, marteau et pic, pic
+🛠 clé, clé à molette, marteau, marteau et clé à molette, outil
+🗡 arme, couteau, dague, poignard
+⚔ arme, croisées, épées
+🔫 arme, arme à feu, pistolet, pistolet à eau, revolver
+🪃 australie, boomerang, outil, répercussion, retour
+🏹 arc, arc et flèche, flèche, sagittaire, zodiaque
+🛡 arme, bouclier
+🪚 bois, outil, scie, scie à bois, scie égoïne
+🔧 clé, clé à molette, outil
+🪛 outil, tournevis, vis
+🔩 écrou, outil, vis, vis et écrou
+⚙ engrenage, outil
+🗜 étau, outil, serre-joint
+⚖ balance, balance à poids, zodiaque
+🦯 accessibilité, aveugle, canne blanche, déficient visuel, malvoyant
+🔗 chaînons, maillons
+⛓ chaîne, chaînes
+🪝 accrocher, appâter, attraper, crochet, ferrer, hameçonner
+🧰 boîte à outils, coffre, mécanique, outil
+🧲 aimant, attraction, fer à cheval, magnétique
+🪜 barreau, échelle, escabeau, monter
+⚗ alambic, chimie, outil
+🧪 chimie, chimiste, expérience, labo, sciences, tube à essai
+🧫 bactérie, biologie, biologiste, boîte de pétri, culture, labo
+🧬 adn, biologiste, évolution, gène, génétique, vie
+🔬 microscope, outi, science
+🔭 outil, science, télescope
+📡 antenne, antenne parabolique, antenne satellite, parabole
+💉 aiguille, docteur, malade, médecine, seringue
+🩸 don du sang, goutte de sang, médecine, menstruation, règles
+💊 docteur, malade, médecine, pilule
+🩹 bandage, médecine, pansement, premiers secours, sparadrap
+🩺 cœur, docteur, médecine, poumons, stéthoscope
+🚪 porte
+🛗 accessibilité, ascenseur, monte-personnes
+🪞 glace, miroir, reflet
+🪟 air frais, cadre, fenêtre, ouverture, transparent, vue
+🛏 dormir, hôtel, lit
+🛋 canapé, divan, lampe, sofa, sofa et lampe
+🪑 assis, chaise, siège
+🚽 cabinet de toilette, siège de toilette, toilettes
+🪠 force, plombier, succion, toilette, ventouse
+🚿 douche, eau
+🛁 baignoire, bain
+🪤 apât, piège, piège à souris
+🪒 coupant, lame, raser, rasoir, tranchant
+🧴 bouteille de lotion, crème hydratante, crème solaire, flacon, lotion, shampooing
+🧷 couche, épingle de sûreté, lange, punk rock
+🧹 balai, balayage, nettoyage, sorcière
+🧺 agriculture, linge, panier, pique-nique
+🧻 essuie-main, essuie-tout, papier hygiénique, papier toilette, rouleau de papier
+🪣 chaudière, seau
+🧼 bain, mousse, pain, savon, savonnette
+🪥 brosse, brosse à dents, dentaire, dents, hygiène, laver, salle de bain
+🧽 absorbante, éponge, nettoyage, poreuse
+🧯 éteindre, extincteur, feu, incendie
+🛒 chariot, panier, panier d’épicerie, shopping
+🚬 cigarette, fumeur
+⚰ cercueil, mort
+🪦 cimetière, pierre tombale, stèle, tombe
+⚱ urne, urne funéraire
+🗿 moaï, statue
+🪧 grève, manifestation, pancarte, panneau, protestation
+🏧 bancaire, banque, gab, guichet, guichet automatique bancaire
+🚮 icône Poubelle, poubelle
+🚰 eau, eau potable
+♿ accès handicapés, symbole de fauteuil roulant
+🚹 sanitaires, toilettes, toilettes pour hommes
+🚺 sanitaires, toilettes, toilettes pour femmes
+🚻 toilettes
+🚼 bébé, symbole bébé, table à langer
+🚾 symbole Toilettes, toilettes
+🛂 contrôle, contrôle des passeports, douane, passeport
+🛃 douane
+🛄 bagages, retrait des bagages, tapis à bagages
+🛅 bagages, consigne à bagages
+⚠ avertissement
+🚸 attention, enfants, circulation, enfant, passage d’enfants, piétons
+⛔ entrée interdite, interdiction, interdit, sens interdit
+🚫 interdit
+🚳 interdiction, interdit, vélo, vélos interdits
+🚭 fumer, interdiction, interdiction de fumer, interdit, non fumeur
+🚯 déchet, dépôt d’ordures interdit, interdiction, interdit, ordure
+🚱 eau, eau non potable, non potable
+🚷 interdiction, interdit, interdit aux piétons
+📵 cellulaire, interdiction, interdit, mobile, portable, téléphones cellulaires interdits
+🔞 18, 18 ans et plus, dix-huit, interdiction
+☢ radioactif, symbole
+☣ biologique, danger
+⬆ direction, en haut, flèche, flèche pointant vers le haut, nord, point cardinal
+↗ direction, en haut à droite, flèche, flèche pointant vers le haut à droite, nord-est, point intercardinal
+➡ à droite, direction, est, flèche, flèche pointant vers la droite, point cardinal
+↘ direction, en bas à droite, flèche pointant vers le bas à droite, lèche, point intercardinal, sud-est
+⬇ direction, en bas, flèche, flèche pointant vers le bas, point cardinal, sud
+↙ direction, en bas à gauche, flèche, flèche pointant vers le bas à gauche, point intercardinal, sud-ouest
+⬅ à gauche, direction, flèche, flèche pointant vers la gauche, ouest, point cardinal
+↖ direction, en haut à gauche, flèche, flèche pointant vers le haut à gauche, nord-ouest, point intercardinal
+↕ bas haut, en bas et en haut, en haut et en bas, flèche, flèche pointant vers le haut et vers le bas, haut bas
+↔ à droite et à gauche, à gauche et à droite, droite gauche, flèche, flèche pointant à gauche et à droite, gauche droite
+↩ courbe vers la gauche, flèche, flèche courbe vers la gauche
+↪ courbe vers la droite, flèche, flèche courbe vers la droite
+⤴ courbe vers le haut, flèche, flèche courbe vers le haut
+⤵ courbe vers le bas, flèche, flèche courbe vers le bas
+🔃 flèche, flèches verticales dans le sens horaire, horaire, recharger, sens des aiguilles d’une montre, vertical
+🔄 antihoraire, flèche, flèches verticales dans le sens antihoraire, sens inverse des aiguilles d’une montre
+🔙 back, étiquette « BACK » et flèche, flèche, retour
+🔚 end, étiquette « END » et flèche, fin, flèche
+🔛 en marche, étiquette « ON! » et flèche, flèche, on
+🔜 bientôt, étiquette « SOON » et flèche, flèche, soon
+🔝 dessus, étiquette « TOP » et flèche, flèche, haut, top
+🛐 culte, lieu de culte, religion
+⚛ athée, atome, symbole de l’atome
+🕉 hindou, om, religion
+✡ David, étoile, étoile de David, juif, Juif, religion
+☸ bouddhiste, dharma, religion, roue, roue du Dharma
+☯ religion, tao, yang, yin
+✝ chrétien, croix, croix latine, religion
+☦ chrétien, croix, orthodoxe, réligion
+☪ croissant, étoile, étoile et croissant de lune, islam, musulman, religion
+☮ paix, symbole de paix
+🕎 chandelier, menora, religion
+🔯 6 branches, étoile, étoile à 6 branches et point au milieu, fortune, six branches
+♈ bélier, Bélier zodiaque, zodiaque
+♉ Taureau, zodiaque
+♊ Gémeaux, zodiaque
+♋ Cancer, zodiaque
+♌ Lion, zodiaque
+♍ Vierge, zodiaque
+♎ Balance, zodiaque
+♏ Scorpion, zodiaque
+♐ Sagittaire, zodiaque
+♑ Capricorne, zodiaque
+♒ Verseau, zodiaque
+♓ Poissons, zodiaque
+⛎ Serpentaire, zodiaque
+🔀 aléatoire, bouton de lecture aléatoire, croisées, flèches
+🔁 bouton de répétition, flèches, horaire, répéter, répétition, sens des aiguilles d’une montre
+🔂 bouton de répétition unique, flèches, horaire, répéter une fois, répétition unique, sens des aiguilles d’une montre
+▶ bouton de lecture, bouton lecture, droite, flèche, lecture, triangle
+⏩ avance rapide, bouton d’avance rapide, double, flèches, rapide
+⏭ bouton piste suivante, flèches, piste suivante, suivant, triangle
+⏯ bouton lecture/pause, droite, flèche, lecture, pause, triangle
+◀ bouton de retour, bouton retour, flèche, gauche, retour, triangle
+⏪ bouton de retour rapide, double, flèches, rapide, rembobiner, retour rapide
+⏮ bouton piste précédente, flèches, piste précédente, précédent, triangle
+🔼 bouton vers le haut, flèche, haut, triangle
+⏫ accès rapide vers le haut, bouton d’accès rapide vers le haut, double, flèche, triangle
+🔽 bas, bouton vers le bas, flèche, triangle
+⏬ accès rapide vers le bas, bouton d’accès rapide vers le bas, double, flèche, triangle
+⏸ barres, bouton pause, double, pause, vertical
+⏹ bouton, carré, stop
+⏺ bouton, bouton enregistrer, cercle, enregistrement
+⏏ bouton éjecter, éjecter
+🎦 caméra, cinéma, film
+🔅 faible, luminosité
+🔆 élevée, luminosité
+📶 barres de signal
+📳 cellulaire, mobile, mode, téléphone, vibration
+📴 cellulaire, éteint, mobile, téléphone
+♀ femme, symbole de la femme
+♂ homme, symbole de l’homme
+⚧ symbole de la communauté transgenre, symbole transgenre, transgenre
+✖ *, ×, annuler, multiplier, non, signe de multiplication, x
+➕ +, addition, arithmétique, mathématiques, plus, signe d’addition
+➖ -, −, arithmétique, mathématiques, moins, signe de soustraction, soustraction
+➗ /, ÷, arithmétique, division, mathématiques, signe de division
+♾ éternité, illimité, infini, universel
+‼ !, !!, double point d’exclamation, exclamation, point
+⁉ !, !?, ?, exclamation, point, points d’exclamation et d’interrogation, points d’interrogation et d’exclamation, ponctuation, question
+❓ point d’interrogation, point d’interrogation rouge, ponctuation, question
+❔ point d’interrogation, point d’interrogation blanc, ponctuation, question
+❕ point d’exclamation, point d’exclamation blanc, ponctuation, question
+❗ !, exclamation, point d’exclamation, point d’exclamation rouge, ponctuation
+〰 ligne ondulée, ponctuation, trait d’union ondulé, vague
+💱 argent, banque, change, devise
+💲 argent, devise, dollar, symbole du dollar en gras
+⚕ Asclépios, médecine, professionnel de la santé, symbole de la médecine, symbole la médecine
+♻ recyclage, symbole de recyclage
+⚜ fleur de lys
+🔱 ancre, bateau, trident
+📛 badge, badge nominatif, nom
+🔰 chevron, débutant, feuille, japonais, symbole, symbole japonais du débutant
+⭕ cercle, grand, o, rouge
+✅ ✓, bouton coché, carré, coche, marque, oui, sélection
+☑ ✓, bouton, carré, case cochée, coche, oui, sélection
+✔ coche, coche noire, marque
+❌ annuler, croix, multiplication, multiplier, x
+❎ ×, bouton croix, croix, x
+➰ boucle, bouclette
+➿ boucle, double boucle
+〽 début de la musique, japonais, marque, partition, symbole, symbole japonais indiquant le début de la musique
+✳ astérique, astérique à huit branches, huit branches
+✴ étoile, étoile à huit branches, huit branches
+❇ *, briller, éclat, étinceler, scintiller
+© copyright, symbole copyright
+® ®, marque commerciale, marque déposée, r
+™ marque de commerce, marque déposée, md
+🔠 ABCD, latin, lettres, majuscules, saisie
+🔡 abcd, latin, lettres, minuscules, saisie
+🔢 1234, chiffres, nombres, saisie, saisie de chiffres
+🔣 〒♪&amp;%, saisie, saisie de symboles, symboles
+🔤 abc, alphabet, latin, lettres, saisie
+🅰 A, groupe sanguin, groupe sanguin A
+🆎 AB, groupe sanguin, groupe sanguin AB
+🅱 B, groupe sanguin, groupe sanguin B
+🆑 bouton Effacer, cl, effacer
+🆒 bouton Cool, cool
+🆓 free
+ℹ i, informations
+🆔 bouton Identifiant, identifiant
+Ⓜ cercle, m, m encerclé
+🆕 bouton NEW, bouton Nouveau, new, nouveau
+🆖 bouton NG, bouton Pas bien, NG, no go, not good, pas bien, pas bon
+🅾 groupe sanguin, groupe sanguin O, O
+🆗 bouton OK, OK
+🅿 icône Stationnement, parking, stationnement
+🆘 aide, bouton SOS, secours, SOS
+🆙 icône UP!, nouveau, nouveauté, up
+🆚 bouton VS, c., contre, vs
+🈁 ici, japonais, katakana, symbole japonais signifiant « ici », ココ
+🈂 japonais, katakana, payant, service, symbole japonais signifiant « service » ou « service payant », サ
+🈷 idéogramme, japonais, montant mensuel, symbole japonais signifiant « montant mensuel », 月
+🈶 idéogramme, japonais, payant, symbole japonais signifiant « payant », 有
+🈯 idéogramme, japonais, réservé, symbole japonais signifiant « réservé », 指
+🉐 aubaine, idéogramme, japonais, symbole japonais signifiant « aubaine », 指
+🈹 idéogramme, japonais, rabais, symbole japonais signifiant « rabais », 割
+🈚 gratuit, idéogramme, japonais, symbole japonais signifiant « gratuit », 無
+🈲 idéogramme, interdit, japonais, symbole japonais signifiant « interdit », 禁
+🉑 acceptable, idéogramme, japonais, symbole japonais signifiant « acceptable », 可
+🈸 application, idéogramme, japonais, symbole japonais signifiant « application », 申
+🈴 idéogramme, japonais, note de passage, symbole japonais signifiant « note de passage », 合
+🈳 idéogramme, japonais, places disponibles, symbole japonais signifiant « places disponibles », 空
+㊗ félicitations, idéogramme, japonais, symbole japonais signifiant « félicitations », 祝
+㊙ idéogramme, japonais, secret, symbole japonais signifiant « secret », 秘
+🈺 idéogramme, japonais, ouvert, symbole japonais signifiant « ouvert », 営
+🈵 complet, idéogramme, japonais, symbole japonais signifiant « complet », 満
+🔴 cercle, disque, géométrie, rond, rouge, sphère
+🟠 cercle, disque, géométrie, orange, rond, sphère
+🟡 cercle, disque, géométrie, jaune, rond, sphère
+🟢 cercle, cercle vert, disque, géométrie, jaune, rond, sphère
+🔵 bleu, cercle, disque, géométrie, rond, sphère
+🟣 cercle, disque, géométrie, rond, sphère, violet
+🟤 brun, cercle, disque, géométrie, rond, sphère
+⚫ cercle, disque, géométrie, noir, rond, sphère
+⚪ blanc, cercle, disque, géométrie, rond, sphère
+🟥 carré, rouge
+🟧 carré, orange
+🟨 carré, jaune
+🟩 carré, vert
+🟦 bleu, carré
+🟪 carré, violet
+🟫 carré brun
+⬛ carré, forme géométrique, grand carré noir
+⬜ forme, géométrie, grand carré blanc
+◼ carré noir de taille moyenne, forme, géométrie
+◻ carré blanc de taille moyenne, forme, géométrie
+◾ carré noir de taille intermédiaire, forme, géométrie
+◽ carré blanc de taille intermédiaire, forme, géométrie
+▪ carré, forme géométrique, petit carré noir
+▫ carré, forme géométrique, petit carré blanc
+🔶 géométrie, grand losange, grand losange orange, orange
+🔷 bleu, géométrie, grand losange, grand losange bleu, losange
+🔸 géométrie, losange, orange, petit losange, petit losange orange
+🔹 bleu, géométrie, losange, petit losange, petit losange bleu
+🔺 géométrie, rouge, triangle qui pointe vers le haut, triangle rouge qui pointe vers le haut
+🔻 géométrie, rouge, triangle qui pointe vers le bas, triangle rouge qui pointe vers le bas
+💠 dessin, diamant, diamant avec un point, géométrique, intérieur
+🔘 bouton, forme, géométrie, radio
+🔳 bouton, bouton représentant un carré blanc, carré blanc, géométrie
+🔲 bouton, bouton représentant un carré noir, carré noir, géométrie
+🏁 drapeau, drapeau à damier
+🚩 drapeau, drapeau triangulaire, fanion
+🎌 drapeaux, drapeaux croisés
+🏴 drapeau, drapeau noir
+🏳 drapeau, drapeau blanc
+🏳‍🌈 arc-en-ciel, drapeau
+🏳‍⚧ blanc, bleu pâle, drapeau, rose, transgenre
+🏴‍☠ drapeau de pirate, pillage, piller, pirate, trésor
+¢ cent
+$ argent, dollar, peso, USD
+£ devise, EGP, GBP, livre
+¥ CNY, devise, JPY, yen, yuan
+₢ cruzeiro
+₣ franc français
+₤ lire
+₥ mill
+₩ KPW, KRW, won
+€ devise, EUR, euro
+₰ penny allemand
+₱ peso
+₳ austral
+₶ livre tournois
+₷ spesmilo
+₹ devise, roupie, roupie indienne
+₽ devise, rouble
+₿ bitcoin, BTC
+₨ roupie
+﷼ rial
+¹ exposant, un
+² au carré, deux, exposant
+³ au cube, exposant, trois
+µ mesure, symbole micro
+‾ trait suscrit
+‽ point exclarrogatif
+‸ caret
+⁂ astérisme
+↚ flèche vers la gauche barrée
+↛ flèche vers la droite barrée
+↜ flèche vers la gauche ondulée
+↝ flèche vers la droite ondulée
+↞ flèche à deux pointes vers la gauche
+↟ flèche à deux pointes vers le haut
+↠ flèche à deux pointes vers la droite
+↡ flèche à deux pointes vers le bas
+↢ flèche vers la gauche empennée
+↣ flèche vers la droite empennée
+↤ flèche d’un taquet vers la gauche
+↥ flèche d’un taquet vers le haut
+↦ flèche d’un taquet vers la droite
+↧ flèche d’un taquet vers le bas
+↨ flèche haut-bas sur base
+↫ flèche vers la gauche à boucle
+↬ flèche vers la droite à boucle
+↭ flèche gauche-droite ondulée
+↯ flèche vers le bas en zigzag
+↰ flèche vers le haut avec pointe vers la gauche
+↱ flèche vers le haut avec pointe vers la droite
+↲ flèche vers le bas avec pointe vers la gauche
+↳ flèche vers le bas avec pointe vers la droite
+↴ flèche vers la droite avec pointe vers le bas
+↵ flèche vers le bas avec coin vers la gauche
+↶ flèche semi-circulaire sens antihoraire en chef
+↷ flèche semi-circulaire sens horaire en chef
+↸ flèche nord-ouest jusqu’à un long taquet
+↹ flèche vers la gauche jusqu’à un taquet sur flèche vers la droite jusqu’à un taquet
+↺ flèche circulaire ouverte sens antihoraire
+↻ flèche circulaire ouverte sens horaire
+↼ harpon vers la gauche avec barbillon vers le haut
+↽ harpon vers la gauche avec barbillon vers le bas
+↾ harpon vers le haut avec barbillon vers la droite
+↿ harpon vers le haut avec barbillon vers la gauche
+⇀ harpon vers la droite avec barbillon vers le haut
+⇁ harpon vers la droite avec barbillon vers le bas
+⇂ harpon vers le bas avec barbillon vers la droite
+⇃ harpon vers le bas avec barbillon vers la gauche
+⇄ flèche vers la droite sur flèche vers la gauche
+⇇ paire de flèches vers la gauche
+⇈ paire de flèches vers le haut
+⇉ paire de flèches vers la droite
+⇊ paire de flèches vers le bas
+⇋ harpon vers la gauche sur harpon vers la droite
+⇌ harpon vers la droite sur harpon vers la gauche
+⇍ double flèche vers la gauche barrée
+⇏ double flèche vers la droite barrée
+⇎ double flèche gauche-droite barrée
+⇞ flèche vers le haut avec double barre
+⇟ flèche vers le bas avec double barre
+⇠ flèche à traits discontinus vers la gauche
+⇡ flèche à traits discontinus vers le haut
+⇢ flèche à traits discontinus vers la droite
+⇣ flèche à traits discontinus vers le bas
+⇤ flèche vers la gauche jusqu’à un taquet
+⇥ flèche vers la droite jusqu’à un taquet
+⇪ flèche creuse d’un taquet vers le haut
+⇵ flèche vers le bas à gauche d’une flèche vers le haut
+∀ pour tous
+∂ dérivée partielle
+∃ il existe
+↮ flèche gauche-droite barrée

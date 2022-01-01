@@ -1,0 +1,1709 @@
+{ loogeline algussulg, loogeline sulg, looksulg, sulg
+🏻 hele nahatoon, nahatoon, nahk, tüüp 1–2
+🏼 keskmiselt hele nahatoon, nahatoon, nahk, tüüp 3
+🏽 keskmine nahatoon, nahatoon, nahk, tüüp 4
+🏾 keskmiselt tume nahatoon, nahatoon, nahk, tüüp 5
+🏿 nahatoon, nahk, tume nahatoon, tüüp 6
+‾ ülakriips
+_ alajoon, alakriips, joon, kriips
+- keskkriips, kriips, miinus, sidekriips-miinus
+‐ kriips, sidekriips
+– enn-kriips, kriips, N, N-kriips
+— emm-kriips, kriips, M, M-kriips
+― horisontaaljoon, joon, kriips, mõttekriips
+・ katakana, katakana keskmine punkt, keskpunkt, punktid, vahepunkt
+, koma
+، araabia, koma
+、 ideograafiline, koma
+; semikoolon
+؛ araabia, semikoolon
+: koolon
+! hüüatus, hüüumärk
+¡ hüüatus, hüüumärk, pöördhüüumärk, tagurpidi
+? küsimärk, küsimus
+¿ küsimärk, küsimus, pöördküsimärk, tagurpidi
+؟ araabia, küsimärk, küsimus
+. lauselõpumärk, punkt
+… kolm punkti, mõttepunktid, väljajätt
+。 ideograafiline, punkt
+· keskmine, punkt, vahepunkt
+' jutumärgid, kirjutusmasina stiilis ülakoma, ühekordsed jutumärgid, ülakoma, viide
+‘ jutumärgid, nutikad jutumärgid, ühekordsed jutumärgid, ülakoma, vasakule kaldu ülakoma, viide
+’ jutumärgid, nutikad jutumärgid, paremale kaldu ülakoma, ühekordsed jutumärgid, ülakoma, viide
+‚ alumine jutumärk, alumine ühekordne jutumärk, jutumärgid, ühekordne jutumärk
+“ jutumärgid, nutikad jutumärgid, tsitaat, vasakule kaldu jutumärk, viitamine
+” jutumärgid, nutikad jutumärgid, paremale kaldu jutumärk, tsitaat, viitamine
+„ alumine jutumärk, jutumärgid, nutikad jutumärgid, tsitaat, viitamine
+« nurk, nurksulud, topeltnool vasakule, tsitaat, vasak, vasaknooled
+» nurk, nurksulud, parem, paremnooled, topeltnool paremale, tsitaat
+) lõpusulg, sulg, sulud, ümarsulg
+[ kandiline algussulg, kandiline sulg, kantsulg, sulg
+] kandiline lõpusulg, kandiline sulg, kantsulg, sulg
+} loogeline lõpusulg, loogeline sulg, looksulg, sulg
+〈 algusnurksulg, nurksulg, sulg
+〉 lõpunurksulg, nurksulg, sulg
+《 noolekujuline algusjutumärk, noolekujuline jutumärk, nurksulg, sulg
+》 noolekujuline jutumärk, noolekujuline lõpujutumärk, nurksulg, sulg
+「 algusnurgasulg, nurgasulg, sulg
+」 lõpunurgasulg, nurgasulg, sulg
+『 kahekordne algusnurgasulg, kahekordne nurgasulg, sulg
+』 kahekordne lõpunurgasulg, kahekordne nurgasulg, sulg
+【 läätsekujuline sulg, läätsekujulised sulud, sulg, tume läätsekujuline algussulg
+】 läätsekujuline sulg, läätsekujulised sulud, sulg, tume läätsekujuline lõpusulg
+〔 sulg, sulud, ümar algussulg, ümarsulg
+〕 sulg, sulud, ümar lõpusulg, ümarsulg
+〖 läätsekujuline algussulg, läätsekujuline sulg, läätsekujulised sulud, sulg
+〗 läätsekujuline lõpusulg, läätsekujuline sulg, läätsekujulised sulud, sulg
+§ jaotis, osa, paragrahv
+¶ paragrahv, paragrahvimärk
+@ ätt, ätt-märk, kommertsmärk
+* metamärk, täht, tärn
+/ kaldkriips, kaldu, kriips
+\ kurakriips, längkriips
+& ampersand, ja, ja-märk
+# number, trellid, trellimärk, trellsilt
+% protsendimärk, protsent
+‰ promill, promillimärk
+† pistoda, rist, ristimärk
+‡ pistoda, topelt, topeltristi märk
+• mumm, punkt
+‧ kriips, poolitusmärk, poolituspunkt, punkt
+′ priim
+″ priim, topeltpriim
+‴ kolmekordne priim, priim
+‸ katus
+※ viitemärk
+` graavis, hääldus, rõhk
+´ akuut, rõhk, toon
+^ aktsent, katus, rõhk, rööpnool, tsirkumfleks
+¨ täpid, treema
+° kraad, proov, tund
+℗ autoriõigus, heli, helisalvestise autoriõigus, salvestamine
+← nool, vasak, vasaknool
+→ nool, parem, paremnool
+↑ nool, üles, ülesnool
+↓ alla, allanool, nool
+↜ laineline vasaknool
+↝ laineline paremnool
+↢ sabaga vasaknool
+↣ sabaga paremnool
+↯ sakiline allanool
+⇄ paremnool vasaknoole kohal
+⇅ alla, nool, üles, ülesnool ja allanool
+⇆ nool, parem, vasak, vasaknool paremnoole kohal
+⇇ paaris vasaknooled
+⇈ paaris ülesnooled
+⇉ paaris paremnooled
+⇊ paaris allanooled
+∂ osatuletis
+∃ on olemas
+∅ tühihulk
+∆ juurdekasv, kolmnurk
+∇ kolmnurk, nabla
+∈ element, hulk, kuulub hulka, sisaldab
+∉ ei kuulu hulka
+∋ sisaldab liiget
+∎ tõestuse lõpp
+∏ korrutis
+∑ summa
++ liitmine, pluss, plussmärk
+± pluss-miinus
+÷ jaga, jagamine, jagamismärk
+× korda, korrutamine, korrutusmärk
+< algusmärgend, märgend, väiksem kui
+≮ mitte väiksem kui
+= võrdne, võrdub, võrdusmärk
+≠ ebavõrdsus, ei võrdu, mittevõrdne
+> lõpumärgend, märgend, suurem kui
+≯ mitte suurem kui
+¬ eitus, mitte
+| joon, kriips, püstjoon, püstkriips, vertikaaljoon, vertikaalkriips
+~ tilde
+− lahutamine, miinus, miinusmärk
+⁻ miinus, ülakiri, ülamiinus
+∓ miinus või pluss
+∗ tärnimärk
+∙ täppmärk
+√ juur, radikaal, ruut, ruutjuur, surd
+∝ proportsionaalne
+∞ lõpmatus, lõpmatuse märk
+∟ paremnurk
+∠ nurk
+∣ jagatud
+∥ paralleelne
+∧ loogiline ja
+∩ hulk, lõikumine
+∪ hulk, kogu, union
+∫ integraal
+∬ topeltintegraal
+∮ kontuurintegraal
+∴ järelikult
+∵ sest
+∶ suhe
+∷ proportsioon
+∼ tehtemärk tilde
+∽ tagurpidi tilde
+≅ ligikaudu võrdne
+≈ ligikaudne, ligikaudsus, võrdub ligikaudu
+≌ kõik võrdsed
+≒ pilt ligikaudu võrdne
+≖ ringiga võrdusmärk
+≡ identne, kolm kriipsu, täpselt
+≣ matemaatika, rangelt samaväärne, võrdus
+≤ ebavõrdsus, väiksem kui, väiksem või võrdne, võrdne, võrdub
+≥ ebavõrdsus, suurem kui, suurem või võrdne, võrdne, võrdub
+≦ väiksem kui või võrdne
+≧ suurem kui või võrdne
+≪ palju väiksem kui
+≫ palju suurem kui
+≬ vahemikus
+≳ suurem kui ekvivalentne
+≺ eelneb
+≻ järgneb
+⊁ ei eelne
+⊂ alamhulk, hulk, kuulub alamhulka, pärisalamhulk
+⊃ hulgaoperaator, matemaatika, pärisülemhulk
+⊆ alamhulk
+⊇ matemaatika, ülemhulk, võrdus
+⊕ plussmärk ringis
+⊖ miinusmärk ringis
+⊗ korrutusmärk ringis
+⊘ jagamismärk ringis
+⋁ loogiline või
+⋂ hulkade ühisosa
+⋃ hulkade ühend
+⋘ väga palju väiksem kui
+⋙ väga palju suurem kui
+▲ kolmnurk, nool, täidetud, täidetud üles-kolmnurk, üles
+▼ alla, kolmnurk, nool, täidetud, täidetud alla-kolmnurk
+◊ hulktahukas, romb, teemant
+○ ring, sõõr, tühi ring
+● ring, täidetud ring
+◯ ring, sõõr, suur tühi ring
+♪ kaheksandik, kaheksandiknoot, muusika, noot
+⪚ matemaatika, võrratus
+♭ bemoll, madaldusmärk, muusika, noot
+♯ diees, kõrgendusmärk, muusika, noot
+😀 irve, laia naeratusega nägu, naeratus, nägu
+😃 avatud, avatud suuga naerunägu, lahti, naeratus, nägu, suu
+😄 avatud, avatud suu ja naeratavate silmadega naerunägu, lahti, naeratus, nägu, silm, suu
+😁 irve, naeratus, naerul silmade ja laia naeratusega nägu, nägu, silm
+😆 avatud suu ja suletud silmadega naerunägu, lahti, naer, naeratus, nägu, rahul, suu
+😅 avatud, higi, külm, külma higiga kaetud ja avatud suuga naerunägu, naeratus, nägu
+🤣 kõver, naer, naerust kõveras
+😂 naer, nägu, pisar, rõõm, rõõmupisaratega nägu
+🙂 naeratus, naeratusega nägu, nägu
+🙃 nägu, tagurpidi
+😉 nägu, silma pilgutav nägu, silmapilgutus
+😊 naeratavate silmadega naerunägu, naeratus, nägu, punastamine, silm
+😇 aupaistega naerunägu, fantaasia, halo, ingel, naeratus, nägu, süütu
+🥰 armunud, imetlev, naeratav kolme südamega nägu, naeratav südametega nägu, sisse võetud
+😍 armastus, naeratus, nägu, silm, süda, südamekujuliste silmadega naerunägu
+🤩 nägu, silmad, staar, staariga silmitsi, suu kõrvuni
+😘 nägu, süda, suudlus, suudlust saatev nägu
+😗 nägu, suudlev nägu, suudlus
+☺ naeratus, naerunägu, nägu, piirjoon, rahulik
+😚 nägu, silm, suletud, suletud silmadega suudlev nägu, suudlus
+😙 naeratavate silmadega suudlev nägu, naeratus, nägu, silm, suudlus
+🥲 kergendus, liigutatud, naeratav, naeratav pisaraga nägu, pisar, uhke
+😋 maitsev, maitsvat toitu nautija nägu, naeratus, nägu, nautimine
+😛 keel, nägu, suust väljas keelega nägu
+😜 keel, nägu, nali, silm, silmapilgutus, suust väljas keelega ja silma pilgutav nägu
+🤪 pöörase ilmega nägu, silm, suur, väike
+😝 keel, maitse, nägu, õudne, silm, suust väljas keelega ja suletud silmadega nägu
+🤑 nägu, nägu, millel on raha suus, raha, suu
+🤗 kallistamine, kallistav nägu, kallistus, nägu
+🤭 kätt suul hoidev nägu, ups
+🤫 kuss!, sõrme suul hoidev nägu, vaikust
+🤔 mõtlemine, mõtlev nägu, nägu
+🤐 nägu, suu, tõmblukk, tõmblukusuuga nägu
+🤨 kergitatud kulmudega nägu, skeptiline, umbusaldav
+😐 erapooletu nägu, nägu, neutraalne, surmtõsine
+😑 ilmetu, mittemidagiütlev, nägu, väheütlev
+😶 ilma suuta nägu, nägu, suu, vaikne, vaikus
+😶‍🌫 hajameelne, nägu pilvedes, nägu udus, pea pilvedes
+😏 irvitus, muigav nägu, nägu
+😒 nägu, õnnetu, põlglik
+🙄 nägu, pööritamine, pööritavate silmadega nägu, silmad
+😬 grimass, grimassitav nägu, nägu
+😮‍💨 kergendus, ohkamine, sosistamine, väljahingamine, väljahingav nägu, vilistamine
+🤥 nägu, vale, valetav nägu
+😌 kergendus, kergendust tundev nägu, nägu
+😔 mõtlik, nägu, nukker
+😪 magamine, nägu, unine nägu
+🤤 ila, ilastav nägu, nägu
+😴 magav nägu, nägu, uni, zzz
+😷 arst, haige, kirurgimaskiga kaetud nägu, külm, mask, nägu, ravim
+🤒 haige, kraadiklaas, kraadiklaasiga nägu, nägu
+🤕 kinniseotud, kinniseotud peaga nägu, nägu, side, vigastus
+🤢 iiveldus, iiveldust tundev nägu, nägu, okse
+🤮 iiveldus, okse, oksendav nägu
+🤧 aevastav nägu, aevastus, nägu, terviseks
+🥵 higistav, higistav nägu, kuumarabandus, näost punane, palavikuline
+🥶 jääpurikad, jäätuv, külmakahjustus, külmunud, külmunud nägu, näost sinine
+🥴 alkoholiuimas, joobnud, lainelised huuled, oimetu, uimane nägu, üks silm poolkinni
+😵 nägu, oimetu
+😵‍💫 hüpnotiseeritud, probleem, spiraalne, spiraalsilmadega nägu, uimane
+🤯 plahvatav pea, šokeeritud
+🤠 kauboi, kauboimütsiga nägu, müts, nägu
+🥳 müts, peovile, pidu, pidutsemine, pidutsev nägu
+🥸 inkognito, maskeerima, maskeeritud nägu, nägu, nina, prillid
+😎 ere, lahe, naeratus, nägu, päike, päikeseprillid, päikeseprillidega naerunägu
+🤓 friik, nägu, nohik, nohiku nägu
+🧐 monokliga nägu, vanamoeline
+😕 nägu, segaduses
+😟 murelik, nägu
+🙁 kulmukortsutus, nägu, veidi kulmu kortsutav nägu
+☹ kulmu kortsutav nägu, kulmukortsutus, nägu
+😮 avatud, avatud suuga nägu, kaastunne, lahti, nägu, suu
+😯 hämmingus, nägu, üllatunud, vaigistatud
+😲 ehmunud, hämmastunud nägu, hämmastus, löödud, nägu
+😳 nägu, punastamine, punastav nägu
+🥺 anuv nägu, halastust ootav, kutsikasilmad, paluv
+😦 avatud, avatud suuga mossitav nägu, mossis, nägu, suu
+😧 ahastus, ahastuses nägu, nägu
+😨 hirm, hirmunud nägu, hirmus, kartlik, nägu
+😰 avatud, higi, külm, külma higiga kaetud ja avatud suuga nägu, nägu, sinine, suu
+😥 kergendus, leevendus, nägu, pettunud, pettunud, kuid kergendust tundev nägu
+😢 kurb, nägu, nutt, nuttev nägu, pisar
+😭 kurb, nägu, nutmine, nutt, pisar, valjusti nuttev nägu
+😱 hirm, hirmul, hirmunud, hirmunult karjuv nägu, karje, munch, nägu
+😖 kimbatus, kimbatuses nägu, nägu
+😣 kannatamine, nägu, sihikindel nägu
+😞 kergendus, leevendus, nägu, pettunud
+😓 higi, külm, külma higiga kaetud nägu, nägu
+😩 nägu, rammestunud, väsinud
+😫 nägu, väsinud
+🥱 haigutamine, haigutav nägu, haigutus, igav, väsinud
+😤 aur, nägu, nina, ninast auru ajav nägu
+😡 mossitav, nägu, punane, tige, viha, vihane
+😠 nägu, tige, vihane
+🤬 suul olevate sümbolitega nägu, vandumine
+😈 fantaasia, muinasjutt, naeratus, nägu, sarved, sarviline naerunägu
+👿 deemon, fantaasia, kurat, muinasjutt, nägu, paharet, saatan
+💀 kolm, kolp, kondid, luud, muinasjutt, nägu, pealuu, surm
+☠ keha, koletis, kolp, kolp ja sääreluud, kondid, luud, nägu, pealuu, surm
+💩 kaka, kakahunnik, koletis, koll, koomiks, nägu, sõnnik
+🤡 kloun, klouninägu, nägu
+👹 fantaasia, jaapan, koletis, koll, muinasjutt, nägu, olend, sookoll
+👺 fantaasia, jaapan, koletis, koll, mäekoll, muinasjutt, nägu, olend
+👻 kummitus, muinasjutt, nägu, olend, tont, viirastus
+👽 fantaasia, maaväline, nägu, olend, tulnukas
+👾 koletis, maaväline, nägu, olend, tulnukas, tulnukkoletis, ufo
+🤖 koletis, nägu, robot, roboti nägu
+😺 avatud suuga naeratav kass, kass, lahti, naeratus, nägu, suu
+😸 irve, kass, lõbusate silmadega irvitav kass, naeratus, nägu, silm
+😹 kass, nägu, pisar, rõõm, rõõmupisarais kass
+😻 armastus, kass, naeratus, nägu, süda, südamekujuliste silmadega naeratav kass
+😼 irooniline, kass, naeratus, nägu, viril, virilalt naeratav kass
+😽 kass, nägu, silm, suletud silmadega suudlev kass, suudlus
+🙀 kass, nägu, ootamatu, üllatunud, üllatus
+😿 kass, kurb, nägu, nutt, nuttev kass, pisar
+😾 kass, mossis, mossitav kass, nägu
+🙈 ahv, kaetud silmadega ahv, keelatud, keeld, kuri, nägu, vaatamine
+🙉 ahv, kaetud kõrvadega ahv, keelatud, keeld, kuri, kuulamine, nägu
+🙊 ahv, kaetud suuga ahv, keelatud, keeld, kuri, nägu, rääkimine
+💋 huuled, musi, romantika, süda, suudluse jälg
+💌 armastus, armastuskiri, kiri, romantika, süda
+💘 nool, noolega süda, romantika, süda
+💝 lindiga süda, lint, sõbrapäev, süda
+💖 elevil, sädelev süda, sära, süda
+💗 kasvav, närviline, põnev, pulss, süda
+💓 löök, pulss, süda, tukslev süda
+💞 pöörlev, pöörlevad südamed, süda
+💕 armastus, kaks südant, süda
+💟 süda, südamekujuline kaunistus
+❣ hüüumärk, kirjavahemärk, märk, süda, südamega hüüumärk
+💔 murtud, süda
+❤‍🔥 armastus, kirg, leegitsev süda, põlev, püha süda, süda
+❤‍🩹 hästi, kosumine, paranemine, taastumine, tervem, tervenemine, tervenev süda
+❤ punane süda, süda
+🧡 oranž, oranž süda
+💛 kollane, süda
+💚 roheline, süda
+💙 sinine, süda
+💜 lilla, süda
+🤎 pruun, süda
+🖤 kuri, must, süda
+🤍 süda, valge
+💯 100, punkt, sada, sada punkti, täis
+💢 koomiks, tige, viha sümbol, vihane
+💥 koomiks, piraki
+💫 koomiks, peadpööritav, täht
+💦 higi, higipiisad, koomiks, piisad
+💨 jooksmine, kiirustamine, koomiks
+🕳 auk
+💣 koomiks, pomm
+💬 dialoog, jutt, jutumull, koomiks, mull
+👁‍🗨 dialoog, jutumull, silm, silm jutumullis, tunnistaja
+🗨 dialoog, jutt, jutumull suunaga vasakule
+🗯 mull, tige, vihamull suunaga paremale, vihane
+💭 koomiks, mõte, mõttemull, mull
+💤 koomiks, uni, zzz
+👋 käsi, keha, lehvitav käsi, lehvitus
+🤚 käsi, tõstetud
+🖐 harali, harali sõrmedega käsi, käsi, keha, sõrm
+✋ käsi, keha, ülestõstetud käsi
+🖖 käsi, keha, sõrm, spock, vulcan, vulcanite tervitus
+👌 käsi, keha, OK-käemärk
+🤌 kokkusurutud, küsimus, sarkastiline, sõrmed, žest
+🤏 pöialt ja nimetissõrme lähestikku hoidev käsi, väike kogus
+✌ käsi, keha, v, võit
+🤞 käsi, õnn, risti, sõrmed
+🤟 armastust väljendav žest, ILY, käsi
+🤘 käsi, keha, rokk, sarved, sarvede märk, sõrm
+🤙 helista, helista mulle, käsi
+👈 käsi, keha, nimetissõrm, osutamine, sõrm, vasakule osutav sõrm
+👉 käsi, keha, nimetissõrm, osutamine, paremale osutav sõrm, sõrm
+👆 käsi, keha, nimetissõrm, osutamine, sõrm, üles osutav sõrm tagantvaates
+🖕 käsi, keha, keskmine, sõrm
+👇 alla osutav sõrm, käsi, keha, nimetissõrm, osutamine, sõrm
+☝ käsi, keha, nimetissõrm, osutamine, sõrm, üles osutav sõrm
+👍 käsi, keha, meeldib, pöial
+👎 ei meeldi, käsi, keha, pöial
+✊ käsi, keha, löök, rusikas, ülestõstetud rusikas
+👊 käsi, keha, löök, rusikalöök, rusikas
+🤛 rusikas, vasakule, vasakule suunatud rusikas
+🤜 paremale, paremale suunatud rusikas, rusikas
+👏 aplaus, käsi, keha, plaksutamine, plaksutavad käed
+🙌 hurraa, käed, tähistamine, ülestõstetud käed, žest
+👐 avatud, avatud käed, käsi, keha
+🤲 palve, peopesad üleval koos
+🤝 käepigistus, käsi, kohtumine, tervitus
+🙏 aitäh, käed, palve, palveasendis käed, tänan, žest
+✍ käsi, keha, kirjutamine, kirjutav käsi
+💅 hooldus, keha, kosmeetika, küünelakk, küüs, lakk, maniküür
+🤳 kaamera, selfi, telefon
+💪 keha, lihas, muskel, pingutatud biitseps
+🦾 ligipääs, mehaaniline käsi, protees
+🦿 ligipääs, mehaaniline jalg, protees
+🦵 jalalöök, jalg, jäse
+🦶 jalalaba, jalalöök, trampimine
+👂 keha, kõrv
+🦻 juurdepääs, kuuldeaparaadiga kõrv, kuulmispuue
+👃 keha, nina
+🧠 aju, intelligentne
+🫀 keskpunkt, organ, pulss, süda, südamelöök
+🫁 hingamine, hingetõmme, kopsud, organ, sissehingamine, väljahingamine
+🦷 hambaarst, hammas
+🦴 kont, luustik
+👀 keha, nägu, silm, silmad
+👁 keha, silm
+👅 keel, keha
+👄 huuled, suu
+👶 beebi, imik, tita, titt
+🧒 laps, noor, sooliselt neutraalne
+👦 noormees, poiss
+👧 neiu, plika, tüdruk
+🧑 sooliselt neutraalne, täiskasvanu
+👱 blond, blondide juustega inimene, blondiin, inimene: blondide juustega
+👨 mees
+🧔 habe, habemega isik, mees: habemega
+🧔‍♂ habe, habemega mees, mees
+👱‍♂ blond, blondiin, mees, mees: blond
+👩 naine
+🧔‍♀ habe, habemega naine, naine
+👱‍♀ blond, blondiin, naine, naine: blond
+🧓 eakas, sooliselt neutraalne, vana
+👴 eakas mees, mees, vana
+👵 eakas naine, naine, vana
+🙍 ilme, kulmu kortsutav inimene, kulmukortsutus
+🙍‍♂ ilme, kulmu kortsutav mees, kulmukortsutus, mees
+🙍‍♀ ilme, kulmu kortsutav naine, kulmukortsutus, naine
+🙎 ilme, mossis, mossitav, mossitav inimene
+🙎‍♂ ilme, mees, mossis, mossitav
+🙎‍♀ ilme, mossis, mossitav, naine
+🙅 ei, eitav žest, käed, keelatud, žest
+🙅‍♂ eitavat žesti näitav mees, käed ristis, keelatud, mees, žest
+🙅‍♀ eitavat žesti näitav naine, käed ristis, keelatud, naine, žest
+🙆 käed, nõustuv žest, ok, žest
+🙆‍♂ käed pea peal, korras, nõustuvat žesti näitav mees, ok, žest
+🙆‍♀ käed pea peal, korras, nõustuvat žesti näitav naine, ok, žest
+💁 abi, info, infoleti töötaja, käsi, teave
+💁‍♂ abi, infoleti meestöötaja, mees, teave
+💁‍♀ abi, infoleti naistöötaja, naine, teave
+🙋 käsi, kätt tõstev rõõmus inimene, õnnelik, rõõmus, žest
+🙋‍♂ käsi, kätt tõstev mees, mees, tervitus, žest
+🙋‍♀ käsi, kätt tõstev naine, naine, tervitus, žest
+🧏 juurdepääs, kõrv, kurt, kurt inimene, kuulmine
+🧏‍♂ kurt, mees
+🧏‍♀ kurt, naine
+🙇 kummardav inimene, kummardus, vabandus, žest
+🙇‍♂ kummardus, mees, sügavalt kummarduv mees, vabandus, žest
+🙇‍♀ kummardus, naine, sügavalt kummarduv naine, vabandus, žest
+🤦 meeleheide, nägu, umbusk
+🤦‍♂ käega vastu pead lööv mees, meeleheide, mees, uskumatu
+🤦‍♀ käega vastu pead lööv naine, meeleheide, naine, uskumatu
+🤷 kehitus, õlakehitus, õlg, ükskõiksus
+🤷‍♂ kehitus, mees, õlakehitus, õlgu kehitav mees, ükskõiksus
+🤷‍♀ kehitus, naine, õlakehitus, õlgu kehitav naine, ükskõiksus
+🧑‍⚕ arst, meditsiiniõde, terapeut, tervishoid, tervishoiutöötaja
+👨‍⚕ arst, meditsiin, meditsiiniõde, mees, meesarst
+👩‍⚕ arst, meditsiin, meditsiiniõde, naine, naisarst
+🧑‍🎓 koolilõpetaja, õpilane
+👨‍🎓 lõpetaja, mees, meesõpilane, õpilane
+👩‍🎓 lõpetaja, naine, naisõpilane, õpilane
+🧑‍🏫 koolitaja, õpetaja, professor
+👨‍🏫 juhendaja, mees, meesõpetaja, õpetaja, professor
+👩‍🏫 juhendaja, naine, naisõpetaja, õpetaja, professor
+🧑‍⚖ kohtunik, kohus, õigusemõistmine
+👨‍⚖ kohus, mees, meeskohtunik, õigusemõistmine
+👩‍⚖ kohus, naine, naiskohtunik, õigusemõistmine
+🧑‍🌾 aednik, farmer, talunik
+👨‍🌾 aednik, farmer, mees, meesfarmer, põllumees
+👩‍🌾 aednik, farmer, naine, naisfarmer
+🧑‍🍳 kokk, peakokk
+👨‍🍳 kokk, mees, meeskokk
+👩‍🍳 kokk, naine, naiskokk
+🧑‍🔧 elektrik, mehaanik, torulukksepp, torumees
+👨‍🔧 elektrik, mees, meesmehaanik, mehaanik, torulukksepp, torumees
+👩‍🔧 elektrik, mehaanik, naine, naismehaanik, torulukksepp
+🧑‍🏭 liinitööline, tehas, tehasetööline, tööline
+👨‍🏭 liinitööline, mees, meessoost tehasetööline, tehas, tööline
+👩‍🏭 liinitööline, naine, naissoost tehasetööline, tehas, tööline
+🧑‍💼 ametnik, arhitekt, ärimees, juhataja, kontoritöötaja, valgekrae
+👨‍💼 arhitekt, ärimees, juhataja, meeskontoritöötaja, valgekrae
+👩‍💼 arhitekt, ärinaine, juhataja, naiskontoritöötaja, valgekrae
+🧑‍🔬 bioloog, füüsik, insener, keemik, teadlane
+👨‍🔬 bioloog, füüsik, insener, keemik, meesteadlane
+👩‍🔬 bioloog, füüsik, insener, keemik, naisteadlane
+🧑‍💻 arendaja, programmeerija, tarkvara, tehnoloog
+👨‍💻 arendaja, mees, meesprogrammeerija, programmeerija, tarkvara, tehnoloog
+👩‍💻 arendaja, naine, naisprogrammeerija, programmeerija, tarkvara, tehnoloog
+🧑‍🎤 artist, laulja, meelelahutaja, staar
+👨‍🎤 artist, laulja, mees, meeslaulja, staar
+👩‍🎤 artist, laulja, naine, naislaulja, staar
+🧑‍🎨 kunstnik, palett
+👨‍🎨 kunstnik, mees, meeskunstnik, palett
+👩‍🎨 kunstnik, naine, naiskunstnik, palett
+🧑‍✈ lennuk, piloot
+👨‍✈ lendur, lennuk, mees, meespiloot, piloot
+👩‍✈ lendur, lennuk, naine, naispiloot, piloot
+🧑‍🚀 astronaut, rakett
+👨‍🚀 astronaut, kosmos, mees, meesastronaut, rakett
+👩‍🚀 astronaut, kosmos, naine, naisastronaut, rakett
+🧑‍🚒 tuletõrjeauto, tuletõrjuja
+👨‍🚒 mees, meestuletõrjuja, tuletõrjeauto, tuletõrjuja
+👩‍🚒 naine, naistuletõrjuja, tuletõrjeauto, tuletõrjuja
+👮 politsei, politseinik
+👮‍♂ konstaabel, mees, meespolitseinik, politseinik
+👮‍♀ konstaabel, naine, naispolitseinik, politseinik
+🕵 detektiiv, spioon, uurija
+🕵‍♂ detektiiv, mees, meesdetektiiv, spioon, uurija
+🕵‍♀ detektiiv, naine, naisdetektiiv, spioon, uurija
+💂 valvur
+💂‍♂ mees, meesvalvur, valvur
+💂‍♀ naine, naisvalvur, valvur
+🥷 jaapan, ninja, salakuulaja, sõdalane
+👷 ehitaja, ehitus, kiiver, tööline
+👷‍♂ ehitaja, ehitus, kiiver, mees, meesehitaja
+👷‍♀ ehitaja, ehitus, kiiver, naine, naisehitaja
+🤴 prints
+👸 fantaasia, muinasjutt, printsess
+👳 mees, turban, turbaniga inimene
+👳‍♂ mees, mees turbaniga, turban
+👳‍♀ naine, naine turbaninga, turban
+👲 hiina, Hiina mütsiga mees, mees, müts
+🧕 hijab, mantilja, pearätiga naine, pearätik, tichel
+🤵 inimene smokingus, mees, peigmees
+🤵‍♂ mees, mees smokingis, mees smokingus, smoking
+🤵‍♀ naine, naine smokingus, smoking
+👰 loor, loori kandev inimene, loori kandev pruut, pruut, pulm
+👰‍♂ loor, mees, mees looriga
+👰‍♀ loor, naine, naine looriga
+🤰 naine, rase
+🤱 imetamine, imik, rind, rinnaga toitmine
+👩‍🍼 beebi, beebit toitev naine, imetamine, naine, toitmine
+👨‍🍼 beebi, beebit toitev mees, imetamine, mees, toitmine
+🧑‍🍼 beebi, beebit toitev inimene, imetamine, inimene, toitmine
+👼 ingel, inglibeebi, inglilaps, laps, lapsenägu, muinasjutt
+🎅 jõulud, jõuluvana, muinasjutt
+🤶 abikaasa, jõuluvana
+🧑‍🎄 päkapikk, päkapikk, jõulud, päkats
+🦸 hea, kangelane, kangelanna, superkangelane, supervõime
+🦸‍♂ hea, kangelane, mees, meeskangelane, supervõimed
+🦸‍♀ hea, kangelane, kangelanna, naine, naissuperkangelane, supervõimed
+🦹 kuri, kurikael, kurjategija, superkurikael, supervõimed
+🦹‍♂ kuri, kurikael, kurjategija, mees, meessoost superkurikael, supervõimed
+🦹‍♀ kuri, kurikael, kurjategija, naine, naissoost superkurikael, supervõimed
+🧙 maag, nõiamoor, nõid, võlur
+🧙‍♂ meesmaag, võlur
+🧙‍♀ naismaag, nõid
+🧚 haldjas, Oberon, Puck, Titania
+🧚‍♂ meeshaldjas, Oberon, Puck
+🧚‍♀ naishaldjas, Titania
+🧛 Dracula, surematu, vampiir
+🧛‍♂ Dracula, meesvampiir, surematu
+🧛‍♀ naisvampiir, surematu
+🧜 meesnäkk, merineitsi, naisnäkk, näkk
+🧜‍♂ meesnäkk, Triton
+🧜‍♀ merineitsi, naisnäkk
+🧝 maagiline, päkapikk
+🧝‍♂ maagiline, meespäkapikk
+🧝‍♀ maagiline, naispäkapikk
+🧞 džinn
+🧞‍♂ džinn, meesdžinn
+🧞‍♀ džinn, naisdžinn
+🧟 elav surnu, surematu, zombi
+🧟‍♂ elav surnu, meeszombi, surematu
+🧟‍♀ elav surnu, naiszombi, surematu
+💆 massaaž, näomassaaž
+💆‍♂ massaaž, mees, nägu, näomassaaž, näomassaaži saav mees
+💆‍♀ massaaž, nägu, naine, näomassaaž, näomassaaži saav naine
+💇 ilusalong, juukselõikus, juuksur
+💇‍♂ ilusalong, juukselõikus, juuksur, mees, mees juuksuris
+💇‍♀ ilusalong, juukselõikus, juuksur, naine, naine juuksuris
+🚶 jalakäija, jalutamine, kõndimine
+🚶‍♂ jalakäija, jalutamine, kõndimine, kõndiv mees, mees
+🚶‍♀ jalakäija, jalutamine, kõndimine, kõndiv naine, naine
+🧍 inimene, seisev, seismine
+🧍‍♂ mees, seisev, seismine
+🧍‍♀ naine, seisev, seismine
+🧎 inimene, põlvili, põlvitav
+🧎‍♂ mees, põlvili, põlvitav
+🧎‍♀ naine, põlvili, põlvitav
+🧑‍🦯 ligipääs, pime, valge kepiga inimene
+👨‍🦯 ligipääs, mees, pime, valge kepiga mees
+👩‍🦯 ligipääs, naine, pime, valge kepiga naine
+🧑‍🦼 elektrilises ratastoolis inimene, ligipääsetavus, ratastool
+👨‍🦼 elektriratastoolis mees, elektriratastoolis olev mees, ligipääs, mees, ratastool
+👩‍🦼 elektriratastoolis naine, elektriratastoolis olev naine, ligipääs, naine, ratastool
+🧑‍🦽 ligipääsetavus, manuaalses ratastoolis inimene, ratastool
+👨‍🦽 ligipääs, manuaalratastoolis mees, manuaalratastoolis olev mees, mees, ratastool
+👩‍🦽 juurdepääs, manuaalratastoolis naine, manuaalratastoolis olev naine, naine, ratastool
+🏃 jooks, jooksja, maraton
+🏃‍♂ jooksev mees, jooksja, maraton, mees, võistlus
+🏃‍♀ jooksev naine, jooksja, maraton, naine, võistlus
+💃 naine, tants, tantsimine, tantsiv naine
+🕺 mees, tants, tantsiv mees
+🕴 ärimees, hõljuv ülikonnaga mees, mees, ülikond
+👯 jänesekõrvadega tüdrukud, jänku, kõrvad, pidutsevad jänesekõrvadega inimesed, tants, tüdrukud
+👯‍♂ jänku, kõrvad, mehed, pidutsevad jänesekõrvadega mehed, tants
+👯‍♀ jänku, kõrvad, naised, pidutsevad jänesekõrvadega naised, tants
+🧖 inimene leiliruumis, leiliruum, leiliruumis olev inimene, saun
+🧖‍♂ leiliruum, leiliruumis olev mees, saun
+🧖‍♀ leiliruum, leiliruumis olev naine, naine leiliruumis, saun
+🧗 mägironija, mäkke roniv inimene
+🧗‍♂ mägironija, mäkke roniv mees
+🧗‍♀ mägironija, mäkke roniv naine
+🤺 inimene, mõõk, sport, vehkleja, vehklemine
+🏇 hobune, hobuste võiduajamine, ratsutaja, võiduajamine
+⛷ lumi, suusataja, suusk
+🏂 lumelaud, lumelaudur, lumi, suusk
+🏌 golf, golfimängija, pall
+🏌‍♂ golf, golfi mängiv mees, mees
+🏌‍♀ golf, golfi mängiv naine, naine
+🏄 surfamine, surfar
+🏄‍♂ mees, meessurfar, surf, surfaja, surfar
+🏄‍♀ naine, naissurfar, surf, surfaja, surfar
+🚣 aerupaadiga inimene, paat, sõiduk
+🚣‍♂ aerupaadiga mees, aerupaat, mees, paat
+🚣‍♀ aerupaadiga naine, aerupaat, naine, paat
+🏊 ujuja, ujumine
+🏊‍♂ mees, meesujuja, ujuja, ujumine
+🏊‍♀ naine, naisujuja, ujuja, ujumine
+⛹ inimene, inimene palliga, pall
+⛹‍♂ mees, mees palliga, pall
+⛹‍♀ naine, naine palliga, pall
+🏋 jõutõstja, kang, tõstja
+🏋‍♂ jõutõstja, kang, mees, meesjõutõstja, tõstja
+🏋‍♀ jõutõstja, kang, naine, naisjõutõstja, tõstja
+🚴 jalgratas, jalgrattur, rattur
+🚴‍♂ jalgratas, mees, meesrattur, ratas, rattur
+🚴‍♀ jalgratas, naine, naisrattur, ratas, rattur
+🚵 jalgratas, mägi, mägirattur, rattur
+🚵‍♂ jalgratas, mägiratas, mees, meesmägirattur, rattur
+🚵‍♀ jalgratas, mägiratas, naine, naismägirattur, rattur
+🤸 hundiratas, hundiratast viskav inimene, iluvõimlemine, inimene, sport
+🤸‍♂ hundiratas, hundiratast viskav mees, iluvõimlemine, mees, sport
+🤸‍♀ hundiratas, hundiratast viskav naine, naine, sport
+🤼 inimesed, maadlejad, maadlus, sport
+🤼‍♂ inimesed, maadlevad mehed, maadlus, mees, sport
+🤼‍♀ inimesed, maadlevad naised, maadlus, naine, sport
+🤽 inimene, sport, veepall, veepalli mängiv inimene
+🤽‍♂ inimene, mees, sport, veepall, veepalli mängiv mees
+🤽‍♀ inimene, naine, sport, veepall, veepalli mängiv naine
+🤾 inimene, käsipall, käsipalli mängiv inimene, pall, sport
+🤾‍♂ käsipall, käsipalli mängiv mees, mees, pall, sport
+🤾‍♀ käsipall, käsipalli mängiv naine, naine, pall, sport
+🤹 oskused, tasakaal, žongleerimine, žonglöör
+🤹‍♂ mees, meesžonglöör, oskused, tasakaal, žongleerimine
+🤹‍♀ naine, naisžonglöör, oskused, tasakaal, žongleerimine
+🧘 jooga, lootosasendis inimene, meditatsioon
+🧘‍♂ jooga, lootosasendis mees, meditatsioon
+🧘‍♀ jooga, lootosasendis naine, meditatsioon
+🛀 inimene vannis, vann
+🛌 hotell, inimene voodis, uni
+🧑‍🤝‍🧑 hoiavad käest, hoiavad käest kinni, inimene, inimesed hoiavad käest kinni, käed, paar
+👭 käed, käest kinni hoidvad naised, kaks naist hoiavad käest kinni, naised, paar
+👫 käed, mees, mees ja naine hoiavad käest kinni, naine, paarike
+👬 käed, käest kinni hoidvad mehed, kaks meest hoiavad käest kinni, kaksikud, mehed, paar
+💏 musi, suudlus
+💑 armastus, paarike südamega, romantika, süda
+👪 ema, isa, laps, perekond
+🗣 kõnelev pea, nägu, pea, rääkimine, siluett
+👤 büst, büsti siluett, siluett
+👥 büst, büstide siluetid, siluett
+🫂 hüvastijätt, kallistavad inimesed, kallistus, tänu, tervitus
+👣 jalajälg, jalajäljed, jälg, keha
+🦰 punajuus, punapea, punased juuksed
+🦱 afrojuuksed, krussis juuksed, lokid, lokkis juuksed
+🦳 hallid, heledad juuksed, juuksed, valged, vana
+🦲 juukseid pole, juusteta, keemiaravi, kiilaspea, raseeritud
+🐵 ahv, ahvi nägu, nägu
+🐒 ahv
+🦍 gorilla, loom
+🦧 inimahv, orangutan
+🐶 koer, koera nägu, lemmikloom, nägu
+🐕 koer, lemmikloom
+🦮 abi, juht, juhtkoer, koer, pime, vaegnägija
+🐕‍🦺 abi, koer, politsei, teenistus, teenistuskoer
+🐩 koer, puudel
+🐺 hundi nägu, hunt, nägu
+🦊 loom, nägu, rebane, rebase nägu
+🦝 kaval, pesukaru, uudishimulik
+🐱 kass, kassi nägu, lemmikloom, nägu
+🐈 kass, koer, lemmikloom
+🐈‍⬛ ebaõnn, kass, must
+🦁 lõvi, nägu, sodiaak
+🐯 nägu, tiiger, tiigri nägu
+🐅 tiiger
+🐆 leopard
+🐴 hobune, hobuse nägu, nägu
+🐎 hobune, ratsasport, võiduajamine
+🦄 nägu, ükssarvik, ükssarviku nägu
+🦓 sebra, triibud, vöödid
+🦌 hirv, loom
+🦬 kari, piison, pühvel, pürg
+🐮 lehm, lehma nägu, nägu
+🐂 härg, sodiaak, sõnn, veis
+🐃 pühvel, vesi, vesipühvel
+🐄 lehm, nägu
+🐷 nägu, sea nägu, siga
+🐖 emis, siga
+🐗 kult, metssiga
+🐽 nägu, nina, sea kärss, siga
+🐏 jäär, oinas, sodiaak
+🐑 lammas
+🐐 kaljukits, kits, sodiaak
+🐪 dromedar, kaamel, küür
+🐫 baktrian, kaamel, kahe küüruga kaamel, küür
+🦙 alpaka, guanako, laama, vikunja, vill
+🦒 kaelkirjak, laigud
+🐘 elevant
+🦣 karvane, kihv, mammut, suur, väljasurnud
+🦏 loom, ninasarvik
+🦛 jõehobu, jõehobuke
+🐭 hiir, hiire nägu, nägu
+🐁 hiir
+🐀 rott
+🐹 hamster, hamstri nägu, lemmikloom, nägu
+🐰 jänes, jänese nägu, lemmikloom, nägu
+🐇 jänes, lemmikloom
+🐿 orav, vöötorav
+🦫 kobras, tamm
+🦔 okkaline, siil
+🦇 loom, nahkhiir, vampiir
+🐻 karu, nägu
+🐻‍❄ arktika, jääkaru, karu, valge
+🐨 koaala
+🐼 nägu, panda
+🦥 aeglane, laisik, laisk, laiskloom
+🦦 jõgi, kala, saarmas, udras
+🦨 hais, skunk
+🦘 Austraalia, hüpe, känguru, kukkur, kukkurloom
+🦡 mäger, meemäger, nuhtlus
+🐾 jalg, jälg, käpajäljed, käpp
+🦃 kalkun
+🐔 kana
+🐓 kukk
+🐣 koorumine, kooruv tibu, tibu
+🐤 tibu, väike tibu
+🐥 tibu, väike tibu eestvaates
+🐦 lind
+🐧 pingviin
+🕊 lind, rahu, tuvi
+🦅 kotkas, lind
+🦆 lind, part
+🦢 inetu pardipoeg, lind, luigepoeg, luik
+🦉 lind, öökull
+🦤 dodo, lind, Mauritius, suur, väljasurev
+🪶 kerge, lendama, suled, sulg
+🦩 flamingo, lind, troopiline
+🦚 eneseimetlus, hooplemine, lind, paabulind, uhkus
+🦜 jutt, lind, papagoi, piraat
+🐸 konn, konna nägu, nägu
+🐊 krokodill
+🐢 kilpkonn
+🦎 roomaja, sisalik
+🐍 madu, maokandja, sodiaak
+🐲 draakon, draakoni nägu, muinasjutt, nägu
+🐉 draakon, muinasjutt
+🦕 brahhiosaurus, brontosaurus, diplodookus, sauropod, sauropood
+🦖 türannosaurus
+🐳 nägu, vaal, vesi, vett pritsiv vaal
+🐋 vaal
+🐬 delfiin, loib
+🦭 hüljes, merilõvi
+🐟 kala, sodiaak
+🐠 kala, troopiline
+🐡 kala, siilkala
+🦈 hai, kala
+🐙 kaheksajalg
+🐚 karp, spiraalne, spiraalne teokarp
+🐌 tigu
+🦋 ilus, liblikas, putukas
+🐛 putukas, röövik
+🐜 putukas, sipelgas
+🐝 mesilane, putukas
+🪲 mardikas, putukas
+🐞 lepatriinu, põrnikas, putukas
+🦗 kilk, rohutirts
+🪳 prussakas, putukas, tarakan
+🕷 ämblik
+🕸 ämblik, ämblikuvõrk, võrk
+🦂 skorpion, sodiaak, suur skorpion
+🦟 haigus, malaaria, palavik, putukas, sääsk, viirus
+🪰 haigus, kärbes, parm, roiskumine, toakärbes, tõuk, tsetsekärbes
+🪱 parasiit, rõnguss, uss, vihmauss
+🦠 amööb, bakter, mikroob, viirus
+💐 kimp, lill, romantika, taim
+🌸 kirsiõis, kirss, lill, õis, taim
+💮 lill, valge lill
+🏵 lill, rosett, taim
+🌹 lill, roos, taim
+🥀 lill, närbunud
+🌺 hibisk, lill, taim
+🌻 lill, päevalill, päike, taim
+🌼 lill, õis, taim
+🌷 lill, taim, tulp
+🌱 idu, taim, võrse
+🪴 hoolitsema, igav, kasutu, kasvatama, potilill, taim, tuba
+🌲 igihaljas, puu, taim
+🌳 leht, lehtpuu, puu, taim
+🌴 palm, palmipuu, puu, taim
+🌵 kaktus, taim
+🌾 riis, riisitaim, taim, vihk
+🌿 leht, maitsetaim, taim
+☘ ristik, taim
+🍀 leht, neli, nelja lehega ristik, ristik, taim
+🍁 langev, leht, taim, vaher, vahtraleht
+🍂 langenud leht, langev, leht, taim
+🍃 leht, taim, tuul, tuules lendlev leht
+🍇 puuvili, taim, viinamari, viinamarjad
+🍈 melon, puuvili, taim
+🍉 arbuus, puuvili, taim
+🍊 mandariin, puuvili, taim
+🍋 puuvili, sidrun, taim
+🍌 banaan, puuvili, taim
+🍍 ananass, puuvili, taim
+🥭 mango, puuvili, troopiline
+🍎 õun, punane, puuvili, taim
+🍏 õun, puuvili, roheline, taim
+🍐 pirn, puuvili, taim
+🍑 puuvili, taim, virsik
+🍒 kirsid, kirss, puuvili, taim
+🍓 maasikas, mari, puuvili, taim
+🫐 mari, mustikad, mustikas, sinine
+🥝 kiivi, puuvili, toit
+🍅 köögivili, taim, tomat
+🫒 oliiv, toit
+🥥 kookospähkel, palm, piña colada
+🥑 avokaado, puuvili, toit
+🍆 baklažaan, köögivili, taim
+🥔 juurvili, kartul, toit
+🥕 juurvili, porgand, toit
+🌽 mais, maisitõlvik, taim, tõlvik
+🌶 pipar, taim, tuline
+🫑 köögivili, paprika, pipar
+🥒 köögivili, kurk, toit
+🥬 hiina kapsas, kapsas, lehtkapsas, lehtköögivili, lehtsalat
+🥦 brokoli, metskapsas
+🧄 küüslauk, maitseaine
+🧅 maitseaine, sibul
+🍄 mürgiseen, seen
+🥜 maapähkel, maapähklid, pähkel, toit
+🌰 kastan, taim
+🍞 leib, päts
+🥐 croissant, prantsuse, sai, sarvesai, toit
+🥖 baguette, pikk, sai, toit
+🫓 arepa, lameleib, lavašš, naan, pita
+🥨 keerutatud, soolakringel
+🥯 määre, pagaritoode, rõngassai
+🥞 crêpe, pannkoogid, pannkook, toit
+🧇 kõhklev, vahvel, vahvliraud
+🧀 juust, juustutükk
+🍖 kondiga liha, kont, liha, luu
+🍗 kana, kanakoib, koib, kont, luu
+🥩 karbonaad, lambalihakarbonaad, lihalõik, praelõik, sealihakarbonaad
+🥓 liha, peekon, toit
+🍔 burger, hamburger
+🍟 friikartul, friikartulid
+🍕 juust, pitsa, pizza, viil
+🌭 hot dog, hotdog, viiner, vorst
+🥪 leib, võileib
+🌮 mehhiko, tako
+🌯 burrito, mehhiko
+🫔 maisikakk, mehhiko, täidetud, tamale
+🥙 falafel, kebab, täidetud pita, toit
+🧆 falafel, kikerhernes, lihapall
+🥚 muna, toit
+🍳 muna, pann, praadimine, toiduvalmistamine
+🥘 paella, panniroog, toit
+🍲 hautis, potitäis toitu, pott
+🫕 fondüü, juust, nõu, šokolaad, sulatatud, šveitsi
+🥣 hommikueine, hommikusöögihelbed, lusikaga kauss, riisipuding
+🥗 roheline, salat, toit
+🍿 mais, popkorn
+🧈 piimatoode, või
+🧂 maitseaine, sool, soolatoos
+🥫 konserv, toidukonserv
+🍱 bento einekarp, karp, toit
+🍘 leib, riis, riisiküpsis
+🍙 pall, riis, riisipall
+🍚 keedetud, riis
+🍛 karri, karriga riis, riis
+🍜 aur, aurav kauss, kauss, nuudel
+🍝 pasta, spagetid
+🍠 kartul, röstitud, röstitud bataat
+🍢 kebab, mereannid, oden, pulk
+🍣 suši
+🍤 krevett, praetud, tempura
+🍥 keerdudega kalakotlet, kook, spiraal, tort
+🥮 festival, kuukook, sügis, yuèbǐng
+🍡 dango, magus, magustoit, pulk
+🥟 empanada, gyōza, jiaozi, pelmeen, pierogi
+🥠 ennustus, õnneküpsis
+🥡 kaasamüügikarp, kiirtoidukarp
+🦀 krabi, sodiaak, vähk
+🦞 homaar, homaarisupp, mereannid, sõrad
+🦐 koorikloom, krevett, toit
+🦑 kalmaar, mollusk, toit
+🦪 auster, elus, karp, pärl
+🍦 jäätis, magus, magustoit, pehme
+🍧 jää, magus, magustoit, mahlajää
+🍨 jäätis, magus, magustoit
+🍩 magus, magustoit, sõõrik
+🍪 küpsis, magus, magustoit
+🎂 küünlad, magustoit, sünnipäev, sünnipäevatort, tort
+🍰 kook, liivataignakook, lõik, magus, magustoit
+🧁 magus, muffin, pagaritoode
+🥧 pirukas, täidis
+🍫 magus, magustoit, šokolaad, šokolaaditahvel
+🍬 komm, magus, magustoit
+🍭 komm, magus, magustoit, pulgakomm
+🍮 magus, magustoit, puding, vanillipuding
+🍯 magus, meepott, mesi
+🍼 beebi, lutipudel, piim, pudel
+🥛 jook, klaas, klaas piima, piim
+☕ jook, kohv, kuum, tee
+🫖 jooma, kann, tee, teekann
+🍵 jook, kõrvata teetass, tass, tee
+🍶 baar, jook, pudel, riisiviin, tass
+🍾 baar, jook, kork, pudel, pudeli avamine
+🍷 baar, jook, klaas, vein, veiniklaas
+🍸 baar, jook, klaas, kokteil, kokteiliklaas
+🍹 baar, jook, troopiline
+🍺 baar, jook, kann, õllekann, õlu
+🍻 baar, jook, kann, kõlisevad õllekannud, õlu
+🥂 jooma, klaasid, kõlisevad klaasid, kõlks, tähistama
+🥃 joogiklaas, napsuklaas, viskiklaas
+🥤 kõrrega tops, limonaad, mahl
+🧋 mull, pärl, pärlitee, piim, tee
+🧃 joogipakk, mahlapakk
+🧉 jook, mate, tee
+🧊 jää, jääkuubik, külm, kuubik
+🥢 hashi, söögipulgad
+🍽 kahvel, kahvel, nuga ja taldrik, nuga, taldrik, toit
+🍴 kahvel, kahvel ja nuga, nuga, toit
+🥄 lauanõud, lusikas
+🔪 kööginuga, köök, nuga, relv, tööriist
+🏺 amfora, jook, kann, vaas, veevalaja
+🌍 Aafrika, Euroopa, Euroopa ja Aafrika gloobusel, gloobus, maa, maailm
+🌎 Ameerika, Ameerika mandrid gloobusel, gloobus, maa, maailm
+🌏 Aasia, Aasia ja Austraalia gloobusel, austraalia, gloobus, maa, maailm
+🌐 gloobus, maa, maailm, meridiaanid, meridiaanidega gloobus
+🗺 kaart, maailm, maailmakaart
+🗾 Jaapan, Jaapani kaart, kaart
+🧭 kompass, magnetiline, navigeerimine, orienteerumine
+🏔 külm, lumi, lumine mägi, mägi
+⛰ mägi
+🌋 laava, mägi, purse, vulkaan
+🗻 Fuji, mägi
+🏕 telk, telkimine
+🏖 päikesevari, päikesevari rannas, rand
+🏜 kõrb
+🏝 asustamata, saar
+🏞 park, rahvuspark
+🏟 staadion
+🏛 antiikhoone, antiikne, maja
+🏗 ehitus, maja
+🧱 mört, savi, sein, telliskivi, telliskivid
+🪨 kaljurahn, kivi, kivirahn, raske, tugev
+🪵 ehituspuit, palk, puit, saepuit
+🛖 hütt, jurta, maja, tare
+🏘 hoone, maja, majad
+🏚 hoone, mahajäetud, maja
+🏠 kodu, maja
+🏡 aed, aiaga maja, kodu, maja
+🏢 hoone, kontorihoone, maja
+🏣 hoone, Jaapani postkontor, post
+🏤 hoone, post, postkontor
+🏥 arst, haigla, hoone, meditsiin
+🏦 hoone, pank
+🏨 hoone, hotell
+🏩 armastus, armuhotell, hoone, hotell
+🏪 hoone, kauplus, pood
+🏫 hoone, kool
+🏬 hoone, kaubamaja, pood
+🏭 hoone, tehas
+🏯 Jaapan, Jaapani loss, loss
+🏰 hoone, loss
+💒 kabel, kirik, pulmad, romantika
+🗼 Tokyo, torn
+🗽 kuju, sammas, vabadus, Vabadussammas
+⛪ kirik, kristlus, maja, rist, usk
+🕌 islam, mošee, moslem, usk
+🛕 hindu, hinduism, hinduistlik tempel, tempel
+🕍 judaism, juut, sünagoog, usk
+⛩ shinto, tempel, usk
+🕋 islam, kaaba, moslem, usk
+⛲ purskkaev
+⛺ laager, telk, telkimine
+🌁 ilm, udu, udune
+🌃 ilm, öine tähistaevas, öö, täht
+🏙 linn, linna siluett, maja
+🌄 hommik, ilm, mägi, päike, päikesetõus, päikesetõus mägedes
+🌅 hommik, ilm, päike, päikesetõus
+🌆 hoone, ilm, linna siluett videvikus, loojang, õhtu, siluett, videvik
+🌇 hoone, ilm, loojang, päike, päikeseloojang
+🌉 ilm, öö, sild, sild öösel
+♨ allikas, aur, kuum, kuumaveeallikad, soe
+🎠 hobune, karussell, karussellihobune
+🎡 lõbustuspark, vaateratas
+🎢 Ameerika, lõbustuspark, mäed
+💈 habemeajaja, habemeajaja tähis, juuksur
+🎪 telk, tsirkus, tsirkusetelk
+🚂 aur, raudtee, rong, sõiduk, vedur
+🚃 rong, rongivagun, rööpad, sõiduk, tramm, troll, vagun
+🚄 kiirrong, raudtee, sõiduk
+🚅 kiirrong, raudtee, sõiduk, terava ninaga kiirrong
+🚆 raudtee, rong, sõiduk
+🚇 metroo, rong, sõiduk
+🚈 kergraudtee, raudtee, rong
+🚉 jaam, raudtee, rong
+🚊 tramm, troll
+🚝 raudtee, rong, sõiduk, üherööpmeline raudtee
+🚞 mägi, mägiraudtee, raudtee, rong, vagun
+🚋 tramm, trammivagun, troll, vagun
+🚌 buss, sõiduk
+🚍 buss, buss eestvaates, eestvaade
+🚎 buss, tramm, troll, trollibuss
+🚐 buss, sõiduk, väikebuss
+🚑 kiirabiauto, sõiduk
+🚒 auto, sõiduk, tuletõrje, tuletõrjeauto
+🚓 auto, patrull, politsei, politseiauto, sõiduk
+🚔 auto, eestvaade, politsei, politseiauto eestvaates, sõiduk
+🚕 sõiduk, takso
+🚖 eestvaade, sõiduk, takso, takso eestvaates
+🚗 auto, sõiduk
+🚘 auto, auto eestvaates, eestvaade, sõiduk
+🚙 auto, mahtuniversaal, sõiduk, universaal
+🛻 kast, maastur, pikap
+🚚 kuller, kulleriauto, sõiduk, veoauto
+🚛 sõiduk, veoauto, veok
+🚜 sõiduk, traktor
+🏎 auto, võidusõiduauto, võidusõit
+🏍 mootorratas, võidusõit
+🛵 motoroller, roller
+🦽 juurdepääs, ligipääs, manuaalratastool, ratastool
+🦼 elektriratastool, juurdepääs, ligipääs, ratastool
+🛺 autorikša, tuk-tuk
+🚲 jalgratas, ratas, sõiduk
+🛴 tõukekas, tõukeratas
+🛹 rula, rulalaud
+🛼 rulluisk, rulluisutama, uisk
+🚏 buss, bussipeatus, peatus
+🛣 kiirtee, maantee, tee
+🛤 raudtee, raudteerööpad, rong, sõiduk
+🛢 õli, õlitünn, tünn
+⛽ bensiin, kütus, pump, tankla, tankur
+🚨 auto, politsei, politseiauto vilkur, pöörlemine, sõiduk, vilkur
+🚥 foor, horisontaalne foor, liiklus
+🚦 foor, liiklus, vertikaalne foor
+🛑 liiklusmärk, märk, stopp, stoppmärk
+🚧 barjäär, ehitustööd, tõke
+⚓ ankur, laev, tööriist
+⛵ jaht, meri, paat, puhkus, purjepaat, sõiduk
+🛶 kanuu, paat
+🚤 kiirkaater, paat, sõiduk
+🛳 laev, reisija, reisilaev, sõiduk
+⛴ laev, praam, sõiduk
+🛥 mootorpaat, paat, sõiduk
+🚢 laev, sõiduk
+✈ lennuk, sõiduk
+🛩 lennuk, sõiduk, väikelennuk
+🛫 lennuk, õhkutõus, õhkutõusev lennuk, sõiduk
+🛬 lennuk, maandumine, maanduv lennuk, sõiduk
+🪂 langevari, langevarjuga hüppamine, langevarjuhüpe, langevarjur
+💺 iste, tool
+🚁 helikopter, sõiduk
+🚟 raudtee, rippraudtee, sõiduk, vagun
+🚠 gondel, köis, köistee mägedes, mägi, sõiduk, vagun
+🚡 gondel, köis, köisraudtee, raudtee, sõiduk, vagun
+🛰 kosmos, satelliit
+🚀 kosmos, rakett, sõiduk
+🛸 lendav taldrik, UFO
+🛎 hotell, jooksupoiss, kell, kõlisti, märgukell
+🧳 kohver, pakkimine, reis
+⌛ kell, liiv, liivakell
+⏳ kell, liiv, voolava liivaga kell
+⌚ käekell, kell
+⏰ äratus, äratuskell, kell
+⏱ kell, stopper
+⏲ kell, taimer
+🕰 kaminakell, kell
+🕛 00, 12, 12:00, kaksteist, kell
+🕧 12, 12:30, 30, kell, pool, üks
+🕐 00, 1, 1:00, kell, üks
+🕜 1, 1:30, 30, kaks, kell, pool
+🕑 00, 2, 2:00, kaks, kell
+🕝 2, 2:30, 30, kell, kolm, pool
+🕒 00, 3, 3:00, kell, kolm
+🕞 3, 3:30, 30, kell, neli, pool
+🕓 00, 4, 4:00, kell, neli
+🕟 30, 4, 4:30, kell, pool, viis
+🕔 00, 5, 5:00, kell, viis
+🕠 30, 5, 5:30, kell, kuus, pool
+🕕 00, 6, 6:00, kell, kuus
+🕡 30, 6, 6:30, kell, pool, seitse
+🕖 00, 7, 7:00, kell, seitse
+🕢 30, 7, 7:30, kaheksa, kell, pool
+🕗 00, 8, 8:00, kaheksa, kell
+🕣 30, 8, 8:30, kell, pool, üheksa
+🕘 00, 9, 9:00, kell, üheksa
+🕤 30, 9, 9:30, kell, kümme, pool
+🕙 00, 10, 10:00, kell, kümme
+🕥 10, 10:30, 30, kell, pool, üksteist
+🕚 00, 11, 11:00, kell, üksteist
+🕦 11, 11:30, 30, kell, kell pool kaksteist, pool kaksteist
+🌑 ilm, kosmos, kuu, noorkuu, pime
+🌒 ilm, kasvav kuusirp, kosmos, kuu, noorkuu, sirp
+🌓 ilm, kasvav poolkuu, kosmos, kuu, poolkuu
+🌔 ilm, kasvav, kuu, poolkuu
+🌕 ilm, kosmos, täiskuu
+🌖 ilm, kahanev, kosmos, kuu
+🌗 ilm, kahanev poolkuu, kosmos, kuu, poolkuu
+🌘 ilm, kahanev, kahanev kuusirp, kosmos, kuu, sirp
+🌙 ilm, kosmos, kuu, kuusirp, sirp
+🌚 ilm, kosmos, kuu, nägu, näoga noorkuu
+🌛 ilm, kosmos, kuu, nägu, näoga kasvav kuu, poolkuu
+🌜 ilm, kosmos, kuu, nägu, näoga kahanev kuu, poolkuu
+🌡 ilm, kraadiklaas
+☀ ere, ilm, kiired, kosmos, päike
+🌝 ere, ilm, kosmos, kuu, nägu, näoga täiskuu, täiskuu
+🌞 ere, ilm, kosmos, nägu, näoga päike, päike
+🪐 rõngastega planeet, Saturn
+⭐ täht, tärn
+🌟 helendav, sära, täht
+🌠 komeet, kosmos, langev, täht
+🌌 kosmos, Linnutee, tähed
+☁ ilm, pilv
+⛅ ilm, päike, päike pilve taga, pilv
+⛈ äike, äikese- ja vihmapilv, ilm, pilv, vihm
+🌤 ilm, päike, päike väikese pilve taga, pilv
+🌥 ilm, päike, päike suure pilve taga, pilv
+🌦 ilm, päike, päike vihmapilve taga, pilv, vihm
+🌧 ilm, pilv, vihm, vihmapilv
+🌨 ilm, külm, lumepilv, lumi, pilv
+🌩 äike, äikesepilv, ilm, pilv, välk
+🌪 ilm, keeris, keeristorm, tornaado
+🌫 ilm, pilv, udu
+🌬 ilm, nägu, näoga tuul, tuul
+🌀 ilm, orkaan, taifuun, tornaado, tsüklon
+🌈 ilm, vihm, vikerkaar
+🌂 ilm, riided, suletud vihmavari, vihm, vihmavari
+☂ ilm, riided, vihm, vihmavari
+☔ ilm, piisk, piiskadega vihmavari, riided, vihm, vihmavari
+⛱ ilm, päike, päikesevari maas, vihm, vihmavari, vihmavari maas
+⚡ elekter, kõrgepinge, oht, pinge, šokk, välk
+❄ ilm, külm, lumehelves, lumi
+☃ ilm, külm, lumememm, lumi
+⛄ ilm, külm, lumememm, lumeta lumememm, lumi
+☄ komeet, kosmos
+🔥 leek, tuli
+💧 higi, ilm, koomiks, külm, piisk
+🌊 ilm, ookean, veelaine, vesi
+🎃 halloween, kõrvits, kõrvitsalatern, latern
+🎄 jõulud, jõulupuu, kuusk, pühad
+🎆 ilutulestik, tähistamine
+🎇 ilutulestik, säraküünal
+🧨 dünamiit, ilutulestik, ilutulestikurakett, lõhkeaine
+✨ *, säde, sädemed, sära, täht
+🎈 õhupall, tähistamine
+🎉 pidu, pidupäev, sünnipäev, üllatus
+🎊 konfetid, pall, pidu
+🎋 pidu, puu, tanabata soovipuu
+🎍 bambus, mänd, puu, taim, väravamänd
+🎎 festival, Jaapani nukud, nukk
+🎏 kala, kalakujuline vimpel, lipp, vimpel
+🎐 kell, tuul, tuulekell
+🎑 festival, kuu, kuutseremoonia, tseremoonia
+🧧 edu, hóngbāo, kingitus, õnn, punane ümbrik, raha
+🎀 lint, lips
+🎁 karp, kingipakk, kink, pakitud
+🎗 kollane, lint
+🎟 pilet, piletid, sissepääs
+🎫 pääse, pilet
+🎖 medal, sõjamedal, sõjavägi
+🏆 auhind, karikas
+🏅 medal, sport
+🥇 esimene, kuld, kuldmedal, medal
+🥈 hõbe, hõbemedal, medal, teine
+🥉 kolmas, medal, pronks, pronksmedal
+⚽ jalgpall, pall
+⚾ pall, pesapall
+🥎 kindad, pall, pehmepall, vise
+🏀 korvpall, pall
+🏐 mäng, pall, võrkpall
+🏈 Ameerika, jalgpall, pall
+🏉 jalgpall, pall, ragbi, ragbipall
+🎾 pall, reket, tennis, tennisepall
+🥏 taldrikulennutamine, visketaldrik
+🎳 keegel, kurikas, kuul, mäng
+🏏 kriket, kurikas, mäng, pall
+🏑 maahoki, maahokikepp, mäng, pall, väljak
+🏒 jää, jäähoki, jäähokikepp, jäähokikepp ja litter, litter, mäng
+🥍 kahvpall, kahvpallikepp, kepp, pall, värav
+🏓 lauatennis, mäng, pall, pingpong, reket
+🏸 mäng, reket, sulgpall
+🥊 kinnas, poks, poksikinnas, sport
+🥋 džuudo, karate, riietus, võitluskunstid, võitluskunstide riietus
+🥅 sport, värav, väravavõrk, võrk
+⛳ auk, golf, golfilipp
+⛸ jää, uisk
+🎣 kala, õng
+🤿 akvalang, snorgeldamine, sukeldumine, sukeldumismask
+🎽 jooks, jooksusärk, särk
+🎿 lumi, suusad, suusk
+🛷 kelk, regi, saan
+🥌 jääkeegli kivi, kivi, mäng
+🎯 noolemäng, sihtmärk, tabamus, täistabamus
+🪀 edasi-tagasi, jojo, keerlemine, ketas, mänguasi
+🪁 lennutamine, lohe, tuul, tuulelohe
+🎱 8, kuul, mäng, piljard, piljardikuul
+🔮 ennustamine, kristallkuul, muinasjutt, tööriist
+🪄 maagia, nõid, võlukepp, võlur
+🧿 amulett, helmes, kuri silm, Nazari amulett, Nazari silm, talisman
+🎮 mäng, pult, videomäng
+🕹 juhtpult, mäng, pult
+🎰 automaat, mäng, mänguautomaat
+🎲 mäng, täring
+🧩 pusle, pusletükk, tükk, ühendamine
+🧸 lelu, mänguasi, mängukaru, pehme, plüüs
+🪅 peomäng, pidu, piñata
+🪆 matrjoška, matrjoškad, nukk, vene
+♠ kaart, mäng, mast, poti
+♥ ärtu, kaart, mäng, mast
+♦ kaart, mäng, mast, ruutu
+♣ kaart, mäng, mast, risti
+♟ ettur, kõrvalejäetav, male, tüssamine
+🃏 jokker, kaart, mäng
+🀄 mahjong, mahjongi punane draakon, mäng, punane
+🎴 kaart, lill, mäng, mängukaardid
+🎭 kunst, lava, lavakunst, mask, teater
+🖼 kunst, maal, muuseum, pilt, raamitud pilt
+🎨 kunst, kunstniku palett, maal, muuseum, palett
+🧵 niidirull, niit, nõel, õmblemine
+🪡 nõel, õmblemine, õmblused, õmblusnõel, rätsep, tikkimine
+🧶 heegeldamine, kera, kudumine, lõng, lõngakera
+🪢 keerd, köis, nöör, siduma, sõlm
+👓 mood, prillid, silm
+🕶 päikeseprillid, prillid, silm, tume
+🥽 kaitseprillid, keevitamine, silmakaitse, ujumine
+🥼 arst, katse, laborant, laborikittel, teadlane
+🦺 hädaolukord, ohutus, ohutusvest, vest
+👔 lips, riided
+👕 riided, särk, t-särk, T-särk
+👖 püksid, riided, teksad
+🧣 kael, sall
+🧤 käsi, kindad
+🧥 jakk, mantel
+🧦 sokid, sukk
+👗 kleit, riided
+👘 kimono, riided
+🥻 kleit, rõivas, sari
+🩱 trikoo, ujumiskostüüm, ujumistrikoo
+🩲 aluspesu, ujumiskostüüm, ujumispüksid, ujumisriie
+🩳 aluspesu, lühikesed püksid, šortsid, ujumisriie
+👙 bikiinid, riided, ujumine
+👚 naine, naisteriided, riided
+👛 kott, münt, rahakott, ridikül
+👜 käekott, kott, riided
+👝 kott, riided
+🛍 hotell, kott, ostud, ostukotid
+🎒 kool, kott, ranits
+🩴 plätud, rannajalatsid, rannasandaalid, sandaalid, varbavahesandaalid
+👞 king, mees, meesteking, riided
+👟 jooksuking, king, riided, sport, toss
+🥾 matk, matkaja, matkamine, matkasaabas, saabas, seljakotimatk
+🥿 baleriina, madal king, paelteta king, sussking
+👠 king, konts, kõrge kontsaga king, naine, riided
+👡 king, naine, naistesandaal, riided, sandaal
+🩰 balletikingad, ballett, tants
+👢 king, naine, naistesaabas, riided, saabas
+👑 kroon, kuninganna, kuningas, riided
+👒 kübar, müts, naine, naistekübar, riided
+🎩 kübar, müts, riided, torukübar
+🎓 koolilõpumüts, lõpetamine, müts, riided
+🧢 nokkmüts, pesapallimüts
+🪖 armee, kiiver, sõdur, sõdurikiiver, sõjavägi
+⛑ abi, kiirabi, kiiver, müts, nägu, rist, valge ristiga kiiver
+📿 helmed, kaelakee, palvehelmed, palvetamine, riided, usk
+💄 huulepulk, kosmeetika, meik
+💍 romantika, sõrmus, teemant
+💎 juveel, kalliskivi, romantika, teemant
+🔇 heli, kõlar, vaigistatud kõlar, vaikne
+🔈 heli, vaikse heliga kõlar
+🔉 heli, kõlar, poolvalju heliga kõlar, vaikne
+🔊 heli, kõlar, vali, valju heliga kõlar
+📢 avalik, kõne, vali, valjuhääldi
+📣 kõne, megafon
+📯 post, postisarv, sarv
+🔔 kell, kelluke
+🔕 keelatud, kelluke, kelluke keelumärgiga, vaigistatud kelluke, vaigistus, vaikne, vaikus
+🎼 muusika, noodijoonestik, noot
+🎵 muusika, noot
+🎶 muusika, noodid, noot
+🎙 mikrofon, muusika, stuudio, stuudiomikrofon
+🎚 liugur, muusika, tase
+🎛 heli, juhtnupud, muusika, nupud
+🎤 karaoke, mikrofon
+🎧 kõrvaklapid
+📻 raadio
+🎷 muusika, pill, saksofon
+🪗 akordion, lõõts, lõõtspill
+🎸 kitarr, muusika, pill
+🎹 klahvpill, klaver, muusika, pill
+🎺 muusika, pill, trompet
+🎻 muusika, pill, viiul
+🪕 bandžo, keelpill, muusika
+🥁 muusika, trumm, trummipulgad
+🪘 aafrika, djembe, rütm, trumm
+📱 mobiil, mobiiltelefon, telefon
+📲 kõne, mobiil, nool, noolega mobiiltelefon, telefon
+☎ telefon
+📞 telefon, telefonitoru, toru
+📟 peiler, piipar
+📠 faks, faksimasin, masin
+🔋 aku, patarei
+🔌 elekter, elektripistik, pistik
+💻 arvuti, sülearvuti
+🖥 arvuti, lauaarvuti
+🖨 arvuti, printer
+⌨ arvuti, klaviatuur
+🖱 arvuti, arvutihiir, hiir, nupp
+🖲 arvuti, juhtkuul, kuul
+💽 arvuti, arvutiketas, ketas, optiline
+💾 arvuti, diskett, ketas
+💿 arvuti, CD, DVD, ketas, optiline
+📀 arvuti, blu-ray, DVD, ketas, optiline
+🧮 arvelaud, arvutamine
+🎥 film, filmikaamera, kaamera, video
+🎞 film, filmikaadrid, kaadrid, video
+📽 film, filmiprojektor, kino, projektor, video
+🎬 film, klapptahvel, video
+📺 teler, tv, video
+📷 kaamera, video
+📸 foto, kaamera, pildistamine, välguga kaamera, välk
+📹 kaamera, video, videokaamera
+📼 kassett, video, videokassett
+🔍 otsi, suurendusklaas, tööriist, vasakule kallutatud luup
+🔎 otsi, paremale kallutatud luup, suurendusklaas, tööriist
+🕯 küünal, valgus
+💡 elekter, idee, lamp, pirn, valgus
+🔦 elekter, taskulamp, tööriist, valgus
+🏮 lamp, latern, punane, punane paberlatern, valgus
+🪔 diya, diya-lamp, lamp, õli
+📔 dekoratiivse kaanega märkmik, kaaned, märkmik, raamat
+📕 raamat, suletud
+📖 avatud, raamat
+📗 raamat, roheline
+📘 raamat, sinine
+📙 oranž, raamat
+📚 raamat, raamatud
+📓 päevik, raamat
+📒 arve, arveraamat, raamat
+📃 dokument, kaardunud paberileht, leht
+📜 käsikiri, paber
+📄 dokument, leht, paberilehe eestvaade
+📰 ajaleht, uudised
+🗞 ajaleht, rull, rullikeeratud ajaleht, uudised
+📑 järjehoidja, järjehoidjad, märgis, marker
+🔖 järjehoidja
+🏷 silt
+💰 dollar, kott, raha, rahakott, rahapaun
+🪙 hõbe, kuld, metall, münt, raha, varandus
+💴 jeen, jeeni rahatäht, pank, raha, rahatäht, valuuta
+💵 dollar, dollari rahatäht, pank, raha, rahatäht, valuuta
+💶 euro, pank, raha, rahatäht, valuuta
+💷 nael, naela rahatäht, naelsterling, pank, rahatäht, valuuta
+💸 dollar, pank, raha, tiibadega raha, tiivad
+💳 kaart, krediit, krediitkaart, pank, raha
+🧾 arvepidamine, kviitung, raamatupidamine, tõend
+💹 graafik, jeen, kasv, tõusev graafik jeenisümboliga, turg, valuuta
+✉ e-post, kiri, post, ümbrik
+📧 kiri, meil, meilisõnum, ümbrik
+📨 e-post, kiri, meil, sissetulev ümbrik, ümbrik
+📩 e-kiri, nool, noolega ümbrik, saadetud, ümbrik
+📤 alus, kast, kiri, post, väljaminev post
+📥 alus, kast, kiri, post, sissetulev post
+📦 kast, pakk
+📫 postkast, suletud, suletud postkast tõstetud lipuga
+📪 postkast, suletud, suletud postkast langetatud lipuga
+📬 avatud, avatud postkast tõstetud lipuga, postkast
+📭 avatud, avatud postkast langetatud lipuga, postkast
+📮 post, postkast
+🗳 hääletus, hääletuskast, kast
+✏ pliiats
+✒ must sulepea, pastakas, sulepea
+🖋 pastakas, sulepea
+🖊 pastapliiats, pliiats
+🖌 pintsel, värvimine
+🖍 kriit
+📝 märge, memo, pliiats
+💼 kohver, portfell
+📁 dokument, fail, kaust
+📂 avatud, dokument, fail, kaust
+🗂 kaart, register
+📅 kalender, kuupäev
+📆 kalender, kuupäev, rebitav kalender
+🗒 spiraal, spiraalmärkmik
+🗓 kalender, spiraal, spiraalkalender
+📇 kaart, kataloog, register
+📈 graafik, kasv, tendents, tõusev graafik, üles
+📉 alla, graafik, langev graafik, langus, tendents
+📊 diagramm, graafik, tulp, tulpdiagramm
+📋 alus, kirjutamisalus, leht, paber
+📌 nõel, nööpnõel
+📍 nõel, nööpnõel, ümara peaga nööpnõel
+📎 kirjaklamber, klamber
+🖇 kirjaklamber, klamber, ühendatud kirjaklambrid
+📏 sirge, sirge joonlaud
+📐 joonlaud, kolmnurk, kolmnurkne joonlaud
+✂ käärid, tööriist
+🗃 dokumendikast, dokument, kast, register
+🗄 dokumendikapp, dokument, kapp, register
+🗑 prügi, prügikorv
+🔒 lukk, lukus, suletud
+🔓 avatud, lukk
+🔏 lukk, lukk ja pastakas, lukk ja sulepea, privaatsus, sulepea, tint
+🔐 lukk, lukus, suletud, suletud lukk võtmega, võti
+🔑 lukk, parool, võti
+🗝 lukk, vana, võti
+🔨 haamer, tööriist
+🪓 kirves, lõhkumine, puud, raiumine
+⛏ kirka, tööriist
+⚒ haamer, haamer ja kirka, kirka, tööriist
+🛠 haamer, haamer ja mutrivõti, mutrivõti, tööriist
+🗡 nuga, pistoda, relv
+⚔ mõõgad, relv, ristatud mõõgad, risti
+🔫 püstol, relv, revolver, tööriist, veepüstol
+🪃 austraalia, bumerang, tagasilend, tagasipöördumine
+🏹 ambur, nool, relv, vibu, vibu ja nool
+🛡 kilp, relv
+🪚 käsisaag, puit, puusepp, saag, tööriist
+🔧 mutrivõti, tööriist
+🪛 kruvi, kruvikeeraja, tööriist
+🔩 mutter, polt, polt ja mutter, tööriist
+⚙ hammasratas, tööriist
+🗜 kruustangid, tööriist
+⚖ kaalud, kaalukausid, sodiaak, tööriist
+🦯 kohalejõudmine, ligipääs, pime, valge kepp
+🔗 lüli
+⛓ ahel, ahelad, kett
+🪝 kinnitamine, konks, kõver, püük, tõstmine
+🧰 kast, laegas, tööriistad, tööriistakast
+🧲 atraktsioon, hobuseraud, magnet
+🪜 aste, redel, ronima, trepp
+⚗ destilleerimisnõu, keemia, tööriist
+🧪 katse, katseklaas, keemia, keemik, labor, teadus
+🧫 bakterid, bioloog, bioloogia, kultuur, labor, Petri tass
+🧬 bioloog, DNA, elu, evolutsioon, geen, geneetika
+🔬 mikroskoop, tööriist
+🔭 teleskoop, tööriist
+📡 antenn, satelliit, satelliitantenn, taldrik
+💉 arst, haigus, nõel, ravim, süstal
+🩸 meditsiin, menstruatsioon, veredoonorlus, veretilk
+💊 arst, haige, ravim, tablett
+🩹 meditsiin, plaaster
+🩺 arst, kuuldetoru, meditsiin, stetoskoop, süda
+🚪 uks
+🛗 elevaator, lift, ligipääs, tõstuk
+🪞 peegel, peegeldi, peegeldus
+🪟 aken, avamine, läbipaistev, raam, vaade
+🛏 hotell, uni, voodi
+🛋 diivan, diivan ja lamp, hotell, lamp
+🪑 iste, istumine, tool
+🚽 tualett, wc, WC-pott
+🪠 imipump, pump, pumpamine, ummistus, valamu, valamupump
+🚿 dušš, vesi
+🛁 vann
+🪤 hiirelõks, lõks, püünis, sööt
+🪒 habe, habemenuga, raseerimine, terav
+🧴 emulsioon, emulsioonipudel, niisutav kreem, päevituskreem, šampoon
+🧷 haaknõel, mähe, punkrokk
+🧹 luud, nõid, puhastamine, pühkimine
+🧺 korv, pesu, piknik, taluelu
+🧻 paberirull, paberkäterätid, tualettpaber
+🪣 ämber, pang
+🧼 pesemine, puhastamine, seebialus, seebivaht, seep, tükiseep
+🪥 hambad, hambahari, hari, hügieen, pesema, vannituba
+🧽 imav, pesemine, pesukäsn, poorne
+🧯 kustutamine, summutamine, tulekustuti, tuli
+🛒 käru, ostma, ostukäru, poodlemine
+🚬 sigaret, suitsetama
+⚰ kirst, surm
+🪦 hauakivi, haud, kalmistu, surnuaed
+⚱ matus, surm, tuhaurn, urn
+🗿 kuju, moai, nägu
+🪧 meeleavaldus, plakat, protest, silt
+🏧 pangaautomaat, sularaha, teller
+🚮 praht, prügikast, prügikasti silt
+🚰 joodav, joogivesi, vesi
+♿ juurdepääs, ratastool
+🚹 mees, meeste-WC, tualett, wc
+🚺 naine, naiste-WC, tualett, wc
+🚻 tualett, wc
+🚼 beebi, beebi sümbol, imik, mähe
+🚾 tualett, vesi, wc, WC
+🛂 kontroll, pass, passikontroll
+🛃 toll
+🛄 kättesaamine, pagas, pagasi kättesaamine
+🛅 hoiukapid, kapp, pagas
+⚠ ettevaatust, hoiatus
+🚸 jalakäija, laps, lapsed teel, liiklus, tänav
+⛔ keelatud, liiklus, sisenemine
+🚫 keelatud, sisenemine
+🚳 jalgratas, jalgrattad keelatud, keelatud, sõiduk
+🚭 keelatud, suitsetamine
+🚯 keelatud, risustamine
+🚱 joodav, joomiseks kõlbmatu vesi, keelatud, vesi
+🚷 jalakäija, jalakäijad keelatud, keelatud
+📵 ei, keelatud, mobiil, telefon, telefonid on keelatud
+🔞 18, alaealine, alla 18-aastastele keelatud, kaheksateist, keelatud, vanusepiirang
+☢ oht, radioaktiivne
+☣ bioloogiline, oht
+⬆ nool, nool üles, põhi, suund
+↗ kirre, nool, nool üles paremale, suund
+➡ ida, nool, nool paremale, suund
+↘ kagu, nool, nool alla paremale, suund
+⬇ lõuna, nool, nool alla, suund
+↙ edel, nool, nool alla vasakule, suund
+⬅ lääs, nool, nool vasakule, suund
+↖ loe, nool, nool üles vasakule, suund
+↕ nool, nool üles-alla
+↔ nool, nool paremale-vasakule
+↩ kaardus nool vasakule, nool, vasak
+↪ kaardus nool paremale, nool, parem
+⤴ kaardus nool üles, nool, üles
+⤵ alla, kaardus nool alla, nool
+🔃 laadimine, nool, päripäeva, vertikaalsed nooled päripäeva
+🔄 nool, nooled vastupäeva, vastupäeva
+🔙 nool, nool BACK, tagasi
+🔚 lõpp, nool, nool END
+🔛 märk, nool, nool ON!
+🔜 nool, nool SOON, varsti
+🔝 nool, nool TOP, üles
+🛐 palvetamine, pühakoda, usk
+⚛ aatom, aatomi sümbol, ateist
+🕉 hindu, hinduism, usk
+✡ judaism, juut, taavet, Taaveti täht, täht, usk
+☸ budism, dharma, ratas, usk
+☯ taoism, usk, yang, yin, yin-yang
+✝ kristlus, ladina rist, rist, usk
+☦ kristlus, õigeusu rist, rist, usk
+☪ islam, moslem, täht ja kuusirp, usk
+☮ rahu, rahu sümbol
+🕎 küünlajalg, menoraa, usk
+🔯 õnn, punktiga kuusnurkne täht, täht
+♈ Jäär, sodiaak
+♉ sodiaak, Sõnn
+♊ Kaksikud, sodiaak
+♋ sodiaak, Vähk
+♌ Lõvi, sodiaak
+♍ Neitsi, sodiaak
+♎ Kaalud, sodiaak
+♏ Skorpion, sodiaak
+♐ Ambur, sodiaak
+♑ Kaljukits, sodiaak
+♒ sodiaak, Veevalaja
+♓ Kalad, sodiaak
+⛎ Maokandja, sodiaak
+🔀 juhuslik, juhusliku järjekorra nupp, nool, risti
+🔁 kordamisnupp, kordus, nool, päripäeva
+🔂 kordus, nool, päripäeva, ühe korduse nupp
+▶ esitamine, esitusnupp, kolmnurk, nool
+⏩ edasi, edasikerimisnupp, kerimine, nool, topelt
+⏭ järgmine, järgmise loo nupp, kolmnurk, lugu, nool
+⏯ esitamine, esitus- ja pausinupp, kolmnurk, nool, paus
+◀ kolmnurk, nool, tagasi, tagurpidi esitamise nupp
+⏪ kerimine, kolmnurk, tagasi, tagasikerimise nupp, topelt
+⏮ eelmine, eelmise loo nupp, kolmnurk, lugu, nool, stseen
+🔼 nool, nupp, üles, ülesnupp
+⏫ kiirkerimine üles, nool, topelt
+🔽 alla, allanupp, nool, nupp
+⏬ alla, kiirkerimine alla, nool, topelt
+⏸ paus, pausinupp, topelt, vertikaalne
+⏹ peatamisnupp, ruut, stopp
+⏺ ring, salvestamine, salvestusnupp
+⏏ nupp, välja, väljutamisnupp
+🎦 film, kaamera, kino
+🔅 eredus, hämar, tuhm, tuhmistamisnupp
+🔆 ere, eredus, ereduse nupp
+📶 antenn, levi, mobiil, signaal, telefon
+📳 mobiil, režiim, telefon, värin, värinarežiim
+📴 mobiil, telefon, väljalülitatud mobiiltelefon, väljas
+♀ naine, naisesümbol, sümbol
+♂ mees, mehesümbol, sümbol
+⚧ transsoolisus, transsoolisuse sümbol
+✖ korrutamine, korrutusmärk, suur korrutusmärk, x
+➕ +, liitmine, matemaatika, pluss, plussmärk
+➖ -, −, lahutamine, matemaatika, miinus, miinusmärk
+➗ ÷, jagamine, jagamismärk, märk, matemaatika
+♾ igavesti, kõikehaarav, lõpmatu, lõpmatus
+‼ hüüumärk, topelthüüumärk
+⁉ !, !?, ?, hüüumärk, küsimärgiga hüüumärk, küsimärk
+❓ ?, kirjavahemärk, küsimärk, küsimus, punane küsimärk
+❔ ?, kirjavahemärk, küsimärk, küsimus, valge küsimärk
+❕ !, hüüumärk, valge hüüumärk
+❗ !, hüüumärk, kirjavahemärk, punane hüüumärk
+〰 kirjavahemärk, kriips, laineline
+💱 pank, raha, vahetus, valuuta, valuutavahetus
+💲 dollar, raha, suur dollarimärk, valuuta
+⚕ Asklepios, meditsiin, meditsiinisümbol
+♻ taaskasutus, taaskasutuse sümbol
+⚜ Bourbonide liilia, fleur-de-lis, prantsuse liilia
+🔱 ankur, embleem, kolmhargi sümbol, kolmhark, laev
+📛 märk, nimesilt, nimi
+🔰 algaja, algaja sümbol, kollane, leht, roheline
+⭕ o, rõngas, seest tühi punane ringjoon, suur ringjoon
+✅ märge, märkenupp, suur valge märge
+☑ märge, märgitud ruut
+✔ märge, suur märge
+❌ ×, ei, korrutamine, korrutusmärk, rist, x
+❎ ×, korrutusmärgiga nupp, märk, ruut, x
+➰ lokk, silmus
+➿ silmus, topelt, topeltsilmus
+〽 märk, osa, osa vaheldumise märk
+✳ *, kaheksa tipuga tärn, tärn
+✴ *, kaheksa tipuga täht, täht
+❇ *, sädelus
+© autoriõigus, c
+® r, registreeritud
+™ kaubamärk, märk
+🔠 abcd, ladina, suurtähed, tähed
+🔡 abcd, ladina, tähed, väiketähed
+🔢 1234, numbrid
+🔣 sisestus, sümbolid
+🔤 abc, ladina, tähed, tähestik
+🅰 a, nupp A (veregrupp), veri
+🆎 ab, nupp AB (veregrupp), veri
+🅱 b, nupp B (veregrupp), veri
+🆑 cl, nupp CL
+🆒 lahe, nupp COOL
+🆓 nupp FREE, tasuta
+ℹ i, info, teabeallikas, teave
+🆔 id, identiteet, nupp ID
+Ⓜ m, M ringis, ring
+🆕 nupp NEW, uus
+🆖 ng, nupp NG
+🅾 nupp 0 (veregrupp), o, punane, veri
+🆗 nupp OK, ok
+🅿 nupp P, parkimine, parkla
+🆘 abi, appi, nupp SOS, sos
+🆙 märk, nupp UP!, üles
+🆚 nupp VS, versus, vs
+🈁 &quot;siin&quot;, jaapani keel, jaapani nupp &quot;siin&quot;, katakana, ココ
+🈂 &quot;teenustasu&quot;, jaapani keel, jaapani nupp &quot;teenustasu&quot;, katakana, サ
+🈷 &quot;kuutasu&quot;, ideogramm, jaapani keel, jaapani nupp &quot;kuutasu&quot;, 月
+🈶 &quot;pole tasuta&quot;, ideogramm, jaapani keel, jaapani nupp &quot;pole tasuta&quot;, 有
+🈯 &quot;reserveeritud&quot;, ideogramm, jaapani keel, jaapani nupp &quot;reserveeritud&quot;, 指
+🉐 &quot;soodne&quot;, ideogramm, jaapani keel, jaapani nupp &quot;soodne&quot;, 得
+🈹 &quot;allahindlus&quot;, ideogramm, jaapani keel, jaapani nupp &quot;allahindlus&quot;, 割
+🈚 &quot;tasuta&quot;, ideogramm, jaapani keel, jaapani nupp &quot;tasuta&quot;, 無
+🈲 &quot;keelatud&quot;, ideogramm, jaapani keel, jaapani nupp &quot;keelatud&quot;, 禁
+🉑 &quot;vastuvõetav&quot;, ideogramm, jaapani keel, jaapani nupp &quot;vastuvõetav&quot;, 可
+🈸 &quot;rakendus&quot;, ideogramm, jaapani keel, jaapani nupp &quot;rakendus&quot;, 申
+🈴 &quot;sooritatud&quot;, ideogramm, jaapani keel, jaapani nupp &quot;sooritatud&quot;, 合
+🈳 &quot;vaba&quot;, ideogramm, jaapani keel, jaapani nupp &quot;vaba&quot;, 空
+㊗ &quot;õnnitlused&quot;, ideogramm, jaapani keel, jaapani nupp &quot;õnnitlused&quot;, 祝
+㊙ &quot;saladus&quot;, ideogramm, jaapani keel, jaapani nupp &quot;saladus&quot;, 秘
+🈺 &quot;avatud&quot;, ideogramm, jaapani keel, jaapani nupp &quot;avatud&quot;, 営
+🈵 &quot;pole vaba&quot;, ideogramm, jaapani keel, jaapani nupp &quot;pole vaba&quot;, 満
+🔴 geomeetria, punane, ring
+🟠 kera, oranž, ring
+🟡 kera, kollane, ring
+🟢 kera, ring, roheline
+🔵 geomeetria, ring, sinine
+🟣 kera, lilla, ring
+🟤 kera, pruun, ring
+⚫ geomeetria, must ring, ring
+⚪ geomeetria, ring, valge ring
+🟥 nelinurk, punane, ruut
+🟧 nelinurk, oranž, ruut
+🟨 kollane, nelinurk, ruut
+🟩 nelinurk, roheline, ruut
+🟦 nelinurk, ruut, sinine
+🟪 lilla, nelinurk, ruut
+🟫 nelinurk, pruun, ruut
+⬛ geomeetria, ruut, suur must ruut
+⬜ geomeetria, ruut, suur valge ruut
+◼ geomeetria, keskmine must ruut, ruut
+◻ geomeetria, keskmine valge ruut, ruut
+◾ geomeetria, ruut, väiksem must ruut
+◽ geomeetria, ruut, väiksem valge ruut
+▪ geomeetria, ruut, väike must ruut
+▫ geomeetria, ruut, väike valge ruut
+🔶 geomeetria, oranž, romb, suur oranž romb, teemant
+🔷 geomeetria, romb, sinine, suur sinine romb, teemant
+🔸 geomeetria, oranž, romb, teemant, väike oranž romb
+🔹 geomeetria, romb, sinine, teemant, väike sinine romb
+🔺 geomeetria, punane, punane kolmnurk, üles
+🔻 alla, geomeetria, punane, punane tagurpidi kolmnurk
+💠 geomeetria, koomiks, punktiga romb, romb, sees, teemant
+🔘 geomeetria, nupp, raadio, raadionupp
+🔳 geomeetria, nupp, piirjoon, ruut, valge ruudukujuline nupp
+🔲 geomeetria, must ruudukujuline nupp, nupp, piirjoon, ruut
+🏁 lipp, ruuduline, ruudulipp, võidusõit
+🚩 kolmnurk, kolmnurkne lipp, lipp
+🎌 lipp, pidu, ristatud lipud, risti
+🏴 lehvimine, lipp, must lipp
+🏳 lehvimine, lipp, valge lipp
+🏳‍🌈 lipp, vikerkaar, vikerkaarelipp
+🏳‍⚧ helesinine, lipp, roosa, transsoolisus, transsoolisuse lipp, valge
+🏴‍☠ piraadilipp, piraat, röövimine, varandus
+¢ sent
+$ dollar, peeso, raha, USD
+£ EGP, GBP, nael, valuuta
+¥ CNY, jeen, JPY, jüaan, valuuta
+₢ kruseiro
+₣ Prantsuse frank
+₤ liir
+₥ mil, mill
+₩ KPW, KRW, vonn
+€ EUR, euro, valuuta
+₰ Saksa penn
+₱ peeso
+₳ austral
+₶ Toursi livr
+₷ spesmilo
+₹ india ruupia, India ruupia, ruupia, valuuta
+₽ rubla, valuuta
+₿ bitcoin, BTC
+₨ ruupia, valuuta
+﷼ riaal
+¹ aste, astmel 1, üks
+² 2, aste, astmel 2, ruudus
+³ aste, astmel 3, kolm, kuubis
+µ mikro, mikro märk, mõõtühik

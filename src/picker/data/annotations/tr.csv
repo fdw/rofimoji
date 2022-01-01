@@ -1,0 +1,1873 @@
+{ açık süslü ayraç, martı kanat, süslü ayraç, süslü parantez
+🏻 açık cilt tonu, cilt tonu, tip 1–2
+🏼 cilt tonu, orta açık cilt tonu, tip 3
+🏽 cilt tonu, orta cilt tonu, tip 4
+🏾 cilt tonu, orta koyu cilt tonu, tip 5
+🏿 cilt tonu, koyu cilt tonu, tip 6
+‾ üst çizgi
+_ alt çizgi, alt satır, alt tire
+- çizgi, eksi, tire, tire-eksi
+‐ çizgi, tire, tire işareti
+– çizgi, tire
+— tire, uzun
+― çizgi, çubuk, yatay çizgi
+・ katakana, katakana orta nokta, orta nokta
+, virgül
+، arapça, virgül
+、 ideografik, virgül
+; noktalı virgül
+؛ arapça, arapça noktalı virgül, noktalı virgül
+: iki nokta
+! ünlem, ünlem işareti
+¡ ters, ters ünlem işareti, ünlem, ünlem işareti
+? soru, soru işareti
+¿ soru, soru işareti, ters, ters soru işareti
+؟ arapça, arapça soru işareti, soru, soru işareti
+‽ soru ve ünlem işareti
+. nokta, tam durak
+… eksilti, eksiltme, elipsis, üç nokta
+。 ideografik, nokta, tam durak
+· nokta, orta, ortaya konan nokta
+' daktilo kesme işareti, kesme, tek kesme, tek tırnak, tırnak
+‘ akıllı tırnak, kesme işareti, sol kesme işareti, tek kesme, tırnak
+’ akıllı tırnak, kesme işareti, sağ kesme işareti, tek kesme, tırnak
+‚ alt tırnak, kesme, sağ alt kesme işareti, tırnak
+“ akıllı tırnak, çift tırnak, sol tırnak işareti, tırnak
+” akıllı tırnak, çift tırnak, sağ tırnak işareti, tırnak
+„ akıllı tırnak, çift tırnak, sağ alt tırnak işareti, tırnak
+« açılı, düzeltme işareti, köşeli çift ayraç, parantezler, sol, sola bakan köşeli tırnak işareti, tırnak işareti
+» açılı, düzeltme işareti, köşeli çift ayraç, parantezler, sağ, sağa bakan köşeli tırnak işareti, tırnak işareti
+) ayraç, kapalı parantez, parantez, yuvarlak ayraç, yuvarlak parantez
+[ açık kare parantez, kare parantez, parantez
+] kapalı kare parantez, kare parantez, parantez
+} kapalı süslü ayraç, martı kanat, süslü ayraç, süslü parantez
+〈 açık açılı ayraç, açılı ayraç, açılı parantez, sivri ayraç
+〉 açılı ayraç, açılı parantez, kapalı açılı ayraç, sivri ayraç
+《 açık çift açılı ayraç, ayraç, çift açılı ayraç
+》 ayraç, çift açılı ayraç, kapalı çift açılı ayraç
+「 açık köşeli ayraç, ayraç, köşeli ayraç
+」 ayraç, kapalı köşeli ayraç, köşeli ayraç
+『 açık oyuk köşeli ayraç, ayraç, oyuk köşeli ayraç
+』 ayraç, kapalı oyuk köşeli ayraç, oyuk köşeli ayraç
+【 açık siyah lens ayraç, ayraç, lens ayraç, merceksel ayraç
+】 ayraç, kapalı siyah lens ayraç, lens ayraç, merceksel ayraç
+〔 açık kaplumbağa kabuğu şeklinde ayraç, ayraç, kabuk ayraç, kaplumbağa kabuğu şeklinde ayraç
+〕 ayraç, kabuk ayraç, kapalı kaplumbağa kabuğu şeklinde ayraç, kaplumbağa kabuğu şeklinde ayraç
+〖 açık oyuk lens ayraç, ayraç, oyuk lens ayraç, oyuklu merceksel ayraç
+〗 ayraç, kapalı oyuk lens ayraç, oyuk lens ayraç, oyuklu merceksel ayraç
+§ bölüm, bölüm işareti, paragraf, parça
+¶ paragraf, paragraf işareti, pilcrow
+@ ampersat, bahsetme, konum, kuyruklu a
+* asterisk, joker, yıldız
+/ eğik, eğik çizgi, yatık çizgi
+\ ters eğik çizgi, ters yatık çizgi
+& ampersan, ve
+# etiket, hashtag, kare, karma, sayı, sayı işareti
+% yüzde
+‰ binde, binde bir
+† dikili taş, kama, kama işareti, obelus
+‡ çift, çift kama işareti, dikili taş, kama, obelus
+• madde imi, nokta
+‧ çizgi, nokta, tire, tireleme noktası
+′ üssü
+″ iki üssü, üssü
+‴ üç üssü, üssü
+‸ düzeltme işareti
+※ referans işareti
+⁂ üç yıldız işareti
+` aksan, aksan işareti, işaret, ton, vurgu
+´ aksan, tiz aksan, tiz vurgu
+^ aksan, inceltme, inceltme işareti, şapka işareti, xor, zikzak çıta
+¨ çift nokta, ikilenme, umlaut
+° derece, kanıt, saat
+℗ kayıt, ses, ses kaydı telif hakkı, telif hakkı
+← ok, sol, solu gösteren ok
+↚ sola doğru çizgili ok
+→ ok, sağ, sağı gösteren ok
+↛ sağa doğru çizgili ok
+↑ ok, yukarı, yukarı gösteren ok
+↓ aşağı, aşağı gösteren ok, ok
+↜ sola doğru dalgalı ok
+↝ sağa doğru dalgalı ok
+↞ sola doğru çift başlı ok
+↟ yukarı doğru çift başlı ok
+↠ sağa doğru çift başlı ok
+↡ aşağı doğru çift başlı ok
+↢ sola doğru kuyruklu ok
+↣ sağa doğru kuyruklu ok
+↤ sola doğru çubuktan ok
+↥ yukarı doğru çubuktan ok
+↦ sağa doğru çubuktan ok
+↧ aşağı doğru çubuktan ok
+↨ yukarı aşağı tabanlı ok
+↫ sola döngülü ok
+↬ sağa döngülü ok
+↭ sol sağ dalgalı ok
+↯ aşağı yönlü zikzak ok
+↰ solda ipucu ile yukarı ok
+↱ sağda ipucu ile yukarı ok
+↲ solda ipucu ile aşağı ok
+↳ sağda ipucu ile aşağı ok
+↴ aşağı doğru köşesi olan sağ ok
+↵ sola doğru köşesi olan aşağı ok
+↶ saat yönünün tersinde üst yarım daireli ok
+↷ saat yönünde üst yarım daireli ok
+↸ kuzeybatı yönlü uzun çubuklu ok
+↹ sağ ok çubuğu üstünde sol ok çubuğu
+↺ saat yönünün tersinde açık daireli ok
+↻ saat yönünde açık daireli ok
+↼ yukarı kancalı sol yönlü zıpkın
+↽ aşağı kancalı sol yönlü zıpkın
+↾ sağ kancalı yukarı yönlü zıpkın
+↿ sol kancalı yukarı yönlü zıpkın
+⇀ yukarı kancalı sağ yönlü zıpkın
+⇁ aşağı kancalı sağ yönlü zıpkın
+⇂ sağ kancalı aşağı yönlü zıpkın
+⇃ sol kancalı aşağı yönlü zıpkın
+⇄ sol ok üzerinde sağ ok
+⇅ aşağı, ok, yukarı, yukarı ve aşağı bakan oklar
+⇆ altta sağa üstte sola bakan oklar, ok, sağ, sol
+⇇ sola eşleştirilmiş oklar
+⇈ yukarı eşleştirilmiş oklar
+⇉ aşağı doğru eşleştirilmiş oklar
+⇊ aşağı eşleştirilmiş oklar
+⇋ sağ zıpkın üstünde sol zıpkın
+⇌ sol zıpkın üstünde sağ zıpkın
+⇐ sola çift ok
+⇍ sola çizgili çift ok
+⇑ yukarı çift ok
+⇒ sağa çift ok
+⇏ sağa çizgili çift ok
+⇓ aşağı çift ok
+⇔ sol sağ çift ok
+⇎ sol sağ çizgili çift ok
+⇖ kuzeybatı yönlü çift ok
+⇗ kuzeydoğu yönlü çift ok
+⇘ güneydoğu yönlü çift ok
+⇙ güneybatı yönlü çift ok
+⇚ sola üçlü ok
+⇛ sağa üçlü ok
+⇜ sola eğri ok
+⇝ sağa eğri ok
+⇞ çift çizgili yukarı ok
+⇟ çift çizgili aşağı ok
+⇠ sola çizgili ok
+⇡ yukarı çizgili ok
+⇢ sağa çizgili ok
+⇣ aşağı çizgili ok
+⇤ sol ok çubuğu
+⇥ sağ ok çubuğu
+⇦ sola boş ok
+⇧ yukarı boş ok
+⇨ sağa boş ok
+⇩ aşağı boş ok
+⇪ çubuktan yukarı boş ok
+⇵ aşağı ok sol yukarı ok
+∀ tümü için
+∂ kısmi fark
+∃ vardır
+∅ boş küme
+∆ artım, üçgen
+∇ nabla, üçgen
+∈ eleman, elemanıdır, içerir, küme, üyelik
+∉ elemanı değildir
+∋ eleman olarak kapsar
+∎ silinmiş öğe
+∏ n öğeli çarpım
+∑ n öğeli toplama
++ artı, artı işareti, ekle
+± artı-eksi
+÷ bölme, bölme işareti, bölüm, obelus
+× çarpım, çarpma, çarpma işareti
+< açık etiket, açılış etiketi, etiket, küçüktür
+≮ küçük değildir
+= eşit, eşittir
+≠ denksizlik, eşit değildir, eşitsizlik
+> büyüktür, etiket, kapalı etiket, kapanış etiketi
+≯ büyük değildir
+¬ olumsuzlama, olumsuzluk
+| çizgi, çubuk, dikey, Sheffer inme
+~ yaklaşık
+− çıkarma, eksi, eksi işareti
+⁻ eksi, üs, üst eksi simgesi, üst simge
+∓ artı veya eksi
+∕ bölme çizgisi
+⁄ kesir bölme işareti
+∗ yıldız işareti işleci
+∘ döngü işleci
+∙ madde işareti işleci
+√ kare, karekök, kök, radikal, radikal ifade, taban
+∝ orantılı
+∞ sonsuzluk, sonsuzluk işareti
+∟ dik açı
+∠ açı
+∣ bölen
+∥ paralel
+∧ mantıksal ve
+∩ kesişim, küme
+∪ birleşim, küme, toplam
+∫ entegral
+∬ çift entegral
+∮ çevre entegrali
+∴ öyleyse
+∵ çünkü
+∶ oran
+∷ orantı
+∼ tilde işleci
+∽ ters tilde
+∾ ters çevrilmiş yavaş s
+≃ asimptotik olarak eşit
+≅ yaklaşık olarak eşit
+≈ neredeyse eşit, yaklaşık, yaklaştırma
+≌ tamamen eşit
+≒ yaklaşık olarak eşit veya sanalı
+≖ eşitlikte döngü
+≡ aynı, denk, denktir, üçlü
+≣ tamamen eşdeğeri
+≤ eşitsizlik, eşittir, küçük eşit, küçüktür
+≥ büyük eşit, büyüktür, eşit, eşitsizlik
+≦ küçük eşittirden büyük
+≧ büyük eşittirden küçük
+≪ çok daha küçüktür
+≫ çok daha büyüktür
+≬ arasında
+≳ büyük veya eşdeğer
+≺ önce gelir
+≻ sonra gelir
+⊁ sonra gelmez
+⊂ alt küme, alt kümesi, alt kümesidir, küme
+⊃ üst küme
+⊆ alt küme eşittir
+⊇ üst küme eşittir
+⊕ daire içinde artı
+⊖ daire içinde eksi
+⊗ daire içinde çarpı
+⊘ daire içinde bölme işareti
+⊙ daire içinde nokta işleci
+⊚ daire içinde döngü işleci
+⊛ daire içinde yıldız işareti işleci
+⊞ kare içinde artı
+⊟ kare içinde eksi
+⊥ üst iğne
+⊮ gerektirmez
+⊰ bağıntıya göre önce gelir
+⊱ bağıntıya göre sonra gelir
+⋭ normal alt grup olarak kapsamaz
+⊶ orijinal
+⊹ hermit eşleniği matrisi
+⊿ dik üçgen
+⋁ n öğeli mantıksal veya
+⋂ n öğeli kesişim
+⋃ n öğeli birleşim
+⋅ nokta işleci
+⋆ yıldız işleci
+⋈ doğal birleşim
+⋒ çift kesişim
+⋘ çok fazla küçüktür
+⋙ çok fazla büyüktür
+⋮ dikey üç nokta
+⋯ orta çizgi yatay üç nokta
+⋰ yukarı sağa çapraz üç nokta
+⋱ aşağı sağa çapraz üç nokta
+■ dolu kare
+□ boş kare
+▢ yuvarlak köşeli boş kare
+▣ dolu kareli boş kare
+▤ yatay doldurulan kare
+▥ dikey doldurulan kare
+▦ dikgen çapraz çizgi ile doldurulan kare
+▧ sol üstten sağ alta doğru doldurulan kare
+▨ sağ üstten sol alta doğru doldurulan kare
+▩ köşegen çapraz çizgi ile doldurulan kare
+▬ dolu dikdörtgen
+▭ boş dikdörtgen
+▮ dolu dikey dikdörtgen
+▰ dolu paralelkenar
+▲ içi dolu, ok, üçgen, yukarı, yukarı bakan içi dolu üçgen
+△ içi boş yukarıyı gösteren üçgen
+▴ içi dolu yukarıyı gösteren küçük üçgen
+▵ içi boş yukarıyı gösteren küçük üçgen
+▷ içi boş sağı gösteren üçgen
+▸ içi dolu sağı gösteren küçük üçgen
+▹ içi boş sağı gösteren küçük üçgen
+► içi dolu sağ işaretçi
+▻ içi boş sağ işaretçi
+▼ aşağı, aşağı bakan içi dolu üçgen, içi dolu, ok, üçgen
+▽ içi boş aşağıyı gösteren üçgen
+▾ içi dolu aşağıyı gösteren küçük üçgen
+▿ içi boş aşağıyı gösteren küçük üçgen
+◁ içi boş sol üçgen
+◂ içi dolu solu gösteren küçük üçgen
+◃ içi boş solu gösteren küçük üçgen
+◄ içi dolu sol işaretçi
+◅ içi boş sol işaretçi
+◆ dolu baklava
+◇ boş baklava
+◈ dolu baklavalı boş baklava
+◉ dolu daireli boş daire
+◊ baklava, elmas, eşkenar dörtgen
+○ boş daire, daire, halka
+◌ noktalı daire
+◍ dikey doldurulan daire
+◎ hedef merkezi
+● çember, içi dolu çember
+◐ sol yarısı dolu daire
+◑ sağ yarısı dolu daire
+◒ alt yarısı dolu daire
+◓ üst yarısı dolu daire
+◔ sağ üst karesi dolu daire
+◕ sol üst karesi dolu olmayan daire
+◖ sol yarı dolu daire
+◗ sağ yarı dolu daire
+◘ ters madde işareti
+◙ içi boş daireli dolu kare
+◜ sol üst çeyrek dairesi dairesel olan yay
+◝ sağ üst çeyrek dairesi dairesel olan yay
+◞ sağ alt çeyrek dairesi dairesel olan yay
+◟ sol alt çeyrek dairesi dairesel olan yay
+◠ üst yarım daire
+◡ alt yarım daire
+◢ içi dolu sağ alt üçgen
+◣ içi dolu sol alt üçgen
+◤ içi dolu sol üst üçgen
+◥ içi dolu sağ üst üçgen
+◦ içi boş madde işareti
+◯ büyük boş daire, daire, halka
+◳ sağ üst çeyrek kareli boş kare
+◷ sağ üst çeyrek daireli boş daire
+◿ sağ alt üçgen
+♪ müzik, nota, sekizinci
+⨧ altı iki olan artı simgesi
+⨯ vektör çapraz çarpım
+⨼ iç çarpım
+⩣ mantıksal veya çift alt çubuklu
+⩽ küçüktür veya eğimli eşittir
+⪍ benzer veya eşittir üstündeki küçüktür
+⪚ çift çizgili eşittir veya büyüktür
+⪺ hemen hemen eşit değil üstünde sonra gelir
+♭ bemol, düz, müzik, nota
+♯ diyez, müzik, nota
+😀 gülen yüz, gülme, lol, neşeli, sırıtan yüz, yüz
+😃 ağzı açık gülen yüz, ağzı açık sırıtma, gülen yüz, gülme, gülümseme, lol, neşeli, yüz
+😄 ağzı açık gülen gözler, gülen gözlerle ağzı açık sırıtma, gülen yüz, gülme, gülümseme, lol, neşeli
+😁 gülen gözlerle sırıtan yüz, gülen gözlerle sırıtma, gülen yüz, gülme, gülümseme, gülümseyen gözler, lol, neşeli, yüz
+😆 ağız açık, gözler kapalı, kapalı gözlerle ağzı açık sırıtma, kapalı gözlerle gülümseme, yüz
+😅 soğuk ter, soğuk terli ağzı açık gülümseme
+🤣 gülme, gülmekten yerlere yatma, yatma, yer, yüz
+😂 gözyaşları, sevinç, sevinç gözyaşları olan yüz, yüz
+🙂 gülme, hafifçe gülümseyen yüz, yüz
+🙃 ters yüz, yüz
+😉 göz kırpan yüz, göz kırpma, yüz
+😊 ağzı açık gülme, gülümseyen gözler, gülümseyen yüz, gülümseyen yüz ve gözler, yüz
+😇 gülümseme, ışık halkalı gülümseme, ışık halkası, yüz
+🥰 3 kalpli gülümseyen yüz, aşık olma, çarpılma, hayranlık, kalpler, kalpli gülümseyen yüz
+😍 aşk, değer verme, gözler, kalp, kalp gözlü gülümseme, yüz
+🤩 gözler, sırıtan, yıldız, yıldız çarpmış, yüz
+😘 öpücük gönderen yüz, yüz
+😗 öpen yüz, öpücük, yüz
+☺ gülen yüz, içi boş gülen yüz, yüz
+😚 gözler kapalı, gözler kapalı öpüşme, kapalı gözlerle öpen yüz, yüz
+😙 gülen gözlerle öpen yüz, gülümseme, gülümseyen gözler, gülümseyerek öpen yüz, yüz
+🥲 duygulanmış, gözü yaşlı gülümseyen yüz, gözyaşı, gülümseme, gururlu, hislenmiş, minnettar, rahatlamış
+😋 gülümseyen yüz, harika yemek, lezzetli, lezzetli yiyecek beğenen yüz, oh oh harika, yüz
+😛 dil çıkarmış yüz, dil dışarıda, dil dışarıda kalmış, yüz
+😜 dil dışardayken göz kırpma, dili dışarda göz kırpma, göz kırpma, kışkırtma, şaka, yüz
+🤪 büyük, çılgın surat, göz, küçük
+😝 dil dışarıda, dil dışarıda ve gözler kapalı, gözler kapalı, gözler kapalı ve dil dışarıda, korkunç, yüz
+🤑 ağız, para, para ağızlı yüz, yüz
+🤗 kucaklama, kucaklayarak gülümseme, sarılma, yüz
+🤭 eliyle ağzını kapatan yüz, tüh
+🤫 sessiz, şişt, sus işareti yapan yüz
+🤔 düşünen yüz, düşünme, yüz
+🤐 ağız, ağzı fermuarlı yüz, fermuar, yüz
+🤨 güvenmeyen, şüpheci, tek kaşı çatık yüz
+😐 duygusuz, nötr, yorum yok, yüz
+😑 ifadesiz yüz, yorum yok, yüz
+😶 ağız, ağzı olmayan yüz, sakin, sessiz, yüz
+😶‍🌫 bulutlardaki kafa, bulutlardaki yüz, dalgın, sisler arasındaki yüz
+😏 imalı gülümseme, yapmacık gülümseyen, yapmacık gülümseyen yüz, yüz
+😒 keyifsiz yüz, mutsuz, yüz
+🙄 gözler, gözlerini deviren yüz, yuvarlanma, yüz
+😬 dişlerini gösteren yüz, yüz
+😮‍💨 fısıldama, ıslık, nefes veren yüz, nefes verme, rahatlama, sızlanma
+🤥 pinokyo, yalan söyleme, yalan söyleyen yüz, yüz
+😌 rahatlamış, yüz
+😔 düşünceli, karamsar, yüz
+😪 uykulu yüz, yüz
+🤤 salya akıtan yüz, salya akıtma, yüz
+😴 uykulu yüz, uyuyan yüz, yüz
+😷 maske, maskeli yüz, rahatsız, soğuk, tıbbi maske, yüz
+🤒 ağzında termometre olan yüz, hasta, termometre, yüz
+🤕 bandaj, kafası sarılı yüz, yara, yüz
+🤢 istifra, kusmak üzere, kusmak üzere olan yüz, yüz
+🤮 hasta, istifra, kusan yüz, kusmak
+🤧 çok yaşa, hapşıran yüz, hapşırma, yüz
+🥵 ateşi çıkmış, kırmızı yüz, kızarmış yüz, sıcak, sıcak çarpması, terleme
+🥶 buz kesme, buz sarkıtları, donma, morarmış yüz, soğuk, üşümüş yüz
+🥴 çakırkeyif, kaymış gözler, sarhoş, sarhoş yüz, sersemlemiş, titreyen ağız
+😵 sersemlemiş yüz, yüz
+😵‍💫 hipnotize, kafası bulanık, sarmal, sarmal gözlü yüz, sersem, sıkıntı
+🤯 patlayan kafa, şoke
+🤠 kadın kovboy, kovboy, kovboy şapkalı yüz, şapka, yüz
+🥳 kutlama, parti, parti düdüğü, partide eğlenen yüz, şapka
+🥸 burun, gizlenmiş yüz, gizli, gözlük, kimliğini gizleyen, maskeli, yüz
+😎 gülümseme, güneş gözlükleri, güneş gözlükleriyle gülümseme, güneş gözlüklü gülümseme, soğukkanlı Jane, soğukkanlı Joe, yüz
+🤓 bilgili, inek öğrenci, ukala, yüz
+🧐 kendini beğenmiş, tek cam gözlüklü yüz
+😕 kafası karışık yüz, kafası karışmış, yüz
+😟 endişeli yüz, yüz
+🙁 asık surat, biraz asık surat, yüz
+☹ asık, asık surat, yüz
+😮 ağız, ağzı açık, ağzı açık yüz, yüz
+😯 şaşırmış, şaşkın yüz, şok olmuş, yüz
+😲 afallamış, şoke olmuş, tamamen şoke olmuş, yüz
+😳 kızarmış ve şaşkın yüz, kızarmış yüz, şaşırmış, şaşkınlık içinde, yüz
+🥺 acıklı bakışlar, merhamet, yalvaran yüz, yalvarma
+😦 açık ağızlı hoşnutsuz yüz, ağzı açık, hoşnutsuz, yüz
+😧 acı çeken, kederli yüz, yüz
+😨 korkmuş, korkulu yüz, yüz
+😰 açık ağız, soğuk ter, soğuk ter döken mavi yüz, terli ve endişeli yüz, yüz
+😥 canı sıkkın, canı sıkkın ama rahatlamış, rahatlamış, üzgün ama rahatlamış yüz, yüz
+😢 ağlayan yüz, gözyaşları, üzüntülü, yüz
+😭 ağlama, avaz avaz ağlayan yüz, gözyaşları, yüz
+😱 korkmuş, korku, korku içinde bağıran yüz, korkunç, korkuyla çığlık atan yüz, korkuyla haykıran yüz, yüz
+😖 kafası çok karışık yüz, kafası çok karışmış, yüz
+😣 dayanıklı, kararlı yüz, yüz, zorlanan yüz
+😞 kırgın yüz, kırgınlık, memnuniyetsiz yüz, yüz
+😓 soğuk ter, soğuk terli yüz, yüz
+😩 çok yorgun, yorgun yüz, yorulmuş, yüz
+😫 yorgun yüz, yüz
+🥱 esneme, esneyen yüz, sıkılmış, yorgun
+😤 ben kazandım, ben kazandım yüzü, burnundan soluyan yüz, yüz, zafer
+😡 deli gibi, kırmızı somurtkan yüz, kırmızı yüz, öfkeli, somurtkan yüz, yüz
+😠 deli gibi, öfkeli yüz, yüz
+🤬 ağzında semboller olan yüz, küfür eden
+😈 boynuzlar, boynuzlu gülen yüz, gülümseme, yüz
+👿 boynuzlu kızgın yüz, küçük şeytan, şeytan, yüz
+💀 kafatası, masal, ölüm, yüz
+☠ canavar, kemik, kuru kafa, ölüm, tehlike, yüz
+💩 kaka, kaka yığını, pislik, yığın
+🤡 palyaço, palyaço yüzü, yüz
+👹 canavar, dev, japon canavarı, oni, peri masalı, yüz
+👺 canavar, goblin, japon cini, peri masalı, tengu, yüz
+👻 hayalet, peri masalı, yüz
+👽 dünya dışı, fantastik, UFO, uzaylı, yaratık, yüz
+👾 canavar, dünya dışı, UFO, uzaylı, yaratık, yüz
+🤖 canavar, robot, yüz
+😺 açık, ağız, gülümseme, kedi, sırıtan, yüz
+😸 göz, gülen gözlerle sırıtan kedi, gülümseme, kedi, sırıtma, yüz
+😹 göz yaşı, kedi, sevinç, sevinç gözyaşları döken kedi, yüz
+😻 aşk, gülümseme, kalp, kalp gözlü gülümseyen kedi, kedi, sevgi, yüz
+😼 iğneleyici, iğneleyici gülümseme, iğneleyici kedi yüzü, ironik, kedi, yüz
+😽 göz, kedi, öpen kedi, öpücük, yüz
+🙀 aman tanrım, kedi, korkuyla bağıran kedi, sahiden şaşırmış, şaşkın kedi yüzü, yüz
+😿 ağlama, ağlayan kedi, göz yaşı, kedi, üzgün, yüz
+😾 kedi, somurtan, somurtma, yüz
+🙈 görmedim, görmeyen maymun, maymun
+🙉 duymadım, duymayan maymun, maymun
+🙊 bilmiyorum, maymun, söylemeyen maymun
+💋 dudaklar, öpücük, öpücük izi, romantizm
+💌 aşk mektubu, kalp, kalpli mektup, mektup, romantizm
+💘 aşk, duygu, kalp, ok, ok saplanmış kalp
+💝 duygu, kalp, kurdele, kurdeleli kalp, sevgililer günü
+💖 duygu, heyecanlı, kalp, pırıldayan
+💗 aşk, büyüyen kalp, coşkulu, duygu, kalp, sinirli
+💓 aşk, çarpan kalp, duygu, kalp
+💞 aşk, dönen, dönen kalpler, kalp, kawaii, sevimli
+💕 aşıklar, aşk, duygu, iki kalp
+💟 kalp, kalpli dekorasyon
+❣ işaret, kalp, kalp şeklinde ünlem işareti, noktalama, ünlem işareti
+💔 duygu, kalp, kırık kalp, kırılmış, kırma
+❤‍🔥 alev, arzu, aşk, ateşli kalp, kalp, kutsal kalp, tutku
+❤‍🩹 daha sağlıklı, iyi, iyileşen, iyileşen kalp, onarılan
+❤ kalp, kırmızı kalp
+🧡 portakal, turuncu kalp
+💛 duygu, kalp, sarı
+💚 duygu, kalp, yeşil
+💙 duygu, kalp, mavi
+💜 duygu, kalp, mor
+🤎 kahverengi, kalp
+🖤 fena, kalp, kötü, siyah
+🤍 beyaz, kalp
+💯 100, 100 puan, skor, yüz puan
+💢 çizgi roman, duygu, öfke işareti, öfke simgesi, öfkeli
+💥 çarpışma, çarpışma işareti, çizgi roman, duygu
+💫 baş dönmesi, çizgi roman, duygu, yıldızlar, yıldızları görme
+💦 çizgi roman, duygu, ter, ter damlası, terli
+💨 çizgi roman, duygu, hızla fırlama, kaçma, koşma
+🕳 delik
+💣 bomba, çizgi roman, duygu
+💬 balon, çizgi roman, iletişim, iletişim balonu, konuşma balonu
+👁‍🗨 göz, konuşma balonu, konuşma balonunda göz, tanıklık
+🗨 diyalog, konuşma, sol konuşma balonu
+🗯 balon, kızgın, öfke, sağ öfke balonu
+💭 balon, çizgi roman, düşünce, düşünce balonu
+💤 çizgi roman, duygu, horlama, uyuma, zzz, Zzz
+👋 el, sallama
+🤚 elinin tersi, elinin tersini kaldırma, kaldırma
+🖐 avuç, beden, el, parmak, parmaklar açık el kaldırma
+✋ el kaldırma, havada el
+🖖 beden, el, parmak, spock, vulcan selamı, vulkan, Vulkan selamı
+👌 el, işaret, Tamam, Tamam el işareti, tamam işareti
+🤌 bravo, çok güzel, harika, kıstırma hareketi yapan parmaklar, lezzetli, parmaklar
+🤏 azıcık, bir tutam, kıstırma hareketi yapan el
+✌ oleey, zafer, zafer eli, zafer işareti
+🤞 çapraz, el, parmak, şans, şans dileme
+🤟 el, seni seviyorum işareti, SS
+🤘 beden, boynuz, boynuz işareti, el, parmak, rock
+🤙 ara, beni ara işareti, el
+👈 elin arkası, elinin tersiyle solu gösteren işaret parmağı, işaret parmağı, parmak, solu gösteren parmak
+👉 elin arkası, elinin tersiyle sağı gösteren işaret parmağı, işaret parmağı, parmak, sağı gösteren parmak
+👆 elin arkası, elinin tersiyle yukarıyı gösteren işaret parmağı, işaret parmağı, parmak, yukarıyı gösteren parmak
+🖕 beden, el, orta parmak, parmak
+👇 aşağıyı gösteren parmak, elin arkası, elinin tersiyle aşağıyı gösteren işaret parmağı, işaret parmağı, parmak
+☝ beden, el, gösterme, işaret parmağı, parmak, yukarı, yukarıyı gösteren işaret parmağı
+👍 baş parmak, baş parmak yukarıda, el, işaret, yukarı
+👎 aşağı, baş parmak, baş parmak aşağıda, el, işaret
+✊ havada yumruk, yumruk kaldırma
+👊 el, yaklaşan yumruk, yumruk
+🤛 sola bakan yumruk, sola doğru, yumruk
+🤜 sağa bakan yumruk, sağa doğru, yumruk
+👏 çırpma, el çırpma, eller, işaret
+🙌 eller havaya, her iki el, kutlama, kutlamak için iki eli birden kaldırma
+👐 açık, el, eller açık, eller açık işareti, işaret
+🤲 dua eden eller, iki avuç açık
+🤝 anlaşma, el, el sıkışma, sallama, toplantı
+🙏 birleşen eller, dua, dua etme, el, hareket
+✍ beden, el, yazı yazan el, yazma
+💅 kozmetik, manikür, oje, oje sürme, tırnak
+🤳 kamera, selfie, telefon
+💪 çizgi roman, esnek, güçlü, kas, kas esnetme, pazı
+🦾 erişilebilirlik, mekanik kol, protez
+🦿 erişilebilirlik, mekanik bacak, protez
+🦵 bacak, tekme
+🦶 ayak, tekme
+👂 gövde, kulak
+🦻 erişilebilirlik, işitme cihazı olan kulak, işitme güçlüğü
+👃 burun, gövde, yüz
+🧠 beyin, zeki
+🫀 kalp, kalp atışı, kardiyoloji, merkez, nabız, organ
+🫁 akciğer, nefes, organ, soluk, solunum
+🦷 diş, diş hekimi, dişçi
+🦴 iskelet, kemik
+👀 gözler, yüz
+👁 beden, göz
+👅 dil, gövde, yüz
+👄 ağız, dudaklar, gövde, yüz
+👶 bebek, kişiler
+🧒 çocuk, genç, kişi
+👦 erkek çocuk, kişiler
+👧 genç, kişiler, kız çocuk
+🧑 kişi, yetişkin
+👱 saç, sarı saçlı kişi, sarışın, sarışın kişi
+👨 erkek, kişiler
+🧔 sakal, sakallı kişi
+🧔‍♂ erkek, erkek: sakal, sakal
+👱‍♂ adam, erkek, sarışın
+👩 kadın, kişiler
+🧔‍♀ kadın, kadın: sakal, sakal
+👱‍♀ bayan, kadın, sarışın
+🧓 kişi, yaşlı, yaşlı yetişkin
+👴 erkek, kişiler, yaşlı
+👵 kadın, kişiler, yaşlı
+🙍 hareket, kişi, somurtan kişi, somurtma
+🙍‍♂ adam, erkek, mimik, somurtan erkek, somurtma
+🙍‍♀ bayan, kadın, mimik, somurtan kadın, somurtma
+🙎 darılan kişi, darılma, hareket, kişi
+🙎‍♂ adam, darılan erkek, darılma, erkek, mimik
+🙎‍♀ bayan, darılan kadın, darılma, kadın, mimik
+🙅 hareket, hayır, hayır hareketi, iyi değil, yasak, yüz
+🙅‍♂ el, erkek, hareket, hayır, hayır hareketi yapan erkek, iyi değil, yasak
+🙅‍♀ bayan, el, hareket, hayır, hayır hareketi yapan kadın, iyi değil, kadın, yasak
+🙆 hareket, oldu, tamam hareketi, yüz
+🙆‍♂ adam, el, erkek, hareket, tamam, tamam hareketi yapan erkek
+🙆‍♀ bayan, el, hareket, kadın, tamam, tamam hareketi yapan kadın
+💁 bilgilendirme, elini yana yatırma, kişiler, yardım
+💁‍♂ adam, elini yana yatıran erkek, erkek, küstah, yana yatmış el
+💁‍♀ bayan, elini yana yatıran kadın, kadın, küstah, yana yatmış el
+🙋 el kaldıran kişi, elini kaldırma, hareket, kalkan el, kişi, mutlu
+🙋‍♂ adam, el kaldırma, elini kaldıran erkek, erkek, hareket
+🙋‍♀ bayan, el kaldırma, elini kaldıran kadın, hareket, kadın
+🧏 erişilebilirlik, işitme, işitme engelli, işitme engelli kişi, kulak
+🧏‍♂ adam, erkek, işitme engelli, işitme engelli erkek
+🧏‍♀ işitme engelli, işitme engelli kadın, kadın
+🙇 başını öne eğme, eğilme, hareket, kişi, üzgünüm
+🙇‍♂ adam, baş eğme, başını öne eğen erkek, erkek, hareket, lütuf, özür
+🙇‍♀ baş eğme, başını öne eğen kadın, bayan, hareket, kadın, lütuf, özür
+🤦 avuç, çileden çıkma, inanmama, yüz, yüzünü eliyle kapama
+🤦‍♂ adam, çileden çıkma, eliyle yüzünü kapatan erkek, erkek, inanmama, utancından eliyle yüzünü kapatma
+🤦‍♀ bayan, çileden çıkma, eliyle yüzünü kapatan kadın, inanmama, kadın, utancından eliyle yüzünü kapatma
+🤷 bilmeme, ilgisizlik, kararsız, omuz silkme
+🤷‍♂ adam, cahillik, erkek, ilgisizlik, omuz silken erkek, omuz silkme, şüphe
+🤷‍♀ bayan, cahillik, ilgisizlik, kadın, omuz silken kadın, omuz silkme, şüphe
+🧑‍⚕ doktor, hasta bakıcı, hemşire, sağlık çalışanı, sağlık personeli, terapist
+👨‍⚕ adam, doktor, erkek, erkek sağlık çalışanı, hastabakıcı, sağlık, terapist
+👩‍⚕ bayan, doktor, hemşire, kadın, kadın sağlık çalışanı, sağlık, terapist
+🧑‍🎓 mezun, öğrenci, talebe
+👨‍🎓 adam, erkek, mezun, öğrenci
+👩‍🎓 bayan, kadın, kız öğrenci, mezun, öğrenci
+🧑‍🏫 doçent, eğitimci, öğretmen, profesör
+👨‍🏫 adam, eğitmen, erkek, öğretmen, profesör
+👩‍🏫 bayan, eğitmen, kadın, öğretmen, profesör
+🧑‍⚖ adalet, hakim, terazi, yargıç
+👨‍⚖ adalet, adam, erkek, erkek hakim, terazi, yargıç
+👩‍⚖ adalet, bayan, kadın, kadın hakim, terazi
+🧑‍🌾 bahçıvan, çiftçi, rençper
+👨‍🌾 adam, bahçıvan, çiftçi, çiftlik sahibi, erkek
+👩‍🌾 bahçıvan, bayan, çiftçi, çiftlik sahibi, kadın
+🧑‍🍳 aşçı, yemek pişirme
+👨‍🍳 adam, erkek, erkek aşçı, şef, yemek yapma
+👩‍🍳 bayan, kadın, kadın aşçı, şef, yemek yapma
+🧑‍🔧 elektrikçi, tamirci, tesisatçı
+👨‍🔧 adam, elektrikçi, erkek, esnaf, tamirci, tesisatçı
+👩‍🔧 bayan, elektrikçi, esnaf, kadın, tamirci, tesisatçı
+🧑‍🏭 endüstri, fabrika, fabrika işçisi, işçi, montaj, sanayi
+👨‍🏭 adam, erkek, erkek fabrika işçisi, fabrika, işçi, montaj, sanayi
+👩‍🏭 bayan, fabrika, işçi, kadın, kadın fabrika işçisi, montaj, sanayi
+🧑‍💼 beyaz yakalı, iş yeri, mimar, müdür, ofis çalışanı, yönetici
+👨‍💼 adam, beyaz yaka, erkek, erkek ofis çalışanı, iş, mimar, ofis, yönetici
+👩‍💼 bayan, beyaz yaka, iş, kadın, kadın ofis çalışanı, mimar, ofis, yönetici
+🧑‍🔬 bilim insanı, biyolog, fizikçi, kimyacı, kimyager
+👨‍🔬 adam, bilim adamı, biyolog, erkek, erkek bilim insanı, fizikçi, kimyacı, matematikçi, mühendis
+👩‍🔬 bayan, bilim adamı, biyolog, fizikçi, kadın, kadın bilim insanı, kimyacı, matematikçi, mühendis
+🧑‍💻 geliştirici, kodlayıcı, mucit, teknolog, teknoloji uzmanı, yazılım, yazılımcı
+👨‍💻 adam, erkek, erkek teknoloji uzmanı, geliştirici, kodlayıcı, mucit, teknoloji uzmanı, yazılım
+👩‍💻 bayan, geliştirici, kadın, kadın teknoloji uzmanı, kodlayıcı, mucit, teknoloji uzmanı, yazılım
+🧑‍🎤 aktör, aktris, gösterici, şarkıcı, star, yıldız
+👨‍🎤 adam, aktör, erkek, gösterici, rock, şarkıcı, star
+👩‍🎤 aktör, bayan, gösterici, kadın, rock, şarkıcı, star
+🧑‍🎨 palet, ressam, sanatçı
+👨‍🎨 adam, erkek, erkek ressam, palet, sanatçı
+👩‍🎨 bayan, kadın, kadın ressam, palet, sanatçı
+🧑‍✈ pilot, uçak
+👨‍✈ adam, erkek, pilot, uçak
+👩‍✈ bayan, kadın, pilot, uçak
+🧑‍🚀 astronot, roket, uzay
+👨‍🚀 adam, astronot, erkek, roket, uzay
+👩‍🚀 astronot, bayan, kadın, roket, uzay
+🧑‍🚒 itfaiye aracı, itfaiyeci
+👨‍🚒 adam, erkek, itfaiye aracı, itfaiyeci
+👩‍🚒 bayan, itfaiye aracı, itfaiyeci, kadın
+👮 görevli, kişiler, polis, polis memuru
+👮‍♂ adam, aynasız, erkek, erkek polis memuru, memur, polis
+👮‍♀ aynasız, bayan, kadın, kadın polis memuru, memur, polis
+🕵 casus, dedektif, hafiye
+🕵‍♂ adam, casus, dedektif, erkek, hafiye
+🕵‍♀ bayan, casus, dedektif, hafiye, kadın
+💂 bekçi, kişiler, muhafız
+💂‍♂ adam, erkek, muhafız
+💂‍♀ bayan, kadın, muhafız
+🥷 dövüşçü, gizli, ninja, saklı
+👷 inşaat, inşaat işçisi, işçi, kişiler
+👷‍♂ adam, erkek, erkek inşaat işçisi, inşaat, işçi
+👷‍♀ bayan, inşaat, işçi, kadın, kadın inşaat işçisi
+🤴 prens
+👸 kişiler, peri masalı, prenses
+👳 kişiler, sarık, sarıklı erkek, sarıklı kişi
+👳‍♂ adam, erkek, sarık, sarıklı erkek
+👳‍♀ bayan, kadın, sarık, sarıklı kadın
+👲 çin şapkalı erkek, gua pi mao, gua pi mao takan erkek, kişiler
+🧕 başörtülü kadın
+🤵 damat, kişi, smokin, smokinli kişi
+🤵‍♂ adam, smokin, smokinli adam, smokinli erkek
+🤵‍♀ kadın, smokin, smokinli kadın
+👰 duvak, duvaklı gelin, evlilik, kişiler
+👰‍♂ adam, duvak, duvaklı adam, duvaklı erkek
+👰‍♀ duvak, duvaklı kadın, kadın
+🤰 hamile, kadın
+🤱 bebek, emziren kadın, emzirme, göğüs
+👩‍🍼 bakım, bebek, bebek emziren kadın, emzirme, kadın
+👨‍🍼 bakıcılık, bebek, bebek emziren erkek, emzirme, erkek
+🧑‍🍼 bakıcılık, bebek, bebek emziren kişi, emzirme, kişi
+👼 bebek melek, melek, peri masalı, yüz
+🎅 kutlama, noel, Noel Baba, santa claus
+🤶 anne, noel, Noel Anne
+🧑‍🎄 cinsiyet belirtmeyen noel karakteri, noel, Noel figürü
+🦸 iyi, kadın kahraman, kahraman, süper güç, süper kahraman
+🦸‍♂ erkek, erkek süper kahraman, iyi, kahraman, süper güç
+🦸‍♀ iyi, kadın, kadın süper kahraman, kahraman, süper güç
+🦹 kötü, şeytani, suçlu, süper güç, süper kötü
+🦹‍♂ erkek, erkek süper kötü, kötü, şeytani, suçlu, süper güç
+🦹‍♀ kadın, kadın süper kötü, kötü, şeytani, suçlu, süper güç
+🧙 büyücü, cadı, sihirbaz
+🧙‍♂ büyücü, erkek büyücü, sihirbaz
+🧙‍♀ büyücü, cadı, kadın büyücü
+🧚 Oberon, peri, Puck, Titania
+🧚‍♂ erkek peri, Oberon, Puck
+🧚‍♀ kadın peri, Titania
+🧛 Drakula, hortlak, vampir
+🧛‍♂ Drakula, erkek vampir, hortlak
+🧛‍♀ hortlak, kadın vampir
+🧜 balık insan
+🧜‍♂ balık adam
+🧜‍♀ balık kadın, denizkızı
+🧝 elf, sihirli
+🧝‍♂ erkek elf, sihirli
+🧝‍♀ kadın elf, sihirli
+🧞 cin
+🧞‍♂ cin, erkek cin
+🧞‍♀ cin, kadın cin
+🧟 hortlak, yürüyen ölü, zombi
+🧟‍♂ erkek zombi, hortlak, yürüyen ölü
+🧟‍♀ hortlak, kadın zombi, yürüyen ölü
+💆 masaj, salon, yüz masajı
+💆‍♂ adam, erkek, masaj, yüz, yüz masajı yaptıran erkek
+💆‍♀ bayan, kadın, masaj, yüz, yüz masajı yaptıran kadın
+💇 güzellik, güzellik salonu, saç kesimi, salon
+💇‍♂ adam, erkek, saç kesimi, saç kestiren erkek
+💇‍♀ bayan, kadın, saç kesimi, saç kestiren kadın
+🚶 yürüyen, yürüyen kişi
+🚶‍♂ adam, dolaşma, erkek, yürüme, yürüyen erkek
+🚶‍♀ bayan, dolaşma, kadın, yürüme, yürüyen kadın
+🧍 ayakta duran, ayakta duran kişi, ayakta durma
+🧍‍♂ adam, ayakta duran, ayakta duran erkek, erkek
+🧍‍♀ ayakta duran, ayakta duran kadın, kadın
+🧎 diz çöken, diz çöken kişi, diz çökme
+🧎‍♂ adam, diz çöken, diz çöken erkek, erkek
+🧎‍♀ diz çöken, diz çöken kadın, kadın
+🧑‍🦯 erişilebilirlik, görme engelli, görme engelli bastonlu kişi, kör
+👨‍🦯 erişilebilirlik, erkek, görme engelli, görme engelli bastonlu erkek
+👩‍🦯 erişilebilirlik, görme engelli, görme engelli bastonlu kadın, kadın
+🧑‍🦼 elektrikli tekerlekli sandalyede kişi, erişilebilirlik, tekerlekli sandalye
+👨‍🦼 elektrikli tekerlekli sandalyede erkek, erişilebilirlik, erkek, tekerlekli sandalye
+👩‍🦼 elektrikli tekerlekli sandalyede kadın, erişilebilirlik, kadın, tekerlekli sandalye
+🧑‍🦽 erişilebilirlik, tekerlekli sandalye, tekerlekli sandalyede kişi
+👨‍🦽 erişilebilirlik, erkek, tekerlekli sandalye, tekerlekli sandalyede erkek
+👩‍🦽 erişilebilirlik, kadın, tekerlekli sandalye, tekerlekli sandalyede kadın
+🏃 koşan kişi, koşu, maraton, spor
+🏃‍♂ adam, erkek, koşan erkek, koşma, maraton, yarış
+🏃‍♀ bayan, kadın, koşan kadın, koşma, maraton, yarış
+💃 dans, dans eden kadın, kişiler
+🕺 adam, dans, dans eden adam
+🕴 erkek, havalanan takım elbiseli adam, iş, işadamı, takım elbise
+👯 dansçı, parti, tavşan kulaklar, tavşan kulaklı kişiler
+👯‍♂ adam, dansçı, erkek, partiye katılma, tavşan kulak, tavşan kulaklı erkek, tavşan kulaklı erkekler
+👯‍♀ bayan, dansçı, kadın, partiye katılma, tavşan kulak, tavşan kulaklı kadın, tavşan kulaklı kadınlar
+🧖 buhar odası, buhar odasındaki kişi, sauna
+🧖‍♂ buhar odası, buhar odasındaki erkek, sauna
+🧖‍♀ buhar odası, buhar odasındaki kadın, sauna
+🧗 dağcı kişi
+🧗‍♂ dağcı erkek
+🧗‍♀ dağcı kadın
+🤺 birey, eskrim, eskrimci, kılıç, spor
+🏇 at, at yarışı, jokey, spor, yarış, yarış atı
+⛷ kar, kayak, kayakçı
+🏂 snowboard, snowboard yapmak, snowbordçu, spor
+🏌 golf, golf oynayan kişi, top
+🏌‍♂ adam, erkek, golf, golf oynayan erkek
+🏌‍♀ bayan, golf, golf oynayan kadın, kadın
+🏄 sörf yapan kişi, sörfçü, spor
+🏄‍♂ adam, erkek, sörf, sörf yapan erkek
+🏄‍♀ bayan, kadın, sörf, sörf yapan kadın
+🚣 sandalda kürek çeken kişi, taşıt, tekne
+🚣‍♂ adam, erkek, kayık, sandal, sandalda kürek çeken erkek
+🚣‍♀ bayan, kadın, kayık, sandal, sandalda kürek çeken kadın
+🏊 spor, yüzen kişi, yüzme
+🏊‍♂ adam, erkek, yüzen erkek, yüzme
+🏊‍♀ bayan, kadın, yüzen kadın, yüzme
+⛹ top, top sektiren kişi
+⛹‍♂ adam, erkek, top, top sektiren erkek
+⛹‍♀ bayan, kadın, top, top sektiren kadın
+🏋 ağırlık, ağırlık kaldıran kişi, halter
+🏋‍♂ adam, ağırlık kaldıran, ağırlık kaldıran erkek, erkek
+🏋‍♀ ağırlık kaldıran, ağırlık kaldıran kadın, bayan, kadın
+🚴 bisiklet, bisiklet süren kişi
+🚴‍♂ adam, bisiklet, bisiklet süren erkek, bisiklet sürme, bisikletçi, erkek
+🚴‍♀ bayan, bisiklet, bisiklet süren kadın, bisiklet sürme, bisikletçi, kadın
+🚵 bisiklet, bisikletçi, dağ, dağ bisikletçisi
+🚵‍♂ adam, bisiklet, bisiklet sürme, bisikletçi, dağ, dağ bisikleti süren erkek, erkek
+🚵‍♀ bayan, bisiklet, bisiklet sürme, bisikletçi, dağ, dağ bisikleti süren kadın, kadın
+🤸 birey, jimnastik, perende atan kişi, spor, yanlamasına takla
+🤸‍♂ adam, çember hareketi, erkek, jimnastik, kişi, perende atan erkek, spor
+🤸‍♀ bayan, çember hareketi, jimnastik, kadın, kişi, perende atan kadın, spor
+🤼 birey, güreş, güreşçi, güreşen kişiler, spor
+🤼‍♂ adam, erkek, güreş, güreş yapan erkek, kişi, spor
+🤼‍♀ bayan, güreş, güreş yapan kadın, kadın, kişi, spor
+🤽 birey, spor, su, su topu, top
+🤽‍♂ adam, erkek, spor, su topu, su topu oynayan erkek
+🤽‍♀ bayan, kadın, spor, su topu, su topu oynayan kadın
+🤾 birey, hentbol, spor, top
+🤾‍♂ adam, erkek, hentbol, hentbol oynayan erkek, spor
+🤾‍♀ bayan, hentbol, hentbol oynayan kadın, kadın, spor
+🤹 aynı anda birçok iş yapma, denge, hokkabazlık, jonglör, yetenek
+🤹‍♂ adam, aynı anda birçok iş, erkek, hokkabazlık, jonglör erkek
+🤹‍♀ aynı anda birçok iş, bayan, hokkabazlık, jonglör kadın, kadın
+🧘 lotus pozisyonundaki kişi, meditasyon, yoga
+🧘‍♂ lotus pozisyonundaki erkek, meditasyon, yoga
+🧘‍♀ lotus pozisyonundaki kadın, meditasyon, yoga
+🛀 banyo, banyo yapan kişi, küvet
+🛌 otel, uyuma, yatakta yatan kişi
+🧑‍🤝‍🧑 çift, el, el ele, el ele tutuşan insanlar, kişi, tutmak, tutuşan eller
+👭 çift, el, el ele tutuşan, el ele tutuşan kadınlar, kadınlar
+👫 çift, el ele tutuşan, el ele tutuşan erkek ve kadın, erkek, kadın
+👬 çift, el ele tutuşan, el ele tutuşan erkekler, el ele tutuşan iki erkek, erkek, ikizler, kişiler
+💏 kişiler, öpücük, öpüşme, romantizm
+💑 kalp, kalpli çift, kişiler, romantizm
+👪 aile, anne, baba, çocuk, kişiler
+🗣 bağırma, kafa, konuşan kişi, konuşma, profil, siluet, yüz
+👤 büst, kişiler, siluet
+👥 büst, kişiler, siluet, siluet büstler
+🫂 güle güle, hoşçakal, hoşçakalın, kucaklaşan insanlar, merhaba, sağol, sağolun, selam, teşekkür, teşekkürler
+👣 ayak, ayak izi, gövde, iz
+🦰 kırmızı, kızıl, kızıl saç
+🦱 afro, kıvırcık, kıvırcık saç, lüle
+🦳 beyaz, gri, saç, yaşlı
+🦲 kel, kemoterapi, saç yok, saçsız, tıraşlı
+🐵 hayvan, maymun, maymun yüzü, yüz
+🐒 hayvan, maymun
+🦍 goril, hayvan
+🦧 maymun, orangutan
+🐶 hayvan, köpek, köpek yüzü, yüz
+🐕 hayvan, köpek, süs köpeği
+🦮 erişilebilirlik, görme engelli, rehber, rehber köpek
+🐕‍🦺 erişilebilirlik, köpek, rehberlik, yardım, yardımcı köpek
+🐩 hayvan, kaniş, köpek
+🐺 kurt, yüz
+🦊 tilki, yüz
+🦝 meraklı, rakun, sinsi
+🐱 hayvan, kedi, kedi yüzü, yüz
+🐈 hayvan, kedi
+🐈‍⬛ kara, kedi, uğursuz
+🦁 aslan, aslan yüzü, burç, yüz
+🐯 kaplan, kaplan yüzü, yüz
+🐅 kaplan
+🐆 leopar
+🐴 at, at yüzü, hayvan, yüz
+🐎 at, yarış, yarış atı
+🦄 tek boynuzlu at, unicorn, yüz
+🦓 çizgili, şeritli, zebra
+🦌 geyik, hayvan
+🦬 bizon, bufalo, sürü
+🐮 hayvan, inek, inek yüzü, yüz
+🐂 boğa, boğa burcu, burçlar, öküz
+🐃 buffalo, manda, su
+🐄 inek
+🐷 domuz, domuz yüzü, hayvan, yüz
+🐖 dişi domuz, domuz
+🐗 domuz, yaban domuzu
+🐽 burun, domuz, domuz burnu, hayvan, yüz
+🐏 burç, koç
+🐑 dişi koyun, koyun
+🐐 burçlar, keçi, oğlak, oğlak burcu, oğlak burcu burçlar
+🐪 deve, hayvan, hecin devesi, hörgüç
+🐫 deve, hayvan, hörgüç, iki hörgüçlü deve
+🦙 alpaka, guanako, lama, vikunya, yün
+🦒 noktalar, puanlar, zürafa
+🐘 fil
+🦣 büyük, fil dişi, mamut, nesli tükenen, soyu tükenen
+🦏 gergedan, hayvan
+🦛 hipo, hipopotam, su aygırı
+🐭 fare, fare yüzü, hayvan, yüz
+🐁 fare
+🐀 sıçan
+🐹 evcil hayvan, hamster, yüz
+🐰 hayvan, tavşan, tavşan yüzü, yüz
+🐇 hayvan, tavşan
+🐿 sincap
+🦫 baraj, kunduz
+🦔 dikenli, kirpi
+🦇 hayvan, vampir, yarasa
+🐻 ayı, yüz
+🐻‍❄ arktik, ayı, beyaz, kutup ayısı
+🐨 hayvan, koala, koala ayısı
+🐼 panda, yüz
+🦥 tembel, tembel hayvan, yavaş
+🦦 balık avlayan, oyuncu, su samuru
+🦨 kokan, kokarca
+🦘 Avustralya, kanguru, keseli, sıçrama, yavru keseli
+🦡 bal porsuğu, bela, porsuk
+🐾 hayvan, iz, pençe izi
+🦃 hindi
+🐔 kuş, tavuk
+🐓 horoz, kuş
+🐣 civciv, hayvan, kuluçka, piliç, tavuk, yavru, yumurtadan çıkan civciv
+🐤 civciv, hayvan, piliç, tavuk, yavru
+🐥 hayvan, önden civciv, piliç, tavuk, yavru, yüzü dönük civciv
+🐦 hayvan, kuş
+🐧 hayvan, penguen
+🕊 barış, güvercin, kuş, uçma
+🦅 kartal, kuş
+🦆 kuş, ördek
+🦢 çirkin ördek yavrusu, kuğu, kuğu yavrusu, kuş
+🦉 baykuş, bilge, kuş
+🦤 büyük, dodo kuşu, Mauritius, nesli tükenmiş, soyu tükenmiş
+🪶 hafif, kuş, kuş tüyü, tüylü, uçma
+🦩 flamingo, gösterişli, tropikal
+🦚 dişi tavus kuşu, gösterişli, gururlu, kuş, tavus kuşu
+🦜 konuşma, korsan, kuş, papağan
+🐸 kurbağa, yüz
+🐊 hayvan, timsah
+🐢 hayvan, kaplumbağa
+🦎 kertenkele, sürüngen
+🐍 hayvan, yılan
+🐲 ejderha, ejderha yüzü, hayvan, yüz
+🐉 ejderha, hayvan
+🦕 brachiosaurus, brontosaurus, brontozor, diplodocus, soropod
+🦖 T-Rex, Tyrannosaurus Rex
+🐳 balina, hayvan, su püskürten, su püskürten balina
+🐋 balina, hayvan
+🐬 hayvan, yunus
+🦭 ayı balığı, denizaslanı, fok, fok balığı
+🐟 balık, hayvan
+🐠 balık, hayvan, tropikal balık
+🐡 balık, balon balığı, hayvan
+🦈 balık, köpek balığı
+🐙 ahtapot, hayvan
+🐚 deniz kabuğu, hayvan, spiral deniz kabuğu
+🐌 salyangoz
+🦋 böcek, kelebek, şirin
+🐛 böcek, hayvan, kırkayak, tırtıl
+🐜 böcek, karınca
+🐝 arı, bal arısı, hayvan
+🪲 böcek, haşere
+🐞 böcek, hanım, hanımböceği, hayvan, uğur böceği
+🦗 çekirge, cırcır böceği
+🪳 böcek, hamam böceği, haşere, karafatma
+🕷 böcek, örümcek
+🕸 örümcek, örümcek ağı
+🦂 akrep, burç
+🦟 ateş, böcek, hastalık, sivrisinek, sıtma, virüs
+🪰 böcek, çürüme, hastalık, karasinek, larva, sinek
+🪱 kurt, kurtçuk, parazit, solucan
+🦠 amip, bakteri, mikrop, virüs
+💐 buket, çiçek, romantizm
+🌸 çiçek, çiçek izleme, kiraz, kiraz çiçeği
+💮 beyaz çiçek, çiçek, damga, iyi çalışma damgası
+🏵 bitki, çiçek rozet, gülce
+🌹 bitki, çiçek, gül
+🥀 çiçek, solmuş
+🌺 bitki, çiçek, çingülü, hatmi çiçeği
+🌻 ayçiçeği, bitki, çiçek, güneş
+🌼 bitki, çiçek, çiçek açma
+🌷 bitki, çiçek, lale
+🌱 fide, filizlenme, genç
+🪴 bitki, ev, ev bitkisi, saksı, saksı bitkisi, yetiştirme
+🌲 ağaç, yaprak dökmeyen, yaprak dökmeyen ağaç
+🌳 ağaç, yaprak döken, yaprak döken ağaç
+🌴 ağaç, palmiye, palmiye ağacı
+🌵 bitki, kaktüs
+🌾 başak, pirinç, pirinç başağı, pirinç bitkisi
+🌿 ot, yaprak
+☘ bitki, yonca
+🍀 dört, dört yapraklı yonca, şanslı, yaprak, yonca
+🍁 akçaağaç yaprağı, düşen yaprak, yaprak
+🍂 düşen, düşmüş, yaprak, yapraklar
+🍃 esen, rüzgar, rüzgardaki yaprak, yaprak
+🍇 meyve, üzüm
+🍈 kavun, meyve
+🍉 karpuz, meyve
+🍊 mandalina, meyve, portakal
+🍋 limon, meyve, narenciye
+🍌 meyve, muz
+🍍 ananas, meyve
+🥭 mango, meyve, tropikal
+🍎 elma, kırmızı, meyve
+🍏 elma, meyve, yeşil
+🍐 armut, meyve
+🍑 meyve, şeftali
+🍒 kiraz, meyve
+🍓 çilek, meyve, yumuşak meyve
+🫐 dağ mersini, mavi, mersin, yaban mersini
+🥝 kivi, meyve, yiyecek
+🍅 domates, meyve, sebze
+🫒 yiyecek, zeytin
+🥥 Hindistan cevizi, palmiye, pina colada
+🥑 avokado, meyve, yiyecek
+🍆 patlıcan, sebze
+🥔 patates, sebze, yiyecek
+🥕 havuç, sebze, yiyecek
+🌽 başak, mısır koçanı
+🌶 acı, biber, bitki
+🫑 biber, dolma biber, dolmalık biber, sebze
+🥒 salatalık, sebze, turşu, yiyecek
+🥬 çin lahanası, karalahana, lahana, marul, yeşil yapraklı sebze
+🥦 brokoli, yabani lahana
+🧄 baharat, sarımsak
+🧅 baharat, soğan
+🍄 bitki, mantar
+🥜 fındık, fıstık, sebze, yer fıstığı, yiyecek
+🌰 bitki, kestane
+🍞 ekmek, ekmek dilimi, restoran
+🥐 ay çöreği, ekmek, fransız, kruvasan, yiyecek
+🥖 baget, ekmek, fransız, yiyecek
+🫓 bazlama, lavaş, naan, pide, pita, yassı ekmek
+🥨 burgu, pretzel
+🥯 bagel, fırın, simit, sürme peynir
+🥞 gözleme, krep, pankek, yiyecek
+🧇 hamur, vafıl, waffle
+🧀 peynir, peynir dilimi
+🍖 kemikli et, restoran
+🍗 but, restoran, tavuk, tavuk butu
+🥩 biftek, kuşbaşı, parça et, sote, steak
+🥓 domuz pastırması, et, yiyecek
+🍔 hamburger, restoran
+🍟 kızartma patates, patates kızartması, restoran
+🍕 dilim, pizza, pizza dilimi, restoran
+🌭 hot dog, sosis, sosisli sandviç
+🥪 ekmek, sandviç
+🌮 Meksika sandviçi, tako
+🌯 burito, Meksika dürümü
+🫔 dürüm, Meksika yemeği, tamale
+🥙 döner, dürüm, falafel, kebap, pide, sarma, yiyecek
+🧆 falafel, köfte, nohut
+🥚 yiyecek, yumurta
+🍳 pişirme, restoran, yemek pişirme
+🥘 güveç, küçük, paella, sahanda yemek, tava, yiyecek
+🍲 restoran, tencere yemeği, yemek tenceresi
+🫕 çikolata, erimiş, fondü, İsviçre, kap, peynir
+🥣 kahvaltı, kaşıklı kase, pirinç lapası, tahıl gevreği
+🥗 salata, yeşil, yiyecek
+🍿 mısır, patlamış mısır
+🧈 süt ürünü, tereyağı
+🧂 çeşni, tuz, tuzluk
+🥫 konserve, konserve gıda
+🍱 bento, bento paketi, paket, restoran
+🍘 pirinç, pirinç gevreği
+🍙 onigiri, pirinç, pirinç topu, restoran
+🍚 pilav, pirinç, restoran
+🍛 köri, körili pilav, pirinç, restoran
+🍜 buharda pişmiş, erişte, noodle, noodle tabağı, restoran, tabak
+🍝 makarna, restoran, spagetti
+🍠 fırınlanmış patates, fırınlanmış tatlı patates, restoran, tatlı, tatlı patates, tırınlanmış
+🍢 çubuk, çubukta deniz ürünleri, oden, restoran
+🍣 restoran, suşi
+🍤 karides, kızarmış karides, restoran
+🍥 balık, balık köftesi, restoran, rulo balık köftesi
+🥮 ay pastası, festival, sonbahar, yuèbǐng
+🍡 çubukta pirinç tatlısı topları, dango, Japon pirinç tatlısı, pirinç tatlısı, pirinç tatlısı topları, restoran
+🥟 empanada, gyōza, jiaozi, mantı, pierogi, potsticker
+🥠 fal kurabiyesi, kehanet
+🥡 yiyecek paketi
+🦀 burç, ıstakoz, yengeç
+🦞 bisque, deniz ürünü, ıstakoz, kıskaç
+🦐 kabuklu deniz hayvanı, karides, küçük, yiyecek
+🦑 mürekkep balığı, yiyecek, yumuşakçalar sınıfı
+🦪 dalma, inci, istiridye
+🍦 dondurma, krema, restoran, yumuşak dondurma
+🍧 buz, meyveli, restoran
+🍨 buz, dondurma, krema, restoran
+🍩 donat, donut, doughnut, restoran
+🍪 kurabiye, restoran
+🎂 doğum günü, doğum günü pastası, kutlama, pasta
+🍰 dilim pasta, pasta, pasta dilimi, restoran
+🧁 cupcake, fırın, kapkek, tatlı, top kek
+🥧 pasta, poğaça, tart
+🍫 bar, çikolata, çikolata barı, restoran
+🍬 restoran, şekerleme
+🍭 lolipop, restoran, şekerleme
+🍮 krem karamel, puding, restoran
+🍯 bal, bal kabı, kap, restoran
+🍼 biberon, içecek, şişe, süt
+🥛 bardak, içecek, süt, süt bardağı
+☕ çay, dumanı tüten, içecek, kahve, sıcak
+🫖 çay, çaydanlık, demlik, içecek
+🍵 çay, çay fincanı, içecek
+🍶 bar, fincan, içecek, restoran, sake, sake şişesi ve fincanı, şişe
+🍾 bar, içki, mantar, patlayan mantarlı şişe, şişe
+🍷 bar, bardak, bardak şarap, içecek, kadeh, şarap bardağı, şarap kadehi
+🍸 bar, kokteyl bardağı, kokteyl kadehi, restoran
+🍹 bar, içecek, restoran, tropik
+🍺 bar, bira kupası, kupa, restoran
+🍻 bar, bira, bira kupaları tokuşturma, kupa, kupalar, restoran
+🥂 bardak, içecek, kadeh tokuşturma, kutlama, tokuşturma
+🥃 bardak, kısa ve geniş, kısa ve geniş bardak, likör, tek içki, viski
+🥤 pipetli bardak
+🧋 baloncuk, bubble tea, çay, inci, inci çayı, süt
+🧃 içecek kutusu, kutu meyve suyu
+🧉 içecek, mate çayı
+🧊 aysberg, buz küpü, soğuk
+🥢 chopsticks, yemek çubukları
+🍽 bıçak, çatal, tabak, tabakla birlikte çatal ve bıçak, yemek
+🍴 bıçak, çatal, çatal ve bıçak, restoran
+🥄 kaşık, yemek takımı
+🔪 bıçak, mutfak bıçağı
+🏺 alet, amfora, antika, içecek, kap, silah
+🌍 Afrika, Avrupa, dünya, yerkürede Avrupa-Afrika
+🌎 Amerika, Amerika bölgeleri, dünya, yerkürede Amerika
+🌏 Asya, Avustralya, dünya, yerkürede Asya-Avustralya
+🌐 boylamlar, dünya, meridyen, meridyenli yerküre, yerküre
+🗺 dünya, dünya haritası, harita
+🗾 harita, Japonya, Japonya haritası
+🧭 manyetik, navigasyon, orienteering, pusula
+🏔 dağ, kar, karla kaplı dağ, soğuk
+⛰ dağ
+🌋 dağ, volkan, yanardağ, yanardağ patlaması
+🗻 dağ, Fuji Dağı
+🏕 kamp, kamp yapma
+🏖 kumsal, plaj, plaj ve şemsiye, şemsiye
+🏜 çöl
+🏝 ada, çöl, ıssız ada
+🏞 milli park, park, ulusal park
+🏟 stadyum
+🏛 bina, klasik, tarihi, tarihi yapı
+🏗 bina, bina inşaatı, inşaat
+🧱 duvar, harç, kil, tuğla, tuğlalar
+🪨 ağır, katı, kaya, kayalık, sert, taş
+🪵 ağaç, ahşap, kereste, kütük, tomruk
+🛖 ev, kulübe, yurt
+🏘 bina, ev, evler
+🏚 bina, ev, harabe, terkedilmiş ev
+🏠 bina, ev
+🏡 bahçe, bahçeli ev, bina
+🏢 bina, ofis binası
+🏣 bina, Japon, Japon postanesi, posta
+🏤 Avrupa, Avrupa postanesi, bina, posta, postane
+🏥 bina, hastane
+🏦 banka, bina
+🏨 bina, otel
+🏩 aşk, aşk oteli, bina, otel
+🏪 bina, market, sürekli açık, sürekli açık market
+🏫 bina, okul, okul binası
+🏬 çok katlı, çok katlı mağaza, mağaza
+🏭 bina, fabrika
+🏯 bina, Japon şatosu, kale, şato
+🏰 bina, kale, şato
+💒 düğün, evlenme, kilise, kilisede evlenme, romantizm
+🗼 kule, Tokyo, Tokyo kulesi
+🗽 heykel, özgürlük, Özgürlük Heykeli
+⛪ din, haç, Hristiyan, kilise
+🕌 cami, din, İslam, Müslüman
+🛕 hindu, Hindu tapınağı, tapınak
+🕍 din, sinagog, tapınak, Yahudi
+⛩ din, şinto, Şinto tapınağı, tapınak
+🕋 din, islam, Kâbe, müslüman
+⛲ çeşme, fıskiye
+⛺ çadır, kamp yeri
+🌁 sis, sisli
+🌃 gece, yıldızlar, yıldızlı gece
+🏙 bina, şehir, şehir manzarası
+🌄 dağ, dağların arasından güneşin doğuşu, dağların ardında güneş, sabah güneşi
+🌅 güneşin doğuşu, sabah güneşi
+🌆 akşam, alacakaranlık, bina, gün batımı, manzara, şehir, şehirde alacakaranlık
+🌇 alacakaranlık, bina, binaların üzerinden gün batımı, gün batımı
+🌉 gece, gece vakti köprü
+♨ hamam, ılıca, kaplıca, sıcak
+🎠 at, atlıkarınca, atlıkarınca atı, eğlence
+🎡 dolap, dönme, eğlence, eğlence parkı
+🎢 eğlence, eğlence parkı, hız, hız treni, tren
+💈 berber, berber dükkanı, berber işareti, işaret
+🎪 çadır, eğlence, sirk çadırı
+🚂 buharlı lokomotif, lokomotif, taşıt, tren
+🚃 demir yolu, elektrik, elektrikli tren, taşıt, tramvay, vagon
+🚄 shinkansen, taşıt, tren, yüksek hızlı tren
+🚅 mermi burunlu, mermi burunlu shinkansen, shinkansen, taşıt, tren, yuvarlak uçlu yüksek hızlı tren
+🚆 demiryolu, taşıt, tren
+🚇 metro, taşıt
+🚈 demiryolu, hafif, hafif raylı, taşıt
+🚉 istasyon, tren, tren istasyonu
+🚊 taşıt, tramvay
+🚝 monoray, taşıt
+🚞 dağ, dağ teleferiği, demiryolu, taşıt, vagon
+🚋 taşıt, tramvay, tramvay vagonu, vagon
+🚌 otobüs, taşıt
+🚍 otobüs, taşıt, yaklaşan
+🚎 otobüs, taşıt, troley, troleybüs
+🚐 minibüs, otobüs, taşıt
+🚑 ambulans, taşıt
+🚒 araba, itfaiye arabası, itfaiye kamyonu, taşıt, yangın
+🚓 devriye arabası, polis, polis arabası, taşıt
+🚔 polis, polis arabası, taşıt, yaklaşan polis arabası
+🚕 taksi, taşıt
+🚖 taksi, taşıt, yaklaşan taksi
+🚗 araba, otomobil, taşıt
+🚘 araba, otomobil, taşıt, yaklaşan
+🚙 araba, cip, eğlence taşıtı, taşıt
+🛻 kamyon, kamyonet, pikap
+🚚 kamyon, nakliye kamyonu, taşıt
+🚛 çekici, çekici kamyon, taşıt, tır, treyler
+🚜 taşıt, traktör
+🏎 araba, yarış, yarış arabası
+🏍 motosiklet, yarış
+🛵 motor, motorlu skuter, skuter
+🦽 erişilebilirlik, tekerlekli sandalye
+🦼 elektrikli tekerlekli sandalye, erişilebilirlik
+🛺 elektrikli çekçek, tuk tuk
+🚲 bisiklet, taşıt
+🛴 ayak, ayakla sürülen skuter, skuter
+🛹 kaykay, tahta
+🛼 paten, tekerlek, tekerlekli paten
+🚏 durak, otobüs, otobüs durağı
+🛣 anayol, cadde, otoban
+🛤 tren, tren yolu
+🛢 benzin, fıçı, petrol, petrol varili, varil
+⛽ akaryakıt istasyonu, benzin, istasyon, yakıt, yakıt pompası
+🚨 polis arabası, polis lambası, polis tepe lambası
+🚥 ışık, trafik, trafik sinyalleri, yatay trafik ışığı, yatay trafik ışıkları
+🚦 dikey trafik ışığı, dikey trafik ışıkları, ışık, trafik, trafik sinyalleri
+🛑 dur, dur işareti, işaret, sekizgen
+🚧 inşaat, inşaat işareti, işaret
+⚓ çıpa, gemi, işaret
+⛵ deniz tatil yeri, tatil yeri, tekne, yat, yelkenli tekne
+🛶 bot, kano
+🚤 sürat teknesi, taşıt, tekne
+🛳 gemi, taşıt, yolcu, yolcu gemisi
+⛴ feribot, tekne
+🛥 motor, motorlu tekne, taşıt, tekne
+🚢 gemi, taşıt
+✈ taşıt, uçak
+🛩 küçük uçak, taşıt, uçak
+🛫 check in, kalkan uçak, kalkış, taşıt, uçak
+🛬 inen uçak, iniş, inme, taşıt, uçak, varış
+🪂 delta kanat, deniz paraşütü, paraşüt, paraşütle atlama
+💺 koltuk, sandalye
+🚁 helikopter, taşıt
+🚟 asma, demiryolu, taşıt
+🚠 dağ, dağ teleferiği, dağ teleferik hattı, kablo, taşıt, vagon
+🚡 gondol, hava tramvayı, havadan yol, kablo yolu, taşıt, teleferik, tramvay
+🛰 araç, uydu, uzay
+🚀 roket, taşıt
+🛸 uçan daire, UFO
+🛎 çan, otel, resepsiyon zili, zil
+🧳 bagaj, bavul, seyahat, valiz
+⌛ kum, kum saati
+⏳ akan kum saati, sayaç, zamanlayıcı
+⌚ kol saati, saat
+⏰ alarm, çalar saat, saat
+⏱ kronometre, saat
+⏲ alarm, saat, zamanlayıcı
+🕰 raf saati, saat
+🕛 12:00, on iki, saat, saat 12
+🕧 12:30, on iki buçuk, on iki otuz, saat, yarım
+🕐 1:00, bir, saat, saat 1
+🕜 1:30, bir buçuk, saat
+🕑 2:00, iki, saat, saat 2
+🕝 2:30, iki buçuk, saat
+🕒 3:00, saat, saat 3, üç
+🕞 3:30, saat, üç buçuk
+🕓 4:00, dört, saat, saat 4
+🕟 4:30, dört buçuk, saat
+🕔 5:00, beş, saat, saat 5
+🕠 5:30, beş buçuk, saat
+🕕 6:00, altı, saat, saat 6
+🕡 6:30, altı buçuk, saat
+🕖 7:00, saat, saat 7, yedi
+🕢 7:30, saat, yedi buçuk
+🕗 8:00, saat, saat 8, sekiz
+🕣 8:30, saat, sekiz buçuk
+🕘 9:00, dokuz, saat, saat 9
+🕤 9:30, dokuz buçuk, saat
+🕙 10:00, on, saat, saat 10
+🕥 10:30, on buçuk, saat
+🕚 11:00, on bir, saat, saat 11
+🕦 11:30, on bir buçuk, saat
+🌑 ay, karanlık, yeni
+🌒 ay, büyüyen ay, yükselen
+🌓 ay, ilk dördün
+🌔 ay, geniş ay, şişkin, yükselen
+🌕 ay, dolu, dolunay, parlak
+🌖 ay, küçülen ay, şişkin, solgun
+🌗 ay, dördün, son dördün
+🌘 ay, ince ay, solgun
+🌙 ay, hilal
+🌚 ay, yeni ay, yeni ay yüzü, yüz, yüzü olan yeni ay
+🌛 ay, dördün, ilk dördün, ilk dördün ay yüzü, yüz, yüzü olan ay, yüzü olan ilk dördün
+🌜 ay, dördün, son dördün, son dördün ay yüzü, yüz, yüzü olan ay, yüzü olan son dördün
+🌡 hava durumu, termometre
+☀ aydınlık, güneş, güneşli, hava durumu, ışık, uzay
+🌝 ay, dolu, dolunay, dolunay yüzü, yüz, yüzü olan ay, yüzü olan dolunay
+🌞 güneş, yüz
+🪐 halkalı gezegen, satürn
+⭐ beyaz orta yıldız, yıldız
+🌟 kıvılcım, parıldama, parıldayan yıldız, pırıltı, yıldız
+🌠 kayan, yıldız, yıldız kayması
+🌌 gökyüzü, samanyolu, uzay
+☁ bulut, hava durumu
+⛅ bulut, bulutlar ardındaki güneş, bulutlu güneş, güneş
+⛈ bulut, gökgürültüsü, hava durumu, şimşek ve yağmurlu bulut, yağmur
+🌤 bulut, bulutun arkasındaki güneş, güneş, hava durumu
+🌥 bulut, bulutta kaybolan güneş, güneş, hava durumu
+🌦 bulut, güneş, hava durumu, yağmur, yağmur bulutunun arkasındaki güneş
+🌧 bulut, hava durumu, yağmur, yağmur bulutu
+🌨 bulut, hava durumu, kar, kar bulutu, soğuk
+🌩 bulut, hava durumu, şimşek bulutu, yıldırım
+🌪 bulut, hava durumu, hortum
+🌫 bulut, hava durumu, sis
+🌬 esme, hava durumu, rüzgar
+🌀 baş dönmesi, hortum, siklon, tayfun
+🌈 gökkuşağı, hava durumu, yağmur
+🌂 kapalı şemsiye, yağmur, yağmurlu
+☂ giyim, hava durumu, şemsiye, yağmur
+☔ giyim, hava durumu, yağmur, yağmur damlalı şemsiye
+⛱ güneş, hava durumu, sabit şemsiye, şemsiye, yağmur
+⚡ işaret, tehlike, voltaj, yüksek, yüksek voltaj işareti, yüksek voltaj tehlikesi
+❄ hava durumu, kar, kar tanesi, soğuk
+☃ hava durumu, kar, kardan adam, soğuk
+⛄ kar, kar yağmadan kardan adam, karsız kardan adam
+☄ kuyruklu yıldız, uzay
+🔥 alev, ateş
+💧 çizgi roman, damlacık, ter, terli
+🌊 dalga, okyanus dalgası, su dalgası
+🎃 cadılar bayramı, fener, halloween, jack, kabak, kutlama
+🎄 ağaç, kutlama, Noel ağacı
+🎆 havai fişek, kutlama
+🎇 fişek, havai fişek, kutlama
+🧨 dinamit, havai fişek, maytap, patlayıcı
+✨ *, parıltı, parıltılar, pırıltı, yıldız
+🎈 balon, kutlama
+🎉 konfeti, kutlama, parti, parti konfetisi
+🎊 konfeti, konfeti topu, kutlama, top
+🎋 ağaç, kağıt şeritler, kutlama, Star Festivali, tanabata ağacı
+🎍 çam, çam süsleme, Japon, kutlama, Yeni Yıl
+🎎 Bebek Festivali, festival, Japon, Japon oyuncak bebekleri, kutlama
+🎏 flama, kutlama, sazan şekilli flama
+🎐 çan, rüzgar çanı
+🎑 ay, ay izleme töreni, izleme, kutlama
+🧧 hediye, hóngbāo, iyi şanslar, kırmızı zarf, lai see, para
+🎀 kurdele, kutlama
+🎁 kutlama, paketlenmiş hediye, paketli, paketli hediye
+🎗 anma, anma kurdelesi, kurdele, kutlama
+🎟 bilet, giriş, giriş bileti
+🎫 bilet, giriş
+🎖 askeri, kutlama, madalya
+🏆 ödül, zafer kupası
+🏅 madalya, spor madalyası
+🥇 altın, birinci, birincilik madalyası, madalya
+🥈 gümüş, ikinci, ikincilik madalyası, madalya
+🥉 bronz, madalya, üçüncü, üçüncülük madalyası
+⚽ futbol, futbol topu, top
+⚾ beyzbol, top
+🥎 eldiven, kol, softball, top
+🏀 basketbol, basketbol potası, pota, spor, top
+🏐 maç, top, voleybol
+🏈 amerikan, amerikan futbolu, spor, top
+🏉 futbol topu, ragbi, spor, top
+🎾 spor, tenis, tenis raketi ve topu, tenis topu, top
+🥏 frizbi, ultimate
+🎳 bovling, bovling topu, oyun, top
+🏏 kriket, maç, sopa, top
+🏑 çim hokeyi, hokey, maç, saha, sopa, top
+🏒 buz, buz hokeyi, disk, hokey, maç, sopa
+🥍 gol, lakros, sopa, top
+🏓 maç, masa tenisi, pinpon, raket, top
+🏸 badminton, maç, raket, tüylü top
+🥊 boks, boks eldiveni, eldiven, spor
+🥋 dövüş sporu, dövüş sporu forması, forma, judo, karate, spor, tekvando
+🥅 ağ, kale, kale ağı, spor
+⛳ delik, delikteki bayrak, golf, golf bayrağı
+⛸ buz, buz pateni, paten
+🎣 balık, dinlenme, eğlence, kamış, kamış olta ve balık, olta
+🤿 aletli dalış, dalgıç maskesi, dalış, şnorkelle dalış
+🎽 çizgi, çizgili koşu tişörtü, koşu, koşu tişörtü, spor, tişört
+🎿 bot, kayak, kayak ve bot, spor
+🛷 kızak
+🥌 curling taşı, körling taşı, oyun, taş
+🎯 hedef, hedefe isabet, isabet, oyun, tam isabet
+🪀 inip çıkma, oyuncak, yoyo
+🪁 süzülme, uçma, uçurtma
+🎱 bilardo, oyun, sekiz top
+🔮 fal, fal bakma, kristal, küre
+🪄 büyücü, cadı, sihir, sihirli asa
+🧿 boncuk, kem göz, mavi boncuk, muska, nazar, nazarlık, tılsım
+🎮 kontrol cihazı, oyun, oyun kontrol cihazı, video oyunu
+🕹 oyun, oyun çubuğu, video oyunu
+🎰 kumar, kumar makinesi, oyun
+🎲 oyun, oyun zarı, zar
+🧩 ipucu, kenetleme, parça, puzzle, yapboz, yapboz parçası
+🧸 dolgu, oyun, oyuncak, oyuncak ayı, pelüş
+🪅 kutlama, parti, pinyata
+🪆 bebek, iç içe, matruşka, Rusya
+♠ iskambil, kart, maça, pik
+♥ iskambil, kart, kör, kupa
+♦ iskambil, karo, kart
+♣ iskambil, kart, sinek, trefl
+♟ harcanabilir, kullanılma, piyon, satranç
+🃏 iskambil kartı, joker, kart
+🀄 Ejderha, Kızıl Ejder, kızıl ejder mahjong taşı, mahjong, taş
+🎴 çiçek, çiçekli kart, çiçekli oyun kağıtları, hanafuda, kağıt oyunu, kart, oyun
+🎭 eğlence, performans, performans sanatı, sahne sanatları, sanat
+🖼 çerçeve, müze, resim, resimli çerçeve, sanat, yağlı boya
+🎨 boya, boya paleti, palet, sanat, sanatçı, sanatçı paleti
+🧵 dikiş, iğne, iplik, makara
+🪡 dikiş, dikiş iğnesi, dikme, iğne, nakış, sökük, terzi
+🧶 iplik yumağı, kroşe, top, yumak
+🪢 bağlı, denizci düğümü, dolaşık, düğüm, halat, sicim
+👓 giyim, gözlük
+🕶 göz, gözlük, güneş gözlüğü, kara
+🥽 göz koruması, kaynak, koruyucu gözlük, yüzme
+🥼 bilim insanı, deney, doktor, laboratuvar önlüğü
+🦺 acil durum, güvenlik, güvenlik yeleği, yelek
+👔 giyim, kravat
+👕 giyim, gömlek, tişört
+👖 blucin, blue jean, giyim, kot, pantolon
+🧣 atkı, yaka
+🧤 el, eldiven
+🧥 kaban
+🧦 çorap
+👗 elbise, giyim, tek parça
+👘 elbise, giyim, kimono
+🥻 elbise, giysi, sari
+🩱 mayo, tek parça mayo
+🩲 alt, mayo, slip, tek parça
+🩳 alt, mayo, şort
+👙 bikini, deniz giysisi, giyim
+👚 giyim, giysiler, kadın giysisi
+👛 bozuk para, bozuk para çantası, cüzdan, giyim
+👜 çanta, el çantası, giyim
+👝 çanta, giyim, para kesesi
+🛍 alışveriş, alışveriş çantası, çanta, otel
+🎒 okul, okul çantası, okul sırt çantası, sırt çantası
+🩴 deniz terliği, kumsal terliği, parmak arası, parmak arası terlik, sandalet
+👞 ayakkabı, erkek ayakkabısı, giyim
+👟 ayakkabı, bez ayakkabı, giyim, koşu ayakkabısı
+🥾 bot, kamp, sırt çantası, yürüyüş, yürüyüş botu
+🥿 babet, düz ayakkabı, terlik, topuksuz
+👠 ayakkabı, giyim, yüksek topuklu ayakkabı
+👡 giyim, kadın, kadın sandaleti, sandalet
+🩰 bale, bale ayakkabıları, dans
+👢 bot, giyim, kadın, kadın botu
+👑 giyim, taç
+👒 giyim, kadın şapkası, şapka
+🎩 eğlence, şapka, silindir şapka
+🎓 kep, kutlama, mezuniyet, mezuniyet kepi
+🧢 beyzbol şapkası, siperli şapka
+🪖 asker, asker kaskı, askerlik, kask, ordu, savaşçı
+⛑ haç, kask, şapka, yardım, yardım ekibi kaskı, yüz
+📿 boncuk, din, dua, giyim, kolye, tesbih, tespih
+💄 kozmetik, makyaj, ruj
+💍 romantizm, tek taş, yüzük
+💎 elmas, mücevher, mücevher taşı, romantizm
+🔇 iptal işaretli hoparlör, lütfen sessiz olun, ses kapalı, sessiz olun
+🔈 kısık ses, ses düzeyi
+🔉 düşük, düşük ses, düşük sesli hoparlör, ses açık
+🔊 yüksek, yüksek ses, yüksek sesli hoparlör
+📢 halka hitap, hoparlör, iletişim, megafon
+📣 iletişim, karşılama, megafon
+📯 klakson, posta, posta klaksonu
+🔔 çan, kilise, zil
+🔕 çan, iptal işaretli çan, ses yok, üzeri çizili zil
+🎼 müzik, partisyon, sol anahtarı
+🎵 müzik, müzik notası, nota
+🎶 müzik, müzik notaları, nota, notalar
+🎙 mikrofon, müzik, stüdyo, stüdyo mikrofonu
+🎚 ayar çubuğu, ayarlama çubuğu, kol, müzik
+🎛 düğme, kontrol, kontrol düğmeleri, müzik
+🎤 eğlence, Karaoke, mikrofon
+🎧 eğlence, kulaklık
+📻 radyo, video
+🎷 alet, müzik, müzik aleti, saksafon
+🪗 akordeon, akordiyon
+🎸 alet, gitar, müzik, müzik aleti
+🎹 alet, klavye, müzik, müzik aleti, müzik klavyesi
+🎺 alet, müzik, müzik aleti, trompet
+🎻 alet, keman, müzik, müzik aleti
+🪕 banjo, müzik, yaylı
+🥁 davul, müzik, tokmak
+🪘 conga, davul, ritm, tempo, uzun davul, vuruş
+📱 cep telefonu, mobil telefon, telefon
+📲 çağrı yapmak, mobil telefon, ok işaretli cep telefonu, telefon
+☎ telefon
+📞 ahize, alıcı, telefon
+📟 çağrı cihazı, iletişim
+📠 faks makinesi, iletişim
+🔋 pil
+🔌 elektrik, elektrik fişi
+💻 bilgisayar, dizüstü bilgisayar, kişisel
+🖥 bilgisayar, masaüstü
+🖨 bilgisayar, yazıcı
+⌨ bilgisayar, klavye
+🖱 bilgisayar, bilgisayar faresi, düğme, fare
+🖲 bilgisayar, iz topu
+💽 disk, mini disk
+💾 disket, floppy
+💿 CD, disk, DVD, optik disk
+📀 blu-ray, disk, dvd, DVD disk
+🧮 abaküs, hesaplama
+🎥 eğlence, film, film kamerası, sinema
+🎞 film, film kareleri, film karesi, sinema
+📽 film, film projektörü, projektör, sinema, video
+🎬 eğlence, film, film tahtası, tahta
+📺 televizyon, tv, video
+📷 fotoğraf makinesi, video
+📸 flaş, flaşlı fotoğraf makinesi, kamera, video
+📹 kamera, video
+📼 teyp, video, video kaseti, videokaset
+🔍 arama, cam, sola dönük büyüteç, solu gösteren, solu gösteren büyüteç
+🔎 arama, cam, sağa dönük büyüteç, sağı gösteren, sağı gösteren büyüteç
+🕯 ışık, mum
+💡 ampul, bir fikrim var, çizgi roman, elektrik, ışık
+🔦 el feneri, elektrik, ışık
+🏮 bar, fener, izakaya, kırmızı, kırmızı kağıt fener, restoran
+🪔 diya, lamba, yağ
+📔 dekorasyonlu not defteri, kapak, not defteri, süslü not defteri
+📕 kapalı kitap, kitap
+📖 açık kitap, kitap
+📗 kitap, yeşil kitap
+📘 kitap, mavi kitap
+📙 kitap, turuncu kitap
+📚 kitap, kitaplar
+📓 not defteri
+📒 not defteri, resmi defter
+📃 kenarı kıvrılmış sayfa, kıvrık sayfa, sayfa
+📜 kağıt parşömen, parşömen
+📄 doküman, ön yüz, ön yüzü görünen sayfa, sayfa, yüzü yukarıda sayfa
+📰 gazete, haber, kâğıt
+🗞 gazete, haber, kağıt, rulo
+📑 ayraçlar, işaretçi, sayfa ayraçları, sayfa işareti
+🔖 işaret, yer işareti
+🏷 etiket
+💰 çanta, dolar çantası, para, para torbası
+🪙 altın, bozuk para, gümüş, hazine, jeton, metal, para, sikke
+💴 banknot, döviz, para, yen
+💵 banknot, dolar, döviz, para
+💶 avro, banknot, döviz, euro, para
+💷 banknot, döviz, para, sterlin
+💸 banka, banknot, kanatlı para, para, uçan banknot
+💳 kart, kredi, kredi kartı
+🧾 defter tutma, kanıt, kayıt, makbuz, muhasebe
+💹 grafik, piyasa, yen simgeli artış grafiği, yukarı giden grafik, yukarı yönlü
+✉ e-mail, e-posta, mektup, zarf
+📧 e-posta, ileti, iletişim, mektup, posta
+📨 alınan posta, e-posta, gelen, iletişim, mektup, posta, zarf
+📩 e-posta, giden, gönderilen posta, oklu zarf, zarf
+📤 giden, giden kutusu, iletişim, kutu, posta, tepsi
+📥 gelen, gelen kutusu, iletişim, kutu, posta, tepsi
+📦 kutu, paket
+📫 işaret, işareti kaldırılmış posta kutusu, işareti yukarıda kapalı posta kutusu, kapalı, posta
+📪 işaret, işareti aşağıda kapalı posta kutusu, işareti indirilmiş posta kutusu, kapalı, posta
+📬 açık, işaret, işareti kaldırılmış açık posta kutusu, işareti yukarıda açık posta kutusu, posta
+📭 açık, işaret, işareti aşağıda açık posta kutusu, işareti indirilmiş açık posta kutusu, posta
+📮 posta, posta kutusu
+🗳 kutu, oy sandığı, sandık
+✏ kurşun kalem
+✒ kalem, siyah uç
+🖋 dolma kalem, kalem
+🖊 kalem, tükenmez kalem
+🖌 boya fırçası, boyama
+🖍 mum, mum boya, pastel, pastel boya
+📝 iletişim, not, not defteri
+💼 evrak çantası
+📁 dosya, dosya klasörü, klasör
+📂 açık, açık dosya klasörü, dosya, klasör
+🗂 ayırıcı, dizin, dosya ayırıcı, kart
+📅 takvim, tarih
+📆 koparmalı takvim, takvim
+🗒 defter, not, spiral, spiral not defteri
+🗓 defter, spiral, takvim
+📇 dizin, kart dizini, rolodeks
+📈 artış grafiği, grafik, yukarı yönlü, yükselen grafik
+📉 alçalan grafik, aşağı yönlü, grafik, iniş grafiği
+📊 çubuk grafiği, grafik
+📋 pano
+📌 iğne, raptiye
+📍 iğne, raptiye, yuvarlak raptiye
+📎 ataş, klips
+🖇 ataş, bağlantı, iç içe geçmiş ataşlar
+📏 cetvel, düz cetvel
+📐 cetvel, gönye, üçgen
+✂ alet, makas
+🗃 dosya, dosya kutusu, kart, kutu
+🗄 dolap, dosya, dosya dolabı
+🗑 çöp sepeti
+🔒 kapalı kilit, kilit
+🔓 açık, kilidini açma, kilit
+🔏 gizlilik, kilit ve kalem, mürekkepli kalem, mürekkepli kalemli kilit
+🔐 anahtarlı kapalı kilit, anahtarlı kilit, güvenli
+🔑 anahtar, kilit, parola, şifre
+🗝 anahtar, eski, ipucu, kilit
+🔨 araç, çekiç
+🪓 ağaç, balta, kesme, kısa balta, yarma
+⛏ alet, kazma, maden
+⚒ alet, çekiç, çekiç ve kazma, kazma
+🛠 alet, çekiç, çekiç ve ingiliz anahtarı, çekiç ve somun anahtarı, ingiliz anahtarı
+🗡 bıçak, hançer, silah
+⚔ çapraz, çapraz kılıçlar, çarpı, çatma, kılıç, silah
+🔫 revolver, silah, su tabancası, tabanca
+🪃 avustralya, bumerang, geri tepme, sekme, tepki
+🏹 araç, burç, ok, ok ve yay, okçu, silah, yay
+🛡 kalkan, silah
+🪚 alet, kereste, marangoz, testere
+🔧 araç, ingiliz anahtarı, somun anahtarı
+🪛 alet, sıkma, tornavida, vida
+🔩 araç, somun, somun ve vida, vida
+⚙ alet, dişli
+🗜 alet, mengene, sıkıştırma
+⚖ adalet, ağırlık, alet, burç, denge, ölçek, terazi
+🦯 erişilebilirlik, görme engelli, görme engelli bastonu
+🔗 bağlantı işareti, bağlantılar, iki halka
+⛓ zincir
+🪝 askı, çengel, eğri, kanca
+🧰 alet, alet çantası, sandık, tamirci
+🧲 at nalı, çekim, manyetik, mıknatıs
+🪜 adım, basamak, merdiven, tırmanış
+⚗ alet, damıtıcı, imbik, kimya
+🧪 bilim, deney, deney tüpü, kimya, kimyacı, laboratuvar
+🧫 bakteri, biyolog, biyoloji, kültür, laboratuvar, petri kabı
+🧬 biyolog, dna, evrim, gen, genetik, yaşam
+🔬 alet, bilim, mikroskop
+🔭 alet, teleskop
+📡 anten, çanak, iletişim, uydu, uydu anteni
+💉 doktor, iğne, ilaç, şırınga
+🩸 âdet, aybaşı, ilaç, kan bağışı, kan damlası, mens, regl
+💊 doktor, hap, ilaç
+🩹 bandaj, bant, yapışkanlı bandaj, yara bandı
+🩺 doktor, kalp, stetoskop, tıp
+🚪 kapı
+🛗 asansör, erişilebilirlik, lift
+🪞 ayna, reflektör, spekulum, yansıma, yansıtıcı
+🪟 açılım, çerçeve, manzara, pencere, saydam, şeffaf, temiz hava
+🛏 otel, uyuma, yatak
+🛋 kanepe, kanepe ve lamba, lamba, otel
+🪑 iskemle, oturma, sandalye
+🚽 klozet, tuvalet, WC
+🪠 açıcı, çekme, lavabo açıcı, lavabo pompası, tuvalet
+🚿 duş, su
+🛁 banyo, banyo küveti
+🪤 fare kapanı, kapan, kıskaç, tuzak
+🪒 keskin, tıraş, ustura
+🧴 güneş kremi, losyon, losyon şişesi, nemlendirici, şampuan
+🧷 bebek bezi, çengelli iğne, punk rock
+🧹 cadı, süpürge, süpürme, temizlik
+🧺 çamaşır, çiftçilik, piknik, sepet
+🧻 kağıt havlu, kağıt rulosu, tuvalet kağıdı
+🪣 fıçı, kap, kepçe, kova
+🧼 banyo, kalıp, köpük, sabun, sabunluk, temizlik
+🪥 banyo, dental, diş, diş fırçası, fırça, hijyen, lavabo
+🧽 emici, gözenekli, sünger, temizlik
+🧯 ateş, söndürme, yangın, yangın söndürücü
+🛒 alışveriş, alışveriş arabası, araba, pazar arabası
+🚬 işaret, sigara, sigara içilebilir, sigara içme
+⚰ cenaze, ölüm, tabut
+🪦 defin, mezar, mezar taşı, mezarlık
+⚱ cenaze, kül, kül kavanozu, ölüm, vazo
+🗿 heykel, Moyai, moyai heykeli
+🪧 gösteri, işaret, protesto, tabela
+🏧 ATM işareti, otomatik, vezne
+🚮 çöp kutusu, çöp kutusu işareti, çöpü yerine atın, işaret
+🚰 içilebilir su, içme suyu, işaret
+♿ erişim, işaret, tekerlekli sandalye, tekerlekli sandalye erişimi, tekerlekli sandalye sembolü, tekerlekli sandalye simgesi
+🚹 erkekler tuvaleti, işaret, tuvalet
+🚺 işaret, kadınlar tuvaleti, tuvalet
+🚻 lavabo, tuvalet, wc
+🚼 bebek, bebek alt değiştirme yeri, bebek işareti, bebek teknede
+🚾 lavabo, tuvalet, wc, WC
+🛂 kontrol, pasaport, pasaport kontrolü
+🛃 gümrük
+🛄 bagaj, bagaj teslim
+🛅 bagaj, bagaj hizmeti, eşya emanet
+⚠ işaret, uyarı, uyarı işareti
+🚸 çocuklar, işaret, karşıya geçen çocuklar, karşıya geçiş
+⛔ girilmez, Girilmez, hayır, işaret, yasak
+🚫 Girilmez, girmek yasak, işaret
+🚳 bisiklet, bisiklet giremez, bisiklet yasak, taşıt
+🚭 duman, sigara içilmez, tütün, yasak
+🚯 çöp atılmaz, çöp atmayın, çöp atmayın işareti, işaret
+🚱 içilmeyen, içilmez, su
+🚷 işaret, yaya, yayalar giremez, yayalara yasak
+📵 çağrı yapılmaz, cep telefonu yasak, mobil, telefon
+🔞 18, 18 yaş altı, 18 yaş altı yasak, 18 yaş altı yasaktır
+☢ nükleer, radyoaktif
+☣ biyolojik tehlike, sembol
+⬆ ana yön, kuzey, ok, yön, yukarı ok, yukarı yönlü ok
+↗ ara yön, kuzey doğu, ok, sağ yukarı ok, yön
+➡ ana yön, doğu, ok, sağ ok, yön
+↘ ara yön, güney doğu, ok, sağ aşağı ok, yön
+⬇ ana yön, aşağı, aşağı yönlü ok, güney, ok, yön
+↙ ara yön, güney batı, ok, sol aşağı ok, yön
+⬅ ana yön, batı, ok, sol ok, yön
+↖ ara yön, kuzey batı, ok, sol yukarı ok, yön
+↕ ok, yukarı ve aşağı ok
+↔ ok, sol ve sağ ok
+↮ sol sağ çizgili ok
+↩ ok, sola kıvrımlı sağ ok
+↪ ok, sağa kıvrımlı sol ok
+⤴ ok, yukarı kıvrımlı sağ ok
+⤵ aşağı, aşağı kıvrımlı sağ ok, ok
+🔃 oklar, saat yönünde dikey oklar, saat yönünde dönen oklar, saat yönüne dönen oklar, yeniden yükle işareti
+🔄 oklar, saat yönünün tersinde dönen oklar, saat yönünün tersine, saat yönünün tersine dönen oklar
+🔙 geri oku, ok, sol geri ok, sol ok
+🔚 bitiş oku, ok, sol bitiş oku, sol ok
+🔛 açık oku, ok, ünlem, ünlem işareti, ünlem işareti ve okla AÇIK
+🔜 ok, sağ okla Yakında, Yakında, yakında işareti
+🔝 yukarı, Yukarı, yukarı ok, yukarı okla Yukarı, yukarı oku
+🛐 din, ibadethane, tapınma
+⚛ ateist, atom, atom sembolü
+🕉 din, Hinduizm, om
+✡ Davut, Davut yıldızı, din, Yahudi, yıldız
+☸ Budist, çember, darma çemberi, dharma, dharma tekeri, din
+☯ din, tao, taocu, yang, yin
+✝ din, haç, Hristiyan, İsa, Latin haçı
+☦ din, haç, Hristiyan, İsa, Ortodoks haçı
+☪ ay yıldız, din, İslam, Müslüman
+☮ barış, barış sembolü
+🕎 din, menora, mum, şamdan, Yahudi şamdanı
+🔯 altı köşeli, altı köşeli yıldız, fal, fal bakma, yıldız
+♈ burçlar, koç burcu
+♉ boğa burcu, burçlar
+♊ burçlar, ikizler burcu
+♋ burçlar, yengeç burcu
+♌ aslan burcu, burçlar
+♍ başak burcu, burçlar
+♎ burçlar, terazi burcu
+♏ akrep burcu, burçlar
+♐ burçlar, yay burcu
+♑ burçlar, oğlak burcu
+♒ burçlar, kova burcu
+♓ balık burcu, burçlar
+⛎ burçlar, Yılancı
+🔀 çapraz sağ oklar, oklar, parça karıştırma düğmesi
+🔁 oklar, saat yönünde, tekrarlama düğmesi
+🔂 1 sayısı, 1 sayısı olan saat yönünde oklar, oklar, saat yönünde, tek parça tekrarlama düğmesi
+▶ ok, oynatma, oynatma düğmesi, sağ, üçgen
+⏩ ileri sarma düğmesi, ok, sağ, sağa çift ok
+⏭ ok, sonraki parça, sonraki parça düğmesi, sonraki sahne, üçgen
+⏯ duraklatma, ok, oynatma, oynatma veya duraklatma düğmesi, sağ, üçgen
+◀ geri düğmesi, ok, sol, ters, üçgen
+⏪ hızlı geri düğmesi, ok, sol, sola çift ok
+⏮ ok, önceki parça, önceki sahne, son parça düğmesi, üçgen
+🔼 düğme, üçgen, yukarı düğmesi, yukarı üçgen düğmesi
+⏫ hızlı yukarı düğmesi, ok, yukarı, yukarı çift ok
+🔽 aşağı düğmesi, aşağı üçgen düğmesi, düğme, üçgen
+⏬ aşağı, aşağı çift ok, hızlı aşağı düğmesi, ok
+⏸ çift çizgi, çubuk, dikey, duraklatma, duraklatma düğmesi
+⏹ durdur, durdurma düğmesi, kare
+⏺ daire, kayıt, kayıt düğmesi
+⏏ çıkar, çıkarma düğmesi
+🎦 eğlence, film işareti, sinema
+🔅 düşük, düşük parlaklık işareti, karanlık, parlaklık
+🔆 parlak, parlaklık, yüksek parlaklık, yüksek parlaklık işareti
+📶 anten, çubuk işaretli anten, mobil, sinyal, sinyal gücü, telefon
+📳 cep telefonu, mobil, mod, telefon, titreşim modu
+📴 cep telefonu, cep telefonu kapalı, kapalı, mobil, telefon
+♀ bayan, kadın, kadın sembolü
+♂ adam, erkek, erkek sembolü
+⚧ transgender, transgender sembolü, transseksüel
+✖ ×, çarpım, çarpım işareti, çarpma, iptal, işaret, x
+➕ +, artı, artı işareti, işaret, matematik
+➖ -, −, eksi, eksi işareti, işaret, matematik
+➗ ÷, bölü, bölü işareti, işaret, matematik
+♾ evrensel, sınırsız, sonsuz, sonsuzluk
+‼ !, !!, çift ünlem, işaret, noktalama, ünlem
+⁉ !, !?, ?, işaret, noktalama, soru, ünlem, ünlemli soru işareti
+❓ ?, işaret, kırmızı soru işareti, noktalama, soru, soru işareti
+❔ ?, beyaz soru işareti, işaret, noktalama, soru
+❕ !, beyaz ünlem işareti, işaret, noktalama, ünlem
+❗ !, kırmızı ünlem işareti, noktalama, ünlem, ünlem işareti
+〰 çizgi, dalgalı, uzun ses işareti
+💱 bozdurma, döviz, kambiyo, para
+💲 dolar, dolar işareti, koyu renk dolar işareti, para
+⚕ Asklepios, medikal sembol, tıbbi sembol, tıp, tıp çalışanı, tıp sembolü
+♻ evrensel, geri dönüşüm, geri dönüşüm simgesi, işaret, koyu renk evrensel geri dönüşüm simgesi
+⚜ fleur-de-lis, zambak
+🔱 amblem, çıpa, üçlü çatal, üçlü çatal işareti
+📛 ad, ad rozeti, rozet
+🔰 Japonca, Japonca yeni başlayan sembolü, yeni başlayan, yeşil ve sarı, yeşil ve sarı yaprak
+⭕ çember, kalın çember, kalın kırmızı çember, o
+✅ ✓, düğme, işaret, onay, onay işareti düğmesi
+☑ ✓, kutu, kutulu, onay, seçili onay işareti, seçilmiş onay kutusu
+✔ ✓, işaret, onay, onay işareti
+❌ ×, çarpı, çarpı işareti, çarpma, iptal, işaret, x
+❎ ×, çarpı işareti düğmesi, kare, x
+➰ döngü, dönüş, kıvrık döngü
+➿ çift kıvrık döngü, Japonya, kıvrık döngü, ücretsiz numara
+〽 işaret, parça, parça değiştirme işareti
+✳ *, asterisk, sekiz uçlu yıldız, yıldız
+✴ *, sekiz noktalı yıldız, yıldız
+❇ *, parlama
+© c, telif hakkı, telif hakkı işareti
+® r, tescil işareti, tescilli, tescilli işareti
+™ işaret, ticari marka, ticari marka işareti
+🔠 büyük harf, büyük harfler, Latin, Latin büyük harfleri, Latin büyük harfleriyle giriş
+🔡 küçük harf, küçük harfler, Latin, Latin küçük harfleri, Latin küçük harfleriyle giriş
+🔢 sayı girişi, sayılar
+🔣 işaret girişi, işaretler
+🔤 ABC, İngilizce, Latin, Latin alfabesi, Latin alfabesiyle giriş
+🅰 A, A düğmesi (kan grubu), A grubu kan, kan, kan grubu, kan grubu A
+🆎 AB, AB düğmesi (kan grubu), AB grubu kan, kan, kan grubu, kan grubu AB
+🅱 B, B grubu (kan grubu), B grubu kan, kan, kan grubu, kan grubu B
+🆑 CL, CL düğmesi, CL işareti, sil
+🆒 COOL düğmesi, harika, hoş, serin, serin işareti
+🆓 bedava, bedelsiz, FREE düğmesi, işaret, ücretsiz, ücretsiz işareti
+ℹ bilgi, i harfi
+🆔 ID düğmesi, işaret, kimlik, kimlik işareti
+Ⓜ daire, daire içinde M harfi, m
+🆕 işaret, NEW düğmesi, yeni, Yeni işareti
+🆖 işaret, ng, NG düğmesi, NG işareti
+🅾 0 düğmesi (kan grubu), kan, kan grubu, kan grubu O, O, O grubu kan
+🆗 OK düğmesi, OK işareti, tamam, tamam işareti
+🅿 p düğmesi, P düğmesi, park yeri
+🆘 işaret, SOS, SOS düğmesi, SOS işareti, Yardım
+🆙 işaret, UP! düğmesi, YUKARI!, YUKARI! işareti
+🆚 işaret, karşılaştırma, karşılaştırma işareti, vs, VS düğmesi
+🈁 Japonca, Japonca &quot;burada&quot; düğmesi
+🈂 Japonca, Japonca &quot;servis ücreti&quot; düğmesi
+🈷 Japonca, Japonca &quot;aylık ücret&quot; düğmesi
+🈶 Japonca, Japonca &quot;ücretsiz değil&quot; düğmesi
+🈯 Japonca, Japonca &quot;rezerve&quot; düğmesi
+🉐 Japonca, Japonca &quot;avantaj&quot; düğmesi
+🈹 Japonca, Japonca &quot;indirim&quot; düğmesi
+🈚 Japonca, Japonca &quot;ücretsiz&quot; düğmesi
+🈲 Japonca, Japonca &quot;yasak&quot; düğmesi
+🉑 Japonca, Japonca &quot;kabul edilebilir&quot; düğmesi
+🈸 Japonca, Japonca &quot;uygulama&quot; düğmesi
+🈴 Japonca, Japonca &quot;geçer not&quot; düğmesi
+🈳 Japonca, Japonca &quot;yer var&quot; düğmesi
+㊗ Japonca, Japonca &quot;tebrikler&quot; düğmesi, kutlama, sembol, tebrik
+㊙ Japonca, Japonca &quot;sır&quot; düğmesi, sembol, sır
+🈺 Japonca, Japonca &quot;hizmete hazır&quot; düğmesi
+🈵 Japonca, Japonca &quot;yer yok&quot; düğmesi
+🔴 büyük kırmızı çember, çember, kırmızı, kırmızı daire
+🟠 daire, turuncu
+🟡 daire, sarı
+🟢 daire, yeşil
+🔵 büyük mavi çember, çember, mavi, mavi daire
+🟣 daire, mor
+🟤 daire, kahverengi
+⚫ daire, geometri, siyah daire
+⚪ beyaz daire, daire, geometri
+🟥 kare, kırmızı
+🟧 kare, turuncu
+🟨 kare, sarı
+🟩 kare, yeşil
+🟦 kare, mavi
+🟪 kare, mor
+🟫 kahverengi, kare
+⬛ büyük siyah kare, geometri, kare
+⬜ büyük beyaz kare, geometri, kare
+◼ geometri, kare, orta boy siyah kare
+◻ geometri, kare, orta boy beyaz kare
+◾ geometri, kare, küçük-orta siyah kare
+◽ geometri, kare, küçük-orta beyaz kare
+▪ geometri, kare, küçük siyah kare
+▫ geometri, kare, küçük beyaz kare
+🔶 büyük turuncu karo, karo, turuncu
+🔷 büyük mavi karo, karo, mavi
+🔸 karo, küçük turuncu karo, turuncu
+🔹 karo, küçük mavi karo, mavi
+🔺 kırmızı, üçgen, yukarı bakan kırmızı üçgen, yukarı kırmızı üçgen
+🔻 aşağı bakan kırmızı üçgen, aşağı kırmızı üçgen, kırmızı, üçgen
+💠 baklava, çizgi roman, geometrik, içinde noktalı baklava şekli, içinde noktalı karo, karo
+🔘 düğme, radyo, radyo düğmesi
+🔳 beyaz kare düğme, düğme, kare
+🔲 düğme, kare, siyah kare düğme
+🏁 bayrak, damalı, spor, yarış
+🚩 işaret, konum, konum bilgisi işareti, üçgen bayrak, üçgen işaret, üçgen konum işareti
+🎌 bayraklar, çapraz, çapraz Japon bayrakları, kutlama
+🏴 bayrak, siyah bayrak
+🏳 bayrak, beyaz bayrak
+🏳‍🌈 bayrak, gökkuşağı, gökkuşağı bayrağı
+🏳‍⚧ açık mavi, bayrak, beyaz, pembe, transgender, transgender bayrağı
+🏴‍☠ hazine, Jolly Roger, korsan, korsan bayrağı, yağmacı
+¢ sent
+$ ABD, dolar, para, pezo
+£ EGP, GBP, para birimi, sterlin
+¥ CNY, JPY, para birimi, yen, yuan
+₢ cruzeiro
+₣ fransız frangı
+₤ lira
+₥ mil, mill
+₩ KPW, KRW, won
+€ avro, EUR, para birimi
+₰ alman senti
+₱ pezo
+₳ austral
+₶ livre tournois
+₷ spesmilo
+₹ hint rupisi, para birimi, rupi
+₽ para birimi, ruble
+₿ bitcoin, BTC
+₨ rupi
+﷼ riyal
+¹ bir, üs bir, üst bir simgesi, üst simge
+² iki, karesi alınmış, üs iki, üst iki simgesi, üst simge
+³ küpü alınmış, üç, üs üç, üst simge, üst üç simgesi
+µ mikro işareti, ölçüm

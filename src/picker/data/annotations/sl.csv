@@ -1,0 +1,1677 @@
+{ oklepaj, zaviti oklepaj, zaviti uklepaj
+🏻 svetel ten kože, ten, vrsti 1 in 2
+🏼 srednje svetel ten kože, ten, vrsta 3
+🏽 srednji ten kože, ten, vrsta 4
+🏾 srednje temen ten kože, ten, vrsta 5
+🏿 temen ten kože, ten, vrsta 6
+‾ nadčrtano
+_ črta, črtica, podčrtaj, podčrtati, spodnja črta
+- črtica, minus, vezaj, znak minus
+‐ črtica, vezaj
+– kratek, pomišljaj
+— dolg, dolgi pomišljaj, pomišljaj
+― črta, linija, pomišljaj, vodoravna črta
+・ katakana, katakanska srednja pika, ločilo, pike, srednja pika
+, vejica
+، arabska, vejica
+、 ideografska, vejica
+; podpičje
+؛ arabsko, podpičje
+: dvopičje
+! klicaj, vzklik
+¡ klicaj, narobe obrnjen, obrnjen, vzklik
+? vprašaj, vprašanje
+¿ obrnjen, vprašaj, vprašanje
+؟ arabski, vprašaj, vprašanje
+‽ klicajvprašaj
+. končno ločilo, pika, pikica
+… elipsa, izpust, tri pike
+。 ideografska, pika
+· ločilo, pika, srednja
+' enojni narekovaj, narekovaj, opuščaj, strojepisni opuščaj
+‘ dvojni srednji narekovaj, enojni narekovaj, levi opuščaj, narekovaj, opuščaj
+’ desni opuščaj, dvojni srednji narekovaj, enojni narekovaj, narekovaj, opuščaj
+‚ narekovaj, nizki desni opuščaj, nizki narekovaj, opuščaj
+“ dvojni narekovaj, dvojni srednji narekovaj, levi narekovaj, narekovaj, navedek
+” desni narekovaj, dvojni narekovaj, dvojni srednji narekovaj, narekovaj, navedek
+„ dvojni narekovaj, dvojni srednji narekovaj, narekovaj, navedek, nizki desni narekovaj, nizki narekovaj
+« kotni, levi, levi francoski narekovaj, narekovaji, navednica, škarnice, znak
+» desni, desni francoski narekovaj, kotni, narekovaji, navednica, škarnice, znak
+) oglati oklepaj, oklepaj, oklepaji, okrogli oklepaj, zaklepaj
+[ oglati oklepaj, oglati uklepaj, oklepaj
+] oglati oklepaj, oglati zaklepaj, oklepaj
+} oklepaj, zaviti oklepaj, zaviti zaklepaj
+〈 koničasti oklepaj, kotni oklepaj, kotni uklepaj, oklepaj
+〉 koničasti oklepaj, kotni oklepaj, kotni zaklepaj, oklepaj
+《 dvojni kotni oklepaj, dvojni kotni uklepaj, oklepaj
+》 dvojni kotni oklepaj, dvojni kotni zaklepaj, oklepaj
+「 oklepaj, vogalni oklepaj, vogalni uklepaj
+」 oklepaj, vogalni oklepaj, vogalni zaklepaj
+『 oklepaj, votli vogalni oklepaj, votli vogalni uklepaj
+』 oklepaj, votli vogalni oklepaj, votli vogalni zaklepaj
+【 lečasti oklepaj, oklepaj, polni lečasti uklepaj
+】 lečasti oklepaj, oklepaj, polni lečasti zaklepaj
+〔 oklepaj, rombasti oklepaj, rombasti uklepaj
+〕 oklepaj, rombasti oklepaj, rombasti zaklepaj
+〖 oklepaj, votli lečasti oklepaj, votli lečasti uklepaj
+〗 oklepaj, votli lečasti oklepaj, votli lečasti zaklepaj
+§ člen, del, razdelek, znak za razdelek
+¶ alineja, odstavek, znak za odstavek
+@ afna, ajka, obkrožena črka a, polžek, znak @, znak at, znak pri, znak za afno
+* asterisk, nadomestni znak, zvezdica
+/ desna poševnica, poševna črta, poševnica, poševnica v desno, solidus
+\ leva poševnica, levo nagnjena poševnica, obratni solidus, poševnica v levo
+& in, znak &amp;, znak et
+# grabljice, ključnik, lojtra, znak #, znak za številko
+% odstotek, procent
+‰ na tisoč, odtisoček, promile
+† bodalo, križec, znak za bodalo, znamenje
+‡ bodalo, dvojno, križec, znak za dvojno bodalo, znamenje
+• pika, vrstična oznaka
+‧ delilna pika, pika, pomišljaj, vezaj
+′ znak za kotne minute in čevlje
+″ znak za kotne sekunde in inče
+‴ znak za linijo
+‸ spodnja strešica
+※ referenčna oznaka
+⁂ asterizem
+` krativec, naglas, naglasno znamenje
+´ naglas, naglasno znamenje, ostrivec
+^ cirkumfleks, kazalec, kljukica, krmilka, naglas, strešica, znak xor, znamenje za dodano
+¨ diereza, preglas
+° količina, stopinja, ura
+℗ avtorske pravice, avtorske pravice za zvočni posnetek, posnetek, zvočni
+← levo, puščica, puščica, obrnjena v levo
+↚ prečrtana puščica levo
+→ desno, puščica, puščica, obrnjena v desno
+↛ prečrtana puščica desno
+↑ navzgor, puščica, puščica, obrnjena navzgor
+↓ navzdol, puščica, puščica, obrnjena navzdol
+↜ vijugasta puščica levo
+↝ vijugasta puščica desno
+↞ puščica z dvojno glavo levo
+↟ puščica z dvojno glavo navzgor
+↠ puščica z dvojno glavo desno
+↡ puščica z dvojno glavo navzdol
+↢ puščica z repom levo
+↣ puščica z repom desno
+↤ puščica od črte levo
+↥ puščica od črte navzgor
+↦ puščica od črte desno
+↧ puščica od črte navzdol
+↨ puščica gor-dol z osnovno črto
+↫ zankasta puščica levo
+↬ zankasta puščica desno
+↭ vijugasta puščica levo-desno
+↯ cikcakasta puščica navzdol
+↰ puščica navzgor levo
+↱ puščica navzgor desno
+↲ puščica navzdol levo
+↳ puščica navzdol desno
+↴ kotna puščica desno navzdol
+↵ kotna puščica levo navzdol
+↶ zgornja polkrožna puščica v nasprotni smeri urinega kazalca
+↷ zgornja polkrožna puščica v smeri urinega kazalca
+↸ puščica severozahod z dolgo črtico zgoraj
+↹ puščica levo s črtico nad puščico desno s črtico
+↺ odprta krožna puščica v nasprotni smeri urinega kazalca
+↻ odprta krožna puščica v smeri urinega kazalca
+↼ harpuna levo z ostjo navzgor
+↽ harpuna levo z ostjo navzdol
+↾ harpuna navzgor z desno ostjo
+↿ harpuna navzgor z levo ostjo
+⇀ harpuna desno z ostjo navzgor
+⇁ harpuna desno z ostjo navzdol
+⇂ harpuna navzdol z desno ostjo
+⇃ harpuna navzdol z levo ostjo
+⇅ navzdol, navzgor, puščica, puščici, obrnjeni navzgor in navzdol, Puščici, obrnjeni navzgor in navzdol
+⇆ desno, levo, puščica, puščica v levo nad puščico v desno, puščica, obrnjena v levo, nad puščico, obrnjeno v desno
+∆ razlika, trikotnik
+∇ nabla, trikotnik
+∈ članstvo, element, je element množice, množica, vsebuje
++ plus, seštevanje, znak za plus
+± znak plus/minus
+÷ deli, deljenje, znak za deljenje
+× krat, množenje, množi, znak za množenje
+< manjše od, oznaka, začetna oznaka
+= enačaj, znak za enakost
+≠ neenak, neenakost, ni enako
+> oznaka, večje od, zaključna oznaka
+¬ ne, negacija
+| cev, črta, navpična črta, navpičnica, paličica, pokončna črta, pokončnica
+~ tilda, vijuga
+− minus, odštevanje, znak za minus
+⁻ minus, nadpis, nadpisani minus
+√ iracionalno število, koren, korenski, kvadratni
+∞ neskončno, znak za neskončno
+∩ množica, presek
+∪ množica, unija, zbirka
+≈ približek, približno, približno enako
+≡ enako, je enako, točno
+≤ enako, enakovredno, manjše, manjše ali enako, neenakovrednost
+≥ enako, enakovredno, neenakovrednost, večje, večje ali enako
+⊂ je podmnožica množice, množica, podmnožica
+▲ navzgor, poln, poln navzgor obrnjen trikotnik, puščica, trikotnik
+▼ navzdol, poln, poln navzdol obrnjen trikotnik, puščica, trikotnik
+◊ romb, rombast lik
+○ krog, obroč, votel krog
+● krog, poln krog
+◯ krog, obroč, velik votel krog
+♪ glasba, nota, osma, osminka
+♭ glasba, nižaj, nota, znižani ton
+♯ glasba, nota, višaj, zvišani ton
+😀 obraz, režanje, režeči obraz
+😃 nasmeh, obraz, odprto, smejoči obraz z odprtimi usti, usta
+😄 nasmeh, obraz, oči, odprto, smejoči obraz z odprtimi usti in smejočimi očmi, usta
+😁 nasmeh, obraz, oči, režanje, režeči obraz s smejočimi očmi
+😆 nasmeh, obraz, odprto, smejoči obraz z odprtimi usti in trdno zaprtimi očmi, usta, zadovoljno
+😅 mrzlo, nasmeh, obraz, odprto, pot, smejoči obraz z odprtimi usti in mrzlim potom
+🤣 krohotanje, smeh, tla, valjanje po tleh
+😂 obraz, obraz s solzami veselja, smeh, solze, veselje
+🙂 nasmeh, obraz, rahlo smejoči obraz
+🙃 na glavo obrnjen obraz, narobe obrnjeno, obraz
+😉 obraz, obraz s pomežikom, pomežik
+😊 nasmeh, obraz, oči, smejoči obraz s smejočimi očmi, zardevanje
+😇 angel, avra, fantazija, nasmeh, nedolžno, obraz, pravljica, smejoči obraz s svetniškim sijem
+🥰 ljubezen, oboževanje, smejoči obraz s srčki, zaljubljenost
+😍 ljubezen, nasmeh, obraz, oči, smejoči obraz z očmi v obliki srčka, srce
+🤩 obraz z očmi v obliki zvezdic
+😘 obraz, obraz, ki pošlje ljubčka, poljub, srce
+😗 obraz, obraz, ki poljublja, poljub
+☺ nasmeh, obraz, obris, smejoči obraz, sproščeno
+😚 obraz, obraz z zaprtimi očmi, ki poljublja, oči, poljub, zaprto
+😙 nasmeh, obraz, obraz s smejočimi očmi, ki poljublja, oči, poljub
+🥲 ganjenost, hvaležnost, nasmeh, olajšanje, ponos, smejoči obraz s solzo, solza
+😋 nasmeh, njam, obraz, obraz, ki z užitkom pomalica okusno hrano, okušanje, slastno
+😛 jezik, obraz, obraz z molečim jezikom
+😜 jezik, mežik, obraz, obraz z molečim jezikom in pomežikom, oči, šala
+🤪 majhen, nor obraz, oko, velik
+😝 grozno, jezik, obraz, obraz z molečim jezikom in trdno zaprtimi očmi, oči, okus
+🤑 denar, obraz, obraz z denarjem namesto ust, usta
+🤗 objem, objemanje, obraz, obraz, ki objema
+🤭 obraz z roko čez usta
+🤫 obraz s prstom čez usta
+🤔 obraz, razmišljanje, razmišljujoči obraz
+🤐 obraz, obraz z usti v obliki zadrge, usta, zadrga, zapečateno, zaprto
+🤨 obraz z dvignjenimi obrvmi
+😐 mrtvo hladno, nevtralni obraz, nevtralno, obraz
+😑 brezizrazni obraz, brezizrazno, neprizadeto, obraz, prazno
+😶 molčeče, obraz, obraz brez ust, tiho, usta
+😶‍🌫 glava v oblakih, obraz v megli, obraz v oblakih, odsoten
+😏 obraz, obraz s privoščljivim nasmeškom, privoščljiv nasmešek
+😒 nenaklonjeno, nezadovoljno, obraz, obraz s hladnim nasmeškom
+🙄 obraz, obraz z zavijajočimi očmi, oči, zavijanje
+😬 grimasa, obraz, spačen obraz
+😮‍💨 godrnjanje, izdih, obraz, ki izdihne, olajšanje, šepet, sopih, žvižganje
+🤥 laž, lažnivec, lažnivi obraz, ostržek
+😌 obraz, olajšan obraz, olajšano
+😔 brezvoljen obraz, brezvoljno, obraz, pobito
+😪 obraz, spanje, zaspan obraz
+🤤 obraz, obraz, ki se slini, slinjenje
+😴 obraz, spanje, speči obraz, zzz
+😷 bolno, maska, obraz, obraz z medicinsko masko, prehlad, zdravilo, zdravnik
+🤒 bolno, obraz, obraz s termometrom, slabotno, termometer
+🤕 obraz, obraz, obvezan s povojem, poškodba, poškodovano, povoj
+🤢 bruhanje, obraz, ki se počuti slabo, slabost
+🤮 obraz, ki bruha
+🤧 kihanje, na zdravje, obraz, ki kiha
+🥵 poten, rdeč obraz, vroč obraz, vroče, vročina, vročinska kap
+🥶 ledene sveče, mrzel, mrzel obraz, ozebline, plav obraz, premražen
+🥴 okajen obraz, omotičen, različni očesi, v rožicah, valovita usta, vinjen
+😵 obraz, omotičen obraz, omotično
+😵‍💫 hipnoza, obraz s spiralnimi očmi, omotica, spirala, težave, vau
+🤯 eksplozija v glavi
+🤠 kavboj, klobuk, obraz s kavbojskim klobukom
+🥳 hupa, klobuček, praznovanje, praznujoči obraz, zabava
+🥸 inkognito, maska, nos, obraz, očala, preobleka
+😎 frajersko, nasmeh, obraz, očala, oči, smejoči obraz s sončnimi očali, sonce, sončna očala, svetlo, vreme
+🤓 frik, obraz, piflar, piflarski obraz, znalec
+🧐 obraz z monoklom
+😕 obraz, zmeden obraz, zmedeno
+😟 obraz, zaskrbljen obraz, zaskrbljeno
+🙁 mrščenje, nekoliko namrščen obraz, obraz
+☹ mrščenje, namrščen obraz, obraz
+😮 obraz, obraz z odprtimi usti, odprto, sočutje, usta
+😯 obraz, osupljen obraz, osuplo, presenečeno, tiho
+😲 frapirano, obraz, popolnoma, presenečeno, začuden obraz, začudeno
+😳 obraz, zardeli obraz, zardelo, zmedeno
+🥺 kužkove oči, milost, moledovanje, proseč obraz
+😦 namrščen obraz z odprtimi usti, namrščenost, obraz, odprto, usta
+😧 obraz, trpeč obraz, trpeče
+😨 bojazljiv obraz, obraz, preplašeno, prestrašeno, strah
+😰 hladno, modro, naglo, obraz, obraz z odprtimi usti in mrzlim potom, odprto, pot, usta
+😥 fiju, obraz, olajšano, razočaran, a olajšan obraz, razočarano
+😢 jokajoči obraz, jokanje, obraz, solza, žalostno
+😭 cmerajoči obraz, ihtenje, jokanje, obraz, solze, žalostno
+😱 krik, munch, obraz, obraz, ki kriči od strahu, preplašeno, prestrašeno, strah
+😖 obraz, zbegan obraz, zbegano
+😣 obraz, vztrajanje, vztrajen obraz
+😞 obraz, razočaran obraz, razočarano
+😓 mrzlo, obraz, obraz z mrzlim potom, pot
+😩 izčrpan obraz, izčrpano, obraz, utrujeno
+😫 obraz, utrujen obraz, utrujeno
+🥱 dolgčas, utrujen, zehajoč obraz, zehanje
+😤 obraz, obraz s paro skozi nos, zmaga, zmagoslavje
+😡 besno, gnev, jezno, kujanje, obraz, obraz, ki kuha mulo, rdeče
+😠 besno, jezen obraz, jezno, obraz
+🤬 obraz, ki kolne
+😈 fantazija, nasmeh, obraz, pravljica, rogovi, smejoči obraz z rogovi
+👿 demon, fantazija, hudič, obraz, pravljica, vragec
+💀 mrtvaška glava, obraz, pošast, pravljica, smrt, telo
+☠ lobanja, mrtvaška glava s prekrižanima kostema, obraz, pošast, prekrižane kosti, smrt, telo
+💩 drekec, iztrebki, kakec, kup kakca, obraz, pošast, strip
+🤡 klovn, klovnesa, klovnovski obraz
+👹 bitje, fantazija, japonsko, obraz, pošast, pošastni velikan, pravljica
+👺 bitje, fantazija, japonsko, obraz, pošast, pravljica, škratelj
+👻 bitje, duh, fantazija, obraz, pošast, pravljica
+👽 bitje, fantazija, nezemljan, nlp, obraz, vesolje, vesoljec
+👾 bitje, fantazija, nezemljan, nlp, obraz, pravljica, vesolje, vesoljec, vesoljska pošast
+🤖 obraz, pošast, robot
+😺 mačka, nasmeh, obraz, odprta, režeča se mačka, smeh, usta
+😸 mačka, nasmeh, obraz, oko, režanje, režeča se mačka s smejočimi očmi
+😹 mačji obraz s solzami sreče, mačka, mačka s solzami sreče, obraz, solze, veselje
+😻 ljubezen, mačka, nasmeh, obraz, oči, smejoča se mačka z očmi v obliki srčka, smejoči mačji obraz z očmi v obliki srčka, srce
+😼 ironično, mačji obraz s prifrknjenim nasmeškom, mačka, mačka s prifrknjenim nasmeškom, nasmeh, obraz, porogljivo
+😽 mačji obraz z zaprtimi očmi, ki poljublja, mačka, mačka poljublja z zaprtimi očmi, obraz, oči, poljub
+🙀 mačka, naveličano, obraz, odprta usta, presenečena mačka, presenečeno
+😿 jokajoča mačka, jokajoči mačji obraz, jokanje, mačka, obraz, solza, žalostno
+😾 kujanje, mačji obraz, ki kuha mulo, mačka, mačka kuha mulo, obraz
+🙈 gesta, ne, obraz, opica, opica, ki ne vidi ničesar, prepovedano, videti, zlobno
+🙉 gesta, ne, obraz, opica, opica, ki ne sliši ničesar, prepovedano, slišati, zlobno
+🙊 gesta, govoriti, ne, obraz, opica, opica, ki ničesar ne govori, prepovedano, zlobno
+💋 odtis, poljub, romanca, sled šminke po poljubu, srce, ustnice
+💌 ljubezen, ljubezensko pismo, pismo, pošta, romanca, srce
+💘 kupid, puščica, romanca, srce, srce s puščico
+💝 pentlja, srce, srce s pentljo, valentin
+💖 lesketajoče srce, lesketati se, srce, vznemirjeno
+💗 rastoče, srce, srčni utrip, vznemirjeno, živčno
+💓 bitje, srce, srčni utrip, utripajoče srce, utripanje
+💞 srce, vrteči se srci, vrtenje
+💕 dve srci, ljubezen, srce
+💟 okrasje s srcem, srce
+❣ klicaj, klicaj v obliki srca, ločilo, srce, znak
+💔 počeno, srce, strto srce, zlomiti
+❤‍🔥 goreče srce, ljubezen, ogenj, poželenje, srce, sveto srce
+❤‍🩹 bolj zdravo, izboljšanje, okrevanje, ozdravljeno, zakrpano, zakrpano srce, zdravo
+❤ rdeče srce, srce
+🧡 oranžno srce
+💛 rumeno, srce
+💚 srce, zeleno
+💙 modro, srce
+💜 srce, vijolično
+🤎 rjavo, srce
+🖤 črno, hudobno, podlo, srce, zlobno
+🤍 belo, srce
+💯 100, sto, sto točk
+💢 divje, jezno, simbol jeze, strip
+💥 bum, eksplozija, strip, trk
+💫 omotica, omotično, planeti, strip, zvezda
+💦 pljuskanje, pot, potne kapljice, strip
+💨 strip, švigati, švigniti, tek
+🕳 luknja
+💣 bomba, strip
+💬 balon, dialog, govor, oblaček, oblaček z govorom, strip
+👁‍🗨 dialog, oblaček z govorom, oko, oko v oblačku z govorom, priča
+🗨 dialog, govor, levi oblaček z govorom
+🗯 balon, desni oblaček z jeznim govorom, divje, jezno, oblaček
+💭 balon, misel, oblaček, oblaček z mislimi, strip
+💤 spanec, spanje, strip, zzz
+👋 dlan, mahajoča dlan, mahanje, mahati, telo
+🤚 dlan, dvignjena, dvignjena hrbtna stran dlani, hrbtna stran
+🖐 dlan, dvignjena dlan z razprtimi prsti, prst, razprto, telo
+✋ dlan, dvignjena dlan, telo
+🖖 dlan, prst, spock, telo, vulkan, vulkanski pozdrav
+👌 dlan, roka, ki kaže V REDU, telo, v redu
+🤌 izpraševanje, kretnja z roko, prsti, prsti, stisnjeni skupaj, sarkastično, stisnjen
+🤏 majhna količina, malo, roka s ščepcem
+✌ dlan, dlan s prstoma, ki kažeta znak za zmago, telo, v, zmaga
+🤞 prekrižani prsti, prsti, roka, sreča
+🤟 roka, RTM, znak za ljubim te
+🤘 dlan, prst, rock za vedno, rogovi, telo, znak za rogove
+🤙 pokliči, pokliči me, roka
+👈 dlan, hrbtna stran, hrbtna stran dlani s kazalcem, ki kaže levo, kazalec, kazati, prst, telo
+👉 dlan, hrbtna stran, hrbtna stran dlani s kazalcem, ki kaže desno, kazalec, kazati, prst, telo
+👆 dlan, gor, hrbtna stran, hrbtna stran dlani s kazalcem, ki kaže gor, kazalec, kazati, prst, telo
+🖕 dlan, kazati, prst, sredinec, telo
+👇 dlan, dol, hrbtna stran, hrbtna stran dlani s kazalcem, ki kaže dol, kazalec, kazati, prst, telo
+☝ dlan, gor, kazalec, kazalec, ki kaže gor, kazati, prst, telo
+👍 +1, dlan, gor, palec, telo
+👎 -1, dlan, dol, palec, telo
+✊ dlan, dvignjena pest, pest, pokrčeno, telo, udarec
+👊 bližajoča se pest, dlan, pest, pokrčeno, telo, udarec
+🤛 levo, pest, pest, obrnjena levo
+🤜 desno, pest, pest, obrnjena desno
+👏 dlan, ploskajoči dlani, ploskati, telo
+🙌 dvignjeno, gesta, hura, oseba, ki dvigne roke, roka, slavje, telo
+👐 dlan, odprti dlani, odprto, telo
+🤲 dvignjeni odprti dlani, molitev
+🤝 roka, rokovanje, sporazum, srečanje
+🙏 gesta, hvala, moliti, predklon, prosim, prositi, roka, sklenjeno, staknjeni dlani, telo
+✍ dlan, pisati, pišoča dlan, telo
+💅 kozmetika, lak, lak za nohte, manikira, nega, noht, telo
+🤳 fotoaparat, kamera, mobilni telefon, selfi
+💪 biceps, mišica, napenjati, napeti bicepsi, strip, telo
+🦾 invalid, mehanska roka, proteza, umetni ud
+🦿 invalid, mehanska noga, proteza, umetni ud
+🦵 brca, noga, okončina
+🦶 brca, stopalo, topot
+👂 telo, uho
+🦻 naglušni, okvara sluha, uho s slušnim aparatom
+👃 nos, telo
+🧠 inteligenca, možgani
+🫀 človeško, kardiologija, organ, srce, srčni utrip, utrip
+🫁 dih, dihanje, izdih, organ, pljuča, vdih
+🦷 zob, zobozdravnik
+🦴 kost, okostje
+👀 obraz, oči, telo
+👁 oko, telo
+👅 jezik, telo
+👄 telo, usta, ustnice
+👶 dojenček
+🧒 otrok
+👦 deček, fant
+👧 dekle, devica, zodiak
+🧑 odrasla oseba
+👱 lasje, oseba: svetli lasje, svetli lasje, svetlolasa oseba
+👨 fant, moški
+🧔 brada, moški, moški: brada, oseba, oseba: brada
+🧔‍♂ brada, moški, moški: brada
+👱‍♂ blondinec, fant, lasje, moški, moški: blondinec
+👩 dekle, ženska
+🧔‍♀ brada, ženska, ženska: brada
+👱‍♀ blondinka, dekle, lasje, ženska, ženska: blondinka
+🧓 spolno nevtralen, starejši, starejši odrasli
+👴 moški, starec, staro
+👵 starka, staro, ženska
+🙍 gesta, mrščenje, oseba, ki se mršči
+🙍‍♂ fant, moški, moški z namrščenim obrazom, mrščiti se, neodobravanje, obraz, obrazna mimika
+🙍‍♀ dekle, mrščiti se, neodobravanje, obraz, obrazna mimika, ženska, ženska z namrščenim obrazom
+🙎 gesta, kujanje, oseba, ki kuha mulo
+🙎‍♂ fant, kujanje, moški, moški, ki kuha mulo, obrazna mimika
+🙎‍♀ dekle, kujanje, obrazna mimika, ženska, ženska, ki kuha mulo
+🙅 gesta, ne, ni dovoljeno, oseba, ki kaže NE, prepovedano, roka
+🙅‍♂ fant, kretnja, moški, moški, ki s kretnjo izraža prepoved, ne, neodobravanje, ni dovoljeno, ni v redu, prepovedano, roka
+🙅‍♀ dekle, kretnja, ne, neodobravanje, ni dovoljeno, ni v redu, prepovedano, roka, ženska, ženska, ki s kretnjo izraža prepoved
+🙆 gesta, oseba, ki kaže V REDU, roka, v redu
+🙆‍♂ fant, kretnja, moški, moški, ki s kretnjo izraža odobravanje, ok, roka, v redu
+🙆‍♀ dekle, kretnja, ok, roka, v redu, ženska, ženska, ki s kretnjo izraža odobravanje
+💁 informacije, oseba, ki dela na informacijah, pomoč, roka, zgovorno, živahno
+💁‍♂ informacije, moški, pomoč, uslužbenec na informacijah, zgovoren
+💁‍♀ informacije, pomoč, uslužbenka na informacijah, ženska, zgovorna
+🙋 dvignjeno, gesta, roka, vesela oseba, ki dvigne roko, veselo
+🙋‍♂ dvigovanje roke, fant, kretnje, moški, moški, ki dviguje roko
+🙋‍♀ dekle, dvigovanje roke, kretnje, ženska, ženska, ki dviguje roko
+🧏 gluh, gluha oseba, invalid, sluh, uho
+🧏‍♂ gluh, moški
+🧏‍♀ gluha, ženska
+🙇 gesta, opravičilo, oprosti, oseba, ki se prikloni, priklon
+🙇‍♂ fant, gesta, moški, moški, ki se globoko priklanja, opravičilo, oprosti, priklanjanje, priklon, usluga
+🙇‍♀ dekle, gesta, opravičilo, oprosti, priklanjanje, priklon, usluga, ženska, ženska, ki se globoko priklanja
+🤦 dvom, nejevera, oseba z dlanjo na obrazu, skepsa, skomigniti
+🤦‍♂ dvom, facepalm, fant, moški, moški, ki obraz prekriva z dlanjo, obup, ogorčenje, prekriti obraz z dlanjo
+🤦‍♀ dekle, dvom, facepalm, obup, ogorčenje, prekriti obraz z dlanjo, ženska, ženska, ki obraz prekriva z dlanjo
+🤷 brezbrižnost, oseba, ki skomiga, skomigniti
+🤷‍♂ dvom, fant, moški, moški, ki skomiga z rameni, nevednost, nezanimanje, skomigniti
+🤷‍♀ dekle, dvom, nevednost, nezanimanje, skomigniti, ženska, ženska, ki skomiga z rameni
+🧑‍⚕ delavec v zdravstvu, medicinska sestra, terapevt, zdravnik, zdravstvo
+👨‍⚕ fant, medicinski tehnik, moški, terapevt, zdravnik, zdravstveni delavec, zdravstvo
+👩‍⚕ dekle, medicinska sestra, terapevtka, zdravnica, zdravstvena delavka, zdravstvo, ženska
+🧑‍🎓 diplomant, diplomantka, študent
+👨‍🎓 diplomant, fant, maturant, moški, študent
+👩‍🎓 dekle, diplomantka, maturantka, študentka, ženska
+🧑‍🏫 inštruktor, profesor, učitelj
+👨‍🏫 fant, inštruktor, moški, profesor, učitelj
+👩‍🏫 dekle, inštruktorica, profesorica, učiteljica, ženska
+🧑‍⚖ sodnik, tehtnica, varuh zakona
+👨‍⚖ fant, moški, pravica, pravosodje, sodnik, tehtnica
+👩‍⚖ dekle, pravica, sodnica, tehtnica, ženska
+🧑‍🌾 kmet, vrtnar, živinorejec
+👨‍🌾 fant, kavboj, kmet, kmetovalec, moški, vrtnar, živinorejec
+👩‍🌾 dekle, kmetica, kmetovalka, vrtnarka, ženska, živinorejka
+🧑‍🍳 kuhar, kuharski mojster
+👨‍🍳 chef, fant, kuhar, moški, šef kuhinje
+👩‍🍳 chef, dekle, kuharica, šefinja kuhinje, ženska
+🧑‍🔧 električar, mehanik, serviser, trgovec, vodovodar
+👨‍🔧 avtomehanik, električar, fant, mehanična delavnica, mehanik, moški, orodje, prodajalec, vodovodar
+👩‍🔧 avtomehaničarka, dekle, električarka, mehaničarka, mehanična delavnica, orodje, prodajalka, vodovodarka, ženska
+🧑‍🏭 delavec, industrijski, tekoči trak, tovarna, tovarniški delavec
+👨‍🏭 delavec, delavec v tovarni, fant, industrijski, moški, proizvodnja, tekoči trak, tovarna, tovarnar
+👩‍🏭 dekle, delavka, delavka v tovarni, industrijski, proizvodnja, tekoči trak, tovarna, tovarnarka, ženska
+🧑‍💼 arhitekt, delavec v pisarni, direktor, pisarniški delavec, podjetje
+👨‍💼 arhitekt, direktor, fant, moški, pisarna, pisarniški, pisarniški delavec, podjetje, tajnik
+👩‍💼 arhitektka, dekle, direktorica, pisarna, pisarniška delavka, pisarniški, podjetje, tajnica, ženska
+🧑‍🔬 biolog, fizik, inženir, kemik, matematik, raziskovalec, znanstvenik
+👨‍🔬 biolog, fant, fizik, inženir, kemik, matematik, moški, znanstvenik
+👩‍🔬 biologinja, dekle, fizika, inženirka, kemija, matematika, ženska, znanstvenica
+🧑‍💻 izumitelj, programer, programska oprema, računalnik, razvijalec, strokovnjak za tehnologijo, tehnolog, tehnologija
+👨‍💻 fant, izumitelj, moški, programer, programska oprema, računalnik, razvijalec, tehnolog, tehnologija
+👩‍💻 dekle, izumiteljica, programerka, programska oprema, računalnik, razvijalka, tehnologija, tehnologinja, ženska
+🧑‍🎤 igralec, izvajalec, komik, pevec, roker, zabavljač, zvezdnik
+👨‍🎤 fant, igralec, komik, moški, pevec, roker, zabavljač, zvezdnik
+👩‍🎤 dekle, igralka, pevka, rokerica, zabavljačica, ženska, zvezdnica
+🧑‍🎨 paleta, slikar, umetnik
+👨‍🎨 fant, moški, paleta, slikar, umetnik, umetnost
+👩‍🎨 dekle, paleta, slikarka, umetnica, umetnost, ženska
+🧑‍✈ letalo, pilot, pilot letala
+👨‍✈ fant, letalo, moški, pilot, stevard
+👩‍✈ dekle, letalo, pilotka, stevardesa, ženska
+🧑‍🚀 astronavt, kozmonavt, raketa
+👨‍🚀 astronavt, fant, moški, raketa, vesolje
+👩‍🚀 astronavtka, dekle, raketa, vesolje, ženska
+🧑‍🚒 gasilec, gasilni avto, poklicni gasilec
+👨‍🚒 fant, gasilec, gasilni avto, moški, ogenj
+👩‍🚒 dekle, gasilka, gasilni avto, ogenj, ženska
+👮 policaj, policija
+👮‍♂ fant, moški, policaj, policija, policist
+👮‍♀ dekle, policajka, policija, policistka, ženska
+🕵 detektiv, preiskovalec, vohljač, vohun
+🕵‍♂ detektiv, dokaz, fant, moški, vohun
+🕵‍♀ detektivka, dokaz, vohunka, ženska
+💂 stražar, stražar, čuvaj
+💂‍♂ fant, moški, paznik, varnostnik
+💂‍♀ dekle, paznica, varnostnica, ženska
+🥷 bojevnik, nindža, prikrivanje, skrivanje
+👷 čepica, delavec, gradbenik, gradnja
+👷‍♂ delavec, fant, gradbeni delavec, gradbinec, gradbišče, moški
+👷‍♀ dekle, delavka, gradbena delavka, gradbinka, gradbišče, ženska
+🤴 princ
+👸 fantazija, pravljica, princesa
+👳 moški, oseba s turbanom, turban
+👳‍♂ fant, moški, moški s turbanom, turban
+👳‍♀ dekle, turban, ženska, ženska s turbanom
+👲 čepica, kitajska čepica, moški, moški s kitajsko čepico
+🧕 hidžab, mantilja, naglavna ruta, ženska z naglavno ruto
+🤵 oseba, oseba v smokingu, smoking, ženin
+🤵‍♂ moški, moški v smokingu, smoking
+🤵‍♀ smoking, ženska, ženska v smokingu
+👰 nevesta, oseba, oseba s pajčolanom, pajčolan, poroka
+👰‍♂ moški, moški s pajčolanom, pajčolan
+👰‍♀ pajčolan, ženska, ženska s pajčolanom
+🤰 nosečnica, ženska
+🤱 dojenček, dojenje, prsi
+👩‍🍼 dojenček, dojenje, hranjenje, ženska, ženska, ki doji dojenčka
+👨‍🍼 dojenček, dojenje, hranjenje, moški, moški, ki hrani dojenčka
+🧑‍🍼 dojenček, dojenje, hranjenje, oseba, oseba, ki hrani doječnka, oseba, ki hrani dojenčka
+👼 angel, angelček, dojenček, fantazija, obraz, pravljica
+🎅 božič, božiček, Božiček, fantazija, oče, pravljica, slavje
+🤶 Božič, gospa, gospa Božiček
+🧑‍🎄 božiček, božič, mx božiček
+🦸 dober, junak, junakinja, super moč, superjunak/superjunakinja
+🦸‍♂ dober, junak, moški, super moč, superjunak
+🦸‍♀ dober, junak, junakinja, super moč, superjunakinja
+🦹 kriminalec, negativec, super moč, super negativec, zloben
+🦹‍♂ kriminalec, moški, moški super negativec, negativec, super moč, zloben
+🦹‍♀ kriminalka, negativka, super moč, super negativka, ženska, zlobna
+🧙 čarovnica, čarovnik, oseba, ki čara
+🧙‍♂ čarodej, čarovnik, mag
+🧙‍♀ čarodejka, čarovnica
+🧚 vilinsko bitje
+🧚‍♂ vilinec
+🧚‍♀ vila
+🧛 Drakula, nesmrtnost, vampir, vampirji
+🧛‍♂ Drakula, moški vampir, nesmrtnost, vampir
+🧛‍♀ nesmrtnost, vampirka
+🧜 morska deklica, morska oseba, morska ženska, morski mož
+🧜‍♂ morski mož, Triton
+🧜‍♀ morska deklica
+🧝 čarovnija, škrati, vilin
+🧝‍♂ čarovnija, škrat, vilin
+🧝‍♀ škratovka, vilinka
+🧞 duh iz steklenice
+🧞‍♂ moški duh iz steklenice
+🧞‍♀ ženski duh iz steklenice
+🧟 nemrtev, živi mrtvec, zombi
+🧟‍♂ nemrtev, živi mrtvec, zombi moški
+🧟‍♀ nemrtev, živi mrtvec, zombi ženska
+💆 masaža, masaža obraza, salon
+💆‍♂ fant, masaža, moški, moški na masaži obraza, obraz
+💆‍♀ dekle, masaža, obraz, ženska, ženska na masaži obraza
+💇 brivec, frizura, lepota, salon, striženje
+💇‍♂ fant, frizerski salon, frizura, moški, moški pri frizerju, pričeska, striženje
+💇‍♀ dekle, frizerski salon, frizura, pričeska, striženje, ženska, ženska pri frizerju
+🚶 hoja, pešec, pohod, sprehod
+🚶‍♂ fant, hoja, moški, moški, ki hodi, pešec, sprehod
+🚶‍♀ dekle, hoja, peška, sprehod, ženska, ženska, ki hodi
+🧍 pokonci, stati, stoječa oseba
+🧍‍♂ moški, stoječ moški, stoji
+🧍‍♀ stoječa ženska, stoji, ženska
+🧎 klečanje, klečeča oseba
+🧎‍♂ klečanje, klečeč moški, moški
+🧎‍♀ klečanje, klečeča ženska, ženska
+🧑‍🦯 invalid, oseba s palico za slepe, slep
+👨‍🦯 invalid, moški, moški s palico za slepe, slep
+👩‍🦯 invalid, slepa, ženska, ženska s palico za slepe
+🧑‍🦼 invalid, oseba na motoriziranem invalidskem vozičku, voziček
+👨‍🦼 invalid, moški, moški na motoriziranem invalidskem vozičku, voziček
+👩‍🦼 invalid, voziček, ženska, ženska na motoriziranem invalidskem vozičku
+🧑‍🦽 invalid, oseba na ročnem invalidskem vozičku, voziček
+👨‍🦽 invalid, moški, moški na ročnem invalidskem vozičku, voziček
+👩‍🦽 invalid, voziček, ženska, ženska na ročnem invalidskem vozičku
+🏃 maraton, tek, tekač
+🏃‍♂ fant, maraton, moški, moški, ki teče, šprint, tek, tekač, tekma
+🏃‍♀ dekle, maraton, šprint, tek, tekačica, tekma, ženska, ženska, ki teče
+💃 ples, plesalka, ženska, ženska, ki pleše
+🕺 moški, ples, plesalec
+🕴 moški, moški v poslovni obleki, ki lebdi, obleka, posli
+👯 dekle, plesalka, uho, zabava, zajčica, ženska, žur, žurerski ženski
+👯‍♂ fantje, moška zabava, moški, plesalec, zabava, žur
+👯‍♀ dekle, plesalec, zabava, ženska, žur
+🧖 oseba v parni savni, parna savna, savna
+🧖‍♂ moški v parni savni, parna savna, savna
+🧖‍♀ parna savna, savna, ženska v parni savni
+🧗 oseba, ki pleza, plezalec
+🧗‍♂ moški, ki pleza, plezalec
+🧗‍♀ plezalec, plezalka, ženska, ki pleza
+🤺 meč, sabljač, sabljanje, šport
+🏇 dirkalni konj, dirkanje, džokej, konj, konjske dirke
+⛷ smučar, smučati, sneg
+🏂 deskar na snegu, smučati, sneg, snežna deska
+🏌 golf, igralec golfa, žogica
+🏌‍♂ fant, golf, golfist, moški
+🏌‍♀ dekle, golf, golfistka, ženska
+🏄 deskanje, oseba deska
+🏄‍♂ deskanje, deskar, fant, moški, surfanje
+🏄‍♀ dekle, deskanje, deskarka, surfanje, ženska
+🚣 čoln, oseba v čolnu na vesla, vozilo
+🚣‍♂ čoln na vesla, fant, moški, veslač, veslanje
+🚣‍♀ čoln na vesla, dekle, veslačica, veslanje, ženska
+🏊 oseba plava, plavati
+🏊‍♂ fant, moški, plavalec, plavanje
+🏊‍♀ dekle, plavalka, plavanje, ženska
+⛹ oseba z žogo, žoga
+⛹‍♂ fant, moški, moški z žogo, žoga
+⛹‍♀ dekle, ženska, ženska z žogo, žoga
+🏋 dvigalec, oseba dviga uteži, utež
+🏋‍♂ dvigovalec uteži, fant, moški
+🏋‍♀ dekle, dvigovalka uteži, ženska
+🚴 kolesar, kolesarjenje, kolo, oseba na kolesu
+🚴‍♂ fant, kolesar, kolesarjenje, kolo, moški
+🚴‍♀ dekle, kolesarjenje, kolesarka, kolo, ženska
+🚵 gora, gorski kolesar, kolesar, kolo
+🚵‍♂ fant, gora, gorsko, kolesar, kolo, moški, moško gorsko kolesarjenje
+🚵‍♀ dekle, gora, gorsko, kolesarka, kolo, ženska, žensko gorsko kolesarjenje
+🤸 gimnastika, kolo, oseba izvaja kolo, šport
+🤸‍♂ fant, gimnastika, kolo, moški, moški, ki dela premet vstran, oseba, premet vstran, šport
+🤸‍♀ dekle, gimnastika, kolo, oseba, premet vstran, šport, ženska, ženska, ki dela premet vstran
+🤼 rokoborba, šport
+🤼‍♂ fant, moška rokoborba, moški, oseba, rokoborba, šport
+🤼‍♀ dekleta, oseba, rokoborba, šport, ženska
+🤽 bazen, šport, vaterpolo, žoga
+🤽‍♂ fant, moški, šport, vaterpolo
+🤽‍♀ dekle, šport, vaterpolo, ženska, ženski vaterpolo
+🤾 rokomet, šport, žoga
+🤾‍♂ fant, moški, rokomet, rokometaš, šport
+🤾‍♀ dekle, rokomet, rokometašica, šport, ženske
+🤹 ravnotežje, spretnost, večopravilnost, žongliranje
+🤹‍♂ fant, moški, spretnost, večopravilnost, žongler, žongliranje
+🤹‍♀ dekle, spretnost, večopravilnost, ženska, žonglerka, žongliranje
+🧘 joga, meditacija, oseba v lotusovem položaju
+🧘‍♂ joga, meditacija, moški v lotusovem položaju
+🧘‍♀ joga, meditacija, ženska v lotusovem položaju
+🛀 kad, kopel, oseba, ki se kopa
+🛌 hotel, oseba v postelji, spanje
+🧑‍🤝‍🧑 držati, oseba, osebi se držita za roke, par, roka
+👭 držati, par, roka, ženska, ženski se držita za roke
+👫 držati, moški, moški in ženska se držita za roke, par, roka, ženska
+👬 dvojčka, moška se držita za roke, moški, par, zodiak
+💏 par, poljub, romanca
+💑 ljubezen, par, par s srčkom, romanca, srce
+👪 družina, mati, oče, otrok
+🗣 glava, govoreča glava, govoriti, govorjenje, obraz, silhueta
+👤 doprsje, silhueta, silhueta doprsja
+👥 doprsje, silhueta, silhueti doprsja
+🫂 hvala, nasvidenje, objem, osebi, ki se objemata, živijo
+👣 oblačila, odtis, stopinja, stopinje, telo
+🦰 rdečelasec, rdeči lasje, redečelas
+🦱 afro, koder, kodrast, kodrasti lasje
+🦳 bel, lasje, siv, sivi lasje, star
+🦲 brez las, kamoterapija, obrit, plešast
+🐵 obraz, opica, opičji obraz
+🐒 opica
+🦍 gorila, žival
+🦧 opica, orangutan
+🐶 domači ljubljenček, obraz, pasji obraz, pes
+🐕 domači ljubljenček, pes
+🦮 pes vodnik, slepi, vodnik
+🐕‍🦺 policijski, pomoč, reševalni, službeni pes, vojaški
+🐩 pes, pudelj
+🐺 obraz, volk
+🦊 lisica, obraz
+🦝 radoveden, rakun, zvijačen
+🐱 domači ljubljenček, mačji obraz, mačka, obraz
+🐈 domači ljubljenček, mačka
+🐈‍⬛ črna, mačka, smola
+🦁 lev, obraz, zodiak
+🐯 obraz, tiger, tigrov obraz
+🐅 tiger
+🐆 leopard
+🐴 konj, konjev obraz, obraz
+🐎 dirkanje, konj, konjske dirke
+🦄 obraz, samorog
+🦓 zebra
+🦌 jelen, žival
+🦬 bivol, bizon, čreda, zober
+🐮 krava, kravji obraz, obraz
+🐂 bik, vol, zodiak
+🐃 bivol, voda, vodni bivol
+🐄 krava
+🐷 obraz, prašič, prašičji obraz
+🐖 prašič, svinja
+🐗 divja svinja, divji, prašič
+🐽 obraz, prašič, prašičji rilec, rilec
+🐏 ovca, oven, zodiak
+🐑 ovca, ovčka
+🐐 koza, kozorog, zodiak
+🐪 dromedar, grba, kamela
+🐫 dvogrba kamela, dvogrbo, grba, kamela
+🦙 alpaka, gvanako, lama, vikunja, volna
+🦒 žirafa
+🐘 slon
+🦣 izumrtje, mamut, okel, velik, volnatost
+🦏 nosorog, žival
+🦛 hipo, povodni konj
+🐭 miš, mišji obraz, obraz
+🐁 miš, miška
+🐀 podgana
+🐹 domači ljubljenček, hrček, obraz
+🐰 domači ljubljenček, obraz, zajček, zajčji obraz, zajec
+🐇 domači ljubljenček, zajček, zajec
+🐿 progasta veverica, veverica
+🦫 bober, jez
+🦔 jež
+🦇 netopir, žival
+🐻 medved, obraz
+🐻‍❄ beli, medved, polarni, severni medved
+🐨 koala, medved
+🐼 obraz, panda
+🦥 len, lenivec, počasen, zaspan
+🦦 igriva, lovi ribe, vidra
+🦨 skunk, smrdi
+🦘 Avstralija, kenguru, mlad kenguru, skok, vrečar
+🦡 jazbec, medarski jazbec, nadloga
+🐾 odtis, odtisi tac, šapa, tace
+🦃 puran
+🐔 kokoš, kokoška, kura
+🐓 petelin
+🐣 mladič, piščanček, pišče, ki se izvali, valjenje
+🐤 mladič, piščanček, valjenje
+🐥 mladič, piščanček, piščanček, gleda naprej
+🐦 ptič, ptica, ptiček
+🐧 pingvin
+🕊 golobica, leteti, mir, ptič
+🦅 orel, ptica
+🦆 ptica, raca
+🦢 grdi raček, labod, mlad labod, ptica
+🦉 pamet, ptica, sova
+🦤 dodo, izumrtje, Mavricij, velik
+🪶 lahek, letenje, perje, pero, ptica
+🦩 flamingo, nastopaški, tropski, vpadljiv
+🦚 bahava, pav, pavica, ponosna, ptica
+🦜 govor, papagaj, pirat, ptič
+🐸 obraz, žaba
+🐊 krokodil
+🐢 želva
+🦎 kuščar, plazilec
+🐍 kača, kačenosec, prinašalec, zodiak
+🐲 obraz, pravljica, zmaj, zmajski obraz
+🐉 pravljica, zmaj
+🦕 brahiozaver, brontozaver, diplodok, zavropod
+🦖 tiranozaver
+🐳 brizganje, kit, kit, ki brizga vodo, obraz
+🐋 kit
+🐬 delfin, fliper
+🦭 morski lev, tjulenj
+🐟 riba, ribi, zodiak
+🐠 riba, tropska riba, tropsko
+🐡 riba, riba napihovalka, tropsko
+🦈 morski pes, riba
+🐙 hobotnica
+🐚 školjka, spiralna školjka, spiralno
+🐌 polž
+🦋 insekt, lep, metulj
+🐛 žuželka
+🐜 mravlja, žuželka
+🐝 čebela, žuželka
+🪲 hrošč, insekt, žuželka
+🐞 hrošč, pikapolonica, žuželka
+🦗 muren
+🪳 ščurek, žuželka
+🕷 pajek, žuželka
+🕸 mreža, pajek, pajkova mreža
+🦂 škorpijon, zodiak
+🦟 bolezen, insekt, komar, malarija, mrzlica, virus
+🪰 bolezen, domača muha, gnitje, ličinka, muha, muha cece, obad
+🪱 črv, deževnik, kolobarnik, zajedavec
+🦠 ameba, bakterija, mikrob, virus
+💐 rastlina, romanca, roža, šopek
+🌸 češnja, češnjev cvet, cvet, rastlina, roža
+💮 bela cvetlica, roža
+🏵 rastlina, rozeta
+🌹 rastlina, roža, vrtnica
+🥀 ovenela, roža
+🌺 hibiskus, rastlina, roža
+🌻 rastlina, roža, sonce, sončnica
+🌼 cvet, rastlina, roža
+🌷 rastlina, roža, tulipan
+🌱 mlado, rastlina, sadika
+🪴 dolgčas, gojenje, hiša, lončnica, neuporabno, rasti, rastlina
+🌲 drevo, rastlina, zimzeleno drevo
+🌳 drevo, listnato, odpadanje, rastlina
+🌴 drevo, palma, rastlina
+🌵 kaktus, rastlina
+🌾 klas, rastlina, riž, snop riža
+🌿 list, rastlina, zelišče
+☘ deteljica, rastlina
+🍀 4, detelja, list, rastlina, štiri, štiriperesna deteljica
+🍁 javor, javorov list, list, padanje, rastlina
+🍂 list, padanje, padlo listje, rastlina
+🍃 list, listje, ki se vrtinči v vetru, pihati, rastlina, veter, vrtinčiti se
+🍇 grozd, grozdje, rastlina, sadje
+🍈 melona, rastlina, sadje
+🍉 lubenica, rastlina, sadje
+🍊 mandarina, pomaranča, rastlina, sadje
+🍋 agrum, limona, rastlina, sadje
+🍌 banana, rastlina, sadje
+🍍 ananas, rastlina, sadje
+🥭 mango, sadež, tropski
+🍎 jabolko, rastlina, rdeče, sadje
+🍏 jabolko, rastlina, sadje, zeleno
+🍐 hruška, rastlina, sadje
+🍑 breskev, rastlina, sadje
+🍒 češnja, češnje, rastlina, sadje
+🍓 jagoda, rastina, sadje
+🫐 borovnica, borovnice, črnica, jagoda, modra
+🥝 hrana, kivi, sadje
+🍅 paradižnik, rastlina, zelenjava
+🫒 hrana, oliva
+🥥 kokos
+🥑 avokado, hrana, sadje
+🍆 jajčevec, rastlina, zelenjava
+🥔 hrana, krompir, zelenjava
+🥕 hrana, korenje, zelenjava
+🌽 klas, koruza, koruzni storž, rastlina
+🌶 feferon, paprika, pekoče
+🫑 babura, capsicum, paprika, zelenjava
+🥒 hrana, kumara, zelenjava
+🥬 kitajsko zelje, listnato zelena, listni ohrovt, solata, zelje
+🥦 brokoli
+🧄 aromatično, česen, dišavnica, začimba
+🧅 aromatično, čebula, solzenje
+🍄 goba, rastlina
+🥜 arašid, arašidi, hrana, oreški, zelenjava
+🌰 kostanj, rastlina
+🍞 kruh, štruca
+🥐 francoski, hrana, pecivo, rogljič
+🥖 bageta, francoska, hrana, kruh
+🫓 arepa, indijski kruh, lavaš, naan, pita
+🥨 presta
+🥯 bagel, namaz, pekarna
+🥞 hrana, palačinke
+🧇 oblat, pecivo, vafelj
+🧀 kos sira, sir
+🍖 kost, meso, meso s kostjo
+🍗 bedro, kost, perutnina, piščančje bedro, piščanec
+🥩 kos mesa
+🥓 hrana, meso, slanina
+🍔 hamburger
+🍟 krompirček, ocvrt krompirček, pomfrit
+🍕 pica, rezina, sir
+🌭 hot dog, hrenovka
+🥪 sendvič
+🌮 mehiški prigrizek, taco
+🌯 burito, mehiški prigrizek
+🫔 mehiška, tamale, zavitek
+🥙 falafel, gyros, hrana, kebab, nadev
+🧆 čičerika, falafel, kroglica
+🥚 hrana, jajca, jajce
+🍳 cvrtje, jajce, kuhanje, ponev
+🥘 hrana, kozica, kozica s hrano, paella, ponev
+🍲 obara, skodelica, skodelica hrane
+🫕 čokolada, fondi, lonček, sir, stopljena, švicarski
+🥣 skodelica z žlico
+🥗 hrana, solata, zelena
+🍿 kokice, pokovka
+🧈 maslo, mlečni izdelek, mlečno
+🧂 sol, solnica, začimba
+🥫 konzervirana hrana
+🍱 bento, japonsko, malica, posoda, posoda za malico bento
+🍘 kreker, riž, rižev kreker
+🍙 japonsko, kroglica, riž, riževa kroglica
+🍚 kuhan riž, kuhano, riž
+🍛 kari, riž, riž s karijem
+🍜 ramen, rezanci, skleda, skleda rezancev, vrelo
+🍝 špageti, testenine
+🍠 krompir, pečeni sladki krompir, pečeno, sladko
+🍢 kebab, morska hrana, oden, paličica, špila
+🍣 suši
+🍤 kozica, ocvrt rakec, ocvrto, rakec, tempura
+🍥 kolač, pecivo, riba, ribji kolač s spiralo, spirala
+🥮 festival, jesen, lunina torta, yuebing
+🍡 dango, japonsko, paličica, posladek, sladko, špila
+🥟 cmok
+🥠 piškotek sreče
+🥡 embalaža za hrano, kartonska embalaža za hrano
+🦀 rak, rakovica, zodiak
+🦞 jastog, klešče, kremna juha, morska hrana
+🦐 hrana, kozica, morski rakec, rak, škamp
+🦑 hrana, ligenj, mehkužec
+🦪 biser, ostriga, potapljanje, školjka
+🍦 krema, led, mehko, posladek, rahel sladoled, sladko, sladoled
+🍧 led, nastrgan led, nastrgano, posladek, sladko
+🍨 krema, led, posladek, sladko, sladoled
+🍩 krof, posladek, sladko
+🍪 piškot, posladek, sladko
+🎂 pecivo, posladek, rojstni dan, rojstnodnevna torta, sladko, slavje, torta
+🍰 krhek kolač, pecivo, posladek, rezina, sladko, torta
+🧁 kolaček, pekarna, posladek
+🥧 pita
+🍫 čokolada, posladek, sladko, tablica, tablica čokolade
+🍬 bonbon, posladek, sladko
+🍭 lizika, posladek, sladkarija, sladko
+🍮 posladek, puding, sladko, vanilijev puding
+🍯 kozarec za med, lonček, med, sladko, vrč medu
+🍼 dojenček, mleko, piti, steklenica, steklenička
+🥛 kozarec, kozarec mleka, mleko, pijača
+☕ čaj, kava, napitek, piti, vrelo, vroč napitek, vroče
+🫖 čaj, čajnik, pijača, vrč
+🍵 čaj, čajna skodelica brez ročaja, napitek, piti, skodelica, skodelica čaja
+🍶 bar, napitek, pijača, sake, skodelica, steklenica
+🍾 bar, odleteti, odpiranje penine, pijača, steklenica, zamašek
+🍷 bar, napitek, pijača, steklenica, vino, vinski kozarec
+🍸 bar, koktajl, kozarec, kozarec za koktajl, pijača
+🍹 bar, pijača, tropska pijača, tropsko
+🍺 bar, pijača, pivo, vrček, vrček za pivo
+🍻 bar, nazdravljanje z vrčkoma za pivo, pijača, pivo, trkanje, vrček
+🥂 nazdravljanje, pijača, praznovanje, trkanje
+🥃 kozarec, kozarec žgane pijače, merica, viski, žgane pijače
+🥤 kozarec s slamico
+🧋 biser, čaj, čaj s kroglicami, mleko, pena
+🧃 tetrapak s pijačo, tetrapak s sokom
+🧉 mate čaj, napitek, pijača
+🧊 hladno, ledena kocka, ledeno, ohladitev
+🥢 jedilne paličice
+🍽 krožnik, kuhanje, nož, vilice, vilice, nož in krožnik
+🍴 kuhanje, nož, vilice, vilice in nož
+🥄 pribor, žlica
+🔪 hocho, kuhanje, kuhinjski nož, nož, orodje, orožje
+🏺 amfora, kuhanje, orodje, orožje, pijača, vodnar, vrč, zodiak
+🌍 Afrika, Evropa, globus, globus z Evropo in Afriko, svet, zemlja
+🌎 Ameriki, globus, globus s Severno in Južno Ameriko, svet, zemlja
+🌏 Avstralija, Azija, globus, globus z Azijo in Avstralijo, svet, zemlja
+🌐 globus, globus s poldnevniki, poldnevniki, svet, zemlja
+🗺 svet, zemljevid, zemljevid sveta
+🗾 Japonska, zemljevid, zemljevid Japonske
+🧭 kompas, magnet, navigacija, orientacija
+🏔 gora, hladno, sneg, zasnežena gora
+⛰ gora
+🌋 gora, izbruh, vreme, vulkan
+🗻 Fuji, gora
+🏕 kampiranje, šotor
+🏖 plaža, plaža s senčnikom, senčnik
+🏜 puščava
+🏝 otok, puščava, samotni otok
+🏞 nacionalni park, park
+🏟 stadion
+🏛 klasična zgradba, klasično, zgradba
+🏗 gradbišče, gradnja, zgradba
+🧱 glina, malta, opeka, opeke, zid
+🪨 kamen, pečina, skala, težek, trd
+🪵 bruna, debla, klada, les
+🛖 hiša, jurta, koča, okrogla hiša
+🏘 hiša, hiše, zgradba
+🏚 hiša, zapuščena hiša, zapuščeno, zgradba
+🏠 dom, hiša, zgradba
+🏡 dom, hiša, hiša z vrtom, vrt, zgradba
+🏢 poslovna stavba, zgradba
+🏣 japonska pošta, japonsko, pošta, zgradba
+🏤 evropsko, pošta, zgradba
+🏥 bolnišnica, zdravilo, zdravnik, zgradba
+🏦 banka, zgradba
+🏨 hotel, zgradba
+🏩 hotel, ljubezen, ljubezenski hotel, zgradba
+🏪 hotel, komfort, trgovina, trgovina z mešanim blagom
+🏫 šola, zgradba
+🏬 blago, trgovina, veleblagovnica, zgradba
+🏭 tovarna, zgradba
+🏯 grad, japonski grad, japonsko, zgradba
+🏰 evropsko, grad, zgradba
+💒 kapela, poročna kapela, romanca
+🗼 stolp, tokijski stolp, Tokio
+🗽 kip, kip svobode, svoboda
+⛪ cerkev, križ, krščansko, vera, zgradba
+🕌 islam, mošeja, muslimansko, vera
+🛕 hindu, hindujski tempelj, tempelj
+🕍 jud, judovsko, sinagoga, tempelj, vera
+⛩ šinto, šintoistično svetišče, svetišče, vera
+🕋 islam, kaaba, muslimansko, vera
+⛲ fontana, vodnjak
+⛺ šotor, taborjenje
+🌁 megla, megleno, vreme
+🌃 noč, vreme, zvezda, zvezdnata noč
+🏙 mestna pokrajina, mesto, zgradba
+🌄 gora, jutro, sonce, sončni vzhod, sončni vzhod v gorah, vreme
+🌅 jutro, sonce, sončni vzhod, vreme
+🌆 mestna pokrajina v mraku, mesto, mrak, pokrajina, sonce, sončni zahod, večer, vreme, zgradba
+🌇 mrak, sonce, sončni zahod, vreme, zgradba
+🌉 most, most ponoči, noč, vreme
+♨ izvir, termalni vrelec, vrelec, vrelo, vroče
+🎠 konj, konj na vrtiljaku, vrtiljak
+🎡 lunapark, panoramsko kolo
+🎢 lunapark, vlak smrti, vlakec smrti
+💈 brivec, brivski izvesek, izvesek, striženje
+🎪 cirkus, cirkuški šotor, šotor
+🚂 lokomotiva, para, stroj, vlak, vozilo, železnica
+🚃 avtomobil, električno, tramvaj, trolejbus, vlak, vozilo, železnica, železniški vagon
+🚄 hitri vlak, hitrost, shinkansen, vlak, vozilo, železnica
+🚅 hitri vlak s koničastim nosom, hitrost, koničast nos, shinkansen, vlak, vozilo, železnica
+🚆 vlak, vozilo, železnica
+🚇 podzemna železnica, podzemni vlak, vozilo
+🚈 ozkotirna železnica, vozilo, železnica
+🚉 postaja, vlak, vozilo, železnica
+🚊 tramvaj, trolejbus, vozilo
+🚝 enotirna železnica, vozilo
+🚞 avto, gora, gorska železnica, vozilo, železnica
+🚋 tramvaj, trolejbus, vagon, vagon tramvaja, vozilo
+🚌 avtobus, vozilo
+🚍 avtobus, prihajajoče, prihajajoči avtobus, vozilo
+🚎 avtobus, tramvaj, trolejbus, vozilo
+🚐 avtobus, minibus, vozilo
+🚑 reševalno vozilo, vozilo
+🚒 avto, gasilsko, požar, vozilo
+🚓 avto, patruljno, policija, policijsko vozilo, vozilo
+🚔 avto, policija, prihajajoče, prihajajoče policijsko vozilo, vozilo
+🚕 taksi, vozilo
+🚖 prihajajoče, prihajajoči taksi, taksi, vozilo
+🚗 avto, avtomobil, vozilo
+🚘 avto, avtomobil, prihajajoče, prihajajoči avtomobil, vozilo
+🚙 cestni terenec, prostočasno, vozilo
+🛻 pick-up, pickup, poltovornjak
+🚚 dostavno, poltovornjak, vozilo
+🚛 kamion, polpriklopnik, tovornjak, tovornjak s prikolico, vozilo
+🚜 traktor, vozilo
+🏎 avto, dirkalnik, dirkanje
+🏍 dirkanje, motor
+🛵 motor, skuter
+🦽 invalid, ročni invalidski voziček
+🦼 invalid, motoriziran invalidski voziček
+🛺 rikša z motorjem, tuk tuk
+🚲 kolo, vozilo
+🛴 poganjanje, skiro
+🛹 deska, rolka
+🛼 kotalka, kotalke, roler
+🚏 avtobus, avtobusna postaja, avtobusno postajališče, postajališče
+🛣 avtocesta, cesta
+🛤 vlak, železnica, železniška proga
+🛢 nafta, naftni sod, sod
+⛽ bencin, črpalka, črpalka za gorivo, gorivo, servis
+🚨 avto, luč, policija, policijska luč, rotacijska luč, vozilo, vrteče
+🚥 luč, promet, semafor, vodoravni semafor
+🚦 luč, navpični semafor, promet, semafor
+🛑 osemkotnik, stop, znak
+🚧 prepreka, zaprto zaradi gradnje
+⚓ ladja, orodje, sidro
+⛵ čoln, jadrnica, jahta, letovišče, morje, vozilo
+🛶 čoln, kanu
+🚤 čoln, gliser, vozilo
+🛳 ladja, potnik, potniška ladja, vozilo
+⛴ ladja, trajekt
+🛥 ladja, motorni čoln, vozilo
+🚢 ladja, vozilo
+✈ letalo, vozilo
+🛩 letalo, manjše letalo, vozilo
+🛫 letalo, odhod, odhod letala, odhodi, prijava, vozilo
+🛬 letalo, prihod, prihod letala, prihodi, pristanek, vozilo
+🪂 jadralni zmaj, jadralno padalo, padalo, parasailing, skok s padalom
+💺 sedež, stol
+🚁 helikopter, vozilo
+🚟 viseča železnica, viseče, vozilo, železnica
+🚠 gondola, gora, jeklena vrv, nihalka, vozilo
+🚡 gondola, jeklena vrv, tramvaj, vagon, vozilo, žičnica, zračno
+🛰 satelit, vesolje, vozilo
+🚀 raketa, vesolje, vozilo
+🛸 leteči krožnik
+🛎 hotel, hotelski zvonec, portir, zvonec
+🧳 pakiranje, potovanje, prtljaga
+⌛ časovnik, peščena ura, pesek
+⏳ časovnik, peščena ura, peščena ura, ki teče, pesek
+⌚ ročna ura, ura
+⏰ alarm, budilka, ura
+⏱ štoparica, ura
+⏲ časovnik, ura
+🕰 ura, ura za na okvir kamina
+🕛 00, 12, dvanajst, poldne, ura
+🕧 12, 12.30, 30, dvanajst, ena, pol, pol enih, ura
+🕐 00, 1, 1.00, ena, ura, ura je ena
+🕜 1, 1.30, 30, dve, ena, pol, pol dveh, ura
+🕑 00, 2, 2.00, dve, ura, ura je dve
+🕝 2, 2.30, 30, dve, pol, pol treh, tri, ura
+🕒 00, 3, 3.00, tri, ura, ura je tri
+🕞 3, 3.30, 30, pol, pol štirih, štiri, tri, ura
+🕓 00, 4, 4.00, štiri, ura, ura je štiri
+🕟 30, 4, 4.30, pet, pol, pol petih, štiri, ura
+🕔 00, 5, 5.00, pet, ura, ura je pet
+🕠 30, 5, 5.30, pet, pol, pol šestih, šest, ura
+🕕 00, 6, 6.00, šest, ura, ura je šest
+🕡 30, 6, 6.30, pol, pol sedmih, sedem, šest, ura
+🕖 00, 7, 7.00, sedem, ura, ura je sedem
+🕢 30, 7, 7.30, osem, pol, pol osmih, sedem, ura
+🕗 00, 8, 8.00, osem, ura, ura je osem
+🕣 30, 8, 8.30, devet, osem, pol, pol devetih, ura
+🕘 00, 9, 9.00, devet, ura, ura je devet
+🕤 30, 9, 9.30, deset, devet, pol, pol desetih, ura
+🕙 00, 10, 10.00, deset, ura, ura je deset
+🕥 10, 10.30, 30, deset, enajst, pol, pol enajstih, ura
+🕚 00, 11, 11.00, enajst, ura, ura je enajst
+🕦 11, 11.30, 30, dvanajst, enajst, pol, pol dvanajstih, ura
+🌑 luna, mlada luna, tema, vesolje, vreme
+🌒 krajec, luna, prvi, vesolje, vreme
+🌓 četrt, luna, polovično osvetljena luna v prvem krajcu, vesolje, vreme
+🌔 luna, polovično, prvi, več kot polovično osvetljen prvi krajec, vesolje, vreme
+🌕 luna, polna luna, polno, vesolje, vreme
+🌖 luna, polovično, več kot polovično osvetljen zadnji krajec, vesolje, vreme, zadnji
+🌗 četrt, luna, polovično osvetljena luna v zadnjem krajcu, vesolje, vreme
+🌘 krajec, luna, vesolje, vreme, zadnji
+🌙 krajec, luna, lunin srp, vesolje, vreme
+🌚 luna, mlada luna z obrazom, obraz, vesolje, vreme
+🌛 četrt, luna, obraz, polovično osvetljena luna v prvem krajcu z obrazom, vesolje, vreme
+🌜 četrt, luna, obraz, polovično osvetljena luna v zadnjem krajcu z obrazom, vesolje, vreme
+🌡 termometer, vreme
+☀ sonce, sončno, svetlo, vesolje, vreme, žarki
+🌝 luna, obraz, polna luna z obrazom, polno, svetlo, vesolje, vreme
+🌞 obraz, sonce, sonce z obrazom, svetlo, vesolje, vreme
+🪐 planet z obročem, saturn, saturnov obroč
+⭐ bela srednja zvezda, zvezda
+🌟 bleščeče, lesketanje, sijanje, žar, žareča zvezda, zvezda
+🌠 padanje, repatica, utrinek, vesolje, zvezda
+🌌 rimska cesta, vesolje, vreme
+☁ oblak, vreme
+⛅ oblak, sonce, sonce za oblakom, vreme
+⛈ dež, oblak, oblak s strelo in dežjem, strela, vreme
+🌤 oblak, sonce, sonce za oblačkom, vreme
+🌥 oblak, sonce, sonce za velikim oblakom, vreme
+🌦 dež, oblak, sonce, sonce za oblakom z dežjem, vreme
+🌧 dež, oblak, oblak z dežjem, vreme
+🌨 mrzlo, oblak, oblak s snegom, sneg, vreme
+🌩 oblak, oblak s strelo, strela, vreme
+🌪 oblak, tornado, vreme, vrtinec
+🌫 megla, oblak, vreme
+🌬 oblak, obraz, obraz, ki piha veter, pihati, veter, vreme
+🌀 ciklon, tajfun, tornado, vreme, vrtoglavica
+🌈 dež, mavrica, vreme
+🌂 dež, dežnik, oblačila, vreme, zaprt dežnik
+☂ dež, dežnik, oblačila, vreme
+☔ dež, dežnik, dežnik z dežnimi kapljami, kaplja, oblačila, vreme
+⛱ dež, dežnik, dežnik na tleh, sonce, vreme
+⚡ električno, elektrika, napetost, nevarnost, strela, sunek, visoka napetost
+❄ mrzlo, sneg, snežinka, vreme
+☃ mrzlo, sneg, snežak, vreme
+⛄ mrzlo, sneg, snežak, snežak brez snega, vreme
+☄ komet, vesolje
+🔥 ogenj, orodje, plamen
+💧 kaplja, kapljica, mrzlo, pot, strip, vreme
+🌊 morje, val, voda, vodni val, vreme
+🎃 buča, izrezljana buča, laterna, noč čarovnic, slavje
+🎄 božič, drevešček, jelka, slavje
+🎆 ognjemet, slavje
+🎇 iskrenje, ognjemet, sibirska lučka, slavje
+🧨 dinamit, eksploziv, ognjemet, petarda
+✨ *, iskrenje, iskrice, zvezda
+🎈 balon, slavje
+🎉 pokalica, pokalica za zabave, slavje, zabava
+🎊 konfeti, krogla, slavje
+🎋 drevo, drevo za tanabato, japonsko, pasica, slavje
+🎍 bambus, bor, japonsko, okrasitev bora, rastlina, slavje
+🎎 festival, japonski lutki, japonsko, lutka, slavje
+🎏 barvno, riba, slavje, trak, zastavni trak z ribama
+🎐 slavje, veter, vetrni zvončki, zvonček, zvonec
+🎑 luna, lunino slavje, obred, slavje
+🧧 darilo, denar, hóngbāo, lai see, rdeča ovojnica, sreča
+🎀 pentlja, slavje
+🎁 dar, darilo, škatla, slavje, zavito
+🎗 pentlja, simbol, simbolna pentlja, slavje
+🎟 vstopnica, vstopnice, vstopnina
+🎫 vstopnica, vstopnina
+🎖 odlikovanje, slavje, vojaško
+🏆 nagrada, trofeja
+🏅 medalja, športna medalja
+🥇 medalja, prvo mesto, zlata medalja, zlato
+🥈 drugo mesto, medalja, srebrna medalja, srebro
+🥉 bron, bronasta medalja, medalja, tretje mesto
+⚽ nogomet, nogometna žoga, žoga
+⚾ žoga, žogica za baseball
+🥎 pod roko, rokavica, žoga, žoga za softball
+🏀 koš, košarkarska žoga, obroč, žoga
+🏐 igra, žoga, žoga za odbojko
+🏈 ameriško, nogomet, žoga, žoga za ameriški nogomet
+🏉 nogomet, ragbi, žoga, žoga za ragbi
+🎾 lopar, tenis, žoga
+🥏 frizbi, najboljši
+🎳 igra, kegljanje, krogla
+🏏 igra, kij, kriket, žogica
+🏑 hokej, hokej na travi, igra, palica, polje, žogica
+🏒 hokej, hokejska palica in plošček, igra, led, palica, plošček
+🥍 gol, lacrosse, palica, žoga
+🏓 igra, kij, lopar, namizni tenis, žogica
+🏸 badminton, igra, lopar, perjanica, žogica
+🥊 boks, boksarska rokavica, rokavica, šport
+🥋 borilne veščine, judo, karate, kimono za borilne športe, šport, taekwondo, uniforma
+🥅 gol, mreža, šport
+⛳ golf, luknja, zastavica v luknji
+⛸ drsalka, drsati, led
+🎣 palica, riba, ribiška palica
+🤿 na dah, potapljanje, potapljaška maska, snorkljanje
+🎽 lenta, majica, tek, tekaška majica
+🎿 smučati, smučke, sneg
+🛷 sanke
+🥌 curling
+🎯 igra, pikado, središče, zadetek, zadetek v polno
+🪀 igrača, jojo, nihanje, proč sem
+🪁 jadrati, leteti, zmaj (igrača)
+🎱 8, biljard, igra, krogla, osmica
+🔮 fantazija, kristalna, krogla, orodje, pravljica, prerokba
+🪄 čarobna palica, čarovnica, čarovnija, čarovnik
+🧿 amulet, amulet zlobno oko, koralda, nazar, talisman, zlobno oko
+🎮 igra, krmilnik, videoigra
+🕹 igra, igralna palica, videoigra
+🎰 avtomat, igra, igralni avtomat
+🎲 igra, igralna kocka, kocka
+🧩 delček, delček sestavljanke, namig, prileganje, sestavljanka
+🧸 igrača, lutka, medvedek, plišasta, polnjena
+🪅 pinjata, praznovanje, zabava
+🪆 babuška, gnezdenje, lutka, rusija
+♠ barva, igra, karta, pik
+♥ barva, igra, karta, srca, srce
+♦ barva, kari igra, karo, karta
+♣ barva, igra, karta, križ, križi
+♟ kmet pri šahu, pogrešljiv, šah, tepček
+🃏 igra, igranje, joker, karta
+🀄 igra, mahjong, rdeče, rdeči zmaj v mahjongu
+🎴 igra, igranje, japonsko, karta, roža, rožne igralne karte
+🎭 gledališče, maska, nastopanje, scenske umetnosti, umetnost
+🖼 muzej, okvir, risba, slika, umetnost, uokvirjena slika
+🎨 muzej, paleta, slika, slikarska paleta, umetnost
+🧵 navitek, nit, šivanje, šivanka, sukanec
+🪡 igla, krojenje, šivanje, šivanka, šivi, spoji, vezenje
+🧶 klobčič, kvačkanje, pletenje, preja
+🪢 sukanec, vozel, vrv, vrvica, zanka
+👓 oblačila, očala, oči
+🕶 očala, oči, sončna očala, temno
+🥽 plavanje, varjenje, zaščita oči, zaščitna očala
+🥼 eksperiment, laboratorijska halja, zdravnik, znanstvenik
+🦺 jopič, reševalni, v sili, varnostni jopič
+👔 kravata, oblačila
+👕 kratka majica, majica, oblačila, srajca
+👖 hlače, kavbojke, oblačila
+🧣 šal
+🧤 rokavice
+🧥 plašč
+🧦 nogavice
+👗 oblačila, ženska obleka
+👘 kimono, oblačila
+🥻 oblačilo, obleka, ogrinjalo, sari
+🩱 enodelne kopalke, kopalna obleka, ženske kopalke
+🩲 enodelno, kopalke, kopalno oblačilo, spodnje hlače, spodnje perilo
+🩳 kopalke, kopalne hlače, kratke hlače, spodnje perilo
+👙 bikini, oblačila, plavati
+👚 oblačila, ženska
+👛 drobižnica, kovanec, oblačila
+👜 oblačila, ročna torbica, torbica
+👝 oblačila, torbica, večerna torbica
+🛍 hotel, nakupovalni vrečki, nakupovanje, torbica
+🎒 nahrbtnik, šola, šolski nahrbtnik, torba
+🩴 japonke, obuvalo za plažo, sandali, sandali za plažo, zōri
+👞 čevelj, moški, oblačila
+👟 čevelj, oblačila, športno, superga, tekaški čevelj
+🥾 čevelj, kampiranje, planinarjenje, pohodniški čevelj, pohodništvo
+🥿 balerinke, balernike, brez pete, natakniti
+👠 čevelj, čevelj z visoko peto, oblačila, peta, ženska
+👡 čevelj, oblačila, sandal, ženska, ženski sandali
+🩰 balet, baletni čeveljci, ples
+👢 čevelj, oblačila, škorenj, ženska, ženski škorenj
+👑 kralj, kraljica, krona, oblačila
+👒 klobuk, oblačila, ženska, ženski klobuk
+🎩 cilinder, klobuk, oblačila
+🎓 kapa, klobuk, matura, maturantska kapa, oblačila, slavje
+🧢 kapa s ščitom
+🪖 armada, bojevnik, čelada, vojak, vojaška čelada, vojska
+⛑ čelada, čelada z belim križem, čepica, križ, obraz, pomoč
+📿 koralde, molitev, oblačila, ogrlica, rožni venec, vera
+💄 kozmetika, ličila, šminka
+💍 diamant, prstan, romanca
+💎 diamant, dragi kamen, dragulj, romanca
+🔇 brez zvoka, glasnost, tiho, ugasnjen zvočnik, zvočnik
+🔈 glasnost, zvočnik pri nizki glasnosti
+🔉 glasnost, nizko, val, zvočnik, zvočnik pri zmerni glasnosti
+🔊 glasno, zvočnik na glas
+📢 glasnost, javna objava, javni zvočnik
+📣 megafon, skandiranje
+📯 poštni rog, poštno, rog
+🔔 zvonec
+🔕 brez zvoka, molčeče, ne, ni dovoljeno, prečrtan zvonec, prepovedano, tiho, zvonec
+🎼 glasba, partitura
+🎵 glasba, glasbena nota, nota
+🎶 glasba, glasbene note, nota, note
+🎙 glasba, mikrofon, studijski mikrofon, studio
+🎚 drsnik, drsnik za raven, glasba, raven
+🎛 glasba, gumbi, kontrolni gumbi, kontrolnik
+🎤 karaoke, mikrofon
+🎧 slušalka, ušesna slušalka
+📻 glasba, radio
+🎷 glasba, instrument, saksofon
+🪗 harmonika, kromatična harmonika, meh
+🎸 glasba, glasbilo, kitara
+🎹 glasba, glasbilo, klaviatura, klavir
+🎺 glasba, glasbilo, trobenta
+🎻 glasba, glasbilo, violina
+🪕 bendžo, brenkalo, glasba, glasbilo, strune
+🥁 boben, glasba, tolkalo
+🪘 boben, kongo, ritem, visok boben
+📱 mobilni telefon, mobilnik, mobilno, telefon
+📲 klic, mobilni telefon s puščico, mobilnik, mobilno, puščica, sprejeti, telefon
+☎ telefon
+📞 sprejemnik, telefon, telefonska slušalka
+📟 pozivnik
+📠 faks, telefaks
+🔋 baterija
+🔌 električni vtikač, električno, elektrika, vtikač
+💻 osebno, prenosnik, računalnik, sistem, windows
+🖥 namizni računalnik, namizno, računalnik
+🖨 računalnik, tiskalnik
+⌨ računalnik, tipkovnica
+🖱 računalnik, računalniška miška
+🖲 računalnik, sledilna kroglica
+💽 disk, minidisk, optično, računalnik
+💾 disk, disketa, računalnik
+💿 blu-ray, cd, disk, dvd, optični disk, optično, računalnik
+📀 blu-ray, cd, disk, dvd, optično, računalnik
+🧮 abak, izračun
+🎥 film, filmska kamera, kamera, kino
+🎞 film, filmski trak, kino, sličice
+📽 film, filmski projektor, kino, projektor, video
+🎬 film, klapa
+📺 televizija, tv, video
+📷 fotoaparat, video
+📸 bliskavica, fotoaparat, fotoaparat z bliskavico, video
+📹 video, videokamera
+📼 kaseta, vhs, video, videokaseta
+🔍 iskanje, orodje, povečevalno, povečevalno steklo, usmerjeno v levo, steklo
+🔎 iskanje, orodje, povečevalno, povečevalno steklo, usmerjeno v desno, steklo
+🕯 luč, sveča
+💡 električno, luč, strip, zamisel, žarnica
+🔦 električno, luč, orodje, svetilka
+🏮 bar, japonsko, lampijon, luč, rdeče, rdeči lampijon
+🪔 dyja, lučka, olje, oljna lučka, svetilka
+📔 knjiga, okrašeno, platnica, zvezek, zvezek z okrasno platnico
+📕 knjiga, zaprta knjiga, zaprto
+📖 knjiga, odprta knjiga, odprto
+📗 knjiga, zelena knjiga, zeleno
+📘 knjiga, modra knjiga, modro
+📙 knjiga, oranžna knjiga, oranžno
+📚 knjiga, knjige
+📓 zvezek
+📒 zvezek, zvezek s spiralno vezavo
+📃 dokument, nagrbančiti se, stran, zvita stran
+📜 papir, zvitek
+📄 dokument, list s prikazano popisano stranjo, stran
+📰 časopis, novice
+🗞 časopis, novice, zvit časopis, zvito
+📑 marker, oznaka, zavihki, zaznamek, zaznamki na straneh
+🔖 oznaka, zaznamek
+🏷 etiketa, nalepka, oznaka
+💰 denar, dolar, vreča, vreča denarja
+🪙 denar, kovanec, kovina, srebro, zaklad, zlato
+💴 apoen, banka, bankovec, bankovec za jen, denar, jen, valuta
+💵 apoen, banka, bankovec, denar, dolar, dolarski bankovec, valuta
+💶 apoen, banka, bankovec, denar, evro, evrski bankovec, valuta
+💷 apoen, banka, bankovec, bankovec za funt, denar, funt, valuta
+💸 apoen, banka, bankovec, denar, denar s krili, dolar, krila, leteti, valuta
+💳 banka, denar, kartica, kreditna kartica, kreditno
+🧾 dokaz, dokazilo, knjigovodstvo, račun, računovodstvo
+💹 banka, denar, graf, grafikon, grafikon rasti za jen, jen, navzgor, rast, rasti, trend, trg, valuta
+✉ e-pošta, ovojnica
+📧 e-pošta, elektronska pošta, pismo, pošta
+📨 dohodna ovojnica, dohodno, e-pošta, elektronska pošta, pismo, pošta, prejeti
+📩 e-pošta, elektronska pošta, kuverta, navzdol, odhodno, ovojnica s puščico, pismo, poslano, pošta, puščica
+📤 nabiralnik, odhodna pošta, pismo, pladenj, pladenj za odhodno pošto, poslano, pošta
+📥 dohodna pošta, nabiralnik, pismo, pladenj, pladenj za dohodno pošto, pošta, prejeti
+📦 nabiralnik, paket
+📫 pošta, poštni nabiralnik, zaprt poštni nabiralnik z dvignjeno zastavico, zaprto
+📪 pošta, poštni nabiralnik, spuščeno, zaprt poštni nabiralnik s spuščeno zastavico, zaprto
+📬 odprt poštni nabiralnik z dvignjeno zastavico, odprto, pošta, poštni nabiralnik
+📭 odprt poštni nabiralnik s spuščeno zastavico, odprto, pošta, poštni nabiralnik, spuščeno
+📮 pošta, poštni nabiralnik
+🗳 glasovnica, škatla, škatla za glasovanje z glasovnico
+✏ pisalo, svinčnik
+✒ črna konica peresa, konica, pero
+🖋 nalivnik, pero
+🖊 kemični svinčnik, nalivnik, nalivno pero
+🖌 barvanje, čopič
+🖍 barvica, voščenka
+📝 svinčnik, zapisek
+💼 aktovka, kovček
+📁 mapa, mapa za spise, spis
+📂 mapa, odprta mapa za spise, odprto, spis
+🗂 kartica, kartoteka, kartoteke z vmesnimi listi, vmesni listi
+📅 datum, koledar
+📆 koledar, koledar z odstranljivimi listi
+🗒 beležka, beležnica, spirala, spiralna beležnica
+🗓 beležka, koledar, spirala, spiralni koledar
+📇 kartica, kartoteka, organizator vizitk
+📈 graf, grafikon, grafikon rasti, navzgor, rast, trend
+📉 graf, grafikon, grafikon padca, navzdol, trend
+📊 črtni grafikon, črtno, graf, grafikon
+📋 podložna mapa
+📌 risalni žebljiček
+📍 okrogli risalni žebljiček, risalni žebljiček
+📎 sponka za papir
+🖇 povezani sponki, povezano, sponka
+📏 merilo, ravnilo
+📐 merilo, nastaviti, trikotnik, trikotno ravnilo
+✂ orodje, škarje
+🗃 dokumenti, škatla, škatla z dokumenti, spis
+🗄 predalnik, predalnik za dokumente, spis
+🗑 koš za smeti
+🔒 ključavnica, zaklenjena ključavnica
+🔓 ključavnica, odkleniti, odklenjena ključavnica, odprto
+🔏 črnilo, ključavnica, ključavnica s peresom, konica, pero, zasebnost
+🔐 ključ, ključavnica, varno, zaprta ključavnica s ključem, zaprto
+🔑 geslo, ključ, ključavnica
+🗝 ključ, ključavnica, namig, star ključ, staro
+🔨 kladivo, orodje
+🪓 cepljenje, drva, les, sekanje, sekira
+⛏ kramp, orodje, rudarjenje
+⚒ kladivo, kladivo in kramp, kramp, orodje
+🛠 kladivo, kladivo in ključ, ključ, orodje
+🗡 bodalo, nož, orožje
+⚔ meči, orožje, prekrižana meča, prekrižano
+🔫 orodje, orožje, pištola, revolver, vodna pištola
+🪃 avstralija, bumerang, udarec nazaj, vračanje
+🏹 lok, lok in puščica, lokostrelec, orodje, orožje, puščica, strelec, zodiak
+🛡 orožje, ščit
+🪚 lisičja žaga, mizar, orodje, žaga, žagati
+🔧 ključ za matice, orodje
+🪛 izvijač, orodje, vijak
+🔩 matica, matica in vijak, orodje, vijak
+⚙ orodje, zobnik
+🗜 orodje, primež, stiskanje
+⚖ orodje, pravičnost, ravnovesje, tehtnica, teža, zodiak
+🦯 invalid, palica za slepe, slepota
+🔗 člen
+⛓ veriga, verige
+🪝 kavelj, kljuka, krivuljnik, prednost, zanka, zaponka
+🧰 mehanik, orodje, zaboj, zaboj za orodje
+🧲 magnet, magnetno, podkev, privlačnost
+🪜 klin, lestev, plezanje, prečka
+⚗ destilator, kemija, orodje
+🧪 eksperiment, epruveta, kemija, kemik, laboratorij, znanost
+🧫 bakterije, biolog, biologija, kultura, laboratorij, petrijevka
+🧬 biolog, dnk, evolucija, gen, genetika, življenje
+🔬 mikroskop, orodje
+🔭 orodje, teleskop
+📡 antena, krožnik, satelitska antena, satelitsko
+💉 bolno, igla, injekcija, medicina, orodje, zdravnik
+🩸 kaplja krvi, krvodajalstvo, medicina, menstruacija, zdravstvo
+💊 bolno, tableta, zdravilo, zdravnik
+🩹 hanzaplast, rana, samolepilni obliž
+🩺 medicina, pljuča, prsni koš, srce, stetoskop, zdravnik
+🚪 vrata
+🛗 dostopnost, dvigalo, elevator, lift
+🪞 odsev, ogledalo, zrcalo
+🪟 odprtina, okno, okvir, pogled, prosojno, svež zrak
+🛏 hotel, postelja, spanje
+🛋 hotel, kavč, kavč in svetilka, svetilka
+🪑 sedeti, sedež, stol
+🚽 stranišče, straniščna školjka
+🪠 odmaševalnik, sesalna skodela, sesanje, stranišče, vodoinštalater
+🚿 tuš, voda
+🛁 banja, kad
+🪤 mišolovka, past za miši, vaba
+🪒 britev, britje, britvica, ostro
+🧴 krema za sončenje, losjon, šampon, steklenička losjona, vlažilna krema
+🧷 plenica, punk rock, varnostna zaponka
+🧹 čarovnica, čiščenje, metla, pometanje
+🧺 kmetovanje, košara, perilo, piknik
+🧻 papirnate brisače, toaletni papir, zvitek papirja
+🪣 čeber, škaf, sod, vedro
+🧼 čiščenje, kopanje, kos, milo, pena, posodica za milo
+🪥 čisto, higiena, kopalnica, ščetka, zobje, zobna
+🧽 čiščenje, porozno, spužva, vpojno
+🧯 gašenje, gasilni aparat, ogenj, pogasiti
+🛒 košarica, nakupovalni voziček, nakupovanje, voziček
+🚬 cigara, cigareta, kajenje
+⚰ krsta, smrt
+🪦 grob, grobovi, nagrobnik, pokopališče, spomenik
+⚱ pogreb, smrt, žara
+🗿 kip, moai, obraz
+🪧 demonstracija, kol, plakat, protest, znak
+🏧 avtomat, bankomat, denar, znak za bankomat
+🚮 koš, smeti, znak za smeti v košu
+🚰 piti, pitna voda, pitno, voda
+♿ dostop, invalidski voziček
+🚹 moški, stranišče, stranišče za moške, wc
+🚺 stranišče, stranišče za ženske, wc, ženska
+🚻 javno stranišče, wc
+🚼 dojenček, previjanje, simbol dojenčka
+🚾 stranišče, voda, wc
+🛂 nadzor, potni list, pregled dokumentov
+🛃 carina, carinik
+🛄 prevzem, prevzem prtljage, prtljaga
+🛅 kovčki, omarica, prtljaga, prtljaga v garderobi
+⚠ opozorilo
+🚸 otroci prečkajo cesto, otrok, pešec, prehod, promet
+⛔ ne, ni dovoljeno, ni prehoda, prepovedano, promet, vstop
+🚫 ne, prepovedano, vstop
+🚳 kolo, ne, ni dovoljeno, prepovedano, prepovedano za kolesa, vozilo
+🚭 kajenje, ne, ni dovoljeno, prepovedano
+🚯 ne, ni dovoljeno, odlagati, prepovedano, prepovedano odlaganje smeti, smeti
+🚱 ne, ni dovoljeno, piti, pitno, prepovedati, voda, voda ni pitna
+🚷 ne, ni dovoljeno, pešec, prepovedano, prepovedano za pešce
+📵 mobilni telefoni prepovedani, mobilnik, mobilno, ne, ni dovoljeno, prepovedano, telefon
+🔞 18, mladoletno, ne, ni dovoljeno, omejitev starosti, osemnajst, prepovedano, prepovedano za mlajše od 18 let
+☢ radioaktivno
+☣ biološka nevarnost, biološki poskusi, bionevarnost, tvegano, znak
+⬆ glavno, puščica, puščica gor, sever, smer
+↗ puščica, puščica desno gor, severovzhod, smer, stransko
+➡ glavno, puščica, puščica desno, smer, vzhod
+↘ jugovzhod, puščica, puščica desno dol, smer, stransko
+⬇ glavno, jug, navzdol, puščica, puščica dol, smer
+↙ jugozahod, puščica, puščica levo dol, smer, stransko
+⬅ glavno, puščica, puščica levo, smer, zahod
+↖ puščica, puščica levo gor, severozahodno, smer, stransko
+↕ puščica, puščica gor dol
+↔ puščica, puščica levo desno
+↮ prečrtana puščica levo-desno
+↩ puščica, puščica desno, ki se ukrivlja v levo
+↪ puščica, puščica levo, ki se ukrivlja v desno
+⤴ puščica, puščica desno, ki se ukrivlja gor
+⤵ navzdol, puščica, puščica desno, ki se ukrivlja dol
+🔃 navpični puščici, ki se ukrivljata v smeri urinega kazalca, navpični puščici, ki se ukrivljata v smeri urnega kazalca, puščica, smer urinega kazalca, vnovično nalaganje
+🔄 gumb s puščicama, ki se ukrivljata v obratni smeri urinega kazalca, gumb s puščicama, ki se ukrivljata v obratni smeri urnega kazalca, nasprotna smer urinega kazalca, nazaj, puščica
+🔙 nazaj, puščica
+🔚 konec, puščica
+🔛 puščica, puščica NAPREJ!, vklop, znak
+🔜 kmalu, puščica
+🔝 navzgor, puščica, puščica na vrh, zgoraj
+🛐 božji hram, čaščenje, vera
+⚛ ateist, atom, simbol za atom
+🕉 hinduistično, om, vera
+✡ david, davidova zvezda, jud, judovsko, vera, zvezda
+☸ budistično, darma, kolo, kolo darme, vera
+☯ jang, jin, tao, taoistično, vera
+✝ križ, krščanski križ, krščansko, vera
+☦ križ, krščansko, pravoslavni križ, vera
+☪ islam, muslimansko, vera, zvezda in polmesec
+☮ mir, simbol za mir
+🕎 menora, namizni svečnik, svečnik, vera
+🔯 šestkraka zvezda s piko, sreča, zvezda
+♈ astrološki znak ovna, oven, zodiak
+♉ bik, vol, zodiak
+♊ dvojčka, zodiak
+♋ rak, zodiak
+♌ lev, zodiak, zodiak: lev
+♍ deva, devica, zodiak
+♎ pravičnost, ravnovesje, tehnica, tehtnica, zodiak
+♏ astrološki znak škorpijona, škorpijon, zodiak
+♐ strelec, zodiak
+♑ koza, kozorog, zodiak
+♒ nosec, voda, vodnar, zodiak
+♓ riba, ribi, zodiak
+⛎ kača, kačenosec, nosec, zodiak
+🔀 gumb za naključno predvajanje, prekrižano, puščica
+🔁 gumb za vnovično predvajanje, ponavljanje, puščica, smer urnega kazalca
+🔂 enkratno, gumb za vnovično posamezno predvajanje, puščica, smer urnega kazalca
+▶ desno, gumb za predvajanje, predvajanje, puščica, trikotnik
+⏩ dvojno, gumb za hitro previjanje naprej, hitro, naprej, puščica
+⏭ gumb za naslednjo skladbo, naslednja skladba, naslednji prizor, puščica, trikotnik
+⏯ desno, gumb za predvajanje ali zaustavitev, predvajanje, puščica, trikotnik, zaustavitev
+◀ gumb za predvajanje nazaj, levo, nazaj, puščica, trikotnik
+⏪ dvojno, gumb za hitro previjanje nazaj, previjanje nazaj, puščica
+⏮ gumb za zadnjo skladbo, prejšnja skladba, prejšnji prizor, puščica, trikotnik
+🔼 gumb, gumb za gor, puščica, rdeče
+⏫ dvojno, gumb za hitro gor, puščica
+🔽 gumb, gumb za dol, navzdol, puščica, rdeče
+⏬ dvojno, gumb za hitro dol, navzdol, puščica
+⏸ dvojno, gumb za zaustavitev, navpično, stolpec, zaustavitev
+⏹ gumb za ustavitev, kvadrat, ustavitev
+⏺ gumb za snemanje, krog, snemanje
+⏏ gumb za izvrženje, izvrženje
+🎦 film, kamera, kino
+🔅 gumb za zatemnitev, nizko, svetlost, zatemnitev
+🔆 gumb za svetlost, svetlo, svetlost
+📶 antena, mobilnik, mobilno, signal, stolpec, telefon
+📳 mobilnik, mobilno, način, način vibriranja, telefon, vibriranje
+📴 izklopljeno, mobilni telefon izklopljen, mobilnik, mobilno, telefon
+♀ dekle, ženska, znak za ženski spol
+♂ fant, moški, znak za moški spol
+⚧ simbol za transseksualnost, transseksualnost
+✖ ×, množenje, množi, množiti, prekliči, x, znak, znak za množenje
+➕ +, matematika, plus, znak
+➖ -, −, matematika, minus, znak
+➗ ÷, deli, deljenje, matematika, znak, znak za deljenje
+♾ neomejeno, neskončnost, univerzalno, večno
+‼ !, !!, dva klicaja, dvojni klicaj, klicaj, ločilo, znak
+⁉ !, !?, ?, klicaj, klicaj in vprašaj, klicaj-vprašaj, ločilo, vprašaj, znak
+❓ ?, ločilo, rdeč vprašaj, vprašaj, znak
+❔ ?, bel vprašaj, ločilo, obrobljeno, oznaka, vprašaj, vprašanje
+❕ !, bel klicaj, klicaj, obrobljeno, znak
+❗ !, klicaj, ločilo, rdeč klicaj, znak
+〰 ločilo, pomišljaj, valovit pomišljaj, valovito
+💱 banka, denar, menjava, menjava valut, valuta
+💲 denar, dolar, valuta, znak za dolar
+⚕ eskulapova palica, medicina, osebje, simbol zdravstva, zdravnik, zdravstvo
+♻ reciklirati, simbol za recikliranje
+⚜ lilija
+🔱 ladja, orodje, sidro, trizob, trizobo znamenje, znamenje
+📛 ime, značka, značka za ime
+🔰 cik-cak, japonski simbol za začetnika, japonsko, list, orodje, puščica, rumeno, začetnik, zeleno
+⭕ krog, o, rdeč, velik, velik prazen krog
+✅ ✓, gumb, gumb s kljukico, kljukica, potrditev
+☑ ✓, kljukica, polje, potrditveno polje s kjukico, potrditveno polje s kljukico
+✔ ✓, kljukica, znak
+❌ ×, križec, množenje, množiti, oznaka, preklic, x
+❎ ×, gumb s križcem, kvadrat, oznaka, x
+➰ pentlja, spirala, zanka, zavita pentlja
+➿ dvojna zavita pentlja, dvojno, pentlja, spirala, zanka
+〽 part, znak, znak za part
+✳ *, zvezdica, zvezdica z osmimi špicami
+✴ *, osemkraka zvezda, zvezda
+❇ *, iskra
+© avtorske pravice, c
+® r, registrirano
+™ blagovna znamka, TM, znak
+🔠 črke, latinica, velike črke, vnos, vnos velikih črk latinice
+🔡 abcd, črke, latinica, male črke, vnos, vnos malih črk latinice
+🔢 1234, številke, vnos, vnos številk
+🔣 vnos, vnos simbolov
+🔤 abc, abeceda, črke, latinica, vnos, vnos črk latinice
+🅰 a, gumb s črko a (krvna skupina), kri
+🆎 ab, gumb AB (krvna skupina), kri
+🅱 b, gumb s črko b (krvna skupina), kri
+🆑 cl, gumb CL
+🆒 frajersko, gumb COOL
+🆓 gumb FREE, prosto
+ℹ i, informacije, vir informacij
+🆔 gumb ID, id, identiteta
+Ⓜ črka m v krogu, krog, m
+🆕 gumb NEW, novo
+🆖 gumb NG, ng
+🅾 gumb s črko O (krvna skupina), kri, o
+🆗 gumb OK, v redu
+🅿 gumb s črko p, parkiranje
+🆘 gumb SOS, na pomoč, sos
+🆙 gumb z besedo up in klicajem, navzgor, znak
+🆚 gumb VS, proti
+🈁 gumb za »tukaj« v japonščini, japonsko, katakana, pisava, tukaj
+🈂 japonski znak za &quot;napitnino&quot; v kvadratu, japonsko, katakana, napitnina, pisava, postrežnina
+🈷 ideogram, japonski znak za &quot;mesečni znesek&quot;, japonski znak za &quot;mesečni znesek&quot; v kvadratu, japonsko, mesečni znesek, pojmovni znak
+🈶 gumb za »ni brezplačno« v japonščini, ideogram, japonsko, ni brezplačno, plačljivo, pojmovni znak
+🈯 gumb za »rezervirano« v japonščini, ideogram, japonsko, pojmovni znak, rezervirano
+🉐 gumb za »ugodno« v japonščini, ideogram, japonsko, pojmovni znak, ugoden nakup
+🈹 gumb za »popust« v japonščini, ideogram, japonsko, pojmovni znak, popust
+🈚 brezplačno, gumb za »brezplačno« v japonščini, ideogram, japonsko, pojmovni znak
+🈲 gumb za »prepovedano« v japonščini, ideogram, japonsko, pojmovni znak, prepovedano
+🉑 gumb za »sprejemljivo« v japonščini, ideogram, japonsko, pojmovni znak, sprejemljivo
+🈸 gumb za »aplikacija« v japonščini, ideogram, japonsko, pojmovni znak, uporaba
+🈴 ideogram, japonsko, pojmovni znak, pojmovni znak za skupaj v kvadratu, zadostna ocena, zadostni uspeh
+🈳 gumb za »prosto« v japonščini, ideogram, japonsko, pojmovni znak, prazno, prosto
+㊗ čestitka, čestitke, ideogram, japonsko, pojmovni znak za čestitanje v krogu
+㊙ ideogram, japonsko, pojmovni znak za skrivnost v krogu, skrivnost
+🈺 gumb za »odprto« v japonščini, ideogram, japonsko, odprto za poslovanje, pojmovni znak
+🈵 gumb za »ni prosto« v japonščini, ideogram, japonsko, ni prosto, pojmovni znak, zasedeno
+🔴 geometrično, krog, rdeč krog, rdeče
+🟠 krog, oranžen
+🟡 krog, rumen
+🟢 krog, zelen
+🔵 geometrično, krog, moder krog, modro
+🟣 krog, škrlaten
+🟤 krog, rjav
+⚫ črn krog, geometrično, krog
+⚪ bel krog, geometrično, krog
+🟥 kvadrat, rdeč
+🟧 kvadrat, oranžen
+🟨 kvadrat, rumen
+🟩 kvadrat, zelen
+🟦 kvadrat, moder
+🟪 kvadrat, škrlaten
+🟫 kvadrat, rjav
+⬛ geometrično, kvadrat, velik črn kvadrat
+⬜ geometrično, kvadrat, velik bel kvadrat
+◼ geometrično, kvadrat, srednji črn kvadrat
+◻ geometrično, kvadrat, srednji bel kvadrat
+◾ geometrično, kvadrat, srednje majhen črn kvadrat
+◽ geometrično, kvadrat, srednje mali beli kvadrat
+▪ geometrično, kvadrat, majhen črn kvadrat
+▫ geometrično, kvadrat, majhen bel kvadrat
+🔶 geometrično, karo, oranžno, velik oranžen karo
+🔷 geometrično, karo, modro, velik moder karo
+🔸 geometrično, karo, majhen oranžen karo, oranžno
+🔹 geometrično, karo, majhen moder karo, modro
+🔺 geometrično, rdeč trikotnik gor, rdeče
+🔻 geometrično, navzdol, rdeč trikotnik dol, rdeče
+💠 geometrično, karo, karo s piko, strip, znotraj
+🔘 geometrično, gumb, izbirni
+🔳 geometrično, gumb, gumb z belim kvadratom, kvadrat, obrobljeno
+🔲 geometrično, gumb, gumb s črnim kvadratom, kvadrat
+🏁 dirkanje, kockasta zastava, kockasto, zastava
+🚩 trikotna zastava, zastavica
+🎌 japonsko, križ, prekrižani zastavi, prekrižano, slavje
+🏴 črna zastava, plapolanje
+🏳 plapolajoča bela zastava, plapolanje
+🏳‍🌈 mavrica, mavrična zastava, zastava
+🏳‍⚧ bela, rožnata, svetlo modra, transspolna zastava, transspolnost, zastava
+🏴‍☠ gusarska zastava, pirat, piratska zastava, plenjenje, zaklad
+¢ cent
+$ denar, dolar, peso, USD
+£ EGP, funt, GBP, valuta
+¥ CNY, jen, JPY, juan, valuta
+₥ tisočinka, tisočinka dolarja
+₩ KPW, KRW, won
+€ EUR, evro, valuta
+₱ peso
+₹ indijska rupija, rupija, valuta
+₽ rubelj, valuta
+₿ bitcoin, BTC
+¹ enka, nadpis, nadpisana enka
+² dvojka, kvadrat, nadpis, nadpisana dvojka
+³ kub, nadpis, nadpisana trojka, trojka
+µ mera, znak za mikro

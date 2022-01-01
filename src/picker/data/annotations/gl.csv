@@ -1,0 +1,1693 @@
+{ abrir chaves, chave de apertura, parénteses
+🏻 tipo 1–2, ton de pel, ton de pel moi claro
+🏼 tipo 3, ton de pel, ton de pel claro
+🏽 tipo 4, ton de pel, ton de pel medio
+🏾 tipo 5, ton de pel, ton de pel escuro
+🏿 tipo 6, ton de pel, ton de pel moi escuro
+‾ liña alta, trazo superposto, vinculum
+_ guión baixo, trazo baixo
+- guión, menos, trazo
+‐ guión, trazo
+– guión, longo, menos, signo menos, trazo longo
+— longo, raia, trazo
+― barra horizontal, guión, horizontal, liña, raia
+・ interpunto, katakana, punto medio katakana
+, coma, vírgula
+، árabe, coma árabe
+、 coma ideográfica, ideográfica
+; punto e coma
+؛ árabe, punto e coma árabe
+: dous puntos
+! admiración, exclamación, signo de admiración, signo de exclamación
+¡ admiración, apertura, exclamación, invertida, signo de admiración, signo de exclamación invertido
+? interrogación, pregunta, signo de interrogación
+¿ apertura, interrogación, invertida, pregunta, signo de interrogación invertido
+؟ árabe, interrogación, pregunta, signo de interrogación árabe
+‽ exclarrogativo, interrogación con exclamación
+. punto
+… elipse, omisión, puntos, puntos suspensivos
+。 ideográfico, punto ideográfico
+· interpunto, medio, punto medio
+' apóstrofo, aspas simples rectas, comiñas simples
+‘ apóstrofo esquerdo, aspas simples, comiñas simples
+’ apóstrofo dereito, aspas simples, comiñas simples
+‚ apóstrofo baixo dereito, aspas baixas, comiñas baixas
+“ aspas compostas, aspas esquerdas, comiñas altas, comiñas inglesas, duplas
+” aspas compostas, aspas dereitas, comiñas altas, comiñas inglesas, duplas
+„ aspas baixas dereitas, comiñas baixas
+« angulares, apertura, aspas angulares esquerdas, cita, comiñas, esquerda, latinas
+» angulares, aspas angulares dereitas, cita, comiñas, dereita, latinas, peche
+) paréntese de peche, pechar parénteses
+[ abrir corchetes, corchete de apertura, parénteses
+] corchete de peche, parénteses, pechar corchetes
+} chave de peche, parénteses, pechar chaves
+〈 abrir corchetes, antilambda, corchete angular de apertura, diple, esquerda
+〉 antilambda, corchete angular de peche, dereita, diple, pechar corchetes
+《 abrir corchetes, corchetes angulares duplos de apertura, esquerda
+》 corchetes angulares duplos de peche, dereita, pechar corchetes
+「 abrir corchetes, comiñas chinesas, comiñas xaponesas, corchete esquinado de apertura
+」 comiñas chinesas, comiñas xaponesas, corchete esquinado de peche, pechar corchetes
+『 comiñas chinesas, comiñas xaponesas, corchete esquinado oco de apertura, pechar corchetes
+』 comiñas chinesas, comiñas xaponesas, corchete esquinado oco de peche, pechar corchetes
+【 abrir corchetes, corchete lenticular de apertura, lenticular
+】 corchete lenticular de peche, lenticular, pechar corchetes
+〔 abrir corchetes, corchete de tartaruga de apertura
+〕 corchete de tartaruga de peche, pechar corchetes
+〖 abrir corchetes, corchete lenticular oco de apertura, lenticular
+〗 corchete lenticular oco de peche, lenticular, pechar corchetes
+§ parágrafo, parte, sección, signo de sección
+¶ antígrafo, caldeirón, marca de parágrafo, signo de parágrafo
+@ @, arroba, correo, Internet
+* asterisco, comodín, estrela
+/ barra, diagonal, inclinada, oblicua
+\ barra inversa, diagonal inversa, inversa, invertida
+& e, e comercial, et
+# cancelo, cardinal, grade, hashtag, sinal numérico
+% por cento, porcentaxe, tanto por cento
+‰ por mil
+† cruz, división, obelisco, signo da cruz
+‡ cruz, división, dobre, obelisco, signo da dobre cruz
+• punto, viñeta
+‧ guión, punto de separación, separación, trazo
+′ prima
+″ segunda
+‴ terceira
+‸ acento circunflexo, operador exponencial
+※ asterisco xaponés, marca de referencia
+⁂ asterismo, estrelas, liña de asteriscos
+` acento grave, grave, ton
+´ acento agudo, agudo, ton
+^ acento circunflexo, circunflexo, control, intercalación, potencia
+¨ diérese
+° gradación, grao, hora
+℗ copyright de gravación sonora, gravación, son
+← esquerda, frecha apuntando cara a esquerda
+↚ frecha cara á esquerda con trazo
+→ dereita, frecha apuntando cara a dereita
+↛ frecha cara á dereita con trazo
+↑ arriba, frecha apuntando cara arriba
+↓ abaixo, frecha apuntando cara abaixo
+↜ frecha ondulada cara á esquerda
+↝ frecha ondulada cara á dereita
+↞ frecha con dúas puntas cara á esquerda
+↟ frecha con dúas puntas cara arriba
+↠ frecha con dúas puntas cara á dereita
+↡ frecha con dúas puntas cara abaixo
+↢ frecha con cola cara á esquerda
+↣ frecha con cola cara á dereita
+↤ frecha cara á esquerda desde unha barra
+↥ frecha cara arriba desde unha barra
+↦ frecha cara á dereita desde unha barra
+↧ frecha cara abaixo desde unha barra
+↨ frecha cara arriba e cara abaixo, frecha cara arriba e cara abaixo con base
+↫ frecha en lazo cara á esquerda
+↬ frecha en lazo cara á dereita
+↭ frecha ondulada cara á esquerda e cara á dereita
+↯ frecha en zigzag cara abaixo, zigzag
+↰ frecha cara arriba coa punta cara á esqueda, frecha cara arriba coa punta cara á esquerda
+↱ frecha cara arriba coa punta cara á dereita
+↲ frecha cara abaixo coa punta cara á esquerda
+↳ frecha cara abaixo coa punta cara á dereita
+↴ frecha cara á dereita coa esquina cara abaixo
+↵ frecha cara á esquerda coa esquina cara abaixo
+↶ frecha en semicírculo xirando cara á esquerda
+↷ frecha en semicírculo xirando cara á dereita
+↸ frecha cara o noroeste cunha barra longa
+↹ frecha cara á esquerda cunha barra sobre frecha cara á dereita cunha barra
+↺ frecha en círculo aberto xirando cara á esquerda
+↻ frecha en círculo aberto xirando cara á dereita
+↼ arpón cara á esquerda coa punta cara arriba, punta
+↽ arpón cara á esquerda coa punta cara abaixo
+↾ arpón cara arriba coa punta cara á dereita, punta
+↿ arpón cara arriba coa punta cara á esquerda, punta
+⇀ arpón cara á dereita coa punta cara arriba, punta
+⇁ arpón cara á dereita coa punta cara abaixo, punta
+⇂ arpón cara abaixo coa punta cara á dereita, punta
+⇃ arpón cara abaixo coa punta cara á esquerda, punta
+⇄ frecha cara á dereita sobre frecha cara á esquerda
+⇅ abaixo, arriba, frechas apuntando cara arriba e cara abaixo
+⇆ dereita, esquerda, frechas cara a esquerda e dereita
+⇇ par de frechas cara á esquerda
+⇈ par de frechas cara arriba
+⇉ par de frechas cara á dereita
+⇊ par de frechas cara abaixo
+⇋ arpón cara á esquerda sobre arpón cara á dereita
+⇌ arpón cara á dereita sobre arpón cara á esquerda
+⇐ frecha dobre cara á esquerda
+⇍ frecha dobre cara á esquerda con trazo, frecha dobre cará a esquerda con trazo
+⇑ frecha dobre cara arriba
+⇒ frecha dobre cara á dereita
+⇏ frecha dobre cara á dereita con trazo
+⇓ frecha dobre cara abaixo
+⇔ frecha dobre cara á esquerda e cara á dereita
+⇎ frecha dobre cara á esquerda e cara á dereita con trazo
+⇖ frecha dobre cara o noroeste
+∆ incremento, triángulo
+∇ gradiente, nabla, triángulo
+∈ contén, conxunto, elemento de, membro
++ máis, signo máis, suma
+± máis-menos, signo máis-menos
+÷ dividir, división, óbelo, signo de división
+× multiplicación, multiplicar, signo de multiplicación, veces
+< antilambda, apertura de etiqueta, etiqueta, menor que, menos que
+= igual, igual a
+≠ desigualdade, inecuación, non igual, non igual a
+> antilambda, etiqueta, maior que, máis que, peche de etiqueta
+¬ negación, non
+| barra, liña vertical, pau, raia vertical
+~ abreviación, aproximadamente igual, nasalidade, til, trazo supralinear
+− menos, resta, signo menos
+⁻ menos en superíndice, superíndice
+√ cadrada, radical, radix, raíz cadrada, raíz enésima
+∞ infinito, signo do infinito
+∩ conxunto, intersección
+∪ colección, conxunto, unión
+≈ aproximado, case igual, case igual a
+≡ exacto, idéntico a, triplo
+≤ igual, inecuación, menor ou igual a
+≥ igual, inecuación, maior ou igual a
+⊂ conxunto, subconxunto de
+▲ arriba, aumentar, subir, triángulo enchido apuntando cara arriba
+▼ abaixo, baixar, diminuír, frecha, triángulo enchido apuntando cara abaixo
+◊ diamante, losanxe, rombo
+○ anel, baleiro, círculo baleiro, redondo
+● círculo enchido, enchido
+◯ anel, baleiro, círculo grande baleiro, redondo
+♪ corchea, música, nota
+♭ bemol, música, nota, semitón
+♯ díese, música, nota, semitón
+😀 cara, cara moi riseira, sorriso
+😃 aberta, boca, cara, cara moi riseira con ollos grandes, sorriso
+😄 boca, cara, cara moi riseira cos ollos alegres, ollos, sorriso
+😁 cara radiante cos ollos alegres, ollos alegres, sorriso
+😆 cara rindo ás gargalladas, gargalladas, ollos pechados, rir, risa
+😅 boca, cara, cara moi riseira cunha pinga de suor, sorriso, suor
+🤣 cara esmendrellándose de risa, escachar, esmendrellarse, gargallada, risa
+😂 alegría, bágoas, cara chorando de risa, chorar de risa, escachar, risa
+🙂 cara, cara cun leve sorriso, sorriso
+🙃 cara, cara ao revés, revés
+😉 cara, cara chiscando un ollo, chiscadela, ollo
+😊 alegre, cara alegre con ollos riseiros, ollos, sorriso
+😇 anxo, auréola, cara riseira con auréola, santa, santo
+🥰 amor, cara con corazóns, cara riseira con corazóns, corazóns, enc´ántame, namoramento, paixón
+😍 amor, cara, cara con ollos en forma de corazón, corazóns, sorriso
+🤩 cara, cara con ollos en forma de estrela, estrela, felicidade, ollos
+😘 bico, cara, cara mandando un bico, corazón
+😗 bico, cara, cara dando un bico
+☺ cara, cara riseira, sorriso
+😚 bico, cara, cara dando un bico cos ollos pechados, coloretes, ollos
+😙 bico, cara dando un bico con ollos riseiros, dar un bico, ollos riseiros
+🥲 agradecido, bágoa, cara riseira con bágoa, emocionado, orgulloso
+😋 cara de saborear algo delicioso, delicioso, rico, saborear
+😛 broma, cara, cara sacando a lingua, lingua
+😜 broma, cara, cara sacando a lingua e chiscando un ollo, chiscadela, lingua
+🤪 cara, cara de tolo, ollo, tolemia, tolo
+😝 cara, cara sacando a lingua e cos ollos pechados, lingua, noxo, ollos pechados
+🤑 cara, cara de pensar en cartos, cartos, diñeiro
+🤗 abrazo, cara, cara dando un abrazo
+🤭 cara rindo disimuladamente, disimulada, man, risa
+🤫 calada, calado, calar, cara de mandar calar, silencio
+🤔 cara, cara pensativa, pensar
+🤐 boca, cara, cara coa boca pechada cunha cremalleira, cremalleira, silencio
+🤨 cara cunha cella levantada, cella levantada, desconfianza, escepticismo
+😐 cara, neutra
+😑 cara, inexpresiva
+😶 boca, calar, cara, cara sen boca, silencio
+😶‍🌫 apampado, cara nas nubes, distraído, nas nubes
+😏 cara, cara con sorriso malicioso, malicia, sorriso
+😒 aburrido, cara, cara de que non ten graza, desagrado, desaprobación
+🙄 cara, cara cos ollos en branco, ollos en branco
+😬 cara, cara apertando os dentes, dentes, nervios
+😮‍💨 alivio, asubiar, bafexar, cara exhalando, folguexar, resollar, respirar
+🤥 cara de mentirán, mentirán, mentireiro, nariz, Pinocchio
+😌 alivio, cara, cara de alivio
+😔 cara, cara desanimada, desánimo, pensativo, triste
+😪 cara, cara de sono, sono
+🤤 baba, babas, babexar, cara, cara babexando
+😴 cara, cara durmindo, durmir, sono
+😷 cara, cara con máscara médica, enferma, enfermo, máscara
+🤒 cara, cara con termómetro, enferma, enfermo, termómetro
+🤕 accidente, cara, cara coa cabeza vendada, ferido, venda
+🤢 cara de mareo, mareado, mareo, náuseas, vomitar
+🤮 cara, cara vomitando, noxo, vomitar, vómito
+🤧 acatarrada, arrefriado, cara acatarrada, catarreira, mocos
+🥵 calor, cara de calor, febre, golpe de calor, suar
+🥶 cara de frío, conxelado, frío, xeado
+🥴 atordado, bébedo, borracho, cara atordada
+😵 atordamento, cara mareada, mareado, mareo
+😵‍💫 alucinado, atordado, cara con ollos de espiral, desmaiado, espiral, hipnotizado
+🤯 cabeza, cara, cara de estoupar a cabeza, estoupar
+🤠 cara, sombreiro, sombreiro de vaqueiro, vaqueira, vaqueiro
+🥳 alegría, aniversario, cara de festa, celebración, feliz, festa
+🥸 cara disfrazada, disfrazarse, enmascarar, incógnito, lentes, nariz
+😎 cara, cara riseira con lentes de sol, lentes de sol, sorriso
+🤓 anteollos, cara, cara de chapón, chapón, estudar
+🧐 cara, cara con monóculo, monóculo
+😕 cara, confusa, confusión, confuso
+😟 cara de preocupación, preocupado
+🙁 cara, triste, tristeza
+☹ cara, cara moi triste, decepción, triste, tristeza
+😮 boca aberta, cara, cara coa boca aberta
+😯 cara estupefacta, estupefacto, pasmo
+😲 abraiado, abraio, asombro, cara abraiada
+😳 arroibado, cara, cara arroibada, vergoña
+🥺 cara de súplica, compaixón, implorar, pedir clemencia, suplicar
+😦 aberta, boca, cara, cara triste coa boca aberta, triste
+😧 angustia, cara, cara de angustia, sufrimento
+😨 cara, cara de medo, medo, terror
+😰 boca aberta, cara, cara coa boca aberta e suor fría, suor fría
+😥 agoniar, alivio, cara triste pero aliviada, decepción, estrés, pinga, suor
+😢 bágoa, cara, cara chorando, chorar, triste
+😭 bágoas, cara, cara chorando desconsoladamente, chorar, desconsolo
+😱 aterrorizar, berrar, cara, cara berrando de medo, medo
+😖 cara de frustración, frustración
+😣 cara, cara de estragalo todo, estragar, perseverante
+😞 cara, cara de decepción, decepción, decepcionado, desilusión
+😓 cara, cara con suor fría, suor fría
+😩 cansazo, cara, cara de esgotamento, esgotamento
+😫 cansa, cansazo, canso, cara, cara de cansazo
+🥱 aburrimento, bocexo, canso, cara bocexando, sono
+😤 botar fume, cabreo, cara, cara botando fume, enfado
+😡 cara, cara furiosa, ira, rabia
+😠 cabreo, cara, cara de cabreo, enfado
+🤬 cabreo, cara, cara insultando, insultar, insulto
+😈 cara, cara de demo riseiro, demo, maldade, sorriso
+👿 cara, cara de demo, demo, pillabán, pillabana
+💀 caveira, morte
+☠ caveira, caveira e osos, morte, osos
+💩 caca, merda
+🤡 cara, cara de pallaso, circo, pallasa, pallaso
+👹 cara, ogro, xaponés
+👺 cara, demo, tengu, xaponés
+👻 fantasma, pantasma, susto
+👽 espazo, extraterrestre, ovni
+👾 espazo, extraterrestre, monstro, ovni
+🤖 cara, cara de robot, robot
+😺 alegre, cara, contento, feliz, gato moi riseiro, riseiro, sorriso
+😸 alegre, cara, contento, feliz, gato moi riseiro cos ollos alegres, riseiro, sorriso
+😹 bágoas, cara, chorar de risa, escachar, feliz, gato chorando de risa, risa
+😻 amor, cara, corazóns, encántame, gato con ollos en forma de corazón, namorado, sorriso
+😼 astucia, cara, gato con sorriso irónico, ironía, pillabán, pillo, sorriso irónico
+😽 amoroso, bico, cara, gato dando un bico, ollos pechados
+🙀 cara, esgotamento, gato con cara de esgotamento, sorpresa, susto
+😿 bágoa, chorar, gato chorando, triste
+😾 gato, gato furioso, ira, rabia
+🙈 cara, mono, mono cos ollos tapados, ollos, tapados
+🙉 cara, mono, mono coas orellas tapadas, orellas, tapadas
+🙊 boca, cara, mono, mono coa boca tapada, tapada
+💋 beizos, bico, labios, marca, marca de bico
+💌 amor, carta, carta de amor, corazón, correo
+💘 amor, corazón, corazón con frecha, cupido, frecha
+💝 corazón, corazón cun lazo, lazo, San Valentín
+💖 amor, corazón, corazón escintilante, escintilar
+💗 amor, corazón, corazón crecendo, emoción, entusiasmo
+💓 amor, corazón, corazón latexando, latexo
+💞 corazóns, corazóns voando, voar
+💕 amor, corazóns, dous corazóns
+💟 corazón, decoración, decoración en forma de corazón
+❣ admiración, corazón, exclamación en forma de corazón, puntuación, signo de exclamación
+💔 corazón, desamor, romper o corazón, roto
+❤‍🔥 amor, chamas, corazón en chamas, desexo, luxuria, paixón
+❤‍🩹 corazón curándose, curar, desamor, mellorar, recuperación, sandar
+❤ amor, corazón
+🧡 corazón, laranxa
+💛 amarelo, corazón
+💚 corazón, verde
+💙 azul, corazón
+💜 corazón, violeta
+🤎 castaño, corazón, marrón
+🖤 corazón, maldade, malvado, negro
+🤍 branco, corazón
+💯 100, cen, puntos, puntuación
+💢 cómic, enfado, símbolo de enfado
+💥 colisión, cómic, explosión
+💫 atordamento, cómic, estrelas, mareo, símbolo de atordamento
+💦 cómic, pingas de suor, salpicadura, salpicar, suor
+💨 cómic, escapar, saír correndo, símbolo de saír correndo
+🕳 buraco, burato
+💣 bomba, cómic
+💬 cómic, diálogo, falar, globo, globo de diálogo á esquerda
+👁‍🗨 globo, globo de diálogo en forma de ollo, ollo, testemuña
+🗨 cómic, diálogo, falar, globo, globo de diálogo á dereita
+🗯 berrar, cómic, diálogo, globo, globo de diálogo enfadado
+💭 cómic, globo, globo de pensamento, pensamento
+💤 cómic, durmir, símbolo de estar durmindo, sono, zzz
+👋 man, man saudando, saudar, saúdo
+🤚 deter, man, palma, palma da man
+🖐 aberta, man
+✋ levantada, man
+🖖 man, saúdo, saúdo vulcaniano, Spock, Star Trek
+👌 man, OK, perfecto, xesto de “OK”
+🤌 a tope, ateigado, de bote en bote, petado, xesto de &quot;ateigado&quot;
+🤏 chisco, miga, pouquichiño, pouquiño, xesto de &quot;un chisco&quot;
+✌ man, triunfo, vitoria, xesto, xesto de vitoria
+🤞 cruzar, dedos, dedos cruzados, man, sorte
+🤟 I Love You, ILY, man, xesto, xesto das iniciais de &quot;I Love You&quot;
+🤘 cornos, man, man facendo os cornos, rock and roll
+🤙 chámame, chamar, man, xesto de chamar por teléfono
+👈 dedo, esquerda, índice, índice apuntando á esquerda, man
+👉 dedo, dereita, índice, índice apuntando á dereita, man
+👆 arriba, dedo índice apuntando cara arriba, índice, man
+🖕 dedo, dedo do medio levantado, insulto, man, ofensivo
+👇 abaixo, dedo, dedo apuntando cara abaixo, man
+☝ advertencia, arriba, índice, índice apuntando cara arriba, man
+👍 +1, gústame, man, polgar, polgar cara arriba
+👎 man, non me gusta, polgar cara abaixo
+✊ arriba, loita, puño, puño en alto
+👊 golpe, puñada, puño
+🤛 esquerda, man, puño, puño cara á esquerda
+🤜 dereita, man, puño, puño cara á dereita
+👏 aplaudir, aplauso, mans, mans aplaudindo
+🙌 celebración, chocar, mans, mans levantadas, xesto
+👐 abertas, mans
+🤲 palmas, xuntas
+🤝 aperta, aperta de mans, mans, trato
+🙏 mans, mans en oración, orar, por favor, rezar
+✍ bolígrafo, escribir, lapis, man, man escribindo
+💅 cosmético, esmalte, manicura, pintar as uñas, uñas
+🤳 autofoto, cámara, foto, teléfono
+💪 bíceps, forte, forza, músculo
+🦾 brazo mecánico, discapacidade, prótese, robot
+🦿 discapacidade, perna mecánica, prótese, robot
+🦵 corpo, extremidade, patada, perna
+🦶 patada, pé, pisada
+👂 orella
+🦻 aparato auditivo, discapacidade, orella con audiófono, xordo
+👃 nariz
+🧠 cerebro, intelixencia, intelixente
+🫀 cardioloxía, centro, corazón, órgano corazón, pulso
+🫁 exhalación, inhalación, órgano, pulmóns, respiración
+🦷 dental, dente, dentista, moa
+🦴 esqueleto, óso
+👀 ollos
+👁 ollo
+👅 lingua
+👄 beizos, boca, labios
+👶 bebé
+🧒 criatura, nena, neno, rapaz, rapaza
+👦 neno, rapaz
+👧 nena, rapaza, Virgo, zodíaco
+🧑 adulto, identidade sexual indeterminada, persoa, xénero neutro
+👱 loiro, louro, persoa loira, persoa loura
+👨 adulto, home
+🧔 barba, barbudo, persoa con barba
+🧔‍♂ barba, barbudo, home con barba
+👱‍♂ home, loiro, louro
+👩 adulta, muller
+🧔‍♀ barba, barbuda, muller con barba
+👱‍♀ loira, loura, muller
+🧓 ancián, persoa maior, vello, xénero neutro
+👴 ancián, home, vello
+👵 anciá, muller, vella
+🙍 cello, enfurruñado, persoa enfurruñada, xesto
+🙍‍♂ cello, enfurruñado, home, xesto
+🙍‍♀ cello, enfurruñada, muller, xesto
+🙎 furioso, ira, persoa furiosa, rabia, xesto
+🙎‍♂ furioso, home, ira, rabia, xesto
+🙎‍♀ furiosa, ira, muller, rabia, xesto
+🙅 prohibición, xesto, xesto de prohibición
+🙅‍♂ home, home facendo xesto de prohibición, prohibición, xesto
+🙅‍♀ muller, muller facendo xesto de prohibición, prohibición, xesto
+🙆 aprobación, hurra, mans na cabeza, persoa coas mans na cabeza, xesto
+🙆‍♂ aprobación, home coas mans na cabeza, hurra, mans na cabeza, xesto
+🙆‍♀ aprobación, hurra, mans na cabeza, muller coas mans na cabeza, xesto
+💁 asistencia, axuda, información, man, medio levantada, persoa coa man medio levantada
+💁‍♂ asistencia, axuda levantada, home coa man medio levantada, información, man, medio levantada
+💁‍♀ asistencia, axuda, información, man, medio levantada, muller coa man medio levantada
+🙋 levantar a man, man levantada, xesto
+🙋‍♂ home, home levantando a man, man levantada, xesto
+🙋‍♀ man levantada, muller, muller levantando a man, xesto
+🧏 discapacidade, linguaxe de signos, persoa xorda, xordo
+🧏‍♂ discapacidade, home xordo, linguaxe de signos, xordo
+🧏‍♀ discapacidade, linguaxe de signos, muller xorda, xorda
+🙇 desculpas, reverencia, xesto
+🙇‍♂ desculpas, home, home facendo unha reverencia, reverencia, xesto
+🙇‍♀ desculpas, muller, muller facendo unha reverencia, reverencia, xesto
+🤦 cara, exasperación, incredulidade
+🤦‍♂ exasperación, fronte, home, home facendo xesto de incredulidade, xesto
+🤦‍♀ exasperación, fronte, muller, muller facendo xesto de incredulidade, xesto
+🤷 cara, dúbida, ignorancia, indiferenza, xesto de &quot;nin idea&quot;
+🤷‍♂ dúbida, home, home facendo xesto de “nin idea”, ignorancia, xesto
+🤷‍♀ dúbida, ignorancia, muller, muller facendo xesto de “nin idea”, xesto
+🧑‍⚕ enfermeiro, home, médico, persoa sanitaria, sanitario
+👨‍⚕ enfermeiro, home, médico, traballador sanitario
+👩‍⚕ enfermeira, médica, muller, traballadora sanitaria
+🧑‍🎓 estudante, graduado, universitario
+👨‍🎓 estudante, estudante de sexo masculino, graduado, home, universitario
+👩‍🎓 estudante, estudante de sexo feminino, graduada, muller, universitaria
+🧑‍🏫 ensinante, escola, mestre, profesor
+👨‍🏫 escola, home, mestre, profesor
+👩‍🏫 colexio, escola, mestra, muller, profesora
+🧑‍⚖ balanza, membro da xudicatura, xudicatura, xuíz, xustiza
+👨‍⚖ balanza, home, xuíz, xustiza
+👩‍⚖ balanza, muller, xuíza, xustiza
+🧑‍🌾 agricultor, cultivo, gando, granxeiro, persoa dedicada á agricultura
+👨‍🌾 agricultor, cultivo, gando, granxeiro, home
+👩‍🌾 agricultora, cultivo, gando, granxeira, muller
+🧑‍🍳 cociña, profesional da cociña, xefe de cociña
+👨‍🍳 cociñar, cociñeiro, home, xefe de cociña
+👩‍🍳 cociñar, cociñeira, muller, xefa de cociña
+🧑‍🔧 electricidade, fontaneiría, mecánica, profesional da mecánica
+👨‍🔧 electricista, fontaneiro, home, mecánico
+👩‍🔧 electricista, fontaneira, mecánica, muller
+🧑‍🏭 fábrica, obreiro, operario, traballador, traballador de fábrica
+👨‍🏭 fábrica, home, obreiro, operario, traballador
+👩‍🏭 fábrica, muller, obreira, operaria, traballadora
+🧑‍💼 administrativo, empregado, oficinista
+👨‍💼 administrativo, empregado, home, oficinista
+👩‍💼 administrativa, empregada, muller, oficinista
+🧑‍🔬 biólogo, científico, especialista en ciencia, químico
+👨‍🔬 biólogo, científico, home, químico
+👩‍🔬 bióloga, científica, muller, química
+🧑‍💻 informática, persoa experta en programación, programación, software
+👨‍💻 home, informático, programador, software
+👩‍💻 informática, muller, programadora, software
+🧑‍🎤 cantante, estrela, presentador, rock
+👨‍🎤 actor, cantante, cantante de sexo masculino, home, rock
+👩‍🎤 actriz, cantante, cantante de sexo feminino, muller, rock
+🧑‍🎨 artista, paleta, pintor
+👨‍🎨 artista, home, paleta, pintor
+👩‍🎨 artista, muller, paleta, pintora
+🧑‍✈ avión, piloto
+👨‍✈ avión, home, piloto, piloto de sexo masculino
+👩‍✈ avión, muller, piloto, piloto de sexo feminino
+🧑‍🚀 astronauta, espazo, foguete
+👨‍🚀 astronauta, astronauta de sexo masculino, espazo, foguete, home
+👩‍🚀 astronauta, astronauta de sexo feminino, espazo, foguete, muller
+🧑‍🚒 especialista en apagar incendios, incendio
+👨‍🚒 bombeiro, home
+👩‍🚒 bombeira, muller
+👮 axente, poli, policía
+👮‍♂ axente, home, poli, policía, policía de sexo masculino
+👮‍♀ axente, muller, poli, policía, policía de sexo feminino
+🕵 detective, espía, sabuxo
+🕵‍♂ detective, detective de sexo masculino, espía, home, sabuxo
+🕵‍♀ detective, detective de sexo feminino, espía, muller, sabuxa
+💂 garda, real
+💂‍♂ garda, garda real de sexo masculino, home, real
+💂‍♀ garda, garda real de sexo feminino, muller, real
+🥷 combatente, guerreiro, ninja, silandeiro, sixiloso
+👷 construción, obreiro, traballador, traballador da construción
+👷‍♂ construción, home, obreiro, traballador
+👷‍♀ construción, muller, obreira, traballadora
+🤴 cara, príncipe
+👸 conto de fadas, fantasía, princesa
+👳 persoa con turbante, turbante
+👳‍♂ home, home con turbante, turbante
+👳‍♀ muller, muller con turbante, turbante
+👲 chinés, gorro, home, home con gorro chinés
+🧕 muller, muller con veo islámico, musulmá, veo
+🤵 elegante, etiqueta, persoa con smóking, smóking, traxe, voda
+🤵‍♂ elegante, etiqueta, home con smóking, smóking, traxe, voda
+🤵‍♀ elegante, etiqueta, muller con smóking, smóking, traxe, voda
+👰 casamento, persoa con veo, veo, voda
+👰‍♂ casamento, home con veo, noivo, veo, voda
+👰‍♀ casamento, muller con veo, noiva, veo, voda
+🤰 embarazada, embarazo, muller
+🤱 aleitar, bebé, mamá, muller dando o peito, peito, teta
+👩‍🍼 alimentar, bebé, biberón, muller alimentando bebé
+👨‍🍼 alimentar, bebé, biberón, home alimentando bebé
+🧑‍🍼 alimentar, bebé, biberón, persoa alimentando bebé
+👼 anxiño, anxo, bebé
+🎅 celebración, Nadal, Papá Noel, Santa Claus
+🤶 mamá, Mamá Noel, Nadal, señora Noel
+🧑‍🎄 Nadal, Noel, señora Noel
+🦸 heroe, superheroe, superheroína, superpoderes
+🦸‍♂ heroe, home, superheroe, superpoderes
+🦸‍♀ heroe, heroína, muller, superheroína, supermuller
+🦹 malo, superpoderes, vilán
+🦹‍♂ home, malo, superpoderes, supervil´án, vilán
+🦹‍♀ mala, muller, superpoderes, supervilá, vilá
+🧙 druída, feiticeiro, meigo
+🧙‍♂ druída, feiticeiro, meigo
+🧙‍♀ bruxa, feiticeira, meiga
+🧚 fada
+🧚‍♂ fada, fada de sexo masculino, home
+🧚‍♀ Campaíña, fada, fada de sexo feminino, fada madriña, muller
+🧛 criatura vampírica, vampiro
+🧛‍♂ Drácula, home, vampiro
+🧛‍♀ muller, vampiresa, vampiro
+🧜 serea
+🧜‍♂ home, serea, serea de sexo masculino
+🧜‍♀ muller, serea, serea de sexo feminino
+🧝 elfo
+🧝‍♂ elfo, elfo de sexo masculino
+🧝‍♀ elfa, elfo de sexo feminino
+🧞 desexos, xenio
+🧞‍♂ desexos, xenio, xenio de sexo masculino
+🧞‍♀ desexos, xenia, xenio de sexo feminino
+🧟 non-morto, Walking Dead, zombi
+🧟‍♂ home, non-morto, Walking Dead, zombi de sexo masculino
+🧟‍♀ muller, non-morta, Walking Dead, zombi de sexo feminino
+💆 masaxe, masaxe facial, relaxarse, salón de beleza
+💆‍♂ home, masaxe, masaxe facial a home, relaxarse, salón de beleza
+💆‍♀ masaxe, masaxe facial a muller, muller, relaxarse, salón de beleza
+💇 beleza, corte de pelo, salón de peiteado
+💇‍♂ beleza, corte de pelo, home, home cortando o pelo, salón de peiteado
+💇‍♀ beleza, corte de pelo, muller, muller cortando o pelo, salón de peiteado
+🚶 andar, camiñar, pasear, persoa andando
+🚶‍♂ andar, camiñar, home, home andando, pasear
+🚶‍♀ andar, camiñar, muller, muller andando, pasear
+🧍 de pé, levantada, levantado, levantarse, persoa de pé
+🧍‍♂ de pé, home de pé, levantado, levantarse
+🧍‍♀ de pé, levantada, levantarse, muller de pé
+🧎 axeonllar, persoa axeonllada, xeonllos
+🧎‍♂ axeonllar, home axeonllado, xeonllos
+🧎‍♀ axeonllar, muller axeonllada, xeonllos
+🧑‍🦯 bastón guía, cego, discapacidade, invidente, persoa cun bastón guía
+👨‍🦯 bastón guía, cego, discapacidade, home cun bastón guía, invidente
+👩‍🦯 bastón guía, cega, discapacidade, invidente, muller cun bastón guía
+🧑‍🦼 cadeira de rodas, cadeira motorizada, discapacidade, persoa en cadeira de rodas motorizada
+👨‍🦼 cadeira de rodas, cadeira motorizada, discapacidade, home en cadeira de rodas motorizada
+👩‍🦼 cadeira de rodas, cadeira motorizada, discapacidade, muller en cadeira de rodas motorizada
+🧑‍🦽 cadeira de rodas, discapacidade, persoa en cadeira de rodas
+👨‍🦽 cadeira de rodas, discapacidade, home en cadeira de rodas
+👩‍🦽 cadeira de rodas, discapacidade, muller en cadeira de rodas
+🏃 correr, maratón, persoa correndo
+🏃‍♂ correr, home, home correndo, maratón
+🏃‍♀ correr, maratón, muller, muller correndo
+💃 bailar, bailarina, muller
+🕺 bailar, bailarín, home
+🕴 home, home de negocios, negocios, traxe
+👯 bailar, festa, xente de festa
+👯‍♂ bailar, despedida de solteiro, festa, homes, homes de festa
+👯‍♀ bailar, despedida de solteira, festa, mulleres, mulleres de festa
+🧖 baño de vapor, sauna
+🧖‍♂ baño de vapor, home, home dándose un baño de vapor, sauna
+🧖‍♀ baño de vapor, muller, muller dándose un baño de vapor, sauna
+🧗 escalada, escalador, escalar
+🧗‍♂ escalada, escalador, escalar
+🧗‍♀ escalada, escaladora, escalar
+🤺 deporte, esgrima, espada, espadachín, sable
+🏇 cabalo, cabalo de carreiras, carreira de cabalos, jóckey, xinete
+⛷ esquí, esquiador, neve
+🏂 neve, persoa practicando snowboard, snowboard, táboa
+🏌 golf, golfista, pelota
+🏌‍♂ golf, golfista de sexo masculino, home, pelota
+🏌‍♀ golf, golfista de sexo feminino, muller, pelota
+🏄 surf, surfeiro, surfista
+🏄‍♂ home, surf, surfeiro, surfista
+🏄‍♀ muller, surf, surfeira, surfista
+🚣 bote, embarcación, remador, remeiro, remo
+🚣‍♂ bote, home, remador, remeiro, remo
+🚣‍♀ bote, muller, remador, remeira, remo
+🏊 nadar, persoa nadando
+🏊‍♂ home, nadador, nadar
+🏊‍♀ muller, nadadora, nadar
+⛹ balón, baloncesto, persoa botando un balón
+⛹‍♂ balón, baloncesto, home, xogador de baloncesto
+⛹‍♀ balón, baloncesto, muller, xogadora de baloncesto
+🏋 halterofilia, levantar pesos, persoa practicando halterofilia
+🏋‍♂ halterofilia, home, levantador de pesos, levantar pesos
+🏋‍♀ halterofilia, levantadora de pesos, levantar pesos, muller
+🚴 bicicleta, ciclismo, ciclista
+🚴‍♂ bicicleta, ciclismo, ciclista, home, home practicando ciclismo
+🚴‍♀ bicicleta, ciclismo, ciclista, muller, muller practicando ciclismo
+🚵 bicicleta de montaña, ciclismo, ciclista de montaña
+🚵‍♂ bicicleta de montaña, ciclismo, ciclista, home, home practicando ciclismo de montaña
+🚵‍♀ bicicleta de montaña, ciclismo, ciclista, muller, muller practicando ciclismo de montaña
+🤸 deporte, ximnasia
+🤸‍♂ home, home facendo unha viravolta lateral, viravolta, ximnasia
+🤸‍♀ muller, muller facendo unha viravolta lateral, viravolta, ximnasia
+🤼 deporte, loita libre, loitadores
+🤼‍♂ deporte, homes, homes practicando loita libre, loita, loitadores
+🤼‍♀ deporte, loita, loitadoras, mulleres, mulleres practicando loita libre
+🤽 auga, deporte, wáter-polo
+🤽‍♂ balón, home, home xogando a wáter-polo, wáter-polo
+🤽‍♀ balón, muller, muller xogando a wáter-polo, wáter-polo
+🤾 balonmán, deporte, pelota
+🤾‍♂ balonmán, home, home xogando a balonmán
+🤾‍♀ balonmán, muller, muller xogando a balonmán
+🤹 habilidade, malabar, malabares, malabarismo, malabarista, multitarefa
+🤹‍♂ home, home malabarista, malabarismo, multitarefa
+🤹‍♀ malabarismo, muller, muller malabarista, multitarefa
+🧘 ioga, meditación, posición de loto
+🧘‍♂ home, home practicando ioga, meditación, posición de loto
+🧘‍♀ meditación, muller, muller practicando ioga, posición de loto
+🛀 bañarse, bañeira, persoa bañándose
+🛌 durmir, hotel, persoa durmindo
+🧑‍🤝‍🧑 acordo, dar a man, mans, parella, persoas dándose a man
+👭 dúas mulleres collidas da man, man, mulleres, parella
+👫 home, home e muller collidos da man, man, muller, parella
+👬 dous homes collidos da man, homes, parella, xemelgos, Xémini
+💏 bico, parella, parella bicándose
+💑 corazón, namorados, parella, parella cun corazón
+👪 familia, nai, neno, pai
+🗣 cabeza, cara, falar, silueta, silueta de persoa falando
+👤 busto, persoa, silueta, silueta dun busto
+👥 bustos, persoas, silueta, silueta de dous bustos
+🫂 abrazo, adeus, aperta, persoas abrazándose
+👣 pegada, pegadas de pés, pés
+🦰 cabelo, pelo roxo, roibo, roxo, rubio
+🦱 bucles, cabelo, pelo afro, pelo rizado, rizo
+🦳 branco, canas, canoso, gris, pelo cano
+🦲 calva, quimioterapia, rapado, sen pelo
+🐵 cara, cara de mono, mono
+🐒 mono
+🦍 animal, gorila, simio
+🦧 mono, orangután, simio
+🐶 can, cara, cara de can, mascota
+🐕 can, mascota
+🦮 asistencia, can, cega, cego, guía
+🐕‍🦺 asistencia, can de servizo, discapacidade, servizo
+🐩 can, caniche, mascota
+🐺 cara, cara de lobo, lobo
+🦊 animal, arteiro, astuto, golpe, raposo
+🦝 animal, galopín, mapache, pillabán
+🐱 cara de gato, gato, mascota
+🐈 gato, mascota
+🐈‍⬛ gato negro, mala sorte, negro
+🦁 cara, cara de león, Leo, león, zodíaco
+🐯 cara, cara de tigre, tigre
+🐅 tigre
+🐆 leopardo
+🐴 cabalo, cara, cara de cabalo
+🐎 cabalo, cabalo de carreiras, carreira de cabalos
+🦄 cara, cara de unicornio, unicornio
+🦓 cebra, raias
+🦌 animal, cervo
+🦬 bisonte, búfalo
+🐮 cara, cara de vaca, vaca
+🐂 boi, Tauro, touro, zodíaco
+🐃 auga, búfalo, búfalo acuático, doméstico
+🐄 vaca
+🐷 cara, cara de porco, porco
+🐖 porco
+🐗 porco bravo, xabaril, xabarín
+🐽 morro de porco, nariz de porco, porco
+🐏 Aries, carneiro, ovella, zodíaco
+🐑 ovella
+🐐 cabra, Capricornio, zodíaco
+🐪 dromedario, xiba
+🐫 camelo, xibas
+🦙 alpaca, la, llama, vicuña
+🦒 xirafa
+🐘 elefante
+🦣 extinción, mamut, mastodonte, prehistórico
+🦏 animal, rinoceronte
+🦛 hipopótamo
+🐭 cara de rato, dentes, Pérez, ratiño, rato
+🐁 dentes, Pérez, ratiño, rato
+🐀 rata
+🐹 cara de hámster, hámster, mascota
+🐰 cara, cara de coello, coello, mascota
+🐇 coello, mascota
+🐿 esquío
+🦫 castor
+🦔 orizo, ourizo, ourizo cacho
+🦇 animal, morcego, vampiro
+🐻 cara, cara de oso, oso
+🐻‍❄ ártico, branco, oso polar
+🐨 coala, koala
+🐼 cara, cara de oso panda, oso panda, panda
+🦥 folgazán, lento, preguiceiro, preguiza
+🦦 londra, lontra
+🦨 alcatreo, cheirume, fedorento, mofeta
+🦘 Australia, canguro, marsupial, saltar
+🦡 porco teixo, teixo, teixugo, tourón
+🐾 patas, pegada, pegadas de patas
+🦃 pavo
+🐔 polo
+🐓 galo
+🐣 casca, ovo, pitiño, pitiño saíndo da casca, pito
+🐤 pitiño, pito
+🐥 pitiño, pitiño de fronte, pito
+🐦 paxaro
+🐧 pingüín
+🕊 ave, paz, pomba, voar
+🦅 aguia, aiga, animal, paxaro, rapina
+🦆 animal, parrulo, pato, paxaro
+🦢 ave, cisne, parruliño feo, parrulo feo, patiño feo
+🦉 animal, curuxa, moucho, paxaro, sabio
+🦤 ave, dodo, extinta, Mauricio
+🪶 lixeiro, pluma, plumaxe
+🦩 ave, flamengo, rosa
+🦚 ave, pavo real, pavón
+🦜 ave, charlatán, falangueiro, loro, pirata
+🐸 cara, cara de ra, ra
+🐊 crocodilo
+🐢 tartaruga
+🦎 animal, lagarto, réptil
+🐍 Ofiúco, réptil, serpe, zodíaco
+🐲 cara de dragón, dragón
+🐉 dragón
+🦕 branquiosauro, brontosauro, dinosauro, diplodoco, saurópodo
+🦖 dinosauro, Tyrannosaurus rex
+🐳 balea, balea botando un chorro, chorro
+🐋 balea
+🐬 delfín, golfiño
+🦭 foca, león mariño
+🐟 peixe, Pisces, zodíaco
+🐠 peixe, tropical
+🐡 globo, peixe
+🦈 animal, escualo, peixe, quenlla, tiburón
+🐙 polbo, tentáculos
+🐚 bucina, bucina mariña, bucio, buguina, corno
+🐌 caracol
+🦋 animal, bolboreta, insecto
+🐛 becho, bicho, cempés, verme
+🐜 formiga
+🐝 abella, avespa, mel, vespa
+🪲 becho, bicho, escarabeidos, escaravello, insecto
+🐞 barrosiña, maruxiña, reirrei, voaniña, xoaniña
+🦗 grilo, saltón
+🪳 becho, bicho, cascuda, cucaracha, insecto
+🕷 araña
+🕸 araña, arañeira, tea de araña
+🦂 alacrán, Escorpión, zodíaco
+🦟 malaria, mosquito, picada, picadela, picadura
+🪰 enfermidade, insecto, mosca, tabán, tse-tse
+🪱 becho, bicho, lombriga, miñoca, parásito, verme
+🦠 ameba, bacteria, microbio, virus
+💐 flores, ramo, ramo de flores
+🌸 cerdeira, cereixa, flor, flor de cerdeira
+💮 flor, flor branca
+🏵 flor, roseta
+🌹 flor, rosa
+🥀 flor, murcha, planta
+🌺 flor, flor de hibisco
+🌻 flor, xirasol
+🌼 flor
+🌷 flor, tulipán
+🌱 planta, plántula, xerminar
+🪴 planta en testo, plantar, tarro, testo
+🌲 abeto, árbore, árbore de folla perenne
+🌳 árbore, árbore de folla caduca
+🌴 árbore, palmeira
+🌵 cacto, planta
+🌾 arroz, cereais, planta, planta de arroz
+🌿 follas, planta
+☘ planta, trevo
+🍀 4, planta, sorte, trevo de catro follas
+🍁 folla, folla de pradairo, planta, pradairo, sicómoro
+🍂 folla, folla seca, outono, planta
+🍃 folla, folla ao vento, planta, vento
+🍇 acio, froita, uva, uvas
+🍈 froita, melón
+🍉 froita, sandía
+🍊 froita, laranxa, mandarina
+🍋 froita, limón
+🍌 banana, froita, plátano
+🍍 ananás, froita, piña
+🥭 froita, mango, tropical
+🍎 froita, mazá vermella
+🍏 froita, mazá verde
+🍐 froita, pera
+🍑 froita, pexego
+🍒 cereixa, cereixas, froita
+🍓 amorodo, froita
+🫐 arando, bagas, froitas silvestres, froitos do bosque, froitos vermellos
+🥝 comida, froita, kiwi
+🍅 tomate, vexetal
+🫒 oliva
+🥥 coco, froita, piña colada
+🥑 aguacate, comida, froita
+🍆 berenxena, vexetal
+🥔 comida, pataca, vexetal
+🥕 cenoria, comida, vexetal
+🌽 espiga, mazaroca, millo, vexetal
+🌶 chile, picante
+🫑 pemento, vexetal
+🥒 cogombro, comida, vexetal
+🥬 acelgas, espinacas, leituga, verdura de folla
+🥦 brócoli
+🧄 allo, cheiro, condimento
+🧅 cebola, chorar, condimento, vexetal
+🍄 champiñón, cogomelo
+🥜 cacahuete, comida, froito, seco
+🌰 castaña, magosto, outono
+🍞 pan, pan de molde
+🥐 almorzo, bolo, comida, croissant
+🥖 barra, barra de pan, comida, pan, panadería
+🫓 arepa, pan de pita, pan plano
+🥨 bretzel, pretzel
+🥯 bagel, beigel, panadaría
+🥞 chulas, comida, pancakes, tortas
+🧇 doce, gofre
+🧀 queixo
+🍖 carne, óso, óso con carne
+🍗 carne, óso, polo, zanco de polo
+🥩 año, carne, chuleta, chuletón, costeleta, porco
+🥓 carne, comida, touciño, unto
+🍔 hamburguesa
+🍟 patacas fritas
+🍕 pizza, porción
+🌭 bocadillo de salchicha, bolo con salchicha, pan de salchicha, salchicha
+🥪 bocadillo, pan de molde, sándwhich
+🌮 mexicano, taco
+🌯 burrito, mexicano
+🫔 mexicano, tamal
+🥙 comida, falafel, kebab
+🧆 albóndegas, faláfel, garavanzo
+🥚 comida, ovo
+🍳 ovo, ovo frito, tixola
+🥘 arroz, comida, paella, paelleira
+🍲 comida, guiso, pota, pota con comida, tarteira
+🫕 A Suíza, carne, chocolate, fondue, fundir, queixo
+🥣 almorzo, cereais, cunca con culler, potaxe
+🥗 comida, ensalada, leituga
+🍿 flocos, flocos de millo, millo
+🧈 almorzo, manteiga, margarina, torrada
+🧂 condimento, sal, saleiro, salgar
+🥫 comida, enlatada, lata, lata de comida
+🍱 bento, caixa de bento, comida xaponesa, xaponés
+🍘 arroz, comida xaponesa, galleta, galleta de arroz
+🍙 arroz, bola de arroz, comida xaponesa
+🍚 arroz, cocido, comida chinesa, comida xaponesa, cunca de arroz
+🍛 arroz, arroz con curry, curry
+🍜 comida chinesa, comida xaponesa, fideos chineses, fumegante, ramen
+🍝 espaguetes, pasta, spaghetti
+🍠 doce, pataca
+🍢 comida xaponesa, espeto, marisco, oden
+🍣 sushi, suxi
+🍤 gamba, gamba á gabardina, gamba frita
+🍥 espiral, pastel, pastel de peixe, peixe, remuíño
+🥮 doce chinés, festival, lúa, outono, pastel de lúa
+🍡 dango, doce, espetada, sobremesa, xaponesa
+🥟 dumpling, empanadilla, pierogi
+🥠 galleta, galleta da fortuna, profecía, sorte
+🥡 chinesa, comida, comida para levar
+🦀 Cáncer, cangrexo, caranguexo, zodíaco
+🦞 lagosta, lumbrigante, mariscada, marisco
+🦐 animal, camarón, gamba, lagostino, marisco
+🦑 animal, choco, lura, molusco
+🦪 marisco, molusco, ostra, perla
+🍦 cremoso, doce, sobremesa, xeado, xeado de máquina
+🍧 picado, sobremesa, sobremesa de xeo picado, xeo
+🍨 copa, copa de xeado, xeado
+🍩 doce, donut, rosquilla
+🍪 doce, galleta
+🎂 aniversario, candeas, celebración, festa, torta de aniversario
+🍰 doce, porción de torta, sobremesa, torta
+🧁 cupcake, doce, madalena, pastelaría
+🥧 pastel, torta
+🍫 chocolate, doce, libra
+🍬 caramelo, doce
+🍭 caramelo, doce, piruleta
+🍮 doce, flan, pudin, sobremesa
+🍯 bote, doce, mel, tarro de mel
+🍼 bebé, beber, biberón, leite
+🥛 bebida, leite, vaso, vaso de leite
+☕ bar, bebida, café, quente
+🫖 bebida, infusión, té, teteira
+🍵 bar, bebida, quente, té
+🍶 bebida, botella, cunca, sake, xaponesa
+🍾 botella, botella de champaña, cava, celebración, champaña
+🍷 alcohol, bar, bebida, copa de viño, viño
+🍸 bar, bebida, cóctel, copa, vermú
+🍹 bar, bebida, bebida tropical, copa
+🍺 bar, cervexa, xerra
+🍻 brinde de cervexas, celebración, cervexa, xerras
+🥂 bebida, brinde, celebrar, copas
+🥃 bebida, vaso, vaso con xeo, whisky, xeo
+🥤 palla, refresco, vaso, vaso con palla, zume
+🧋 burbullas, leite, perlas, té, té de burbullas
+🧃 brik, cartón, tetra brik, zume
+🧉 A Arxentina, bebida, infusión, mate
+🧊 cubo de xeo, frío, pedra de xeo, xeo
+🥢 chinesa, comida, paíños, paíños chineses
+🍽 coitelo, cubertos, garfo, prato, prato e cubertos
+🍴 coitelo, cubertos, garfo, garfo e coitelo
+🥄 cuberto, culler
+🔪 arma, cociña, coitelo, coitelo de cociña
+🏺 Acuario, ánfora, antigüidade, zodíaco
+🌍 África, Europa, globo terráqueo Europa-África, mundo, Terra
+🌎 América, globo terráqueo América, mundo, Terra
+🌏 Asia, Australia, globo terráqueo Asia-Australia, mundo, Terra
+🌐 globo, globo terráqueo con meridianos, meridianos, mundo, Terra
+🗺 mapa, mapa do mundo, mapamundi, mundo
+🗾 mapa, mapa do Xapón, O Xapón
+🧭 compás, magnético, navegación, orientación
+🏔 frío, inverno, montaña, montañas nevadas, neve
+⛰ montaña, montañas
+🌋 erupción, volcán
+🗻 montaña, monte, monte Fuji, Xapón
+🏕 cámping, campismo
+🏖 parasol, praia, praia e parasol, vacacións, verán
+🏜 deserto
+🏝 deserta, illa
+🏞 parque, parque nacional
+🏟 competición, deporte, estadio, partido
+🏛 banco, clásico, edificio, Grecia, monumento
+🏗 construción, edificio, guindastre
+🧱 cemento, ladrillo, muro
+🪨 pedra, penedo, roca, rocha
+🪵 leña, madeira, toro, tronco
+🛖 cabana, choza, iurta, palloza
+🏘 casas, chalés, cidade, urbanización, vivendas
+🏚 abandonada, casa, deshabitada, en ruínas
+🏠 casa, chalé, vivenda
+🏡 casa, casa con xardín, vivenda, xardín
+🏢 edificio
+🏣 correo, correo postal, edificio, oficina, oficina de correos xaponesa
+🏤 correo postal, Correos, edificio, oficina, oficina de correos
+🏥 edificio, hospital, medicina, médico, urxencias
+🏦 banco, diñeiro, edificio
+🏨 aloxamento, edificio, hotel
+🏩 aloxamento, cita, edificio, hotel, motel
+🏪 24 horas, edificio, establecemento, tenda, tenda 24 horas
+🏫 colexio, edificio, escola
+🏬 centro comercial, comercial, compras, edificio, grandes almacéns
+🏭 edificio, fábrica, industria
+🏯 castelo, castelo xaponés, edificio, Xapón
+🏰 castelo, construción, edificio
+💒 capela, casar, igrexa, voda, voda pola Igrexa
+🗼 Tokio, Toquio, torre, Torre de Tokyo
+🗽 Estados Unidos, Estatua da Liberdade, EUA, liberdade
+⛪ capela, cristianismo, edificio, igrexa, relixión
+🕌 edificio, islamismo, mesquita, musulmán, relixión
+🛕 hindú, hinduísmo, relixión, templo
+🕍 edificio, relixión, sinagoga, xudaísmo, xudeu
+⛩ relixión, santuario xintoísta, Xapón, xintoísmo
+🕋 A Meca, islamismo, Kaaba, musulmán, relixión
+⛲ fonte
+⛺ acampar, campamento, cámping, tenda de campaña
+🌁 borraxeira, meteoroloxía, neboeira, nebuloso, paisaxe nebulosa
+🌃 cidade, estrelas, meteoroloxía, noite, noite estrelada
+🏙 cidade, edificios, paisaxe urbana
+🌄 amencer, amencer sobre as montañas, meteoroloxía, montañas, sol
+🌅 amencer, meteoroloxía, sol
+🌆 cidade, luscofusco, meteoroloxía, noitiña
+🌇 cidade, meteoroloxía, ocaso, posta de sol, solpor
+🌉 estrelas, meteoroloxía, noite, ponte, ponte de noite
+♨ auga termal, augas termais, quente, vapor
+🎠 cabaliño de carrusel, cabaliños, cabalo, carrusel
+🎡 nora, noria, parque de atraccións
+🎢 montaña rusa, parque de atraccións
+💈 barbaría, barbeiro, barbería, poste de barbeiro, salón de peiteado
+🎪 carpa, carpa do circo, circo
+🚂 locomotora, locomotora de vapor, tren, vapor
+🚃 tranvía, tren, tren eléctrico, vagón
+🚄 alta velocidade, AVE, tren, tren de alta velocidade
+🚅 alta velocidade, tren, tren bala
+🚆 ferrocarril, tren
+🚇 metro
+🚈 tranvía, tren lixeiro
+🚉 estación, tranvía, tren
+🚊 tranvía
+🚝 monorraíl
+🚞 ferrocarril, ferrocarril de montaña
+🚋 tranvía, vagón, vagón de tranvía
+🚌 autobús, autocar, bus
+🚍 autobús, autobús de fronte, autocar, bus
+🚎 trole, trolebús
+🚐 autobús, minibús
+🚑 ambulancia
+🚒 bombeiros, camión, coche de bombeiros
+🚓 coche, coche de policía, policía
+🚔 coche, coche de policía de fronte, policía
+🚕 taxi
+🚖 taxi, taxi de fronte
+🚗 automóbil, coche, vehículo
+🚘 automóbil, coche, coche de fronte, vehículo
+🚙 autocaravana, vacacións, vehículo recreativo
+🛻 camioneta, furgoneta, vehículo
+🚚 camión, camión de reparto
+🚛 camión, camión articulado, tráiler
+🚜 agricultura, tractor
+🏎 carreiras, coche, coche de carreiras
+🏍 carreiras, moto, motocicleta
+🛵 moto, motocicleta, motociclismo
+🦽 cadeira de rodas, discapacidade, manual
+🦼 cadeira de rodas motorizada, discapacidade, eléctrica, motorizada
+🛺 motorizado, mototaxi, rickshaw, triciclo motorizado, tuk-tuk
+🚲 bici, bicicleta
+🛴 patín, patinete, xoguete
+🛹 monopatín, monopatinaxe
+🛼 deporte, patín, patinaxe
+🚏 autobús, bus, parada, parada de autobús, parada de bus
+🛣 autoestrada, autovía, estrada
+🛤 tren, vía, vía do tren
+🛢 barril, barril de petróleo, bidón, petróleo
+⛽ carburante, combustible, gasóleo, gasolina, gasolineira
+🚨 coche de policía, luces, policía, sirena, sirena de policía
+🚥 horizontal, semáforo, tráfico
+🚦 semáforo, tráfico, vertical
+🛑 octógono, parar, sinal, sinal de stop, stop, tráfico
+🚧 en construción, obras, sinal de obras
+⚓ áncora, barco
+⛵ barco, mar, veleiro
+🛶 barca, canoa, piragua, piragüismo, remar
+🚤 barco, lancha, lancha motora
+🛳 barco, barco de pasaxeiros, cruceiro
+⛴ barco, ferri, transbordador
+🛥 barco, barco a motor, motor
+🚢 barco
+✈ avión
+🛩 avión, avioneta
+🛫 avión, avión despegando, despegue, saída
+🛬 aterraxe, avión, avión aterrando, chegada
+🪂 paracaídas, paracaidismo, parapente
+💺 asento
+🚁 helicóptero
+🚟 ferrocarril, suspendido, suspensión, tren, tren colgante
+🚠 cabina, montaña, teleférico, tren
+🚡 aéreo, colgante, funicular, tranvía
+🛰 espazo, satélite
+🚀 espazo, foguete
+🛸 extraterrestres, marcianos, ovni, prato voador
+🛎 campaíña, campaíña de recepción, hotel, recepción, timbre
+🧳 equipaxe, maleta, viaxar
+⌛ reloxo, reloxo de area, tempo
+⏳ reloxo, reloxo de area, reloxo de area en funcionamento
+⌚ reloxo
+⏰ alarma, espertador, espertar, reloxo
+⏱ cronómetro, reloxo, tempo
+⏲ reloxo, tempo, temporizador
+🕰 reloxo, reloxo de repisa
+🕛 00:00, 12, 12:00, doce en punto, en punto
+🕧 00:30, 12, 12:30, doce e media, e media
+🕐 1, 1:00, 13:00, en punto, unha en punto
+🕜 1, 1:30, 13:30, e media, unha e media
+🕑 14:00, 2, 2:00, dúas en punto, en punto
+🕝 14:30, 2, 2:30, dúas e media, e media
+🕒 15:00, 3, 3:00, en punto, tres en punto
+🕞 15:30, 3, 3:30, e media, tres e media
+🕓 16:00, 4, 4:00, catro en punto, en punto
+🕟 16:30, 4, 4:30, catro e media, e media
+🕔 17:00, 5, 5:00, cinco en punto, en punto
+🕠 17:30, 5, 5:30, cinco e media, e media
+🕕 18:00, 6, 6:00, en punto, seis en punto
+🕡 18:30, 6, 6:30, e media, seis e media
+🕖 19:00, 7, 7:00, en punto, sete en punto
+🕢 19:30, 7, 7:30, e media, sete e media
+🕗 20:00, 8, 8:00, en punto, oito en punto
+🕣 20:30, 8, 8:30, e media, oito e media
+🕘 21:00, 9, 9:00, en punto, nove en punto
+🕤 21:30, 9, 9:30, e media, nove e media
+🕙 10, 10:00, 22:00, dez en punto, en punto
+🕥 10, 10:30, 22:30, dez e media, e media
+🕚 11, 11:00, 23:00, en punto, once en punto
+🕦 11, 11:30, 23:30, e media, once e media
+🌑 lúa, nova, novilunio
+🌒 lúa, nova, visible
+🌓 crecente, cuarto, lúa, lúa en cuarto crecente
+🌔 crecente, lúa, xibosa
+🌕 chea, lúa, plenilunio
+🌖 lúa, minguante, xibosa
+🌗 cuarto, lúa, lúa en cuarto minguante, minguante
+🌘 lúa, minguante
+🌙 crecente, lúa
+🌚 cara, lúa, lúa nova con cara, nova
+🌛 cara, crecente, cuarto, lúa, lúa en cuarto crecente con cara
+🌜 cara, cuarto, lúa, lúa en cuarto minguante con cara, minguante
+🌡 temperatura, termómetro
+☀ calor, raios, sol, solleiro, tempo
+🌝 cara, chea, lúa, lúa chea con cara
+🌞 cara, sol, sol con cara
+🪐 planeta con aneis, Saturno, sistema solar
+⭐ estrela
+🌟 brillante, escintilante, estrela
+🌠 choiva de estrelas, chuvia de estrelas, estrela, fugaz
+🌌 espazo, vía láctea, Vía Láctea
+☁ meteoroloxía, nube
+⛅ anubrado, ceo parcialmente cuberto, meteoroloxía, nubrado, sol
+⛈ choiva, lóstrego, meteoroloxía, nube, tormenta
+🌤 ceo parcialmente despexado, meteoroloxía, nube, sol
+🌥 ceo cuberto, meteoroloxía, nube, sol
+🌦 ceo cuberto con choiva, choiva, meteoroloxía, nube, sol
+🌧 choiva, chuvia, meteoroloxía, nube
+🌨 frío, inverno, meteoroloxía, neve
+🌩 lóstrego, lóstregos, meteoroloxía, nube
+🌪 furacán, meteoroloxía, tornado
+🌫 meteoroloxía, néboa, nebuloso
+🌬 cara, meteoroloxía, soprar, vento
+🌀 ciclón, furacán, tifón, tornado
+🌈 arco da vella, arco iris
+🌂 choiva, paraugas, paraugas pechado, pingas
+☂ choiva, paraugas
+☔ choiva, paraugas, paraugas con choiva
+⛱ area, parasol, parasol na praia, praia, sol
+⚡ alta tensión, alta voltaxe, electricidade, perigo
+❄ copo, copo de neve, frío, inverno, neve
+☃ boneco, frío, inverno, nevando e boneco de neve, neve
+⛄ boneco, boneco de neve, frío, inverno
+☄ cometa, espazo
+🔥 fogo, incendio, lapas, lume
+💧 auga, cómic, pinga, suar, suor fría
+🌊 mar, océano, onda, onda do mar, onda do océano
+🎃 cabaza, cabaza de Samaín, celebración, Halloween, Samaín
+🎄 árbore, árbore de Nadal, celebración, Nadal
+🎆 celebración, festas, fogos artificiais
+🎇 bengala, celebración, festa
+🧨 dinamita, explosivo, fogos artificiais, foguete, petardo
+✨ brillar, chispas, escintilar, estrelas
+🎈 aniversario, festa, globo
+🎉 confeti, festa, lanzador de confeti
+🎊 bola de confeti, confeti, festa
+🎋 árbore, árbore dos desexos de Tanabata, celebración, tiras de papel, xaponés
+🎍 Aninovo, bambú, celebración, decoración con bambú
+🎎 bonecas, bonecas xaponesas, celebración, festival xaponés
+🎏 bandeirolas, bandeirolas con forma de carpa, carpas, festa
+🎐 campaíña, campaíña de vento, vento
+🎑 cerimonia, cerimonia da lúa, lúa, xaponesa
+🧧 agasallo, boa sorte, diñeiro, hongbao, lai see, sobre vermello
+🎀 celebración, cinta, lazo, regalo
+🎁 aniversario, festa, lazo, regalo
+🎗 conmemoración, lazo, lazo conmemorativo
+🎟 entrada, entradas, espectáculo
+🎫 billete, entrada, tícket
+🎖 condecoración, medalla, militar
+🏆 premio, trofeo
+🏅 deporte, medalla, medalla deportiva, podio
+🥇 gañador, gañadora, medalla, medalla de ouro, ouro, primeira, primeiro
+🥈 medalla, medalla de prata, prata, segunda, segundo
+🥉 bronce, medalla, medalla de bronce, terceira, terceiro
+⚽ balón, balón de fútbol, fútbol, pelota
+⚾ béisbol, pelota, pelota de béisbol
+🥎 bate, guante, pelota, sófbol, softball, sóftball
+🏀 balón, balón de baloncesto, baloncesto, canastra, pelota
+🏐 balón, balón de voleibol, pelota, voleibol
+🏈 balón, balón de fútbol americano, fútbol americano, pelota
+🏉 balón, balón de rugby, pelota, rugby
+🎾 pelota, raqueta, tenis
+🥏 disco voador, disco voante, frisbee
+🎳 birlos, bolos
+🏏 bate, crícket, pelota
+🏑 herba, hóckey, hóckey sobre herba, pelota, stick
+🏒 disco, hóckey, hóckey sobre xeo, stick, xeo
+🥍 gol, lacrosse, pau, pelota
+🏓 pimpón, ping-pong, tenis de mesa
+🏸 bádminton, raqueta, volante
+🥊 boxeo, deporte, guante, guante de boxeo, luva
+🥋 artes marciais, deporte, judo, karate, quimono de artes marciais
+🥅 deporte, gol, portería, rede
+⛳ bandeira, buraco, burato, golf
+⛸ patinaxe, patinaxe sobre xeo, xeo
+🎣 cana, cana de pescar, peixe, pescar
+🤿 máscara de mergullo, mergullo, submarinismo
+🎽 camiseta, camiseta de correr, correr
+🎿 bastóns, esquí, esquís, neve
+🛷 neve, trineo, zorra
+🥌 curling, pedra, pedra de curling, xeo
+🎯 dardo, diana
+🪀 ioió, xoguete
+🪁 papaventos, voar, xoguete
+🎱 billar, bola
+🔮 adiviñación, bola, bola de cristal, cristal, futuro
+🪄 bruxa, mago, maxia, variña máxica
+🧿 mal de ollo, nazar, ollo turco, talismán
+🎮 consola, mando, videoxogo, xogo
+🕹 consola, joystick, panca de control, panca de mando, videoxogo, xogo
+🎰 bar, casino, máquina comecartos, xogo
+🎲 dado, dados, xogo
+🧩 crebacabezas, peza, puzzle, quebracabezas
+🧸 bebé, osiño, oso, peluche, xoguete
+🪅 aniversario, celebración, festa, piñata
+🪆 bonecas rusas, matrioska, matruxa, Rusia
+♠ baralla francesa, cartas, pica, picas, xogos
+♥ baralla francesa, cartas, corazón, corazóns, xogos
+♦ baralla francesa, cartas, rombo, rombos, xogos
+♣ baralla francesa, cartas, trevo, trevos, xogos
+♟ incauto, peón de xadrez, prescindible, xadrez
+🃏 baralla francesa, cartas, comodín, xogos
+🀄 dragón, ficha de mahjong, mahjong, vermello, xogo
+🎴 carta do xogo das flores, cartas, flores, xaponés, xogo
+🎭 actuación, arte, artes interpretativas, máscaras, teatro
+🖼 cadro, exposición, marco, museo, pintura
+🎨 arte, museo, paleta, paleta de artista, pintura
+🧵 agulla, bobina, carrete, coser, fío
+🪡 agulla de coser, bordado, coser, modista, puntada, sutura, xastre
+🧶 gancho, nobelo, tecer
+🪢 anoar, atar, corda, lazada, nó
+👓 anteollos, lentes
+🕶 anteollos, lentes, lentes de sol, sol
+🥽 gafas de protección, natación, protección, soldar
+🥼 bata branca, científica, laboratorio, médica, médico
+🦺 chaleco salvavidas, emerxencia, salvavidas, seguranza, seguridade
+👔 gravata
+👕 camiseta
+👖 pantalóns, vaqueiros
+🧣 bufanda, pescozo
+🧤 guantes, luvas, mans
+🧥 abrigo, chaqueta
+🧦 calcetíns
+👗 vestido
+👘 quimono
+🥻 A India, hindú, roupa, sari, vestido
+🩱 bañador, traxe de baño
+🩲 bañarse, calzón, roupa interior, traxe de baño
+🩳 bañador, calzón, pantalón curto, roupa interior, traxe de baño
+👙 bañarse, bikini
+👚 muller, roupa, roupa de muller
+👛 moedas, moedeiro, portamoedas
+👜 bolso
+👝 bolso, bolso de man, carteira, neceser
+🛍 bolsas, bolsas de compras, compras, hotel
+🎒 escola, mochila
+🩴 calzado, chancleta, praia, sandalia
+👞 home, zapato, zapato de home
+👟 calzado, correr, deporte, zapatilla, zapatilla deportiva
+🥾 bota de montaña, camiñar, Camiño de Santiago, excursionismo, montaña
+🥿 bailarina, zapatilla, zapato baixo, zapato plano
+👠 muller, tacón, zapato, zapato de tacón
+👡 calzado, muller, sandalia, sandalia de muller
+🩰 bailarinas, baile, ballet, zapatillas
+👢 botas, botas de muller, calzado, muller
+👑 coroa, raíña, rei
+👒 muller, sombreiro, sombreiro de muller
+🎩 mago, sombreiro, sombreiro de copa
+🎓 barrete de graduación, birrete, graduación, universidade
+🧢 béisbol, gorra
+🪖 casco militar, guerra, militar, soldado
+⛑ axuda, casco, casco cunha cruz branca, cruz
+📿 colar, contas, relixión, rosario
+💄 barra, barra de labios, beizos, lapis de labios, maquillaxe
+💍 anel, diamante, xoia
+💎 diamante, pedra preciosa, xema, xoia
+🔇 altofalante, altofalante desactivado, silencio, volume
+🔈 altofalante, volume
+🔉 altofalante, altofalante activado, baixo, volume
+🔊 alto, altofalante, altofalante con volume alto, volume
+📢 altofalante, altofalante de megafonía, megafonía
+📣 megafonía, megáfono
+📯 corneta, Correos, postal
+🔔 campá
+🔕 campá, prohibido, silencio, tachada
+🎼 clave de sol, música, pentagrama, solfexo
+🎵 corchea, música, nota musical, notas, solfexo
+🎶 música, notas, notas musicais
+🎙 gravación, micrófono, micrófono de gravación, música, radio
+🎚 control, control desprazable, música, volume
+🎛 botóns, botóns de control, control, música
+🎤 karaoke, micrófono
+🎧 auriculares, cascos
+📻 radio
+🎷 instrumento, saxo, saxofón
+🪗 acordeón, concerto, instrumento, música
+🎸 guitarra, instrumento
+🎹 instrumento, órgano, piano, teclado, teclado musical
+🎺 instrumento, trompeta
+🎻 instrumento, violín
+🪕 banxo, de corda, instrumento, música
+🥁 instrumento, música, tambor
+🪘 conga, instrumento, música, percusión, ritmo, tambor alto
+📱 móbil, teléfono
+📲 frecha, móbil, recibir, teléfono, teléfono móbil con frecha
+☎ teléfono
+📞 auricular, auricular do teléfono, receptor, teléfono
+📟 busca, buscapersoas, localizador, mensáfono
+📠 fax, telefax
+🔋 batería, carga, pila
+🔌 electricidade, enchufar, enchufe
+💻 ordenador, portátil
+🖥 escritorio, ordenador, ordenador de escritorio
+🖨 impresora, imprimir, ordenador
+⌨ ordenador, teclado
+🖱 ordenador, rato, rato de ordenador
+🖲 ordenador, rato, rato de bola
+💽 disco, minidisc, ordenador
+💾 disquete, disqueteira, ordenador
+💿 CD, disco, ordenador
+📀 disco, DVD, ordenador
+🧮 ábaco, cálculo, contar, xoguete
+🎥 cámara cinematográfica, cine, filmar, filme, película
+🎞 cine, fotograma, fotograma de película, negativo, película
+📽 cine, película, proxector, proxector cinematográfico, vídeo
+🎬 cine, cinematografía, claqueta, filmar, película
+📺 televisión, televisor, vídeo
+📷 cámara, cámara de fotos, fotografía, fotos, vídeos
+📸 cámara, cámara de fotos con flash, flash, fotografía
+📹 cámara, cámara de vídeo, vídeo
+📼 cinta, cinta de vídeo, VHS, videocasete
+🔍 buscar, esquerda, lupa, lupa cara a esquerda
+🔎 buscar, dereita, lupa, lupa cara a dereita
+🕯 candea, cera, iluminar, luz
+💡 cómic, electricidade, idea, lámpada, luz
+🔦 lanterna, luz
+🏮 lanterna, lanterna de papel vermella, luz, vermella, xaponesa
+🪔 diya, hinduísmo, lámpada de aceite, zoroastrismo
+📔 caderno, caderno de tapas decoradas, cuberta, decorada
+📕 libro, pechado
+📖 aberto, libro
+📗 libro, verde
+📘 azul, libro
+📙 laranxa, libro
+📚 libros
+📓 caderno
+📒 caderno, contabilidade, libro, libro de contabilidade
+📃 contrato, documento, enrolada, páxina coa parte inferior enrolada
+📜 papel, pergameo, pergamiño
+📄 anverso, documento, páxina cunha esquina dobrada
+📰 artigos, diario, noticias, xornal
+🗞 artigos, diario, enrolado, noticias, xornal enrolado
+📑 bandeiriña adhesiva, marcador, marcador autoadhesivo
+🔖 marcador, marcalibros, marcapáxinas, punto de lectura
+🏷 etiqueta
+💰 bolsa, diñeiro, dólares, saco, saco de diñeiro
+🪙 cartos, diñeiro, moeda, ouro, prata, tesouro
+💴 banco, billete, billete de ien, ien, moeda
+💵 banco, billete, billete de dólar, dólar, moeda
+💶 banco, billete, billete de euro, euro, moeda
+💷 banco, billete, billete de libra, libra, moeda
+💸 alas, ás, billetes, cartos, diñeiro voando
+💳 banco, diñeiro, tarxeta, tarxeta de crédito
+🧾 contabilidade, recibo, resgardo, tícket, xustificante
+💹 gráfico, ien, mercado, mercado de iens en alza, tendencia
+✉ carta, correo e., correo electrónico, sobre
+📧 correo e., correo electrónico
+📨 correo, correo electrónico, correo entrante, recibido, sobre
+📩 correo, correo electrónico, correo saínte, enviado, sobre
+📤 bandexa, bandexa de saída, correo, saída, saínte
+📥 bandexa, bandexa de entrada, correo, entrada, entrante
+📦 caixa, paquete
+📫 bandeira, caixa de correo, caixa de correo con bandeira subida, chea, pechada
+📪 baleira, bandeira, caixa de correo, caixa de correo con bandeira baixada, pechada
+📬 aberta, bandeira, caixa de correo, caixa de correo chea, chea
+📭 aberta, baleira, bandeira, caixa de correo, caixa de correo baleira
+📮 caixa de correo, carta, correo, correo postal, correspondencia
+🗳 eleccións, papeleta, urna, urna electoral con voto, voto
+✏ escribir, lapis
+✒ escribir, estilográfica, pluma, plumiña
+🖋 escribir, estilográfica, pluma
+🖊 boli, bolígrafo, escribir
+🖌 pincel, pintar
+🖍 colorear, cores, lapis de cor, pintar
+📝 anotar, escribir, nota, recordatorio
+💼 documentos, maletín, oficina
+📁 carpeta, cartafol, documentos
+📂 aberto, carpeta, cartafol aberto, documentos
+🗂 arquivador, documentos, fichas, ficheiro, separadores de fichas
+📅 calendario, data
+📆 arrancar, calendario, calendario de varias follas, data, follas
+🗒 caderno, caderno de espiral, escribir, espiral
+🗓 calendario, calendario de espiral, data
+📇 organizador, organizador de tarxetas, tarxetas, tarxetas de visita
+📈 alza, gráfica, gráfico, gráfico con tendencia ascendente, tendencia
+📉 baixa, gráfica, gráfico, gráfico con tendencia descendente, tendencia
+📊 barras, gráfica, gráfico, gráfico de barras
+📋 portapapeis
+📌 chincheta
+📍 chincheta, redonda
+📎 clip
+🖇 clips, clips enganchados, enganchar, unidos
+📏 regra, triángulo
+📐 escuadro, regra, triangular, triángulo
+✂ cortar, tesoira, tesoiras
+🗃 arquivar, caixa, caixa de arquivo, documentos, ficheiro
+🗄 arquivador, caixóns, documentos, escritorio, oficina
+🗑 papeleira
+🔒 cadeado, pechado
+🔓 aberto, cadeado, desbloquear
+🔏 cadeado con pluma, pluma, seguranza, sinatura dixital
+🔐 cadeado con chave, pechado, privacidade, seguranza
+🔑 chave, clave, contrasinal
+🗝 antiga, chave
+🔨 ferramenta, martelo
+🪓 cortar, machada, machado, madeira, talar
+⛏ ferramenta, mina, pico
+⚒ ferramenta, martelo, martelo e pico, pico
+🛠 chave inglesa, ferramenta, martelo, martelo e chave inglesa
+🗡 arma, daga, puñal
+⚔ arma, cruzadas, espadas
+🔫 arma, auga, piscina, pistola, pistola de auga
+🪃 Australia, búmerang, rebotar, repercusión
+🏹 arco, arco e frecha, frecha, Saxitario, zodíaco
+🛡 arma, escudo, protección
+🪚 bricolaxe, carpintería, ferramenta, serra
+🔧 chave inglesa, ferramenta
+🪛 bricolaxe, desaparafusador, destornillador, ferramenta, parafuso
+🔩 parafuso, parafuso con porca, porca, tornillo
+⚙ engrenaxe, mecanismo, roda dentada
+🗜 compresión, ferramenta, ferramenta de compresión
+⚖ balanza, Libra, peso, xustiza, zodíaco
+🦯 bastón guía, cegueira, discapacidade
+🔗 cadea, elo, ligazón
+⛓ cadea, cadeas
+🪝 anzol, enganchar, gancho, pescar
+🧰 caixa de ferramentas, ferramentas, mec´ánico
+🧲 atracción, ferradura, imán, magnético
+🪜 chanzo, escada, escaleira, esqueira, subir, travesa
+⚗ alambique, augardente, destilar, química
+🧪 ciencia, experimento, laboratorio, probeta, química, tubo de ensaio
+🧫 bacteria, bioloxía, cultivo, laboratorio, Petri, placa de Petri
+🧬 ADN, bioloxía, evolución, vida, xene, xenética
+🔬 ciencia, laboratorio, microscopio
+🔭 astronomía, constelacións, corpos celestes, telescopio
+📡 antena, antena de satélite, satélite
+💉 inxección, médico, vacina, virus, xiringa
+🩸 doazón de sangue, medicina, menstruación, pinga de sangue, regra, sangue
+💊 enfermidade, medicamento, médico, pastilla, pílula
+🩹 apósito, apósito adhesivo, cura, ferida, tirita
+🩺 corazón, estetoscopio, fonendoscopio, medicina
+🚪 porta
+🛗 accesibilidade, ascensor, montacargas
+🪞 espello, reflectir, reflexo
+🪟 fiestra, ventá, vista, xanela
+🛏 cama, durmir, hotel
+🛋 hotel, lámpada, sofá, sofá e lámpada
+🪑 asento, cadeira, sentar
+🚽 inodoro, retrete, váter
+🪠 desatascador, desatoador, fontaneiro
+🚿 auga, ducha
+🛁 bañeira, baño
+🪤 cebo, desratizar, enganar, ratos, trampa para ratos
+🪒 afeitar, barbeiro, coitela
+🧴 champú, crema solar, envase cosmético, loción, suavizante, xel
+🧷 imperdible, prendedor, prender
+🧹 bruxa, limpar, varrer, vasoira
+🧺 agricultura, cesta, cesto, coada, pícnic
+🧻 papel de cociña, papel hixiénico, rolo, rolo de papel
+🪣 balde, caldeiro, fregar, praia
+🧼 bañarse, enxaboar, lavarse, pastilla, xabón
+🪥 baño, cepillo de dentes, dentes, hixiene, lavar os dentes
+🧽 absorbente, bañarse, baño, esponxa
+🧯 apagar, extintor, incendio, lapas, lume
+🛒 carro, carro da compra, compra, supermercado
+🚬 cigarro, fumar, permitido fumar, tabaco
+⚰ ataúde, funeral, morte, sepultura, velorio
+🪦 cemiterio, lápida, lousa, sepultura, tumba
+⚱ funeral, incineración, morte, urna, urna funeraria
+🗿 cara, escultura, estatua, estatua da illa de Pascua, moai
+🪧 cartaz, cartel, letreiro, pancarta, rótulo
+🏧 banco, caixeiro, diñeiro, sinal de caixeiro automático
+🚮 lixo, papeleira, sinal de tirar lixo na papeleira
+🚰 auga, beber, fonte, potable, sinal de auga potable
+♿ acceso, cadeira de rodas, sinal de acceso para cadeira de rodas
+🚹 aseo, baño, homes, sinal de aseo de homes
+🚺 aseo, baño, mulleres, sinal de aseo de mulleres
+🚻 aseos, baño, homes, mulleres, sinal de aseos
+🚼 bebé, cambiador, sala de lactación, sinal de cambiador de bebés
+🚾 aseo, baños, sinal de aseo, váter
+🛂 control, pasaporte, sinal de control de pasaportes
+🛃 aduana, alfándega, sinal de alfándega
+🛄 equipaxes, maletas, recollida, sinal de recollida de equipaxes
+🛅 baixo chave, consigna, equipaxes, maletas, sinal de consigna
+⚠ advertencia, sinal, sinal de advertencia
+🚸 cruzar, escola, nenos, sinal, sinal de nenos cruzando
+⛔ prohibido, sinal, sinal de acceso prohibido, tráfico
+🚫 prohibición, prohibido, sinal, sinal de prohibición
+🚳 bicicleta, prohibición, sinal, sinal de prohibido bicicletas
+🚭 fumar, prohibición, prohibido, sinal de prohibido fumar
+🚯 guindar, lixo, prohibido, sinal de prohibido guindar lixo, tirar
+🚱 auga, non beber, non potable, sinal de auga non potable
+🚷 peóns, prohibición, prohibido, sinal de acceso prohibido a peóns
+📵 móbil, prohibido, sinal de prohibición de teléfonos móbiles, teléfono móbil
+🔞 18, menores de idade, prohibición, sinal de prohibido a menores de idade
+☢ perigo, radioactivo, sinal, sinal de radioactividade
+☣ perigo, risco, sinal de perigo biolóxico, substancias perigosas
+⬆ arriba, dirección, frecha cara arriba, norte
+↗ arriba, dirección, frecha, frecha cara arriba á dereita, nordeste
+➡ dereita, dirección, frecha cara á dereita, leste
+↘ abaixo, dirección, frecha, frecha cara abaixo á dereita, sueste
+⬇ abaixo, dirección, frecha cara abaixo, sur
+↙ abaixo, dirección, frecha, frecha cara abaixo á esquerda, suroeste
+⬅ dirección, esquerda, frecha cara á esquerda, oeste
+↖ arriba, dirección, frecha, frecha cara arriba á esquerda, noroeste
+↕ abaixo, arriba, dirección, frecha, frecha cara arriba e abaixo
+↔ dereita, dirección, esquerda, frecha, frecha cara á esquerda e a dereita
+↮ frecha cara á esquerda e cara á dereita con trazo
+↩ curva, esquerda, frecha, frecha curvada cara á esquerda
+↪ curva, dereita, frecha, frecha curvada cara á dereita
+⤴ arriba, curva, frecha, frecha curvada cara arriba
+⤵ abaixo, curva, frecha, frecha curvada cara abaixo
+🔃 frechas, frechas verticais xirando cara á dereita, sentido das agullas do reloxo, xirar
+🔄 frechas, frechas xirando cara á esquerda, reiniciar, sentido contrario ás agullas do reloxo, xirar
+🔙 atrás, back, frecha, frecha coa mensaxe &quot;volver&quot; en inglés, volver
+🔚 end, fin, final, frecha, frecha coa mensaxe &quot;fin&quot; en inglés
+🔛 acender, acendido, frecha, frecha coa mensaxe &quot;en marcha!&quot; en inglés, on!
+🔜 frecha, frecha coa mensaxe &quot;pronto&quot; en inglés, pronto, soon
+🔝 arriba, frecha, frecha coa mensaxe &quot;destacado&quot; en inglés, mellor, principal, top
+🛐 culto, oración, relixión, sinal de lugar de culto
+⚛ ateísmo, átomo, símbolo atómico
+🕉 hinduísmo, om, relixión, símbolo de om
+✡ estrela, estrela de David, relixión, xudaísmo, xudeus
+☸ budismo, dharma, relixión, roda, roda do dharma
+☯ relixión, taoísmo, yang, yin, yin-yang
+✝ cristianismo, cruz, cruz latina, relixión
+☦ cristianismo, cruz, cruz ortodoxa, relixión
+☪ islam, islamismo, media lúa, media lúa e estrela, relixión
+☮ paz, símbolo, símbolo da paz
+🕎 7 brazos, candelabro, menorá, relixión, xudaísmo
+🔯 adiviñación, estrela de David, estrela de seis puntas con punto
+♈ Aries, Ariete, carneiro, zodíaco
+♉ Tauro, Taurus, touro, zodíaco
+♊ Gemini, xemelgos, Xémini, zodíaco
+♋ Cáncer, cangrexo, caranguexo, zodíaco
+♌ Leo, león, León, zodíaco
+♍ Virgo, virxe, zodíaco
+♎ balanza, Libra, zodíaco
+♏ escorpión, Escorpión, Scorpius, zodíaco
+♐ arqueiro, Sagittarius, Saxitario, zodíaco
+♑ cabra, Capricornio, Capricornus, zodíaco
+♒ Acuario, Aquarius, auga, vendedor de auga, zodíaco
+♓ peixes, Pisces, zodíaco
+⛎ cazador de serpes, Ofiúco, Ophiuchus, serpe, zodíaco
+🔀 aleatoria, botón de reprodución aleatoria, entrecruzadas, frechas, reprodución
+🔁 botón de repetición continua, frechas, repetición, repetir
+🔂 botón de repetición única, frechas, repetición, repetir, unha vez
+▶ botón, botón de reprodución, reprodución
+⏩ avance, avanzar, botón, botón de avance rápido, rapidamente
+⏭ avanzar, botón, botón de pista seguinte, pista, seguinte
+⏯ botón, botón reprodución ou pausa, pausa, reprodución
+◀ botón, botón de retroceso, retroceder, retroceso
+⏪ botón de retroceso rápido, rápido, retroceder, retroceso
+⏮ anterior, botón, botón de pista anterior, pista, retroceder
+🔼 arriba, botón, botón de ir arriba, vermello
+⏫ arriba, botón, botón de ir arriba rápido, rápido
+🔽 abaixo, botón, botón de ir abaixo, vermello
+⏬ abaixo, botón, botón de ir abaixo rápido, rápido
+⏸ botón, botón de pausa, pausa
+⏹ botón, botón de parada, cadrado, deter, parar
+⏺ botón, botón de gravación, círculo, gravación, gravar
+⏏ botón, botón de expulsión, expulsar, expulsión
+🎦 cine, cinema, película
+🔅 baixo, botón de diminuír o brillo, brillo, diminuír, luminosidade
+🔆 alto, aumentar, botón de aumentar o brillo, brillo, luminosidade
+📶 antena, barras, cobertura, sinal de cobertura
+📳 móbil, modo vibración, silencio, teléfono, vibración
+📴 apagado, desactivado, móbil, teléfono
+♀ feminismo, muller, sexo, símbolo da muller, xénero
+♂ home, sexo, símbolo do home, xénero
+⚧ sexo, símbolo de transxénero, transxénero, xénero
+✖ cancelar, matemáticas, multiplicación, signo, X
+➕ +, máis, matemáticas, signo, suma
+➖ -, −, matemáticas, menos, resta, signo
+➗ ÷, división, matemáticas, signo
+♾ eterno, ilimitado, infinito, símbolo, universal
+‼ !!, admiración, dobre signo de exclamación, exclamación, signo de exclamación dobre
+⁉ !?, admiración, exclamación, interrogación, signo de exclamación e interrogación
+❓ ?, interrogación, pregunta, signo de interrogación, signo de interrogación vermello
+❔ ?, interrogación, pregunta, signo de interrogación branco, símbolo de interrogación
+❕ !, admiración, exclamación, signo de exclamación branco, símbolo de exclamación
+❗ !, admiración, exclamación, signo de exclamación, signo de exclamación vermello
+〰 liña ondulada, onda, ondulado, son largo, trazo
+💱 banco, cambio, cambio de divisas, diñeiro, divisas
+💲 diñeiro, divisa, dólar, moeda, símbolo do dólar
+⚕ Esculapio, farmacia, medicina, serpe, símbolo da medicina
+♻ reciclado, reciclaxe, símbolo, símbolo de reciclaxe
+⚜ flor, flor de lis, lis
+🔱 áncora, emblema, emblema de tridente, tridente
+📛 etiqueta, identificación, nome, tarxeta, tarxeta identificativa
+🔰 amarelo, principiante, símbolo xaponés para principiante, verde, xaponés
+⭕ círculo, círculo groso, o
+✅ ✓, ben, caixa coa marca de verificación, correcto, marca de verificación, verificación
+☑ marca, recadro, recadro con marca de verificación, verificación
+✔ ✓, ben, correcto, marca de verificación, verificación
+❌ cancelar, multiplicación, multiplicar, signo de multiplicar, X
+❎ botón “X”, cancelar, pechar, recadro, X
+➰ bucle
+➿ bucle, dobre
+〽 alternancia, signo, signo de alternancia
+✳ *, asterisco, asterisco de oito raios, estrela
+✴ *, asterisco, estrela, estrela de oito puntas
+❇ *, chispa
+© autor, C, copyright, dereitos
+® marca rexistrada “R”, R, rexistrada
+™ marca rexistrada “TM”, rexistrada, TM
+🔠 ABCD, escribir, letras, letras en maiúscula, maiúsculas
+🔡 abcd, escribir, letras, letras en minúscula, minúsculas
+🔢 1234, díxitos, escribir, números
+🔣 〒♪&amp;%, escribir, símbolos
+🔤 abc, alfabeto, escribir, letras
+🅰 A, grupo, sanguíneo
+🆎 AB, grupo, sanguíneo
+🅱 B, grupo, sanguíneo
+🆑 borrado, borrar, botón &quot;borrar&quot; en inglés, cl, clear
+🆒 botón &quot;xenial&quot; en inglés, cool, interesante, xenial
+🆓 botón &quot;gratis&quot; en inglés, de balde, free, gratis
+ℹ información, punto de información
+🆔 botón &quot;identificación&quot; en inglés, ID, identidade, identificación
+Ⓜ círculo, círculo coa letra “M”, M, metro
+🆕 botón &quot;novo&quot; en inglés, new, novo
+🆖 botón &quot;mal&quot; en inglés, mal, NG, non conforme
+🅾 grupo, O, sanguíneo
+🆗 ben, botón &quot;ben&quot; en inglés, de acordo, OK
+🅿 aparcadoiro, aparcamento, aparcar, P, parking
+🆘 auxilio, axuda, botón &quot;socorro!&quot; en inglés, socorro, SOS
+🆙 botón, botón &quot;arriba!&quot; en inglés, subir, up!
+🆚 botón &quot;fronte a&quot; en inglés, comparación, contra, fronte a, versus, vs
+🈁 aquí, botón &quot;aquí&quot; en xaponés, katakana, koko, xaponés
+🈂 botón “cargo por servizo” en xaponés, cargo por servizo, comisión, katakana, xaponés
+🈷 botón &quot;cantidade mensual&quot; en xaponés, cantidade mensual, ideograma, xaponés
+🈶 botón &quot;de pago&quot; en xaponés, de pago, ideograma, xaponés
+🈯 botón &quot;reservado&quot; en xaponés, ideograma, reservado, xaponés
+🉐 botón &quot;oportunidade&quot; en xaponés, ideograma, vantaxe, xaponés
+🈹 botón &quot;desconto&quot; en xaponés, desconto, ideograma, xaponés
+🈚 botón &quot;gratis&quot; en xaponés, de balde, gratis, ideograma, xaponés
+🈲 botón &quot;prohibido&quot; en xaponés, ideograma, prohibido, xaponés
+🉑 aceptable, botón &quot;aceptable&quot; en xaponés, ideograma, xaponés
+🈸 aplicación, botón &quot;aplicación&quot; en xaponés, ideograma, xaponés
+🈴 aprobado, botón &quot;aprobado&quot; en xaponés, calificación, ideograma, xaponés
+🈳 botón &quot;hai vacantes&quot; en xaponés, ideograma, libre, vacante, xaponés
+㊗ botón &quot;parabéns&quot; en xaponés, ideograma, parabéns, xaponés
+㊙ botón &quot;secreto&quot; en xaponés, ideograma, secreto, segredo, xaponés
+🈺 aberto, botón &quot;aberto ao público&quot; en xaponés, en funcionamento, ideograma, xaponés
+🈵 botón &quot;non hai vacantes&quot; en xaponés, ideograma, non vacante, sen vacantes, xaponés
+🔴 círculo, vermello
+🟠 círculo, laranxa
+🟡 amarelo, círculo
+🟢 círculo, verde
+🔵 azul, círculo
+🟣 círculo, violeta
+🟤 castaño, círculo, marrón
+⚫ círculo, negro
+⚪ branco, círculo
+🟥 cadrado, vermello
+🟧 cadrado, laranxa
+🟨 amarelo, cadrado
+🟩 cadrado, verde
+🟦 azul, cadrado
+🟪 cadrado, violeta
+🟫 cadrado, castaño, marrón
+⬛ cadrado, grande, negro
+⬜ branco, cadrado, grande
+◼ cadrado, mediano, negro
+◻ branco, cadrado, mediano
+◾ cadrado, cadrado pequeno-mediano negro, mediano, negro, pequeno
+◽ branco, cadrado, cadrado pequeno-mediano branco, mediano, pequeno
+▪ cadrado, negro, pequeno
+▫ branco, cadrado, pequeno
+🔶 grande, laranxa, rombo
+🔷 azul, grande, rombo
+🔸 laranxa, pequeno, rombo
+🔹 azul, pequeno, rombo
+🔺 arriba, triángulo, vermello
+🔻 abaixo, invertido, triángulo, vermello
+💠 flor, punto, rombo, rombo en forma de flor
+🔘 botón, botón de opción, opción
+🔳 botón, botón con cadrado branco, branco, cadrado
+🔲 botón, botón con cadrado negro, cadrado, negro
+🏁 bandeira, bandeira de cadros, carreiras, de cadros, fin
+🚩 bandeira, bandeirola, triangular
+🎌 bandeiras, cruzadas, Xapón
+🏴 bandeira, bandeira negra ondeando, negra, ondear
+🏳 bandeira, bandeira branca ondeando, branca, ondear
+🏳‍🌈 arco da vella, bandeira do arco da vella, bisexual, gai, homosexual, lesbiana, LGTB
+🏳‍⚧ azul, bandeira transxénero, branco, rosa, transexual, transxénero
+🏴‍☠ bandeira pirata, pillaxe, pirata, saqueo, tesouro
+¢ centavo, centésimo, céntimo
+$ divisa, dólar, moeda, peso, USD
+£ divisa, EGP, GBP, libra (divisa), moeda
+¥ CNY, divisa, ien, iuan, JPY, moeda
+₥ mil, milésima, mill
+₩ divisa, KPW, KRW, moeda, won
+€ divisa, EUR, euro, moeda
+₱ divisa, moeda, peso
+₹ divisa, india, moeda, rupia india
+₽ divisa, moeda, rublo
+₿ bitcoin, BTC, criptomoeda
+¹ 1, superíndice, un en superíndice
+² 2, cadrado, dous en superíndice, superíndice
+³ 3, cubo, superíndice, tres en superíndice
+µ medida, micro, signo de micro

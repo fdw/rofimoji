@@ -1,0 +1,1633 @@
+{ jepit, jepit kriwil, kurung, kurung kriwil, kurung kriwil mbukak, swiwi manuk
+🏻 kulit putih, praupan kulit, tipe 1 - 2
+🏼 kulit putih langsep, praupan kulit, tipe 3
+🏽 kulit kuning, praupan kulit, tipe 4
+🏾 kulit sawo mateng, praupan kulit, tipe 5
+🏿 kulit ireng, praupan kulit, tipe 6
+_ garis, garis ngisor, tandha garis, tandha pisah, tandha pisah ngisor
+- minus, tandha garis, tandha sambung, tandha sambung-minus
+‐ tandha garis, tandha sambung
+– en, setrip
+— em, setrip
+― garis, palang, palang mlumah, tandha garis
+・ interpunct, katakana, okeh titik, titik tengah, titik tengah katakana
+, pada lingsa
+، arab, pada lingsa, pada lingsa arab
+、 nduweni sifat gambar, pada lingsa, pada lingsa nduweni sifat gambar
+; pada lungsi pada lingsa
+؛ arab, pada lingsa pada lungsi, pada lingsa pada lungsi arab
+: pada lungsi loro
+! sero, tandha penthung, tembung sero
+¡ kewalik, sero, tandha penthung, tandha sero, tandha sero kewalik, tembung sero
+? pitakon, tandha pitakon
+¿ kewalik, pitakon, tandha pitakon, tandha pitakon kewalik
+؟ arab, pitakon, tandha pitakon, tandha pitakon arab
+. bintek, mandhek dek, titik
+… klalen, okeh titik, tandha ganti
+。 mandhek dek, nduweni sifat gambar, titik, titik nduweni sifat gambar
+· mudhuk, tengah, titik, titik cilek
+' apostrof, apostrof mesin tik, kutip, kutip siji
+‘ apostrof, apostrof kiwa, kutip, kutip pinter, kutip siji
+’ apostrof, apostrof tengen, kutip, kutip pinter, kutip siji
+‚ apostrof, apostrof tengen ngisor, kutip, kutip ngisor
+“ kutip, kutip loro, kutipan, kutipan pinter, tandha kutipan kiwo
+” kutip, kutip loro, kutipan, kutipan pinter, tandha kutipan tengen
+„ kutip, kutip loro, kutipan, kutipan ngisor, kutipan pinter, tandha kutipan tengen ngisor
+« amba, kiwa, kurung, kurung lancip kiwa, nggulung, ngutip, v kualik
+» amba, kurung, kurung lancip tengen, nggulung, ngutip, tengen, v kualik
+) induk, indukan, kurung, kurung bunder, tandha kurung
+[ khayal, kurung, kurung kothak, kurung kothak mbukak
+] khayal, kurung, kurung kothak, kurung kothak nutup
+} jepit, jepit kriwil, kurung, kurung kriwil, kurung kriwil nutup, swiwi manuk
+〈 kurung, kurung panunjuk, kurung permata, kurung sudut, kurung sudut mbukak, tuple, v kewalik
+〉 kurung, kurung panunjuk, kurung permata, kurung sudut, kurung sudut nutup, tuple, v kewalik
+《 kurung, kurung sudut loro, kurung sudut loro mbukak
+》 kurung, kurung sudut loro, kurung sudut loro nutup
+「 kurung, kurung panjuru, kurung panjuru mbukak
+」 kurung, kurung panjuru, kurung panjuru nutup
+『 kurung, kurung panjuru bolong, kurung panjuru bolong mbukak
+』 kurung, kurung panjuru bolong, kurung panjuru bolong nutup
+【 kurung, kurung kantha, kurung kantha bengkok, kurung kantha ireng mbukak
+】 kurung, kurung kantha, kurung kantha bengkok, kurung kantha ireng nutup
+〔 kurung, kurung tempurung bulus, kurung tempurung bulus mbukak, tempurung bulus
+〕 kurung, kurung tempurung bulus, kurung tempurung bulus nutup, tempurung bulus
+〖 kurung, kurung kantha bengkok bolong, kurung kantha bolong, kurung kantha bolong mbukak
+〗 kurung, kurung kantha bengkok bolong, kurung kantha bolong, kurung kantha bolong nutup
+§ bagean, bagean cilik, gugus ukara, tanda bagean
+¶ alinea, pilcrow, tandha ukara, tembung, ukoro
+@ ampersat, arobase, arroba, at, at komersial, strudel, tandha at
+* lintang, tandha lintang, wildcard
+/ garis mireng, oblique, solidus, stroke, virgule, whack
+\ mbalik, solidus, tandha mireng kewalik, whack
+& et, lan, tandha lan
+# angka, lb, ngiris, pound, tandha pager
+% per sen, per-sen, persen
+‰ per mil, permil, permill
+† lading, obelisk, obelus, tanda lading
+‡ lading, obelisk, obelus, pindo, tanda lading pindo
+• pluru, titik
+‧ tandha garis, tandha sambung, titik, titik tandha sambung
+′ tandha kuthip
+″ tandha kuthip loro, tandha kutip loro
+‴ tandha kutip telu
+※ tandha referensi
+` abot, aksen, gendhing
+´ aksen, alus, gendhing
+^ aksen, aksen sirkomflek, dhaya, kontrol, panunjuk, pathok, tandha sisipan, topi
+¨ diaeresis, tréma, umlaut
+° bukti, drajat, jam
+℗ hak cipta, hak cipta rekaman swara, rekaman, swara
+← kiwo, panah, panah nuding ngiwo
+→ panah, panah nuding nengen, tengen
+↑ ndhuwur, panah, panah nuding ndhuwur
+↓ ngisor, panah, panah nuding ngisor
+⇅ ndhuwur, ngisor, panah, panah nuding ndhuwur lan nuding ngisor
+⇆ kiwo, panah, panah nuding ngiwo lewat sisih tengen, tengen
+∆ mundhak, pesagi telu
+∇ mlorot, pesagi telu
+∈ kaanggotaan, ngamot, set, unsur, unsur saka
++ ditambahi, tambah, tandha tambah
+± kurang luwih
+÷ dipara, obelus, para, tandha para
+× dipingke, kaping, ping-pingan, tandha ping-pingan
+< luwih cilik, tandha, tandha mbuka
+= pada karo
+≠ ora imbang, ora podho, ora roto
+> luwih gedhe, tandha, tandha tutup
+¬ nolak, ora
+| coretan, garis, garis tegak lurus, lembing, palang, palang tegak lurus, pipo, tongkat
+~ garis kriwil
+− dikurangi, kurang, tandha kurang
+⁻ kurang, tandha kurang ing dhuwur, tika ngisor
+√ oyod, oyod peng loro, peng loro, radikal, radix, surd
+∞ tandha tanpa wates, tanpa wates
+∩ set, simpangan
+∪ koleksi, sarekat, set
+≈ kiro-kiro, meh pada, prakiroan
+≡ peng telu, persis, podho, podho karo
+≤ luwih cilik, luwih cilik utowo podho, ora podho, podho, podho karo
+≥ luwih gedhe, luwih gedhe utowo podho, ora podho, podho, podho karo
+⊂ set, subset, subset saka
+▲ kapenuhan, ndhuwur, panah, pesagi telu, pesagi telu kapenuhan pucuke ing ndhuwur
+▼ kapenuhan, ngisor, panah, pesagi telu, pesagi telu kapenuhan pucuke ing ngisor
+◊ kupatan, pesagi papat kupatan, sigaran kupatan
+○ binderan, bunderan kothong, cincen
+● bundera kapenuhan, bunderan, bunderan kapenuhan
+◯ bunderan, bunderan kothong gedhe, cincen
+♪ gendhing, karawitan, wolu
+♭ bemolle, gendhing, karawitan, warata
+♯ dièse, diesis, gendhing, karawitan, landep
+😀 guyu, rai, rai ngguyu
+😃 cangkem, menga, mesem, rai, rai ngguyu matane mblalak
+😄 cangkem, mata, menga, mesem, rai, rai ngguyu nganti merem-merem
+😁 mata, mecengis, mesem, rai, rai ngguyu mecengis nganti merem
+😆 cangkem, guyu, marem, mesem, rai, rai ngguyu nganti matane dhipet
+😅 adhem, kringet, menga, mesem, rai, rai ngguyu nganti kringet tumetes
+🤣 guyu, jogan, ngglinting, ngguyu ngakak nganti glintingan ing jogan, rai
+😂 bungah, guyu, luh, rai, rai ngguyu nganti luhen saking bungahe
+🙂 mesem, rai
+🙃 kuwalik, rai
+😉 kedhèp, rai, rai ngedhèpi
+😊 abang pipine, mata, mesem, rai, rai mesem matane merem
+😇 fantasi, rai, rai mesem mawa tandha santo ing sirahe, suci, tandha santo
+🥰 ati-ati, kesengsem, naksir, rai mesem mawa ati-ati manguncup, tumiba tresna
+😍 katresnan, mata, mesem, rai, rai mesem matane metu atine
+🤩 ketiban lintang, lintang, mata, ngguyu, rai
+😘 ambung, rai, rai nyebul sun
+😗 ambung, rai, rai ngambung
+☺ anteng, gambar sketsa, mesem, rai, rai lagi mesem
+😚 ambung, mata, merem, rai, rai ngambung karo matane merem
+😙 ambung, mata, mesem, rai, rai ngambung matane merem bungah
+🥲 bangga, luh, matur nuwun, mesem, nguculake, nyentuh, rai mesem nanging mripat luhen
+😋 enak, mesem, rai, rai themal-themel mangan, sedhep, themal-themel
+😛 ilat, rai, rai melet
+😜 guyon, kedhep, mata, melet, rai, rai kedhep karo melet
+🤪 cilik, gedhe, mata, plolak-plolek, rai merat-merot
+😝 mata, melet, nggilani, rai, rai melet matane ndhipet, rasane
+🤑 dhuwit, ijo, rai, rai mata dhuwiten
+🤗 nyikep, rai, sikep
+🤭 rai mawa tangan nutupi cangkem, waduh
+🤫 hus, meneng, rai ngaba-aba akon meneng, rai ngaba-aba hus
+🤔 mikir, rai
+🤐 cangkem, leregan, rai, rai sing leregan lambene ditutup
+🤨 ora percaya, rai alise siji kaangkat, skeptis
+😐 anteng, luweh, rai, tanpa ekspresi
+😑 luweh, rai, rai tanpa ekspresi, tanpa ekspresi
+😶 anteng, cangkem, meneng, rai, rai tanpa cangkem
+😶‍🌫 lalenan, rai ora dong, rai ora mudeng, sirah ora dong
+😏 ngenyek, rai, rai mesem ngenyek
+😒 anyel, rai, rai wegah ngguyu, wegah ngguyu
+🙄 mata, mlerok, rai, rai matane mlerok
+😬 mbatek, rai, rai mringis mbatek
+😮‍💨 ambegan, lega, mbisiki, megap-megap, nglenguh, rai ambegan lego, singsot
+🤥 ngapusi, pinokio, rai
+😌 lega, rai
+😔 kesel ati, mikir, rai, rai sedhih anggone mikir
+😪 ngantuk, rai, turu
+🤤 ngiler, rai, rai ileren
+😴 rai, turu, zzzz
+😷 dhokter, masker, mriang, rai, rai nganggo masker dhokter, watuk
+🤒 lara, mriang, rai, rai ngemut termometer, termometer
+🤕 bebet, cidra, rai, rai sirahe dibebet, tatu
+🤢 muleg-muleg, mutah, rai, rai ngrasa muleg-muleg
+🤮 lara, mutah, rai mutah-mutah
+🤧 mugi gusti paring sehat, rai, wahing
+🥵 abang mbranang, kemringet, kepanasen, ndrodhog, panas, rai panas
+🥶 atis, kadhemen, mati rasa amarga kadhemen, rai biru katisen, rai katisen
+🥴 cangkem mlethat-mlethot, mata ora pakra, mendem, mlaku ora jejeg, mumet, rai mendem
+😵 mumet, rai
+😵‍💫 alangan, hipnotis, kodisek, ngelu, ngluwer, rai ngelu
+🤯 njeblug ndhase, rai ndhase njeblug, tratapan
+🤠 koboi lanang, koboi wadon, rai, rai nganggo topi koboi, topi
+🥳 pista, rai pista, seneng-seneng, topi, trompet
+🥸 irung, kaca mripat, nyamarake, nyamarke, rai, rai disamarno
+😎 blereng, kacamata ireng, nggaya, rai, rai mesem nganggo kacamata ireng, srengenge
+🤓 kutu buku, kutu komputer, rai, rai kutu buku
+🧐 kolot, rai nganggo kacamata lensa tunggal
+😕 bingung, owalah, rai
+😟 kuwatir, rai
+🙁 rai, susah
+☹ nelangsa, rai
+😮 cangkem, menga, rai, rai mlongo, simpati
+😯 dumadakan meneng, kaget, ora nyana, rai, rai dumadakan meneng
+😲 babar pisan, gumun, kaget, rai
+😳 isin, kaget, rai
+🥺 mata ngarep-arep, ngarep-arep, rai ngarep-arep welas, welas
+😦 cangkem, menga, rai, rai sedhih karo mlongo, sedhih
+😧 kaget lan kuciwa, rai, rai kaget lan kuciwa
+😨 keweden, kuwatir, rai, wedi
+😰 anyep, kemrungsung, kringet, pucet, rai, rai kuwatir nganti kringet tumetes
+😥 kuciwa, lega, rai, rai sedhih nanging lega, sedhih, syukur marang gusti
+😢 luh, nangis, rai, sedhih
+😭 luh, nangis, rai, rai nangis kejer, sedhih, sengguk-sengguk
+😱 keweden, njerit, nruthuk, rai, rai mbengok keweden, wedi
+😖 bingung, rai, rai prasa bingung ora karuan
+😣 ora kuat, rai, rai prasa wis ora kuat maneh
+😞 kuciwa, rai
+😓 adhem, kringet, rai, rai prasa wis kesel nganti kringet tumetes
+😩 kesel, rai, sayah
+😫 kesel, rai
+🥱 angop, bosen, kesel, rai angop
+😤 kamenangan, menang, rai, rai sing irunge ngebul
+😡 abang mbranang, mbesengut, muring, nesu, ngamuk, rai
+😠 muring, nesu, rai
+🤬 misuh, rai mawa simbol pisuhan ing cangkeme
+😈 crita dongeng, fantasi, mesem, rai, rai mesem karo metu sungune, sungu
+👿 dhemit, fantasi, rai, rai nesu karo metu sungune, setan, thuyul jail
+💀 crita dongeng, jrangkong, monster, pati, rai
+☠ balung timpuk, jrangkong, jrangkong karo balung timpuk, monster, pati, rai
+💩 monster, rai, tai, tai seunthuk, tembelek
+🤡 badhut, rai
+👹 buta ogre, crita dongeng, fantasi, monster, rai, wewujudan
+👺 buta goblin, crita dongeng, fantasi, monster, rai, wewujudan
+👻 crita dongeng, fantasi, monster, pocongan, rai, wewujudan
+👽 alien, fantasi, rai, saka njaba bumi, ufo, wewujudan, wujud alien
+👾 alien, monster alien, rai, saka njaba bumi, ufo, wewujudan
+🤖 monster, rai, robot, wujud robot
+😺 cangkem, kucing, menga, mesem, ngguyu, rai
+😸 kucing, kucing ngguyu nganti merem-merem, mata, mesem, ngguyu, rai
+😹 bungah, kucing, kucing ngguyu nganti luhen, luh, rai
+😻 ati, kucing, kucing mesem matane metu atine, mata, mesem, rai, tresna
+😼 ironis, kucing, mesem, ngece, rai
+😽 ambung, kucing, kucing ngambung, mata, rai
+🙀 hah, kaget, kucing, rai, sayah
+😿 kucing, luh, nangis, rai, susah
+😾 kucing, mbesengut, rai
+🙈 aja ndelengake sing ala, ala, larangan, munyuk, munyuk aja ndelengake sing ala, rai, weruh
+🙉 aja ngrungokake sing ala, ala, krungu, larangan, munyuk, munyuk aja ngrungokake sing ala, rai
+🙊 aja omong sing ala, ala, larangan, munyuk, munyuk aja omong sing ala, omong, rai
+💋 ambung, lambe, tandha ambung
+💌 ati, katresnan, layang, surat
+💘 ati katuncep panah, kupid, panah
+💝 ati ditaleni pita, pita, valentin
+💖 ati kinclong-kinclong, bungah, kinclong-kinclong
+💗 ati nggembung, bungah, ewuh, mak ser, nggembung
+💓 ati dheg-dhegan, dheg-dhegan, dheging ati, ser-seran
+💞 ati mubeng-mubeng, mubeng
+💕 ati loro, katresnan
+💟 ati, dhekorasi ati
+❣ mbangetake, tandha, tandha penthung wujude ati, tandha wacan
+💔 kelaran, lara, lara ati
+❤‍🔥 ati, ati kasmaran, ati resik, kobong, pepinginan, tresna
+❤‍🩹 luwih waras, mbalekake, mulehake awak, ndandani, ndandani ati, ningkatake, waras
+❤ ati, ati abang
+🧡 ati kunir, kunir
+💛 ati kuning, kuning
+💚 ati ijo, ijo
+💙 ati biru, biru
+💜 ati wungu, wungu
+🤎 ati, soklat
+🖤 ala, ati ireng, culika, ireng
+🤍 ati, putih
+💯 100, biji satus, kebak, satus, sekor
+💢 komik, muring, nesu, simbol nesu
+💥 komik, mak brak, tabrakan
+💫 komik, lintang, ngelu
+💦 komik, kringet, nyiprat, tesing kringet
+💨 geblas, komik, mlayu, nggeblas
+🕳 bolongan
+💣 bom, komik
+💬 balon, dhiyalog, komik, omongan, plendhungan
+👁‍🗨 balon omongan, mata, mata ing njero balon omongan, seksi
+🗨 balon omongan sisih kiwa, dhiyalog, omongan
+🗯 balon, balon nesu sisih tengen, muring, nesu, plendhungan
+💭 balon, komik, pikiran, plendhungan
+💤 komik, turu, zzzz
+👋 awe-awe, tangan, tangan ngawe-awe
+🤚 diangkat, geger tangan, tangan diangkat nuduhake gegere bae
+🖐 driji, megar, tangan, tangan sing driji-drijine megar
+✋ angkat, tangan, tangan diangkat
+🖖 driji, ngurmat cara bangsa vulcan, spock, tangan, vulcan
+👌 OK, tangan, tangan nuduhake tandha OK
+🤌 basa tangan, digatukake, driji, interogasi, landep
+🤏 sethithik bae, tangan njiwit
+✌ kamenangan, tangan, tangan nuduhake tandha kamenangan, v
+🤞 driji, driji loro tetalenan, kabegjan, tangan, tetalen
+🤟 ILY, tangan, tangan nuduhake tandha tresna sliramu
+🤘 driji, isarat gandem apike, sungu, tandha sungu, tangan
+🤙 tangan, tangan nuduhake tandha telpuna aku, telpun
+👈 driji, driji panuduh, geger tangan, geger tangan nuding ngiwa, nuding, tangan
+👉 driji, driji panuduh, geger tangan, geger tangan nuding nengen, nuding, tangan
+👆 driji, geger tangan, geger tangan nuding ndhuwur, ndhuwur, nuding, tangan
+🖕 driji, driji tengah, tangan
+👇 driji, geger tangan, geger tangan nuding ngisor, ngisor, nuding, tangan
+☝ driji, driji panuduh, driji panuduh ngacung, ngacung, nuding, tangan
+👍 +1, jempol, ngacung, tangan
+👎 -1, jempol, jempol ngacung mudhun, ngacung mudhun, tangan
+✊ kepel, ngacungake kepel, ngantem, nggegem, tangan
+👊 kepel, kepel mara, ngantem, nggegem, tangan
+🤛 kepel, kepel katon saka sisih kiwa, sisih kiwa
+🤜 kepel, kepel katon saka sisih tengen, sisih tengen
+👏 keplok, tangan, tangan keplok-keplok
+🙌 diangkat, hore, isarat, pista, tangan, tangan loro diangkat
+👐 mlumah, tangan, tangan loro mlumah
+🤲 ndonga, tangan loro mandho nadhah amin, tangan loro nadhah
+🤝 rapat, salam, salaman, sarujuk, tangan
+🙏 maturnuwun, ndonga, njaluk, nyenyuwun, tangan, tangan nyembah
+✍ nulis, tangan
+💅 cet kuku, kosmetik, kuku, menikur, ngrumat
+🤳 foto selfi, hp, kamera, selfi
+💪 lelucon, ngotot, otot, otot lengen, otot lengen mlenthung
+🦾 kalancaran, lengen mekanis, prostetik
+🦿 kalancaran, prostetik, sikil mekanis
+🦵 perangan awak, sikil, tendhang
+🦶 pidak, sikil, tendhang, tlapakan sikil
+👂 awak, kuping
+🦻 budheg, kalancaran, kuping sarwa piranti pangrungon
+👃 awak, irung
+🧠 pinter, utek
+🫀 anatomi, deg-degan, jantung, kardiologi, organ
+🫁 ambegan, ngetokake ambegan, nglebokake ambegan, organ, paru, respirasi
+🦷 dokter untu, untu
+🦴 balung, wrangka
+👀 mata, mata sakloron, rai
+👁 awak, mata
+👅 awak, ilat
+👄 cangkem, lambe
+👶 bayi, nom
+🧒 bocah, jender netral, nom, ora tamtu lanang wadone
+👦 bocah lanang, nom
+👧 bocah wadon, nom, palintangan, Virgo
+🧑 jender netral, ora tamtu lanang wadone, wong, wong diwasa
+👱 pirang, rambut, wong arambut pirang, wong: rambute pirang
+👨 lanang, wong diwasa, wong lanang
+🧔 jenggot, wong, wong: jenggot
+🧔‍♂ jenggot, wong lanang, wong lanang: jenggot
+👱‍♂ pirang, rambut, wong lanang, wong lanang arambut pirang, wong lanang: rambut pirang
+👩 wadon, wong diwasa, wong wadon
+🧔‍♀ jenggot, wong wadon, wong wadon: jenggot
+👱‍♀ pirang, rambut, wong wadon, wong wadon arambut pirang, wong wadon: rambut pirang
+🧓 jender netral, ora tamtu lanang wadone, tuwa, wong diwasa, wong tuwa
+👴 tuwa, wong diwasa, wong lanang, wong tuwa lanang
+👵 tuwa, wong diwasa, wong wadon, wong wadon tuwa
+🙍 isarat, sedhih, wong sedhih
+🙍‍♂ isarat, sedhih, wong lanang, wong lanang sedhih
+🙍‍♀ isarat, sedhih, wong lanang, wong wadon sedhih
+🙎 isarat, mbesengut, wong mbesengut
+🙎‍♂ isarat, mbesengut, wong lanang, wong lanang mbesengut
+🙎‍♀ isarat, mbesengut, wong wadon, wong wadon mbesengut
+🙅 isarat, larangan, ora kena, ora oleh, tangan, wong ngisaratake AJA
+🙅‍♂ isarat, larangan, ora kena, ora oleh, tangan, wong lanang, wong lanang ngisaratake AJA
+🙅‍♀ isarat, ora kena, ora oleh, tangan, wong wadon, wong wadon menehi isarat AJA
+🙆 isarat, OK, tangan, wong ngisaratake OK
+🙆‍♂ isarat, OK, tangan, wong lanang, wong lanang ngisaratake OK
+🙆‍♀ isarat, OK, tangan, wong wadon, wong wadon ngisaratake OK
+💁 anyangga, informasi, nggaya, pitulungan, tangan, wong tangane anyangga
+💁‍♂ nggaya, tangan anyangga, wong lanang, wong lanang tangane anyangga
+💁‍♀ nggaya, tangan anyangga, wong wadon, wong wadon tangane anyangga
+🙋 bungah, isarat, ngacung, tangan, wong ngacungake tangan
+🙋‍♂ isarat, ngacungake tangan, wong lanang, wong lanang ngacungake tangan
+🙋‍♀ isarat, ngacungake tangan, wong wadon, wong wadon ngacungake tangan
+🧏 budheg, kalancaran, krungu, kuping, wong budheg
+🧏‍♂ budheg, wong lanang, wong lanang budheg
+🧏‍♀ budheg, wong wadon, wong wadon budheg
+🙇 isarat, kilap, mbungkuk, njaluk ngapura, wong mbungkuk ngurmati
+🙇‍♂ isarat, kilap, mbungkuk, njaluk ngapura, njaluk tulung, wong lanang, wong lanang mbungkuk ngurmati
+🙇‍♀ isarat, kilap, mbungkuk, njaluk ngapura, njaluk tulung, wong wadon, wong wadon mbungkuk ngurmati
+🤦 dlamakan, gumun, mangkel, rai, wong anutup raine mawa dlamakan
+🤦‍♂ dlamakan ing rai, gumun, mangkel, wong lanang, wong lanang anutup raine mawa dlamakan
+🤦‍♀ dlamakan ing rai, gumun, mangkel, wong wadon, wong wadon anutup raine mawa dlamakan
+🤷 angangkat pundhak, mangu-mangu, ora gati, ora sudi, wong angangkat pundhak
+🤷‍♂ mangu-mangu, ngangkat pundhak, ora gati, ora sudi, wong lanang, wong lanang angangkat pundhak
+🤷‍♀ mangu-mangu, ngangkat pundhak, ora gati, ora sudi, wong wadon, wong wadon ngangkat pundhak
+🧑‍⚕ dokter, mantri, parumatan kasehatan, perawat, terapis
+👨‍⚕ dokter, mantri lanang, parumatan kasehatan, perawat, terapis, wong lanang
+👩‍⚕ dokter, mantri wadon, parumatan kasehatan, perawat, terapis, wong wadon
+🧑‍🎓 mahasiswa, wisuda
+👨‍🎓 lanang, mahasiswa, wisuda
+👩‍🎓 mahasiswa, wadon, wisuda
+🧑‍🏫 dosen, guru, instruktur
+👨‍🏫 dosen, guru, instruktur, lanang
+👩‍🏫 dosen, guru, instruktur, wadon
+🧑‍⚖ hakim, timbangan
+👨‍⚖ adil, hakim lanang, lanang, pradata, timbangan
+👩‍⚖ hakim wadon, pradata, timbangan, wadon
+🧑‍🌾 juragan tani, tani, tukang kebon
+👨‍🌾 juragan tani, lanang, pak tani, tani, tukang kebon
+👩‍🌾 bu tani, juragan tani, tani, tukang kebon, wadon
+🧑‍🍳 koki, mangsak
+👨‍🍳 koki, lanang, mangsak
+👩‍🍳 koki, mangsak, wadon
+🧑‍🔧 montir, tukang, tukang ledheng, tukang listik
+👨‍🔧 lanang, montir, tukang, tukang ledheng, tukang listrik
+👩‍🔧 montir, tukang, tukang ledheng, tukang listrik, wadon
+🧑‍🏭 buruh, industri, karoseri, pabrik
+👨‍🏭 buruh, industri, karoseri, lanang, pabrik
+👩‍🏭 buruh, buruh pabrik wadon, industri, karoseri, lanang, pabrik
+🧑‍💼 arsitek, bisnis, manajer, pegawe, pegawe kantor
+👨‍💼 arsitek, bisnis, lanang, manajer, pegawe, pegawe kantor lanang
+👩‍💼 arsitek, bisnis, manajer, pegawe, pegawe kantor wadon, wadon
+🧑‍🔬 ahli biologi, ahli fisika, ahli kimia, ilmuwan, insinyur
+👨‍🔬 ahli biologi, ahli fisika, ahli kimia, ilmuwan, insinyur, lanang
+👩‍🔬 ahli biologi, ahli fisika, ahli kimia, ilmuwan, insinyur, wadon
+🧑‍💻 ahli teknologi, ahli teknologi wadon, developer, koder, panemu, prangkat alus
+👨‍💻 ahli teknologi, ahli teknologi lanang, developer, koder, lanang, panemu, prangkat alus
+👩‍💻 ahli teknologi, ahli teknologi wadon, developer, koder, panemu, prangkat alus, wadon
+🧑‍🎤 aktor, biduan, musik rock, panampil, selebriti
+👨‍🎤 aktor, biduan, lanang, musik rock, panampil, selebriti
+👩‍🎤 aktor, biduan, musik rock, panampil, selebriti, wadon
+🧑‍🎨 artis, palet
+👨‍🎨 artis, lanang, palet, seniman
+👩‍🎨 artis, palet, wadon
+🧑‍✈ montor mabur, pilot
+👨‍✈ lanang, montor mabur, pilot
+👩‍✈ montor mabur, pilot, wadon
+🧑‍🚀 astronot, roket
+👨‍🚀 astronot, lanang, roket
+👩‍🚀 astronot, roket, wadon
+🧑‍🚒 blamwir, damkar
+👨‍🚒 blamwir, damkar, lanang
+👩‍🚒 blamwir, damkar, wadon
+👮 aparat, pulisi
+👮‍♂ aparat, lanang, pulisi
+👮‍♀ aparat, pulisi, wadon
+🕵 dhetektif, nelik, telik sandi
+🕵‍♂ dhetektif, lanang, nelik, telik sandi
+🕵‍♀ dhetektif, nelik, telik sandi, wadon
+💂 prejurit
+💂‍♂ lanang, prejurit
+💂‍♀ prejurit, wadon
+🥷 didhelikake, ndhelik-ndhelik, ninja, wira
+👷 bangunan, buruh, helem
+👷‍♂ bangunan, buruh, lanang
+👷‍♀ bangunan, buruh, wadon
+🤴 pangeran
+👸 dongeng, fantasi, putri
+👳 serban, wong serbanan
+👳‍♂ lanang, serban, wong lanang serbanan
+👳‍♀ serban, wadon, wong wadon serbanan
+👲 gua pi mao, kethu, lanang, wong lanang nganggo kethu Cina
+🧕 hijab, kudhung, mantilla, tichel, wong wadon jilbaban
+🤵 lanang, penganten lanang, tuksedo, wong anganggo jas tuksedo
+🤵‍♂ tuksedo, wong lanang, wong lanang anganggo jas tuksedo, wong lanang anganggo tuksedo
+🤵‍♀ tuksedo, wadon, wong wadon anganggo tuksedo
+👰 kudhung manten, penganten wadon, pengantenan, wong, wong nganggo kudhung manten
+👰‍♂ kudhung manten, lanang, wong lanang nganggo kudhung manten
+👰‍♀ kudhung manten, wadon, wong wadon nganggo kudhung manten
+🤰 ngandhut, wadon, wong wadon ngandhut
+🤱 bayi, menthili, nyusoni, penthil
+👩‍🍼 bayi, ngrawat, nyusoni, wadon, wong wadon nyusoni bayi
+👨‍🍼 bayi, lanang, ngrawat, nyusoni, wong lanang nyusoni bayi
+🧑‍🍼 bayi, ngrawat, nyusoni, wong
+👼 bayi, dongeng, fantasi, malaékat, rai
+🎅 bapa, Klas, Natal, pista, Sinter Klas
+🤶 ibu, Ibu Klas, Klas, Natal, pista
+🧑‍🎄 bapa/ibu klas, Klas, natal
+🦸 becik, kadigdayan linuwih, satriya, satriya mandraguna, srikandhi
+🦸‍♂ becik, kadigdayan linuwih, lanang, satriya, satriya mandraguna lanang
+🦸‍♀ becik, kadigdayan linuwih, satriya, srikandhi, wadon
+🦹 ala, kadigdayan linuwih, mungsuh, mungsuh digdaya, wong jahat
+🦹‍♂ ala, kadigdayan linuwih, lanang, mungsuh, mungsuh digdaya lanang, wong jahat
+🦹‍♀ ala, kadigdayan linuwih, mungsuh, mungsuh digdaya wadon, penjahat wadon, wadon
+🧙 bagawan, dhukun, resi, wong winasis
+🧙‍♂ bagawan, dhukun, wong winasis lanang
+🧙‍♀ bagawan, dhukun, wong winasis wadon
+🧚 bangsa dewi, dewi, Oberon, Puck, Titania
+🧚‍♂ dewa, Oberon, Puck
+🧚‍♀ dewi, Titania
+🧛 Drakula, lelembut, vampir
+🧛‍♂ Drakula, lelembut, vampir lanang
+🧛‍♀ lelembut, vampir wadon
+🧜 duyung, duyung lanang, duyung wadon
+🧜‍♂ duyung lanang, Triton
+🧜‍♀ duyung wadon
+🧝 ajaib, peri
+🧝‍♂ ajaib, peri lanang
+🧝‍♀ ajaib, peri wadon
+🧞 bangsa jim, jin
+🧞‍♂ jim lanang, jin
+🧞‍♀ jim wadon, jin
+🧟 lelembut, setan bentayangan, zombi
+🧟‍♂ lelembut, setan bentayangan, zombi lanang
+🧟‍♀ lelembut, setan bentayangan, zombi wadon
+💆 pijet, rai, salon, wong dipijeti
+💆‍♂ lanang, pijet, rai, wong lanang dipijeti
+💆‍♀ pijet, rai, wadon, wong wadon dipijeti
+💇 kecantikan, salon, tukang cukur, wong lagi dikethok rambute
+💇‍♂ cukur rambut, lanang, wong lanang lagi dikethok rambute
+💇‍♀ kethok rambut, wong wadon, wong wadon lagi dikethok rambute
+🚶 mlaku-mlaku, wong mlaku
+🚶‍♂ lanang, mlaku-mlaku, wong lanang mlaku, wong mlaku
+🚶‍♀ mlaku-mlaku, wadon, wong mlaku, wong wadon mlaku
+🧍 adeg, ngadeg, wong ngadeg
+🧍‍♂ lanang, ngadeg, wong lanang ngadeg
+🧍‍♀ ngadeg, wadon, wong wadon ngadeg
+🧎 timpuh, wong timpuh
+🧎‍♂ lanang, timpuh, wong lanang timpuh
+🧎‍♀ timpuh, wadon, wong wadon timpuh
+🧑‍🦯 kalancaran, wong nyekeli teken, wong nyekeli teken putih, wuta
+👨‍🦯 kalancaran, lanang, wong lanang nyekeli teken, wuta
+👩‍🦯 kalancaran, wadon, wong wadon nyekeli teken, wuta
+🧑‍🦼 kalancaran, kursi rodha, wong numpak kursi rodha mesin
+👨‍🦼 kalancaran, kursi rodha, lanang, wong lanang numpak kursi rodha mesin
+👩‍🦼 kalancaran, kursi rodha, wadon, wong wadon numpak kursi rodha mesin
+🧑‍🦽 kalancaran, kursi rodha, wong numpak kursi rodha manual
+👨‍🦽 kalancaran, kursi rodha, lanang, wong lanang numpak kursi rodha manual
+👩‍🦽 kalancaran, kursi rodha, wadon, wong wadon numpak kursi rodha manual
+🏃 maraton, mlayu, wong mlayu
+🏃‍♂ balapan, lanang, maraton, mlayu, wong lanang mlayu
+🏃‍♀ balapan, maraton, mlayu, wadon, wong wadon mlayu
+💃 njoget, wadon, wong wadon njoget
+🕺 lanang, njoget, wong lanang njoget
+🕴 bisnis, jas, lanang, wong lanang jas-jasan ora napak
+👯 kuping terwelu, penari, pista, wong nganggo kuping terwelu
+👯‍♂ kuping terwelu, lanang, penari, pista, wong lanang nganggo kuping terwelu
+👯‍♀ kuping terwelu, penari, pista, wadon, wong wadon nganggo kuping terwelu
+🧖 kamar uwab, sauna, wong ing kamar kebak sumub
+🧖‍♂ kamar uwab, sauna, wong lanang ing kamar kebak sumub
+🧖‍♀ kamar uwab, sauna, wong wadon ing kamar kebak sumub
+🧗 pamanjad, wong manjad
+🧗‍♂ pamanjad, wong lanang manjad
+🧗‍♀ pamanjad, wong wadon manjad
+🤺 anggar, atlit anggar, pedhang, wong main anggar
+🏇 balapan, jaran, jaran balap, joki
+⛷ pemain ski, salju, ski
+🏂 papan slancar salju, pemain slancar salju, salju, ski
+🏌 bal, golf, wong main golf
+🏌‍♂ golf, lanang, wong lanang main golf
+🏌‍♀ golf, wadon, wong wadon main golf
+🏄 slancar, wong slancar
+🏄‍♂ lanang, slancar, wong lanang slancar
+🏄‍♀ slancar, wadon, wong wadon slancar
+🚣 prau, prau dhayung, wong ndhayung
+🚣‍♂ lanang, prau, prau dhayung, wong lanang ndhayung
+🚣‍♀ prau, prau dhayung, wadon, wong wadon ndhayung
+🏊 langi, wong nglangi
+🏊‍♂ lanang, langi, wong lanang nglangi
+🏊‍♀ langi, wadon, wong wadon nglangi
+⛹ bal, wong mentulake bal
+⛹‍♂ bal, lanang, wong lanang mentulake bal
+⛹‍♀ bal, wadon, wong wadon mentulake bal
+🏋 atlit angkat barbel, barbel, wong ngangkat barbel
+🏋‍♂ atlit angkat barbel, lanang, wong lanang ngangkat barbel
+🏋‍♀ atlit angkat barbel, wadon, wong wadon ngangkat barbel
+🚴 atlit sepedha, pit, pit-pitan, wong numpak pit
+🚴‍♂ atlit sepedha, lanang, pit, pit-pitan, wong lanang numpak pit
+🚴‍♀ atlit sepedha, pit, pit-pitan, wadon, wong wadon numpak pit
+🚵 atlit sepedha, gunung, pit, sepedha, wong numpak sepedha gunung
+🚵‍♂ atlit sepedha, gunung, lanang, pit, sepedha, wong lanang numpak sepedha gunung
+🚵‍♀ atlit sepedha, gunung, pit, sepedha, wadon, wong wadon numpak sepedha gunung
+🤸 engkang, gimnastik, wong engkang
+🤸‍♂ engkang, gimnastik, lanang, wong lanang engkang
+🤸‍♀ engkang, gimnastik, wadon, wong wadon engkang
+🤼 gulat, pemain gulat, wong gulat
+🤼‍♂ gulat, lanang, wong lanang gulat
+🤼‍♀ gulat, wadon, wong wadon gulat
+🤽 banyu, polo, wong main polo banyu
+🤽‍♂ lanang, polo banyu, wong lanang main polo banyu
+🤽‍♀ polo banyu, wadon, wong wadon main polo banyu
+🤾 bal, bal tangan, wong main bal tangan
+🤾‍♂ bal tangan, lanang, wong lanang main bal tangan
+🤾‍♀ bal tangan, wadon, wong wadon main bal tangan
+🤹 akrobat, imbang, katrampilan, tangan cukat, wong main akrobat bal
+🤹‍♂ akrobat, lanang, tangan cukat, wong lanang main akrobat bal
+🤹‍♀ akrobat, tangan cukat, wadon, wong wadon main akrobat bal
+🧘 medhitasi, wong njagong sila, yoga
+🧘‍♂ medhitasi, wong lanang njagong sila, yoga
+🧘‍♀ medhitasi, wong wadon njagong sila, yoga
+🛀 bak kungkum, kungkum, wong adus kungkum
+🛌 hotel, turu, wong turu
+🧑‍🤝‍🧑 gandhengan tangan, pasangan, tangan, wong, wong gandhengan tangan
+👭 gandhengan, loro, tangan, wadon, wong wadon loro gandhengan tangan
+👫 cekel, gandhengan, lanang, pasangan, tangan, wadon, wong lanang lan wadon gandhengan, wong lanang lan wadon gandhengan tangan
+👬 gandhengan, Gemini, kembar, lanang, loro, palintangan, wong lanang loro gandhengan tangan
+💏 ambung, pasangan
+💑 loro, pasangan lan tandha ati, tresna
+👪 kluwarga
+🗣 bayangan, omong, rai, sirah
+👤 bayangan, bayangan patung sirah tekan dhadha, patung sirah tekan dhadha
+👥 bayangan, bayangan patung sirah tekan dhadha loro, patung sirah tekan dhadha
+🫂 halo, matur nuwun, pamitan, rangkulan, wong rangkulan
+👣 klambi, tipak, tipak sikil
+🦰 jae, rambut abang, rambute abang
+🦱 afro, brintik, prenthel-prenthel, rambut brintik
+🦳 putih, rambut, tuwa, uwan
+🦲 buthak, gundhul, kemoterapi, ora duwe rambut, plenthas
+🐵 munyuk, rai
+🐒 munyuk
+🦍 gorila
+🦧 monyet, orang utan
+🐶 asu, ingon-ingon, rai
+🐕 asu, ingon-ingon
+🦮 aksesibilitas, asu pemandhu, pemandhu, wuta
+🐕‍🦺 aksesibilitas, asisten, asu, layanan
+🐩 asu, pudel
+🐺 asu ajag, rai
+🦊 rai, rubah
+🦝 kepo, licik, rakun
+🐱 ingon-ingon, kucing, rai
+🐈 ingon-ingon, kucing
+🐈‍⬛ ireng, kucing, ora beja
+🦁 Leo, rai, singa, zodiak
+🐯 macan, rai
+🐅 macan
+🐆 macan tutul
+🐴 jaran, rai
+🐎 balap jaran, balapan, ekuestrian, jaran
+🦄 rai, unicorn
+🦓 garis-garis, zebra
+🦌 kidang
+🦬 bison, kebo, sakumpulan, wicaksono
+🐮 rai, rai sapi wadon, sapi wadon
+🐂 banteng, sapi lanang, Taurus, zodiak
+🐃 banyu, kebo
+🐄 sapi wadon
+🐷 babi, rai
+🐖 babi, babi wadon
+🐗 babi, celeng
+🐽 babi, irung, rai
+🐏 Aries, lanang, wedhus gembel, wedhus gembel lanang, zodiak
+🐑 wadon, wedhus gembel, wedhus gembel wadon
+🐐 Capricorn, wedhus, zodiak
+🐪 dromedaris, onta, punuk
+🐫 baktrian, onta, onta punuk loro, punuk
+🦙 alpaca, guanaco, llama, vicuna, wul
+🦒 jerapah, totol-totol
+🐘 gajah
+🦣 gading, gedhe, kebak wulu, mamot, punah
+🦏 badhak
+🦛 hipo, kuda nil
+🐭 rai, tikus
+🐁 tikus
+🐀 tikus got
+🐹 hamster, ingon-ingon, rai
+🐰 ingon-ingon, kelinci, rai, terwelu
+🐇 ingon-ingon, kelinci, terwelu
+🐿 bajing, tupai
+🦫 bendungan, singing
+🦔 duri, landhak
+🦇 kalong, vampir
+🐻 beruang, rai
+🐻‍❄ beruang, beruang kutub, kutub lor, putih
+🐨 beruang, koala
+🐼 panda, rai
+🦥 kesed, lelet, sloth
+🦦 berang-berang, mancing, seneng dolanan
+🦨 mambu, sigung
+🦘 Australia, joey, kanguru, marsupial, mlumpat
+🦡 luwak, luwak madu, ngganggu
+🐾 cakar, dlamakan, tapak
+🦃 kalkun, unggas
+🐔 pitik, unggas
+🐓 pitik jago, unggas
+🐣 bayi, kuthuk, netes, unggas
+🐤 bayi, kuthuk, unggas
+🐥 bayi, kuthuk, kuthuk madhep ngarep, unggas
+🐦 manuk
+🐧 manuk, penguin
+🕊 damai, dara, mabur, manuk
+🦅 elang, manuk
+🦆 bebek, unggas
+🦢 angsa, banyak, bebek ala, unggas
+🦉 guwek, manuk, wicaksana
+🦤 gedhe, manuk dodo, Mauritus, punah
+🪶 enteng, mabur, manuk, wulu
+🦩 flamboyan, flamingo, tropis
+🦚 manuk, merak, merak wadon, seneng pamer, umuk
+🦜 beo, manuk, omong, perompak
+🐸 kodhok, rai
+🐊 baya
+🐢 bulus, kura-kura, penyu
+🦎 cecak
+🐍 Ophiuchus, sawer, sing nggawa, ula, zodiak
+🐲 dongeng, naga, rai
+🐉 dongeng, naga
+🦕 brachiosaurus, brontosaurus, diplodocus, sauropod
+🦖 T-Rex, Tyrannosaurus Rex
+🐳 nyembur, paus, rai
+🐋 paus
+🐬 fliper, lumba-lumba
+🦭 seal, singo laut
+🐟 iwak, Pisces, zodiak
+🐠 iwak, tropis
+🐡 buntal, iwak
+🦈 hiu, iwak
+🐙 gurita
+🐚 keong, spiral
+🐌 bekicot
+🦋 endah, kupu, serangga
+🐛 serangga, uler
+🐜 semut, serangga
+🐝 lebah, lebah madu, serangga
+🪲 ama, kumbang, serangga
+🐞 kepik, kepik pereng, kumbang, serangga
+🦗 jangkrik, walang
+🪳 ama, coro, kecoak, serangga
+🕷 angga-angga, serangga
+🕸 angga-angga, jaring
+🦂 kalajengking, scorpio, Scorpio, zodiakk
+🦟 demam, lemut, malaria, penyakit, serangga, virus
+🪰 ama, bosokan, laler, penyakit, set
+🪱 anelid, cacing, cacing lemah, parasit
+🦠 amuba, bakteri, mikroba, virus
+💐 buket, kembang
+🌸 kembang, mekar, sakura
+💮 kembang, kembang putih
+🏵 roseta, tanduran
+🌹 kembang, mawar
+🥀 kembang, layu
+🌺 kembang, kembang sepatu
+🌻 kembang, sengenge
+🌼 kembang, sekar
+🌷 kembang, tulip
+🌱 cilik, pembibitan
+🪴 mboseni, ngopeni, omah, ora migunani, tanduran, tanduran njero adah, tukul
+🌲 wit, wit cemara
+🌳 gogrok, rontok, wit, wit godhonge rontok
+🌴 kambil, wit
+🌵 kaktus, tanduran
+🌾 gandum, kuping, pari, pari saiket
+🌿 godhong, jamu
+☘ semanggi, tanduran
+🍀 4, godhong, papat, semanggi
+🍁 godhong, mapel, rontok
+🍂 godhong, gogrok
+🍃 angin, godhong, godhong ngawe-awe kena angin, godhong ngawe-ngawe kena angin, ketiup, ngawe-awe
+🍇 anggur, woh-wohan
+🍈 melon, woh-wohan
+🍉 semangka, woh-wohan
+🍊 jeruk, jeruk keprok, woh-wohan
+🍋 jeruk lemon, jeruk nipis, woh-wohan
+🍌 gedhang, woh-wohan
+🍍 nanas, woh-wohan
+🥭 pelem, tropis, woh-wohan
+🍎 abang, apel, woh-wohan
+🍏 apel, ijo, woh-wohan
+🍐 pir, woh-wohan
+🍑 persik, woh-wohan
+🍒 abang, beri, ceri, woh ceri, woh-wohan
+🍓 beri, stroberi, woh-wohan
+🫐 beri, bilberi, biru
+🥝 kiwi, panganan, woh kiwi, woh-wohan
+🍅 sayuran, tomat, woh-wohan
+🫒 panganan, zaitun
+🥥 kambil, palem, pina colada
+🥑 avokad, pangan, woh-wohan
+🍆 sayuran, terong, terung
+🥔 kenthang, pangan, sayuran
+🥕 pangan, sayuran, wortel
+🌽 jagung, klembak, maizena, tongkol jagung
+🌶 lombok, pedhes
+🫑 kapsikum, lombok, paprika, sayuran
+🥒 acar, pangan, sayuran, timun
+🥬 bok coi, kol, kubis, selada, selada ijo
+🥦 brokoli, kubis liar
+🧄 bawang putih, panyedhep rasa
+🧅 bawang bombai, panyedhep rasa
+🍄 jamur, jamur payung
+🥜 dhaharan, kacang, kacang brol, sayuran
+🌰 kenari, tetuwuhan
+🍞 roti, sebata
+🥐 dhaharan, kroasang, prancis, roti, roti gulung bulan sabit
+🥖 baget, dhaharan, prancis, roti
+🫓 roti arepa, roti lapash, roti naan, roti pita, roti warata
+🥨 diuntir, pretsel
+🥯 pabrik roti, roti bagel, roti semir
+🥞 apem, dhaharan, krep, panekuk
+🧇 mangu-mangu, wafel, wesi
+🧀 keju, keju sairis
+🍖 balung, iwak daging, iwak daging sabalunge
+🍗 balung, iwak ayam, pupu, sempol, unggas
+🥩 bistik, daging sairis, iwak daging, samata
+🥓 bakon, daging, pangan
+🍔 burger, hamburger
+🍟 balok kenthang goreng, goreng, kenthang balok
+🍕 keju, pizza, sairis
+🌭 frankfurter, hot dog, hotdog, roti sosis, sosis
+🥪 roti, sendwich
+🌮 pangan meksiko, tako
+🌯 burito, dhaharan meksiko, sega bungkus roti
+🫔 dhaharan meksiko, kabungkus, tamale
+🥙 dhaharan, falafel, isi, kebab turki, kebab yunani, roti pita, roti pita gulung
+🧆 bakso, bakwan falafel, kacang garbanzo
+🥚 dhaharan, ndhog
+🍳 masak, ndhog, nggoreng, wajan
+🥘 dhaharan, jangan sawajan cethek, kaserol, paela, wajan, wajan cethek
+🍲 jangan sapanci, panci, semur
+🫕 adah, keju, lumer, pondue, soklat, Swiss
+🥣 bubur, mangkok karo sendhok, sarapan, sereal
+🥗 dhaharan, ijo-ijo, urap, urap-urap sayur
+🍿 brondong jagung
+🧈 mertega, olahan susu
+🧂 ubarampe, uyah, wadhah nyawur uyah
+🥫 dhaharan kalengan, kaleng
+🍱 bento, kothak, sakothak bento
+🍘 krupuk, rengginan
+🍙 Jepang, sega, themlek
+🍚 mateng, sega
+🍛 kare, sega
+🍜 bakmi, kemepul, mangkok, ramen
+🍝 bakmi sepageti, pasta, sepageti
+🍠 panggang, tela pendhem, tela pendhem panggang
+🍢 iwak laut, kebab, oden, sate, sunduk
+🍣 susi
+🍤 ebi, goreng, tempura, urang
+🍥 bakso, bakso iwak Jepang, iwak, pastri
+🥮 festival, kuwih bulan, musim gogrok, yuebing
+🍡 dango, Jepang, legi, panganan manis, sate, sunduk
+🥟 empanada, gyoza, jiaozi, pierogi, siomay, siomay goreng, siomay kukus
+🥠 ramal, roti begja
+🥡 kothak bungkus
+🦀 Cancer, palintangan, rajungan, yuyu
+🦞 capit, iwak laut, lopster, sop bisque
+🦐 cilik, dhaharan, urang, urang-urangan
+🦑 cumi-cumi, pangan, sotong
+🦪 mutiyara, nyelam, tiram
+🍦 alus, es, es krim salju, krim, legi, panganan manis
+🍧 es, es kokrok, es puter, legi, panganan manis
+🍨 es, krim, legi, panganan manis
+🍩 donat, legi, panganan manis
+🍪 biskwit, legi, panganan manis
+🎂 ambal taun, kuwih, legi, panganan manis, pastri, pista, roti ambal taun
+🍰 kuwih, kuwih lapis, legi, panganan manis, pastri, sairis
+🧁 kuwih mangkok, legi, roti-rotian
+🥧 isi, pai, pastri
+🍫 legi, panganan manis, papan, sapapan soklat, soklat
+🍬 legi, panganan manis, permen
+🍭 legi, panganan manis, permen, permen loli
+🍮 ager-ager hungkwe, hungkwe, legi, panganan manis, podeng
+🍯 legi, madu, satoples madu, toples
+🍼 bayi, botol, botol kempong, susu, unjukan
+🥛 gelas, sagelas susu, susu, unjukan
+☕ kemepul, kopi, panas, teh, unjukan, wedang
+🫖 adah, ceret, teh, unjukan
+🍵 cangkir, cangkir teh tanpa kuping, teh, unjukan, wedang
+🍶 bar, botol, cangkir, sabotol sake, sake, unjukan, wedang
+🍾 bar, botol, botol mencelat subale, mencelat, subal botol, unjukan
+🍷 anggur, bar, gelas, unjukan, wedang
+🍸 bar, gelas, koktail, unjukan
+🍹 bar, tropis, unjukan, unjukan cara tropis
+🍺 bar, bir, gelas bir, unjukan
+🍻 bar, bir, gelas bir, gelas bir ditutulake, gelas-gelas bir ditutulake, mak thing, unjukan
+🥂 gelas, gelas-gelas ditutulke, mak thing, pista, unjukan
+🥃 anggur, gelas, sloki, unjukan
+🥤 gelas mawa sedhotan, soda, wedang jus
+🧋 mutiyara, plembungan, susu, teh, teh kocok
+🧃 jus kothakan, wedang kothakan
+🧉 teh mate, unjukan
+🧊 adhem, es, es batu
+🥢 hashi, sumpit
+🍽 garpu, masak, peso, piring, sendhok garpu sapiringe
+🍴 garpu, garpu lan peso, masak, peso, sendhok garpu
+🥄 pranti dhahar, sendhok
+🔪 alat, gaman, hocho, masak, peso, peso dhapur
+🏺 amphora, Aquarius, guci kuping loro, masak, palintangan, teko, unjukan
+🌍 Afrika, bumi, donya, Eropa, globe, globe sing nuduhake benua Eropa-Afrika
+🌎 Amerika, bumi, donya, globe, globe sing nuduhake benua Amerika
+🌏 Asia, Australia, bumi, donya, globe, globe sing nuduhake benua Asia-Australia
+🌐 bumi, donya, globe, globe mawa garis meridian, meridian
+🗺 donya, peta
+🗾 Jepang, peta
+🧭 kompas, magnetik, navigasi, pangarahan
+🏔 adhem, gunung, gunung punthuke katutup salju, salju
+⛰ gunung
+🌋 gunung, gunung geni, njeblug
+🗻 fuji, gunung
+🏕 kemah
+🏖 pasisir, pasisir karo payung tumancep, payung
+🏜 ara-ara
+🏝 ara-ara, pulo
+🏞 taman, taman nasional
+🏟 stadion
+🏛 kuna, wewangunan kuna
+🏗 konstruksi, konstruksi wewangunan
+🧱 bata, lempung, semen, tembok
+🪨 abot, atos, watu, watu gedhe
+🪵 kayu, kayu log, kayu tugelan, kayu ulahan
+🛖 omah, omah bunder, pondhok, yurt
+🏘 omah-omah
+🏚 bobrok, omah
+🏠 omah, padunungan
+🏡 kebon, omah, omah ana kebone, padunungan
+🏢 wewangunan, wewangunan kantor
+🏣 Jepang, kantor pos ing Jepang, pos
+🏤 Jepang, kantor pos ing Eropa, pos
+🏥 dhokter, griya sakit, obat
+🏦 bank, wewangunan
+🏨 hotèl, wewangunan, wewangunan hotel
+🏩 hotel, hotel sewan miturut jam, miturut jam
+🏪 minimarket, toko
+🏫 sekolahan, wewangunan
+🏬 supermarket, toko
+🏭 pabrik, wewangunan
+🏯 Jepang, puri
+🏰 Eropa, puri
+💒 greja, ngantenan, pepasangan
+🗼 menara, Tokyo
+🗽 kamardhikan, patung, Patung Liberti
+⛪ agama, greja, Kristen, salib
+🕌 agama, Islam, mesjid, Muslim
+🛕 Hindu, pura
+🕍 agama, kuil, sinagoga, wong Yahudi, Yahudi
+⛩ agama, kuil, Shinto
+🕋 agama, Islam, Kakbah, Muslim
+⛲ banyu muncrat
+⛺ kemah, tendha
+🌁 katutup pedhut, pedhut
+🌃 bengi, bengi ana lintang, lintang
+🏙 gedhung-gedhung anyakar mega, kutha
+🌄 esuk, gunung, srengenge, srengenge mlethek, srengenge mlethek sadhuwuring kendheng
+🌅 esuk, srengenge, srengenge mlethek
+🌆 bawana, gedhung-gedhung wayah sandhekala, kutha, sandhekala, sore, srengenge mudhun
+🌇 sandhekala, srengenge, srengenge mudhun
+🌉 bengi, kreteg, kreteg ing wayah bengi
+♨ kemepul, panas, tuk, tuk banyu panas
+🎠 jaran, jaran komidhi puter, komidhi puter
+🎡 jinantra, rodha, taman hiburan
+🎢 kreta, sluncur, taman hiburan
+💈 cukur rambut, panandha, panandha kiyose tukang cukur, tukang cukur
+🎪 sirkus, tendha
+🚂 jalur ril, lokomotip, mesin, sepur, uwap
+🚃 bis jalur ril, bis troli, jalur ril, listrik, montor, sepur
+🚄 jalur ril, kacepetan, sepur, sepur rikat, shinkansen
+🚅 jalur ril, kacepetan, pelor, sepur, shinkansen
+🚆 jalur ril, sepur
+🚇 metro, sepur metro, sepur ngisor lemah
+🚈 jalur ril, sepur LRT
+🚉 jalur ril, sepur, setasiun
+🚊 bis troli, trem
+🚝 monoril, tetumpakan
+🚞 gunung, jalur ril, jalur sepur nggunung, montor
+🚋 bis troli, montor, trem
+🚌 bis, tetumpakan
+🚍 bis, bis katon mara, mara
+🚎 bis, trem, troli
+🚐 bis, bis cilik
+🚑 ambulan, tetumpakan
+🚒 blamwir, kobongan, trek
+🚓 montor, patroli, pulisi
+🚔 mara, montor, montor pulisi katon mara, pulisi
+🚕 taksi, tetumpakan
+🚖 mara, taksi
+🚗 montor, montor otomatis
+🚘 mara, montor, montor otomatis, montor otomatis mara
+🚙 rekreasi, srana ulah raga, tetumpakan srana ulah raga
+🛻 methuk, pikep, trek
+🚚 pangiriman, prahoto
+🚛 lori, lori gandheng, prahoto, separo
+🚜 tetumpakan, traktor
+🏎 balapan, montor, montor balap
+🏍 balapan, pit montor
+🛵 pespa, pit
+🦽 kalancaran, kursi rodha manual
+🦼 kalancaran, kursi rodha mesin
+🛺 bemo, bemo tuk tuk
+🚲 pit, sepedha
+🛴 jejek, otopet
+🛹 papan, papan skate
+🛼 gulungan, sepatu rodha
+🚏 bis, halte bis, mandheg
+🛣 dalan, dalan gedhe, dalan tol
+🛤 jalur ril, jalur sepur, sepur
+🛢 drim, lenga
+⛽ bensin, disel, gas, pom, pompa
+🚨 cemlorot, lampu, montor, mubeng-mubeng, pulisi
+🚥 aba-aba, lalu lintas, lampu, lampu bangjo turu
+🚦 aba-aba, lalu lintas, lampu, lampu bangjo ngadeg
+🛑 mandheg, oktagonal, setop, tandha
+🚧 konstruksi, pager wates
+⚓ jangkar, kapal, pralatan
+⛵ kapal layar, prau, prau layar, resor, segara
+🛶 kano, prau
+🚤 kapal rikat, prau
+🛳 kapal, panumpang
+⛴ feri, kapal, panumpang
+🛥 kapal, kapal motor
+🚢 kapal, kapal gedhe, panumpang
+✈ montor mabur
+🛩 montor mabur, montor mabur cilik
+🛫 cek in, mangkat, montor mabur, montor mabur mangkat
+🛬 montor mabur, montor mabur teka, ndharat, tekan
+🪂 parasit, skydive, terjun payung
+💺 kursi, lungguhan
+🚁 helikopter, tetumpakan
+🚟 jalur ril, jalur ril suspensi, suspensi
+🚠 gantole, gunung, jalur kabel gunung, kabel
+🚡 gantole, jalur trem, jalur trem nggantung, kabel, montor, nggantung
+🛰 antariksa, satelit
+🚀 antariksa, roket
+🛸 piring mabur, UFO
+🛎 bel, bel leladen, hotel
+🧳 koper, lelungan, ngepak
+⌛ jam pasir tuntas, pangatur wektu, pasir
+⏳ jam pasir, jam pasir isih mlaku, pangatur wektu, pasir
+⌚ erloji, jam
+⏰ jam, weker
+⏱ jam, pangatur wektu
+⏲ jam, jam pangatur wektu, pangatur wektu
+🕰 jam, jam dhudhuk kuna
+🕛 00, 12, 12:00, jam, rolas, theng
+🕧 12, 12:30, jam, setengah, siji
+🕐 00, 1, 1:00, jam, siji, theng
+🕜 1, 1:30, jam, loro, setengah
+🕑 00, 2, 2:00, jam, loro, theng
+🕝 2, 2:30, jam, setengah, telu
+🕒 00, 3, 3:00, jam, telu, theng
+🕞 3, 3:30, jam, papat, setengah
+🕓 00, 4, 4:00, jam, papat, theng
+🕟 4, 4:30, jam, lima, setengah
+🕔 00, 5, 5:00, jam, lima, theng
+🕠 jam enem, jam setengah enem
+🕕 00, 6, 6:00, enem, jam, theng
+🕡 6, 6:30, jam, pitu, setengah
+🕖 00, 7, 7:00, jam, pitu, theng
+🕢 7, 7:30, jam, setengah, wolu
+🕗 00, 8, 8:00, jam, theng, wolu
+🕣 8, 8:30, jam, sanga, setengah
+🕘 00, 9, 9:00, jam, sanga, theng
+🕤 9, 9:30, jam, sepuluh, setengah
+🕙 00, 10, 10:00, jam, sepuluh, theng
+🕥 10, 10:30, jam, setengah, sewelas
+🕚 00, 11, 11:00, jam, sewelas, theng
+🕦 11, 11:30, jam, rolas, setengah
+🌑 bulan, bulan kawitan, peteng
+🌒 bulan, bulan tanggal sepisan, padhange nambah sithik-sithik, tanggal sepisan
+🌓 bulan, separo
+🌔 bulan, bulan separo luwih, padhange meh kebak, padhange sithik-sithik
+🌕 bulan, purnama, purnama sidi
+🌖 bulan, bulan ilang seprapat, padhange ilang sithik-sithik, padhange meh kebak
+🌗 bulan, bulan peteng separo, separo
+🌘 bulan, bulan gari seprapat, padhange ilang sithik-sithik, seprapat
+🌙 bulan, bulan nanggal sepisan
+🌚 bulan, rai, rai bulan kawitan
+🌛 bulan, rai, rai bulan separo marep ngiwa, separo
+🌜 bulan, rai, rai bulan separo marep nengen, separo
+🌡 cuaca, termometer
+☀ clorot, ketiga, padhing, srengenge
+🌝 bulan, padhang, purnama, rai, rai purnama sidi
+🌞 padhang, rai, srengenge, srengenge katon raine
+🪐 planet anganggo ali-ali, saturnus, wong sing lairane ketiban sipating saturnus
+⭐ lintang
+🌟 clorot, kelip-kelip, kerlip-kerlip, lintang, lintang cemlorot
+🌠 buntut, lintang, lintang abuntut, tumiba
+🌌 antariksa, bima sekti
+☁ cuaca, mega mendhung, mendhung
+⛅ mega, srengenge, srengenge saburine mega
+⛈ bledhek, mega, mega ngemu bledhek lan udan, udan
+🌤 mega, srengenge, srengenge saburine mega cilik
+🌥 mega, srengenge, srengenge saburine mega gedhe
+🌦 mega, srengenge, srengenge saburine mega ngemu udan, udan
+🌧 mega, mega ngemu udan, udan
+🌨 adhem, mega, mega ngemu salju, salju
+🌩 bledhek, mega, mega ngemu bledhek
+🌪 angin puyuh, mendhung, tornado
+🌫 mega, pedhut
+🌬 angin, mega, nyebul, rai, rai anyebul angin
+🌀 angin ribut, angin siklon, muser-muser, siklon, topan, tornado
+🌈 kluwung, plangi, udan
+🌂 payung, payung mingkup, sandhangan, udan
+☂ payung, sandhangan, udan
+☔ payung, payung ketiban udan, sandhangan, tletik, udan
+⛱ payung, payung tumancep lemah, srengenge, udan
+⚡ bebaya, bledhek, listrik, mak byar, tegangan, tegangan dhuwur
+❄ adhem, salju, satesing salju
+☃ adhem, salju, wong-wongan salju
+⛄ adhem, salju, wong-wongan salju, wong-wongan salju tanpa salju
+☄ antariksa, komet
+🔥 bekakas, geni, mbulating geni
+💧 adhem, komik, kringet, tes, tesing
+🌊 banyu, ombak, segara
+🎃 halloween, jack, jack-o-lantern, lampion jack-o-lantern, lampion labu, perayaan
+🎄 Natal, perayaan, uwit, Uwit Natal
+🎆 kembang api, perayaan
+🎇 bang api, kembang api, mbang api, mletik, perayaan
+🧨 bahan peledak, dinamit, kembang api, petasan
+✨ *, bang api, lintang, mbang api
+🎈 balon, perayaan
+🎉 hiasan, perayaan, pesta, riasan
+🎊 balon, konfeti, perayaan
+🎋 Jepang, perayaan, spanduk, wit, wit tanabata
+🎍 bambu, dekorasi pinus, Jepang, perayaan, pinus
+🎎 boneka, festival, Jepang, perayaan
+🎏 gendera, koinobori, perayaan
+🎐 angin, klinthingan, lonceng, perayaan
+🎑 mbulan, perayaan, upacara, upacara nyawang mbulan
+🧧 andum pandonga, ang pao, dhuwit, hongbao, kado, lai see
+🎀 perayaan, pita
+🎁 bingkisan, dibungkus, kado, kothak, perayaan
+🎗 pangeling, perayaan, pita
+🎟 mlebu, tiket
+🎫 mlebu, tiket
+🎖 medali, militer, perayaan
+🏆 hadiah, trofi
+🏅 medali, medali olahraga
+🥇 emas, kasiji, medali, medali juara ka-1
+🥈 kaloro, medali, medali juara ka-2, perak
+🥉 katelu, medali, medali juara ka-3, tembaga
+⚽ bal, bal sepak bola, sepak bola, sepak bola amerika
+⚾ bal, bisbol
+🥎 bal, kelek, sarung tangan, sofbol
+🏀 bal, bola basket, mlumpat
+🏐 bal, game, voli
+🏈 amerika, bal, sepak bola, sepak bola amerika
+🏉 bal, rugby, sepak bola, sepak bola rugby
+🎾 bal, raket, tenis
+🥏 cakram mabur, mutakhir
+🎳 bal, boling, game
+🏏 bal, bat, game, game kriket
+🏑 bal, game, hoki, lapangan, tongkat
+🏒 es, game, hoki, puk, tongkat
+🥍 bal, gol, lacrosse, tongkat
+🏓 bal, bat, dayung, ping pong, tenis meja
+🏸 badminton, game, kok, manuk, raket
+🥊 sarung tangan, sarung tangan tinju, tinju
+🥋 bela diri, judo, karate, sragam, sragam bela diri, taekwondo
+🥅 gawang, jaring
+⛳ bolongan, gendera golf, golf
+⛸ es, luncur es
+🎣 iwak, tongkat, tongkat pancing
+🤿 masker nyilem, nyilem, skuba, snorkeling
+🎽 atletik, kaos, mlayu, selempang
+🎿 luncur ski, salju, ski
+🛷 kreta luncur, kreta salju, kreta salju ditarik jaran
+🥌 game, watu cadhas, watu curling stone
+🎯 dart, kena, kena sasaran, target, tepat sasaran
+🪀 dolanan, yoyo
+🪁 layangan, mabur, nglayang
+🎱 8, bal, bilyar, game, pool bal 8, wolu
+🔮 bal, dongeng, fantasi, kristal, perkakas, raja brana
+🪄 penyihir, sihir, tongkat sihir, tuntunan
+🧿 azimat, jimat nazar, manik-manik, mantra, mata setan, nazar
+🎮 game, game video, pangontrol
+🕹 game, game video, tuas kontrol
+🎰 game, mesin slot, slot
+🎲 dhadhu, game
+🧩 cuwilan teka-teki, jigsaw, kemunci, pituduh, potongan, teka-teki
+🧸 alat dolanan, beruang teddy, dijejeli, dolanan, mewah
+🪅 pinata, pista, prayaan
+🪆 boneka, nyusuh, rusia
+♠ game, kertu, kertu sekop
+♥ game, kertu, kertu ati
+♦ game, kertu, kertu berlian
+♣ game, kertu, kertu waru
+♟ bisa dibuwang, catur, dupe, pion
+🃏 game, joker, kertu, kertu liar
+🀄 abang, game, mahyong, naga abang mahyong
+🎴 dolanan, game, Jepang, kembang, kertu, kertu gambar kembang
+🎭 pagelaran, seni, teater, topeng
+🖼 gambar, gambar nganggo pigura, lukisan, museum, pigura, seni
+🎨 lukisan, museum, palet, palet pelukis, seni
+🧵 benang, dom, njait, senar, sepul
+🪡 babakan jait, jait, jaitan, jarum, sulaman
+🧶 bal, bolah, rajut, renda
+🪢 benang, dasi, ditaleni, kusut, simpul, tali
+👓 kaca tingal, kacamata, mata, panganggo mripat, sandangan
+🕶 kacamata, kacamata ireng, mripat, panganggo mripat, peteng
+🥽 gogel, ngelas, nglangi, proteksi mripat
+🥼 dokter, eksperimen, ilmuwan, jas lab
+🦺 darurat, keslametan, rompi
+👔 dasi, sandhangan
+👕 kaos, kaos lengen cendhak, kaus, sandhangan
+👖 jins, kathok, kathok dawa, sandhangan
+🧣 gulu, skarf
+🧤 sarung tangan, tangan
+🧥 jaket, mantel
+🧦 kaos sikil, stoking
+👗 rok, sandhangan
+👘 kimono, sandhangan
+🥻 rok, sandhangan, sari
+🩱 klambi adus, klambi nglangi terusan
+🩲 kathok njero, klambi nglangi, klambi njero, mantel adus, terusan
+🩳 kathok, kathok cendhak, klambi adus, klambi njero
+👙 bikini, nglangi, sandhangan
+👚 sandhangan, sandhangan wong wadon, wong wadon
+👛 koin, sandhangan, tas
+👜 sandhangan, tas, tas tangan
+👝 dompet, sandhangan, tas, tas jinjing
+🛍 blanja, hotel, tas
+🎒 ransel, sekolah, tas, tas cangklong, tas gendhong
+🩴 japit, sandal, sandal gisik, sandal zori
+👞 lanang, sandhangan, sepatu lanang
+👟 atletik, kets, sandhangan, sepatu, sepatu mlayu
+🥾 backpacking, bot, hiking, kemping, sepatu bot hiking
+🥿 pantofel, selop, sepatu trepes, trepes balet
+👠 hak, sandhangan, sepatu, sepatu hak dhuwur, wadon
+👡 sandhal, sandhangan, sepatu, wadon
+🩰 balet, sepatu balet, tarian
+👢 bot, sandhangan, sepatu, wadon
+👑 makutha, raja, ratu, sandhangan
+👒 sandhangan, topi, wadon
+🎩 dhuwur, sandhangan, sepatu dhuwur, topi
+🎓 perayaan, sandhangan, topi, wisuda
+🧢 topi bisbol, topi pet
+🪖 bala, helm, militer, prejurit, wira
+⛑ bantuan, helm, helm tim SAR, palang, rai, topi
+📿 agama, kalung, manik-manik, sandhangan, tesbih
+💄 kosmetik, lipstik, riasan
+💍 ali-ali, berlian
+💎 berlian, permata, ratna, watu permata
+🔇 anteng, bisu, meneng, speaker
+🔈 alus, volume lirih speaker
+🔉 medium, volume medium speaker
+🔊 sero, volume banter speaker
+📢 sero, speaker sero, wara-wara
+📣 megapon, sorak-sorak
+📯 pos, trompet
+🔔 lonceng
+🔕 anteng, bisu, larangan, lonceng, lonceng kacorek, meneng
+🎼 musik, notasi
+🎵 musik, tangga nada, tangga nada musik
+🎶 musik, tangga nada, tangga nada musik
+🎙 mik, mikropon, musik, studio
+🎚 musik, panggeser, tingkat
+🎛 kenop, kontrol, musik
+🎤 karaoke, mik, mikropon
+🎧 earbud, headphone
+📻 radio, video
+🎷 instrumen, musik, saks, saksofon
+🪗 akordion, konser, kotak pamerasan
+🎸 gitar, instrumen, musik
+🎹 instrumen, kibor, musik, piano
+🎺 instrumen, musik, trompet
+🎻 biola, instrumen, musik
+🪕 dawai, gitar banjo, musik
+🥁 dram, musik, stik dram
+🪘 dram, irama, kendhang, konga, nabuh
+📱 sel, seluler, telepon, telpon
+📲 nampa, panah, sel, seluler, telepon, telepon seluler nganggo panah
+☎ telepon, telpon
+📞 gagang, telepon, telpon
+📟 penyeranta
+📠 faks, mesin faks
+🔋 baterai
+🔌 colokan, kelistrikan, listrik
+💻 komputer, komputer laptop, pc, personal
+🖥 desktop, komputer
+🖨 komputer, printer
+⌨ keyboard, komputer
+🖱 komputer, mouse komputer
+🖲 trakbal, trakbal komputer
+💽 cakram, cakram cilik, komputer, optik
+💾 disket, flopi, komputer
+💿 cakram, cd, komputer, optikal
+📀 blu-ray, cakram, dvd, komputer, optikal
+🧮 itung-itungan, sempoa
+🎥 film, kamera, sinema
+🎞 film, klise, sinema
+📽 film, proyektor, sinema, vidio
+🎬 aba-aba, film, papan aba-aba adhegan
+📺 radio, televisi, tv
+📷 kamera, vidio
+📸 kamera, kamera mawa lampu jepret, lampu jepret, vidio
+📹 kamera, vidio
+📼 kaset vidio, tape, vhs, vidio
+🔍 kaca, nggedhekkake, nggoleki, pranti, suryakantha minger ngiwa
+🔎 kaca, nggedhekkake, nggoleki, pranti, suryakantha minger nengen
+🕯 cahya, lilin
+💡 bohlam, cahya, elektrik, ide, komik
+🔦 cahya, elektrik, lampu sorot, pranti, senter
+🏮 abang, bar, cahya, lampion, lampion kertas abang
+🪔 diyan, lampu, minyak
+📔 buku, kanthong wadhah, motif, notebook, notebook wadhahe motif apik
+📕 buku, nutup, tutup buku
+📖 buku, mbukak
+📗 buku, ijo
+📘 biru, buku
+📙 buku, buku kunir, werna kunir
+📚 buku, buku-buku
+📓 notebook
+📒 buku besar, notebook
+📃 dokumen, klunthung, lembaran, salembar kertas nglunthung
+📜 gulungan, kertas
+📄 dhokumen, lembaran, lembaran kertas katon ngarep
+📰 kabar, kertas, koran
+🗞 digulung, kabar, kertas, koran
+📑 panandha, tandha, tenger, tetenger
+🔖 tandha, tenger
+🏷 label tenger
+💰 dhuwit, dolar, kanthong
+🪙 bandha, duwit, emas, koin, logam, perak
+💴 dhuwit, dhuwit kertas, dhuwit kertas yen, mata uang, yen
+💵 dhuwit, dhuwit kertas, dhuwit kertas dolar, euro, mata uang
+💶 dhuwit kertas, dhuwit kertas euro, euro, mata uang
+💷 dhuwit, kertas, mata uang, ponsterling
+💸 dhuwit, dhuwit kertas, dhuwit nduwe swiwi, mabur, swiwi
+💳 dhuwit, kertu, kredhit
+🧾 akuntansi, bukti, kwitansi, pembukuan, struk tetukon
+💹 dhuwit, grafik, grafik mata uang yen mundhak, mundhak, yen
+✉ amplop, email, layang
+📧 e-mail, email, layang, surat
+📨 amplop, amplop layang teka, e-mail, email, katampa, layang teka
+📩 amplop, amplop mawa panah, e-mail, email, layang kakirim, panah
+📤 baki, kakirim, kothak, layang, surat, wadhah layang kakirim
+📥 baki, katampa, kothak, kothak layang teka, layang, surat
+📦 kothak, paket, parsel
+📫 kothak pos, kothak surat, kothak surat nutup genderane ngadeg, layang, nutup
+📪 kothak pos, kothak surat, kothak surat nutup genderane mudhun, layang, mudhun, nutup
+📬 kothak pos, kothak surat, kothak surat menga genderane ngadeg, layang, menga
+📭 kothak pos, kothak surat, kothak surat menga genderane mudhun, layang, menga, mudhun
+📮 kothak pos, kothak surat, layang
+🗳 kothak, kothak pemilu mawa layang swara, layang swara
+✏ potlot
+✒ dom mangsi, dom mangsi ireng, ireng, pen
+🖋 isen mangsi, pen, pen mangsi
+🖊 bolpen, pen
+🖌 kuwas, kuwas kanggo nglukis, nglukis
+🖍 krayon
+📝 cathetan cilik, memo, potlot
+💼 tas koper
+📁 berkas, map
+📂 berkas, map, mbukak
+🗂 indeks, kertu, pambagi
+📅 tanggal, tanggalan
+📆 tanggalan, tanggalan suwek
+🗒 buku, cathetan, lemek, spiral
+🗓 lemek, spiral, tanggalan
+📇 indeks, kertu, rolodeks
+📈 grafik, grafik mundhak, mendhuwur, munggah, tren
+📉 grafik, mudhun, tren
+📊 balok, grafik
+📋 papan lemek
+📌 pines
+📍 pines bendhul
+📎 klip kertas
+🖇 klip kertas, klip kertas karonce, ngronce
+📏 garisan, garisan jejeg, pinggir jejeg
+📐 garisan, garisan pesagi telu, pesagi telu, saprangkat
+✂ gunting, ngethok, pranti
+🗃 berkas, kertu, kothak
+🗄 berkas, panyimpenan berkas, slorogan
+🗑 kranjang sampah
+🔒 gembok ngunci, nggembok, nutup
+🔓 gembok mbukak, kunci, nggembok
+🔏 dom mangsi, gembok, gembok nutup karo pen, mangsi, pen, privasi
+🔐 aman, gembok, gembok nutup karo kunci, kunci, nutup
+🔑 gembok, kunci, ukara sandhi
+🗝 gembok, kuna, kunci, pituduh
+🔨 bekakas, pukul
+🪓 belah, kampak, kampak cilik, kayu, plathok
+⛏ bekakas, nambang, pipril
+⚒ bekakas, pipril, pukul, pukul lan pipril
+🛠 bekakas, kunci inggris, kunci pas, pukul, pukul lan kunci pas
+🗡 gegaman, pedhang endhek, peso
+⚔ gegaman, pedhang, pedhang loro timpuk, timpuk
+🔫 bedhil, gegaman, pistul, pranti, revolver, senjata
+🪃 bumerang, kumandang, mantul, ostrali
+🏹 gendewa, gendewa lan panah, palintangan, pamanah, panah, Sagittarius
+🛡 gegaman, tameng
+🪚 bekakas, graji, kayu, tukang kayu
+🔧 bekakas, kunci inggris, kunci pas
+🪛 bekakas, obeng
+🔩 baut, bekakas, mur, mur lan baut
+⚙ bekakas, gir, ring gir
+🗜 bekakas, cathok, penet
+⚖ adil, imbang, Libra, palintangan, timbangan
+🦯 kalancaran, teken, wuta
+🔗 sambungan rante
+⛓ rante
+🪝 bengkok, kurpa, nangkap, pancing, panjerat, seng utama
+🧰 bekakas, kothak bekakas, montir, pethi
+🧲 magnet, tapal jaran, tarik-tinarik, wesi magnet
+🪜 anak ondo, menek, ondo
+⚗ alembik, kimia, pranti, pranti suling alembik
+🧪 ahli kimia, eksperimen, kimia, laborat, sains, tabung reaksi
+🧫 ahli biologi, bakteri, biologi, cawan petri, kultur, laborat
+🧬 adn, ahli biologi, evolusi, gen, genetik, kauripan
+🔬 mikroskop, pranti, sains
+🔭 pranti, sains, teleskop
+📡 antena, parabola, satelit
+💉 bat, dom, lara, siring, suntik
+🩸 donor getih, menstruasi, obat, satetes getih
+💊 dhokter, lara, obat, pil
+🩹 perban, plester
+🩺 dhokter, jantung, obat, stetoskop
+🚪 lawang
+🛗 kalancaran, munggah, ngangkat, ondo mlaku
+🪞 kaca pangilon, mantul, pamantulan, spekulum
+🪟 cendela, mbukak, pamandangan, pigura, tembus cahya, udara seger
+🛏 amben, hotel, turu
+🛋 hotel, lampu, sofa, sofa lan lampu
+🪑 jagongan, kursi, njagong
+🚽 kakus
+🪠 kakus, panyedot kakus, panyedotan, tukang pipa
+🚿 banyu, pancuran
+🛁 adus, bak kungkum
+🪤 pangikat, panjebak, panjebak tikus, umpan
+🪒 cukur, landhep, peso cukur
+🧴 botol losion, krim kulit, losion, sampo, tabir surya
+🧷 peniti, popok, punk rock
+🧹 nyapu, penyihir, reresik, sapu
+🧺 kranjang, kumbahan, piknik, tani
+🧻 lap tisu, tisu gulung, tisu wese
+🪣 ember, gendul, timba, tong
+🧼 adus, kothak, reresik, sabun, sabunan, wadhah sabun
+🪥 dental, papan adus, resik, resikan, sikat, untu
+🧽 bolong-bolong, nyerep, reresik, sepon
+🧯 geni, mateni, mbasmi, pambasmi geni
+🛒 blanja, troli
+🚬 ngrokok, rokok
+⚰ pati, pethi mati
+🪦 kijeng, kuburan, pakuburan
+⚱ awu, guci, pamulasaran, pati
+🗿 moai, moyai, patung, rai
+🪧 demontrasi, piket, plakat, protes, tandha
+🏧 atm, bank, otomatis, tandha ATM, teller
+🚮 rereged, tandha mbuwang rereged ing wadhahe, wadhah sampah
+🚰 banyu, banyu kran kena diombe, ngombe, ombe langsung
+♿ dalan, tandha kursi rodha
+🚹 jumbleng, lanang, pakiwan, wese
+🚺 jumbleng, pakiwan, wadon, wese
+🚻 jumbleng, pakiwan, wese
+🚼 bayi, nyalini bayi, tandha bayi
+🚾 banyu, jedhing, jumbleng, pakiwan, wese
+🛂 pamriksan, paspor, priksa paspor
+🛃 pabean
+🛄 koper, njupuk
+🛅 koper, koper ditinggal, loker
+⚠ pepenget
+🚸 bocah, lalu lintas, sabrangan bocah, sabrangan bocah sekolah, wong mlaku
+⛔ aja, lalu lintas, larangan, mlebu, ora kena
+🚫 aja, larangan, mlebu, ora kena
+🚳 aja, larangan, pit, pit ora kena liwat, sepedha
+🚭 aja, larangan, ngrokok, ora kena, ora kena ngrokok
+🚯 aja, larangan, ora kena, ora kena mbuwang sampah, rereged, sampah
+🚱 banyu, banyu kran ora kena diombe, ora diombe langsung
+🚷 aja, larangan, ora kena, wong mlaku, wong mlaku ora kena liwat
+📵 aja, hp, larangan, ora kena nguripke hp, ponsel, telpun
+🔞 18, durung cukup umur, larangan, sing umur sangisore 18 ora kena, wates umur, wolulas
+☢ radhioaktip, tandha
+☣ bebaya hayati, tandha
+⬆ arah, kardinal, lor, panah, panah munggah
+↗ arah, interkardinal, lor-wetan, panah, panah munggah-nengen
+➡ arah, kardinal, panah, panah nengen, wetan
+↘ arah, interkardinal, panah, panah mudhun-nengen, wetan-kidul
+⬇ arah, kardinal, kidul, panah, panah mudhun
+↙ arah, interkardinal, kidul-kulon, panah, panah mudhun-ngiwa
+⬅ arah, kardinal, kulon, panah, panah ngiwa
+↖ arah, interkardinal, kulon-lor, panah, panah munggah-ngiwa
+↕ panah, panah munggah-mudhun
+↔ panah, panah ngiwa-nengen
+↩ panah, panah nengen menggok ngiwa
+↪ panah, panah ngiwa menggok nengen
+⤴ panah, panah nengen menggok munggah
+⤵ panah, panah nengen menggok mudhun
+🔃 arah ubenge jam, ngisi maneh, panah, panah ngadeg arahe padha ubenge jam
+🔄 panah, tombol panah arahe walikan ubenge jam, walikan arahe srengenge, walikan ubenge jam
+🔙 mbalik, panah, panah MBALIK
+🔚 mentok, panah, panah MENTOK
+🔛 on, panah, panah ON!, tenger
+🔜 gage, panah, panah SOON, soon
+🔝 munggah, panah, panah TOP, top
+🛐 agama, papan sembahyang, sembahyang
+⚛ ateis, atom, tandha atom
+🕉 agama, Hindu, om, Om
+✡ agama, Dawud, lintang, wong Yahudi, Yahudi
+☸ agama, Buda, darma, rodha
+☯ agama, tao, umat tao, yang, yin, yinyang
+✝ agama, Kristen, salib, salib latin
+☦ agama, Kristen, salib, salib ortodoks
+☪ agama, Islam, lintang lan mbulan anyaran, Muslim
+☮ perdhamean, tandha perdhamean
+🕎 agama, lilin, menorah, wadhah lilin sanga
+🔯 kabegjan, lintang, lintang mata enem mawa titik tengah
+♈ Aries, Lintang Aries, palintangan, wedhus gembel
+♉ bantheng, Lintang Taurus, palintangan, Taurus
+♊ anak kembar, Gemini, Lintang Gemini, palintangan
+♋ Cancer, Lintang Cancer, palintangan, yuyu
+♌ Leo, Lintang Leo, palintangan, singa
+♍ Lintang Virgo, palintangan, Virgo
+♎ adil, imbang, Libra, Lintang Libra, palintangan, timbangan
+♏ ketonggeng, Lintang Scorpio, palintangan, Scorpio, scorpius
+♐ Lintang Sagittarius, palintangan, pamanah, Sagitarius
+♑ Capricorn, Lintang Capricorn, palintangan, wedhus
+♒ Aquarius, banyu, Lintang Aquarius, palintangan, sing nggawa
+♓ iwak, Lintang Pisces, palintangan, Pisces
+⛎ Lintang Ophiuchus, nggremet, Ophiuchus, palintangan, sing nggawa, ula
+🔀 panah, tempuk, tombol ngacak lagu
+🔁 arah mubenge jam, baleni, panah, tombol baleni
+🔂 arah mubenge jam, panah, sepisan, tombol baleni sepisan
+▶ main, marep nengen, panah, pesagi telu, tombol main
+⏩ cepet, dhobel, maju, panah, tombol maju cepet
+⏭ lagu sabanjure, layar sabanjure, panah, pesagi telu, tombol lagu sabanjure
+⏯ main, mandheg, marep nengen, panah, pesagi telu, tombol main utawa mandheg
+◀ marep kiwa, mbalik, panah, pesagi telu, tombol mbalik
+⏪ dhobel, panah, tombol mbalik cepet, ukel mbalik
+⏮ lagu sadurunge, layar sadurunge, panah, pesagi telu, tombol lagu pungkasan
+🔼 abang, panah, tombol, tombol munggah
+⏫ dhobel, panah, tombol munggah cepet
+🔽 abang, mudhun, panah, tombol
+⏬ dhobel, mudhun, panah, tombol mudhun cepet
+⏸ balok, dhobel, mandheg, ngadeg, tombol mandheg
+⏹ kothak, mati, tombol mati
+⏺ bunder, rekam, tombol rekam
+⏏ metu, tombol metu
+🎦 film, kamera, tontonan
+🔅 endhek, lamat-lamat, takeran padhang, tombol lamat-lamat
+🔆 kadhar padhang, padhang, tombol padhang
+📶 antena, balok, hp, ponsel, sinyal
+📳 hp, kedher, modhe, ponsel, tilpun
+📴 hp, mati, ponsel, tilpun
+♀ tandha wanita, wadon
+♂ lanang, tandha priya
+⚧ tandha wariya, wariya
+✖ ×, ditikelake, ping-pingan, tandha, wurung, x
+➕ +, matematika, tambah, tandha
+➖ -, −, kurang, matematika, tandha
+➗ ÷, matematika, paran, tandha, tandha para
+♾ abadi, tanpa kaiket, tanpa wates, universal
+‼ !, !!, mak cethor pindho, mbangetake, tandha, tandha penthung dhobel
+⁉ !, !?, ?, pitakon, tandha, tandha penthung lan pitakon, tandha wacan
+❓ ?, pitakon, tandha, tandha pitakon abang, tandha wacan
+❔ ?, garis pinggir cetha, pitakon, tandha, tandha pitakon putih, tandha wacan
+❕ !, garis pinggir cetha, mbangetake, tandha, tandha penthung putih
+❗ !, mbangetake, tandha, tandha penthung, tandha penthung abang, tandha wacan
+〰 ngeluk, setrip, tandha wacan
+💱 bank, dhuwit, ijol-ijolan, mata uang, rega ijol mata uang
+💲 dhuwit, dolar, mata uang, tandha dolar kandel
+⚕ aesculapius, obat, pegawe, tandha medhis
+♻ dhaur ulang, tandha dhaur ulang
+⚜ lambang fleur-de-lis, lambang fleur-de-lis [kembang Lili]
+🔱 emblem, jangkar, kapal, lambang trisula, pranti, trisula
+📛 emblem, jeneng
+🔰 anyaran, emblem, godhong, tandha wong anyaran cara Jepang, wong Jepang
+⭕ abang, bunder, bunderan abang bolong, gendhe, o
+✅ ✓, centhang, tenger, tombol
+☑ ✓, centhang, kothak, kothak centhang ana centhange
+✔ ✓, centhang, tenger
+❌ ×, ditikelake, ping, ping-pingan, tenger, wurung, x
+❎ ×, kothak, tenger, tombol tenger ping, x
+➰ cunthel, garis cunthel, mlungker
+➿ cunthel, dhobel, garis cunthel dhobel, mlungker
+〽 bageyan, tandha, tandha rikala sindhen wiwit nyanyi
+✳ *, asterisk, asterisk kembang wolu
+✴ *, lintang, lintang mata wolu
+❇ *, kelip-kelip
+© c, hak cipta
+® kadhaptar, r
+™ merek dagang, tandha, tm
+🔠 ABCD, aksara, gedhe, latin, lebokake
+🔡 abcd, aksara, cilik, latin, lebokake
+🔢 1234, angka, lebokake
+🔣 〒♪&amp;%, lebokake, lebokake simbol
+🔤 abc, aksara, alfabet, latin, lebokake
+🅰 a, golongane getih, tombol A [golongane getih]
+🆎 ab, golongane getih, tombol AB [golongane getih]
+🅱 b, golongane getih, tombol B [golongane getih]
+🆑 busak, cl, tombol CL
+🆒 cool, tombol COOL
+🆓 free, tombol FREE
+ℹ i, informasi
+🆔 id, idhentitas, tombol ID
+Ⓜ bunder, m, M dibunderi
+🆕 new, tombol NEW
+🆖 ng, tombol NG
+🅾 golongane getih, o, tombol O [golongane getih]
+🆗 OK, tombol OK
+🅿 parkir, tombol P
+🆘 sos, tombol SOS, tulung
+🆙 ndhuwur, tandha, tombol UP!
+🆚 nglawan, tombol VS, versus, vs
+🈁 “ing kene”, Jepang, katakana, tombol Jepang &quot;ing kene&quot;
+🈂 “beya laden”, Jepang, katakana, tombol Jepang &quot;beya laden&quot;
+🈷 “gunggung sesasen”, ideografi, Jepang, tombol Jepang &quot;gunggung sesasen&quot;
+🈶 “ora gratis”, ideografi, Jepang, tombol Jepang &quot;ora gratis&quot;
+🈯 “wis dipesen”, ideografi, Jepang, tombol Jepang &quot;wis dipesen&quot;
+🉐 “rega murah”, ideografi, Jepang, tombol Jepang &quot;rega murah&quot;
+🈹 “diskon”, ideografi, Jepang, tombol Jepang &quot;diskon&quot;
+🈚 “gratis”, ideografi, Jepang, tombol Jepang &quot;gratis&quot;
+🈲 “larangan”, ideografi, Jepang, tombol Jepang &quot;larangan&quot;
+🉑 “oleh”, ideografi, Jepang, tombol Jepang &quot;oleh&quot;
+🈸 &quot;aplikasi&quot;, ideografi, Jepang, tombol Jepang &quot;aplikasi&quot;
+🈴 &quot;munggah kelas&quot;, ideografi, Jepang, tombol Jepang &quot;munggah kelas&quot;
+🈳 &quot;lowongan&quot;, ideografi, Jepang, tombol Jepang &quot;lowongan&quot;
+㊗ &quot;sugeng&quot;, ideografi, Jepang, tombol Jepang &quot;sugeng&quot;
+㊙ &quot;rahasia&quot;, ideografi, Jepang, tombol Jepang &quot;rahasia&quot;
+🈺 &quot;kantor bukak&quot;, ideografi, Jepang, tombol Jepang &quot;kantor bukak&quot;
+🈵 &quot;lowongan kosong&quot;, ideografi, Jepang, tombol Jepang &quot;lowongan kosong&quot;
+🔴 abang, bunder, bunderan abang, geometrik
+🟠 bunder, bunderan kunir, kunir
+🟡 bunder, bunderan kuning, kuning
+🟢 bunder, bunderan ijo, ijo
+🔵 biru, bunder, bunderan biru, geometrik
+🟣 bunder, bunderan wungu, wungu
+🟤 bunderan, soklat
+⚫ bunder, bunderan ireng, geometrik
+⚪ bunder, bunderan putih, geometrik
+🟥 abang, kothak
+🟧 kothak, kunir
+🟨 kothak, kuning
+🟩 ijo, kothak
+🟦 biru, kothak
+🟪 kothak, wungu
+🟫 kothak, soklat
+⬛ geometrik, kothak, kothak gedhe ireng
+⬜ geometrik, kothak, kothak gedhe putih
+◼ geometrik, kothak, kothak sedhengan ireng
+◻ geometrik, kothak, kothak sedhengan putih
+◾ geometrik, kothak, kothak cilik-sedhengan ireng
+◽ geometrik, kothak, kothak cilik-sedhengan putih
+▪ geometrik, kothak, kothak cilik ireng
+▫ geometrik, kothak, kothak cilik putih
+🔶 geometrik, kunir, kupatan, kupatan gedhe kunir
+🔷 biru, geometrik, kupatan, kupatan gedhe biru
+🔸 geometrik, kunir, kupatan, kupatan cilik kunir
+🔹 biru, geometrik, kupatan, kupatan cilik biru
+🔺 abang, geometrik, pesagi telu abang pucuke marep ndhuwur
+🔻 abang, geometrik, ngisor, pesagi telu abang pucuke marep ngisor
+💠 geometrik, komik, kupatan, kupatan mawa titik ing tengah, njero
+🔘 geometrik, radio, tombol
+🔳 garis pinggir cetha, geometrik, kothak, tombol, tombol kothak putih
+🔲 geometrik, kothak, tombol, tombol kothak ireng
+🏁 balapan, gendera balapan, gendera kothak-kothak, kothak-kothak
+🚩 gendera segi telu, tenger
+🎌 ditempukake, gendera, gendera loro ditempuk, Jepang, pista, tempuk
+🏴 gendera ireng, ngawe-awe
+🏳 gendera putih, ngawe-awe
+🏳‍🌈 gendera plangi, plangi
+🏳‍⚧ abang enom, biru enom, gendera, putih, wariya
+🏴‍☠ bandhane karun, begal segara, gendera begal segara, jarah, Jolly Roger
+¢ sen
+$ dhuwit, dolar, peso, USD
+£ EGP, GBP, pound, valuta
+¥ CNY, JPY, valuta, yen, yuan
+₥ mil, mill
+₩ KPW, KRW, won
+€ EUR, euro, valuta
+₱ peso
+₹ rupee, rupee india, valuta
+₽ ruble, valuta
+₿ bitcoin, BTC
+¹ siji, tandha siji ing dhuwur, tika dhuwur
+² loro, peng loro, tandha loro ing dhuwur, tika dhuwur
+³ pesagi, tandha telu ing dhuwur, telu, tika dhuwur
+µ ngukur, tandha mikro

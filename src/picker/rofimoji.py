@@ -303,8 +303,10 @@ class Rofimoji:
                 all_characters.setdefault(parsed_line[0], []).append(parsed_line[1]) if 1 < len(parsed_line) else ''
 
         all_characters = {character: ', '.join(descriptions) for character, descriptions in all_characters.items()}
+        annotations = self.read_annotations()
+        all_annotations = {character: f' <small>({annotations[character]})</small>' for character in all_characters.keys() if character in annotations}
 
-        return '\n'.join(f"{key} {value}" for key, value in all_characters.items() if value != '')
+        return '\n'.join(f"{key} {value}{all_annotations[key] if key in annotations else ''}" for key, value in all_characters.items() if value != '')
 
     def resolve_all_files(self) -> List[Path]:
         resolved_file_names = []
@@ -338,6 +340,16 @@ class Rofimoji:
 
     def load_from_file(self, file: Path) -> List[str]:
         return file.read_text().strip().split('\n')
+
+    def read_annotations(self) -> Dict[chr, str]:
+        annotations = {}
+        for language in ('de', 'en'):
+            annotation_file = Path(__file__).parent / 'data' / 'annotations' / f'{language}.csv'
+            for line in annotation_file.read_text().strip().split('\n'):
+                (character, annotation) = line.split(' ', 1)
+                annotations.setdefault(character, []).append(annotation)
+
+        return {character: ', '.join(annotations) for character, annotations in annotations.items() }
 
     def load_recent_characters(self, max: int) -> List[str]:
         try:

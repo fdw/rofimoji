@@ -1,0 +1,1696 @@
+{ kurawal, kurung kurawal, kurung kurawal buka, tanda kurung
+🏻 tipe 1–2, warna kulit, warna kulit cerah
+🏼 tipe 3, warna kulit, warna kulit cerah-sedang
+🏽 tipe 4, warna kulit, warna kulit sedang
+🏾 tipe 5, wana kulit, warna kulit gelap-sedang
+🏿 tipe 6, warna kulit, warna kulit gelap
+‾ garis atas
+_ dash, dash bawah, dash rendah, garis, garis bawah
+- dash, minus, tanda hubung, tanda hubung-minus, tanda kurang
+‐ dash, tanda hubung
+– en, en dash, tanda pisah
+— em, em dash, tanda pisah
+― batang, batang horizontal, dash, garis
+・ katakana, tanda baca penghubung, tanda titik, titik tengah, titik tengah katakana
+, koma
+، arab, koma
+、 ideograf, koma
+; titik koma
+؛ arab, titik koma, titik koma arab
+: titik dua
+! dor, seru, tanda seru
+¡ dor, seru, tanda seru, tanda seru terbalik, terbalik
+? pertanyaan, tanda tanya
+¿ pertanyaan, tanda tanya, tanda tanya terbalik, terbalik
+؟ arab, pertanyaan, tanda tanya, tanda tanya arab
+‽ interobang
+. dot, titik
+… elipsis, penghilangan, titik-titik
+。 ideografis, titik
+· interpunct, tengah, titik
+' apostrof, apostrof mesin tik, kutipan, tanda petik tunggal
+‘ apostrof, apostrof kiri, kutipan, tanda petik, tanda petik tunggal
+’ apostrof, apostrof kanan, kutipan, tanda petik, tanda petik tunggal
+‚ apostrof, apostrof kanan bawah, kutipan, tanda petik bawah
+“ kutipan, kutipan cerdas, tanda petik ganda, tanda petik kiri
+” kutipan, kutipan cerdas, tanda petik ganda, tanda petik kanan
+„ kutipan, kutipan cerdas, tanda petik bawah, tanda petik ganda, tanda petik kanan bawah
+« caret, chevron, guillemet kiri, kiri, sudut, tanda kurung, tanda petik
+» caret, chevron, guillemet kanan, kanan, sudut, tanda kurung, tanda petik
+) kurung, kurung lengkung, kurung tutup, tanda kurung
+[ kurung, kurung siku buka, siku, tanda kurung
+] kurung, kurung siku tutup, siku, tanda kurung
+} kurawal, kurung kurawal, kurung kurawal tutup, tanda kurung
+〈 chevron, kurung lancip, kurung sudut, kurung sudut buka, tanda kurung, tuple
+〉 chevron, kurung lancip, kurung sudut, kurung sudut tutup, tanda kurung, tuple
+《 kurung sudut ganda, kurung sudut ganda buka, tanda kurung
+》 kurung sudut ganda, kurung sudut ganda tutup, tanda kurung
+「 kurung tekuk, kurung tekuk buka, tanda kurung
+」 kurung tekuk, kurung tekuk tutup, tanda kurung
+『 kurung tekuk bolong, kurung tekuk bolong buka, tanda kurung
+』 kurung tekuk bolong, kurung tekuk bolong tutup, tanda kurung
+【 kurung lensa, kurung lensa penuh buka, kurung lentikular, tanda kurung
+】 kurung lensa, kurung lensa penuh tutup, kurung lentikular, tanda kurung
+〔 kurung tempurung, tanda kurung, tanda kurung tempurung, tanda kurung tempurung buka
+〕 kurung tempurung, tanda kurung, tanda kurung tempurung, tanda kurung tempurung tutup
+〖 kurung lensa bolong, kurung lensa bolong buka, kurung lentikular bolong, tanda kurung
+〗 kurung lensa bolong, kurung lensa bolong tutup, kurung lentikular bolong, tanda kurung
+§ bagian, paragraf, seksi, silcrow
+¶ alinea, paragraf, tanda paragraf
+@ ampersat, et, tanda et, tanda et komersial
+* asterisk, bintang, bintang kecil, tanda bintang
+/ garis, goresan, miring
+\ garis miring, garis miring terbalik, terbalik
+& ampersan, dan, et
+# angka, hashtag, lb, pagar, pound, tanda pagar
+% per seratus, persen, persentase, perseratus
+‰ per seribu, permil, perseribu
+† dagger, obelisk, obelus, tanda dagger
+‡ dagger, ganda, obelisk, obelus, tanda dagger ganda
+• bullet, titik
+‧ dash, tanda hubung, titik, titik hubung
+′ prime
+″ prime, prime ganda
+‴ prime, prime tripel
+‸ caret
+※ tanda referensi
+⁂ asterisme
+` aksen, nada, rendah, tanda aksen rendah
+´ aksen, nada, tanda aksen tirus, tirus
+^ aksen, baji, caret, chevron, hat, kontrol, pangkat, penunjuk, sirkumfleks, tanda xor
+¨ diaeresis, trema, umlaut
+° derajat, jam, kadar
+℗ hak cipta, hak cipta rekaman suara, rekaman, suara
+← ke kiri, tanda panah, tanda panah mengarah ke kiri
+↚ panah arah kiri
+→ kanan, tanda panah, tanda panah mengarah ke kanan
+↛ panah arah kanan
+↑ ke atas, tanda panah, tanda panah mengarah ke atas
+↓ ke bawah, tanda panah, tanda panah mengarah ke bawah
+↜ gelombang panah arah kiri
+↝ gelombang panah arah kanan
+↞ panah dua mata arah kiri
+↟ panah dua mata arah naik
+↠ panah dua mata arah kanan
+↡ panah dua mata arah turun
+↢ anak panah ke kiri
+↣ anak panah ke kanan
+↤ panah ke kiri dari batang
+↥ panah ke atas dari batang
+↦ panah ke kanan dari batang
+↧ panah ke bawah dari batang
+↨ panah naik turun berdudukan
+↫ panah simpal ke kiri
+↬ panah simpal ke kanan
+↭ panah simpal kanan kiri
+↯ panah zigzag turun
+↰ panah naik mata ke kiri
+↱ panah naik mata ke kanan
+↲ panah turun mata ke kiri
+↳ panah turun mata ke kanan
+↴ panah kanan siku turun
+↵ panah turun siku ke kiri
+↶ panah lengkung atas ke kiri
+↷ panah lengkung atas ke kanan
+↸ panah barat laut bilah panjang
+↹ panah ke batang kiri di atas panah ke batang kanan
+↺ panah lingkar terbuka melawan arah jarum jam
+↻ panah lingkar terbuka searah jarum jam
+↼ panah seruit atas ke kiri
+↽ panah seruit bawah ke kiri
+↾ panah seruit kanan ke atas
+↿ panah seruit kiri ke atas
+⇀ panah seruit atas ke kanan
+⇁ panah seruit bawah ke kanan
+⇂ panah seruit kanan ke bawah
+⇃ panah seruit kiri ke bawah
+⇄ panah ke kanan di atas panah ke kiri
+⇅ ke atas, ke bawah, tanda panah, tanda panah mengarah ke atas dan ke bawah
+⇆ ke kanan, ke kiri, tanda panah, tanda panah mengarah ke kiri di atas tanda panah mengarah ke kanan
+⇇ sepasang panah ke kiri
+⇈ sepasang panah ke atas
+⇉ sepasang panah ke kanan
+⇊ sepasang panah ke bawah
+⇋ panah seruit ke kiri di atas panah seruit ke kanan
+⇌ panah seruit ke kanan di atas panah seruit ke kiri
+⇐ panah ganda ke kiri
+⇍ panah ganda ke kiri dicoret
+⇑ panah ganda ke atas
+⇒ panah ganda ke kanan
+⇏ panah ganda ke kanan dicoret
+⇓ panah ganda ke bawah
+⇔ panah ganda ke kanan kiri
+⇎ panah ganda ke kanan kiri dicoret
+⇖ panah ganda barat laut
+⇗ panah ganda timur laut
+⇘ panah ganda tenggara
+⇙ panah ganda barat daya
+⇚ panah tripel ke kiri
+∆ pertambahan, segitiga
+∇ nabla, segitiga
+∈ anggota, elemen, himpunan, keanggotaan, terdiri dari
++ plus, tambah, tanda plus
+± plus-minus
+÷ bagi, obelus, pembagian, tanda pembagian
+× kali, perkalian, tanda perkalian
+< kurang dari, tag, tag pembuka
+= sama dengan
+≠ ketidaksamaan, ketidaksetaraan, tidak sama dengan
+> lebih dari, tag, tag penutup
+¬ negasi, tidak
+| garis, garis tegak, garis vertikal, goresan, pipa, tanda pipa
+~ tilde
+− kurang, minus, tanda minus
+⁻ minus, superskrip
+√ akar, bentuk akar, kuadrat, radikal, radiks
+∞ tak terhingga, tanda tak terhingga
+∩ himpunan, irisan
+∪ gabungan, himpunan, koleksi
+≈ hampir sama dengan, pendekatan, perkiraan
+≡ persis, sama, setara dengan, tiga garis
+≤ ketidaksamaan, kurang dari, kurang dari atau sama dengan, sama dengan
+≥ ketidaksamaan, lebih dari, lebih dari atau sama dengan, sama dengan
+⊂ himpunan, subhimpunan, subhimpunan dari
+▲ ke atas, segitiga, segitiga solid mengarah ke atas, solid, tanda panah
+▼ ke bawah, segitiga, segitiga solid mengarah ke bawah, solid, tanda panah
+◊ belah ketupat, berlian, rhombus
+○ cincin, lingkaran, lingkaran kosong
+● lingkaran, lingkaran solid
+◯ cincin, lingkaran, lingkaran kosong besar
+♪ musik, not, not balok, seperdelapan
+♭ mol, musik, nada mol, not, not balok
+♯ kres, musik, nada kres, not, not balok
+😀 bahagia, gembira, muka, senang, wajah
+😃 muka, mulut, senyum, terbuka, wajah, wajah tersenyum lebar
+😄 mata, muka, mulut, senyum, terbuka, wajah, wajah tersenyum lebar dan mata tertutup
+😁 cengiran, mata, muka, senyum, wajah gembira dengan mata bahagia, wajah tersenyum lebar
+😆 mulut, puas, senyum, tertawa, wajah, wajah tersenyum lebar dan memejamkan mata, wajah tersenyum lebar memejamkan mata
+😅 dingin, keringat, muka, senyum, terbuka, wajah, wajah tersenyum lebar dan berkeringat
+🤣 kocak, lucu, ngakak, tertawa, tertawa terbahak-bahak
+😂 air mata, bahagia, tertawa, wajah, wajah dengan air mata bahagia, wajah gembira berurai air mata
+🙂 muka, senyum, wajah, wajah agak tersenyum
+🙃 muka, terbalik, wajah
+😉 kedip, muka, wajah, wajah berkedip
+😊 mata, muka, senyum, tersipu, wajah, wajah tersenyum dengan mata bahagia
+😇 fantasi, halo, lugu, malaikat, wajah, wajah malaikat tersenyum
+🥰 jatuh cinta, memuja, naksir, wajah tersenyum dengan 3 hati
+😍 cinta, mata, senyum, wajah, wajah tersenyum lebar bermata hati
+🤩 bintang, mata, menyeringai, wajah, wajah dengan mata berbentuk bintang
+😘 cium, hati, muka, wajah, wajah memberikan ciuman jauh
+😗 cium, muka, wajah, wajah memberikan ciuman
+☺ muka, rileks, santai, senyum, tersipu, wajah, wajah tersenyum
+😚 cium, mata, muka, tertutup, tutup, wajah, wajah memberikan ciuman dengan mata tertutup
+😙 cium, mata, muka, senyum, wajah, wajah memberikan ciuman dengan mata bahagia
+🥲 air mata, bangga, bersyukur, lega, mata, tersentuh, tersenyum, wajah tersenyum dengan air mata
+😋 lezat, menikmati, nyam, senyum, wajah, wajah menikmati makanan
+😛 lidah, muka, wajah, wajah menjulurkan lidah
+😜 kedip, lelucon, lidah, mata, wajah, wajah mengedip dengan menjulurkan lidah, wajah menjulurkan lidah dan mengedipkan mata
+🤪 besar, bodoh, kecil, mata, wajah konyol
+😝 lidah, mata, menjijikan, rasa, wajah, wajah menjulurkan lidah dan memejamkan mata
+🤑 matre, muka, mulut, uang, wajah, wajah materialistis
+🤗 muka, peluk, wajah, wajah memeluk
+🤭 ups, wajah dengan tangan menutup mulut
+🤫 diam, jangan berisik, ssst, sst, wajah menyuruh diam
+🤔 berpikir, mikir, muka, pikir, wajah
+🤐 muka, mulut, rapat, tertutup, wajah, wajah dengan mulut tertutup rapat
+🤨 ragu, skeptis, tidak percaya, wajah dengan alis terangkat
+😐 datar, muka, netral, wajah
+😑 datar, ekspresi, lempeng, muka, tanpa, wajah
+😶 diam, muka, mulut, tenang, wajah, wajah tanpa mulut
+😏 seringai, wajah, wajah menyeringai, wajah tersenyum sombong
+😒 bosan, muka, wajah
+🙄 atas, berputar, mata, muka, wajah, wajah dengan mata ke atas
+😬 menyeringai, muka, seringai, wajah
+😮‍💨 wajah mengembuskan napas
+🤥 bohong, muka, pinokio, wajah
+😌 lega, muka, wajah
+😔 muka, murung, sedih, termenung, wajah, wajah merenung
+😪 muka, ngantuk, wajah, wajah mengantuk
+🤤 ngiler, pengen, wajah
+😴 muka, tidur, wajah, zzz
+😷 dokter, flu, masker, sakit, wajah, wajah bermasker
+🤒 muka, sakit, termometer, wajah, wajah bertermometer
+🤕 cedera, luka, muka, perban, wajah, wajah diperban di kepala
+🤢 mual, muka, muntah, wajah
+🤮 muntah, sakit, wajah muntah
+🤧 bersin, muka, wajah
+🥵 berkeringat, demam, kepanasan, muka merah, panas, wajah kepanasan
+🥶 es, kedinginan, menggigil, radang dingin, wajah biru, wajah kedinginan
+🥴 agak mabuk, mabuk, mata miring, mulut keriting, pusing, wajah pusing karena mabuk
+😵 muka, pusing, wajah
+😵‍💫 wajah dengan mata berputar
+🤯 kaget, kepala meledak, takjub, terkejut
+🤠 cowboy, cowgirl, koboi, topi, wajah koboi
+🥳 perayaan, pesta, terompet, topi, wajah pesta
+🥸 hidung, kacamata, menyamar, penyamaran, wajah
+😎 kacamata hitam, keren, matahari, pintar, wajah, wajah berkacamata hitam, wajah tersenyum memakai kacamata
+🤓 buku, kutu, muka, wajah
+🧐 pengap, sesak, wajah dengan monokel
+😕 bingung, muka, wajah
+😟 cemas, khawatir, kuatir, muka, wajah
+🙁 cemberut, muka, wajah, wajah agak cemberut
+☹ cemberut, muka, wajah
+😮 muka, mulut, simpati, terbuka, wajah, wajah dengan mulut terbuka
+😯 kaget, muka, terdiam, terkejut, wajah, wajah hening
+😲 kaget, muka, takjub, terkejut, terpukau, wajah
+😳 muka, tersipu, wajah
+🥺 kasihan, mata memelas, memohon, wajah memelas
+😦 cemberut, muka, mulut, nganga, terbuka, wajah, wajah mengerutkan kening dengan mulut terbuka
+😧 menderita, merana, muka, sengsara, wajah
+😨 muka, ngeri, seram, takut, wajah, wajah ketakutan
+😰 biru, buru-buru, dingin, keringat, wajah, wajah ketakutan berkeringat, wajah ketakutan dengan keringat
+😥 fiuh, kecewa, lega, muka, wajah, wajah kecewa namun lega
+😢 air, mata, muka, nangis, sedih, wajah, wajah menangis
+😭 bombay, muka, nangis, sedih, tersedu-sedu, wajah, wajah menangis keras
+😱 berteriak, ketakutan, mengunyah, takut, wajah, wajah sangat ketakutan
+😖 gelisah, muka, pusing, wajah, wajah stres
+😣 muka, ngotot, wajah, wajah tidak setuju
+😞 kecewa, wajah
+😓 dingin, keringat, muka, wajah, wajah berkeringat
+😩 capek, lelah, muka, wajah, wajah terlalu lelah
+😫 capek, lelah, muka, wajah, wajah kelelahan
+🥱 bosan, lelah, menguap, wajah menguap
+😤 menang, muka, niat, wajah, wajah bersungguh-sungguh
+😡 marah, merah, muka, ngamuk, wajah, wajah sangat marah
+😠 marah, muka, wajah
+🤬 mengumpat, ngamuk, wajah dengan simbol pada mulut
+😈 dongeng, fantasi, muka, senyum, tanduk, wajah, wajah tersenyum bertanduk
+👿 belis, fantasi, iblis, muka, setan, wajah marah bertanduk, wajah marah dengan tanduk
+💀 dongeng, mati, mayat, monster, muka, tengkorak, wajah
+☠ kematian, monster, tengkorak, tengkorak dan tulang, tulang, wajah
+💩 kotoran, muka, tahi, tinja, wajah
+🤡 badut, konyol, lucu, muka, wajah
+👹 dongeng, fantasi, makhluk, monster, wajah
+👺 fantasi, khayalan, makhluk, monster, topeng hidung panjang, wajah
+👻 arwah, dongeng, fantasi, hantu, monster, muka, wajah
+👽 alien, ekstraterestrial, fantasi, makhluk, ufo, wajah
+👾 alien, ekstraterestrial, makhluk, monster, ufo, wajah
+🤖 monster, muka, robot, wajah
+😺 kucing, muka, mulut, senyum, terbuka, wajah, wajah kucing tersenyum lebar
+😸 gembira, kucing, mata, muka, senyum, seringai, wajah, wajah kucing gembira dengan mata bahagia
+😹 air, bahagia, gembira, kucing, mata, muka, senang, wajah, wajah kucing gembira berurai air mata
+😻 cinta, hati, kucing, mata, muka, senyum, wajah, wajah kucing gembira bermata hati
+😼 ejek, kucing, muka, senyum, sinis, sombong, wajah, wajah kucing tersenyum sombong
+😽 cium, kucing, mata, muka, wajah, wajah kucing memberikan ciuman dengan mata tertutup
+🙀 kaget, kucing, lelah, muka, oh, takut, wajah, wajah kucing ketakutan
+😿 air, kucing, mata, muka, nangis, sedih, wajah, wajah kucing menangis
+😾 kucing, marah, muka, wajah
+🙈 dilarang, jahat, lihat, monyet, monyet tidak melihat, tidak melihat, wajah
+🙉 dengar, dilarang, jahat, monyet, monyet tidak mendengar, tidak mendengar, wajah
+🙊 bicara, dilarang, jahat, monyet, monyet tidak berbicara, tidak bicara, wajah
+💋 bibir, cium, hati, romantis, tanda ciuman
+💌 cinta, hati, romantis, surat
+💘 asmara, hati, hati terpanah, panah, romantis
+💝 hati, hati berpita, pita, valentine
+💖 bahagia, bersinar, hati
+💗 deg, detak, gembira, gugup, hati, hati membesar, jantung
+💓 denyut, detak, hati, hati berdetak, jantung
+💞 berputar, hati
+💕 cinta, dua hati, hati
+💟 dekorasi hati, hati
+❣ hati, seru, tanda, tanda seru berbentuk hati
+💔 hati, patah, putus
+❤‍🔥 hati berapi-api
+❤‍🩹 mengobati hati terluka
+❤ hati, hati merah
+🧡 hati, oranye
+💛 hati, kuning
+💚 hati, hijau
+💙 biru, hati
+💜 hati, ungu
+🤎 cokelat, hati
+🖤 hati, hitam, jahat, kejam
+🤍 hati, putih
+💯 100, lengkap, nilai seratus, seratus, skor
+💢 komik, marah
+💥 komik, nabrak, tabrakan
+💫 bintang, komik, pusing
+💦 ciprat, keringat, komik
+💨 berlari, kabur, komik, lari
+🕳 lobang, lubang
+💣 bom, komik
+💬 balon, dialog, gelembung, komik, ucapan
+👁‍🗨 gelembung, mata, mata di dalam gelembung ucapan, ucapan
+🗨 dialog, gelembung ucapan kiri, ucapan
+🗯 balon, gelembung, gelembung marah kanan, marah
+💭 balon, gelembung, gelembung pikiran, komik, mikir, pikir
+💤 komik, tidur, zzz
+👋 badan, lambai, tangan, tangan melambai, tubuh
+🤚 angkat tangan, berhenti, jangan, stop
+🖐 badan, jari, tangan, telapak tangan terbuka, terbuka, tos, tubuh
+✋ badan, rapat, tangan, telapak tangan terbuka dengan jari rapat, tubuh
+🖖 badan, jari, salam vulcan, spock, tangan, tubuh, vulcan
+👌 badan, oke, tangan, tubuh
+🤌 interogasi, isyarat tangan, jari, sarkastik, terkuncup
+🤏 sejumlah kecil, tangan menjepit
+✌ badan, isyarat kemenangan, jari, menang, tangan, tubuh
+🤞 beruntung, jari, jari menyilang, semoga beruntung, semoga hoki, silang jari
+🤟 gerakan sayang kamu, ILU, ILY, tangan
+🤘 badan, jari, lambang tanduk, tanduk, tangan, tubuh
+🤙 panggil saya, telepon, telepon aku, telepon saya
+👈 badan, jari, kiri, menunjuk ke arah kiri, tangan, telunjuk, tubuh, tunjuk
+👉 badan, jari, kanan, menunjuk ke arah kanan, tangan, telunjuk, tubuh, tunjuk
+👆 atas, badan, jari, menunjuk ke atas (dibalik), tangan, telunjuk, tubuh, tunjuk
+🖕 jari, jari tengah, tangan
+👇 badan, bawah, jari, menunjuk ke bawah, tangan, tengah, tubuh, tunjuk
+☝ atas, badan, jari, menunjuk ke atas, tangan, telunjuk, tubuh, tunjuk
+👍 +1, atas, badan, jempol, jempol ke atas, tangan, tubuh
+👎 -1, badan, bawah, jempol, jempol ke bawah, tangan, tubuh
+✊ badan, kepal, tangan, tangan terkepal ke atas, tinju, tubuh
+👊 badan, kepal, tangan, tangan terkepal ke depan, tinju, tonjok, tubuh
+🤛 kepalan tangan, kiri, tinju kiri, tonjok
+🤜 kanan, kepalan tangan, tinju kanan, tonjok
+👏 badan, tangan, tepuk, tubuh
+🙌 angkat tangan, gerakan, hore, mengangkat tangan, perayaan, tangan
+👐 badan, tangan, terbuka, tubuh
+🤲 berdoa, doa, tangan diangkat dan dirapatkan bersama
+🤝 jabat tangan, salaman, sepakat, setuju, tangan
+🙏 berdoa, bungkuk, gerakan, lipat, makasih, melipat tangan, mohon, tangan, tolong, tubuh
+✍ badan, nulis, tangan, tangan menulis, tubuh, tulis
+💅 cat kuku, kosmetik, kuku, manikur, perawatan, poles kuku
+🤳 foto selfie, kamera, ponsel, selfi, selfie
+💪 badan, biseps, lengan berotot, otot, tubuh
+🦾 aksesibilitas, lengan robot, prostetik
+🦿 aksesibilitas, prostetik, tungkai robot
+🦵 bagian tubuh, tendang, tungkai
+🦶 injak, telapak kaki, tendang
+👂 badan, telinga, tubuh
+🦻 aksesibilitas, sulit mendengar, telinga dengan alat bantu dengar, tuli, tunarungu
+👃 badan, hidung, tubuh
+🧠 cerdas, genius, kecerdasan, otak, pintar
+🫀 detak, jantung, kardiologi, nadi, organ, tengah
+🫁 ekshalasi, inhalasi, napas, organ, paru-paru, respirasi
+🦷 dokter gigi, gigi
+🦴 tulang, tulang belulang
+👀 badan, dua mata, mata, muka, tubuh, wajah
+👁 badan, satu mata, tubuh
+👅 badan, lidah, tubuh
+👄 badan, bibir, mulut, tubuh
+👶 bayi, muda
+🧒 anak, gender tak tentu, muda, netral gender
+👦 anak laki-laki, muda
+👧 anak perempuan, muda, virgo, zodiak
+🧑 dewasa, gender tak tentu, netral gender, orang
+👱 orang berambut pirang, orang: rambut pirang, pirang, rambut
+👨 orang dewasa, pria
+🧔 janggut, orang, orang: janggut
+🧔‍♂ janggut, pria, pria: janggut
+👱‍♂ laki-laki, pirang, pria berambut pirang, pria: rambut pirang, rambut
+👩 ibu, perempuan, wanita
+🧔‍♀ janggut, wanita, wanita: janggut
+👱‍♀ perempuan, pirang, rambut, wanita berambut pirang, wanita: rambut pirang
+🧓 lanjut usia, netral gender, tua
+👴 kakek, laki-laki, pria, tua
+👵 nenek, perempuan, tua, wanita
+🙍 gerakan, marah, orang marah
+🙍‍♂ laki-laki, muka, pria muka tidak senang, tidak senang
+🙍‍♀ muka, perempuan, tidak senang, wanita muka tidak senang
+🙎 cemberut, gerakan, orang tidak senang
+🙎‍♂ bibir, laki-laki, pria tidak senang, tidak senang
+🙎‍♀ bibir, perempuan, tidak senang, wanita tidak senang
+🙅 dilarang, gerakan, nggak, orang mengisyaratkan TIDAK, tangan, terlarang, tidak
+🙅‍♂ isyarat, laki-laki, pria mengisyaratkan TIDAK, tidak
+🙅‍♀ isyarat, perempuan, tangan, tidak, wanita mengisyaratkan TIDAK
+🙆 gerakan, oke, orang mengisyaratkan OKE, tangan
+🙆‍♂ isyarat, laki-laki, oke, pria mengisyaratkan OKE, tangan
+🙆‍♀ isyarat, oke, perempuan, tangan, wanita mengisyaratkan OKE
+💁 bantuan, informasi, orang menengadahkan tangan, resepsionis, tangan
+💁‍♂ bantuan, isyarat, laki-laki, pria menengadahkan tangan, tangan
+💁‍♀ bantuan, isyarat, perempuan, tangan, wanita menengadahkan tangan
+🙋 angkat, gerakan, orang mengangkat tangan, senang, tangan
+🙋‍♂ angkat, isyarat, laki-laki, pria mengangkat tangan, tangan
+🙋‍♀ angkat, isyarat, perempuan, tangan, wanita mengangkat tangan
+🧏 aksesibilitas, dengar, kuping, orang tuli, telinga, tuli, tunarungu
+🧏‍♂ lelaki, pria, tuli, tunarungu
+🧏‍♀ perempuan, tuli, tunarungu, wanita
+🙇 bungkuk, gerakan, maaf, nunduk, orang membungkuk, sori, tunduk
+🙇‍♂ isyarat, laki-laki, maaf, pria membungkuk
+🙇‍♀ isyarat, maaf, perempuan, wanita membungkuk
+🤦 cape deh, capedeh, capek deh, orang tepuk jidat, tepuk jidat, yah
+🤦‍♂ isyarat, jidat, laki-laki, pria tepuk jidat, tangan
+🤦‍♀ isyarat, jidat, perempuan, tangan, wanita tepuk jidat
+🤷 bingung, entah, nggak tahu, orang mengangkat bahu, tidak tahu
+🤷‍♂ angkat, bahu, isyarat, laki-laki, pria mengangkat bahu
+🤷‍♀ angkat, bahu, isyarat, perempuan, wanita mengangkat bahu
+🧑‍⚕ dokter, perawat, perawatan kesehatan, petugas kesehatan, terapis
+👨‍⚕ dokter, laki-laki, pekerja kesehatan pria, perawatan kesehatan
+👩‍⚕ dokter, pekerja kesehatan wanita, perawatan kesehatan, perempuan
+🧑‍🎓 kelulusan, murid
+👨‍🎓 laki-laki, sarjana pria, toga, universitas, wisuda
+👩‍🎓 perempuan, sarjana wanita, toga, universitas, wisuda
+🧑‍🏫 dosen, guru, instruktur
+👨‍🏫 laki-laki, pengajar, pengajar pria, sekolah
+👩‍🏫 pengajar, pengajar wanita, perempuan, sekolah
+🧑‍⚖ hakim, timbangan
+👨‍⚖ hakim pria, hukum, laki-laki, pengadilan
+👩‍⚖ hakim wanita, hukum, pengadilan, perempuan
+🧑‍🌾 pekebun, petani, peternak
+👨‍🌾 laki-laki, padi, petani pria, sawah
+👩‍🌾 padi, perempuan, petani wanita, sawah
+🧑‍🍳 chef, koki
+👨‍🍳 dapur, koki pria, laki-laki, memasak
+👩‍🍳 dapur, koki wanita, memasak, perempuan
+🧑‍🔧 mekanik, pekerja terlatih, tukang ledeng, tukang listrik
+👨‍🔧 laki-laki, montir pria, perbaikan, tukang
+👩‍🔧 montir wanita, perbaikan, perempuan, tukang
+🧑‍🏭 industri, pabrik, pekerja, perakitan
+👨‍🏭 laki-laki, pabrik, pekerja, pekerja pabrik pria
+👩‍🏭 pabrik, pekerja, pekerja pabrik wanita, perempuan
+🧑‍💼 arsitek, bisnis, kerah putih, manajer, pekerja kantoran
+👨‍💼 kantor, karyawan, laki-laki, pekerja kantor pria
+👩‍💼 kantor, karyawan, pekerja kantor wanita, perempuan
+🧑‍🔬 ahli biologi, ahli fisika, ahli kimia, ilmuwan, insinyur
+👨‍🔬 ilmuwan pria, laboratorium, laki-laki, sains
+👩‍🔬 ilmuwan wanita, laboratorium, perempuan, sains
+🧑‍💻 ahli teknologi, pemrogram, penemu, pengembang, perangkat lunak
+👨‍💻 ahli teknologi pria, komputer, laki-laki, teknologi
+👩‍💻 ahli teknologi wanita, komputer, perempuan, teknologi
+🧑‍🎤 aktor, bintang, penghibur, penyanyi, rock
+👨‍🎤 aktor, bintang, penghibur, penyanyi, pria, rock
+👩‍🎤 aktor, bintang, penghibur, penyanyi, rock, wanita
+🧑‍🎨 palet, seniman
+👨‍🎨 laki-laki, lukisan, seni, seniman pria
+👩‍🎨 lukisan, perempuan, seni, seniman wanita
+🧑‍✈ pesawat, pilot
+👨‍✈ laki-laki, pesawat, pilot, pilot pria
+👩‍✈ perempuan, pesawat, pilot, pilot wanita
+🧑‍🚀 astronaut, roket
+👨‍🚀 angkasa luar, antariksawan pria, laki-laki, roket
+👩‍🚀 angkasa luar, antariksawan wanita, perempuan, roket
+🧑‍🚒 pemadam kebakaran, truk pemadam kebakaran
+👨‍🚒 api, laki-laki, pemadam, pemadam kebakaran pria
+👩‍🚒 api, pemadam, pemadam kebakaran wanita, perempuan
+👮 penegak hukum, polisi
+👮‍♂ laki-laki, penegak hukum, polisi, polisi pria
+👮‍♀ penegak hukum, perempuan, polisi, polisi wanita
+🕵 detektif, mata-mata
+🕵‍♂ detektif pria, laki-laki, penyelidikan, rahasia
+🕵‍♀ detektif wanita, penyelidikan, perempuan, rahasia
+💂 pengawal, penjaga
+💂‍♂ keamanan, laki-laki, penjaga, penjaga pria
+💂‍♀ keamanan, penjaga, penjaga wanita, perempuan
+🥷 ninja, petarung, sembunyi-sembunyi, tersembunyi
+👷 konstruksi, kontraktor, pekerja, topi
+👷‍♂ konstruksi, kontraktor, laki-laki, pekerja konstruksi pria
+👷‍♀ konstruksi, kontraktor, pekerja konstruksi wanita, wanita
+🤴 pangeran
+👸 dongeng, fantasi, puteri, putri
+👳 laki-laki, orang mengenakan serban, pria, serban, surban
+👳‍♂ laki-laki, pria mengenakan serban, serban
+👳‍♀ perempuan, serban, wanita mengenakan serban
+👲 gua pi mao, orang dengan topi Tionghoa, pria, pria dengan topi Tionghoa, topi
+🧕 hijab, kerudung, mantilla, tichel, wanita dengan kerudung
+🤵 mempelai pria, orang, orang bertuksedo, tuksedo
+🤵‍♂ pria, pria dewasa, pria dewasa bertuksedo, tuksedo, tuxedo
+🤵‍♀ tuksedo, wanita, wanita bertuksedo
+👰 cadar, mempelai wanita, nikah, orang, orang berpenutup kepala, pengantin
+👰‍♂ penutup kepala, pria, pria berpenutup kepala
+👰‍♀ penutup kepala, wanita, wanita berpenutup kepala
+🤰 hamil, ibu hamil, perempuan, wanita
+🤱 bayi, menyusui, payudara
+👩‍🍼 bayi, mengasuh, menyusui, wanita
+👨‍🍼 bayi, mengasuh, menyusui, pria
+🧑‍🍼 bayi, mengasuh, menyusui, orang
+👼 bayi, dongeng, fantasi, malaikat, muka, wajah
+🎅 dongeng, fantasi, natal, perayaan, santa, Sinterklas
+🤶 ibu, nenek, Nyonya Sinterklas, oma
+🧑‍🎄 manusia sinterklas, Natal, Sinterklas
+🦸 baik, kekuatan super, pahlawan, pahlawan super, pahlawan wanita
+🦸‍♂ baik, kekuatan super, pahlawan, pahlawan super pria, pria
+🦸‍♀ baik, kekuatan super, pahlawan, pahlawan super wanita, wanita
+🦹 jahat, kekuatan super, kriminal, penjahat, penjahat super
+🦹‍♂ jahat, kekuatan super, kriminal, penjahat, penjahat super pria, pria
+🦹‍♀ jahat, kekuatan super, kriminal, penjahat, penjahat super wanita, wanita
+🧙 magi, penyihir, tukang sihir
+🧙‍♂ magi pria, penyihir, tukang sihir
+🧙‍♀ magi wanita, penyihir, tukang sihir
+🧚 Oberon, peri, Puck, Titania
+🧚‍♂ Oberon, peri pria, Puck
+🧚‍♀ peri wanita, Titania
+🧛 Drakula, mayat hidup, vampir
+🧛‍♂ Drakula, mayat hidup, vampir pria
+🧛‍♀ mayat hidup, vampir wanita
+🧜 orang duyung, pria duyung, putri duyung, wanita duyung
+🧜‍♂ pria duyung, Triton
+🧜‍♀ putri duyung, wanita duyung
+🧝 ajaib, kurcaci
+🧝‍♂ ajaib, kurcaci pria
+🧝‍♀ ajaib, kurcaci wanita
+🧞 jin
+🧞‍♂ jin, jin pria
+🧞‍♀ jin, jin wanita
+🧟 mayat berjalan, mayat hidup, zombi
+🧟‍♂ mayat berjalan, mayat hidup, zombi pria
+🧟‍♀ mayat berjalan, mayat hidup, zombi wanita
+💆 pijat, pijit, pria dipijat, salon
+💆‍♂ kepala, laki-laki, pijat, pria dipijat kepalanya
+💆‍♀ kepala, perempuan, pijat, wanita dipijat
+💇 cantik, orang potong rambut, potong, rambut, salon
+💇‍♂ laki-laki, potong, pria potong rambut, rambut
+💇‍♀ perempuan, potong, rambut, wanita potong rambut
+🚶 jalan, kaki, orang berjalan kaki
+🚶‍♂ jalan, kaki, laki-laki, pria berjalan kaki
+🚶‍♀ jalan, kaki, perempuan, wanita berjalan kaki
+🧍 berdiri, diri, orang berdiri
+🧍‍♂ berdiri, pria
+🧍‍♀ berdiri, wanita
+🧎 berlutut, lutut, orang berlutut
+🧎‍♂ berlutut, pria
+🧎‍♀ berlutut, wanita
+🧑‍🦯 aksesibilitas, buta, orang dengan tongkat
+👨‍🦯 aksesiblitas, buta, pria, pria dengan tongkat, tunanetra
+👩‍🦯 aksesiblitas, buta, tunanetra, wanita, wanita dengan tongkat
+🧑‍🦼 aksesibilitas, kursi roda, orang dengan kursi roda bermotor
+👨‍🦼 aksesibilitas, kursi roda, pria, pria dengan kursi roda bermotor
+👩‍🦼 aksesibilitas, kursi roda, wanita, wanita dengan kursi roda bermotor
+🧑‍🦽 aksesibilitas, kursi roda, orang dengan kursi roda manual
+👨‍🦽 aksesibilitas, kursi roda, pria, pria dengan kursi roda, pria dengan kursi roda manual
+👩‍🦽 aksesibilitas, kursi roda, wanita, wanita dengan kursi roda, wanita dengan kursi roda manual
+🏃 lari, marathon, maraton, orang berlari
+🏃‍♂ kaki, laki-laki, lari, pria berlari
+🏃‍♀ kaki, lari, perempuan, wanita berlari
+💃 dansa, perempuan, pesta, tari, wanita menari
+🕺 berdansa, dansa, menari, pria
+🕴 bisnis, jas, laki-laki, pria, pria melayang mengenakan jas
+👯 berpesta, orang dengan telinga kelinci, penari, telinga kelinci
+👯‍♂ kostum, laki-laki, pesta, pria dengan telinga kelinci, tari
+👯‍♀ kostum, perempuan, pesta, tari, wanita dengan telinga kelinci
+🧖 orang di ruangan beruap, ruang uap, sauna
+🧖‍♂ pria di ruangan beruap, ruang uap, sauna
+🧖‍♀ ruang uap, sauna, wanita di ruangan beruap
+🧗 orang memanjat, pemanjat
+🧗‍♂ pemanjat, pria memanjat
+🧗‍♀ pemanjat, wanita memanjat
+🤺 anggar, atlet anggar, olahraga, orang, orang berolahraga anggar, pedang
+🏇 balap kuda, balapan, joki, kuda, pacuan
+⛷ pemain ski, salju, ski
+🏂 papan, peselancar salju, salju, seluncur, ski
+🏌 bola, golf, orang bermain golf
+🏌‍♂ bermain, bola, golf, laki-laki, pria bermain golf
+🏌‍♀ bermain, bola, golf, perempuan, wanita bermain golf
+🏄 orang berselancar, seluncur
+🏄‍♂ laki-laki, ombak, pria berselancar, selancar
+🏄‍♀ ombak, perempuan, selancar, wanita berselancar
+🚣 kendaraan, orang mendayung perahu, perahu
+🚣‍♂ dayung, laki-laki, perahu, pria mendayung perahu
+🚣‍♀ dayung, perahu, perempuan, wanita mendayung perahu
+🏊 orang berenang, renang
+🏊‍♂ laki-laki, pria berenang, renang
+🏊‍♀ perempuan, renang, wanita berenang
+⛹ bola, orang memantulkan bola
+⛹‍♂ bola, laki-laki, membawa, pria memantulkan bola
+⛹‍♀ bola, membawa, perempuan, wanita memantulkan bola
+🏋 angkat, beban, orang mengangkat beban
+🏋‍♂ angkat, beban, laki-laki, pria mengangkat beban
+🏋‍♀ angkat, beban, perempuan, wanita mengangkat beban
+🚴 orang bersepeda, sepeda
+🚴‍♂ laki-laki, pria bersepeda, sepeda
+🚴‍♀ perempuan, sepeda, wanita bersepeda
+🚵 gunung, orang bersepeda gunung, pesepeda, sepeda
+🚵‍♂ gunung, laki-laki, pria bersepeda gunung, sepeda
+🚵‍♀ gunung, perempuan, sepeda, wanita bersepeda gunung
+🤸 gimnastik, olahraga, orang, orang melakukan gerakan meroda, salto, senam
+🤸‍♂ balik, jungkir, laki-laki, pria melakukan gerakan meroda
+🤸‍♀ balik, jungkir, perempuan, wanita melakukan gerakan meroda
+🤼 gulat, olahraga, orang, orang bergulat, pegulat
+🤼‍♂ gulat, laki-laki, pria bergulat
+🤼‍♀ gulat, perempuan, wanita bergulat
+🤽 air, olahraga, orang, orang bermain polo air, polo
+🤽‍♂ laki-laki, polo air, pria bermain polo air
+🤽‍♀ perempuan, polo air, wanita bermain polo air
+🤾 bola, bola tangan, olahraga, orang, orang bermain bola tangan
+🤾‍♂ bola tangan, laki-laki, pria bermain bola tangan
+🤾‍♀ bola tangan, perempuan, wanita bermain bola tangan
+🤹 juggling, multitasking, orang melempar, repot, sibuk
+🤹‍♂ atraksi, laki-laki, pria melempar
+🤹‍♀ atraksi, perempuan, wanita melempar
+🧘 meditasi, orang dalam posisi teratai, yoga
+🧘‍♂ meditasi, pria dalam posisi teratai, yoga
+🧘‍♀ meditasi, wanita dalam posisi teratai, yoga
+🛀 bak mandi, mandi, orang di bak mandi
+🛌 hotel, orang di tempat tidur, tidur
+🧑‍🤝‍🧑 bergandengan, orang, pasangan, tangan
+👭 cewek, dua wanita bergandengan, gandeng, pasangan, pegangan, tangan, wanita
+👫 pasangan, pegangan, pria, pria dan wanita bergandengan, pria dan wanita berpegangan tangan, tangan, wanita
+👬 cowok, dua pria bergandengan, gandeng, gemini, kembar, pasangan, pegangan, pria, tangan, zodiak
+💏 berciuman, cium, pasangan, romantis
+💑 cinta, hati, pasangan, pasangan dengan hati, romantis
+👪 anak, ayah, bapak, ibu, keluarga, mama, papa
+🗣 berbicara, bicara, kepala, siluet, wajah
+👤 bayangan, siluet foto setengah badan
+👥 bayangan, beberapa siluet foto setengah badan, siluet
+🫂 halo, orang berpelukan, peluk, selamat tinggal, terima kasih
+👣 badan, jejak, kaki, tubuh
+🦰 cokelat kemerahan, rambut merah
+🦱 afro, ikal, keriting, rambut keriting
+🦳 abu-abu, putih, rambut, tua
+🦲 botak, gundul, kemoterapi, tak berambut
+🐵 monyet, muka, wajah
+🐒 monyet
+🦍 binatang, gorila, kingkong
+🦧 kera, orangutan
+🐶 anjing, hewan, muka, wajah
+🐕 anjing, hewan
+🦮 aksesibilitas, anjing pemandu, buta, panduan, pemandu, tunanetra
+🐕‍🦺 aksesibilitas, anjing, bantuan, bimbingan, pembimbing
+🐩 anjing, pudel
+🐺 muka, serigala, wajah
+🦊 muka, rubah, wajah
+🦝 licik, penasaran, rakun
+🐱 hewan, kucing, muka, wajah
+🐈 hewan, kucing
+🐈‍⬛ hitam, kesialan, kucing
+🦁 leo, muka, singa, wajah, zodiak
+🐯 macan, muka, wajah, wajah harimau
+🐅 harimau
+🐆 macan, tutul
+🐴 kuda, muka, wajah
+🐎 balap, kuda, pacuan
+🦄 muka, unicorn, wajah
+🦓 belang, zebra
+🦌 binatang, rusa
+🦬 bison, bison eropa, kawanan, kerbau
+🐮 muka, sapi, wajah
+🐂 lembu, taurus, zodiak
+🐃 air, kerbau
+🐄 sapi
+🐷 babi, muka, wajah
+🐖 babi
+🐗 babi, babi hutan
+🐽 babi, hidung, muka, wajah
+🐏 aries, domba, domba jantan, zodiak
+🐑 betina, domba
+🐐 capricorn, kambing, zodiak
+🐪 dromedari, punuk, unta
+🐫 baktrian, punuk, unta, unta berpunuk dua
+🦙 alpaka, guanako, llama, vikuna, wol
+🦒 bintik, jerapah
+🐘 gajah
+🦣 berbulu tebal, besar, gading, kepunahan, mamut
+🦏 badak, binatang
+🦛 kuda nil
+🐭 muka, tikus, wajah
+🐁 tikus, tikus putih
+🐀 tikus
+🐹 hamster, hewan peliharaan, wajah
+🐰 hewan peliharaan, kelinci, wajah
+🐇 hewan peliharaan, kelinci
+🐿 tupai
+🦫 bendungan, biwara
+🦔 berduri, landak
+🦇 binatang, kelelawar, vampir
+🐻 beruang, muka, wajah
+🐻‍❄ arktika, beruang, beruang kutub, putih
+🐨 beruang, koala
+🐼 muka, panda, wajah
+🦥 kungkang, lambat, malas
+🦦 berang-berang, ceria, gembira, menangkap ikan
+🦨 bau, busuk, sigung
+🦘 Australia, Joey, kanguru, lompat, marsupialia
+🦡 hewan pengganggu, musang, ratel
+🐾 cakar, jejak, jejak kaki hewan, kaki
+🦃 burung, kalkun
+🐔 ayam, burung
+🐓 ayam jago, burung
+🐣 ayam, bayi, itik menetas, menetas
+🐤 ayam, bayi, itik bayi
+🐥 ayam, bayi, itik bayi menghadap ke depan
+🐦 burung
+🐧 burung, pinguin
+🕊 burung, damai, merpati, terbang
+🦅 burung, elang
+🦆 bebek, unggas
+🦢 angsa, angsa muda, burung, itik buruk rupa
+🦉 bijaksana, burung, burung hantu
+🦤 besar, dodo, Mauritius, punah
+🪶 bulu, burung, penerbangan, ringan
+🦩 flamboyan, flamingo, tropikal, tropis
+🦚 angkuh, burung, merak, merak betina, mewah
+🦜 bajak laut, bicara, burung, nuri
+🐸 katak, muka, wajah
+🐊 buaya
+🐢 kura-kura, penyu, terrapin
+🦎 kadal, reptil
+🐍 ofiukus, pembawa, ular, zodiak
+🐲 dongeng, muka, naga, wajah
+🐉 dongeng, naga
+🦕 brachiosaurus, brontosaurus, diplodocus, sauropod
+🦖 T-Rex, Tyrannosaurus Rex
+🐳 ikan paus menyembur, muka, paus, sembur, wajah
+🐋 ikan, paus
+🐬 lumba-lumba
+🦭 anjing laut, Singa laut
+🐟 ikan, pisces, zodiak
+🐠 ikan, tropis
+🐡 ikan, ikan gembung
+🦈 hiu, ikan
+🐙 gurita
+🐚 cangkang, spiral
+🐌 keong, siput
+🦋 cantik, kupu-kupu, serangga
+🐛 serangga, serangga kecil
+🐜 semut, serangga
+🐝 lebah, lebah madu, serangga
+🪲 hama, kumbang, serangga
+🐞 kumbang, kumbang betina, serangga
+🦗 belalang, jangkrik
+🪳 coro, hama, kecoak, serangga
+🕷 laba-laba, serangga
+🕸 jaring laba-laba, laba-laba, sarang
+🦂 kalajengking, scorpio, zodiak
+🦟 demam, malaria, nyamuk, penyakit, serangga, virus
+🪰 belatung, hama, lalat, membusuk, penyakit
+🪱 annelida, cacing, cacing tanah, parasit
+🦠 amuba, bakteri, mikroba, virus
+💐 bunga, karangan bunga, romantis, tanaman
+🌸 bunga, mekar, sakura, tanaman
+💮 bunga, bunga putih
+🏵 hiasan mawar, tanaman
+🌹 bunga, mawar, tanaman
+🥀 bunga, kecewa, layu
+🌺 bunga, kembang sepatu, tanaman
+🌻 bunga, matahari, tanaman
+🌼 bunga, mekar, tanaman
+🌷 bunga, tanaman, tulip
+🌱 muda, semai, tanaman
+🪴 membosankan, merawat, rumah, tanaman, tanaman pot, tumbuh
+🌲 pohon, pohon hijau abadi, tanaman
+🌳 gugur, pohon, pohon meranggas, tanaman
+🌴 palem, pohon, tanaman
+🌵 kaktus, tanaman
+🌾 bulir, nasi, seikat padi, tanaman
+🌿 daun, herba, tanaman
+☘ shamrock, tanaman
+🍀 4, daun, empat, semanggi, tanaman
+🍁 daun, gugur, maple, tanaman
+🍂 daun, daun berguguran, gugur, tanaman
+🍃 angin, daun, daun tertiup angin, tanaman, terbang, tiup
+🍇 anggur, buah, tanaman
+🍈 buah, melon, tanaman
+🍉 buah, semangka, tanaman
+🍊 buah, buah jeruk, tanaman
+🍋 buah, lemon, tanaman
+🍌 buah, pisang, tanaman
+🍍 buah, nanas, tanaman
+🥭 buah, mangga, tropis
+🍎 apel, buah, merah, tanaman
+🍏 apel, buah, hijau, tanaman
+🍐 buah, pir, tanaman
+🍑 buah, persik, tanaman
+🍒 buah, ceri, tanaman
+🍓 beri, buah, stroberi, tanaman
+🫐 beri, bilberry, biru, bluberi, blueberry
+🥝 buah, kiwi, makanan
+🍅 sayur, tanaman, tomat
+🫒 makanan, zaitun
+🥥 kelapa, palem, piña colada
+🥑 alpukat, alpuket, avokad, avokado, buah, makanan
+🍆 sayur, tanaman, terung
+🥔 kentang, makanan, sayur, sayuran
+🥕 makanan, sayur, wortel
+🌽 bonggol jagung, bulir, tanaman
+🌶 cabai pedas, lada, pedas, tanaman
+🫑 capsicum, paprika, sayuran
+🥒 acar, ketimun, makanan, sayuran, timun
+🥬 bokcoy, kale, kubis, selada, selada hijau
+🥦 brokoli, kubis
+🧄 bawang putih, bumbu dapur
+🧅 bawang bombay, bumbu dapur
+🍄 jamur, tanaman
+🥜 kacang, kacang tanah, makanan, sayur, sayuran
+🌰 kastanye, tanaman
+🍞 roti
+🥐 croissant, roti, roti prancis
+🥖 baget, baguette, roti, roti panjang, roti prancis
+🫓 areva, lavash, pita, roti naan, roti pipih
+🥨 berkeluk, pretzel
+🥯 bagel, roti, schmear
+🥞 pancake, panekuk, serabi
+🧇 makanan, wafel, waffle
+🧀 irisan keju, keju
+🍖 daging, daging pada tulang, tulang
+🍗 ayam, kaki ayam, paha, tulang, unggas
+🥩 babi, daging, domba, irisan, kambing, potongan daging, steak
+🥓 babi asap, bacon, bakon, daging, makanan
+🍔 burger, hamburger
+🍟 goreng, kentang
+🍕 keju, pizza, potongan
+🌭 hot dog, hotdog, sosis
+🥪 roti, roti lapis
+🌮 meksiko, taco
+🌯 burrito, meksiko
+🫔 makanan meksiko, tamale, terbungkus
+🥙 falafel, kebab, makanan, roti isi, roti tawar isi
+🧆 bebola, falafel, kacang arab
+🥚 makanan, telur
+🍳 memasak, menggoreng, telur, wajan
+🥘 kaserol, makanan, seafood, wajan, wajan dangkal
+🍲 mangkuk, panci makanan, rebusan
+🫕 cokelat, fondue, keju, meleleh, periuk, Swiss
+🥣 bubur, mangkuk dengan sendok, sarapan, sereal
+🥗 makanan, salad, salad hijau, sayuran
+🍿 berondong, jagung, popcorn
+🧈 mentega, produk susu
+🧂 bumbu, garam, wadah garam
+🥫 kaleng, makanan kaleng
+🍱 bento, kotak
+🍘 beras, biskuit, kerupuk beras
+🍙 bola, jepang, nasi, nasi kepal
+🍚 masak, nasi matang
+🍛 kari, nasi
+🍜 mangkuk, mangkuk mengepul, mie, ramen, rebusan
+🍝 pasta, spageti
+🍠 kentang, manis, panggang, ubi panggang
+🍢 kebab, laut, makanan, oden, tempura, udang
+🍣 sushi
+🍤 goreng, tempura, udang
+🍥 ikan, kue, kue ikan dengan desain pusaran, pastri, pusaran
+🥮 festival, kue bulan, musim gugur, yuèbǐng
+🍡 dango, jepang, makanan, manis, penutup, sate, stik
+🥟 dumpling, empanada, gyoza, jiaozi, pierogi
+🥠 kue keberuntungan, ramalan
+🥡 kotak makanan, wadah makanan Tionghoa
+🦀 cancer, kepiting, zodiak
+🦞 capit, hidangan laut, lobster, sup
+🦐 makanan, seafood, udang
+🦑 cumi, cumi-cumi, makanan, moluska, seafood
+🦪 menyelam, mutiara, tiram
+🍦 es, krim, lembut, makanan, manis, penutup
+🍧 es, makanan, manis, penutup, serut
+🍨 es, krim, makanan, manis, penutup
+🍩 donat, makanan, manis, penutup
+🍪 biskuit, makanan, manis, penutup
+🎂 hidangan penutup, kue, kue ulang tahun, manis, pastri, perayaan, ulang tahun
+🍰 kue, makanan, manis, pastri, penutup, potongan
+🧁 kue mangkuk, manis, roti
+🥧 isi, kue kering, pai, pastri
+🍫 batangan, cokelat, makanan, manis, penutup, sebatang cokelat
+🍬 makanan, manis, penutup, permen
+🍭 makanan, manis, penutup, permen, permen lolipop
+🍮 makanan, manis, penutup, puding susu
+🍯 kendi, madu, manis, toples madu
+🍼 bayi, botol, minuman, susu
+🥛 gelas, minum susu, susu
+☕ kopi, mengepul, minuman, minuman hangat, panas, teh
+🫖 minum, poci, teh, teko
+🍵 cangkir, cangkir teh tanpa gagang, minuman, teh
+🍶 bar, botol, cangkir, minuman, sake
+🍾 bar, botol, botol dengan penyumbat terlepas, gabus, menyembul, minuman
+🍷 anggur, bar, gelas, minuman
+🍸 bar, gelas, gelas cocktail, koktail, minuman
+🍹 bar, minuman, tropis
+🍺 bar, bir, minuman, mug
+🍻 bar, berbenturan, bir, minuman, mug, mug bir berdenting, tos
+🥂 cling, hore, mendentingkan gelas, perayaan, pesta, selamat
+🥃 alkohol, gelas, gelas tumbler, minum-minum, whisky, wiski
+🥤 cangkir dengan sedotan, jus, soda
+🧋 bubble, pearl, susu, teh
+🧃 kotak jus, kotak minuman
+🧉 minuman, teh mate
+🧊 dingin, es batu, gunung es
+🥢 hashi, sumpit
+🍽 garpu, garpu dan pisau dengan piring, masak, piring, pisau
+🍴 garpu, garpu dan pisau, masak, pisau
+🥄 alat makan, peralatan makan, sendok
+🔪 alat, hocho, masak, pisau, pisau dapur, senjata
+🏺 amphora, Aquarius, kendi, memasak, minuman, zodiak
+🌍 afrika, bola dunia Eropa-Afrika, bumi, dunia, eropa, globe
+🌎 amerika, bola dunia Amerika, bumi, dunia, globe
+🌏 asia, australia, bola dunia Asia-Australia, bumi, dunia, globe
+🌐 asia, bola dunia dengan garis meridian, dunia, globe, meridien
+🗺 dunia, peta
+🗾 jepang, peta, peta Jepang
+🧭 kompas, magnetis, navigasi, orientasi
+🏔 dingin, gunung, gunung dengan puncak bersalju, salju
+⛰ gunung
+🌋 cuaca, erupsi, gunung, gunung berapi
+🗻 fuji, gunung, gunung Fuji
+🏕 berkemah, kemah, tenda
+🏖 pantai, pantai dan payung, payung
+🏜 gurun
+🏝 gurun, pulau, pulau terpencil
+🏞 taman, taman nasional
+🏟 stadion
+🏛 bangunan, klasik
+🏗 bangunan, konstruksi
+🧱 adukan semen, batu bata, tanah liat, tembok
+🪨 batu, batu besar, berat, cadas, padat
+🪵 gelondong, kayu
+🛖 pondok, rumah, rumah bundar, yurt
+🏘 bangunan, perumahan, rumah
+🏚 bangunan, rumah, terlantar
+🏠 bangunan, rumah
+🏡 bangunan, kebun, rumah, rumah dengan taman
+🏢 gedung, gedung perkantoran
+🏣 gedung, jepang, kantor pos Jepang, pos
+🏤 eropa, gedung, kantor pos, pos
+🏥 bangunan, dokter, obat, rumah sakit
+🏦 bangunan, bank
+🏨 bangunan, hotel
+🏩 bangunan, cinta, hotel
+🏪 bangunan, minimarket, toko
+🏫 bangunan, sekolah
+🏬 bangunan, toserba
+🏭 bangunan, pabrik
+🏯 bangunan, jepang, kastel, kastel Jepang
+🏰 bangunan, eropa, kastel
+💒 kapel, pernikahan, romantis
+🗼 menara, menara Tokyo, tokyo
+🗽 liberty, patung, Patung Liberty
+⛪ agama, bangunan, gereja, kristen, salib
+🕌 agama, islam, masjid, muslim
+🛕 hindu, pura
+🕍 agama, kuil, sinagog, yahudi
+⛩ agama, kuil, kuil Shinto, shinto
+🕋 agama, islam, ka’bah, muslim
+⛲ air, air mancur, pancuran
+⛺ berkemah, tenda
+🌁 berkabut, cuaca, kabut
+🌃 bintang, cuaca, malam, malam berbintang
+🏙 bangunan, kota, panorama kota
+🌄 cuaca, gunung, matahari, matahari terbit di antara gunung, pagi, terbit
+🌅 cuaca, matahari, matahari terbit, pagi
+🌆 kota, matahari terbenam, panorama kota di sore hari, pemandangan, senja, sore
+🌇 bangunan, cuaca, matahari, matahari terbenam, senja
+🌉 cuaca, jembatan, jembatan di malam hari, malam
+♨ air, mata, mengepul, panas, sumber
+🎠 karosel, komidi putar, kuda
+🎡 hiburan, kincir, kincir ria, roda, taman
+🎢 coaster, hiburan, roller, taman
+💈 potong, rambut, salon, tanda salon, tiang
+🎪 sirkus, tenda
+🚂 kendaraan, kereta, lokomotif, mesin, rel, uap
+🚃 bus listrik, gerbong, kereta api, listrik, mobil, rel kereta, trem
+🚄 cepat, kendaraan, kereta, kereta ekspres, rel, shinkansen
+🚅 cepat, kendaraan, kereta, kereta ekspres peluru, peluru, rel, shinkansen
+🚆 kendaraan, kereta, rel
+🚇 bawah, kendaraan, kereta bawah tanah, tanah
+🚈 kendaraan, light rail, rel
+🚉 kendaraan, kereta, rel, stasiun
+🚊 kendaraan, kereta, listrik, trem
+🚝 kendaraan, monorel
+🚞 gunung, jalur kereta pegunungan, kendaraan, mobil, rel
+🚋 gerbong trem, kendaraan, kereta, mobil, trem
+🚌 bus, kendaraan
+🚍 bus, datang, kendaraan
+🚎 bus, kendaraan, listrik, trem
+🚐 bus, kendaraan, minibus
+🚑 ambulans, kendaraan
+🚒 api, kendaraan, mesin, mobil pemadam kebakaran, truk
+🚓 kendaraan, mobil, patroli, polisi
+🚔 datang, kendaraan, mobil, polisi
+🚕 kendaraan, taksi
+🚖 datang, kendaraan, taksi
+🚗 kendaraan, mobil
+🚘 datang, kendaraan, mobil
+🚙 kendaraan, rekreasi, RV
+🛻 pick-up, pikap, truk
+🚚 kendaraan, pengiriman, truk
+🚛 kendaraan, lori, lori gandeng, semi, truk
+🚜 kendaraan, traktor
+🏎 balapan, mobil, mobil balap
+🏍 balapan, sepeda motor
+🛵 motor, skuter, vespa
+🦽 aksesibilitas, kursi roda manual
+🦼 aksesibilitas, kursi roda bermotor
+🛺 bajaj, tuk tuk
+🚲 kendaraan, sepeda
+🛴 otoped, skuter
+🛹 papan, papan luncur
+🛼 roda, sepatu
+🚏 bus, halte, perhentian
+🛣 jalan, raya
+🛤 jalan, kereta, rel kereta
+🛢 drum, minyak
+⛽ bahan, bakar, bensin, pompa, SPBU, stasiun
+🚨 berputar, kendaraan, lampu, mobil, polisi, suar
+🚥 lalu, lampu, lampu lalu lintas horizontal, lintas, sinyal
+🚦 lalu, lampu, lampu lalu lintas vertikal, lintas, sinyal
+🛑 heksagon, rambu stop, segi enam, stop, tanda
+🚧 konstruksi, pembatas
+⚓ alat, jangkar, kapal
+⛵ kapal, kendaraan, laut, perahu, perahu layar, pesiar, resor
+🛶 getek, kano, perahu, sampan
+🚤 kendaraan, perahu, perahu cepat
+🛳 kapal, kendaraan, penumpang
+⛴ kapal feri, perahu
+🛥 bermotor, kapal, kendaraan, perahu
+🚢 kapal, kendaraan
+✈ kendaraan, pesawat
+🛩 kendaraan, pesawat, pesawat kecil
+🛫 check-in, keberangkatan, kedatangan, kendaraan, pesawat, pesawat lepas landas
+🛬 datang, kedatangan, kendaraan, mendarat, pesawat
+🪂 hang-glide, parasail, parasut, terjun payung
+💺 duduk, kursi
+🚁 helikopter, kendaraan
+🚟 kendaraan, kereta suspensi, rel, suspensi
+🚠 gondola, gunung, kabel, kendaraan, kereta gantung
+🚡 gondola, jalur trem, kabel, trem, trem gantung
+🛰 angkasa, kendaraan, satelit
+🚀 angkasa, kendaraan, roket
+🛸 piring terbang, UFO
+🛎 bel meja, hotel, lonceng, pelayan
+🧳 bepergian, berkemas, koper
+⌛ jam pasir, pasir, pewaktu
+⏳ jam, jam pasir yang bergerak, pasir, pewaktu
+⌚ jam, jam tangan
+⏰ alarm, jam, jam weker
+⏱ jam, stopwatch
+⏲ jam, penghitung waktu, pewaktu
+🕰 jam, jam perapian
+🕛 00, 12, 12.00, dua belas, jam, jam dua belas tepat, tepat
+🕧 12, 12.30, 30, dua belas, jam, jam setengah satu, tiga puluh
+🕐 00, 1, 1.00, jam, satu, tepat
+🕜 1, 1.30, 30, jam, jam setengah dua, satu, tiga puluh
+🕑 00, 2, 2.00, dua, jam, tepat
+🕝 2, 2.30, 30, dua, jam, jam setengah tiga, tiga puluh
+🕒 00, 3, 3.00, jam, tepat, tiga
+🕞 3, 3.30, 30, jam, jam setengah empat, tiga, tiga puluh
+🕓 00, 4, 4.00, empat, jam, tepat
+🕟 30, 4, 4.30, empat, jam, jam setengah lima, tiga puluh
+🕔 00, 5, 5.00, jam, lima, tepat
+🕠 30, 5, 5.30, jam setengah enam, lima, tiga puluh
+🕕 00, 6, 6.00, enam, jam, tepat
+🕡 30, 6, 6.30, enam, jam, jam setengah tujuh, tiga puluh
+🕖 00, 7, 7.00, jam, tepat, tujuh
+🕢 30, 7, 7.30, jam, jam setengah delapan, tiga puluh, tujuh
+🕗 00, 8, 8.00, delapan, jam, tepat
+🕣 30, 8, 8.30, delapan, jam, jam setengah sembilan, tiga puluh
+🕘 00, 9, 9.00, jam, sembilan, tepat
+🕤 30, 9, 9.30, jam, jam setengah sepuluh, sembilan, tiga puluh
+🕙 00, 10, 10.00, jam, sepuluh, tepat
+🕥 10, 10.30, 30, jam, jam setengah sebelas, sepuluh, tiga puluh
+🕚 00, 11, 11.00, jam, sebelas, tepat
+🕦 11, 11.30, 30, jam, jam setengah dua belas, sebelas, tiga puluh
+🌑 angkasa, bulan, bulan baru, cuaca, gelap
+🌒 angkasa, bulan, bulan sabit awal, cuaca, membesar, sabit
+🌓 angkasa, bulan, bulan perbani awal, cuaca, seperempat
+🌔 angkasa, bulan, bulan cembung awal, cembung, cuaca, membesar
+🌕 angkasa, bulan, cuaca, purnama
+🌖 angkasa, bulan, bulan cembung akhir, cembung, cuaca, mengecil
+🌗 angkasa, bulan, bulan perbani akhir, cuaca, seperempat
+🌘 angkasa, bulan, bulan sabit akhir, cuaca, mengecil, sabit
+🌙 angkasa, bulan, cuaca, sabit
+🌚 angkasa, bulan, cuaca, wajah, wajah bulan baru
+🌛 angkasa, bulan, cuaca, seperempat, wajah, wajah bulan perbani awal
+🌜 angkasa, bulan, cuaca, seperempat, wajah, wajah bulan perbani akhir
+🌡 cuaca, termometer
+☀ angkasa, cerah, cuaca, matahari, sinar, terang
+🌝 angkasa, bulan, cuaca, purnama, terang, wajah
+🌞 angkasa, cuaca, matahari, terang, wajah
+🪐 planet bercincin, saturnus
+⭐ bintang, bintang medium putih
+🌟 berkilau, bersinar, bintang, cemerlang
+🌠 angkasa, bintang, jatuh
+🌌 bima sakti, cuaca, ruang
+☁ awan, cuaca
+⛅ awan, cuaca, matahari, matahari di balik awan
+⛈ awan, awan dengan petir dan hujan, cuaca, hujan, petir
+🌤 awan, cuaca, matahari, matahari di balik awan kecil
+🌥 awan, cuaca, matahari, matahari di balik awan besar
+🌦 awan, cuaca, hujan, matahari, matahari di balik awan hujan
+🌧 awan, cuaca, hujan
+🌨 awan, cuaca, dingin, salju
+🌩 awan, awan petir, cuaca, kilat
+🌪 angin, awan, cuaca, pusaran, tornado
+🌫 awan, cuaca, kabut
+🌬 angin, awan, cuaca, hembusan, wajah, wajah tertiup angin
+🌀 berputar-putar, cuaca, pusaran, topan
+🌈 cuaca, hujan, pelangi
+🌂 cuaca, hujan, pakaian, payung, payung tertutup
+☂ cuaca, hujan, pakaian, payung
+☔ cuaca, hujan, pakaian, payung, payung dengan tetesan hujan
+⛱ cuaca, hujan, matahari, payung, payung di tanah
+⚡ bahaya, kilat, listrik, sambaran, tegangan, tegangan tinggi
+❄ cuaca, dingin, salju, serpihan salju
+☃ boneka salju dengan hujan salju, cuaca, dingin, salju
+⛄ boneka, boneka salju tanpa salju, cuaca, dingin, salju
+☄ angkasa, komet
+🔥 alat, api, kobaran
+💧 cuaca, dingin, keringat, komik, tetesan, tetesan air
+🌊 air, cuaca, lautan, ombak
+🎃 halloween, jack, jack-o-lantern, lentera, perayaan
+🎄 natal, perayaan, pohon, pohon Natal
+🎆 kembang api, perayaan
+🎇 api, berkilau, kembang, kembang api batang, perayaan
+🧨 bahan peledak, dinamit, kembang api, petasan
+✨ *, berkilau, bintang, kilauan
+🎈 balon, perayaan
+🎉 jreng, party popper, perayaan, popper
+🎊 bola, bola konfeti, confetti, perayaan
+🎋 jepang, perayaan, pohon, pohon tanabata, spanduk
+🎍 bambu, dekorasi pinus, jepang, perayaan, pinus, tanaman
+🎎 boneka, boneka Jepang, festival, jepang, perayaan
+🎏 bendera ikan koi, koi, panji, perayaan
+🎐 angin, gemerincing, lonceng, perayaan
+🎑 bulan, perayaan, upacara
+🧧 amplop merah, hadiah, hóngbāo, lai see, semoga beruntung, uang
+🎀 perayaan, pita
+🎁 bungkusan, hadiah, kado, kotak, perayaan
+🎗 pengingat, perayaan, pita
+🎟 masuk, tiket
+🎫 masuk, tiket
+🎖 medali, militer, perayaan
+🏆 hadiah, piala
+🏅 medali, medali olahraga
+🥇 emas, juara pertama, medali
+🥈 juara kedua, medali, perak
+🥉 juara ketiga, medali, perunggu
+⚽ bola, sepak
+⚾ bisbol, bola
+🥎 bola, sarung tangan, sofbol
+🏀 bola, bola basket, loncat
+🏐 bola, bola voli, permainan
+🏈 American football, amerika, bola, football
+🏉 bola, football, rugby, sepak bola rugbi
+🎾 bola, raket, tenis
+🥏 cakram, lempar cakram
+🎳 bola, bowling, game
+🏏 bola, kriket, pemukul, permainan
+🏑 bola, hoki, lapangan, permainan, stik
+🏒 bola karet, es, hoki, permainan, stik
+🥍 bola, gawang, lacrosse, tongkat
+🏓 bet, bola, pemukul, permainan, ping pong, tenis meja
+🏸 bulu tangkis, game, kok, raket
+🥊 olahraga, sarung tangan, sarung tinju, tinju
+🥋 bela diri, judo, karate, seragam bela diri, seragam beladiri, seragam taekwondo
+🥅 gawang, gol, jaring, olahraga
+⛳ bendera di lubang golf, golf, lubang
+⛸ es, seluncur
+🎣 ikan, tongkat, tongkat pancing
+🤿 kacamata selam, menyelam, scuba, selam, snorkel, snorkeling
+🎽 kaos, lari, selempang
+🎿 salju, ski
+🛷 kereta luncur
+🥌 batu, batu curling, permainan
+🎯 anak panah, dart, lempar, mata, papan sasaran, permainan, target
+🪀 mainan, naik-turun, yo-yo
+🪁 layang-layang, melayang, terbang
+🎱 8, biliar 8 bola, bola, delapan, game
+🔮 alat, bola, dongeng, fantasi, kristal, ramalan
+🪄 penyihir pria, penyihir wanita, sihir, tongkat ajaib
+🧿 jimat, manik-manik, mantra, mata setan, nazar
+🎮 game, pengontrol, video game
+🕹 game, game video, joystick
+🎰 game, mesin slot, slot
+🎲 dadu, permainan
+🧩 keping puzzle, kepingan, petunjuk, puzzle, saling terkait
+🧸 boneka, boneka beruang, mainan
+🪅 perayaan, pesta, pinata
+🪆 bersarang, boneka, rusia
+♠ kartu, permainan, sekop
+♥ hati, kartu, permainan
+♦ kartu, permainan, wajik
+♣ kartu, keriting, klub, permainan
+♟ anak buah, catur, pion
+🃏 joker, kartu, permainan
+🀄 game, mahyong, merah, naga merah mahyong
+🎴 bunga, game, jepang, kartu, permainan
+🎭 seni, seni drama, tampil, teater, topeng
+🖼 bingkai, bingkai bergambar, gambar, lukisan, museum, seni
+🎨 lukisan, museum, palet, palet pelukis, seni
+🧵 benang, gulungan, jahit, jarum
+🪡 jahit, jahitan, jarum, menjahit, penjahit, sulaman
+🧶 bola, gulungan benang, rajut, sulam
+🪢 belitan, ikatan, kusut, puntiran, simpul, tali
+👓 kaca, kacamata, mata, pakaian
+🕶 hitam, kaca, kacamata hitam, mata
+🥽 berenang, kacamata renang, mengelas, pelindung mata
+🥼 dokter, ilmuwan, jas laboratorium, percobaan
+🦺 darurat, keselamatan, pengaman, rompi
+👔 dasi, pakaian
+👕 kaos, kaus, pakaian, polo
+👖 celana, celana jeans, pakaian, panjang
+🧣 leher, syal
+🧤 sarung tangan, tangan
+🧥 jaket, mantel
+🧦 kaos kaki, kaus kaki, stocking, stoking
+👗 gaun, pakaian
+👘 kimono, pakaian
+🥻 gaun, pakaian, sari, terusan
+🩱 pakaian renang, pakaian renang one-piece
+🩲 baju renang, celana renang, one-piece, pakaian dalam, pakaian renang
+🩳 baju renang, celana, celana pendek, pakaian dalam, pakaian renang
+👙 bikini, pakaian, renang
+👚 pakaian, wanita
+👛 dompet, koin, pakaian
+👜 pakaian, tas, tas jinjing
+👝 kantung, pakaian, tas
+🛍 belanja, hotel, tas
+🎒 ransel, sekolah, tas
+🩴 sandal, sandal jepit, sandal pantai, zōri
+👞 pakaian, pria, sepatu
+👟 atletik, kets, pakaian, sepatu, sepatu lari
+🥾 backpacking, boot, kemping, mendaki, sepatu boot untuk mendaki
+🥿 sandal selop, selop, sepatu balet, sepatu flat
+👠 hak, pakaian, sepatu, sepatu hak tinggi, wanita
+👡 pakaian, sandal, sepatu, wanita
+🩰 balet, menari, sepatu balet, tari, tarian
+👢 bot, pakaian, sepatu bot wanita, wanita
+👑 mahkota, pakaian, raja, ratu
+👒 pakaian, topi, wanita
+🎩 pakaian, sulap, topi, topi tinggi
+🎓 pakaian, perayaan, toga, topi, wisuda
+🧢 topi berlidah, topi bisbol
+🪖 angkatan darat, helm, helm tentara, militer, pejuang, prajurit
+⛑ helm, helm dengan palang putih, muka, p3k, palang, topi, wajah
+📿 agama, doa, kalung, pakaian, tasbih
+💄 dandan, kosmetik, lipstik
+💍 berlian, cincin, romantis
+💎 batu permata, berlian, permata, romantis
+🔇 bisu, diam, senyap, speaker, speaker mati
+🔈 lembut, volume speaker rendah
+🔉 medium, volume speaker medium
+🔊 keras, volume speaker tinggi
+📢 keras, pengeras suara, pengumuman
+📣 bersorak, megafon
+📯 pos, trompet
+🔔 lonceng
+🔕 bisu, diam, lonceng, lonceng dicoret, senyap, terlarang
+🎼 musik, naskah musik, skor
+🎵 musik, not
+🎶 musik, not, not-not musik
+🎙 mik, mikrofon, musik, studio
+🎚 level, musik, penggeser, penggeser tingkat
+🎛 kenop, kontrol, musik
+🎤 karaoke, mik, mikrofon
+🎧 earbud, headphone
+📻 radio, video
+🎷 instrumen, musik, saksofon
+🪗 akordeon, concertina, kotak remas
+🎸 gitar, instrumen, musik
+🎹 instrumen, keyboard, musik, piano
+🎺 instrumen, musik, trompet
+🎻 biola, instrumen, musik
+🪕 banjo, musik, senar
+🥁 drum, musik, stik drum
+🪘 conga, dentum, gendang, irama
+📱 ponsel, seluler, telepon
+📲 panah, panggilan, ponsel, seluler, telepon, telepon masuk, terima
+☎ telepon
+📞 gagang telepon, penerima, telepon
+📟 pager
+📠 faksimili, mesin faks
+🔋 baterai
+🔌 listrik, steker
+💻 komputer, komputer laptop, PC, personal
+🖥 desktop, komputer
+🖨 komputer, printer
+⌨ keyboard, komputer
+🖱 komputer, mouse komputer
+🖲 komputer, trackball
+💽 disk, disk mini, komputer, optik
+💾 disk, disket, komputer
+💿 cd, disk, komputer, optik
+📀 blu-ray, disk, dvd, komputer, optik
+🧮 kalkulasi, sempoa
+🎥 film, kamera, sinema
+🎞 film, frame, sinema
+📽 film, proyektor, sinema, video
+🎬 film, papan sutradara
+📺 televisi, tv, video
+📷 kamera, video
+📸 flash, kamera, kamera dengan flash, video
+📹 kamera, video
+📼 kaset video, pita, vhs, video
+🔍 alat, kaca, kaca pembesar arah kiri, pembesar, penelusuran
+🔎 alat, kaca, kaca pembesar arah kanan, pembesar, penelusuran
+🕯 cahaya, lilin
+💡 bohlam, elektrik, ide, komik, lampu
+🔦 alat, cahaya, lampu senter, listrik, senter
+🏮 bar, cahaya, lampion merah, lentera, merah
+🪔 diya, lampu, lentera, minyak
+📔 buku, buku catatan, buku catatan bersampul, dekorasi, sampul
+📕 buku, tertutup
+📖 buku, terbuka
+📗 buku, hijau
+📘 biru, buku
+📙 buku, oranye
+📚 buku
+📓 buku catatan
+📒 buku besar, buku catatan
+📃 dokumen, gulung, halaman, halaman tergulung
+📜 gulungan, kertas
+📄 dokumen, halaman, halaman tampak depan
+📰 berita, kertas, koran
+🗞 berita, gulungan koran, kertas, koran, tergulung
+📑 penanda, penanda halaman buku, tab, tanda
+🔖 pembatas buku, tanda
+🏷 label
+💰 dolar, kantong, kantung uang, uang
+🪙 emas, harta karun, koin, logam, perak, uang
+💴 mata uang, uang, uang kertas, uang kertas yen, yen
+💵 dolar, mata uang, uang, uang kertas, uang kertas dolar
+💶 euro, mata uang, uang, uang kertas, uang kertas euro
+💷 mata uang, pound, uang, uang kertas, uang kertas pound
+💸 sayap, terbang, uang, uang bersayap, uang kertas
+💳 kartu, kredit, uang
+🧾 akuntansi, bukti, kuitansi, pembukuan
+💹 bagan, bagan meningkat dengan yen, grafik, pertumbuhan, uang, yen
+✉ amplop, email, surat
+📧 email, surat
+📨 amplop, amplop datang, email, masuk, surat, terima
+📩 amplop, amplop dengan panah, email, keluar, panah
+📤 baki, keluar, kotak, surat, terkirim
+📥 baki, baki kotak masuk, kotak, kotak masuk, surat, terima
+📦 kotak, paket, parsel
+📫 kotak surat, kotak surat tertutup dengan bendera terangkat, surat, tertutup
+📪 kotak surat, kotak surat tertutup dengan bendera turun, surat, tertutup, turun
+📬 kotak surat, kotak surat terbuka dengan bendera terangkat, surat, terbuka
+📭 kotak surat, kotak surat terbuka dengan bendera turun, surat, terbuka, turun
+📮 kotak pos, kotak surat, surat
+🗳 kotak, kotak dengan surat suara, surat suara
+✏ pensil
+✒ pena, ujung pena
+🖋 pena, tinta
+🖊 bolpoin, pena
+🖌 kuas, lukisan
+🖍 krayon
+📝 memo, pensil
+💼 tas kantor
+📁 file, folder
+📂 file, folder, terbuka
+🗂 indeks, kartu, pembagi
+📅 kalender, tanggal
+📆 kalender, kalender sobek
+🗒 catatan, kertas, spiral
+🗓 kalender, kertas, spiral
+📇 indeks, kartu, rolodex
+📈 bagan, bagan meningkat, grafik, naik, pertumbuhan, tren
+📉 bagan, bagan menurun, grafik, tren, turun
+📊 bagan, batang, diagram batang, grafik
+📋 papan klip
+📌 paku penanda, pin
+📍 paku, paku penanda bulat, pin
+📎 klip kertas
+🖇 klip kertas, klip kertas tertaut, tautan
+📏 penggaris, penggaris lurus, ujung lurus
+📐 penggaris, rangkaian, segitiga
+✂ alat, gunting, potong
+🗃 file, kartu, kotak
+🗄 file, lemari, pemberkasan
+🗑 keranjang sampah
+🔒 gembok, tutup
+🔓 buka, gembok, gembok terbuka, tidak digembok
+🔏 gembok, gembok terkunci dengan pena, pena, privasi, tinta, ujung pena
+🔐 aman, gembok, gembok terkunci dengan kunci, kunci, tutup
+🔑 kunci, sandi
+🗝 antik, gembok, kunci, petunjuk
+🔨 alat, palu
+🪓 belah, kapak, kayu, potong
+⛏ alat, beliung, tambang
+⚒ alat, beliung, palu, palu dan beliung
+🛠 alat, kunci inggris, palu, palu dan kunci inggris
+🗡 belati, pisau, senjata
+⚔ pedang, pedang bersilang, senjata, silang
+🔫 alat, pistol, pistol air, revolver, senjata
+🪃 australia, berbalik, bumerang, melambung
+🏹 busur, busur dan panah, panah, pemanah, Sagitarius, zodiak
+🛡 perisai, senjata
+🪚 gergaji, kayu, perkakas, tukang kayu
+🔧 alat, kunci inggris
+🪛 alat, obeng
+🔩 alat, baut, mur, mur dan baut
+⚙ alat, roda gigi
+🗜 alat, klem, pengompres
+⚖ imbang, keadilan, Libra, timbangan, timbangan gantung, zodiak
+🦯 aksesibilitas, buta, tongkat tunanetra, tunanetra
+🔗 tautan
+⛓ rantai
+🪝 kail, kait, kurva, titik jual
+🧰 kotak perkakas, mekanik, perkakas, peti
+🧲 ladam, magnet, magnetik, tarikan
+🪜 anak tangga, panjat, tangga
+⚗ alat, alembic, kimia
+🧪 ahli kimia, kimia, lab, percobaan, sains, tabung uji
+🧫 ahli biologi, bakteri, biologi, cawan petri, kultur, lab
+🧬 ahli biologi, dna, evolusi, gen, genetik, kehidupan
+🔬 alat, mikroskop, sains
+🔭 alat, sains, teleskop
+📡 antena, piring, satelit
+💉 jarum, obat, sakit, suntikan
+🩸 donor darah, menstruasi, obat, tetesan darah
+💊 dokter, obat, pil, sakit
+🩹 plester, plester luka
+🩺 dokter, jantung, obat, stetoskop
+🚪 pintu
+🛗 aksesibilitas, elevator, kerekan, lift
+🪞 cermin, pantulan, reflektor, spekulum
+🪟 bingkai, bukaan, jendela, pemadangan, transparan, udara segar
+🛏 hotel, tempat tidur, tidur
+🛋 hotel, lampu, sofa, sofa dan lampu
+🪑 bangku, duduk, kursi
+🚽 toilet
+🪠 penyedot, penyedot wc, toilet, tukang ledeng
+🚿 air, shower
+🛁 bathtub, mandi
+🪤 jebakan, jerat, perangkap tikus, umpan
+🪒 cukur, pisau cukur, tajam
+🧴 botol losion, losion, moisturizer, sampo, tabir surya
+🧷 peniti, popok, punk rock
+🧹 membersihkan, menyapu, penyihir, sapu
+🧺 berkebun, cucian, keranjang, piknik
+🧻 gulungan kertas, tisu toilet
+🪣 ember, tong, wadah
+🧼 batang, busa, mandi, membersihkan, sabun, wadah sabun
+🪥 bersih, gigi, gigi dan mulut, higienis, kamar mandi, sikat
+🧽 berpori, membersihkan, menyerap, spons
+🧯 alat pemadam api ringan, api, padam, pemadam
+🛒 belanja, troli
+🚬 merokok, rokok
+⚰ kematian, peti mati
+🪦 batu nisan, kuburan, nisan, pekuburan, pemakaman
+⚱ abu, guci, kematian, penguburan
+🗿 moai, moyai, patung, wajah
+🪧 demonstrasi, papan penanda, plakat, protes
+🏧 atm, bank, otomatis, tanda ATM, teller
+🚮 keranjang sampah, sampah, tanda membuang sampah
+🚰 air, air dapat diminum, dapat diminum, minum
+♿ akses, simbol kursi roda
+🚹 kamar kecil, pria, toilet, wc
+🚺 kamar kecil, toilet, wanita, wc
+🚻 kamar kecil, toilet, WC
+🚼 bayi, ganti, simbol bayi
+🚾 air, kamar kecil, kloset, toilet, wc
+🛂 kontrol, paspor
+🛃 bea cukai
+🛄 bagasi, pengambilan
+🛅 bagasi, barang tertinggal, koper, koper tertinggal, loker
+⚠ peringatan
+🚸 anak, anak-anak menyeberang, lalu lintas, menyeberang, trotoar
+⛔ dilarang, lalu lintas, masuk, terlarang, tidak
+🚫 dilarang, masuk, terlarang, tidak
+🚳 dilarang, dilarang bersepeda, kendaraan, sepeda, terlarang, tidak
+🚭 dilarang, merokok, terlarang, tidak
+🚯 dilarang, dilarang membuang sampah sembarangan, sampah, terlarang, tidak
+🚱 air, air tidak dapat diminum
+🚷 dilarang, pejalan kaki, pejalan kaki dilarang masuk, terlarang, tidak
+📵 dilarang menggunakan ponsel, mobile, seluler, telepon, terlarang, tidak
+🔞 18, batasan usia, delapan belas, di bawah 18 tahun dilarang, di bawah umur, dilarang
+☢ radioaktif, tanda
+☣ biohazard, tanda
+⬆ arah, kardinal, panah, tanda panah atas, utara
+↗ arah, interkardinal, panah, tanda panah kanan atas, timur laut
+➡ arah, kardinal, panah, tanda panah kanan, timur
+↘ arah, interkardinal, panah, tanda panah kanan bawah, tenggara
+⬇ arah, bawah, kardinal, panah, selatan, tanda panah bawah
+↙ arah, barat daya, interkardinal, panah, tanda panah kiri bawah
+⬅ arah, barat, kardinal, panah, tanda panah kiri
+↖ arah, barat laut, interkardinal, panah, tanda panah kiri atas
+↕ panah, tanda panah atas bawah
+↔ panah, tanda panah kiri kanan
+↮ panah arah kanan kiri
+↩ panah, tanda panah kanan melengkung ke kiri
+↪ panah, tanda panah kanan melengkung ke kanan
+⤴ panah, tanda panah kanan melengkung ke atas
+⤵ bawah, panah, tanda panah kanan melengkung ke bawah
+🔃 muat ulang, panah, searah jarum jam, tanda panah searah jarum jam
+🔄 berlawan arah matahari, berlawanan jarum jam, kebalikan arah jarum jam, panah, tanda panah berlawanan arah jarum jam
+🔙 kembali, panah, tanda panah BACK
+🔚 berakhir, panah, tanda panah END
+🔛 aktif, panah, tanda, tanda panah ON!
+🔜 panah, segera, tanda panah SOON
+🔝 ke atas, panah, tanda panah TOP
+🛐 agama, pemujaan, tempat ibadah
+⚛ ateis, atom, simbol atom
+🕉 agama, Hindu, om
+✡ agama, bintang, Daud, Yahudi
+☸ agama, budha, dharma, roda
+☯ agama, tao, taoisme, yang, yin
+✝ agama, kristen, salib, salib latin
+☦ agama, kristen, salib, salib ortodoks
+☪ agama, bintang dan bulan, islam, muslim
+☮ damai, simbol damai
+🕎 agama, candelabra, menorah, tempat lilin
+🔯 bintang, bintang sudut enam bertitik, ramalan
+♈ aries, Aries, domba, zodiak
+♉ banteng, taurus, Taurus, zodiak
+♊ gemini, Gemini, kembar, zodiak
+♋ cancer, Cancer, kepiting, zodiak
+♌ leo, Leo, singa, zodiak
+♍ Virgo, zodiak
+♎ adil, libra, Libra, seimbang, timbangan, zodiak
+♏ kalajengking, scorpio, Scorpio, zodiak
+♐ pemanah, sagitarius, Sagitarius, zodiak
+♑ capricorn, Capricorn, kambing, zodiak
+♒ air, aquarius, Aquarius, pembawa, zodiak
+♓ ikan, pisces, Pisces, zodiak
+⛎ ophiuchus, Ophiuchus, pembawa, ular, zodiak
+🔀 bersilangan, panah, tombol acak lagu
+🔁 panah, searah jarum jam, tombol ulangi, ulangi
+🔂 panah, searah jarum jam, sekali, tombol ulangi satu lagu
+▶ kanan, panah, putar, segitiga, tombol putar
+⏩ cepat, dobel, maju, panah, tombol maju cepat
+⏭ adegan selanjutnya, lagu berikutnya, panah, segitiga, tombol lagu berikutnya
+⏯ jeda, kanan, panah, putar, segitiga, tombol putar atau jeda
+◀ balik, kiri, panah, segitiga, tombol mundur
+⏪ dobel, panah, putar balik, tombol mundur cepat
+⏮ adegan sebelumnya, lagu sebelumnya, panah, segitiga, tombol lagu terakhir
+🔼 merah, panah, tombol, tombol naik
+⏫ dobel, panah, tombol naik cepat
+🔽 bawah, merah, panah, tombol, tombol turun
+⏬ bawah, dobel, panah, tombol turun cepat
+⏸ batang, dobel, jeda, tombol jeda, vertikal
+⏹ berhenti, kotak, tombol berhenti
+⏺ lingkaran, rekam, tombol rekam
+⏏ keluarkan, tombol keluarkan
+🎦 film, kamera
+🔅 kecerahan, redup, rendah, tombol redupkan
+🔆 cerah, kecerahan, tombol cerahkan
+📶 antena, batang, ponsel, seluler, sinyal, telepon
+📳 getar, mode, ponsel, seluler, telepon
+📴 mati, ponsel, ponsel nonaktif, seluler, telepon
+♀ perempuan, simbol wanita
+♂ laki-laki, simbol pria
+⚧ simbol transgender, transgender
+✖ batal, kali, perkalian, tanda, x
+➕ +, matematika, plus, tambah, tanda
+➖ -, −, kurang, matematika, minus, tanda
+➗ ÷, bagi, matematika, pembagian, tanda
+♾ selamanya, tak terbatas, tak terhingga, universal
+‼ bangbang, tanda, tanda baca, tanda seru, tanda seru ganda
+⁉ pertanyaan, tanda, tanda baca, tanda seru, tanda seru dan tanya
+❓ pertanyaan, tanda, tanda baca, tanda tanya, tanda tanya merah
+❔ garis luar, pertanyaan, tanda, tanda baca, tanda tanya putih
+❕ garis luar, tanda, tanda baca, tanda seru, tanda seru putih
+❗ tanda, tanda baca, tanda seru, tanda seru merah
+〰 garis bergelombang, gelombang, tanda baca, tanda pisah
+💱 bank, kurs, mata uang, uang
+💲 dolar, mata uang, tanda dolar tebal, tanda dollar tebal, uang
+⚕ aesculapius, kedokteran, simbol kedokteran, tongkat
+♻ daur ulang, simbol daur ulang
+⚜ fleur-de-lis, tanda
+🔱 alat, emblem, jangkar, kapal, trisula
+📛 lencana, nama
+🔰 daun, Jepang, pemula, simbol jepang untuk pemula, tanda pangkat
+⭕ lingkaran, lingkaran besar tebal, o
+✅ centang, tanda, tanda centang putih tebal
+☑ centang, kotak, kotak bercentang
+✔ centang, tanda, tanda centang tebal
+❌ batal, kali, perkalian, tanda, tanda silang, x
+❎ kotak, tanda, tombol tanda silang
+➰ gelombang, putaran, untaian bergelombang
+➿ dobel, gelombang, putaran, untaian bergelombang ganda
+〽 bagian, tanda, tanda alternasi bagian
+✳ bintang berujung lancip delapan, tanda bintang
+✴ bintang, bintang berujung delapan
+❇ *, kilauan
+© hak cipta
+® terdaftar
+™ merek dagang, tanda, tanda merek, tm
+🔠 ABCD, huruf, huruf kapital, latin, masukan, masukan huruf kapital latin
+🔡 abcd, huruf, huruf kecil, latin, masukan, masukan huruf kecil latin
+🔢 1234, angka, masukan
+🔣 〒♪&amp;%, masukan, masukan simbol
+🔤 abc, alfabet, huruf, latin, masukan
+🅰 a, golongan darah, tombol a (golongan darah), tombol A (golongan darah)
+🆎 ab, golongan darah, tombol ab (golongan darah), tombol AB (golongan darah)
+🅱 b, golongan darah, tombol b (golongan darah), tombol B (golongan darah)
+🆑 cl, tombol cl, tombol CL
+🆒 cool, tombol COOL
+🆓 bebas, free dalam kotak, tombol FREE
+ℹ i, informasi
+🆔 id, identitas, tombol id, tombol ID
+Ⓜ huruf m dalam lingkaran, huruf M dalam lingkaran, lingkaran, m
+🆕 baru, tombol NEW
+🆖 ng, tombol ng, tombol NG
+🅾 golongan darah, o, tombol o (golongan darah), tombol O (golongan darah)
+🆗 oke, tombol OK
+🅿 parkir, tombol p, tombol P
+🆘 bantuan, sos, tombol sos, tombol SOS
+🆙 ke atas, tanda, tombol up!, tombol UP!
+🆚 tombol vs, tombol VS, versus, vs
+🈁 &quot;di sini&quot;, Jepang, katakana, tombol Jepang &quot;di sini&quot;, ココ
+🈂 &quot;biaya layanan&quot;, Jepang, katakana, tombol Jepang &quot;biaya layanan&quot;, サ
+🈷 &quot;jumlah bulanan&quot;, ideograf, Jepang, tombol Jepang &quot;jumlah bulanan&quot;, 月
+🈶 &quot;tidak gratis&quot;, ideograf, Jepang, tombol Jepang &quot;tidak gratis&quot;, 有
+🈯 &quot;sudah dipesan&quot;, ideograf, Jepang, tombol Jepang &quot;sudah dipesan&quot;, 指
+🉐 jepang, karakter keunggulan dalam lingkaran
+🈹 &quot;diskon&quot;, ideograf, Jepang, tombol Jepang &quot;diskon&quot;, 割
+🈚 &quot;gratis&quot;, ideograf, Jepang, tombol Jepang &quot;gratis&quot;, 無
+🈲 &quot;dilarang&quot;, ideograf, Jepang, tombol Jepang &quot;dilarang&quot;, 禁
+🉑 &quot;dapat diterima&quot;, ideograf, Jepang, tombol Jepang &quot;dapat diterima, tombol Jepang &quot;dapat diterima&quot;, 可
+🈸 china, cina, karakter terapkan dalam kotak, tombol Jepang &quot;lamaran kerja&quot;
+🈴 &quot;nilai kelulusan&quot;, ideograf, Jepang, tombol Jepang &quot;nilai kelulusan&quot;, 合
+🈳 &quot;ada lowongan&quot;, ideograf, Jepang, tombol Jepang &quot;ada lowongan&quot;, 空
+㊗ &quot;selamat&quot;, ideograf, Jepang, tombol Jepang &quot;selamat&quot;, 祝
+㊙ &quot;rahasia&quot;, ideograf, Jepang, tombol Jepang &quot;rahasia&quot;, 秘
+🈺 &quot;siap berbisnis&quot;, ideograf, Jepang, tombol Jepang &quot;siap berbisnis&quot;, 営
+🈵 &quot;tidak ada lowongan&quot;, ideograf, Jepang, tombol Jepang &quot;tidak ada lowongan&quot;, 満
+🔴 geometri, lingkaran, merah
+🟠 lingkaran, oranye
+🟡 kuning, lingkaran
+🟢 hijau, lingkaran
+🔵 biru, geometri, lingkaran
+🟣 lingkaran, ungu
+🟤 cokelat, lingkaran
+⚫ geometri, lingkaran, lingkaran hitam
+⚪ geometri, lingkaran, lingkaran putih
+🟥 merah, persegi
+🟧 oranye, persegi
+🟨 kuning, persegi
+🟩 hijau, persegi
+🟦 biru, persegi
+🟪 persegi, ungu
+🟫 cokelat, persegi
+⬛ geometri, persegi, persegi besar hitam
+⬜ geometri, persegi, persegi besar putih
+◼ geometri, persegi, persegi medium hitam
+◻ geometri, persegi, persegi medium putih
+◾ geometri, persegi, persegi kecil medium hitam
+◽ geometri, persegi, persegi kecil medium putih
+▪ geometri, persegi, persegi kecil hitam
+▫ geometri, persegi, persegi kecil putih
+🔶 geometri, oranye, wajik, wajik oranye besar
+🔷 biru, geometri, wajik, wajik biru besar
+🔸 geometri, oranye, wajik, wajik oranye kecil
+🔹 biru, geometri, wajik, wajik biru kecil
+🔺 geometri, merah, segitiga merah mengarah ke atas
+🔻 geometri, merah, segitiga merah mengarah ke bawah, turun
+💠 di dalam, geometri, komik, wajik, wajik bertitik
+🔘 geometri, radio, tombol
+🔳 garis luar, geometri, persegi, tombol, tombol persegi putih
+🔲 geometri, persegi, tombol, tombol persegi hitam
+🏁 balapan, bendera kotak-kotak, kotak-kotak, petak-petak
+🚩 bendera segitiga, tiang
+🎌 bendera menyilang, Jepang, menyilang, perayaan, silang
+🏴 bendera hitam, berkibar
+🏳 bendera putih, berkibar
+🏳‍🌈 bendera pelangi, pelangi
+🏳‍⚧ bendera, biru muda, merah muda, putih, transgender
+🏴‍☠ bajak, bajak laut, bendera bajak laut, harta karun, Jolly Roger
+¢ sen
+$ dolar, peso, uang, USD
+£ EGP, GBP, mata uang, pound
+¥ CNY, JPY, mata uang, yen, yuan
+₥ mil, mill
+₩ KPW, KRW, won
+€ EUR, euro, mata uang
+₱ peso
+₹ mata uang, rupee, rupee india
+₽ mata uang, ruble
+₿ bitcoin, BTC
+¹ satu, superskrip
+² dua, kuadrat, superskrip
+³ kubik, superskrip, tiga
+µ tanda mikro, ukuran

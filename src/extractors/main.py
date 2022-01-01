@@ -1,3 +1,4 @@
+from annotationextractor import AnnotationExtractor
 from blockextractor import BlockExtractor
 from characterfactory import CharacterFactory
 from cjkextractor import CjkExtractor
@@ -11,5 +12,6 @@ if __name__ == "__main__":
     EmojiExtractor().extract()
     BlockExtractor(character_factory).extract()
     CjkExtractor().extract()
+    AnnotationExtractor().extract()
     MathExtractor(character_factory).extract()
     NerdExtractor().extract()

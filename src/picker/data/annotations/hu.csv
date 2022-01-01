@@ -1,0 +1,1727 @@
+{ kapcsos, nyitó kapcsos zárójel, zárójel
+🏻 1–2-es típus, bőrtónus, világos bőrtónus
+🏼 3-as típus, bőrtónus, közepesen világos bőrtónus
+🏽 4-es típus, bőrtónus, közepes bőrtónus
+🏾 5-ös típus, bőrtónus, közepesen sötét bőrtónus
+🏿 6-os típus, bőrtónus, sötét bőrtónus
+‾ föléhúzás
+_ aláhúzás, aláhúzásjel, alulvonás
+- diviz, elválasztójel, kötőjel
+‐ elválasztójel, kötőjel
+– fél, félkvirt, kvirt
+— kötőjel, kvirtmínusz, nagy
+― elválasztójel, kötőjel, vízszintes vonal, vonal
+・ katakana, középső, pont
+, vessző
+، arab, vessző
+、 ideogrammatikus, vessző
+; pontosvessző
+؛ arab, pontosvessző
+: kettőspont
+! felkiáltás, felkiáltójel
+¡ felkiáltás, felkiáltójel, fordított
+? kérdés, kérdőjel
+¿ fordított, kérdés, kérdőjel
+؟ arab, kérdés, kérdőjel
+‽ interrobang
+. pont
+… hármaspont, három, pont
+。 képírás, képírásos pont, pont
+· felezőpont, közép, középvonali pont, pont
+' aposztróf, egyszeres idézőjel, idézőjel, írógép-aposztróf
+‘ aposztróf, egyszeres idézőjel, idézőjel, kezdő egyszeres idézőjel
+’ aposztróf, egyszeres idézőjel, idézőjel, záró egyszeres idézőjel
+‚ alsó idézőjel, alsó jobb egyszeres idézőjel, aposztróf, idézőjel
+“ dupla idézőjel, idézet, kezdő idézőjel
+” idézet, idézőjel, záró idézőjel
+„ alsó idézőjel, alsó kezdő idézőjel, dupla idézőjel, idézet, idézőjel
+« bal, balra mutató belső idézőjel, balra néző belső idézőjel, beszúrási jelek, csúcsos, idézőjel, sávnyíl, zárójel
+» beszúrási jelek, csúcsos, idézőjel, jobb, jobbra mutató belső idézőjel, jobbra néző belső idézőjel, sávnyíl, zárójel
+) berekesztő zárójel, gömbölyű zárójel, kerek zárójel, zárójel
+[ nyitó szögletes zárójel, szögletes zárójel, zárójel
+] berekesztő szögletes zárójel, szögletes zárójel, zárójel
+} berekesztő kapcsos zárójel, kapcsols, zárójel
+〈 kacsacsőr, kisebb jel, kúpos, nagyobb jel, nyitó kúpos zárójel, zárójel
+〉 berekesztő kúpos zárójel, kacsacsőr, kisebb jel, kúpos, nagyobb jel, zárójel
+《 csúcsos, nyitó csúcsos zárójel, zárójel
+》 berekesztő csúcsos zárójel, csúcsos, zárójel
+「 bal mennyezet, mennyezet, zárójel
+」 jobb mennyezet, mennyezet, zárójel
+『 bal üres mennyezet, üres mennyezet, zárójel
+』 jobb üres mennyezet, üres mennyezet, zárójel
+【 lencse zárójel, nyitó teli lencse zárójel, zárójel
+】 berekesztő teli lencse zárójel, lencse zárójel, zárójel
+〔 nyitó teknőspáncél zárójel, teknőspáncél, zárójel
+〕 berekesztő teknőspáncél zárójel, teknőspáncél, zárójel
+〖 nyitó üres lencse zárójel, üres lencse zárójel, zárójel
+〗 berekesztő üres lencse zárójel, üres lencse zárójel, zárójel
+§ bekezdés, rész, silcrow, szakasz, szakaszjel
+¶ bekezdés, bekezdés vége jel, bekezdésjel
+@ at-jel, bejgli, csiga, kukac, kukacjel
+* aszteriszk, csillag, csillagjel
+/ ferde, perjel, tördelés, törtjel, törtvonal, vonás
+\ fordított perjel, fordított törtvonal, tördelés
+& és, és jel, et
+# hashtag, kettőskereszt, szám, számjel
+% százalék jel, százalékjel
+‰ ezrelék jel, ezrelékjel
+† kereszt, kereszt szimbólum, obeliszk, obelus
+‡ kereszt, kettős, kettős kereszt szimbólum, obeliszk, obelus
+• listajel, pont
+‧ elválasztó, elválasztójel, pont
+′ felső vessző
+″ dupla felső vessző, felső vessző
+‴ felső vessző, tripla felső vessző
+‸ beszúrási jel
+※ hivatkozásjel
+⁂ három csillag jel
+` ékezet, hangsúly, tompa
+´ ékezet, éles, hangsúly
+^ beszúrásjel, csúcsos, ékezet, hajtott, hatványjel, háztető, kalap, kúpos
+¨ diaeresis, tréma, umlaut
+° fok, malligand-fok, óra
+℗ hang, hangrögzítési szerzői jog, rögzítés, szerzői jog
+← bal, bal oldalra mutató nyíl, nyíl
+↚ balra mutató nyíl vonással
+→ jobb, jobb oldalra mutató nyíl, nyíl
+↛ jobbra mutató nyíl vonással
+↑ felfelé, felfelé néző nyíl, nyíl
+↓ lefelé, lefelé néző nyíl, nyíl
+↜ balra mutató hullámos nyíl
+↝ jobbra mutató hullámos nyíl
+↞ balra mutató duplafejű nyíl
+↟ felfelé mutató duplafejű nyíl
+↠ jobbra mutató duplafejű nyíl
+↡ lefelé mutató duplafejű nyíl
+↢ balra mutató nyíl tolla
+↣ jobbra mutató nyíl tolla
+↤ balra mutató talpas nyíl
+↥ felfelé mutató talpas nyíl
+↦ jobbra mutató talpas nyíl
+↧ lefelé mutató talpas nyíl
+↨ felfelé és lefelé mutató nyíl alapvonallal
+↫ balra mutató nyíl hurokkal
+↬ jobbra mutató nyíl hurokkal
+↭ hullámos balra-jobbra nyíl
+↯ lefelé mutató cikcakkos nyíl
+↰ felfelé és balra mutató nyílhegy
+↱ felfelé és jobbra mutató nyílhegy
+↲ lefelé és balra mutató nyílhegy
+↳ lefelé és jobbra mutató nyílhegy
+↴ jobbra induló és lefelé mutató nyíl
+↵ lefelé induló és balra mutató nyíl
+↶ óramutató járásával ellentétes felső félköríves nyíl
+↷ óramutató járásával megegyező felső félköríves nyíl
+↸ északnyugat felé mutató és hosszú vonalig érő nyíl
+↹ balra mutató és vonalig érő nyíl és alatta jobbra mutató és vonalig érő nyíl
+↺ óramutató járásával ellentétes nyílt körkörös nyíl
+↻ óramutató járásával megegyező nyílt körkörös nyíl
+↼ balra mutató felső félhegyű nyíl
+↽ balra mutató alsó félhegyű nyíl
+↾ felfelé mutató jobb félhegyű nyíl
+↿ felfelé mutató bal félhegyű nyíl
+⇀ jobbra mutató felső félhegyű nyíl
+⇁ jobbra mutató alsó félhegyű nyíl
+⇂ lefelé mutató jobb félhegyű nyíl
+⇃ lefelé mutató bal félhegyű nyíl
+⇄ jobbra mutató nyíl balra mutató nyíl felett
+⇅ felfelé, felfelé és lefelé mutató nyíl, lefelé, nyíl
+⇆ bal, jobb, nyíl, oda-vissza nyíl
+⇇ balra mutató páros nyíl
+⇈ felfelé mutató páros nyíl
+⇉ jobbra mutató páros nyíl
+⇊ lefelé mutató páros nyíl
+⇋ balra mutató félhegyű nyíl jobbra mutató félhegyű nyíl felett
+⇌ jobbra mutató félhegyű nyíl balra mutató félhegyű nyíl felett
+⇐ balra mutató kettős nyíl
+⇍ balra mutató áthúzott kettős nyíl
+⇑ felfelé mutató kettős nyíl
+⇒ jobbra mutató kettős nyíl
+⇏ jobbra mutató áthúzott kettős nyíl
+⇓ lefelé mutató kettős nyíl
+⇔ kettős balra-jobbra nyíl
+⇎ áthúzott kettős balra-jobbra nyíl
+⇖ északnyugat felé mutató kettős nyíl
+⇗ északkelet felé mutató kettős nyíl
+⇘ délkelet felé mutató kettős nyíl
+⇙ délnyugat felé mutató kettős nyíl
+⇚ balra mutató hármas nyíl
+⇛ jobbra mutató hármas nyíl
+⇜ balra mutató kígyózó nyíl
+⇝ jobbra mutató kígyózó nyíl
+⇞ felfelé mutató duplán áthúzott nyíl
+⇟ lefelé mutató duplán áthúzott nyíl
+⇠ balra mutató szaggatott nyíl
+⇡ felfelé mutató szaggatott nyíl
+⇢ jobbra mutató szaggatott nyíl
+⇣ lefelé mutató szaggatott nyíl
+⇤ balra és vonalig mutató nyíl
+⇥ jobbra és vonalig mutató nyíl
+⇦ balra mutató üres nyíl
+⇧ felfelé mutató üres nyíl
+⇨ jobbra mutató üres nyíl
+⇩ lefelé mutató üres nyíl
+⇪ felfelé mutató üres nyíl kiindulási vonallal
+⇵ bal lefelé mutató és jobb felfelé mutató nyíl
+∀ univerzális kvantor
+∂ parciális differenciál
+∃ létezik
+∅ üres halmaz
+∆ háromszög, növekmény
+∇ háromszög, nabla
+∈ elem, eleme, halmaz, tagság, tartalmazza
+∉ nem eleme
+∋ fordított eleme
+∎ bizonyítás vége
+∏ n-áris produktum
+∑ n-áris szumma
++ összeadás, plusz, pluszjel
+± plusz-mínusz
+÷ elosztás, obelus, osztás, osztásjel
+× sokszorozás, szorzás, szorzásjel, szorzó
+< címke, címke megnyitása, kisebb, mint
+≮ nem kisebb, mint
+= egyenlő, ugyanannyi
+≠ egyenlőtlenség, nem egyenlő
+> címke, címke lezárása, nagyobb, mint
+≯ nem nagyobb, mint
+¬ negáció, nem
+| függőleges vonal, sheffer-vonás, vonal, vonás
+~ hullámvonal
+− kivonás, mínusz, mínuszjel
+⁻ felső index, mínuszjel, mínuszjel felső indexben
+∓ mínusz vagy plusz
+∕ osztási perjel
+√ alapszám, gyök, gyökér, irracionális, négyzet, négyzetgyök
+∞ végtelen, végtelen szimbólum
+∩ halmaz, metszet
+∪ csoport, halmaz, unió
+≈ approximáció, közelítés, közelítőleg egyenlő
+≡ azonos, egyenlőségjel, egyező, tripla
+≤ egyenlő, egyenlőség, egyenlőtlenség, kisebb vagy egyenlő, kisebb, mint
+≥ egyenlő, egyenlőség, egyenlőtlenség, nagyobb vagy egyenlő, nagyobb, mint
+⊂ halmaz, részhalmaz, valódi részhalmaza
+▲ felfelé, háromszög, kitöltött, kitöltött felfelé mutató háromszög, nyíl
+▼ háromszög, kitöltött, kitöltött lefelé mutató háromszög, lefelé, nyíl
+◊ ferde négyszög, gyémánt, rombusz
+○ gyűrű, kör, üres kör
+● kitöltött kör, kör
+◯ gyűrű, kör, nagy üres kör
+♪ hangjegy, nyolcad, zene
+♭ bé, bemolle, hangjegy, zene
+♯ diesis, hangjegy, kereszt, zene
+😀 arc, nevetés, nevető arc
+😃 arc, mosoly, nagyra nyílt szemmel mosolygó arc, nyitott száj, vidámság
+😄 arc, mosoly, nevető arc mosolygó szemmel, száj, szem
+😁 arc, mosoly, mosolygó szemmel nevető arc, szem
+😆 arc, nevetés, nyitott száj, nyitott szájjal és lehunyt szemmel mosolygó arc
+😅 arc, hideg verejték, mosoly, nevető arc verejtékkel, nyitott száj
+🤣 fej, gurul, gurul a nevetéstől, nevet, nevetés
+😂 arc, arc örömkönnyekkel, könnyek, nevetés, öröm
+🙂 arc, finoman mosolygó arc, mosoly
+🙃 arc, fejjel lefelé, fejjel lefelé fordult arc
+😉 arc, kacsintás, kacsintó arc
+😊 elpirul, elvörösödik, mosoly, mosolygó arc mosolygó szemmel, vidám szemek
+😇 angyal, arc, ártatlanság, glória, mese, mosoly, mosolygó arc glóriával
+🥰 imádat, mosolygós arc szívekkel, szerelem, szerelmes
+😍 arc, mosoly, mosolygó arc szív alakú szemmel, szem, szerelem, szívek
+🤩 arc, csillag, csillagszemű, szemek, vigyorgó
+😘 arc, csók, csókot dobó arc, puszi, szív
+😗 arc, csók, csókoló arc, puszi
+☺ arc, mosoly, mosolygó arc, nyugodt
+😚 arc, csók, csókoló arc lehunyt szemmel, lehunyt szem, puszi
+😙 arc, csók, csókoló arc mosolygó szemmel, puszi, szem
+🥲 büszke, hálás, könny, meghatott, megkönnyebbült, mosolygó arc könnycseppel, mosolyog
+😋 arc, finom, finom ételt élvező arc, mosoly, nyami
+😛 arc, arc kinyújtott nyelvvel, nyelv
+😜 arc, arc kinyújtott nyelvvel és kacsintó szemmel, kacsintás, mosoly, nyelv, szem, vicc
+🤪 kicsi, nagy, őrült fej, szem
+😝 arc, arc kilógó nyelvvel és erősen behunyt szemmel, kiöltött nyelv, lehunyt szem, szörnyű íz
+🤑 arc, arc dollárjelekkel, dollár, pénz, száj
+🤗 arc, ölelés
+🤭 arc szájra tett kézzel, hoppá
+🤫 csend, csitító arc, csitt
+🤔 arc, elgondolkodó, gondolkodó arc
+🤐 arc, arc összecipzározott szájjal, cipzár, száj
+🤨 bizalmatlan, felhúzott szemöldökű arc, kételkedő
+😐 arc, pókerarc, semleges
+😑 arc, érzéketlen, kifejezéstelen, semleges
+😶 arc, csendes, néma, nincs szája, száj nélküli arc
+😶‍🌫 arc a felhőben
+😏 arc, önelégült, vigyor
+😒 arc, szomorú
+🙄 arc, forgó szemek, szemét forgató arc
+😬 arc, grimasz, grimaszoló arc
+😮‍💨 levegőt kifújó arc
+🤥 arc, hazudik, hazudó, hazudós, pinokkió
+😌 arc, megkönnyebbült
+😔 arc, elgondolkodó, tűnődő
+😪 álmos, arc, ásít
+🤤 fej, nyál, nyáladzó
+😴 alvás, alvó arc, arc, zzz
+😷 arc, arc egészségügyi maszkkal, betegség, egészségügyi maszk, gyógyszer, orvos
+🤒 arc, arc lázmérővel, beteg, lázmérő
+🤕 arc, arc bekötött fejjel, kötés, sérülés
+🤢 arc, émelygő, hányás
+🤮 beteg, hány, hányó arc
+🤧 fej, hapci, tüsszent, tüsszentő, tüsszentő arc
+🥵 forró arc, forróság, hőguta, izzadó, lázas, vörös arcú
+🥶 elkékült arc, fagyás, fagyos arc, fagyoskodik, hideg, jégcsapok
+🥴 hullámvonalas száj, ittas, kába, keresztbeálló szemek, részeges arc, spicces
+😵 arc, szédülés, szédülő arc
+😵‍💫 spirálszemű arc
+🤯 felrobbanó fej, megdöbbent
+🤠 cowboy, cowboykalapos fej, fej, kalap
+🥳 buli, bulizó arc, csákó, duda, ünneplés
+🥸 álca, álcázott arc, arc, inkognító, orr, szemüveg
+😎 arc, laza, mosoly, mosolygó arc napszemüveggel, napszemüveg
+🤓 arc, gépmániás, kocka, kockaarc
+🧐 arc monoklival, mérges
+😕 arc, zavart
+😟 aggodalmas, aggódó arc, arc
+🙁 arc, kissé komor arc, rosszallás
+☹ arc, rosszallás, rosszalló arc
+😮 arc, arc nyitott szájjal, csodálkozás, nyitott száj
+😯 arc, döbbent, meglepett, meglepődött
+😲 arc, csodálkozó, lenyűgözött
+😳 arc, elpirul, elpirult arc, elvörösödik
+🥺 bociszemek, esedező arc, kérlelő, könyörgős
+😦 arc, nyitott száj, rosszallás, rosszalló arc nyitott szájjal
+😧 arc, elgyötört, elkínzott
+😨 arc, félelem, félelemmel teli arc, rémült
+😰 aggódó arc nyitott szájjal és verejtékkel, arc, hideg verejték, nyitott száj, rohanás
+😥 arc, csalódott, csalódott, de megkönnyebbült arc, huhh, megkönnyebbült
+😢 arc, könnycsepp, sírás, síró arc, szomorúság
+😭 arc, könnyek, sírás, szomorúság, zokogás, zokogó arc
+😱 arc, félelem, félelemtől sikoltó arc, munch, rémület, sikoly
+😖 arc, összezavarodott
+😣 állhatatos arc, állhatatosság, arc
+😞 arc, csalódott
+😓 arc, lehangolt arc verejtékkel, verejték
+😩 arc, fáradt, kimerült, megviselt
+😫 arc, fáradt arc, fáradtság
+🥱 arc, ásít, ásítás, ásító, fáradt
+😤 arc, győzelem, orrából gőzt fújtató arc, siker
+😡 arc, dühös, duzzog, duzzogó arc, mérges, vörös
+😠 arc, dühös, mérges
+🤬 arc jelekkel a száján, káromkodás
+😈 arc, fantasy, mese, mosoly, mosolygó arc szarvakkal, ördög, szarvak
+👿 démon, fantasy, mérges arc szarvakkal, mese, ördög
+💀 csont, halál, koponya, szörny
+☠ arc, csont, csontok, halál, koponya, koponya csontokkal
+💩 kaka, kaki, kakiarc, kakihalom, képregény
+🤡 bohóc, bohócfej, fej
+👹 arc, japán, lény, mese, ogre, óriás, szörny
+👺 arc, fantasy, japán, kobold, lény, mese, szörny
+👻 arc, kísértet, lény, mese, szellem, szörny
+👽 földönkívüli, idegen, ufó, űrlény
+👾 földönkívüli, idegen, szörny, ufó, űrlény
+🤖 arc, robot, szörny
+😺 arc, macska, mosoly, nevető macska, nyitott, száj
+😸 arc, macska, mosolygó, nevetés, nevető macska mosolygó szemmel, szem
+😹 arc, könny, macska, macska örömkönnyekkel, mosoly, örömkönny
+😻 arc, macska, mosoly, mosolygó macska szív alakú szemmel, szerelem, szív
+😼 arc, fanyar, irónia, macska, macska fanyar mosollyal, mosoly
+😽 arc, csók, csókoló, macska
+🙀 arc, hűha, kimerült, macska
+😿 arc, macska, sírás, síró, szomorú
+😾 arc, duzzogás, duzzogó, macska
+🙈 majom, nem, nem lát semmit, nem láttam semmit, tilos
+🙉 majom, nem, nem hall semmit, nem hallottam semmit, tilos
+🙊 majom, nem, nem szól semmit, nem szólok semmit, tilos
+💋 ajkak, csók, csóknyom, romantika, szenvedély
+💌 levél, romantika, szerelem, szerelmes levél, szív
+💘 Cupido, nyíl, nyíllal átlőtt szív, romantika, szerelem
+💝 ajándék, szalag, szív, szív szalaggal, valentin-nap
+💖 izgatott, ragyogás, ragyogó szív, szív
+💗 idegesség, izgalom, növekvő szív, szív, szívdobogás
+💓 dobogó szív, szív, szívdobogás
+💞 forgás, forgó szívek, szív
+💕 két szív, szerelem, szerelmes szívek, szív, szívek
+💟 dekoráció, dísz, szív, szív formájú dekoráció
+❣ írásjel, központozás, nagy szív alakú felkiáltójel, szív
+💔 összetört, szív
+❤‍🔥 égő, lángoló, szerelem, szív, vágy
+❤‍🩹 gyógyuló szív
+❤ piros, szív, vörös szív
+🧡 narancssárga, narancssárga szív
+💛 sárga, szív
+💚 szív, zöld
+💙 kék, szív
+💜 lila, szív
+🤎 barna, szív
+🖤 fekete, gonosz, szív
+🤍 fehér, szív
+💯 100, száz, száz pont, teljes pontszám
+💢 a düh szimbóluma, dühös, képregény, mérges
+💥 bumm, képregény, ütközés
+💫 csillagokat lát, képregény, szédülés
+💦 izzadság, izzadságcseppek, képregény
+💨 futás, képregény, rohanás
+🕳 lyuk
+💣 bomba, képregény
+💬 beszéd, buborék, képregény, párbeszéd, szövegbuborék
+👁‍🗨 párbeszéd, szem, szem szövegbuborékban, szövegbuborék, tanú
+🗨 balra nyíló szövegbuborék, beszéd, buborék, képregény, párbeszéd
+🗯 buborék, dühös, jobbra nyíló dühös szövegbuborék, képregény, mérges
+💭 buborék, gondolat, gondolatbuborék, képregény
+💤 alvás, képregény
+👋 integetés, integető kéz, kéz, test
+🤚 felemelt, kézfej
+🖐 felemelt kéz szétálló ujjakkal, kéz, szétálló, test, ujj
+✋ fel, felemelt kéz, kéz, test
+🖖 kéz, spock, star trek, star trek-üdvözlet, test, ujj, vulcan
+👌 kéz, ok jel, oké, rendben, test
+🤌 gúnyos, kézmozdulat, kihallgatás, összecsippentett, ujjak
+🤏 csippentő kéz, kis összeg
+✌ betű, győzelmi jelet mutató kéz, jel, kéz, kézjel, test
+🤞 keresztezett, keresztezett ujjak, szerencse, ujj
+🤟 kéz, szeretlek, szeretlek kézmozdulat
+🤘 kéz, metál, metálvilla, ördögvilla, szarvak
+🤙 „hívj fel” kézjel, hívás, kéz
+👈 kéz, kéz balra mutató ujjal, mutatóujj, tenyér, test, ujj
+👉 kéz, kéz jobbra mutató ujjal, mutatóujj, tenyér, test, ujj
+👆 felfelé, kéz, mutatóujj, tenyér, tenyér felfelé mutató ujjal, test, ujj
+🖕 kéz, középső ujj, test, ujj
+👇 kéz, lefelé, mutatóujj, tenyér, tenyér lefelé mutató ujjal, test, ujj
+☝ felfelé, kéz, kéz felfelé mutató ujjal, mutatóujj, test, ujj
+👍 felfelé mutató hüvelykujj, hüvelykujj felfelé, kéz, oké, rendben, test
+👎 hüvelykujj lefelé, kéz, lefelé mutató hüvelykujj, test
+✊ felemelt, ököl, test, ütés
+👊 felemelt, ököl, test, ütés, ütésre emelt ököl
+🤛 bal szélső, balra néző ököl, ököl
+🤜 jobb szélső, jobbra néző ököl, ököl
+👏 kéz, taps, tapsoló kéz, test
+🙌 kéz, kezét felemelő ember, test, ünneplés, vidámság
+👐 kéz, kitárva, széttárt kéz, test
+🤲 felfelé fordított tenyerek, ima
+🤝 kézfogás, megállapodás, találkozás, üdvözlés
+🙏 ima, kérés, köszönet, összetett kéz, test
+✍ írás, író kéz, kéz, test
+💅 kifestés, köröm, körömlakk, lakk, manikűr
+🤳 fényképező, szelfi, telefon
+💪 befeszített bicepsz, bicepsz, izom, karizom, képregény
+🦾 akadálymentesség, mechanikus kar, protézis
+🦿 akadálymentesség, mechanikus láb, protézis
+🦵 comb, lábszár, rúgás
+🦶 dobogás, lábfej, rúgás
+👂 fej, fül, test, testrész
+🦻 akadálymentesség, fül hallókészülékkel, nagyothalló
+👃 fej, orr, test, testrész
+🧠 agy, intelligens
+🫀 kardiológia, középpont, pulzus, szerv, szív, szívverés
+🫁 belégzés, kilégzés, légzés, lélegzet, szerv, tüdő
+🦷 fog, fogorvos
+🦴 csont, csontváz
+👀 arc, szem, szemek, test
+👁 szem, test
+👅 nyelv, test
+👄 ajkak, száj, test
+👶 baba, kisbaba
+🧒 gyerek, gyermek
+👦 fiú, kisfiú, srác
+👧 kislány, lány, lányka
+🧑 felnőtt
+👱 szőke, szőke hajú ember
+👨 férfi
+🧔 szakáll, szakállas ember
+🧔‍♂ férfi: szakáll
+👱‍♂ férfi, szőke
+👩 nő
+🧔‍♀ nő: szakáll
+👱‍♀ nő, szőke
+🧓 idős, idősebb felnőtt, nemi szempontból semleges
+👴 idős férfi, öregember
+👵 idős nő, öreg néni
+🙍 rosszallás, rosszalló ember, rosszalló tekintet
+🙍‍♂ férfi, gesztus, rosszallás, rosszalló
+🙍‍♀ gesztus, nő, rosszallás, rosszalló
+🙎 duzzogás, duzzogó ember
+🙎‍♂ duzzogás, duzzogó, férfi, gesztus
+🙎‍♀ duzzogás, duzzogó, gesztus, nő
+🙅 kézjel, nem szabad, tilos, tiltás mutatása, tiltott
+🙅‍♂ férfi, gesztus, kézmozdulat, tilos, tiltás, tiltást mutató férfi
+🙅‍♀ gesztus, kézmozdulat, nő, tilos, tiltás, tiltást mutató nő
+🙆 beleegyezés mutatása, kézjel, oké, rendben
+🙆‍♂ beleegyezés, beleegyezést mutató férfi, férfi, gesztus, kézmozdulat, oké
+🙆‍♀ beleegyezés, beleegyezést mutató nő, gesztus, kézmozdulat, nő, oké
+💁 ember az információs pultnál, információ, kéz, segítség
+💁‍♂ férfi, információ, nyitott tenyér, nyitott tenyerű férfi, segítség
+💁‍♀ információ, nő, nyitott tenyér, nyitott tenyerű nő, segítség
+🙋 boldog, integet, vidám, vidáman intő ember
+🙋‍♂ férfi, gesztus, intés, kézmozdulat, vidám, vidáman intő férfi
+🙋‍♀ gesztus, intés, kézmozdulat, nő, vidám, vidáman intő nő
+🧏 akadálymentesség, fül, hall, siket, siket ember
+🧏‍♂ férfi, siket
+🧏‍♀ nő, siket
+🙇 bocsánatkérés, meghajlás, meghajló ember, sajnálat
+🙇‍♂ bocsánat, bocsánatkérés, férfi, meghajlás, meghajló, sajnálat
+🙇‍♀ bocsánat, bocsánatkérés, meghajlás, meghajló, nő, sajnálat
+🤦 arc, elkeseredés, kéz, kézbe temetett arc, nem hiszem el
+🤦‍♂ arc, arcát a kezébe temető férfi, elkeseredés, férfi, hitetlenség, kézbe temetett arc
+🤦‍♀ arc, arcát a kezébe temető nő, elkeseredés, hitetlenség, kézbe temetett arc, nő
+🤷 közömbös, nem érdekel, rándít, váll, vállrándítás
+🤷‍♂ érdektelenség, férfi, kétség, közömbös, nem érdekel, vállrándítás, vállrándító férfi
+🤷‍♀ érdektelenség, kétség, közömbös, nem érdekel, nő, vállrándítás, vállrándító nő
+🧑‍⚕ ápolónő, egészségügy, egészségügyi dolgozó, orvos, terapeuta
+👨‍⚕ ápoló, doktor, orvos, terapeuta
+👩‍⚕ ápolónő, doktornő, nővér, orvos, terapeuta
+🧑‍🎓 diák, végzős
+👨‍🎓 diák, egyetemista, férfi, tanuló
+👩‍🎓 diák, egyetemista, nő, női tanuló, tanuló
+🧑‍🏫 oktató, professzor, tanár, tanár / tanárnő
+👨‍🏫 férfi, oktató, professzor, tanár
+👩‍🏫 nő, oktató, professzorasszony, tanárnő
+🧑‍⚖ bíró, bíró / bírónő, mérleg
+👨‍⚖ bíró
+👩‍⚖ bírónő
+🧑‍🌾 földműves, gazda, gazda / női gazda, növénytermesztő
+👨‍🌾 férfi, földműves, gazda, kertész
+👩‍🌾 földműves, gazda, kertész, nő, női gazda
+🧑‍🍳 séf, szakács, szakács / szakácsnő
+👨‍🍳 férfi, séf, szakács
+👩‍🍳 nő, séf, szakácsnő
+🧑‍🔧 szaki, szerelő, szerelő / szerelőnő, villanyszerelő, vízvezeték-szerelő
+👨‍🔧 férfi, szerelő, villanyszerelő, vízszerelő
+👩‍🔧 nő, szerelő, szerelőnő, villanyszerelő, vízszerelő
+🧑‍🏭 dolgozó, gyári, munkás
+👨‍🏭 dolgozó, férfi, gyári, munkás
+👩‍🏭 dolgozó, gyári, munkás, nő, női munkás
+🧑‍💼 építész, értelmiségi, irodai dolgozó, menedzser, üzletember
+👨‍💼 alkalmazott, férfi, férfi irodista, irodai
+👩‍💼 alkalmazott, irodai, női, női irodista
+🧑‍🔬 biológus, fizikus, mérnök, tudás, tudós, vegyész
+👨‍🔬 férfi, férfi tudós, fizikus, kémikus, matematikus
+👩‍🔬 fizikus, kémikus, matematikus, nő, női tudós
+🧑‍💻 fejlesztő, feltaláló, informatikus, programozó, szoftver
+👨‍💻 fejlesztő, feltaláló, férfi, kódoló, programozó, szoftver
+👩‍💻 fejlesztő, feltaláló, kódoló, nő, programozó, szoftver
+🧑‍🎤 előadóművész, énekes, rock, színés, sztár
+👨‍🎤 előadó, énekes, férfi, művész, rock, sztár
+👩‍🎤 előadó, énekes, művész, nő, női énekes, rock, sztár
+🧑‍🎨 festő, művész, paletta
+👨‍🎨 férfi, festő, művész, paletta
+👩‍🎨 festő, művész, nő, női művész, paletta
+🧑‍✈ pilóta, pilóta / pilótanő, repülőgép
+👨‍✈ férfi, pilóta, repülő
+👩‍✈ nő, pilóta, pilótanő, repülő
+🧑‍🚀 rakéta, űrhajós, űrhajós / űrhajósnő
+👨‍🚀 férfi, rakéta, űr, űrhajós
+👩‍🚀 nő, rakéta, űr, űrhajós, űrhajósnő
+🧑‍🚒 tűzoltó, tűzoltó / tűzoltónő, tűzoltóautó
+👨‍🚒 férfi, tűz, tűzoltó
+👩‍🚒 nő, tűz, tűzoltó, tűzoltónő
+👮 rendőrség, zsaru
+👮‍♂ férfi, rendőr, zsaru
+👮‍♀ nő, rendőr, rendőrnő, zsaru
+🕵 detektív, kopó
+🕵‍♂ detektív, férfi, kém, nyomozó
+🕵‍♀ detektív, kém, kémnő, nő, nyomozó, nyomozónő
+💂 gárdista, őrség
+💂‍♂ férfi, őr
+💂‍♀ nő, női őr, őr
+🥷 harcos, nindzsa, rejtett, rejtőzködés
+👷 építkezés, építőmunkás, sisak, védősisak
+👷‍♂ építkezés, építőmunkás, férfi, munkás
+👷‍♀ építkezés, építőmunkás, építőmunkásnő, munkás, nő
+🤴 herceg
+👸 fantasy, hercegnő, mese, mesehős
+👳 ember, turbán, turbános ember
+👳‍♂ férfi, turbán, turbános férfi
+👳‍♀ nő, turbán, turbános nő
+👲 ember, kínai sapkás ember, sapka
+🧕 fejkendő, hidzsáb, mantilla, nő fejkendővel, tichel
+🤵 ember, szmoking, szmokingos ember, vőlegény
+🤵‍♂ férfi, szmoking, szmokingos férfi
+🤵‍♀ nő, szmoking, szmokingos nő
+👰 ember, ember fátyollal, esküvő, fátyol, menyasszony
+👰‍♂ fátyol, férfi, férfi fátyollal
+👰‍♀ fátyol, nő, nő fátyollal
+🤰 nő, terhes, várandós
+🤱 baba, mell, szoptatás
+👩‍🍼 etetés, gondozás, kisbaba, kisbabát etető nő, nő
+👨‍🍼 etetés, férfi, gondozás, kisbaba, kisbabát etető férfi
+🧑‍🍼 etetés, gondozás, kisbaba, kisbabát etető személy, személy
+👼 angyal, arc, baba, babaangyal, mese
+🎅 arc, fej, mikulás, télapó, ünnep, ünneplés
+🤶 anyó, karácsony, mikulás ruhás anyó
+🧑‍🎄 Mikulás, karácsony, télapó
+🦸 hős, hősnő, jó, szuperhős, szuperképesség
+🦸‍♂ férfi, férfi szuperhős, hős, hősnő, jó, szuperképesség
+🦸‍♀ hős, hősnő, jó, nő, női szuperhős, szuperképesség
+🦹 bűnöző, főgonosz, gazember, gonosz, szuperképesség
+🦹‍♂ bűnöző, férfi, férfi főgonosz, gazember, gonosz, szuperképesség
+🦹‍♀ bűnöző, gazember, gonosz, nő, női főgonosz, szuperképesség
+🧙 boszorkány, boszorkánymester, mágus, varázsló
+🧙‍♂ boszorkánymester, férfi varázsló, mágus
+🧙‍♀ boszorkány, varázslónő
+🧚 Oberon, Puck, Titánia, tündér
+🧚‍♂ férfi tündér, Oberon, Puck
+🧚‍♀ női tündér, Titánia
+🧛 Drakula, élőhalott, vámpír
+🧛‍♂ Drakula, élőhalott, élőholt, férfi vámpír
+🧛‍♀ élőhalott, élőholt, női vámpír
+🧜 hableány, hablegény, sellő
+🧜‍♂ férfi sellő, Triton
+🧜‍♀ női sellő, sellőlány
+🧝 mágikus, tünde
+🧝‍♂ férfi tünde, mágikus
+🧝‍♀ mágikus, női tünde
+🧞 dzsinn
+🧞‍♂ dzsinn, férfi dzsinn
+🧞‍♀ dzsinn, női dzsinn
+🧟 élőhalott, élőholt, sétáló halott, zombi
+🧟‍♂ élőhalott, élőholt, férfi zombi, sétáló halott
+🧟‍♀ élőhalott, élőholt, női zombi, sétáló halott
+💆 arcmasszázs, masszázs
+💆‍♂ arc, férfi, férfi arcmasszázson, masszázs
+💆‍♀ arc, masszázs, nő, nő arcmasszázson
+💇 fodrász, fodrászat, hajvágás, szépségápolás
+💇‍♂ férfi, férfi fodrásznál, fodrász, fodrászat, haj, hajvágás
+💇‍♀ fodrász, fodrászat, haj, hajvágás, nő, nő fodrásznál
+🚶 gyaloglás, gyalogos, séta
+🚶‍♂ férfi, séta, sétáló, túra
+🚶‍♀ nő, séta, sétáló, túra
+🧍 áll, álló, álló ember
+🧍‍♂ áll, álló férfi, férfi
+🧍‍♀ áll, álló nő, nő
+🧎 térdel, térdelő, térdelő ember
+🧎‍♂ férfi, térdel, térdelő férfi
+🧎‍♀ nő, térdel, térdelő nő
+🧑‍🦯 akadálymentesség, ember fehér bottal, vak
+👨‍🦯 akadálymentesség, férfi, férfi fehér bottal, vak
+👩‍🦯 akadálymentesség, nő, nő fehér bottal, vak
+🧑‍🦼 akadálymentesség, ember motoros kerekesszékben, kerekesszék
+👨‍🦼 akadálymentesség, férfi, férfi motoros kerekesszékben, kerekesszék
+👩‍🦼 akadálymentesség, kerekesszék, nő, nő motoros kerekesszékben
+🧑‍🦽 akadálymentesség, kerekesszék, kerekesszékes ember
+👨‍🦽 akadálymentesség, férfi, férfi kézi hajtású kerekesszékben, kerekesszék
+👩‍🦽 akadálymentesség, kerekesszék, nő, nő kézi hajtású kerekesszékben
+🏃 futás, futó, maraton
+🏃‍♂ férfi, fut, futás, futó férfi, maraton, verseny
+🏃‍♀ fut, futás, futó nő, maraton, nő, verseny
+💃 nő, tánc, táncoló
+🕺 férfi, tánc, táncoló férfi
+🕴 öltöny, öltönyös, lebegő ember, üzletember
+👯 buli, bulizó emberek, lányok, nő, nyuszi, nyuszifül, parti
+👯‍♂ buil, bulizó férfiak, férfi, férfiak, nyuszifül, parti, táncos
+👯‍♀ buil, bulizó nők, nő, nők, nyuszifül, parti, táncos
+🧖 ember a gőzfürdőben, gőzfürdő, szauna
+🧖‍♂ férfi a gőzfürdőben, gőzfürdő, szauna
+🧖‍♀ gőzfürdő, nő a gőzfürdőben, szauna
+🧗 mászó, mászó ember
+🧗‍♂ mászó, mászó férfi
+🧗‍♀ mászó, mászó nő
+🤺 kard, sport, sportoló, vív, vívás, vívó
+🏇 ló, lóverseny, versenyló, zsoké
+⛷ hó, síelés, síelő, téli sportok
+🏂 hó, hódeszka, snowboard, snowboardozó, téli sportok
+🏌 golf, golfozó, golfütő, labda
+🏌‍♂ férfi, golf, golfozó férfi
+🏌‍♀ golf, golfozó nő, nő
+🏄 szörf, szörföző
+🏄‍♂ férfi, szörf, szörföző férfi
+🏄‍♀ nő, szörf, szörföző nő
+🚣 evező ember, vízi jármű
+🚣‍♂ csónak, evezés, evező férfi, férfi
+🚣‍♀ csónak, evezés, evező nő, nő
+🏊 úszás, úszó
+🏊‍♂ férfi, úszás, úszó
+🏊‍♀ nő, úszás, úszó
+⛹ ember labdával, labda, sportoló
+⛹‍♂ férfi, férfi labdával, labda
+⛹‍♀ labda, nő, nő labdával
+🏋 sportoló, súly, súlyemelő
+🏋‍♂ férfi, súly, súlyemelő
+🏋‍♀ nő, súly, súlyemelő
+🚴 bicikli, biciklista, kerékpár, kerékpáros, sportoló
+🚴‍♂ bicaj, bicajos, férfi, kerékpár, kerékpáros
+🚴‍♀ bicaj, bicajos, kerékpár, kerékpáros, nő
+🚵 bicikli, biciklista, hegy, hegyikerékpáros, kerékpár, sportoló
+🚵‍♂ bicaj, bicajos, férfi, hegy, hegyikerékpáros férfi, kerékpár, kerékpáros
+🚵‍♀ bicaj, bicajos, hegy, hegyikerékpáros nő, kerékpár, kerékpáros, nő
+🤸 cigánykerék, sport, sportoló, torna
+🤸‍♂ cigánykerék, cigánykerekező férfi, férfi, sport, torna
+🤸‍♀ cigánykerék, cigánykerekező nő, nő, sport, torna
+🤼 birkózás, birkózó, birkózók, sport, sportoló
+🤼‍♂ birkozás, birkozó, birkózó férfiak, férfi, sport
+🤼‍♀ birkozás, birkozó, birkózó nők, nő, sport
+🤽 póló, sport, víz, vízilabda
+🤽‍♂ férfi, póló, sport, vízilabda, vízilabdázó férfi
+🤽‍♀ nő, póló, sport, vízilabda, vízilabdázó nő
+🤾 kézilabda, labda, sport, sportoló
+🤾‍♂ férfi, kézilabda, kézilabdázó férfi, sport
+🤾‍♀ kézilabda, kézilabdázó nő, nő, sport
+🤹 egyensúly, egyszerre, ügyes, zsonglőr
+🤹‍♂ egyensúly, egyszerre, férfi, több feladat, zsonglőr
+🤹‍♀ egyensúly, egyszerre, nő, több feladat, zsonglőr
+🧘 ember lótuszülésben, jóga, meditáció
+🧘‍♂ férfi lótuszülésben, jóga, meditáció
+🧘‍♀ jóga, meditáció, nő lótuszülésben
+🛀 fürdés, fürdő ember, fürdőkád
+🛌 alvás, ember az ágyban, szálloda
+🧑‍🤝‍🧑 egymás kezét fogó emberek, fogás, kéz, kézenfogva, pár
+👭 kézen fogva, kézen fogva álló nők, nők, pár
+👫 kéz a kézben, kézen fogva álló férfi és nő, pár
+👬 férfiak, ikrek, kézen fogva, kézen fogva álló férfiak, pár
+💏 csók, pár, romantika
+💑 pár, pár szívvel, romantika, szerelem, szív
+👪 anya, anyuka, apa, apuka, család, gyermek
+🗣 arc, beszéd, beszélő fej, fej, sziluett
+👤 ember, ember sziluettje melltől felfelé, sziluett
+👥 ember, két ember sziluettje melltől felfelé, sziluett
+🫂 egymást ölelő emberek, helló, köszönet, ölelés, viszlát
+👣 lábnyom, lábnyomok, nyomok
+🦰 vörös haj, vöröshajú
+🦱 afro, göndör, göndör haj, loknis
+🦳 haj, idős, ősz, szürke
+🦲 borotvált, haj nélkül, kemoterápia, kopasz, tar
+🐵 állat, fej, majom, majomfej
+🐒 kismajom, majom
+🦍 állat, gorilla
+🦧 emberszabású majom, orangután
+🐶 fej, kedvenc, kisállat, kutya, kutyafej
+🐕 kisállat, kutya
+🦮 akadálymentesség, vak, vakvezető, vakvezető kutya
+🐕‍🦺 akadálymentesség, kutya, segítő, segítőkutya, segítség
+🐩 kedvenc, kisállat, kutya, pudli, uszkár
+🐺 farkas, farkasfej, fej
+🦊 fej, róka, rókafej
+🦝 kíváncsi, mosómedve, ravasz
+🐱 cica, fej, kedvenc, kisállat, macska, macskafej
+🐈 kedvenc, kisállat, macska
+🐈‍⬛ balszerencse, fekete, macska
+🦁 állatöv, csillagjegy, fej, oroszlán, oroszlánfej
+🐯 fej, tigris, tigrisfej
+🐅 állat, tigris
+🐆 állat, leopárd
+🐴 fej, ló, lófej
+🐎 ló, lóverseny, versenyló
+🦄 egyszarvú, fej, unikornis, unikornisfej
+🦓 csík, zebra
+🦌 agancs, állat, szarvas
+🦬 bölény, csorda
+🐮 fej, tehén, tehénfej
+🐂 állatöv, bika, csillagjegy, ökör
+🐃 bölény, víz, vízibölény
+🐄 állat, tehén
+🐷 disznó, fej, malac, malacfej
+🐖 állat, disznó, koca, malac
+🐗 disznó, vaddisznó
+🐽 disznó, malacorr, orr
+🐏 állat, állatöv, csillagjegy, kos
+🐑 anyajuh, bárány, birka, juh
+🐐 állatöv, bak, bakkecske, csillagjegy, kecske
+🐪 dromedár, púposteve, teve
+🐫 kétpúpú teve, púposteve, teve
+🦙 alpaka, guanako, gyapjú, láma, vicuña
+🦒 folt, foltok, zsiráf
+🐘 elefánt, ormány
+🦣 gyapjas, kihalt, mamut, nagy, ormányos
+🦏 állat, orrszarvú
+🦛 víziló
+🐭 egér, egérfej, fej
+🐁 egér
+🐀 patkány
+🐹 fej, hörcsög, hörcsögfej, kedvenc, kisállat
+🐰 fej, kedvenc, kisállat, nyúl, nyúlfej, nyuszi
+🐇 kedvenc, kisállat, nyúl, nyuszi
+🐿 mogyoró, mókus
+🦫 gát, hód
+🦔 sün, tüskés
+🦇 állat, denevér, drakula, vámpír
+🐻 fej, maci, medve, medvefej
+🐻‍❄ fehér, jegesmedve, medve, sarkvidék
+🐨 fej, koala, maci, medve
+🐼 fej, panda, pandafej
+🦥 lajhár, lassú, lusta
+🦦 halászó, játékos, vidra
+🦨 bűz, bűzösborz
+🦘 Ausztrália, erszényes, kengu, kenguru, ugrás
+🦡 borz, méhészborz
+🐾 lábak, lábnyomok, mancsnyomok
+🦃 madár, pulyka
+🐔 madár, tyúk
+🐓 kakas, madár
+🐣 kikelés, kikelő kiscsibe, kiscsirke, madár
+🐤 kiscsibe, madár, naposcsibe
+🐥 előre néző kiscsibe, kiscsibe, madár
+🐦 madár
+🐧 madár, pingvin
+🕊 békegalamb, galamb, madár, olajág
+🦅 madár, sas
+🦆 kacsa, madár
+🦢 fiatal hattyú, hattyú, madár, rút kiskacsa
+🦉 bagoly, bölcs, madár
+🦤 dodó, kihalt, madár, Mauritius, nagy
+🪶 madár, madártoll, repülés, toll, tollazat
+🦩 flamingó, színpompás, trópusi
+🦚 büszke, hivalkodó, madár, páva, pávatyúk
+🦜 beszél, kalóz, madár, papagáj
+🐸 béka, békafej, fej
+🐊 krokodil
+🐢 teknőc, teknős, teknősbéka
+🦎 gyík, hüllő
+🐍 állatöv, csillagjegy, kígyó
+🐲 fantasy, fej, mese, sárkány, sárkányfej
+🐉 mese, sárkány
+🦕 brachiosaurus, brontosaurus, diplodocus, sauropoda
+🦖 T. rex, Tyrannosaurus rex
+🐳 bálna, fej, fröcskölés, fröcskölő bálna
+🐋 bálna
+🐬 delfin
+🦭 fóka, oroszlánfóka
+🐟 állatöv, csillagjegy, hal, halak
+🐠 díszhal, hal, trópusi
+🐡 gömbhal, hal
+🦈 cápa, hal
+🐙 oktopusz, polip
+🐚 kagyló, spirális, tengeri csiga
+🐌 csiga
+🦋 pillangó, rovar, szép
+🐛 bogár, rovar
+🐜 hangya, rovar
+🐝 méh, méhecske, rovar
+🪲 bogár, rovar
+🐞 bogár, katica, katicabogár, rovar
+🦗 szöcske, tücsök
+🪳 csótány, kártevő, rovar, svábbogár
+🕷 pók, rovar
+🕸 háló, pók, pókháló
+🦂 állatöv, csillagjegy, skorpió
+🦟 betegség, láz, malária, rovar, szúnyog, vírus
+🪰 betegség, féreg, kártevő, légy, rohadás
+🪱 féreg, földigiliszta, gyűrűs féreg, kukac, parazita
+🦠 amőba, baktérium, mikróba, vírus
+💐 csokor, romantika, virág, virágcsokor
+🌸 cseresznye, cseresznyevirág, virág
+💮 fehér virág, növény, virág
+🏵 növény, rozetta, virág
+🌹 növény, rózsa, virág
+🥀 hervadt, virág
+🌺 hibiszkusz, növény, virág
+🌻 nap, napraforgó, növény, virág
+🌼 növény, virág, virágzás
+🌷 növény, tulipán, virág
+🌱 növény, palánta
+🪴 cserepes növény, gondozás, hasztalan, növény, szoba, unalmas
+🌲 fa, növény, örökzöld
+🌳 fa, lombhullató, növény
+🌴 fa, növény, pálma, pálmafa
+🌵 kaktusz, növény
+🌾 növény, rizs
+🌿 gyógynövény, levél, növény
+☘ lóhere, növény
+🍀 lóhere, négylevelű, szerencse
+🍁 juhar, juharlevél, levél, növény
+🍂 lehullott, levél, növény
+🍃 hulló, lebegő, levél, növény, szél, szélfútta levél
+🍇 gyümölcs, növény, szőlő
+🍈 gyümölcs, növény, sárgadinnye
+🍉 görögdinnye, gyümölcs, növény
+🍊 gyümölcs, mandarin, narancs, növény
+🍋 citrom, citrusféle, gyümölcs, növény
+🍌 banán, gyümölcs, növény
+🍍 ananász, gyümölcs, növény
+🥭 gyümölcs, mangó, trópusi
+🍎 alma, gyümölcs, növény, piros
+🍏 alma, gyümölcs, növény, zöld
+🍐 gyümölcs, körte, növény
+🍑 gyümölcs, növény, őszibarack
+🍒 cseresznye, gyümölcs, növény
+🍓 eper, gyümölcs, növény, szamóca
+🫐 áfonya
+🥝 étel, gyümölcs, kivi
+🍅 növény, paradicsom, zöldség
+🫒 étel, olajbogyó
+🥥 kókuszdió, pálma, piña colada
+🥑 avokádó, étel, gyümölcs
+🍆 növény, padlizsán, zöldség
+🥔 étel, krumpli, zöldség
+🥕 étel, sárgarépa, zöldség
+🌽 cső, kukorica, kukoricacső, növény
+🌶 erős, erőspaprika, növény, paprika
+🫑 kaliforniai paprika, paprika, zöldség
+🥒 étel, uborka, zöldség
+🥬 káposzta, kel, kínai kel, leveles zöldség, saláta
+🥦 brokkoli, vadkáposzta
+🧄 fokhagyma, ízesítés
+🧅 hagyma, ízesítés
+🍄 gomba, növény
+🥜 étel, földimogyoró, mogyoró
+🌰 gesztenye, növény
+🍞 kenyér, vekni
+🥐 croissant, étel, francia, reggeli
+🥖 bagett, étel, francia, kenyér
+🫓 lapos kenyér, laposkenyér, naan, pita
+🥨 csavart, perec
+🥯 bagel, pékáru, vajkrém
+🥞 étel, palacsinta
+🧇 gofri, határozatlan, vas
+🧀 lyukas sajt, sajt, sajtdarab
+🍖 csont, csontos hús, hús
+🍗 baromfi, comb, csirke, csirkecomb, csontos
+🥩 bárányszelet, húsdarab, hússzelet, sertésszelet, steak
+🥓 bacon, étel, hús, szalonna
+🍔 burger, hambi, hamburger
+🍟 krumpli, sült krumpli, sültkrumpli
+🍕 pizza, sajtos, szelet
+🌭 hot dog, hotdog, kifli, kolbász, mustár, virsli
+🥪 kenyér, szendvics
+🌮 étel, mexikói, taco
+🌯 burrito, étel, mexikói
+🫔 felcsavart, mexikói, tamale
+🥙 étel, falafel, gírosz, kebab, pita, töltött
+🧆 csicseriborsó, falafel, húsgolyó
+🥚 étel, tojás
+🍳 serpenyő, sütés-főzés, tojás
+🥘 étel, serpenyő, serpenyős étel
+🍲 egy tál étel, ennivaló, étel, tál
+🫕 csokoládé, fondü, lábas, olvasztott, sajt, svájci
+🥣 gabonapehely, reggeli, rizskása, tál kanállal
+🥗 étel, saláta, zöld
+🍿 kukorica, pattogatott kukorica
+🧈 tejtermék, vaj
+🧂 fűszer, só, sószóró
+🥫 konzerv, konzervdoboz
+🍱 bento, ételdoboz, japán ételdoboz
+🍘 japán, keksz, rizs, rizskeksz
+🍙 golyó, japán, rizs, rizsgolyó
+🍚 főtt rizs, főzött, rizs
+🍛 curry, currys rizs, rizs
+🍜 forró, gőzölgő tál, gőzölög, tál, tészta
+🍝 spagetti, tészta
+🍠 burgonya, édesburgonya, étel, sült édesburgonya
+🍢 étel, japán kebab, oden
+🍣 étel, szusi
+🍤 rák, sült, sült garnélarák, tenger gyümölcsei
+🍥 csavart, étel, haltorta
+🥮 fesztivál, holdsütemény, ősz, yuèbǐng
+🍡 dango, desszert, édesség, étel, pálca
+🥟 gombóc, töltött tészta
+🥠 jóslat, szerencsesüti
+🥡 elviteles doboz, elviteles papírdoboz
+🦀 állatöv, csillagjegy, rák
+🦞 homár, ollók, rákleves, tengeri étel
+🦐 étel, garnélarák, kicsi
+🦑 étel, tintahal
+🦪 búvárkodás, gyöngy, osztriga
+🍦 desszert, édesség, fagyi, gépi fagylalt, lágyfagylalt
+🍧 desszert, édesség, fagyi, fagylalt öntettel, öntet
+🍨 desszert, édesség, fagyi, fagylalt
+🍩 desszert, édesség, fánk
+🍪 desszert, édesség, keksz, sütemény, süti
+🎂 desszert, édesség, sütemény, süti, születésnapi torta, szülinap, torta
+🍰 desszert, édesség, gyümölcstorta, sütemény, süti, torta, tortaszelet
+🧁 cupcake, édesség, pékáru
+🥧 pite, sütemény, töltelék
+🍫 csoki, csokoládé, desszert, édesség, táblás csokoládé
+🍬 cukorka, desszert, édesség
+🍭 cukorka, desszert, édesség, nyalóka
+🍮 desszert, édesség, puding
+🍯 bödön, csupor, méz, mézes bödön, mézes csupor
+🍼 baba, cumi, cumisüveg, tej
+🥛 egy pohár tej, ital, pohár, tej
+☕ forró, gőzölgő, ital, kávé, tea
+🫖 bögre, ital, tea, teáskanna
+🍵 fül nélküli teáscsésze, ital, tea, teáscsésze
+🍶 bár, csésze, ital, szaké, üveg
+🍾 bár, ital, kiugrik, kupak, üveg kiugró dugóval
+🍷 bár, bor, borospohár, ital, pohár
+🍸 bár, ital, koktél, koktélos pohár, pohár
+🍹 bár, ital, koktél, trópusi
+🍺 bár, ital, korsó, sör, söröskorsó
+🍻 bár, ital, koccintás, korsó, összekoccanó söröskorsók, sör
+🥂 ivás, koccintás, koccintó, koccintó poharak, pohár, ünneplés
+🥃 alkohol, feles, feles pohár, tömény, whisky
+🥤 dzsúz, ivólé, pohár szívószállal, szóda
+🧋 buborék, buborékos tea, gyöngy, tea, tej
+🧃 gyümölcsleves doboz, italos doboz
+🧉 ital, maté
+🧊 hideg, jéghegy, jégkocka
+🥢 evőpálcikák, hashi
+🍽 kés, kés és villa tányérral, tálalás, tányér, villa
+🍴 kés, kés és villa, tálalás, villa
+🥄 evőeszköz, kanál
+🔪 eszköz, felszerelés, kés, konyha, konyhakés
+🏺 amfora, edény, váza, vízöntő
+🌍 Afrika, Európa, Európát és Afrikát mutató földgömb, föld, földgömb, világ
+🌎 Amerika, Amerikát mutató földgömb, föld, földgömb, földrajz, világ
+🌏 Ausztrália, Ázsia, Ázsiát és Ausztráliát mutató földgömb, föld, világ
+🌐 délkörök, föld, földgömb, földgömb délkörökkel, földrajz, világ
+🗺 föld, térkép, világ, világtérkép
+🗾 földrajz, Japán, Japán térképe, térkép
+🧭 iránytű, mágneses, navigáció, tájékozódás
+🏔 hegy, hegy hótakaróval, hideg, hó
+⛰ hegy, hegység
+🌋 kitörés, tűzhányó, vulkán
+🗻 fudzsi, Fudzsi-hegy, hegy
+🏕 kemping, sátorozás
+🏖 napernyő, strand, strand napernyővel, tengerpart
+🏜 kaktusz, sivatag
+🏝 lakatlan sziget, sivatag, sziget
+🏞 nemzeti park, park, védett terület
+🏟 sportlétesítmény, stadion
+🏛 épület, klasszikus, régi
+🏗 építés, építkezés
+🧱 agyag, fal, malter, tégla, téglák
+🪨 kemény, kő, kőszikla, nehéz, szikla
+🪵 fa, faanyag, farönk, rönk
+🛖 ház, jurta, kunyhó
+🏘 épület, ház, lakóházak
+🏚 elhagyatott, épület, ház
+🏠 épület, ház, lakóház, otthon
+🏡 épület, ház, ház kerttel, kert, otthon
+🏢 épület, irodaépület
+🏣 épület, japán, japán postahivatal, posta
+🏤 épület, európai, posta, postahivatal
+🏥 doktor, épület, gyógyítás, kórház, orvos
+🏦 bank, épület
+🏨 épület, hotel
+🏩 épület, love hotel, szálló szerelmeseknek, szálloda, szerelmi fészek
+🏪 bolt, éjjel-nappali, épület, kisbolt, non-stop
+🏫 épület, iskola
+🏬 áruház, boltok, épület
+🏭 épület, gyár
+🏯 épület, japán, kastély
+🏰 épület, európai, vár
+💒 épület, esküvő, kápolna, romantika
+🗼 tokió, Tokiói torony, torony
+🗽 szabadság, Szabadság-szobor, szobor
+⛪ épület, kereszt, keresztény, templom, vallás
+🕌 iszlám, mecset, mohamedán, muszlim, vallás
+🛕 hindu, templom
+🕍 szentély, templom, vallás, zsidó, zsinagóga
+⛩ sintó, szentély, vallás
+🕋 iszlám, kába, mohamedán, muszlim, vallás
+⛲ szökőkút
+⛺ kempingezés, sátor, szállás
+🌁 időjárás, köd, ködös
+🌃 csillag, derült idő, éjszaka, éjszaka csillagokkal
+🏙 épületek, város, városkép
+🌄 hegyek, hegyek mögött felkelő nap, nap, napfelkelte
+🌅 felkelő nap, nap, napfelkelte, reggel
+🌆 alkonyat, este, naplemente, város, városkép alkonyatkor
+🌇 alkonyat, épületek, lemenő nap, nap, naplemente
+🌉 éjszaka, híd
+♨ forrás, forró, gőz, hőforrás
+🎠 játék, körhinta, ló a körhintáról, vidámpark
+🎡 játék, óriáskerék, vidámpark
+🎢 hullámnvasút, hullámvasút, játék, vidámpark
+💈 borbély, cégér, fodrász, fodrászcégér, hajvágás
+🎪 cirkusz, cirkuszsátor, sátor
+🚂 gőz, jármű, mozdony, vasút
+🚃 elektromos, kocsi, vasút, vasúti kocsi, villamos, vonat
+🚄 gyorsvasút, gyorsvonat, jármű, vasút
+🚅 golyóorrú, golyóorrú gyorsvasút, gyorsvonat, jármű, nagysebességű
+🚆 jármű, vasút, vonat
+🚇 földalatti, jármű, metró
+🚈 hév, jármű, vasút
+🚉 állomás, jármű, vasút, vonat
+🚊 jármű, nagyvárosi közlekedés, villamos
+🚝 egysínű vasút, jármű
+🚞 hegyi vasút, jármű, kocsi
+🚋 jármű, kocsi, villamos, villamoskocsi
+🚌 busz, jármű
+🚍 busz, érkezés, érkező busz, jármű
+🚎 busz, jármű, troli, trolibusz
+🚐 busz, jármű, mikrobusz, minibusz
+🚑 jármű, mentő
+🚒 jármű, tűzoltóautó, tűzoltóság
+🚓 autó, jármű, járőrautó, rendőrautó, rendőrség
+🚔 autó, érkező, érkező rendőrautó, jármű, járőrautó, rendőrség
+🚕 jármű, személyszállítás, taxi
+🚖 érkező, jármű, személyszállítás, taxi
+🚗 autó, jármű
+🚘 autó, érkező, jármű, kocsi
+🚙 jármű, lakókocsi, SUV, szabadidőautó
+🛻 kisteherautó, pick-up, pickup
+🚚 autó, jármű, teherautó, teherfuvarozás
+🚛 autó, billenős teherautó, jármű, teherfuvarozás
+🚜 jármű, traktor
+🏎 autó, verseny, versenyautó, versenyzés
+🏍 motorkerékpár, verseny, versenyzés
+🛵 motor, robogó
+🦽 akadálymentesség, kézi hajtású kerekesszék
+🦼 akadálymentesség, motoros kerekesszék
+🛺 motoros riksa, tuk tuk
+🚲 bicikli, jármű, kerékpár
+🛴 roller
+🛹 deszka, gördeszka
+🛼 görkorcsolya
+🚏 busz, buszmegálló, megálló
+🛣 autópálya, pálya, út
+🛤 vasút, vasúti sín, vonat
+🛢 hordó, olaj, olajoshordó
+⛽ benzin, benzinkút, dízel, kút, tank, töltőállomás
+🚨 autó, forgó, jármű, lámpa, rendőrautó villogója, villogó
+🚥 közlekedési, lámpa, vízszintes közlekedési lámpa
+🚦 függőleges közlekedési lámpa, közlekedési, lámpa
+🛑 nyolcszög, stoptábla
+🚧 sorompó, útépítés
+⚓ hajózás, horgony, kikötés, vasmacska
+⛵ hajó, jacht, tenger, vitorlás, vízi jármű
+🛶 csónak, kenu
+🚤 csónak, motoros siklócsónak, vízi jármű
+🛳 csónak, utasszállítás, utasszállító hajó, vízi jármű
+⛴ hajó, komp, utasszállítás
+🛥 csónak, motorcsónak, utasszállítás
+🚢 hajó, vízi jármű
+✈ légi jármű, repülőgép
+🛩 kisrepülő, légi jármű, repülőgép
+🛫 felszállás, indulás, légi jármű, repülőgép, repülőgép indulása, utasfelvétel
+🛬 érkezés, légi jármű, leszállás, repülőgép, repülőgép érkezése
+🪂 ejtőernyő, siklóernyő
+💺 szék, ülés
+🚁 helikopter, légi jármű
+🚟 függő, függővasút, jármű, vasút
+🚠 hegyi, hegyi felvonó, jármű
+🚡 jármű, kötélpálya, kötélpályás felvonó, levegő
+🛰 jármű, műhold, szatellit, űr
+🚀 jármű, rakéta, űr
+🛸 repülő csészealj, UFO, ufó
+🛎 csengő, londinerhívó csengő, szálloda
+🧳 bőrönd, csomagolás, utazás
+⌛ homok, idő, lejárt homokóra, óra
+⏳ homok, homokóra, idő, nem lejárt homokóra
+⌚ karóra, óra
+⏰ ébresztés, ébresztőóra, óra, vekker
+⏱ óra, stopper, stopperóra
+⏲ időzítő, óra, visszaszámlálás, visszaszámláló óra
+🕰 óra, régies óra
+🕛 00, 12, 12:00, egész óra, óra, tizenkét óra, tizenkettő
+🕧 12, 12:30, 30, fél egy, harminc, óra, tizenkettő
+🕐 00, 1, 1:00, egész óra, egy, óra
+🕜 1, 1:30, 30, egy, fél kettő, harminc, óra
+🕑 00, 2, 2:00, egész óra, két óra, kettő, óra
+🕝 2, 2:30, 30, fél három, harminc, kettő, óra
+🕒 00, 3, 3:00, egész óra, három, óra
+🕞 3, 3:30, 30, fél négy, harminc, három, óra
+🕓 00, 4, 4:00, egész óra, négy, óra
+🕟 30, 4, 4:30, fél öt, harminc, négy, óra
+🕔 00, 5, 5:00, egész óra, óra, öt
+🕠 30, 5, 5:30, fél hat, harminc, óra, öt
+🕕 00, 6, 6:00, egész óra, hat, óra
+🕡 30, 6, 6:30, fél hét, harminc, hat, óra
+🕖 00, 7, 7:00, egész óra, hét, óra
+🕢 30, 7, 7:30, fél nyolc, harminc, hét, óra
+🕗 00, 8, 8:00, egész óra, nyolc, óra
+🕣 30, 8, 8:30, fél kilenc, harminc, nyolc, óra
+🕘 00, 9, 9:00, egész óra, kilenc, óra
+🕤 30, 9, 9:30, fél tíz, harminc, kilenc, óra
+🕙 00, 10, 10:00, egész óra, óra, tíz
+🕥 10, 10:30, 30, fél tizenegy, harminc, óra, tíz
+🕚 00, 11, 11:00, egész óra, óra, tizenegy
+🕦 11, 11:30, 30, fél tizenkettő, harminc, óra, tizenegy
+🌑 ég, hold, holdfázisok, sötétség, újhold
+🌒 ég, holdfázisok, növő hold, növő, sarló alakú hold, sarló
+🌓 ég, első negyedben lévő hold, hold, holdfázisok, negyed
+🌔 domború, ég, hold, holdfázisok, növő domború hold
+🌕 ég, hold, holdfázisok, telihold
+🌖 domború, ég, fogyó domború hold, hold, holdfázisok
+🌗 ég, hold, holdfázisok, utolsó negyed, utolsó negyedben lévő hold
+🌘 ég, fogyó, fogyó, kifli alakú hold, fogyó, sarló alakú hold, hold, holdfázisok, sarló
+🌙 ég, hold, holdfázisok, növekvő hold, sarló
+🌚 arc, ég, hold, holdfázisok, újhold, újhold arccal
+🌛 arc, ég, első negyed, első negyedben lévő hold arccal, hold, holdfázisok
+🌜 arc, ég, hold, holdfázisok, utolsó negyed, utolsó negyedben lévő hold arccal
+🌡 hőmérő, időjárás
+☀ fényes sugarak, időjárás, nap, napos, napsugarak
+🌝 arc, ég, holdfázisok, telihold, telihold arccal
+🌞 arc, égitest, időjárás, nap, nap arccal
+🪐 gyűrűs bolygó, Szaturnusz
+⭐ csillag
+🌟 csillag, csillogás, fény, fénylő csillag
+🌠 csillag, csillaghullás, ég, hullócsillag
+🌌 csillagrendszer, tejút, űr, világűr
+☁ felhő, időjárás
+⛅ felhő, időjárás, nap, nap egy felhő mögött
+⛈ eső, felhő, felhő villámmal és esővel, időjárás, mennydörgés
+🌤 felhő, időjárás, nap, nap egy kis felhő mögött
+🌥 felhő, időjárás, nap, nap egy nagy felhő mögött
+🌦 eső, felhő, időjárás, nap, nap a felhő mögött esővel
+🌧 eső, felhő, felhő esővel, időjárás
+🌨 felhő, felhő hóval, hideg, hó, időjárás
+🌩 felhő, felhő villámmal, időjárás, villám
+🌪 felhő, időjárás, tornádó
+🌫 felhő, időjárás, köd
+🌬 arc, időjárás, szél, szélarc, szeles
+🌀 ciklon, hurrikán, időjárás, tájfun
+🌈 eső, időjárás, szivárvány
+🌂 becsukott esernyő, ernyő, eső, időjárás, kiegészítő
+☂ esernyő, eső, időjárás, kiegészítő
+☔ csepp, ernyő, esernyő esőcseppekkel, eső, időjárás, kiegészítő
+⛱ ernyő, ernyő a földön, eső, időjárás, nap
+⚡ magasfeszültség, nagyfeszültség, veszély, villám
+❄ hideg, hó, hópehely, időjárás
+☃ hideg, hó, hóember, időjárás
+⛄ hideg, hó, hóember, hóember hó nélkül, időjárás
+☄ űr, üstökös
+🔥 láng, tűz
+💧 csepp, hideg, időjárás, izzadság, vicces
+🌊 hullám, időjárás, óceán, tenger, víz, vízhullám
+🎃 halloween, töklámpa, töklámpás, ünnep, ünnepi hangulat, ünneplés
+🎄 fa, fenyőfa, karácsony, karácsonyfa, ünnep
+🎆 tűzijáték, ünnep, ünnepi hangulat, ünneplés
+🎇 csillagszóró, tűzijáték, ünnep, ünnepi hangulat, ünneplés
+🧨 dinamit, petárda, robbanószer, tüzijáték
+✨ csillag, szikra, szikrák
+🎈 léggömb, ünnep, ünnepi hangulat, ünneplés
+🎉 buli, partikellékek, ünnep, ünnepi hangulat, ünneplés
+🎊 konfetti, ünnep, ünnepi hangulat, ünneplés
+🎋 fa, japán, tanabata ünnepi fa, ünnep, ünnepi hangulat, ünneplés
+🎍 bambusz, fenyő, fenyődekoráció, japán, ünnep
+🎎 baba, japán, japán babák, ünnep, ünnepi hangulat, ünneplés
+🎏 ponty, rizspapír, rizspapír pontyok, ünnep, ünnepi hangulat, ünneplés
+🎐 harang, szélharang, ünnep, ünnepi hangulat, ünneplés
+🎑 hold, holdünnep, ünnep, ünnepi hangulat, ünneplés
+🧧 ajándék, hóngbāo, lai see, pénz, piros boríték, szerencsehozó
+🎀 masni, szalag, ünnep, ünnepi hangulat, ünneplés
+🎁 ajándék, becsomagolt, doboz, ünnep, ünnepi hangulat, ünneplés
+🎗 emlékezés, emlékező szalag, megemlékezés, szalag
+🎟 belépő, belépőjegyek, jegy
+🎫 belépő, jegy
+🎖 katonai, kitüntetés, medál, megemlékezés
+🏆 díj, kupa
+🏅 érem, medál, sportérem
+🥇 arany, aranyérem, első, érem
+🥈 érem, ezüst, ezüstérem, második
+🥉 bronz, bronzérem, érem, harmadik
+⚽ foci, futball, labda
+⚾ baseball, labda
+🥎 kar alatti dobás, kesztyű, labda, softball
+🏀 kosár, kosárlabda, labda
+🏐 játék, labda, röplabda, sport
+🏈 amerikai foci, amerikai futball, labda
+🏉 labda, rögbi
+🎾 labda, tenisz
+🥏 frizbi, ultimate
+🎳 bowling, golyó, játék
+🏏 játék, krikett, labda, ütő
+🏑 gyeplabda, hoki, labda, sport, ütő
+🏒 hoki, hokiütő és korong, jéghoki, korong, labda, sport, ütő
+🥍 bot, kapu, labda, lacrosse
+🏓 asztalitenisz, labda, pingpong, sport, ütő
+🏸 játék, labda, tollas, tollaslabda, ütő
+🥊 boksz, bokszkesztyű, kesztyű, sport
+🥋 dzsúdó, harcművészet, judo, karate, karateruha, ruha, sport
+🥅 háló, kapu, sport
+⛳ golf, lyuk, zászló a lyuknál
+⛸ jég, jégkorcsolya, korcsolya
+🎣 bot, hal, horgászbot, pecabot
+🤿 búvárkodás, búvármaszk, merülés, szabadtüdős merülés
+🎽 futás, futómez, mez, trikó
+🎿 hó, síelés, sílécek, téli sportok
+🛷 szán, szánkó
+🥌 curlingkő, játék, kő
+🎯 bullseye, játék, találat, telitalálat
+🪀 játék, jojó, jojózik
+🪁 papírsárkány, repül, szárnyal
+🎱 8-as, biliárd, biliárdgolyó, golyó
+🔮 jövendő, jövendőmondás, kristálygömb, mese
+🪄 boszorkány, varázslat, varázsló, varázspálca
+🧿 bűbáj, gonoszűző, nazar, nazar amulett, szem, talizmán
+🎮 játék, kontroller, videojáték
+🕹 játék, joystick, videojáték
+🎰 játékgép, nyerőgép, pénzbedobós
+🎲 dobókocka, játék, kocka
+🧩 darab, kirakó, nyom, összekapcsolódó, puzzle
+🧸 játék, játszótárs, plüss, plüssmaci, tömött
+🪅 buli, pinyáta, ünnepség
+🪆 baba, egymásba rakható, matrjoska, orosz
+♠ francia kártya, játék, pikk, szín
+♥ francia kártya, játék, kőr, szín
+♦ francia kártya, játék, káró, szín
+♣ francia kártya, játék, szín, treff
+♟ feláldozható, gyalog, paraszt, sakk
+🃏 dzsóker, francia kártya, játék
+🀄 játék, madzsong, madzsong vörös sárkány, vörös
+🎴 japán, játék, kártya, virág, virágos kártyajáték
+🎭 előadás, előadóművészetek, maszkok, színház
+🖼 bekeretezett kép, galéria, kép kerettel, művészet, múzeum
+🎨 festőpaletta, galéria, művészet, múzeum, paletta
+🧵 cérna, madzag, orsó, tű, varrás
+🪡 hímzés, öltés, szabászat, tű, varrás, varrat, varrótű
+🧶 fonál, gombolyag, horgolás, kötés
+🪢 csomó, hurok, kötél, madzag
+👓 szem, szemüveg, viselet
+🕶 kiegészítő, napszemüveg, sötét, szem, szemüveg
+🥽 hegesztés, szemvédelem, úszás, védőszemüveg
+🥼 kísérlet, laborköpeny, orvos, tudós
+🦺 biztonság, mellény, mentő, mentőmellény, vészhelyzet
+👔 elegancia, nyakkendő, ruházat
+👕 póló, ruha, ruházat
+👖 farmer, farmernadrág, nadrág, ruha, ruházat
+🧣 nyak, sál
+🧤 kesztyű, kéz
+🧥 dzseki, kabát
+🧦 harisnya, zokni
+👗 ruha, ruházat
+👘 kimonó, ruha, ruházat
+🥻 ruha, ruházat, szári
+🩱 egyrészes fürdőruha, fürdőruha
+🩲 alsó, egyrészes, fürdőnadrág
+🩳 alsó, fürdőnadrág, rövidnadrág
+👙 bikini, fürdő, ruha, ruházat, úszás
+👚 női ruha, nők, ruha, ruházat
+👛 kiegészítő, pénz, pénztárca
+👜 kiegészítő, női táska, táska
+👝 kiegészítő, táska
+🛍 bevásárlótáska, bevásárlótáskák, táska, vásárlás
+🎒 hátizsák, iskola, iskolatáska, táska
+🩴 papucs, strandpapucs, szandál, tangapapucs
+👞 cipő, férfi, ruha, ruházat
+👟 atlétika, cipő, edzőcipő, futás, futócipő, tornacipő
+🥾 bakancs, hátizsákos túra, kemping, túrabakancs, túrázás
+🥿 balenira, lapos sarkú cipő, mokaszin, papucs
+👠 magas sarkú cipő, magassarkú, nők, ruha, ruházat
+👡 női szandál, nők, ruha, ruházat, szandál
+🩰 balett, balettcipő, tánc
+👢 csizma, lábbeli, női csizma, nők, ruha, ruházat
+👑 kiegészítő, király, királynő, korona
+👒 kalap, női kalap, nők, ruha, ruházat
+🎩 cilinder, kalap, ruha, ruházat
+🎓 diplomaosztó, diplomaosztón használt kalap, kalap, ruha, ruházat, ünneplés
+🧢 baseball sapka, sildes sapka
+🪖 hadsereg, harcos, katona, katonai sisak, katonaság, sisak
+⛑ elsősegély, sisak, sisak vörös kereszttel
+📿 gyöngyök, ima, imafüzér, nyaklánc, vallás
+💄 ajakrúzs, kozmetikum, smink, szépségápolás
+💍 ékszer, gyémánt, gyűrű, romantika
+💎 ékkő, ékszer, gyémánt, romantika
+🔇 csendes, elnémított hangszóró, hangerő, hangszóró, néma, némított
+🔈 hangerő, hangszóró
+🔉 alacsony hangerő, bekapcsolt hangszóró, hangszóró
+🔊 hangos, hangszóró, nagy hangerő
+📢 hangos, hangosbeszélő, közlemények
+📣 megafon, szurkolás
+📯 kürt, posta, postai, postakürt
+🔔 harang
+🔕 áthúzott harang, harang, néma, némítás, némított, tilos, tiltott
+🎼 kotta, zene, zenei kotta
+🎵 hangjegy, zene
+🎶 hangjegy, hangjegyek, zene
+🎙 mikrofon, stúdió, stúdiómikrofon, zene
+🎚 csúszka, hangerő, zene
+🎛 gombok, irányítás, vezérlőgombok, zene
+🎤 hangjegyek, karaoke, mikrofon, zene
+🎧 fülhallgató, zenehallgatás
+📻 rádió, rádiókészülék
+🎷 hangszer, szaxi, szaxofon, zene
+🪗 harmonika, tangóharmonika
+🎸 gitár, hangszer, zene
+🎹 billentyűzet, hangszer, zene, zenei billentyűzet, zongora
+🎺 hangszer, trombita, zene
+🎻 hangszer, hegedű, zene
+🪕 bendzsó, húros, zene
+🥁 dob, dobverő, zene
+🪘 dob, hosszú dob, konga, ritmus, ütem
+📱 mobil, mobiltelefon, rádiótelefon, telefon
+📲 hívás, mobil, mobiltelefon, mobiltelefon nyíllal, nyíl, rádiótelefon, telefon
+☎ telefon
+📞 kagyló, telefon, telefonkagyló
+📟 személyhívó
+📠 fax, faxkészülék
+🔋 akkumulátor, elem
+🔌 dugó, elektromos dugó, elektronika, villamosság
+💻 laptop, notebook, számítógép
+🖥 asztali, pc, számítógép
+🖨 nyomtató, számítógép
+⌨ billentyűzet, számítógép
+🖱 3 gombos, egér, három, számítógép, számítógépes egér
+🖲 számítógép, trackball
+💽 lemez, minidisk, optikai, számítógép
+💾 floppy, floppylemez, hajlékonylemez, lemez, számítógép
+💿 blu-ray, dvd, lemez, optikai, számítógép
+📀 blu-ray, cd, dvd, lemez, optikai, számítógép
+🧮 abakusz, számolás
+🎥 felvevő, film, kamera, mozi
+🎞 film, filmkockák, filmtekercs, kocka, kockák, mozi
+📽 film, filmvetítő, mozi, vetítő, videó
+🎬 csapó, film
+📺 televízió, tévé, tévékészülék
+📷 fényképezőgép, kamera
+📸 fényképező vakuval, fényképezőgép, vaku, videó
+📹 kamera, videók, videokamera
+📼 kazetta, szalag, videó, videokazetta
+🔍 balra mutató nagyító, keresés, lencse, nagyító
+🔎 jobbra mutató nagyító, keresés, lencse, nagyító
+🕯 gyertya, világítás
+💡 fény, képregény, ötlet, világítás, villanykörte
+🔦 elektronikus, elemlámpa, fény, világítás, zseblámpa
+🏮 bár, japán, lámpa, piros, piros papírlámpa
+🪔 diya, lámpa, olaj, olajlámpa
+📔 borító, díszes, díszkötés, füzet, jegyzetfüzet, jegyzetfüzet díszkötésben
+📕 becsukott könyv, csukott, könyv
+📖 könyv, nyitott
+📗 könyv, zöld
+📘 kék, könyv
+📙 könyv, narancssárga
+📚 könyv, könyvek
+📓 füzet, jegyzetek, jegyzetfüzet
+📒 főkönyv, könyv
+📃 dokumentum, kunkorodik, kunkorodó lap, lap
+📜 papír, papírtekercs, tekercs
+📄 dokumentum, felfelé néző oldal, lap
+📰 újság, újságos
+🗞 feltekert, papír, újság
+📑 fülek, jelzés, könyvjelző, könyvjelzők
+🔖 könyvjelző
+🏷 címke
+💰 dollár, pénz, pénzeszsák, zsák
+🪙 arany, érme, ezüst, fém, kincs, pénz
+💴 bank, bankjegy, bankó, jen, papírpénz, pénz, pénznem
+💵 bank, bankjegy, bankó, dollár, papírpénz, pénz, pénznem
+💶 bank, bankjegy, bankó, euró, papírpénz, pénz, pénznem
+💷 bank, bankjegy, bankó, font, papírpénz, pénz, pénznem
+💸 bankjegy, dollár, pénz, pénz szárnyakkal, szárnyak
+💳 bank, bankkártya, hitelkártya, kártya
+🧾 bizonyíták, könyvelés, nyugta, pénzügyek, számla
+💹 diagram, emelkedés, jen, növekvő jendiagram, pénz, trend
+✉ boríték, e-mail, levél
+📧 e-mail, levél
+📨 beérkező, boríték, e-mail, fogadás, levél, posta
+📩 boríték, boríték nyíllal, e-mail, elküldött, kimenő, levél, nyíl, posta
+📤 elküldött, kimenő, levél, posta, tálca
+📥 beérkező, fogadás, levél, posta, tálca
+📦 csomag, doboz
+📫 csukott, csukott levelesláda felemelt zászlóval, levél, levelesláda, postaláda
+📪 csukott, csukott levelesláda leengedett zászlóval, leengedett, levél, levelesláda, postaláda
+📬 felemelt, levél, levelesláda, nyitott, nyitott levelesláda felemelt zászlóval, postaláda
+📭 leengedett, levél, levelesláda, nyitott, nyitott levelesláda leengedett zászlóval, postaláda
+📮 doboz, levelesláda, postaláda
+🗳 doboz, szavazás, urna, urna szavazólappal
+✏ ceruza, írószer
+✒ fekete tollhegy, írószer, toll, tollhegy
+🖋 írószer, toll, töltőtoll
+🖊 golyóstoll, írószer, toll
+🖌 ecset, festés, írószer
+🖍 rajz, zsírkréta
+📝 ceruza, feljegyzés, lap
+💼 aktatáska
+📁 fájl, fájlmappa, mappa
+📂 fájl, mappa, nyitott, nyitott fájlmappa
+🗂 elválasztók, kartoték, kartotékelválasztók, katalógus
+📅 dátum, naptár
+📆 fali naptár, naptár
+🗒 jegyzettömb, spirál, spirálfüzet, tömb
+🗓 naptár, spirál, spirálos naptár, tömb
+📇 forgó, forgó névjegykártyatartó, kártya, rolodex, tartó
+📈 diagram, felfelé, növekedés, növekvő diagram, trend
+📉 csökkenés, csökkenő diagram, diagram, lefelé, trend
+📊 diagram, oszlop, oszlopdiagram, sáv
+📋 írótábla
+📌 rajzszög
+📍 kerek rajzszög, rajzszög
+📎 gemkapocs, papírkapocs
+🖇 gemkapcsok, kapcsolódás, összekapcsolt gemkapcsok
+📏 egyenes, vonalzó
+📐 derékszögű, háromszög, háromszögvonalzó, vonalzó
+✂ eszköz, olló
+🗃 akták, doboz, kartoték, kartotékdoboz
+🗄 akták, iratok, iratszekrény, szekrény
+🗑 papírkosár
+🔒 lakat, zárt, zárva
+🔓 kinyitás, lakat, nyitott lakat, nyitva
+🔏 adatvédelem, lakat tollal, tinta, toll, zár
+🔐 biztonságos, kulcs, zárt, zárt lakat kulccsal, zárva
+🔑 jelszó, kulcs
+🗝 öreg kulcs, régi kulcs
+🔨 kalapács, szerszám
+🪓 balta, fa, fejsze, szekerce, vágás
+⛏ bányászat, csákány, szerszám
+⚒ csákány, kalapács, kalapács és csákány, szerszám
+🛠 csavarkulcs, kalapács, kalapács és csavarkulcs, szerszám, villáskulcs
+🗡 fegyver, szúrás, tőr
+⚔ fegyver, kardok, keresztbe tett, keresztezett
+🔫 fegyver, pisztoly, revolver, vízipisztoly
+🪃 ausztrália, bumeráng, visszajön, visszarepül
+🏹 fegyver, íj, íj és nyíl, nyíl, nyilas
+🛡 fegyver, pajzs
+🪚 ács, asztalos, fa, fűrész, rókafarkú, szerszám
+🔧 csavarkulcs, szerszám, villáskulcs
+🪛 csavarhúzó, szerszám
+🔩 anya, csavar, csavar és anya, szerszám
+⚙ fogaskerék, szerszám
+🗜 satu, szerszám
+⚖ eszköz, felszerelés, kétkarú mérleg, mérleg, tömeg
+🦯 akadálymentesség, fehér bot, vak
+🔗 kapocs, láncszem
+⛓ lánc, láncszemek
+🪝 csapda, fogás, horog, kampó
+🧰 barkácsolás, láda, szerszám, szerszámosláda
+🧲 mágnes, mágneses, patkó, vonzódás
+🪜 fok, létra, létrafok, mászás
+⚗ eszköz, felszerelés, kémia, lombik
+🧪 kémcső, kémia, kísérlet, labor, tudomány, vegyészet
+🧫 baktérium, biológia, biológus, labor, Petri-csésze, tenyészet
+🧬 biológia, DNS, élet, fejlődés, gének, genetika
+🔬 eszköz, felszerelés, mikroszkóp
+🔭 eszköz, felszerelés, távcső
+📡 antenna, műhold, parabolaantenna, tányér
+💉 eszköz, fecskendő, injekciós tű, orvos, vérvétel
+🩸 gyógyszer, menstruáció, véradás, vércsepp
+💊 betegség, doktor, gyógyszer, orvos, pirula, tabletta
+🩹 kötszer, ragtapasz
+🩺 gyógyszer, orvos, szív, sztetoszkóp
+🚪 ajtó
+🛗 akadálymentesítés, felvonó, lift
+🪞 tükör, tükröződés, visszaverődés
+🪟 ablak, átlátszó, friss levegő, keret, kilátás, nyílás
+🛏 ágy, alvás, szálloda
+🛋 kanapé, kanapé és lámpa, lámpa, szálloda
+🪑 szék, ül, ülés
+🚽 mosdó, toalett, vécé
+🪠 dugulás, vécé, vécépumpa, vízvezeték-szerelő, wc
+🚿 víz, vízsugár, zuhanyzó
+🛁 fürdés, fürdőkád
+🪤 csalétek, csali, csapda, egércsapda
+🪒 borotva, borotvál, éles
+🧴 hidratáló, krém, krémes flakon, napvédő krém, sampon
+🧷 biztosítótű, pelenka, punk rock
+🧹 boszorkány, seprés, seprű, tisztítás
+🧺 gazdálkodás, kosár, piknik, szennyes
+🧻 papírtekercs, papírtörölköző, WC-papír
+🪣 felmosó, vödör
+🧼 darab, fürdés, szappan, szappanhab, szappantartó, tisztálkodás
+🪥 fogak, fogászat, fogkefe, fogmosás, fürdőszoba, higiénia, kefe, tisztítás
+🧽 nedvszívó, porózus, szivacs, tisztítás
+🧯 elfojt, elolt, tűz, tűzoltó készülék
+🛒 bevásárló, bevásárlókocsi, kocsi, shopping, vásárlás
+🚬 cigaretta, dohányzás
+⚰ halál, koporsó
+🪦 fejfa, sír, sírkő, temető
+⚱ halál, halotti urna, temetés, urna
+🗿 arc, japán, moai, szobor
+🪧 demonstráció, sztrájk, tábla, transzparens, tüntetés
+🏧 atm, ATM-jel, bankautomata
+🚮 környezettudatosság, szemét, szemét a kukában szimbólum, szemetes
+🚰 fogyasztható víz, iható, ivóvíz
+♿ akadálymentesség, kerekesszék
+🚹 férfiak, férfimosdó, mosdó, vécé, WC
+🚺 mosdó, női mosdó, nők, vécé, WC
+🚻 mosdó, toalett, vécé
+🚼 baba szimbólum, kisbaba, pelenkázó
+🚾 mellékhelyiség, mosdó, toalett, vécé, WC
+🛂 ellenőrzés, útlevél, útlevél-ellenőrzés
+🛃 ellenőrzés, vám
+🛄 felvétel, poggyász, poggyászfelvétel
+🛅 csomag, csomagmegőrző, megőrzés, poggyász
+⚠ figyelem, figyelmeztetés
+🚸 átkelő gyermekek, gyalogosok, gyermekek
+⛔ behajtani tilos, behajtás, közlekedési tábla, nincs behajtás, tilos, tiltott
+🚫 behajtás, nincs behajtás, tilos, tiltott
+🚳 bicikli, kerékpár, kerékpározni tilos, tilos, tiltott
+🚭 cigaretta, dohányozni tilos, dohányzás, tilos, tiltott
+🚯 szemét, szemetelés, szemetelni tilos, tilos, tiltott
+🚱 ivás, ivóvíz, nem, tilos, tiltott
+🚷 gyalog, gyalogos, nem gyalogos zóna, tilos, tiltott
+📵 mobil, mobiltelefon, mobiltelefon használata tilos, telefon, tilos, tiltott
+🔞 18 év alatt tilos, 18-as karika, korhatár, tilos, tiltás, tiltott, tizennyolc
+☢ jel, nukleáris veszély, radioaktív
+☣ biológiai veszély, jel
+⬆ észak, felfelé, felfelé mutató nyíl, irány, nyíl
+↗ északkelet, felfelé, irány, jobbra felfelé mutató nyíl, nyíl
+➡ irány, jobbra, jobbra mutató nyíl, kelet, nyíl
+↘ délkelet, irány, jobbra lefelé mutató nyíl, nyíl
+⬇ dél, irány, lefelé, lefelé mutató nyíl, nyíl
+↙ balra lefelé mutató nyíl, délnyugat, irány, nyíl
+⬅ balra, balra mutató nyíl, irány, nyíl, nyugat
+↖ balra felfelé mutató nyíl, északnyugat, irány, nyíl
+↕ fel-le mutató nyíl, nyíl
+↔ balra-jobbra mutató nyíl, nyíl
+↮ kétirányú nyíl vonással
+↩ balra görbülő jobb nyíl, nyíl
+↪ jobbra görbülő bal nyíl, nyíl
+⤴ felfelé görbülő jobb nyíl, nyíl
+⤵ lefelé, lefelé görbülő jobb nyíl, nyíl
+🔃 nyíl, óramutató járásával megegyező, óramutató járásával megegyező irányú függőleges nyilak, újratöltés
+🔄 nyíl, óramutató járásával ellentétes, óramutató járásával ellentétes irányú nyilak gombja
+🔙 nyíl, vissza nyíl, visszafelé
+🔚 nyíl, vége
+🔛 bekapcsolva, jelzés, nyíl
+🔜 hamarosan, jön, nyíl
+🔝 csúcsra nyíl, felfelé, nyíl, top
+🛐 ima, imahely, vallás
+⚛ ateista, atom, atom szimbólum
+🕉 hindu, om, vallás
+✡ csillag, Dávid, Dávid-csillag, vallás, zsidó
+☸ buddha, buddhizmus, dharma-kerék, kerék, vallás
+☯ jang, jin, jin-jang, tao, taoizmus, vallás
+✝ kereszt, kereszténység, latin kereszt, vallás
+☦ kereszt, kereszténység, ortodox kereszt, vallás
+☪ csillag és félhold, iszlám, muszlim, vallás
+☮ béke, békejel
+🕎 gyertyatartó, menóra, vallás
+🔯 csillag, hatágú csillag ponttal, szerencse
+♈ horoszkóp, kos, kos csillagjegy
+♉ bika, bika csillagjegy, horoszkóp
+♊ horoszkóp, ikrek, ikrek csillagjegy
+♋ horoszkóp, rák, rák csillagjegy
+♌ horoszkóp, oroszlán, oroszlán csillagjegy
+♍ horoszkóp, szűz, szűz csillagjegy
+♎ horoszkóp, mérleg, mérleg csillagjegy
+♏ horoszkóp, skorpió, skorpió csillagjegy
+♐ horoszkóp, nyilas, nyilas csillagjegy
+♑ bak, bak csillagjegy, horoszkóp
+♒ horoszkóp, vízöntő, vízöntő csillagjegy
+♓ halak, halak csillagjegy, horoszkóp
+⛎ csillagjegy, horoszkóp, kígyótartó
+🔀 egymást keresztező nyilak, véletlenszerű lejátszás gomb
+🔁 ismétlés, ismétlés gomb, nyilak
+🔂 egy szám ismétlése gomb, ismétlés egyszer, nyilak
+▶ jobbra nyíl, lejátszás, lejátszás gomb, nyíl
+⏩ dupla nyíl, előre, előretekerés gomb, gyors tekerés
+⏭ következő jelenet, következő szám, következő szám gomb
+⏯ lejátszás, lejátszás vagy szünet gomb, szüneteltetés
+◀ balra nyíl, vissza, visszajátszás gomb
+⏪ dupla nyíl, gyors tekerés, vissza, visszatekerés gomb
+⏮ előző jelenet, előző szám, legutóbbi szám gomb, nyíl
+🔼 felfelé gomb, gomb, nyíl, piros
+⏫ dupla, gomb, gyors felfelé gomb, nyíl
+🔽 gomb, lefelé, nyíl, piros
+⏬ gomb, gyors lefelé gomb, lefelé, nyíl, piros
+⏸ dupla vonal, függőleges, gomb, szünet, szüneteltetés gomb
+⏹ gomb, leállítás, négyzet
+⏺ felvétel, gomb, kör
+⏏ gomb, kiadás, lemez kiadása gomb
+🎦 film, kamera, mozi
+🔅 fényerő, sötétítés, sötétítés gomb
+🔆 fényerő, világosítás, világosítás gomb
+📶 antenna, antennasávok, mobil, mobiltelefon, térerő
+📳 mobil, mobiltelefon, rádiótelefon, rezgés, rezgő mód, telefon, tiltott
+📴 kikapcsolva, mobil, mobiltelefon, rádiótelefon, telefon, tiltott
+♀ nem, női, női nem jelképe
+♂ férfi, férfi nem jelképe, nem
+⚧ transznemű, transznemű szimbólum
+✖ ×, jel, mégse, szorzás, x
+➕ +, jel, matematika, plusz
+➖ -, −, jel, matematika, mínusz
+➗ ÷, jel, matematika, osztás
+♾ korlátlan, örökké, univerzális, végtelen
+‼ dupla felkiáltójel, felkiáltás, írásjel, központozás
+⁉ felkiáltás, felkiáltójel kérdőjellel, írásjel, kérdés, központozás
+❓ írásjel, kérdés, kérdőjel, központozás, piros kérdőjel
+❔ fehér, fehér kérdőjel, írásjel, kérdés, központozás
+❕ fehér, fehér felkiáltójel, felkiáltás, írásjel, központozás
+❗ felkiáltás, felkiáltójel, írásjel, központozás, piros felkiáltójel
+〰 gondolatjel, hullámos, központozás
+💱 átváltás, bank, pénz, pénzváltás, pénzváltó, valuta
+💲 dollár, pénz, pénznem, vastag dollárjel
+⚕ Aszklépiosz, bot, orvos, orvosi szimbólum, orvoslás
+♻ újra, újrahasznosítás, újrahasznosítás szimbólum
+⚜ Anjou, Anjou-liliom, liliom
+🔱 embléma, hajó, háromágú szigony, jel, szigony, vasmacska
+📛 jelvény, kitűző, név
+🔰 a kezdő japán szimbóluma, japán, kezdő, levél, sárga
+⭕ kör, nagy, vastag kör, o
+✅ jel, pipa, vastag fehér pipa
+☑ jelölőnégyzet pipával, négyzet, pipa, szavazás
+✔ jel, pipa, vastag pipa
+❌ áthúzásjel, jel, mégse, szorzás, x
+❎ áthúzásjel gomb, jel, négyzet
+➰ hurok
+➿ dupla, hurok
+〽 jel, részelválasztó, választó
+✳ csillag, nyolcágú csillag
+✴ csillag, nyolcas csillag
+❇ szikra
+© copyright (szerzői jog által védett), szerzői jog, védett
+® bejegyzett, registered (bejegyzett), védjegy
+™ tm, védjegy
+🔠 abcd, betűk, bevitel, latin, nagybetűs
+🔡 abcd, betűk, bevitel, kisbetűs, latin
+🔢 1234, bevitel, számbevitel, számok
+🔣 bevitel, szimbólumok bevitele
+🔤 abc, betűk, bevitel, latin, latin betűk bevitele
+🅰 a, A gomb (vércsoport), vércsoport
+🆎 ab, AB gomb (vércsoport), vércsoport
+🅱 b, B gomb (vércsoport), vércsoport
+🆑 cl, CL gomb
+🆒 cool, COOL gomb
+🆓 free, FREE gomb
+ℹ i, információ, információforrás, tájékoztatás
+🆔 id, ID gomb, identitás
+Ⓜ bekarikázott M betű, kör, m
+🆕 new, NEW gomb
+🆖 ng, NG gomb
+🅾 0, 0 gomb (vércsoport), vércsoport
+🆗 OK, OK gomb
+🅿 P gomb, parkolás
+🆘 segítség, sos, SOS gomb
+🆙 jel, up, UP! gomb
+🆚 ellen, versus, vs, VS gomb
+🈁 „itt”, japán, japán „itt” gomb, katakana, ココ
+🈂 „szervizdíj”, japán, japán „szervizdíj” gomb, katakana, サ
+🈷 „havi összeg”, japán, japán „havi összeg” gomb, képírásjel, 月
+🈶 „nem ingyenes”, japán, japán „nem ingyenes” gomb, képírásjel, 有
+🈯 „foglalt”, japán, japán „foglalt” gomb, képírásjel, 指
+🉐 „alkalmi vétel”, japán, japán „alkalmi vétel” gomb, képírásjel, 得
+🈹 „engedmény”, japán, japán „engedmény” gomb, képírásjel, 割
+🈚 „ingyenes”, japán, japán „ingyenes” gomb, képírásjel, 無
+🈲 „tiltott”, japán, japán „tiltott” gomb, képírásjel, 禁
+🉑 „elfogadás”, japán, japán „elfogadás” gomb, képírásjel, 可
+🈸 „alkalmazás”, japán, japán „alkalmazás” gomb, képírásjel, 申
+🈴 „minimális pontszám”, japán, japán „minimális pontszám” gomb, képírásjel, 合
+🈳 „megüresedés”, japán, japán „megüresedés” gomb, képírásjel, 空
+㊗ „gratuláció”, japán, japán „gratuláció” gomb, képírásjel, 祝
+㊙ „titok”, japán, japán „titok” gomb, képírásjel, 秘
+🈺 „működik”, japán, japán „működik” gomb, képírásjel, 営
+🈵 „megtelt”, japán, japán „megtelt” gomb, képírásjel, 満
+🔴 alakzat, kör, piros
+🟠 kör, narancssárga
+🟡 kör, sárga
+🟢 kör, zöld
+🔵 alakzat, kék, kör
+🟣 kör, lila
+🟤 barna, kör
+⚫ alakzat, fekete kör, kör
+⚪ alakzat, fehér kör, kör
+🟥 négyzet, vörös
+🟧 narancssárga, négyzet
+🟨 négyzet, sárga
+🟩 négyzet, zöld
+🟦 kék, négyzet
+🟪 lila, négyzet
+🟫 barna, négyzet
+⬛ geometria, nagy fekete négyzet, négyzet
+⬜ geometria, nagy fehér négyzet, négyzet
+◼ geometria, közepes fekete négyzet, négyzet
+◻ geometria, közepes fehér négyzet, négyzet
+◾ geometria, kis-közepes fekete négyzet, négyzet
+◽ geometria, kis-közepes fehér négyzet, négyzet
+▪ geometria, kis fekete négyzet, négyzet
+▫ geometria, kis fehér négyzet, négyzet
+🔶 geometria, nagy narancssárga rombusz, narancs, rombusz
+🔷 geometria, kék, nagy kék rombusz, rombusz
+🔸 geometria, kis narancssárga rombusz, narancs, rombusz
+🔹 geometria, kék, kis kék rombusz, rombusz
+🔺 alakzat, felfelé, fölfelé mutató piros háromszög, piros
+🔻 alakzat, lefelé, lefelé mutató piros háromszög, piros
+💠 alakzat, képregény, rombusz, rombusz ponttal
+🔘 gomb, rádiógomb, választó, választógomb
+🔳 bekeretezett, fehér, négyzet alakú gomb, gomb, négyzet
+🔲 fekete, négyzet alakú gomb, gomb, négyzet
+🏁 autóverseny, kockás, kockás zászló, versenyzés
+🚩 háromszög alakú zászló, zászlórúd
+🎌 japán, keresztbe tett, keresztbe tett zászlók, ünnep, ünnepi hangulat, ünneplés, zászlók
+🏴 lengő, lengő fekete zászló
+🏳 lengő, lengő fehér zászló
+🏳‍🌈 szivárvány, szivárványszínű, zászló
+🏳‍⚧ transznemű, zászló
+🏴‍☠ fosztogató, Jolly Roger, kalóz, kalózzászló, kincs
+¢ cent
+$ dollár, pénz, USD
+£ EGP, font, GBP, pénznem
+¥ CNY, jen, JPY, jüan, pénznem
+₥ mil, mill
+₩ KPW, KRW, von
+€ EUR, euró, pénznem
+₱ peso
+₹ indiai rúpia, pénznem, rúpia
+₽ pénznem, rubel
+₿ bitcoin, BTC
+¹ egyes, egyes felső index, felső index
+² felső index, kettes, kettes felső index, négyzeten
+³ felső index, hármas, hármas felső index, köbön
+µ mérés, mikro szimbólum

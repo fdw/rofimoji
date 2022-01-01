@@ -1,0 +1,1658 @@
+{ clau, clau d’obertura, clau esquerra, parèntesi
+🏻 clara, molt clara, pell, pell molt clara
+🏼 bastant clara, pell, pell bastant clara
+🏽 morena, pell
+🏾 fosca, pell
+🏿 fosca, pell, pell molt fosca
+‾ sobreratllat
+_ caràcter de subratllat, guió, línia, ratlla, ratlla baixa
+- guionet, guionet de menys, menys
+‐ guió, guionet
+– guió, guió mitjà
+— guió, guió llarg
+― barra, barra horitzontal, guió, línia
+・ katakana, punt, punt alçat, punt volat, punt volat katakana
+, coma
+، àrab, coma
+、 coma, ideogràfica
+; coma, punt, punt i coma
+؛ àrab, punt i coma, punt i coma àrab
+: dos punts
+! bang, exclamació, signe d’exclamació
+¡ bang, exclamació, invertit, obertura, signe d’exclamació, signe d’exclamació d’obertura
+? interrogació, interrogant, pregunta, signe d’interrogació
+¿ obertura, pregunta, signe d’interrogació, signe d’interrogació d’obertura
+؟ àrab, pregunta, signe d’interrogació àrab
+‽ signe exclarrogatiu
+. punt, punt final
+… omissió, punts, punts suspensius
+。 ideogràfic, punt
+· meitat, punt, punt alçat, punt volat
+' apòstrof, apòstrof tipogràfic, cometa, cometa simple
+‘ apòstrof, cometa, cometa esquerra, cometa simple
+’ apòstrof, cometa, cometa dreta, cometa simple
+‚ cometa, cometa baixa, cometa baixa dreta, cometa simple
+“ cometa, cometa doble, cometa doble alta esquerra, cometes
+” cometa, cometa doble, cometa doble alta dreta, cometes
+„ cometa, cometa baixa, cometa doble, cometa doble baixa dreta, cometes
+« angle, cometa, cometa llatina esquerra, esquerra, galó, parèntesi, signe d’inserció
+» angle, cometa, cometa llatina dreta, dreta, galó, parèntesi, signe d’inserció
+) parèntesi, parèntesi de tancament
+[ claudàtor, claudàtor d’obertura, claudàtor esquerre
+] claudàtor, claudàtor de tancament, claudàtor dret
+} clau, clau de tancament, clau dreta, parèntesi
+〈 angle agut, obertura, parèntesi, parèntesi angular, parèntesi angular d’obertura
+〉 angle agut, parèntesi, parèntesi angular, parèntesi angular de tancament, tancament
+《 parèntesi, parèntesi angular doble, parèntesi angular doble d’obertura
+》 parèntesi, parèntesi angular doble, parèntesi angular doble de tancament
+「 parèntesi, semiclaudàtor, semiclaudàtor alt esquerre
+」 parèntesi, semiclaudàtor, semiclaudàtor baix dret
+『 claudàtor, semiclaudàtor buit, semiclaudàtor buit d’obertura
+』 claudàtor, semiclaudàtor buit, semiclaudàtor buit de tancament
+【 claudàtor, claudàtor de lent, claudàtor de lent negre d’obertura, claudàtor lenticular
+】 claudàtor, claudàtor de lent, claudàtor lenticular, semiclaudàtor de lent negre de tancament
+〔 claudàtor, claudàtor de tortuga, claudàtor de tortuga d’obertura
+〕 claudàtor, claudàtor de tortuga, claudàtor de tortuga de tancament
+〖 claudàtor, claudàtor de lent buit, claudàtor de lent buit d’obertura, claudàtor lenticular buit
+〗 claudàtor, claudàtor de lent buit, claudàtor de lent buit de tancament, claudàtor lenticular buit
+§ paràgraf, part, secció
+¶ antígraf, calderó, marca de paràgraf, paràgraf, peu de mosca
+@ a cuada, a encerclada, arrova, ensaïmada, rova
+* asterisc, comodí, estrella
+/ barra inclinada, barra obliqua, contrabarra
+\ barra inversa, barra obliqua inversa
+& et, i, i comercial
+# coixinet, lliura, número, quadradet, xifra
+% percentatge, tant per cent
+‰ per mil
+† diesi, obelisc, obelos, signe d’obelisc
+‡ diesi, dos, obelisc, obelos, signe d’obelisc de dos braços
+• pic, punt, punt de llista
+‧ guió, punt, punt de guió
+′ prima
+″ doble prima, prima
+‴ prima, triple prima
+‸ circumflex
+※ marca de referència
+⁂ asterisme
+` accent, greu, to
+´ accent, agut, to
+^ accent, angle, barret, circumflex, control, punter
+¨ dièresi
+° grau, hora, prova
+℗ copyright, enregistrament, enregistrament de so amb copyright, so
+← esquerra, fletxa, fletxa que apunta cap a l’esquerra
+↚ fletxa cap a l’esquerra amb traç
+→ dreta, fletxa, fletxa que apunta cap a la dreta
+↛ fletxa cap a la dreta amb barra inclinada
+↑ amunt, fletxa, fletxa que apunta cap amunt
+↓ avall, fletxa, fletxa que apunta cap avall
+↜ fletxa ondulada cap a l’esquerra
+↝ fletxa ondulada cap a la dreta
+↞ fletxa cap a l’esquerra amb dues puntes
+↟ fletxa cap amunt amb dues puntes
+↠ fletxa cap a la dreta amb dues puntes
+↡ fletxa cap avall amb dues puntes
+↢ fletxa cap a l’esquerra amb cua
+↣ fletxa cap a la dreta amb cua
+↤ fletxa des d’una barra cap a l’esquerra
+↥ fletxa des d’una barra cap amunt
+↦ fletxa des d’una barra cap a la dreta
+↧ fletxa des d’una barra cap avall
+↨ fletxa amunt i avall amb una base
+↫ fletxa cap a l’esquerra amb bucle
+↬ fletxa cap a la dreta amb bucle
+↭ fletxa esquerra i dreta ondulada
+↯ fletxa cap avall en zig-zag
+↰ fletxa cap amunt amb punta cap a l’esquerra
+⇅ amunt, avall, fletxa, fletxes que apunten cap amunt i cap avall
+⇆ dreta, esquerra, fletxa, fletxa que apunta cap a l’esquerra sobre una fletxa que apunta cap a la dreta, fletxes cap a l’esquerra i la dreta
+∆ increment, triangle
+∇ nabla, triangle
+∈ conjunt, conté, element, element de, pertany a
++ més, signe més, suma
+± signe de més o menys
+÷ dividir, divisió, divisor, signe de divisió
+× multiplicació, multiplicador, multiplicar, signe de multiplicació
+< etiqueta, inferior a, menor que, més petit que, obertura
+= equival a, igual
+≠ desigualtat, inequació, no és igual que
+> etiqueta, major que, més gran que, superior a, tancament
+¬ negació, no
+| barra vertical, línia vertical, pleca
+~ titlla
+− menys, resta, signe menys
+⁻ resta, superíndex
+√ arrel, arrel quadrada, quadrat, radical, signe d’arrel
+∞ infinit, signe d’infinit
+∩ conjunt, intersecció
+∪ col·lecció, conjunt, unió
+≈ aproximació, aproximadament igual a
+≡ exacte, idèntic, idèntic a, triple
+≤ angle, antilambda, desigualtat, igual, inferior, menor o igual a, menor que, més petit que
+≥ angle, antilambda, desigualtat, igual, major o igual a, major que, més gran que, superior
+⊂ conjunt, subconjunt, subconjunt de
+▲ amunt, fletxa, ple, triangle, triangle ple que apunta cap amunt
+▼ avall, fletxa, ple, triangle, triangle ple que apunta cap avall
+◊ diamant, píndola, rombe
+○ anell, cercle, cercle buit
+● cercle, cercle ple
+◯ anell, cercle, cercle buit gran
+♪ corxera, música, nota
+♭ bemoll, música, nota
+♯ diesi, música, nota, sostingut
+😀 cara, cara molt somrient, rialla, somriure, ulls
+😃 boca oberta, cara, cara molt somrient amb els ulls ben oberts, somriure
+😄 boca oberta, cara, cara amb rialla i els ulls somrients, somriure
+😁 cara, cara molt somrient amb els ulls alegres, gran somriure, ulls
+😆 boca oberta, cara, cara somrient amb els ulls tancats fortament, somriure, ulls tancats
+😅 cara, cara somrient amb una gota de suor, somriure, suor freda
+🤣 cara, cara que es peta de riure, partir-se, petar-se de riure, pixar-se, riure
+😂 alegria, cara, cara amb llàgrimes d’alegria, llàgrimes
+🙂 cara, cara que somriu una mica, somriure tímid
+🙃 cara, cara de cap per avall, revés
+😉 cara, cara que pica l’ullet, ullet
+😊 cara, cara somrient amb els ulls alegres, galtes vermelles, somriure
+😇 angelet, aurèola, cara somrient amb aurèola, halo, sant, santa
+🥰 amor, cara somrient amb 3 cors, cara somrient amb cors, enamorada, enamorament, enamorat
+😍 amor, cara, cara somrient amb ulls en forma de cor, cor, ulls
+🤩 cara, cara amb estrelles als ulls, estrella, somriure, ulls
+😘 amor, cara, cara que llança un petó, cor, petó
+😗 cara, cara que fa un petó, petó
+☺ cara, cara relaxada, cara somrient, somriure
+😚 cara, cara que fa un petó amb els ulls tancats, petó, ulls tancats
+😙 cara, cara que fa un petó amb els ulls alegres, petó, ulls alegres
+🥲 agraïment, alleujament, cara somrient amb una llàgrima, emoció, llàgrima, orgull, somriure
+😋 cara, cara d’assaborir un menjar deliciós, deliciós, llépol cara d’assaborir un menjar deliciós, nyam, somriure
+😛 cara, cara que fa llengotes, llengota, llengua, llengua fora
+😜 cara, cara que fa llengotes i pica l’ullet, llengota, llengua, ullet
+🤪 boig, boja, cara de bogeria, ull gran, ull petit
+😝 cara, cara amb els ulls tancats i la llengua fora, cara que fa llengotes i amb els ulls tancats, ecs, llengota, llengua, ulls tancats
+🤑 cara, cara de diners, diners, llengua, ulls
+🤗 abraçada, cara, cara amb abraçada
+🤭 cara amb la mà sobre la boca, tapant-se la boca, ups
+🤫 callar, cara que demana silenci, silenci
+🤔 cara, pensant, pensatiu, pensativa
+🤐 boca, boca tancada, cara, cara amb cremallera a la boca, cremallera
+🤨 cara amb una cella aixecada, desconfiada, desconfiat, escèptic, escèptica
+😐 cara, cara neutra, neutral
+😑 cara, inexpressió, inexpressiu, inexpressiva
+😶 callada, callat, cara, cara sense boca, sense boca, silenci
+😶‍🌫 cap als núvols, cara entre núvols, distracció, distret
+😏 cara, cara somrient amb superioritat, somriure astut, superioritat
+😒 avorriment, cara, cara de desaprovació, desaprovació
+🙄 cara, cara amb els ulls en blanc, ulls en blanc
+😬 cara, cara que fa una ganyota amb les dents, dents, ganyota
+😮‍💨 alleujament, cara que exhala, exhalar, xiulet, xiuxiueig
+🤥 cara, cara de mentider, mentider, nas, Pinotxo
+😌 alleujament, cara, cara d’alleujament
+😔 abatuda, cara, desanimada, pensativa
+😪 cara, cara de son, son
+🤤 bava, bavejant, cara, cara que baveja
+😴 cara, cara de dormir, dormint, son, zzz
+😷 cara, cara amb màscara, cara amb mascareta, malaltia, màscara, mascareta
+🤒 cara, cara amb termòmetre, malalt, malalta, malaltia, termòmetre
+🤕 cap embenat, cara, cara amb el cap embenat
+🤢 cara, cara de nàusees, mareig, marejada, marejat, nàusea, vomitar
+🤮 cara, cara que vomita, vòmit
+🤧 cara, cara que esternuda, constipat, esternudant, esternut, mocs, salut
+🥵 calor, cara de calor, cara vermella, febre, suor
+🥶 cara blava, cara de fred, caramell, fred, gel, glaçat
+🥴 beguda, begut, boca ondulada, cara de mareig, embriac, embriaga, mareig
+😵 cara, marejada, marejat
+😵‍💫 cara amb ulls d’espiral, espiral, hipnosi, mareig, problema
+🤯 cap que explota, estupefacta, estupefacte
+🤠 barret, cara, cara amb barret de vaquer, cowboy, vaquer, vaquera
+🥳 barret, cara festiva, celebració, espanta-sogres, festa
+🥸 cara, cara disfressada, disfressa, incògnit, nas, ulleres
+😎 cara, cara somrient amb ulleres de sol, sol, ulleres
+🤓 aplicada, aplicat, cara de setciències, estudiar, estudiós, estudiosa
+🧐 cara amb monocle, estirada, estirat, monocle
+😕 cara, cara de confusió, confós, confosa, confusió
+😟 cara, cara de preocupació, preocupació, preocupada, preocupat
+🙁 cara, cara una mica arrufada, emmurriat, empipat, enfadat
+☹ cara, cara arrufada, emmurriat, empipat, enfadat
+😮 boca oberta, cara, cara amb la boca oberta
+😯 cara, cara de sorpresa, sorpresa
+😲 cara, estupefacta, estupefacte
+😳 cara, enrojolada, galtes vermelles, vergonya
+🥺 cara de súplica, pietat, súplica, ulls de cadell
+😦 boca oberta, cara, cara emmurriada amb la boca oberta, emmurriada
+😧 angoixa, angoixada, angoixat, cara, cara d’angoixa
+😨 atemorida, atemorit, cara de por, espantada, espantat, por
+😰 boca oberta, cara, cara amb la boca oberta i suor freda, nervis, suor freda
+😥 alleujament, cara, cara de decepció, però alleujada, decepció, uf
+😢 cara, cara que plora, llàgrimes, trist, trista
+😭 cara, cara que plora desconsoladament, llàgrimes de desconsol
+😱 cara, cara que crida de por, crit de por, pànic, terror
+😖 cara, cara de frustració, frustració, frustrada, frustrat
+😣 cara, cara de perseverança, perseverança
+😞 cara, cara de decepció, decebuda, decebut, decepció
+😓 cara, cara amb suor freda, suor freda
+😩 cara, cara d’esgotament, esgotada, esgotament, esgotat
+😫 cansament, cara, cara de cansament
+🥱 avorriment, badall, cansament, cara que badalla
+😤 cara, cara que treu fum del nas, fum, nas, victòria
+😡 cara, cara vermella, enutjada, enutjat
+😠 cara, enfadada, enfadat
+🤬 cara amb símbols a la boca, insults, paraulotes, renecs
+😈 banyes, cara, cara somrient amb banyes, dimoni, somriure
+👿 cara, cara enfadada amb banyes, diable, dimoni, dimoniet, fantasia, trapella
+💀 calavera, cara, conte, crani, monstre, mort
+☠ calavera, cara, crani, crani amb ossos, monstre, ossos
+💩 caca, cara, còmic, merda, monstre
+🤡 cara, cara de pallasso, pallassa, pallasso
+👹 cara, conte, criatura, fantasia, ogre
+👺 cara, conte, criatura, fantasia, follet
+👻 cara, conte, criatura, fantasia, fantasma
+👽 alienígena, cara, criatura, extraterrestre, fantasia, monstre, ovni
+👾 àlien, alienígena, extraterrestre, monstre, ovni
+🤖 cara, monstre, robot
+😺 boca oberta, cara, gat, gat somrient amb la boca oberta, somrient
+😸 cara, gat, gat somrient amb els ulls alegres, somrient, ulls alegres
+😹 alegria, cara, gat, gat amb llàgrimes d’alegria, llàgrimes
+😻 cara, cor, gat, gat somrient amb cors als ulls, somriure, ulls
+😼 cara, gat, gat amb somriure irònic, ironia, somriure
+😽 cara, gat, gat que fa un petó, petó, ulls tancats
+🙀 cara, gat, sorprès, sorpresa
+😿 cara, gat, gat que plora, llàgrimes
+😾 cara, enuig, gat, gat enutjat
+🙈 mona, mona que no mira, ulls tapats
+🙉 mona, mona que no escolta, orelles tapades
+🙊 boca tapada, mona, mona que no parla
+💋 marca, marca de petó, petó
+💌 amor, carta, carta d’amor
+💘 cor, cor amb fletxa, Cupido, fletxa
+💝 cor, cor amb un llaç, llaç, Sant Valentí
+💖 cor, cor espurnejant, espurneig
+💗 batec, cor, cor que creix, creixent, emocionada, emocionat
+💓 batec, cor, cor que batega
+💞 cors, cors que giren, gir
+💕 amor, cor, dos cors
+💟 cor, cor decoratiu
+❣ cor, exclamació, exclamació en forma de cor, puntuació
+💔 cor, trencar, trencat
+❤‍🔥 amor, cor, cor en flames, cor sagrat, foc, luxúria
+❤‍🩹 cor, cor embenat, millor, millora, recuperació, salut
+❤ cor, cor vermell
+🧡 cor taronja, taronja
+💛 cor, cor groc
+💚 cor, cor verd
+💙 cor, cor blau
+💜 cor, cor lila
+🤎 cor, marró
+🖤 cor, cor negre
+🤍 blanc, cor
+💯 100, cent punts, punts, puntuació
+💢 còmic, enfadat, enuig, malhumorat, símbol d’enuig
+💥 col·lisió, còmic, esclat
+💫 còmic, estrella, mareig
+💦 gotes, gotes de suor, suor
+💨 còmic, córrer, pressa, sortir corrent
+🕳 forat
+💣 bomba, còmic
+💬 bafarada, bafarada de parlar, còmic, diàleg, parlar
+👁‍🗨 bafarada, testimoni, ull, ull dins d’una bafarada, vist
+🗨 bafarada, bafarada de parlar cap a l’esquerra, esquerra, parlar
+🗯 bafarada, bafarada d’enuig cap a la dreta, dreta, parlar
+💭 bafarada, bafarada de pensar, pensar
+💤 còmic, son, zzz
+👋 mà, mà que saluda, salutació
+🤚 alçada, mà, revers, revers de la mà
+🖐 dits, dits oberts, mà amb els dits oberts, mà oberta
+✋ cos, mà, mà aixecada
+🖖 dit, mà, salutació vulcaniana, Spock, vulcanià
+👌 acceptació, mà, mà d’acceptació, ok, senyal d’aprovació, senyal d’aprovació amb la mà
+🤌 dits, dits junts, gest de la mà, interrogació, sarcàstic
+🤏 mà que pessiga, quantitat petita
+✌ senyal, senyal de la victòria, victòria
+🤞 creuats, dits, sort
+🤟 dits, gest de t’estimo, mà, t’estimo
+🤘 banyes, dits, dits en forma de banyes, rock
+🤙 mà, mà que representa una trucada, trucada
+👈 dit índex que apunta cap a l’esquerra, esquerra, índex
+👉 dit índex que apunta cap a la dreta, dreta, índex
+👆 amunt, dit índex, dit índex que apunta cap amunt
+🖕 dit, dit cor, dit del cor, dit del mig, mà
+👇 avall, dit índex que apunta cap avall, índex
+☝ amunt, índex, índex que apunta cap amunt
+👍 amunt, polze, polze cap amunt
+👎 avall, polze, polze cap avall
+✊ mà, puny, puny alçat
+👊 a prop, cop, cop de puny, mà, puny
+🤛 dret, puny, salutació
+🤜 esquerre, puny, salutació
+👏 aplaudiment, aplaudint, mans, mans que aplaudeixen
+🙌 celebració, hurra, mans aixecades, mans enlaire
+👐 cos, mà, mans obertes, oberta
+🤲 mans juntes amb els palmells cap amunt, pregària
+🤝 acord, encaixada, encaixada de mans, mans, salutació
+🙏 gràcies, mans, mans en oració, pregar, si us plau
+✍ escriure, mà, mà que escriu
+💅 cosmètics, esmalt, esmalt d’ungles, manicura, ungla
+🤳 autofoto, càmera, foto, mòbil, selfie
+💪 bíceps, bíceps tensat, flexió de bíceps, forçut, múscul
+🦾 accessibilitat, pròtesi, pròtesi de braç
+🦿 accessibilitat, pr`òtesi de cama, pròtesi
+🦵 cama, extremitat, puntada de peu
+🦶 peu, puntada de peu, trepitjada
+👂 cos, orella
+🦻 accessibilitat, orella amb audiòfon, problema d’audició
+👃 cos, nas
+🧠 cervell, intel·ligent
+🫀 batec, cardiologia, cor, òrgan, pols
+🫁 exhalació, inhalació, òrgan, pulmons, respiració, respirar
+🦷 dent, dentista
+🦴 esquelet, os
+👀 cara, cos, ull, ulls
+👁 cos, ull
+👅 cos, llengua
+👄 boca, cos, llavis
+👶 bebè, nadó, nounat
+🧒 criatura, infant
+👦 jove, nen, noi
+👧 jove, nena, noia
+🧑 adult, persona
+👱 cabells, persona amb els cabells rossos, persona: cabells rossos, ros
+👨 home, masculí
+🧔 barba, persona, persona: barba
+🧔‍♂ barba, home, home: barba
+👱‍♂ cabell, home, home: cabell ros, ros
+👩 dona, femení
+🧔‍♀ barba, dona, dona: barba
+👱‍♀ cabell, dona, dona: cabell ros, rossa
+🧓 adult, gran, persona
+👴 ancià, gran, home
+👵 anciana, dona, gran
+🙍 emmurriament, persona, persona arrufada, persona emmurriada
+🙍‍♂ arrufar, celles, gest, home emmurriat, masculí
+🙍‍♀ arrufar, celles, dona emmurriada, femení, gest
+🙎 enuig, persona, persona enutjada
+🙎‍♂ enuig, gest, home, home enutjat, masculí
+🙎‍♀ dona, dona enutjada, enuig, femení, gest
+🙅 gest de negació, mà, negació, no, prohibit
+🙅‍♂ gest, home, home amb gest de negació, mà, prohibit
+🙅‍♀ dona, dona amb gest de negació, gest, mà, prohibit
+🙆 aprovació, gest, gest d’aprovació
+🙆‍♂ acord, gest, home amb gest d’aprovació, mà, OK
+🙆‍♀ acord, dona amb gest d’aprovació, gest, mà, OK
+💁 ajuda, flexió, informació, mà, persona amb mà inclinada cap amunt
+💁‍♂ ajuda, home, home amb mà inclinada cap amunt, informació, mà
+💁‍♀ ajuda, dona, dona amb mà inclinada cap amunt, informació, mà
+🙋 mà aixecada, persona, persona amb la mà aixecada, persona contenta que aixeca la mà, somriure
+🙋‍♂ gest, home, home amb la mà aixecada, mà, masculí
+🙋‍♀ dona, dona amb la mà aixecada, femení, gest, mà
+🧏 accessibilitat, oïda, persona sorda, sentir, sord
+🧏‍♂ home, sord
+🧏‍♀ dona, sorda
+🙇 disculpa, gest, persona capcota, reverència
+🙇‍♂ disculpa, gest, home, home capcot, reverència
+🙇‍♀ disculpa, dona, dona capcota, gest, reverència
+🤦 exasperació, frustració, incredulitat, persona amb la mà a la cara, vergonya
+🤦‍♂ exasperació, home, home amb la mà a la cara, incredulitat, mà
+🤦‍♀ dona, dona amb la mà a la cara, exasperació, incredulitat, mà
+🤷 arronsar, espatlles, ni idea, persona que arronsa les espatlles
+🤷‍♂ dubte, home, home que arronsa les espatlles, ignorància, indiferència
+🤷‍♀ dona, dona que arronsa les espatlles, dubte, ignorància, indiferència
+🧑‍⚕ doctor, infermer, professional de la salut, salut, terapeuta
+👨‍⚕ doctor, home professional de la salut, infermer, masculí, metge, salut
+👩‍⚕ doctora, dona, dona professional de la salut, infermera, metgessa, professional de la salut, salut, terapeuta
+🧑‍🎓 estudiant, graduat
+👨‍🎓 graduació, graduat, home, masculí, noi estudiant
+👩‍🎓 dona, femení, graduació, graduada, noia estudiant
+🧑‍🏫 instructor, mestre, professor
+👨‍🏫 home, instructor, masculí, mestre, professor
+👩‍🏫 dona, femení, instructora, mestra, professora
+🧑‍⚖ balança, jutge
+👨‍⚖ balança, home, justícia, jutge, masculí
+👩‍⚖ balança, dona, femení, justícia, jutgessa
+🧑‍🌾 agricultor, granger, pagès
+👨‍🌾 agricultor, granger, home, masculí, pagès
+👩‍🌾 agricultora, dona, femení, grangera, pagesa
+🧑‍🍳 cuiner, xef
+👨‍🍳 cuiner, home, masculí, xef
+👩‍🍳 cuinera, dona, femení, xef
+🧑‍🔧 electricista, lampista, mecànic
+👨‍🔧 electricista, home, lampista, masculí, mecànic
+👩‍🔧 dona, electricista, femení, lampista, mecànica
+🧑‍🏭 fàbrica, industrial, operari, treballador
+👨‍🏭 fàbrica, home operari, industrial, operari, treballador
+👩‍🏭 fàbrica, industrial, operària, treballadora
+🧑‍💼 arquitecte, negoci, oficina, treballador d’oficina
+👨‍💼 arquitecte, home, home treballador d’oficina, negoci, oficina, treballador d’oficina
+👩‍💼 arquitecta, dona, negoci, oficina, treballadora d’oficina
+🧑‍🔬 biòleg, científic, enginyer, físic, químic
+👨‍🔬 biòleg, científic, enginyer, físic, home científic, químic
+👩‍🔬 biòloga, científica, enginyera, física, química
+🧑‍💻 desenvolupador, inventor, programador, tecnòleg
+👨‍💻 desenvolupador, home, inventor, programador, tecnòleg
+👩‍💻 desenvolupadora, dona, inventora, programadora, tecnòloga
+🧑‍🎤 actor, cantant, estrella, presentador
+👨‍🎤 actor, cantant, cantant home, estrella, presentador
+👩‍🎤 actriu, cantant, cantant dona, estrella, presentadora
+🧑‍🎨 artista, paleta
+👨‍🎨 artista, home, masculí, paleta
+👩‍🎨 artista, dona, femení, paleta
+🧑‍✈ avió, pilot
+👨‍✈ avió, home, masculí, pilot
+👩‍✈ avió, dona, femení, pilot
+🧑‍🚀 astronauta, coet
+👨‍🚀 astronauta, coet, espai, home
+👩‍🚀 astronauta, coet, dona, espai
+🧑‍🚒 bomber, bombera, camió de bombers
+👨‍🚒 bomber, camió de bombers, home, masculí
+👩‍🚒 bombera, camió de bombers, dona, femení
+👮 agent, agent de policia, policia, seguretat
+👮‍♂ agent, agent de policia home, home, masculí, policia
+👮‍♀ agent, agent de policia dona, dona, femení, policia
+🕵 detectiu, espia, investigador
+🕵‍♂ detectiu, espia, home, investigador
+🕵‍♀ detectiu, dona, espia, investigadora
+💂 guarda
+💂‍♂ guarda, home, masculí
+💂‍♀ dona, femení, guarda
+🥷 guerrer, lluitador, ninja, ocult, sigilós
+👷 construcció, paleta, treballador, treballador de la construcció
+👷‍♂ construcció, home, home paleta, masculí, treballador
+👷‍♀ construcció, dona, dona paleta, femení, treballadora
+🤴 príncep
+👸 conte, fades, fantasia, princesa
+👳 persona amb turbant, turbant
+👳‍♂ home, home amb turbant, masculí, turbant
+👳‍♀ dona, dona amb turbant, femení, turbant
+👲 gorra, home, home amb barret xinès, xinès
+🧕 cap cobert, dona amb el cap cobert, hijab, mantellina, mocador de cap
+🤵 esmòquing, nuvi, persona, persona amb esmòquing
+🤵‍♂ esmòquing, home, home amb esmòquing
+🤵‍♀ dona, dona amb esmòquing, esmòquing
+👰 casament, núvia, persona, persona amb vel, vel
+👰‍♂ home, home amb vel, vel
+👰‍♀ dona, dona amb vel, vel
+🤰 dona, embaràs, embarassada, prenyada
+🤱 alletar, dona que alleta, lactància, nadó
+👩‍🍼 alimentar, alletar, bebè, dona, dona que alleta un bebè
+👨‍🍼 alimentar, alletar, bebè, home, home que alleta un bebè
+🧑‍🍼 alimentar, alletar, bebè, persona, persona que alleta un bebè
+👼 ales, àngel, angelet, bebè, fantasia
+🎅 Nadal, Noel, pare
+🤶 àvia, còfia, mare, Nadal, Noel
+🧑‍🎄 Noel, Noel, Nadal
+🦸 bo, heroi, heroïna, superheroi, súperpoder
+🦸‍♂ bo, heroi, home, home superheroi, superpoder
+🦸‍♀ bo, dona, dona superheroïna, heroïna, superpoder
+🦹 criminal, dolent, malvat, superdolent, superpoder
+🦹‍♂ criminal, dolent, home, home superdolent, malvat, superpoder
+🦹‍♀ criminal, dolenta, dona, dona superdolenta, malvada, superpoder
+🧙 bruixa, bruixot, fetiller, fetillera, mag
+🧙‍♂ bruixot, fetiller, home mag
+🧙‍♀ bruixa, dona maga, fetillera
+🧚 fada, Oberó, Puck, Titània
+🧚‍♂ home fada, Oberó, Puck
+🧚‍♀ dona fada, Titània
+🧛 Dràcula, mort vivent, morta vivent, vampir
+🧛‍♂ Dràcula, home vampir, mort vivent
+🧛‍♀ dona vampir, morta vivent, vampiressa
+🧜 dona sirena, persona sirena, sirena
+🧜‍♂ home sirena, Tritó
+🧜‍♀ dona sirena, sirena
+🧝 elf, màgic
+🧝‍♂ home elf, màgic, màgica
+🧝‍♀ dona elfa, màgic, màgica
+🧞 geni
+🧞‍♂ geni, home geni
+🧞‍♀ dona geni, geni
+🧟 mort vivent, walking dead, zombi
+🧟‍♂ home zombi, mort vivent
+🧟‍♀ dona zombi, morta vivent
+💆 cara, massatge, persona que rep un massatge facial, saló
+💆‍♂ cara, home, masculí, massatge, massatge facial a un home
+💆‍♀ cara, dona, femení, massatge, massatge facial a una dona
+💇 cabells, persona a la perruqueria, persona que es talla els cabells, tallada de cabells
+💇‍♂ cabells, home, home que es talla els cabells, masculí, tallada, tallada de cabells
+💇‍♀ cabells, dona, dona que es talla els cabells, femení, tallada, tallada de cabells
+🚶 caminada, passejada, persona caminant, persona que camina
+🚶‍♂ caminada, home, home caminant, home que camina, masculí, passejada
+🚶‍♀ caminada, dona, dona caminant, dona que camina, femení, passejada
+🧍 dempeus, dret, dreta, persona dreta
+🧍‍♂ dempeus, dret, home
+🧍‍♀ dempeus, dona, dreta
+🧎 agenollada, agenollat, de genolls, genoll, persona agenollada
+🧎‍♂ agenollat, de genolls, home
+🧎‍♀ agenollada, de genolls, dona
+🧑‍🦯 accessibilitat, invident, persona amb un bastó per a invidents
+👨‍🦯 accessibilitat, home, home amb un bastó per a invidents, invident
+👩‍🦯 accessibilitat, dona, dona amb un bastó per a invidents, invident
+🧑‍🦼 accessibilitat, cadira de rodes amb motor, cadira de rodes elèctrica, persona amb una cadira de rodes amb motor, persona amb una cadira de rodes elèctrica
+👨‍🦼 accessibilitat, cadira de rodes, home, home amb una cadira de rodes amb motor, home amb una cadira de rodes elèctrica
+👩‍🦼 accessibilitat, cadira de rodes, dona, dona amb una cadira de rodes amb motor, dona amb una cadira de rodes elèctrica
+🧑‍🦽 accessibilitat, cadira de rodes manual, persona amb una cadira de rodes manual
+👨‍🦽 accessibilitat, cadira de rodes, home, home amb una cadira de rodes manual
+👩‍🦽 accessibilitat, cadira de rodes, dona, dona amb una cadira de rodes manual
+🏃 corredor, marató, persona corrent, persona que corre
+🏃‍♂ córrer, cursa, home, home que corre, marató
+🏃‍♀ córrer, cursa, dona, dona que corre, marató
+💃 dansa, dona, dona que balla, flamenca
+🕺 ball, ballant, disco, home, home que balla, música
+🕴 home, home de negocis que levita, levitar, negocis
+👯 conillet, dansaires, festa, orelles de conill, persones que ballen disfressades
+👯‍♂ ballarí, ballarins amb orelles de conill, conillet, festa, homes que ballen disfressats
+👯‍♀ ballarina, ballarines amb orelles de conill, conilleta, dones que ballen disfressades, festa
+🧖 persona a la sauna, sauna, vapor
+🧖‍♂ home a la sauna, sauna, vapor
+🧖‍♀ dona a la sauna, sauna, vapor
+🧗 escalada, escalador, escaladora, persona que escala
+🧗‍♂ escalada, escalador, home
+🧗‍♀ dona, escalada, escaladora
+🤺 esgrima, esgrimidor, esgrimidora, persona que fa esgrima, tirador, tiradora
+🏇 cavalls, curses, curses de cavalls, genet
+⛷ esquiador, esquiar, neu
+🏂 neu, surf de neu, surfista, surfista de neu
+🏌 bola, golf, golfista, pal, pilota
+🏌‍♂ golf, golfista, home, home que juga a golf, masculí
+🏌‍♀ dona, dona que juga a golf, femení, golf, golfista
+🏄 onada, persona que fa surf, surf, taula
+🏄‍♂ home, home que fa surf, masculí, surf, taula
+🏄‍♀ dona, dona que fa surf, femení, surf, taula
+🚣 bot, persona que rema en una barca, rems
+🚣‍♂ barca, home, home que rema en una barca, masculí, rem
+🚣‍♀ barca, dona, dona que rema, dona que rema en una barca, femení, rem
+🏊 natació, nedar, persona nedant, persona que neda
+🏊‍♂ home, home que neda, masculí, nedador, nedar
+🏊‍♀ dona, dona que neda, femení, nedadora, nedar
+⛹ persona, persona amb una pilota, pilota
+⛹‍♂ home, home amb una pilota, masculí, pilota
+⛹‍♀ dona, dona amb una pilota, femení, pilota
+🏋 aixecador, halterofília, persona que aixeca peses, pes, pesa
+🏋‍♂ aixecador, home, home que aixeca peses, masculí, peses
+🏋‍♀ aixecadora, dona, dona que aixeca peses, femení, peses
+🚴 bicicleta, ciclisme, ciclista
+🚴‍♂ bicicleta, ciclisme, ciclista, home, masculí
+🚴‍♀ bicicleta, ciclisme, ciclista, dona, femení
+🚵 ciclista, ciclista de muntanya, muntanya
+🚵‍♂ bicicleta, ciclista, ciclista de muntanya home, home, muntanya
+🚵‍♀ bicicleta, ciclista, ciclista de muntanya dona, dona, muntanya
+🤸 esport, gimnàstica, persona que fa la roda, roda
+🤸‍♂ esport, gimnàstica, home, home que fa la roda, tombarella
+🤸‍♀ dona, dona que fa la roda, esport, gimnàstica, tombarella
+🤼 esport, lluitadores, lluitadors, persones lluitant, persones que lluiten
+🤼‍♂ esport, jugadors de lluita, lluita, lluitar, masculí
+🤼‍♀ dona, esport, femení, jugadores de lluita, lluita, persona
+🤽 aigua, esport, persona que juga a waterpolo, waterpolo
+🤽‍♂ esport, home, jugador de waterpolo, masculí, waterpolo
+🤽‍♀ dona, esport, femení, jugadora de waterpolo, waterpolo
+🤾 esport, handbol, persona que juga a handbol, pilota
+🤾‍♂ esport, handbol, home, jugador d’handbol, masculí
+🤾‍♀ dona, esport, femení, handbol, jugadora d’handbol
+🤹 circ, joc malabar, malabarisme, malabarista, persona que fa malabars
+🤹‍♂ home, malabarista home, malabars, masculí, multitasca
+🤹‍♀ dona, femení, malabarista dona, malabars, multitasca
+🧘 ioga, lotus, meditació, persona en la posició de lotus
+🧘‍♂ home en la posició de lotus, ioga, lotus, meditació
+🧘‍♀ dona en la posició de lotus, ioga, lotus, meditació
+🛀 bany, banyera, persona, persona a la banyera
+🛌 dormir, hotel, llit, persona, persona al llit
+🧑‍🤝‍🧑 agafar, agafar-se de la mà, mà, mans agafades, parella, persona, persones que s’agafen de la mà
+👭 dones, dones que s’agafen de la mà, mans agafades, parella de dones
+👫 dona, home, home i dona que s’agafen de la mà, mans agafades, parella
+👬 bessons, Gèmini, home, homes que s’agafen de la mà, mans agafades, parella, zodíac
+💏 parella, petó
+💑 cor, parella, parella amb un cor
+👪 criatura, família, mare, pare
+🗣 parlar, persona, persona que parla, silueta que parla
+👤 bust, silueta, silueta d’un bust
+👥 bustos, silueta de bustos, siluetes
+🫂 abraçada, adeu, gràcies, hola, persones que s’abracen
+👣 cos, empremta, petja, petjades, vestit
+🦰 cabells vermells, pèl-roig, pèl-roja
+🦱 afro, cabells arrissats, rínxols
+🦳 ancià, blanc, cabells, cabells blancs, gris
+🦲 calb, calba, calvície, cap afaitat, quimioteràpia, sense cabells
+🐵 cara, cara de mona, mona
+🐒 mico
+🦍 animal, goril·la, simi
+🦧 orangutan, simi
+🐶 cara, cara de gos, gos
+🐕 gos, mascota
+🦮 accessibilitat, gos pigall, guia, invident
+🐕‍🦺 accessibilitat, assistència, gos, gos de servei, servei
+🐩 caniche, gos, púdel
+🐺 cara, llop
+🦊 cara, guineu
+🦝 astut, curiós, os rentador
+🐱 cara, cara de gat, gat
+🐈 gat, mascota
+🐈‍⬛ gat, mala sort, negre
+🦁 cara, cara de lleó, leo, lleó, zodíac
+🐯 cara, cara de tigre, tigre
+🐅 tigre
+🐆 lleopard, pantera
+🐴 cara, cara de cavall, cavall
+🐎 cavall, curses, eqüestre
+🦄 cara, unicorn
+🦓 ratlla, zebra
+🦌 animal, cérvol
+🦬 bisó, bisó europeu, búfal, ramat
+🐮 cara, cara de vaca, vaca
+🐂 bou, brau, Taure, zodíac
+🐃 aigua, búfal, búfal aquàtic
+🐄 vaca
+🐷 cara, cara de porc, porc
+🐖 porc, truja
+🐗 porc, senglar
+🐽 nas, nas de porc, porc
+🐏 Àries, mardà, marrà, ovella, zodíac
+🐑 femella, ovella, pècora
+🐐 cabra, Capricorn, zodíac
+🐪 camell, dromedari, gepa
+🐫 camell, camell bactrià, dues gepes, gepes
+🦙 alpaca, guanac, llama, llana, vicunya
+🦒 girafa, taques
+🐘 elefant
+🦣 extinció, gran, llanut, mamut, ullal
+🦏 rinoceront
+🦛 hipopòtam
+🐭 cara, cara de ratolí, ratolí
+🐁 ratolí
+🐀 rata, ratolí
+🐹 cara, hàmster, mascota
+🐰 cara, cara de conill, conill
+🐇 conill, mascota
+🐿 esquirol
+🦫 castor, presa
+🦔 eriçó, punxes
+🦇 muricec, ratapenada, ratapinyada, ratpenat, vampir, voliac
+🐻 cara, cara d’os, os
+🐻‍❄ àrtic, blanc, os, os polar
+🐨 coala, os
+🐼 cara, panda
+🦥 lent, mandrós, peresós
+🦦 juganera, llúdria, pescadora
+🦨 mofeta, pudor
+🦘 Austràlia, cangur, marsupial, salt
+🦡 teixó, toixó
+🐾 animal, petjades, petjades d’animal, potes
+🦃 au, gall dindi, indiot
+🐔 au, pollastre
+🐓 au, gall
+🐣 au, ou, pollet, pollet que surt de l’ou
+🐤 au, bebè, petit, pollet, pollet de perfil
+🐥 au, bebè, petit, pollet, pollet de cara
+🐦 au, ocell
+🐧 au, pingüí
+🕊 au, colom, pau, volar
+🦅 àguila, àliga, animal, au, ocell
+🦆 ànec, animal, au, ocell
+🦢 aneguet lleig, cigne, ocell
+🦉 animal, au, mussol, ocell
+🦤 au, dodo, extinció, gran, Maurici
+🪶 au, lleuger, ploma, plomatge, volar
+🦩 cridaner, flamenc, tropical
+🦚 cua, ocell, orgull, ostentós, paó
+🦜 lloro, ocell, parlar, pirata
+🐸 cara, granota
+🐊 cocodril
+🐢 tortuga
+🦎 animal, llangardaix, rèptil
+🐍 rèptil, serp, serpentari, zodíac
+🐲 cara, cara de drac, drac
+🐉 conte, drac, fades, fantasia
+🦕 braquiosaure, brontosaure, diplodocus, sauròpode
+🦖 tiranosaure, Tyrannosaurus Rex
+🐳 aigua, balena, balena que treu aigua
+🐋 balena
+🐬 aleta, dofí
+🦭 foca, lleó marí
+🐟 peix, Peixos, zodíac
+🐠 peix, tropical
+🐡 globus, peix
+🦈 animal, peix, tauró
+🐙 pop
+🐚 cargol, cargol de mar, mar
+🐌 cargol
+🦋 animal, insecte, papallona
+🐛 eruga, insecte
+🐜 formiga, insecte
+🐝 abella, insecte
+🪲 cuca, escarabat, insecte
+🐞 escarabat, insecte, marieta
+🦗 grill, llagosta
+🪳 ballarola, cuca molla, cuca panissera, escarabat de cuina, insecte, panderola, panerola
+🕷 aranya, insecte
+🕸 aranya, teranyina
+🦂 animal, escorpí, Escorpió, zodíac
+🦟 febre, insecte, malaltia, malària, mosquit, virus
+🪰 epidèmia, larva, malaltia, mosca, podrit
+🪱 annèl·lid, cuc, cuc de terra, paràsit
+🦠 ameba, bacteri, microbi, virus
+💐 flor, planta, ram de flors
+🌸 cirerer, flor, flor de cirerer
+💮 blanca, flor
+🏵 planta, roseta
+🌹 flor, planta, rosa
+🥀 flor, marcida, mústia, pansida, rosa
+🌺 flor, hibisc, planta
+🌻 flor, gira-sol, planta, sol
+🌼 flor, planta
+🌷 flor, planta, tulipa
+🌱 brot, nou, planta
+🪴 avorrit, casa, créixer, inútil, planta, planta amb test
+🌲 arbre, arbre de fulla perenne, perenne
+🌳 arbre, arbre de fulla caduca, caduc
+🌴 arbre, palma, palmera, planta
+🌵 cactus, planta
+🌾 arròs, espiga, espiga d’arròs
+🌿 fulla, herba, planta
+☘ planta, trèvol
+🍀 4, fulles, quatre, trèvol, trèvol de quatre fulles
+🍁 auró, fulla, fulla d’auró
+🍂 fulla, fulla que cau, seca
+🍃 fulla, fulla que vola amb el vent, vent
+🍇 fruita, planta, raïm
+🍈 fruita, meló, planta
+🍉 fruita, meló d’aigua, meló de moro, planta, síndria
+🍊 fruita, mandarina, planta, taronja
+🍋 cítric, fruita, llimona, planta
+🍌 fruita, plàtan
+🍍 fruita, pinya
+🥭 fruita, mango, tropical
+🍎 fruita, poma, vermella
+🍏 fruita, poma, verda
+🍐 fruita, pera, planta
+🍑 fruita, planta, préssec
+🍒 cirera, cireres, fruita, planta, vermell
+🍓 baia, fruita, maduixa, planta
+🫐 blau, fruit del bosc, gerd, nabiu, nabius
+🥝 fruita, kiwi, menjar
+🍅 hortalissa, planta, tomàquet, tomata, verdura
+🫒 menjar, oliva
+🥥 coco, palmera, pinya colada
+🥑 alvocat, fruita, menjar
+🍆 albergínia, hortalissa, planta, verdura
+🥔 hortalissa, menjar, patata, tubercle
+🥕 hortalissa, menjar, pastanaga, verdura
+🌽 blat de moro, dacsa, moresc, panís, panotxa
+🌶 bitxo, pebrot, picant, planta, xili
+🫑 capsicum, hortalissa, pebrot, pebrot vermell
+🥒 cogombre, cogombret, hortalissa, menjar
+🥬 bleda xinesa, col, enciam, fulla verda, kale
+🥦 bròcoli, bròquil, col
+🧄 all, aromatitzant
+🧅 aromatitzant, ceba
+🍄 bolet, planta
+🥜 cacauet, cacauets, fruit, llegum, menjar, sec
+🌰 castanya, planta
+🍞 llesca, pa
+🥐 brioixeria, croissant, menjar
+🥖 baguet, barra, menjar, pa
+🫓 arepa, coca, lavash, naan, pa de coca, pita
+🥨 brètzel, brioixeria, cargolat, menjar
+🥯 bagel, fleca, forn, panet
+🥞 americanes, crep, creps, menjar, pancake
+🧇 gofra, gofrera
+🧀 formatge, tall, tall de formatge
+🍖 carn, carn amb os, os
+🍗 cuixa, cuixa de pollastre, pollastre
+🥩 bistec, tall de carn, tall de porc, tall de xai
+🥓 bacó, cansalada, carn, menjar, porc, viada
+🍔 hamburguesa
+🍟 fregides, patates
+🍕 formatge, pizza, porció, tall
+🌭 frankfurt, hot dog, salsitxa
+🥪 entrepà, pa
+🌮 mexicà, taco
+🌯 burrito, mexicà, rotlle, tortilla
+🫔 enrotllat, mexicà, tamal
+🥙 durum, falàfel, farcit, kebab, pa
+🧆 cigró, falàfel, mandonguilla
+🥚 menjar, ou
+🍳 cuina, ou, ou ferrat
+🥘 arròs, menjar, paella, valenciana
+🍲 cassola, cassola de menjar, estofat, guisat, menjar
+🫕 cassola, desfet, fondue, formatge, Suïssa, xocolata
+🥣 bol amb cullera, cereals, esmorzar
+🥗 amanida, bol, enciam, menjar, verd
+🍿 blat de moro, crispetes
+🧈 mantega, producte lacti
+🧂 condiment, sal, saler
+🥫 conserva, llauna, llauna de conserva, menjar
+🍱 bento, caixa, caixa de bento
+🍘 arròs, galeta, galeta d’arròs
+🍙 arròs, bola, bola d’arròs
+🍚 arròs, bullit
+🍛 arròs, arròs al curri, curri
+🍜 bol, bol fumejant, fideus, fum, plat, ramen
+🍝 espaguetis, pasta
+🍠 moniato, rostit
+🍢 broqueta, broqueta de marisc, kebab, marisc, oden, pal
+🍣 cru, peix, sushi
+🍤 fregida, gamba, tempura
+🍥 pastís, pastís de peix amb remolí, peix, remolí
+🥮 festival, pastisset de lluna, tardor, yuèbǐng
+🍡 broqueta, broqueta dolça japonesa, dango, dolç, japonès, postres
+🥟 cresta, cresta japonesa, cresta xinesa, empanada, gyōza
+🥠 fortuna, futur, galeta, galeta de la sort, profecia, sort
+🥡 emportar, envàs, menjar per emportar, menjar xinès, paper
+🦀 Càncer, cranc, Cranc, zodíac
+🦞 bisque, llagosta, marisc, pinces, sopa de marisc
+🦐 crustaci, gamba, llagostí, marisc, menjar
+🦑 animal, calamar, menjar, molusc
+🦪 busseig, ostra, perla
+🍦 gelat, gelat de màquina, màquina
+🍧 dolç, gel, granissat, picat, postres
+🍨 crema, dolç, gel, gelat, postres
+🍩 dolç, dònut, postres, rosquilla
+🍪 dolç, galeta, postres
+🎂 aniversari, celebració, dolç, pastís, pastís d’aniversari, postres
+🍰 pastís, porció, porció de pastís
+🧁 cupcake, dolç, fleca, forn, magdalena
+🥧 coca, farcit, pastís
+🍫 rajola, rajola de xocolata, xocolata
+🍬 caramel, dolç, postres
+🍭 caramel, dolç, pal, piruleta, postres
+🍮 dolç, flam, natilles, postres, púding
+🍯 mel, pot, pot de mel
+🍼 bebè, beguda, biberó, llet, nadó
+🥛 beguda, got, got de llet, llet
+☕ beguda, cafè, calenta, te, xocolata calenta
+🫖 beguda, te, tetera
+🍵 tassa, tassa de te, te
+🍶 ampolla, bar, beguda, sake, tassa
+🍾 ampolla, ampolla de cava, cava, suro, tap
+🍷 copa, copa de vi, vi
+🍸 bar, còctel, copa, copa de còctel
+🍹 bar, beguda, tropical
+🍺 cervesa, gerra, gerra de cervesa
+🍻 brindis, brindis amb gerra de cervesa, cervesa, gerra
+🥂 brindis, cava, copes, xampany, xin-xin
+🥃 beguda, copeta, got, got de licor, licor, whisky
+🥤 beguda, canya, got, got amb canya, refresc, suc
+🧋 bombolla, llet, perla, te, te amb bombolles
+🧃 bric, bric de suc
+🧉 beguda, mate
+🧊 fred, glaçó, iceberg
+🥢 bastonet, bastonets xinesos, oriental, xinès
+🍽 forquilla, forquilla, ganivet i plat, ganivet, plat
+🍴 cobert, forquilla, forquilla i ganivet, ganivet
+🥄 cobert, cullera
+🔪 arma, cuina, ganivet, ganivet de cuina
+🏺 àmfora, aquari, beguda, gerra, zodíac
+🌍 Àfrica, Europa, globus terraqüi amb Europa i Àfrica, món
+🌎 Amèrica, globus terraqüi amb Amèrica, món
+🌏 Àsia, Austràlia, globus terraqüi amb Àsia i Austràlia, món
+🌐 globus terraqüi amb meridians, meridians, món
+🗺 mapa, mapa del món, món
+🗾 Japó, mapa, mapa del Japó
+🧭 brúixola, magnètic, navegació, orientació
+🏔 fred, muntanya, muntanya amb neu al cim, muntanya nevada, neu
+⛰ muntanya
+🌋 erupció, muntanya, volcà
+🗻 Fuji, mont, muntanya
+🏕 acampada, campament, càmping
+🏖 para-sol, platja, platja amb para-sol
+🏜 desert, desèrtic
+🏝 deserta, illa
+🏞 nacional, parc
+🏟 estadi
+🏛 clàssic, edifici
+🏗 construcció, construcció d’edificis, edificis
+🧱 fang, maó, morter, paret, totxo
+🪨 pedra, penyal, pesat, roc, roca, sòlid
+🪵 fusta, llenya, tronc
+🛖 cabana, casa, casa rodona, iurta
+🏘 casa, cases, edifici
+🏚 abandonada, casa, ruïnes
+🏠 casa, edifici, llar
+🏡 casa, casa amb jardí, jardí
+🏢 edifici, edifici d’oficines
+🏣 correus, japonesa, oficina, oficina de correus japonesa
+🏤 correus, europea, oficina, oficina de correus, oficina de correus europea
+🏥 edifici, hospital, medicina, metge, salut
+🏦 banc, edifici
+🏨 edifici, hotel
+🏩 cites, hotel, hotel de cites
+🏪 botiga, botiga a l’abast, botiga de conveniència
+🏫 edifici, escola
+🏬 botiga, centre comercial, edifici, magatzem
+🏭 edifici, fàbrica
+🏯 castell, japonès
+🏰 castell, construcció, europeu
+💒 amor, capella, casament
+🗼 Tòquio, torre, torre de Tòquio
+🗽 estàtua, estàtua de la Llibertat, llibertat
+⛪ creu, cristià, edifici, església, religió
+🕌 islam, mesquita, musulmà, religió
+🛕 hindú, hinduisme, temple
+🕍 jueu, religió, sinagoga, temple
+⛩ religió, santuari, temple, xintoista
+🕋 islam, Ka’ba, musulmà, religió
+⛲ font
+⛺ acampada, campament, càmping, tenda, tenda de campanya
+🌁 boira, paisatge, paisatge emboirat
+🌃 estrelles, nit, nit estrellada
+🏙 paisatge, urbà
+🌄 alba sobre les muntanyes, muntanyes, sortida del sol
+🌅 alba, matí, sol, sortida del sol, temps
+🌆 paisatge urbà, paisatge urbà al vespre, vespre
+🌇 ciutat, crepuscle, posta de sol
+🌉 nit, pont, pont de nit
+♨ aigües termals, calor, complex turístic, fonts termals, vapor
+🎠 atraccions, cavallets
+🎡 fira, roda, roda de fira
+🎢 muntanya, parc d’atraccions, russa
+💈 barber, barberia, pal, tallada de cabells
+🎪 carpa, carpa de circ, circ
+🚂 locomotora, motor, tren, vapor, vehicle
+🚃 tren elèctric, vagó, vagó de tren elèctric
+🚄 alta velocitat, shinkansen, tren, tren d’alta velocitat, via del tren
+🚅 alta velocitat, bala, shinkansen, tren, via del tren
+🚆 tren, vehicle, via del tren
+🚇 metro, vehicle
+🚈 ferrocarril, metro lleuger, tren, tren lleuger, vehicle
+🚉 estació, tren, vehicle, vies
+🚊 tramvia, tròlei, troleibús, vehicle
+🚝 monocarril, vehicle
+🚞 ferrocarril, ferrocarril de muntanya, muntanya
+🚋 tramvia, vagó, vagó de tramvia
+🚌 autobús, bus, vehicle
+🚍 autobús, autobús de cara, autobús que arriba, bus, bus de cara, proper
+🚎 autobús, bus, tramvia, tròlei, troleibús
+🚐 autobús, bus, microbús, minibús, vehicle
+🚑 ambulància, emergència, urgència, vehicle
+🚒 bombers, camió de bombers, cotxe, cotxe de bombers
+🚓 cotxe, cotxe de policia, policia
+🚔 cotxe, cotxe de policia de cara, cotxe de policia que arriba, policia, proper
+🚕 taxi, transport, vehicle
+🚖 proper, taxi, taxi de cara, taxi que arriba
+🚗 automòbil, cotxe, vehicle
+🚘 automòbil, automòbil de cara, automòbil que arriba, proper
+🚙 recreatiu, tot camí, vehicle, vehicle tot camí
+🛻 camioneta, descoberta, pickup
+🚚 camió, camió de repartiment, repartiment
+🚛 articulat, camió
+🚜 agricultura, tractor, vehicle
+🏎 carreres, cotxe, cotxe de curses, curses, fórmula 1
+🏍 curses, moto, motocicleta
+🛵 escúter, moto, motocicleta, transport
+🦽 accessibilitat, cadira de rodes manual
+🦼 accessibilitat, cadira de rodes elèctrica
+🛺 bicitaxi, bicitaxi amb motor, rickshaw
+🚲 bici, bicicleta, vehicle
+🛴 patinet, transport
+🛹 monopatí, patí
+🛼 patí, patí de rodes, rodes
+🚏 autobús, bus, parada, parada d’autobús, parada de bus
+🛣 autopista, autovia, carretera
+🛤 tren, via, via de tren
+🛢 barril, barril de petroli, bidó, bidó de petroli, petroli
+⛽ assortidor, assortidor de gasolina, benzinera, combustible, gasolina
+🚨 cotxe, llum, llum de cotxe de policia, policia
+🚥 horitzontal, semàfor, senyal, trànsit
+🚦 semàfor, senyal, trànsit, vertical
+🛑 detenció, estop, senyal, senyal d’estop, senyal de detenció obligatòria, stop
+🚧 barrera, obres, tanca
+⚓ àncora, eina, vaixell
+⛵ iot, mar, vaixell, vehicle, veler
+🛶 canoa, kayak
+🚤 llanxa, ràpida
+🛳 passatgers, vaixell, vaixell de passatgers
+⛴ ferri, vaixell, vaixell de passatgers
+🛥 llanxa, llanxa de motor, motor, vaixell
+🚢 mar, passatgers, riu, vaixell, vehicle
+✈ aeroplà, avió, vehicle, vol
+🛩 aeroplà, avió, avioneta, vehicle, vol
+🛫 avió, enlairament, enlairament d’avió, sortida, vehicle
+🛬 arribada, aterratge, aterratge d’avió, avió, vehicle
+🪂 ala delta, paracaigudes, paracaigudisme, paracaigudista, parapent
+💺 cadira, seient
+🚁 helicòpter, vehicle
+🚟 ferrocarril, ferrocarril de suspensió, suspensió, tramvia elevat, vehicle
+🚠 muntanya, telecabina, telecadira, telefèric, telefèric de muntanya
+🚡 aeri, telecabina, telefèric, tramvia, vehicle
+🛰 espacial, espai, satèl·lit, vehicle
+🚀 coet, espacial, espai, vehicle
+🛸 objecte volador no identificat, ovni, plat volador, UFO
+🛎 grum, hotel, recepció, timbre, timbre del grum
+🧳 equipatge, maleta, viatge
+⌛ rellotge, rellotge de sorra, sorra, temporitzador
+⏳ rellotge, rellotge amb sorra que cau, sorra, temporitzador
+⌚ hora, rellotge
+⏰ alarma, despertador, rellotge
+⏱ cronòmetre, rellotge
+⏲ rellotge, temporitzador
+🕰 rellotge, rellotge de sobretaula, rellotge de taula, taula
+🕛 00.00, 12, 12.00, dotze, en punt, les dotze en punt, rellotge
+🕧 00.30, 12.30, dos quarts, dos quarts d’una, rellotge
+🕐 1, 1.00, 13, 13.00, en punt, la una en punt, rellotge
+🕜 1.30, 13.30, dos quarts, dos quarts de dues, rellotge
+🕑 14, 14.00, 2, dues, en punt, les dues en punt, rellotge
+🕝 14.30, 2.30, dos quarts, dos quarts de tres, rellotge
+🕒 15, 15.00, 3, en punt, les tres en punt, rellotge, tres
+🕞 15.30, 3.30, dos quarts, dos quarts de quatre, rellotge
+🕓 16, 16.00, 4, en punt, les quatre en punt, quatre, rellotge
+🕟 16.30, 4.30, dos quarts, dos quarts de cinc, rellotge
+🕔 17, 17.00, 5, cinc, en punt, les cinc en punt, rellotge
+🕠 17.30, 5.30, dos quarts, dos quarts de sis, rellotge
+🕕 18, 18.00, 6, en punt, les sis en punt, rellotge, sis
+🕡 18.30, 6.30, dos quarts, dos quarts de set, rellotge
+🕖 19, 19.00, 7, en punt, les set en punt, rellotge, set
+🕢 19.30, 7.30, dos quarts, dos quarts de vuit, rellotge
+🕗 20, 20.00, 8, en punt, les vuit en punt, rellotge, vuit
+🕣 20.30, 8.30, dos quarts, dos quarts de nou, rellotge
+🕘 21, 21.00, 9, en punt, les nou en punt, nou, rellotge
+🕤 21.30, 9.30, dos quarts, dos quarts de deu, rellotge
+🕙 10, 10.00, 22, deu, en punt, les deu en punt, rellotge
+🕥 10.30, 22.30, dos quarts, dos quarts d’onze, rellotge
+🕚 11, 11.00, 23, en punt, les onze en punt, onze, rellotge
+🕦 11.30, 23.30, dos quarts, dos quarts de dotze, rellotge
+🌑 fosc, lluna, nova
+🌒 creixent, lluna, lluna en quart creixent, quart
+🌓 creixent, lluna, lluna en el primer quart creixent, quart
+🌔 creixent, gibosa, lluna
+🌕 lluna, plena
+🌖 gibosa, lluna, minvant
+🌗 lluna, lluna en l’últim quart minvant, minvant, quart
+🌘 lluna, minvant
+🌙 creixent, lluna
+🌚 cara, cara de lluna nova, lluna nova
+🌛 cara, creixent, lluna, lluna en el primer quart amb cara, quart
+🌜 cara, lluna, lluna en l’últim quart amb cara, minvant, quart
+🌡 temperatura, temps, termòmetre
+☀ assolellat, sol, solejat, temps
+🌝 cara, lluna, lluna plena amb cara, plena
+🌞 cara, sol, sol amb cara
+🪐 planeta amb anell, saturn, saturní
+⭐ estrella
+🌟 brillant, brillar, espurna, estrella
+🌠 cel, espai, estel, estrella, fugaç
+🌌 espai, temps, Via Làctia
+☁ núvol, temps
+⛅ núvol, sol, sol darrere un núvol, temps
+⛈ llamp, núvol, núvol amb llamp i pluja, pluja, temps
+🌤 núvol petit, sol, sol darrere d’un núvol petit, temps
+🌥 núvol gran, sol, sol darrere d’un núvol gran, temps
+🌦 núvol, pluja, sol, sol darrere d’un núvol amb pluja, temps
+🌧 núvol, núvol amb pluja, pluja, temps
+🌨 neu, núvol, núvol amb neu, temps
+🌩 llamp, núvol, núvol amb llamp, temps
+🌪 remolí, temps, tornado
+🌫 boira, núvol, temps
+🌬 bufar, cara, núvol, vent
+🌀 cicló, mareig, remolí, temps, tifó
+🌈 arc, arc de Sant Martí, pluja, Sant Martí, temps
+🌂 paraigua, pluja, tancat
+☂ paraigua, pluja
+☔ gotes, paraigua, paraigua amb gotes de pluja, pluja
+⛱ para-sol, para-sol a la sorra, sol, sorra
+⚡ alta tensió, electricitat, llamp, perill, tensió, voltatge
+❄ floc, floc de neu, fred, neu, volva de neu
+☃ fred, neu, nevada, ninot, ninot de neu
+⛄ fred, neu, ninot, ninot de neu sense neu
+☄ cometa, espai
+🔥 eina, flama, foc
+💧 fred, gota, suor
+🌊 aigua, mar, onada
+🎃 carabassa, carabassa de Halloween, celebració, Halloween, llanterna
+🎄 arbre, arbre de Nadal, celebració, Nadal
+🎆 celebració, focs artificials, focs d’artifici
+🎇 bengala, celebració, espurna, foc, pirotècnia
+🧨 dinamita, explosiu, focs d’artifici, petard
+✨ *, espurna, espurnes, estrella
+🎈 celebració, globus
+🎉 celebració, confeti, festa, tub, tub de confeti
+🎊 bola, bola de confeti, celebració, confeti, festa
+🎋 arbre, arbre dels desitjos de Tanabata, celebració, desitjos, japonès, Tanabata
+🎍 bambú, celebració, decoració, decoració de pi, japonès, pi
+🎎 celebració, festival, nines, nines japoneses
+🎏 banderins, banderins de carpes, carpes, celebració
+🎐 campaneta, campaneta de vent, celebració, vent
+🎑 cerimònia, cerimònia de la lluna, lluna
+🧧 bona sort, diners, hóngbāo, lai see, regal, sobre vermell
+🎀 celebració, cinta, llaç
+🎁 celebració, embolicat, regal
+🎗 celebració, cinta, commemorar, llaç commemoratiu
+🎟 accés, admissió, bitllet, bitllet d’entrada, entrada
+🎫 admissió, entrada, tiquet
+🎖 celebració, medalla, militar
+🏆 premi, trofeu
+🏅 esportiva, medalla
+🥇 medalla, medalla d’or, or, posició, primer
+🥈 argent, medalla de plata, plata, posició, segon
+🥉 bronze, medalla, medalla de bronze, posició, tercer
+⚽ futbol, pilota, pilota de futbol
+⚾ beisbol, pilota, pilota de beisbol
+🥎 amb mà baixa, guant, pilota, pilota de softbol
+🏀 bàsquet, pilota, pilota de bàsquet
+🏐 bola, joc, partit, pilota, pilota de voleibol
+🏈 futbol americà, pilota, pilota de futbol americà
+🏉 pilota, pilota de rugbi, rugbi
+🎾 pilota, raqueta, raqueta i pilota de tennis, tenis, tennis
+🥏 disc volador, esport, plat a gol, ultimate
+🎳 bitlles, bola, joc
+🏏 bat, bola, criquet, joc, partit
+🏑 estic, herba, hoquei, hoquei sobre herba
+🏒 disc, estic, gel, hoquei, hoquei sobre gel
+🥍 estic, gol, lacrosse, pilota
+🏓 ping-pong, tenis de taula, tennis de taula
+🏸 bàdminton, joc, partit, raqueta, volant
+🥊 boxa, esport, guant, guant de boxa
+🥋 arts marcials, judo, karate, quimono, quimono d’arts marcials, taekwondo
+🥅 esport, gol, porteria, xarxa
+⛳ banderí, banderí al forat, forat
+⛸ gel, patinatge, patinatge sobre gel
+🎣 canya, canya de pescar, pescar
+🤿 busseig, immersió lleugera, submarinisme, ulleres de busseig
+🎽 córrer, samarreta, samarreta per córrer
+🎿 esquiar, esquís, neu
+🛷 lliscar, neu, trineu
+🥌 esport, gel, joc, pedra, pedra de cúrling
+🎯 dard, dards, diana, joc, punteria
+🪀 fluctuar, io-io, joguina
+🪁 enlairar-se, estel, volar
+🎱 8, billar, bola, bola de billar, bola negra de billar
+🔮 bola, bola de vidre, fantasia, fortuna, sort
+🪄 bruixa, bruixot, màgia, vareta màgica
+🧿 amulet, nazar, pedra del mal d’ull, talismà
+🎮 comandament de consola, comandament de joc, comandament de videoconsola, joc, videojoc
+🕹 control, joystick, palanca, palanca de control, videojoc
+🎰 atzar, escurabutxaques, joc, màquina escurabutxaques
+🎲 dau, daus, joc
+🧩 encaixar, peça, peces de trencaclosques, pista, puzle, trencaclosques
+🧸 joc, joguina, os de peluix, pelfa, peluix
+🪅 celebració, festa, pinyata
+🪆 matrioixca, nina, nines russes, russa
+♠ cartes, pal, pal de piques, partida, piques
+♥ cartes, cors, pal, pal de cors, partida
+♦ cartes, diamants, pal, pal de diamants, partida
+♣ carta, pal, pal de trèvols, partida, trèvols
+♟ escacs, peó d’escacs, prescindible, sacrificable
+🃏 carta, comodí, partida
+🀄 drac vermell, drac vermell de mahjong, joc, mahjong
+🎴 cartes, cartes de flors, cartes de les flors, flors, hanafuda, japonès, joc
+🎭 arts, arts interpretatives, interpretació, màscara, teatre
+🖼 art, marc, marc amb quadre, museu, pintura, quadre
+🎨 artista, museu, paleta, paleta d’artista, pintura
+🧵 bobina, cosir, fil, rodet
+🪡 agulla, agulla de cosir, brodat, costura, modista, puntada, sutura
+🧶 bola, cabdell, ganxet, llana, mitja
+🪢 bramant, corda, nus
+👓 complements, ull, ulleres, vestuari
+🕶 fosques, sol, ull, ulleres, ulleres de sol
+🥽 natació, protecció, protecció dels ulls, protecció ocular, ulleres de piscina
+🥼 bata de laboratori, científic, doctor, experiment
+🦺 armilla, armilla salvavides, emergència, seguretat
+👔 corbata, roba
+👕 roba, samarreta
+👖 pantaló, pantalons, roba, texans
+🧣 bufanda, coll
+🧤 guants, mà
+🧥 abric, jaqueta
+🧦 mitja, mitjons
+👗 roba, vestit
+👘 japonès, quimono, roba, vestit
+🥻 roba, sari, vestit
+🩱 banyador, vestit de bany
+🩲 banyador, eslip, roba interior, vestit de bany
+🩳 banyador, pantaló, pantalons curts, roba interior, vestit de bany
+👙 biquini, nedar, roba
+👚 dona, roba, roba de dona
+👛 accessori, moneda, moneder, roba
+👜 accessori, bossa, bossa de mà, roba
+👝 accessori, bossa, roba
+🛍 bosses, bosses de compres, compra
+🎒 escola, motxilla, motxilla d’escola
+🩴 xancleta, xancleta de dit, xancleta de platja
+👞 calçat, home, sabata, sabata d’home
+👟 calçat, córrer, sabatilla, sabatilla de córrer
+🥾 bota, bota de muntanya, càmping, excursionisme, trekking, tresc
+🥿 ballarina, calçat, sabata plana, sabatilla, xinel·la
+👠 calçat, sabata, sabata de taló, taló
+👡 calçat, dona, sandàlia, sandàlia de dona
+🩰 ballet, dansa, sabatilles de ballet
+👢 bota, bota de dona, calçat, dona
+👑 cap, complement, corona, rei, reina
+👒 accessori, barret, barret de dona, dona
+🎩 barret, barret de copa, copa
+🎓 barret, barret de graduació, birret, celebració, graduació
+🧢 beisbol, gorra, visera
+🪖 casc, exèrcit, guerrer, militar, soldat
+⛑ casc, casc amb creu blanca, creu blanca, emergència, urgència
+📿 collaret, granadura, oració, religió, rosari
+💄 cosmètics, maquillatge, pintallavis
+💍 anell, diamant
+💎 diamant, gemma, joia
+🔇 altaveu, altaveu desactivat, en silenci, silenciar, silenciat
+🔈 altaveu amb el volum baix, baix, volum suau
+🔉 altaveu amb el volum mitjà, mitjà, volum mitjà
+🔊 alt, altaveu amb el volum alt, volum fort
+📢 altaveu, altaveu de megafonia, megafonia
+📣 animar, aplaudiments, megàfon
+📯 corn de posta, corneta de posta, corneta de postilló, correus, símbol, símbol de correus
+🔔 campana, timbre
+🔕 campana, campana ratllada, campana silenciada, prohibit, silenci
+🎼 música, pentagrama
+🎵 música, nota, nota musical
+🎶 música, notes, notes musicals
+🎙 estudi, micròfon, micròfon d’estudi, música
+🎚 control lliscant, control lliscant de nivell, nivell
+🎛 botons, botons de control, control, música
+🎤 karaoke, micròfon
+🎧 auricular
+📻 ràdio, vídeo
+🎷 instrument, música, saxo, saxofon, saxòfon
+🪗 acordió, concertina
+🎸 corda, guitarra, instrument, música, rock
+🎹 instrument, música, piano, teclat, teclat musical
+🎺 instrument, música, trompeta, vent
+🎻 corda, instrument, música, violí
+🪕 banjo, corda, música
+🥁 baquetes, música, tambor, timbal
+🪘 conga, percussió, ritme, timbal
+📱 mòbil, telèfon
+📲 fletxa, mòbil, rebre, telèfon mòbil, telèfon mòbil amb fletxa
+☎ telèfon
+📞 auricular, auricular de telèfon, telèfon
+📟 buscapersones, cercapersones
+📠 fax
+🔋 bateria, càrrega
+🔌 connexió, electricitat, endoll
+💻 equip, ordinador portàtil, PC, personal, portàtil
+🖥 equip, escriptori, ordinador d’escriptori, ordinador de sobretaula
+🖨 impressora, ordinador
+⌨ ordinador, teclat
+🖱 ordinador, ratolí, ratolí d’ordinador
+🖲 ordinador, ratolí de bola
+💽 disc, equip, minidisc, òptic
+💾 disc, disquet, equip
+💿 cd, disc, dvd, equip, òptic, ordinador
+📀 Blu-ray, cd, disc, DVD, equip, òptic, ordinador
+🧮 àbac, càlcul
+🎥 càmera, càmera cinematogràfica, cinema
+🎞 cinema, fotograma, fotograma de pel·lícula, pel·lícula
+📽 cinema, projector, projector cinematogràfic
+🎬 cinema, claqueta, pel·lícula
+📺 televisió, tv, vídeo
+📷 càmera, vídeo
+📸 càmera, càmera amb flaix, flaix, vídeo
+📹 càmera, càmera de vídeo, vídeo
+📼 cinta, vhs, vídeo, videocasset
+🔍 buscar, eina, esquerra, lupa, lupa cap a l’esquerra
+🔎 buscar, dreta, eina, lupa, lupa cap a la dreta
+🕯 cera, espelma, flama, llum
+💡 bombeta, còmic, electricitat, idea, llum
+🔦 eina, electricitat, llanterna, llum
+🏮 fanal, fanal de paper vermell, paper, vermell
+🪔 ble, làmpada, llàntia, llum, llum d’oli, oli
+📔 coberta decorativa, llibre, quadern, quadern amb coberta decorativa
+📕 llibre, tancat
+📖 llibre, obert
+📗 llibre, verd
+📘 blau, llibre
+📙 llibre, taronja
+📚 llibre, llibres
+📓 llibreta, quadern
+📒 comptabilitat, llibre, llibre de comptabilitat
+📃 cargolada, pàgina, pàgina que es cargola
+📜 escriptura, paper, pell, pergamí
+📄 amunt, document, pàgina, pàgina cap amunt
+📰 diari, notícies
+🗞 diari, enrotllat
+📑 fitxa, marca, marcador, marcadors, punt
+🔖 marcador, punt, punt de llibre
+🏷 etiqueta
+💰 bossa, bossa de diners, diners
+🪙 metall, moneda, or, plata, tresor
+💴 bitllets, bitllets de ien, ien, signe
+💵 bitllets, bitllets de dòlar, dòlar, signe
+💶 bitllets, bitllets d’euro, euro, signe
+💷 bitllets, bitllets de lliura, lliura, signe
+💸 ales, diners, diners amb ales
+💳 crèdit, targeta, targeta de crèdit
+🧾 comptabilitat, llibres, prova, rebut, tiquet
+💹 augment, creixement, gràfic, gràfic d’augment amb el signe del ien, ien, signe
+✉ carta, correu, correu electrònic, mail, sobre
+📧 correu, electrònic, mail
+📨 recepció, sobre, sobre que arriba
+📩 fletxa, sobre, sobre amb fletxa, sortint
+📤 safata, safata de sortida, sortida
+📥 entrada, safata, safata d’entrada
+📦 caixa, paquet
+📫 bandera aixecada, bústia, bústia tancada amb la bandera aixecada, tancada
+📪 bandera abaixada, bústia, bústia tancada amb la bandera abaixada, tancada
+📬 bandera aixecada, bústia, bústia oberta amb la bandera aixecada, oberta
+📭 bandera abaixada, bústia, bústia oberta amb la bandera abaixada, oberta
+📮 bústia, carta, correu
+🗳 urna, urna amb vot, vot, votació
+✏ llapis
+✒ negra, ploma
+🖋 estilogràfica, ploma
+🖊 bolígraf
+🖌 pintar, pintura, pinzell
+🖍 color, llapis, llapis de color
+📝 llapis, nota
+💼 maletí
+📁 arxius, carpeta, carpeta d’arxius, carpeta de fitxers, fitxers
+📂 arxius, carpeta, carpeta d’arxius oberta, carpeta de fitxers oberta, fitxers, oberta
+🗂 organitzador, separadors, separadors per a organitzador de targetes, targetes
+📅 calendari, data
+📆 bloc, calendari, calendari de bloc
+🗒 bloc, bloc de notes d’espiral, espiral, notes
+🗓 calendari, calendari d’espiral, espiral
+📇 organitzador, organitzador de targetes, targetes
+📈 a l’alta, augment, gràfic, gràfic d’augment, tendència
+📉 a la baixa, disminució, gràfic, gràfic de disminució, tendència
+📊 barres, gràfic, gràfic de barres
+📋 agafes, clip, petjapapers, porta-retalls
+📌 agulla, xinxeta
+📍 rodona, xinxeta
+📎 clip
+🖇 clips, enganxats
+📏 recte, regle
+📐 angle, esquadra, regle, triangle
+✂ eina, tall, tisores
+🗃 arxiu, arxivador de targetes, caixa, dossier, targeta
+🗄 arxivador, dossier, moble
+🗑 cubell, paperera
+🔒 cadenat, tancar, tancat
+🔓 cadenat, obert, obrir
+🔏 cadenat amb ploma, cadenat tancat, ploma, privacitat, privadesa
+🔐 bloqueig, cadenat tancat amb clau, clau, segur, tancat
+🔑 bloqueig, clau, contrasenya
+🗝 antiga, clau, tancar
+🔨 eina, martell
+🪓 destral, llenya, tallar
+⛏ eina, mineria, pic
+⚒ eina, martell, martell i pic, pic
+🛠 clau anglesa, eina, martell, martell i clau anglesa
+🗡 arma, daga, ganivet
+⚔ arma, creuades, espases
+🔫 arma, arma de foc, eina, pistola, pistola d’aigua, revòlver
+🪃 Austràlia, bumerang, rebot, repercussió
+🏹 arc, arc i fletxa, fletxa, Sagitari, zodíac
+🛡 arma, escut
+🪚 eina, fuster, llenyataire, serra, xerrac
+🔧 anglesa, clau, eina
+🪛 eina, tornavís, vis
+🔩 cargol, cargol i femella, femella
+⚙ eina, engranatge
+🗜 cargol de banc, compressió, eina, serjant
+⚖ aparell, Balança, balança (aparell), eina, justícia, pes
+🦯 accessibilitat, bastó per a invidents, invident
+🔗 enllaç, enllaçar
+⛓ cadena, cadenes
+🪝 atrapar, corba, ganxo, ham, pescar, punt de venda
+🧰 caixa, caixa d’eines, eines, mecànic
+🧲 atracció, ferradura, imant, magnètic
+🪜 escala, escala de mà, esglaó, graó, pujar
+⚗ alambí, eina, química
+🧪 ciència, experiment, laboratori, químic, química, tub d’assaig
+🧫 bacteri, biòleg, biòloga, biologia, cultiu, laboratori, placa de Petri
+🧬 adn, biòleg, biòloga, evolució, gen, genètica, vida
+🔬 augment, ciència, eina, microscopi
+🔭 augment, ciència, eina, telescopi
+📡 antena, antena de satèl·lit, satèl·lit
+💉 agulla, injecció, malalt, medicina, metge, xeringa
+🩸 donació de sang, gota de sang, medicina, menstruació
+💊 malalt, medicina, metge, pastilla, píndola
+🩹 bena, tireta
+🩺 cor, doctor, estetoscopi, medicina
+🚪 porta
+🛗 accessibilitat, ascensor, muntacàrregues
+🪞 espill, mirall, reflector, reflex
+🪟 aire fresc, finestra, marc, obertura, transparent, vista
+🛏 dormir, hotel, llit
+🛋 hotel, làmpada, sofà, sofà i làmpada
+🪑 cadira, seient, seure
+🚽 inodor, lavabo, tassa, vàter
+🪠 desembossador, embós, lampista, lavabo, succió
+🚿 aigua, dutxa
+🛁 bany, banyera
+🪤 parany, rata, ratera, ratolí, trampa
+🪒 afaitada, esmolada, navalla d’afaitar
+🧴 ampolla de crema, loció, protecció solar, suavitzant, xampú
+🧷 imperdible, punk, punk rock
+🧹 bruixa, escombra, escombrar, netejar
+🧺 bugada, cistella, granja, pícnic
+🧻 paper de vàter, paper higiènic, rotlle de paper, tovalloleta de paper
+🪣 cubell, galleda
+🧼 bany, ensabonar-se, netejar, pastilla, sabó, sabonera
+🪥 dental, dents, higiene, lavabo, raspall, raspall de dents, rentar
+🧽 absorbent, esponja, netejar, porosa
+🧯 apagar, extingir, extintor, foc
+🛒 carretó, compra
+🚬 cigarreta, fumar
+⚰ mort, taüt
+🪦 cementiri, làpida, tomba
+⚱ funeral, mort, urna, urna funerària
+🗿 cara, estàtua, moai
+🪧 cartell, manifestació, pancarta, protesta, senyal
+🏧 atm, banc, caixer, caixer automàtic, signe de caixer automàtic
+🚮 brossa, paperera, signe de paperera, tirar la brossa
+🚰 aigua, potable
+♿ accés, accessible, cadira, rodes, símbol de cadira de rodes
+🚹 homes, lavabo, lavabo d’homes, servei
+🚺 dones, lavabo, lavabo de dones, servei
+🚻 lavabo, lavabos, servei, tocador, wc
+🚼 bebè, nadó, símbol de bebè, símbol de nadó
+🚾 bany, lavabo, servei, vàter, wc
+🛂 control, control de passaports, passaport
+🛃 duana
+🛄 equipatges, recollida, recollida d’equipatges
+🛅 armari, consigna, equipatge, maletes, servei de consigna
+⚠ advertència, avís
+🚸 creuant, nens, nens que creuen, trànsit, vianant
+⛔ direcció prohibida, entrada, no passeu, prohibició, prohibit entrar, trànsit
+🚫 accés, no passeu, prohibició, prohibit
+🚳 bicicletes, bicicletes prohibides, bicis, bicis prohibides, prohibició
+🚭 fumar, prohibició, prohibit fumar
+🚯 brossa, llençar, prohibició, prohibit llençar brossa
+🚱 aigua, aigua no potable, no potable
+🚷 prohibició, prohibit, prohibit el pas als vianants, vianants
+📵 prohibició, prohibit l’ús de telèfons mòbils, prohibits els telèfons mòbils, telèfons mòbils
+🔞 menors d’edat, prohibició, prohibit a menors d’edat, prohibit a menors de 18 anys, prohibit a menors de divuit anys
+☢ radioactiu, senyal
+☣ perill, risc, risc biològic, senyal
+⬆ amunt, direcció, fletxa, fletxa cap amunt, nord
+↗ amunt a la dreta, direcció, fletxa, fletxa cap amunt a la dreta, nord-est
+➡ direcció, dreta, est, fletxa, fletxa cap a la dreta
+↘ avall a la dreta, direcció, fletxa, fletxa cap avall a la dreta, sud-est
+⬇ avall, direcció, fletxa, fletxa cap avall, sud
+↙ avall a l’esquerra, direcció, fletxa, fletxa cap avall a l’esquerra, sud-oest
+⬅ direcció, esquerra, fletxa, fletxa cap a l’esquerra, oest
+↖ amunt a l’esquerra, direcció, fletxa, fletxa cap amunt a l’esquerra, nord-oest
+↕ amunt, avall, fletxa, fletxa cap amunt i cap avall
+↔ dreta, esquerra, fletxa, fletxa cap a l’esquerra i cap a la dreta
+↮ fletxa esquerra i dreta amb traç
+↩ dreta, esquerra, fletxa, fletxa dreta que gira cap a l’esquerra, gir
+↪ dreta, esquerra, fletxa, fletxa esquerra que gira cap a la dreta, gir
+⤴ amunt, dreta, fletxa, fletxa dreta que gira cap amunt, gir
+⤵ avall, dreta, fletxa, fletxa dreta que gira cap avall, gir
+🔃 dreta, fletxes, fletxes que giren cap a la dreta, fletxes verticals en sentit horari, gir
+🔄 botó de fletxes que giren cap a l’esquerra, esquerra, fletxes en sentit antihorari, gir, sentit antihorari
+🔙 Back, fletxa, fletxa amb la paraula Back, paraula
+🔚 End, fletxa, fletxa amb la paraula End, paraula
+🔛 fletxa, fletxa amb la paraula ON!, ON!, paraula
+🔜 fletxa, fletxa amb la paraula Soon, paraula, Soon
+🔝 fletxa, fletxa amb la paraula Top, paraula, Top
+🛐 culte, lloc, lloc de culte, religió
+⚛ ateisme, ateu, àtom, símbol, símbol d’àtom
+🕉 hindú, hinduisme, om, religió, símbol d’om
+✡ estrella, estrella de David, judaisme, jueu, religió
+☸ budisme, budista, dharma, religió, roda del dharma
+☯ religió, tao, taoisme, taoista, yin i yang, yin-yang
+✝ creu, creu llatina, cristià, cristianisme, religió
+☦ creu, ortodoxa, religió
+☪ creixent lunar i estel, islamisme, musulmà, religió
+☮ pau, símbol, símbol de la pau
+🕎 canelobre, canelobre de set braços, menorà, religió, set braços
+🔯 estrella, estrella de sis puntes amb punt, fortuna, punt, sis puntes
+♈ Àries, marrà, zodíac
+♉ bou, brau, Taure, zodíac
+♊ Bessons, Gèmini, zodíac
+♋ Càncer, Cranc, zodíac
+♌ Lleó, zodíac
+♍ Verge, Virgo, zodíac
+♎ Balança, bàscula, justícia, zodíac
+♏ Escorpí, Escorpió, zodíac
+♐ arquer, Sagitari, zodíac
+♑ cabra, Capricorn, zodíac
+♒ aigua, Aquari, zodíac
+♓ peix, Peixos, zodíac
+⛎ Ofiüc, serp, Serpentari, zodíac
+🔀 aleatòria, botó, botó de reproducció aleatòria, reproducció
+🔁 botó, botó de repetició, fletxes en sentit horari, repetició
+🔂 botó, botó de repetició única, fletxes en sentit horari, repetició, única
+▶ botó, botó de reproducció, fletxa cap a la dreta, reproducció
+⏩ avançar, botó, botó d’avançar ràpidament, dues fletxes, ràpidament
+⏭ botó, botó de pista següent, escena següent, pista, següent
+⏯ botó, botó de pausa o de reproducció, pausa, reproducció
+◀ botó, botó de retrocedir, fletxa cap a l’esquerra, retrocedir
+⏪ botó, botó de retrocedir ràpidament, dues fletxes, ràpidament, retrocedir
+⏮ anterior, botó, botó de pista anterior, escena anterior, pista
+🔼 amunt, botó, botó d’anar amunt, vermell
+⏫ amunt, botó, botó d’anar amunt ràpidament, dues fletxes, ràpidament
+🔽 avall, botó, botó d’anar avall, vermell
+⏬ avall, botó, botó d’anar avall ràpidament, dues fletxes, ràpidament
+⏸ botó, botó de pausa, dues barres, pausa, vertical
+⏹ aturada, botó, botó d’aturada, quadrat
+⏺ botó, botó d’enregistrar, cercle, enregistrar
+⏏ botó, botó d’expulsar, expulsar
+🎦 càmera, cinema, film, pel·lícula
+🔅 atenuar, botó, botó d’atenuar la brillantor, brillantor
+🔆 augmentar, botó, botó d’augmentar la brillantor, brillantor
+📶 barres, barres de cobertura, cobertura, mòbil, telèfon
+📳 mode, mode de vibració, telèfon, vibració
+📴 apagat, desactivat, desconnectat, mòbil, telèfon
+♀ dona, femella, femení, símbol femení
+♂ home, mascle, masculí, símbol masculí
+⚧ símbol transgènere, trans, transgènere
+✖ ×, cancel·lar, multiplicació, multiplicar, signe, signe de multiplicar, x
+➕ +, matemàtiques, més, signe, signe de sumar
+➖ -, −, matemàtiques, menys, signe, signe de restar
+➗ ÷, divisió, matemàtiques, signe, signe de dividir
+♾ il·limitat, infinit, per sempre, universal
+‼ !, !!, doble exclamació, exclamació, signe d’exclamació doble
+⁉ !, !?, ?, exclamació, interrogació, pregunta, puntuació, signe, signe d’exclamació i d’interrogació
+❓ ?, interrogació, puntuació, signe, signe d’interrogació, signe d’interrogació vermell
+❔ ?, blanc, interrogació, puntuació, signe, signe d’interrogació blanc
+❕ !, blanc, exclamació, puntuació, signe, signe d’exclamació blanc
+❗ !, exclamació, puntuació, signe, signe d’exclamació, signe d’exclamació vermell
+〰 guió, ondulat, puntuació
+💱 canvi, canvi de divisa, divisa
+💲 dòlar, gran, signe, signe de dòlar gran
+⚕ Esculapi, medicina, personal, serp, símbol mèdic
+♻ reciclatge, símbol, símbol de reciclatge
+⚜ flor, flor de lis, lis
+🔱 àncora, marca, marca de trident, trident
+📛 etiqueta, etiqueta identificadora, identificació
+🔰 japonès, principiant, símbol, símbol japonès de principiant
+⭕ cercle, cercle buit vermell, gran, o, vermell
+✅ ✓, botó, botó de marca de verificació, marca, selecció, verificació
+☑ ✓, casella, casella amb marca de verificació, selecció, verificació
+✔ ✓, marca, marca de verificació, selecció, verificació
+❌ ×, cancel·lar, creu, marca, marca de creu, multiplicació, multiplicar, x
+❎ ×, botó de creu, marca, quadrat, x
+➰ bucle, llaç, llaç arrissat
+➿ bucle, doble
+〽 alternança, signe, signe d’alternança
+✳ *, asterisc, asterisc de vuit radis
+✴ *, estrella, estrella de vuit puntes
+❇ *, espurna
+© copyright, drets d’autor
+® marca, registrada
+™ comercial, marca comercial, símbol de marca comercial
+🔠 botó de lletres llatines en majúscules, llatines, lletres, majúscules
+🔡 botó de lletres llatines en minúscules, llatines, lletres, minúscules
+🔢 1234, botó de números, dígits, números, xifres
+🔣 〒♪&amp;%, botó de símbols, símbols
+🔤 abc, alfabet, botó de lletres llatines, lletres, lletres llatines
+🅰 A, botó, botó A (grup sanguini)
+🆎 AB, botó, botó AB (grup sanguini)
+🅱 B, botó, botó B (grup sanguini)
+🆑 botó CL, botó esborrar, CL, esborrar, quadre
+🆒 botó COOL, Cool, paraula, quadre
+🆓 botó FREE, Free, paraula, quadre
+ℹ i, informació, punt d’informació
+🆔 botó ID, ID, identificació, identitat, símbol d’identificació
+Ⓜ cercle, lletra, lletra M en cercle, M
+🆕 botó NEW, New, nou, paraula, quadre
+🆖 botó NG, NG, paraula, quadre
+🅾 botó, botó O (grup sanguini), O
+🆗 botó OK, d’acord, OK, paraula
+🅿 aparcament, botó P, lletra P, P, pàrquing
+🆘 auxili, botó SOS, emergència, socors, SOS
+🆙 botó, botó amb la paraula Up!, paraula, Up!
+🆚 botó VS, contra, versus, VS, vs.
+🈁 botó japonès &quot;aquí&quot;, japonès, katakana, koko, quadre
+🈂 botó japonès &quot;càrrec per servei&quot;, japonès, katakana, quadre, sa
+🈷 &quot;quantitat mensual&quot;, botó japonès &quot;import mensual&quot;, ideograma, japonès, kanji
+🈶 &quot;de pagament&quot;, botó japonès &quot;de pagament&quot;, ideograma, japonès, kanji
+🈯 &quot;reservat&quot;, botó japonès &quot;reservat&quot;, ideograma, japonès, kanji
+🉐 &quot;ganga&quot;, botó japonès &quot;ganga&quot;, ideograma, japonès, kanji
+🈹 botó japonès &quot;descompte&quot;, ideograma, japonès, kanji, quadre
+🈚 &quot;gratis&quot;, botó japonès &quot;gratis&quot;, ideograma, japonès, kanji
+🈲 botó japonès &quot;prohibit&quot;, ideograma, japonès, kanji, prohibició
+🉑 acceptable, botó japonès &quot;acceptable&quot;, ideograma, japonès, kanji
+🈸 aplicar, botó japonès &quot;aplicació&quot;, ideograma, japonès, kanji
+🈴 &quot;qualificació d’aprovat&quot;, botó japonès &quot;qualificació d’aprovat&quot;, ideograma, japonès, kanji
+🈳 botó japonès &quot;plaça lliure&quot;, buit, ideograma, japonès, kanji
+㊗ botó japonès &quot;enhorabona&quot;, enhorabona, ideograma, japonès, kanji
+㊙ &quot;secret&quot;, botó japonès &quot;secret&quot;, ideograma, japonès, kanji
+🈺 botó japonès &quot;negoci obert&quot;, ideograma, japonès, kanji, obert
+🈵 botó japonès &quot;cap plaça lliure&quot;, ideograma, japonès, kanji, ple
+🔴 cercle, geometria, vermell
+🟠 cercle, taronja
+🟡 cercle, groc
+🟢 cercle, verd
+🔵 blau, cercle, geometria
+🟣 cercle, lila, morat, violeta
+🟤 cercle, marró
+⚫ cercle, geometria, negre
+⚪ blanc, cercle, geometria
+🟥 quadrat, vermell
+🟧 quadrat, taronja
+🟨 groc, quadrat
+🟩 quadrat, verd
+🟦 blau, quadrat
+🟪 lila, morat, quadrat, violeta
+🟫 marró, quadrat
+⬛ geometria, gran, negre, quadrat
+⬜ blanc, geometria, gran, quadrat
+◼ geometria, mitjà, negre, quadrat
+◻ blanc, geometria, mitjà, quadrat
+◾ geometria, negre, petit-mitjà, quadrat
+◽ blanc, geometria, petit-mitjà, quadrat
+▪ geometria, negre, petit, quadrat
+▫ blanc, geometria, petit, quadrat
+🔶 geometria, gran, rombe, taronja
+🔷 blau, geometria, gran, rombe
+🔸 geometria, petit, rombe, taronja
+🔹 blau, geometria, petit, rombe
+🔺 amunt, geometria, triangle, triangle vermell cap amunt, vermell, vermell cap amunt
+🔻 avall, geometria, triangle, triangle vermell cap avall, vermell
+💠 flor, geometria, pètals, rombe, rombe amb punt
+🔘 botó, botó d’opció, geometria, opció
+🔳 blanc, botó, botó de quadrat blanc, geometria, quadrat
+🔲 botó, botó de quadrat negre, geometria, negre, quadrat
+🏁 automobilisme, bandera, bandera de quadres, curses, motor
+🚩 bandera, bandera triangular, banderí
+🎌 banderes, banderes creuades, celebració, japó
+🏴 bandera, bandera negra, oneig
+🏳 bandera, bandera blanca, oneig
+🏳‍🌈 arc de Sant Martí, bandera, bandera de l’arc de Sant Martí
+🏳‍⚧ bandera, blanc, blau cel, rosa, trans, transgènere
+🏴‍☠ bandera pirata, botí, Jolly Roger, pirata, tresor
+¢ centau
+$ diners, dòlar, peso, USD
+£ divisa, EGP, esterlina, GBP, lliura, moneda
+¥ CNY, ien, iuan, JPY, moneda
+₥ M, milió
+₩ KPW, KRW, won
+€ divisa, EUR, euro, moneda
+₱ peso
+₹ moneda, rupia, rupia índia
+₽ moneda, ruble
+₿ bitcoin, BTC
+¹ superíndex, u
+² al quadrat, dos, superíndex
+³ al cub, superíndex, tres
+µ mesura, signe de micró

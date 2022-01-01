@@ -1,0 +1,1831 @@
+{ camag, camag dhualach, camag dhualach fosglaidh, eadar-aisneis, eadar-ràdh
+🏻 seòrsa 1–2, tòna a’ chraicinn, tòna soilleir a’ chraicinn
+🏼 seòrsa 3, tòna a’ chraicinn, tòna meadhanach soilleir a’ chraicinn
+🏽 seòrsa 4, tòna a’ chraicinn, tòna meadhanach a’ chraicinn
+🏾 seòrsa 5, tòna a’ chraicinn, tòna meadhanach doilleir a’ chraicinn
+🏿 seòrsa 6, tòna a’ chraicinn, tòna doilleir a’ chraicinn
+‾ nasg-loidhne os a chionn, os-loidhne, vinculum
+_ dais, fo-loidhne, loidhne foidhe, loidhne ìosal
+- dais, minus, tàthan, tàthan-minus
+‐ dais, tàthan
+– dais, en
+— dais, em
+― bàr, bàr còmhnard, dais, loidhne
+・ dotag, dotag mheadhanach Katakana, dotagan, eadar-phuing, Katakana, meadhanach, puing
+, cromag
+، Arabais, cromag, cromag na h-Arabaise
+、 cromag, ideo-ghrafach
+; leth-chòilean, leth-phunc, leth-sgoiltean, leth-stad
+؛ Arabais, leth-chòilean, leth-chòilean na h-Arabaise, leth-phunc, leth-sgoiltean, leth-stad
+: còilean, dà-phuing, sgoiltean
+! clisg-phuing, comharra-clisge
+¡ clisg-phuing, clisg-phuing thurrach, comharra-clisge, turrach
+? ceist, comharra-ceiste
+¿ ceist, comharra-ceiste, turrach
+؟ Arabais, ceist, comharra-ceiste, comharra-ceiste na h-Arabaise
+‽ interabang, interrobang
+. làn-phuing, puing, puing-stad, stad
+… dotagan, ellipsis, fàgail às, trì-phuing
+。 ideo-ghrafach, làn-phuing, puing, puing-stad, stad
+· dot sa mheadhan, dotag, dotag meadhanach, eadar-phuing, meadhan
+' apostrophe, às-aithris, às-earrann, asgair, asgair clò-sgrìobhadair, asgair tapaidh, comharra-labhairt, eadar-ràdh, iomradh, luaidh
+‘ apostrophe, às-aithris, às-earrann, asgair, asgair clì, asgair tapaidh, comharra-labhairt, eadar-ràdh, iomradh, luaidh
+’ apostrophe, às-aithris, às-earrann, asgair, asgair deas, asgair tapaidh, comharra-labhairt, eadar-ràdh, iomradh, luaidh
+‚ apostrophe, às-aithris, às-earrann, asgair, asgair deas ìosal, asgair tapaidh, comharra-labhairt, eadar-ràdh, iomradh, ìosal, ìseal, luaidh
+“ às-aithris, às-earrann, comharra-labhairt, comharra-labhairt clì, comharra-labhairt dùbailte, comharra-labhairt fosglaidh, eadar-ràdh, iomradh, luaidh
+” às-aithris, às-earrann, comharra-labhairt, comharra-labhairt deas, comharra-labhairt dùbailte, comharra-labhairt dùnaidh, eadar-ràdh, iomradh, luaidh
+„ às-aithris, às-earrann, comharra-labhairt, comharra-labhairt deas ìosal, comharra-labhairt dùbailte, comharra-labhairt dùnaidh, eadar-ràdh, iomradh, ìosal, ìseal, luaidh
+« camag, carait, ceàrn, chevron, clì, eadar-ràdhan Frangach dhan taobh chlì, guillemet, iomradh, luaidh, saidh
+» camag, carait, ceàrn, chevron, deas, eadar-ràdhan Frangach dhan taobh deas, guillemet, iomradh, luaidh, saidh
+) camag, camag chruinn dùnaidh, eadar-aisneis, eadar-ràdh
+[ camag, camag cheàrnach, camag cheàrnach fosglaidh, eadar-aisneis, eadar-ràdh
+] camag, camag cheàrnach, camag cheàrnach dùnaidh, eadar-aisneis, eadar-ràdh
+} camag, camag dhualach, camag dhualach dùnaidh, eadar-aisneis, eadar-ràdh
+〈 camag, camag bhiorach, camag bhiorach fosglaidh, tupail
+〉 camag, camag bhiorach, camag bhiorach dùnaidh, tupail
+《 camag, camag bhiorach dhùbailte, camag bhiorach dhùbailte fosglaidh
+》 camag, camag bhiorach dhùbailte, camag bhiorach dhùbailte dùnaidh
+「 camag, camag oisein, camag oisein fosglaidh
+」 camag, camag oisein, camag oisein dùnaidh
+『 camag, camag oisein fhalamh, camag oisein fhalamh fosglaidh
+』 camag, camag oisein fhalamh, camag oisein fhalamh dùnaidh
+【 camag, camag lionsa dhubh, camag lionsa dhubh fosglaidh
+】 camag, camag lionsa dhubh, camag lionsa dhubh dùnaidh
+〔 camag, camag shligeanaich, camag shligeanaich fosglaidh
+〕 camag, camag shligeanaich, camag shligeanaich dùnaidh
+〖 camag, camag lionsa fhalamh, camag lionsa fhalamh fosglaidh
+〗 camag, camag lionsa fhalamh, camag lionsa fhalamh dùnaidh
+§ earrann, pàirt, paragraf, silcrow
+¶ comharra paragraf, earrann, paragraf
+@ aig, arroba, at, samhla aig
+* reul, reultag, saorag
+/ fiar-sgoradh, sgoradh, slais
+\ cùl-sgoradh, sgoradh, slais, slais air ais
+& agus, agusan, agusan na Laidinne, et, is
+# àireamh, hais, punnd, samhla hais, taga hais
+% ceudad, sa cheud, sa cheudad
+‰ mìleamhail, sa mhìle
+† biodag, obelisk, obelus, samhla biodaig, tursa
+‡ biodag, dùbailte, obelisk, obelus, samhla biodaig dùbailte, tursa
+• dotag, peilear
+‧ dais, puing, puing tàthanachaidh, tàthan
+′ prìme
+″ prìme, prìme dhùbailte
+‴ prìme, prìme thrìoblaichte
+‸ carait
+※ aire, comharra iomraidh, iomradh, nòta
+⁂ dinkus, rionnagan, trì-rionnag
+` stràc, stràc throm, tòna, trom
+´ geur, stràc, stràc gheur, tòna
+^ ad, carait, comharra-easbhaidh, control, cuairt-lùb, mullach beag, stràc, tomhadair, xor
+¨ diaeresis, tréma, umlaut
+° ceum, dearbhadh, uair
+℗ ceòl, clàr, còir-lethbhreac, còir-lethbhreac air clàradh fuaime
+← clì, saighead, saighead a’ tomhadh dhan taobh chlì
+↚ saighead chlì le stràc troimhe
+→ deas, saighead, saighead a’ tomhadh dhan taobh deas
+↛ saighead dheas le stràc troimhe
+↑ saighead, saighead a’ tomhadh suas, suas
+↓ saighead, saighead a’ tomhadh sìos, sìos
+↜ saighead lùbte chlì
+↝ saighead lùbte dheas
+↞ saighead dhà-cheannach chlì
+↟ saighead dhà-cheannach suas
+↠ saighead dhà-cheannach dheas
+↡ saighead dhà-cheannach sìos
+↢ saighead chlì le ite
+↣ saighead dheas le earball ite
+↤ saighead chlì à bàr
+↥ saighead suas à bàr
+↦ saighead dheas à bàr
+↧ saighead sìos à bàr
+↨ saighead suas is sìos le bunait
+↫ saighead chlì le earball lùbte
+↬ saighead dheas le earball lùbte
+↭ saighead lùbte dheas is chlì
+↯ a’ fiaradh, saighead a’ fiaradh sìos
+↰ saighead suas leis a’ cheann a’ tionndadh clì
+↱ saighead suas leis a’ cheann a’ tionndadh deas
+↲ saighead sìos leis a’ cheann a’ tionndadh clì
+↳ saighead sìos leis a’ cheann a’ tionndadh deas
+↴ saighead dheas a’ dol sìos aig an oisean
+↵ saighead sìos a’ dol clì aig an oisean
+↶ saighead barra leth-chearcallach a’ dol tuathal
+↷ saighead barra leth-chearcallach a’ dol deiseil
+↸ saighead gun iar-dheas le bàr fada
+↹ saighead chlì ’s a ceann ri bàr os cionn saighead dheas is a ceann ri bàr
+↺ saighead thuathal an cruth cearcaill fhosgailte
+↻ saighead dheiseil an cruth cearcaill fhosgailte
+↼ frioghan, harpùn clì le frioghan suas
+↽ harpùn clì le frioghan sìos
+↾ frioghan, harpùn suas le frioghan deas
+↿ frioghan, harpùn suas le frioghan clì
+⇀ frioghan, harpùn deas le frioghan suas
+⇁ frioghan, harpùn deas le frioghan sìos
+⇂ frioghan, harpùn sìos le frioghan deas
+⇃ frioghan, harpùn sìos le frioghan clì
+⇄ saighead dheas os cionn saighde chlì
+⇅ dà shaighead a’ tomhadh suas is sìos, saighdean a’ tomhadh suas is sìos, saighead, sìos, suas
+⇆ clì, dà shaighead dhan taobh chlì is deas, deas, saighdean a’ tomhadh dhan taobh chlì is deas, saighead
+⇇ càraid de shaighdean clì
+⇈ càraid de shaighdean suas
+⇉ càraid de shaighdean deasa
+⇊ càraid de shaighdean sìos
+⇋ harpùn clì os cionn harpùin dheis
+⇌ harpùn deas os cionn harpùin chlì
+⇐ saighead dhùbailte chlì
+⇍ saighead dhùbailte chlì le stràc troimhe
+⇑ saighead dhùbailte suas
+⇒ saighead dhùbailte dheas
+⇏ saighead dhùbailte dheas le stràc troimhpe
+⇓ saighead dhùbailte sìos
+⇔ saighead dhùbailte dheas is chlì
+⇎ saighead dhùbailte dheas is chlì le stràc troimhpe
+⇖ saighead dhùbailte gun iar-thuath
+⇗ saighead dhùbailte gun ear-thuath
+⇘ saighead dhùbailte gun ear-dheas
+⇙ saighead dhùbailte gun iar-dheas
+⇚ saighead thrìoblaichte chlì
+⇛ saighead thrìoblaichte dheas
+⇜ saighead chritheach chlì
+⇝ saighead chritheach dheas
+⇞ saighead suas le stràc dhùbailte troimhpe
+⇟ saighead sìos le stràc dhùbailte troimhpe
+⇠ saighead strìochagach chlì
+⇡ saighead strìochagach suas
+⇢ saighead strìochagach dheas
+⇣ saighead strìochagach sìos
+⇤ saighead chlì ’s a ceann ri bàr
+⇥ saighead dheas ’s a ceann ri bàr
+⇦ saighead fhalamh chlì
+⇧ saighead fhalamh suas
+⇨ saighead fhalamh dheas
+⇩ saighead fhalamh sìos
+⇪ saighead fhalamh suas a’ tighinn à bàr
+⇵ saighead sìos air an taobh chlì agus saighead suas air an taobh deas
+∅ gnìomharaiche seata, matamataig, seata falamh
+∆ ioncramaid, meudachadh, meudaich, triantan
+∇ dìochramaid, lughdachadh, lughdaich, nabla, triantan
+∈ am broinn, ballrachd, eileamaid, eileamaid de, eileamaid dhe, na eileamaid de, seata
+∉ eileamaid, nach eil na eileamaid de
+∋ eileamaid, is na leanas na bhroinn mar bhall
+∎ deireadh an deirbh, halmos, leac-lighe, q.e.d., qed
+∏ bathar, bathar n-araidh, loidsig
+∑ matamataig, suimeachadh, suimeachadh n-araidh
++ cuir ris, cur ris, plus, samhla plus
+± cuir ris, cur ris, plus-minus, thoir air falbh, toirt air falbh
+÷ obelus, roinn, roinneadh, samhla roinnidh
+× iomadachadh, iomadaich, samhla iomadachaidh
+< nas lugha, nas lugha na, taga, taga fosglaidh
+≮ matamataig, nach eil nas lugha na, neo-ionnannachd
+= co-ionnan, co-ionnann, co-ionnannachd
+≠ neo-ionnan, neo-ionnann, neo-ionnannachd
+> nas motha, nas motha na, taga, taga dùinidh
+≯ matamataig, nach eil nas motha na, neo-ionnannachd
+¬ àicheadh, àicheil, cha, chan
+| bàr, bàr inghearach, bata, loidhne, loidhne inghearach, pìob, pipe, stràc, stràc sheffer
+~ tonn
+− minus, samhla minus, thoir air falbh, toirt air falbh
+⁻ minus, mìonas, os-sgrìobhte
+∓ minus no plus, plus minus
+∕ slais, slais roinneachaidh, stràc, virgule
+⁄ slais bloighe, stràc, virgule
+∗ gnìomharaiche reultaige, rionnag
+∘ co-chur, gnìomharaiche, gnìomharaiche cearcaill
+∙ gnìomharaiche, gnìomharaiche peileir
+√ ceàrnagach, freumh, radaigeach, radix, surd
+∝ co-rèireach, co-rèireachd
+∞ neo-chrìochnachd, samhla neo-chrìochnachd
+∟ ceàrn ceart, matamataig
+∠ caol, ceàrn
+∣ a tha a’ roinneadh, roinneadair
+∥ co-shìnte
+∩ eadar-ghearradh, seata, trasnadh
+∪ aonadh, cruinneachadh, seata
+∫ calcalas, innteagrail
+∬ calcalas, innteagrail dhùbailte
+∮ innteagrail contuir
+∴ loidsig, ri linn sin
+∵ loidsig, oir
+∶ co-mheas
+∷ co-rèir, co-rèireachd
+∼ gnìomharaiche, gnìomharaiche tuinn
+∽ tonn, tonn contrarra
+∾ s leisg chontrarra
+≈ an ìre mhath co-ionnann, cha mhòr co-ionnann, faigseach, tuairmseach
+≡ co-ionnann, ionnannach ri, pongail, trìoblaichte
+≤ co-ionnan, co-ionnann, co-ionnannachd, nas lugha, nas lugha na, nas lugha no co-ionnann, neo-ionnan, neo-ionnann, neo-ionnannachd
+≥ co-ionnan, co-ionnann, co-ionnannachd, nas motha, nas motha na, nas motha no co-ionnann, neo-ionnan, neo-ionnann, neo-ionnannachd
+≬ eadar
+⊂ fo-sheata, fo-sheata de, fo-sheata dhe, seata
+⊕ plus, plus ann an cearcall
+⊖ bleith, diofar co-chothromach, minus ann an cearcall
+⊶ tùsail
+⊿ matamataig, triantan ceart-cheàrnach, triantan deas
+⋂ eadar-ghearradh, eadar-ghearradh n-araidh, gnìomharaiche seata, matamataig
+⋃ aonadh, aonadh n-araidh, gnìomharaiche seata, matamataig
+⋅ gnìomharaiche, gnìomharaiche dotaige
+⋆ gnìomharaiche, gnìomharaiche rionnaige
+⋈ gnìomharaiche bìnearaidh, nasg nàdarra, tàidh-bogha
+⋒ eadar-ghearradh, eadar-ghearradh dùbailte, gnìomharaiche seata, matamataig
+⋘ fada nas lugha na, matamataig, neo-ionnannachd
+⋙ fada nas motha na, matamataig, neo-ionnannachd
+⋮ eileaps, eileaps inghearach, matamataig
+⋯ eileaps, eileaps còmhnard sa mheadhan
+⋰ eileaps, eileaps trastanach deas is suas, matamataig
+⋱ eileaps, eileaps trastanach deas is sìos, matamataig
+■ ceàrnag lìonta
+□ ceàrnag fhalamh
+▢ ceàrnag fhalamh le oiseanan cruinnte
+▣ ceàrnag fhalamh le ceàrnag lìonta na broinn
+▤ ceàrnag le lìonadh còmhnard
+▥ ceàrnag le lìonadh inghearach
+▦ ceàrnag le tar-ghreannachadh ortogonach
+▧ ceàrnag le lìonadh sìos clì gu deas
+▨ ceàrnag le lìonadh suas clì gu deas
+▩ ceàrnag le tar-ghreannachadh trastanach
+▬ ceart-cheàrnachan lìonta
+▭ ceart-cheàrnachan falamh
+▮ ceart-cheàrnachan lìonta inghearach
+▰ co-shìnteachan lìonta
+▲ lìonta, saighead, suas, triantan, triantan lìonta a’ tomhadh sìos, triantan lìonta a’ tomhadh suas
+△ triantan falamh le gob suas
+▴ triantan beag lìonta le gob suas
+▵ triantan beag falamh le gob suas
+▷ triantan falamh le gob deas
+▸ triantan beag lìonta le gob deas
+▹ triantan beag falamh le gob deas
+► tomhaire lìonta le gob deas
+▻ tomhaire falamh le gob deas
+▼ lìonta, saighead, sìos, triantan, triantan lìonta a’ tomhadh sìos
+▽ triantan falamh le gob sìos
+▾ triantan beag lìonta le gob sìos
+▿ triantan beag falamh le gob sìos
+◁ triantan falamh le gob clì
+◂ triantan beag lìonta le gob clì
+◃ triantan beag falamh le gob clì
+◄ tomhaire lìonta le gob clì
+◅ tomhaire falamh le gob clì
+◆ daoimean lìonta
+◇ daoimean falamh
+◈ daoimean falamh le daoimean lìonta na bhroinn
+◉ cearcall falamh le cearcall lìonta na bhroinn
+◊ daoimean, lasaingear, loisin, losaindear, rombas
+○ cearcall, cearcall falamh, fàinne
+◌ cearcall dotagach
+◍ cearcall le lìonadh inghearach
+◎ cearcall dùbailte, cearcallan co-chearclach, sùil-thargaide, targaid
+● cearcall, lìonta
+◐ cearcall le lìonadh san leth-taobh chlì
+◑ cearcall le lìonadh san leth-taobh deas
+◒ cearcall le lìonadh san leth-taobh ìseal
+◓ cearcall le lìonadh san leth-taobh àrd, cearcall leth-lìonta sa bhàrrcearcall le lìonadh san leth-taobh àrd
+◔ cearcall le ceathramh lìonta gu h-àrd air an taobh deas
+◕ cearcall lìonta ach an ceathramh gu h-àrd air an taobh chlì
+◖ an leth-taobh clì de chearcall lìonta
+◗ an leth-taobh deas de chearcall lìonta
+◘ peilear geal san dubh
+◙ ceàrnag lìonta sa bheil cearcall falamh
+◜ àrc a’ cheathraimh chlì gu h-àrd
+◝ àrc a’ cheathraimh dheis gu h-àrd
+◞ àrc a’ cheathraimh dheis gu h-ìosal
+◟ àrc a’ cheathraimh chlì gu h-ìosal
+◠ leth-chearcall gu h-àrd
+◡ leth-chearcall gu h-ìosal
+◢ triantan lìonta san oisean deas gu h-ìosal
+◣ triantan lìonta san oisean chlì gu h-ìosal
+◤ triantan lìonta san oisean chlì gu h-àrd
+◥ triantan lìonta san oisean deas gu h-àrd
+◦ peilear falamh
+◯ cearcall, cearcall mòr falamh, fàinne
+◳ ceàrnag fhalamh sa cheathramh deas gu h-àrd
+◷ cearcall falamh le ceathramh gu h-àrd air an taobh deas
+◿ triantan gu h-ìosal air an taobh deas
+♪ caman, ceòl, nòta, ochdamh, pong, puing
+⨧ plus le dà fo-sgrìobhte
+♭ bemolle, ceòl, maol, nòta, pong, puing
+♯ ceòl, dièse, geur, nòta, pong, puing
+😀 aodann, aodann le gàire, fiamh-ghàire, gàire
+😃 aodann, aodann le gàire is sùilean fosgailte, beul, fiamh-ghàire, fosgailte
+😄 aodann, aodann le gàire na shùilean, beul, fiamh-ghàire, fosgailte, sùil
+😁 aodann, aodann le gàire mhòr, fiamh-ghàire, sùil
+😆 aodann, aodann caog-shùileach le gàire, aodann le gàire, beul fosgailte ⁊ sùilean dùinte, beul, fiamh-ghàire, fosgailte, gàire, sàsaichte
+😅 aodann, aodann le gàire a’ cur fallas, fallas, fiamh-ghàire, fosgailte, fuar
+🤣 a’ ruidhleadh air an làr a’ gàireachdainn, aodann, gàire, gàireachdainn, làr, roladh, ruidhleadh
+😂 aodann, aodann le deòir shona, deur, gàire, sona
+🙂 aodann, aodann le fiamh gàire beag, fiamh-ghàire
+🙃 aodann, aodann bun os cionn, bun os cionn
+😉 aodann, aodann le sùil bheag, priobadh, sùil bheag
+😊 aodann, aodann le gàire agus sùilean toilichte, fiamh-ghàire, ruadhadh, sùil
+😇 aingeal, aodann, aodann le gàire agus riomball, fantastach, faoinsgeul, fiamh-ghàire, neoichiontach, riomball
+🥰 ann an gaol, aodann le fiamh-ghàire is cridheachan, gaol, sùil mhòr ort, trom-ghràdh
+😍 aodann, aodann le gàire ⁊ sùilean an cumadh cridhe, aodann le gàire ⁊ sùilean nan cridheachan, aodann le gàire agus sùilean an cumadh cridhe, fiamh-ghàire, gaol, sùil
+🤩 aodann, aodann toilichte le rionnagan na shùilean, fiamh-ghàire, rionnag, sùilean
+😘 aodann, aodann a’ caitheamh pòg, pòg
+😗 aodann, aodann pòige, pòg
+☺ aodann, aodann le fiamh-ghàire, fiamh-ghàire, oir-loidhne, socair
+😚 aodann, aodann a’ pògadh le sùilean dùinte, dùinte, pòg, sùil
+😙 aodann, aodann a’ pògadh le sùilean toilichte, fiamh-ghàire, pòg, sùil
+🥲 aodann le fiamh-ghàire is deur, deòir, deur, faochadh, fiamh-ghàire beag, moiteil, pròiseil, taingeil
+😋 aodann, aodann ag ithe biadh blasta, biadh, blasta, fiamh-ghàire, math
+😛 aodann, aodann a’ cur a-mach na teanga, teanga
+😜 aodann, aodann le theanga a-mach ⁊ sùil bheag, aodann le theanga ga cur a-mach ⁊ sùil bheag, fealla-dhà, priobadh, sùil, sùil bheag, teanga
+🤪 aodann às a rian, beag, mòr, sùil
+😝 aodann, aodann caog-shùileach le theanga a-mach, aodann le theanga a-mach ⁊ sùilean dùinte, aodann le theanga ga cur a-mach ⁊ sùilean dùinte, blas, sùil, teanga, uabhasach
+🤑 airgead, aodann, aodann le sùilean is teanga airgid, beul
+🤗 aodann, aodann a’ pasgadh gàirdeanan timcheall, gàirdeanan, pasgadh, timcheall
+🤭 aodann le làmh air a beul, oich
+🤫 aodann “Ist!”, ist, sàmhach, tost
+🤔 aodann, aodann ri smaoineachadh, smaoineachadh
+🤐 aodann, aodann le bilean seulaichte, beul, bilean, seulaichte
+🤨 aodann le mala togta, dì-earbsa, teagamh, teagamhaiche
+😐 aodann, aodann gun fhiamh, bàn, gun fhaireachdainn, gun fhiamh
+😑 aodann, aodann gun fhaireachdainn, bàn, gun fhaireachdainn, gun fhiamh
+😶 aodann, aodann gun bheul, beul, sàmhach, tost
+😶‍🌫 air seachran, ann an ceò, aodan sna neòil
+😏 aodann, aodann le plìonas, plìonas
+😒 aodann, aodann nuair nach eil e èibhinn, mì-thoilichte
+🙄 aodann, aodann a’ casadh nan sùilean, casadh, sùilean
+😬 aodann, aodann le drèin air, drèin
+😮‍💨 anail, aodan a’ leigeil anail, cagar, cnead, cogar, faochadh, fead, leig anail, leig d’ anail, leigeil anail, plosg
+🤥 aodann, aodann nam breug, breug, pinocchio
+😌 aodann, aodann a fhuair faochadh, faochadh
+😔 aodann, aodann fo throm-smuain, sprochd, throm-smuain, trom-inntinneach
+😪 aodann, aodann cadalach, cadal
+🤤 aodann, aodann a’ sileadh sglongaid, sglongaid, sileadh
+😴 aodann, aodann na chadal, cadal, zzz
+😷 aodann, aodann le masg dotair air, bochd, dotair, fuar, leigheas, lighiche, masg, tinn
+🤒 aodann, aodann le teas-mheidh, bochd, teas-mheidh, tinn
+🤕 aodann, aodann le clobhd air a’ cheann, clobhd, leòinte, leònta
+🤢 aodann, aodann sgreamha, cur a-mach, sgreamh
+🤮 aodann a’ cur a-mach, bochd, cuir a-mach, cur a-mach, tinn
+🤧 aodann, aodann ri sreothairt, dia leat, sreothairt
+🥵 a’ cur fallas, aodann dearg, aodann teth, fallas, fiabhras, teas, teth
+🥶 aodann fuar, aodann ghorm, deigh, eigheanach, eighreachadh, eighrich, fuar, reòite
+🥴 aodann misgeach, daorach, froighleach, misg, smoid, smoideag, smùid, smùideag, stealladh, tuaineal
+😵 aodann, aodann na thuaineal, tuaineal
+😵‍💫 aodann le sùilean snìomhanach, ceann na cheò, luairean, snìomh, suainealachadh, suainealaich, trioblaid, tuainealach
+🤯 annas, ceann a’ spreadhadh
+🤠 ad, aodann, aodann le ad cowboy, cowboy, cowgirl
+🥳 ad, aodann aig pàrtaidh, cèilidh, comharrachadh, dùdag, pàrtaidh
+🥸 aodann, aodann le riochd air, incognito, riochd, speuclairean, sròn
+😎 aodann, aodann toilichte le speuclairean-grèine, fiamh-ghàire, gasta, grian, smodaig, soilleir, speuclairean, speuclairean-grèine, sùil
+🤓 aodann, gìog
+🧐 aodann le leth-speuclair, seann-fhasanta
+😕 aodann, aodann tro chèile, tro chèile
+😟 aodann, aodann fo dhragh, dragh
+🙁 aodann, aodann le fiamh drèin beag, drèin
+☹ aodann, aodann le fiamh drèin, drèin
+😮 aodann, aodann le beul fosgailte, beul, co-fhulangas, fosgailte, truaghas, truas
+😯 aodann, aodann iongnaidh le sùilean fosgailte, iongnadh, tost
+😲 annas, aodann, aodann a ghabh mòr-iongnadh, gu tur, iongnadh
+😳 aodann, aodann air ruadhadh, ruadhadh
+🥺 aodann tagrach, faoighe, grìos, grìosadh, gur, guradh
+😦 aodann, aodann le drèin is beul fosgailte, beul, drèin, fosgailte
+😧 àmhghar, aodann, aodann àmhghair
+😨 an t-eagal air, aodann, aodann fo eagal, eagal, eagalach
+😰 aodann, aodann le beul fosgailte a’ cur fallas, beul, cabhag, fallas, fosgailte, fuar, gorm
+😥 aodann, aodann a fhuair briseadh-dùil ⁊ faochadh, aodann a fhuair briseadh-dùil ach a fhuair faochadh, briseadh-dùil, faochadh
+😢 aodann a’ caoineadh, brònach, caoineadh, deur
+😭 aodann a’ rànaich, brònach, caoineadh, deur, gal, rànaich
+😱 an t-eagal air, aodann, aodann a’ leigeil sgreuch eagail, eagal, eagalach, munch, sgread, sgreuch
+😖 aodann, aodann am breislich, breisleach
+😣 aodann, rag
+😞 aodann, aodann a fhuair briseadh-dùil, briseadh-dùil
+😓 aodann, aodann a’ cur fallas fuar, fallas, fuar
+😩 aodann, aodann air chlaoidh, claoidh, sgìth
+😫 aodann, sgìth
+🥱 aodann a’ mèananaich, dòrainneach, fadal, mèalanaich, mèanan, mèananaich, mèaran, mèaranaich, ràsanach, sàraichte, sgìth
+😤 aodann, aodann le toit às a chuinneanan, bhuannaich, buaidh
+😡 aodann, busach, dearg, fearg, feargach
+😠 aodann, feargach
+🤬 aodann le samhlaidhean air a beul, mionnachadh
+😈 adharcan, aodann, aodann le gàire agus adharcan, fantastach, faoinsgeul, fiamh-ghàire
+👿 aodann, aodann feargach le adharcan, deamhan, diabhal, fantastach, faoinsgeul
+💀 aodann, bàs, claigeann, faoinsgeul, uilebheist
+☠ aodann, bàs, claigeann, claigeann le cnàmhan, cnàmhan, uilebheist
+💩 aodann, bab, cac, càrn cac, dealbh-èibhinn, sgigean, uilebheist
+🤡 aodann, aodann tuaisteir, tuaistear
+👹 aodann, creutair, diabhal Seapanach, fantastach, faoinsgeul, uilebheist
+👺 aodann, bòcan Seapanach, creutair, fantastach, faoinsgeul, uilebheist
+👻 aodann, creutair, fantastach, faoinsgeul, taibhse, uilebheist
+👽 aodann, creutair, creutair-fànais, fantastach, faoinsgeul, neo-thalmhaidh, ufo, uilebheist
+👾 aodann, creutair, creutair-fànais, fantastach, faoinsgeul, neo-thalmhaidh, ufo, uilebheist
+🤖 aodann, robotair, uilebheist
+😺 aodann, beul, cat, cat le gàire, fiamh-ghàire, fosgailte, gàire
+😸 aodann, cat, cat le gàire agus sùilean toilichte, fiamh-ghàire, gàire, sùil, toilichte
+😹 aodann, cat, cat le deòir shona, deòir, deur, sona
+😻 aodann, cat, cat le gàire agus sùilean an cumadh cridhe, cridhe, fiamh-ghàire, gàire, gaol, sùil, sùilean
+😼 aodann, cam, cat, cat le gàire cham, fiamh-ghàire, ìoranta
+😽 aodann, cat, cat a’ pògadh, pòg, pògadh, sùil
+🙀 aodann, cat, cat air chlaoidh, claoidh, iongnadh, ò, sgìth
+😿 brònach, caoineadh, cat, cat a’ caoineadh, deòir, deur
+😾 aodann, busach, cat
+🙈 àicheadh, aodann, diùltadh, faic, faicinn, gluasad, muncaidh, muncaidh nach fhaic olc, olc, toirmisgte
+🙉 àicheadh, aodann, cluinn, cluinntinn, diùltadh, gluasad, muncaidh, muncaidh nach cluinn olc, olc, toirmisgte
+🙊 àicheadh, aodann, bruidhinn, can, diùltadh, gluasad, muncaidh, muncaidh nach can olc, olc, toirmisgte
+💋 bilean, làrach pòige, pòg
+💌 cridhe, gaol, litir, litir gaoil, post
+💘 cridhe le saighead, cupaid, saighead
+💝 bhaileintin, cridhe le ribean, là nam pòg, ribean
+💖 air bhioran, cridhe lainnireach, lainnir
+💗 air bhioran, cridhe a’ fàs, cuisle, cuisleachadh, cuislich, fàs, iomagaineach, nearbhasach
+💓 bualadh, cridhe, cridhe a’ bualadh
+💞 cridheachan a’ dol mun cuairt, cuairt, dol mun cuairt
+💕 dà chridhe, gaol
+💟 cridhe, sgeadas cridhe
+❣ !, clisg-phuing, comharra, cridhe, puingeachadh
+💔 briseadh, briste, cridhe briste
+❤‍🔥 connan, cridhe, cridhe air theine, cridhe naoimh, deòthas, drùis, gaol, gràdh, lasair, loisg, losgadh
+❤‍🩹 fallainn, feabhas, gu math, nas fhallainne, nas fheàrr, slàn, slànachadh cridhe
+❤ cridhe, cridhe dearg
+🧡 cridhe orains, orains
+💛 buidhe, cridhe buidhe
+💚 cridhe uaine, uaine
+💙 cridhe gorm, gorm
+💜 cridhe purpaidh, purpaidh
+🤎 cridhe, donn
+🖤 cridhe dubh, dubh, olc
+🤍 cridhe, geal
+💯 100, ceud, puing, sgòr, slàn
+💢 aodann, dealbh-èibhinn, feargach, samhla feirge
+💥 bualadh ri chèile, dealbh-èibhinn, spreadhadh
+💫 dealbh-èibhinn, rionnag, tuaineal
+💦 boinneag, boinneagan fallais, dealbh-èibhinn, fallas, splaiseadh
+💨 a’ falbh nad dheann, dealbh-èibhinn, deann, luath, ruith
+🕳 toll
+💣 boma, dealbh-èibhinn
+💬 bailiùn, bruidhinn, builgean, builgean còmhraidh, cainnt, còmhradh, dealbh-èibhinn
+👁‍🗨 builgean còmhraidh, fianais, sùil, sùil ann am builgean còmhraidh
+🗨 bruidhinn, builgean còmhraidh dhan taobh chlì, cainnt, còmhradh
+🗯 bailiùn, builgean, builgean feirg dhan taobh deas, feargach
+💭 bailiùn, builgean, builgean smaoineachaidh, dealbh-èibhinn, smaoineachadh, smaointinn
+💤 cadal, dealbh-èibhinn, suain, zzz
+👋 làmh, làmh a’ smèideadh, smèid, smèideadh
+🤚 cùl, cùl làimhe air a thogail, làmh, togail
+🖐 corrag, làmh, làmh air a togail le corragan sìnte, meur, sìnte
+✋ làmh, làmh air a togail
+🖖 beannachd muinntir Vulcan, corrag, làmh, meur, spock, vulcan
+👌 aontachadh, làmh, samhla làimhe OK
+🤌 beumach, beur, ceist, corrag, cruadhagan, crudhagan, gluasad làimhe, meòir, meur, tearrachdail
+🤏 beagan, làmh le sradag, sradag
+✌ buaidh, làmh, làmh a thug buaidh, v
+🤞 beò an dòchas, corrag, dòchas, fortan, làmh, meur
+🤟 agam, gaol, gluasad “Tha gaol agam ort”, làmh, ort
+🤘 adharc, corrag, làmh, meur, rocamaid, samhla nan adharc
+🤙 fòn, làmh, làmh a’ comharradh “Cuir fòn thugam”
+👈 colgag, corrag, druim na làimhe, druim na làimhe, colgag a’ tomhadh clì, làmh, meur, tomhadh
+👉 colgag, corrag, druim na làimhe, druim na làimhe, colgag a’ tomhadh deas, làmh, meur, tomhadh
+👆 colgag, corrag, druim na làimhe, druim na làimhe, colgag a’ tomhadh suas, làmh, meur, suas, tomhadh
+🖕 corrag, Fionnlagh Fada / Màiri Fhada, làmh, meur
+👇 colgag, corrag, druim na làimhe, druim na làimhe, colgag a’ tomhadh sìos, làmh, meur, sìos, tomhadh
+☝ colgag, colgag a’ tomhadh suas, corrag, làmh, meur, suas, tomhadh
+👍 +1, làmh, math, math fhèin, òrdag, suas
+👎 -1, dona, làmh, mo chreach, òrdag, sìos
+✊ buille, dòrn, dòrn air a thogail, dùinte, làmh
+👊 buille, dòrn, dòrn a’ tighinn thugad, dùinte, làmh
+🤛 clì, dòrn, dòrn ris an taobh chlì
+🤜 deas, dòrn, dòrn ris an taobh deas
+👏 bas, bois, bualadh, bualadh bhasan, làmh
+🙌 a’ togail làmhan, gluasad, hò-rò, làmh, subhachas, tog, togail
+👐 fosgailte, làmh, làmhan fosgailte
+🤲 an dà bhois suas còmhla, ùrnaigh
+🤝 aontachadh, coinneamh, crath, crathadh, crathadh-làimhe, làmh
+🙏 cromadh, faighneachd, gluasad, iarraidh, làmh, làmhan paisgte, paisgte, taing, ùrnaigh
+✍ làmh, làmh a’ sgrìobhadh, sgrìobh, sgrìobhadh
+💅 cùram, ìnean, làmh-mhaiseachadh, lìomh, maise
+🤳 camara, fèineag, fòn
+💪 dealbh-èibhinn, fèithean, fèithean dà-cheannach, giorrachadh fèithean dà-cheannach, lùth
+🦾 ath-bhall-bodhaig, gàirdean meacanaigeach, so-ruigsinneachd
+🦿 ath-bhall-bodhaig, cas mheacanaigeach, so-ruigsinneachd
+🦵 breab, breabadh, cas, sliasaid
+🦶 breab, breabadh, cas
+👂 bodhaig, cluas
+🦻 bodhar, claisneachd, claisteachan, cluas le claisteachan, èisteachd bheag, inneal-claisneachd, inneal-cluinntinn, so-ruigsinneachd
+👃 bodhaig, sròn
+🧠 eanchainn, glic, tapaidh
+🫀 buille cridhe, buille-chuisle, cridhe, cuisle, meadhan, organ, plosgadh cridhe
+🫁 anail, analachadh, analachd, organ, sgaman, sgamhan
+🦷 fiacaill, fiaclair
+🦴 cnàimh, cnàimhneach
+👀 aodann, sùil, sùilean
+👁 bodhaig, sùil
+👅 bodhaig, teanga
+👄 beul, bilean
+👶 leanabh, naoidhean, òg
+🧒 duine-cloinne, gun ghnè, òg
+👦 balach, gille, òg
+👧 caileag, grian-chriosach, maighdeann, òg
+🧑 gun ghnè, inbheach
+👱 bàn, falt, neach le falt bàn
+👨 duine, fear, fireannach
+🧔 duine le feusag, feusag
+🧔‍♂ duine, fear, feusag, fireannach, fireannach: feusag
+👱‍♂ bàn, duine, duine le falt bàn, falt, fear, fireannach
+👩 boireannach, tè
+🧔‍♀ boireannach, boireannach: feusag, feusag, tè
+👱‍♀ bàn, boireannach, boireannach le falt bàn, falt, tè
+🧓 gun ghnè, sean, seann, seann-inbheach
+👴 bodach, duine, fear, fireannach, sean
+👵 boireannach, cailleach, sean, tè
+🙍 drèin, gluasad, neach le drèin
+🙍‍♂ drèin, duine, duine le drèin, fear, fireannach, gluasad
+🙍‍♀ boireannach, boireannach le drèin, drèin, gluasad, tè
+🙎 bus, busach, gluasad, neach le bus air
+🙎‍♂ bus, busach, duine, duine le bus air, fear, fireannach, gluasad
+🙎‍♀ boireannach, boireannach le bus oirre, bus, busach, gluasad, tè
+🙅 àicheadh, diùltadh, gluasad, làmh, neach a’ diùltadh rud, toirmisgte
+🙅‍♂ àicheadh, duine, duine a’ diùltadh rud, fear, fireannach, gluasad, làmh, toirmisgte
+🙅‍♀ àicheadh, boireannach, boireannach a’ diùltadh rud, gluasad, làmh, tè, toirmisgte
+🙆 aontachadh, gluasad, làmh, neach ag aontachadh ri rud
+🙆‍♂ aontachadh, duine, duine ag aontachadh ri rud, fear, fireannach, gluasad, làmh
+🙆‍♀ aontachadh, boireannach, boireannach ag aontachadh ri rud, gluasad, làmh, tè
+💁 bas, cobhair, fiosrachadh, làmh, neach le làmh sìnte a-mach, bas air uachdar, sìnte, taic, uachdar
+💁‍♂ bas, cobhair, duine, duine le làmh sìnte a-mach, bas air uachdar, fear, fiosrachadh, fireannach, làmh, sìnte, taic, uachdar
+💁‍♀ bas, boireannach, boireannach le làmh sìnte a-mach, bas air uachdar, cobhair, fiosrachadh, làmh, sìnte, taic, tè, tè le làmh sìnte a-mach, bas air uachdar, uachdar
+🙋 gluasad, làmh, neach a’ togail a làmh, tog, togail, toiliche
+🙋‍♂ duine, duine a’ togail a làmh, fear, fireannach, gluasad, làmh, tog, togail, toiliche
+🙋‍♀ boireannach, boireannach a’ togail a làmh, gluasad, làmh, tè, tog, togail, toiliche
+🧏 bodhar, cluas, cluinntinn, èisteachd, neach bodhar, so-ruigsinneachd
+🧏‍♂ bodhar, duine, fireannach
+🧏‍♀ bodhar, boireannach
+🙇 cromadh, duilich, gluasad, leisgeul, neach a’ cromadh
+🙇‍♂ cromadh, duilich, duine, duine a’ cromadh, fàbhar, fear, fireannach, gluasad, leisgeul
+🙇‍♀ boireannach, boireannach a’ cromadh, cromadh, duilich, fàbhar, gluasad, leisgeul, tè
+🤦 aodann, dì-chreideamh, farranachadh, làmh, neach le aodann na làmhan
+🤦‍♂ aodann, dì-chreideamh, duine, duine le aodann na làmhan, farranachadh, fear, fireannach, làmh
+🤦‍♀ aodann, boireannach, boireannach le aodann na làmhan, dì-chreideamh, farranachadh, làmh, tè
+🤷 aineolas, coma, druiteadh, neach a’ druiteadh, teagamh
+🤷‍♂ aineolas, coma, druiteadh, duine, duine a’ druiteadh, fear, fireannach, teagamh
+🤷‍♀ aineolas, boireannach, boireannach a’ druiteadh, coma, druiteadh, tè, teagamh
+🧑‍⚕ altram, banaltram, cùram-slàinte, dotair, leasaiche, lighiche, nurs, obraiche-slàinte
+👨‍⚕ cùram-slàinte, dotair, duine, fear, fireannach, leasaiche, lighiche, neach-altraim, nurs, obraiche-slàinte fireann
+👩‍⚕ banaltram, boireannach, cùram-slàinte, dotair, leasaiche, lighiche, nurs, obraiche-slàinte boireann, tè
+🧑‍🎓 ceumnachadh, oileanach
+👨‍🎓 ceumnaiche, duine, fear, fireannach, oileanach, oileanach fireann
+👩‍🎓 ban-oileanach, boireannach, ceumnaiche, oileanach, tè
+🧑‍🏫 neach-teagaisg, oide, ollamh, tidsear
+👨‍🏫 àrd-ollamh, duine, fear, fireannach, oide, oide fireann, ollamh, tidsear
+👩‍🏫 àrd-ollamh, ban-oide, boireannach, oide, ollamh, tè, tidsear
+🧑‍⚖ britheamh, meidh
+👨‍⚖ britheamh, britheamh fireann, duine, fear, fireannach, meidh
+👩‍⚖ boireannach, britheamh, britheamh boireann, meidh, tè
+🧑‍🌾 croitear, cruitear, gàirnealair, rainsear, tuathanach
+👨‍🌾 croitear, duine, fear, fireannach, gàirnealair, rainsear, tuathanaiche, tuathanaiche fireann
+👩‍🌾 boireannach, croitear, gàirnealair, rainsear, tè, tuathanaiche, tuathanaiche boireann
+🧑‍🍳 còcaire
+👨‍🍳 còcaire, còcaire fireann, duine, fear, fireannach
+👩‍🍳 ban-chòcaire, boireannach, còcaire, tè
+🧑‍🔧 ceàrd, dealanair, meacanaig, plumair
+👨‍🔧 dealanair, duine, fear, fireannach, meacanaig, meacanaig fireann, neach-ciùird, plumair
+👩‍🔧 boireannach, dealanair, meacanaig, meacanaig boireann, neach-ciùird, plumair, tè
+🧑‍🏭 factaraidh, gnìomhachas, neach-obrach, obraiche, tional
+👨‍🏭 duine, factaraidh, fear, fireannach, gnìomhachas, neach-obrach, obraiche, obraiche-factaraidh fireann, tionaladh
+👩‍🏭 boireannach, factaraidh, gnìomhachas, neach-obrach, obraiche, obraiche-factaraidh boireann, tè, tionaladh
+🧑‍💼 ailtire, gnìomhachas, gnothachas, manaidsear, neach-obrach oifise, oifis, stiùiriche
+👨‍💼 ailtire, duine, fear, fireannach, gnìomhachas manaidsear, gnothachas, obraiche-oifis fireann, oifis
+👩‍💼 ailtire, boireannach, gnìomhachas manaidsear, gnothachas, obraiche-oifis boireann, oifis, tè
+🧑‍🔬 bith-eòlas, ceimigeachd, einnseinear, eòlaiche, eòlas-nàdair, fiosaigs, fiosraigeachd, innleadair, neach, neach-saidheans, saidheans, saidheantair
+👨‍🔬 bith-eòlaiche, ceimigear, duine, einnseanair, fear, fiosaigiche, fireannach, innleadair, matamataigear, neach-saidheans, neach-saidheans fireann
+👩‍🔬 bith-eòlaiche, boireannach, ceimigear, einnseanair, fiosaigiche, innleadair, matamataigear, neach-saidheans, neach-saidheans boireann, tè
+🧑‍💻 bathar-bog, còdachadh, leasachadhtionnsgnadh, prògramachadh, prògramair, teicneolaiche, teicniche
+👨‍💻 bathar-bog, còdair, duine, fear, fireannach, innleachdair, leasaichear, prògramair, teicneolaiche, teicneolaiche fireann
+👩‍💻 bathar-bog, boireannach, còdair, innleachdair, leasaichear, prògramair, tè, teicneolaiche, teicneolaiche boireann
+🧑‍🎤 actair, cleasaiche, rionnag, ròc, seinneadair
+👨‍🎤 actair, cleasaiche, duine, fear, fireannach, rionnag, ròc, seinneadair, seinneadair fireann
+👩‍🎤 actair, ban-seinneadair, boireannach, cleasaiche, rionnag, ròc, seinneadair, tè
+🧑‍🎨 ealan, neach-ealain, paileat
+👨‍🎨 duine, ealan, fear, fear-ealain, fireannach, neach-ealain, pailead
+👩‍🎨 boireannach, ealan, neach-ealain, neach-ealain boireann, pailead, tè
+🧑‍✈ itealan, paidhleat, plèana
+👨‍✈ duine, fear, fireannach, itealan, paidhleat, paidhleat fireann, plèana
+👩‍✈ boireannach, itealan, paidhleat, paidhleat boireann, plèana, tè
+🧑‍🚀 rocaid, speuradair, speurair
+👨‍🚀 duine, fear, fireannach, rocaid, speuradair, speuradair fireann
+👩‍🚀 ban-speuradair, boireannach, rocaid, speuradair, tè
+🧑‍🚒 einnsean-smàlaidh, smàladair
+👨‍🚒 carbad-smàlaidh, duine, fear, fear-smàlaidh, fireannach, neach-smàlaidh, smàladh
+👩‍🚒 boireannach, carbad-smàlaidh, neach-smàlaidh, neach-smàlaidh boireann, smàladh, tè
+👮 oifigear, oifigear poileis, poileas, poileasman
+👮‍♂ duine, fear, fireannach, oifigear, oifigear poileis fireann, poileas, poileasman
+👮‍♀ boireannach, oifigear, oifigear poileis boireann, poileas, poileasman, tè
+🕵 brathadair, lorg-phoileas, lorgaire
+🕵‍♂ brathadair, duine, fear, fireannach, lorg-phoileas, lorgaire, lorgaire fireann
+🕵‍♀ ban-lorgaire, boireannach, brathadair, lorg-phoileas, lorgaire, tè
+💂 geàrd
+💂‍♂ duine, fear, fireannach, geàrd, geàrd fireann
+💂‍♀ bana-gheàrd, boireannach, geàrd, tè
+🥷 fàillidh, falaichte, gaisgeach, ninja
+👷 ad, neach-togail, obair togail, obraiche
+👷‍♂ ad, duine, fear, fear-togail, fireannach, neach-togail, obair togail, obraiche
+👷‍♀ ad, boireannach, neach-togail, neach-togail boireann, obair togail, obraiche, tè
+🤴 prionnsa
+👸 bana-phrionnsa, fantastach, faoinsgeul
+👳 neach le turban air, turban
+👳‍♂ duine, duine le turban air, fear, fireannach, turban
+👳‍♀ boireannach, boireannach le turban oirre, tè, turban
+👲 currac sìneach, duine, duine le currac Sìneach, fear, fireannach, gua pi mao
+🧕 boireannach, boireannach le brèid oirre, brèid, hijab, mantilla, tè, tichel
+🤵 fear-bainnse, neach, neach ann an tuxedo, tuxedo
+🤵‍♂ duine, duine ann an tuxedo, fear-bainnse, fireannach, tuxedo
+🤵‍♀ boireannach, boireannach ann an tuxedo, tuxedo
+👰 banais, bean na bainnse, brat-gnùise, neach le brat-gnùise
+👰‍♂ brat-gnùise, duine, duine le brat-gnùise, fear, fireannach, fireannach le brat-gnùise
+👰‍♀ bean, boireannach, boireannach le brat-gnùise, brat-gnùise, tè
+🤰 boireannach, leatromach, tè
+🤱 altram, altramadh, banaltradh, banaltram, cìoch, muime, naoidhean, toirt cìoch
+👩‍🍼 altram, boireannach, boireannach ag altram naoidhein, leanabh, naoidhean, tè
+👨‍🍼 altram, duine, duine ag altram naoidhein, fear, fireannach, leanabh, naoidhean
+🧑‍🍼 altram, leanabh, naoidhean, neach, neach ag altram naoidhein
+👼 aingeal, aingeal òg, aodann, fantastach, faoinsgeul, leanabh, naoidhean
+🎅 athair, bodach na nollaig, bodach na Nollaig, comharrachadh, Nollaig
+🤶 bean, bean Bodach na Nollaig, bodach na nollaig, comharrachadh, màthair, nollaig
+🧑‍🎄 bean Bodach na Nollaig, bodach na Nollaig, neach, Neach na Nollaig
+🦸 cumhachd, gaisgeach, math, oil-chumhachd, sàr-ghaisgeach, super
+🦸‍♂ cumhachd, fireannach, gaisgeach, math, oil-chumhachd, sàr-ghaisgeach, sàr-ghaisgeach fireann, super
+🦸‍♀ boireannach, cumhachd, gaisgeach, math, oil-chumhachd, sàr-ghaisgeach, sàr-ghaisgeach boireann, super
+🦹 cumhachd, eucoireach, oil-chumhachd, olc, sàr-shlaightear, slaightear, super
+🦹‍♂ cumhachd, eucoireach, fireannach, oil-chumhachd, olc, sàr-shlaightear fireann, slaightear, super
+🦹‍♀ boireannach, cumhachd, eucoireach, oil-chumhachd, olc, sàr-shlaightear boireann, slaightear, super
+🧙 ban-draoidh, bana-bhuidseach, buidseach, draoidh
+🧙‍♂ buidseach, draoidh, draoidh fireann
+🧙‍♀ ban-draoidh, bana-bhuidseach
+🧚 oberon, puck, sìth, sìthiche, titania
+🧚‍♂ oberon, puck, sìth, sìtheach
+🧚‍♀ bean-shìthe, sìth, titania
+🧛 bhampair, closach, dracula
+🧛‍♂ bhampair fireann, closach, dracula
+🧛‍♀ bhampair boireann, closach
+🧜 duine-mara, maighdeann-chuain, maighdeann-mhara, neach-mara, òigh-mhara, sluagh-mara
+🧜‍♂ duine-mara, Lìr, sluagh-mara, Triton
+🧜‍♀ maighdeann-chuain, maighdeann-mhara, òigh-mhara, sluagh-mara
+🧝 ailbhear, draoidheach
+🧝‍♂ ailbhear fireann, draoidheach
+🧝‍♀ bean-ailbhear, draoidheach
+🧞 djinn, genie, taibhse, taibhse Arabach
+🧞‍♂ djinn, genie, taibhse, taibhse fhireann
+🧞‍♀ djinn, genie, taibhse, taibhse bhoireann
+🧟 closach, coiseachd, marbh, zombie
+🧟‍♂ closach, coiseachd, marbh, zombie fireann
+🧟‍♀ closach, coiseachd, marbh, zombie boireann
+💆 aodann, massage, neach a’ faighinn massage, salon
+💆‍♂ aodann, duine, duine a’ faighinn massage, fear, fireannach, massage
+💆‍♀ aodann, boireannach, boireannach a’ faighinn massage, massage, tè
+💇 bearradair, bòidhchead, borbair, cliop, gruagaire, neach a’ faighinn cliop
+💇‍♂ cliop, duine, duine a’ faighinn cliop, fear, fireannach
+💇‍♀ boireannach, boireannach a’ faighinn cliop, cliop, tè
+🚶 coiseachd, coisich, neach a’ coiseachd
+🚶‍♂ coiseachd, coisich, duine, duine a’ coiseachd, fear, fireannach
+🚶‍♀ boireannach, boireannach a’ coiseachd, coiseachd, coisich, tè
+🧍 neach ’na sheasamh, seas, seasamh
+🧍‍♂ duine, duine ’na sheasamh, fireannach, seas, seasamh
+🧍‍♀ boireannach, boireannach ’na sheasamh, seas, seasamh
+🧎 glùin, glùinean, neach air a ghlùinean
+🧎‍♂ duine, duine air a ghlùinean, fireannach, glùin, glùinean
+🧎‍♀ boireanach air a ghlùinean, boireannach, glùin, glùinean
+🧑‍🦯 dall, doille, neach dall le batachan, so-ruigsinneachd
+👨‍🦯 dall, doille, duine, duine dall le batachan, fireannach, so-ruigsinneachd
+👩‍🦯 boireannach, boireannach dall le batachan, dall, doille, so-ruigsinneachd
+🧑‍🦼 cathair-chuibhle, neach ann an cathair-chuibhle le einnsein, so-ruigsinneachd
+👨‍🦼 cathair-chuibhle, duine, duine ann an cathair-chuibhle le einnsein, fireannach, so-ruigsinneachd
+👩‍🦼 boireannach, boireannach ann an cathair-chuibhle le einnsein, cathair-chuibhle, so-ruigsinneachd, tè ann an cathair-chuibhle le einnsein
+🧑‍🦽 cathair-chuibhle, neach ann an cathair-chuibhle a làimh, so-ruigsinneachd
+👨‍🦽 cathair-chuibhle, duine, duine ann an cathair-chuibhle a làimh, fireannach, so-ruigsinneachd
+👩‍🦽 boireannach, boireannach ann an cathair-chuibhle a làimh, cathair-chuibhle, so-ruigsinneachd, tè ann an cathair-chuibhle a làimh
+🏃 marathon, neach a’ ruith, ruith
+🏃‍♂ duine, duine a’ ruith, fear, fireannach, marathon, rèis, ruith
+🏃‍♀ boireannach, boireannach a’ ruith, marathon, rèis, ruith, tè
+💃 boireannach, boireannach a’ dannsadh, dannsa, dannsadh, tè
+🕺 dannsa, dannsadh, duine, duine a’ dannsadh, fear, fireannach
+🕴 deise, duine, duine air flod ’s deise gnìomhachais air, fear, fireannach, gnìomhachas, gnothachas
+👯 cluas rabaid, dannsair, daoine le cluasan rabaid, pàrtaidh
+👯‍♂ cluas rabaid, dannsair, duine, fear, fireannach, fireannaich le cluasan rabaid, pàrtaidh
+👯‍♀ boireannach, boireannaich le cluasan rabaid, cluas rabaid, dannsair, pàrtaidh, tè
+🧖 ceò, neach ann an sauna, sauna
+🧖‍♂ ceò, duine ann an sauna, sauna
+🧖‍♀ boireannach ann an sauna, ceò, sauna
+🧗 neach a’ sreap, sreapadair, sreapaiche
+🧗‍♂ duine a’ sreap, sreapadair, sreapaiche
+🧗‍♀ boireannach a’ sreap, sreapadair, sreapaiche
+🤺 claidheamh, feannsair, feannsaireachd, neach ri feannsaireachd
+🏇 each, each rèisidh, eachlach, marcach, rèis, rèiseadh each
+⛷ sgìtheadair, sgìtheadh, sneachd
+🏂 neach sneachda-bhòrd, sgìtheadh, sneachd, sneachda-bhòrd
+🏌 bàla, ball, goilf, neach ri goilf
+🏌‍♂ duine, duine ri goilf, fear, fireannach, goilf
+🏌‍♀ boireannach, boireannach ri goilf, goilf, tè
+🏄 neach a’ surfadh, surfadh
+🏄‍♂ duine, duine a’ surfadh, fear, fireannach, surfadh
+🏄‍♀ boireannach, boireannach a’ surfadh, surfadh, tè
+🚣 bàta, eathar, iomradh, neach ag iomradh bàta
+🚣‍♂ bàta, duine, duine ag iomradh bàta, eathar, fear, fireannach, iomradh
+🚣‍♀ bàta, boireannach, boireannach ag iomradh bàta, eathar, iomradh, tè
+🏊 neach a’ snàmh, snàmh
+🏊‍♂ duine, duine a’ snàmh, fear, fireannach, snàmh
+🏊‍♀ boireannach, boireannach a’ snàmh, snàmh, tè
+⛹ bàla, ball, neach a’ bocadh bàla
+⛹‍♂ bàla, ball, duine, duine a’ bocadh bàla, fear, fireannach
+⛹‍♀ bàla, ball, boireannach, boireannach a’ bocadh bàla, tè
+🏋 cuideam, neach a’ togail chuideaman, togail
+🏋‍♂ cuideam, duine, duine a’ togail chuideaman, fear, fireannach, togail
+🏋‍♀ boireannach, boireannach a’ togail chuideaman, cuideam, tè, togail
+🚴 baidhseagal, duine, fear, fireannach, neach ri rothaireachd, rothair, rothaireachd
+🚴‍♂ baidhseagal, duine, duine ri rothaireachd, fear, fireannach, rothair, rothaireachd
+🚴‍♀ baidhseagal, boireannach, boireannach ri rothaireachd, rothair, rothaireachd, tè
+🚵 baidhseagal, beinn, neach ri rothaireachd bheanntan, rothair, rothaireachd
+🚵‍♂ baidhseagal, beinn, duine, duine ri rothaireachd bheanntan, fear, fireannach, rothair, rothaireachd
+🚵‍♀ baidhseagal, beinn, boireannach, boireannach ri rothaireachd bheanntan, rothair, rothaireachd, tè
+🤸 lùth-chleasachd, neach a’ cur nan rothan, rothan
+🤸‍♂ duine, duine a’ cur nan rothan, fear, fireannach, lùth-chleasachd, rothan
+🤸‍♀ boireannach, boireannach a’ cur nan rothan, lùth-chleasachd, rothan, tè
+🤼 daoine ri gleacadh, gleacadair, gleacadh
+🤼‍♂ duine, fear, fireannach, fireannaich ri gleacadh, gleacadair, gleacadh
+🤼‍♀ boireannach, boireannaich ri gleacadh, gleacadair, gleacadh
+🤽 neach a’ cluich polo-uisge, polo, uisge
+🤽‍♂ duine, duine a’ cluich polo-uisge, fear, fireannach, polo, uisge
+🤽‍♀ boireannach, boireannach a’ cluich polo-uisge, polo, tè, uisge
+🤾 bàla, ball-làimhe, neach a’ cluich ball-làimhe
+🤾‍♂ bàla, ball-làimhe, duine, duine a’ cluich ball-làimhe, fear, fireannach
+🤾‍♀ bàla, ball-làimhe, boireannach, boireannach a’ cluich ball-làimhe, tè
+🤹 caisreabhachd, cothromachadh, iomadh-shaorachadh, neach ri caisreabhachd, sgil
+🤹‍♂ caisreabhachd, cothromachadh, duine, duine ri caisreabhachd, fear, fireannach, iomadh-shaorachadh, sgil
+🤹‍♀ boireannach, boireannach ri caisreabhachd, caisreabhachd, cothromachadh, iomadh-shaorachadh, sgil, tè
+🧘 meòrachadh, neach na shuidhe lòtais, yoga
+🧘‍♂ duine na shuidhe lòtais, meòrachadh, yoga
+🧘‍♀ boireannach na shuidhe lòtais, meòrachadh, yoga
+🛀 amar, ballan, ionnlad, ionnlaid, neach san amar, tuba
+🛌 cadal, neach san leabaidh, taigh-òsta
+🧑‍🤝‍🧑 càraid, daoine, daoine a’ glacadh air làmh a chèile, dithis, làmh
+👭 boireannach, boireannaich a’ glacadh air làmh a chèile, càraid, dithis, làmh
+👫 boireannach, boireannach is fireannach a’ gabhail làmhan a chèile, càraid, duine, fireannach, gabhail làmhan a chèile, làmh, tè is fear a’ gabhail làmhan a chèile
+👬 caigeann, càraid, dithis, duine, fireannach, fireannaich, fireannaich a’ glacadh air làmh a chèile, gaolag, gemini, gràdhag, grian-chriosach, làmh, leth-aon
+💏 càraid, pòg
+💑 càraid, càraid le cridhe, gaol
+👪 teaghlach
+🗣 aodann, ceann, ceann a’ bruidhinn, sgàil-dhealbh bruidhinn, sgàil-riochd, silhouette
+👤 com, sgàil-dhealbh, sgàil-riochd, silhouette, silhouette de chom
+👥 com, sgàil-dhealbh, sgàil-riochd, silhouette, silhouette de chuim
+🫂 caidir, caidreabh, dealachadh, fàilte, soraidh slàn, taing
+👣 aodach, lorg, lorg coise, lorgan coise
+🦰 falt, ruadh
+🦱 Afraganach, bachlach, dualach, falt
+🦳 bàn, falt, liath, sean
+🦲 aillse, bearradh, bearrte, ceimeo-theiripe, gun fhalt, lom, maoilean, maol
+🐵 aodann, muncaidh
+🐒 muncaidh
+🦍 goiriola, muncaidh
+🦧 apa, muncaidh, orangutan
+🐶 aodainn coin, aodann, cù, peata
+🐕 cù, peata
+🦮 cù, cù-iùil, dall, doille, iùl, so-ruigsinneachd, stiùireadh, treòir, treòiriche, treòrachadh
+🐕‍🦺 cù, cù-taice, seirbheis, so-ruigsinneachd, taic
+🐩 cù, poodle
+🐺 aodann, madadh-allaidh
+🦊 aodann, madadh-ruadh, sionnach
+🦝 annas, feòrachail, mathan-nighe, seòlta, slìogach, sròn
+🐱 aodann, aodann cait, cat, peata
+🐈 cat, peata
+🐈‍⬛ cat, droch-fhortan, dubh, mì-àgh, mì-shealbh
+🦁 aodann, grian-chriosach, leo, leòmhann
+🐯 aodann, aodann tìgeir, tìgear
+🐅 tìgear
+🐆 liopard
+🐴 aodann, aodann eich, each
+🐎 each, each rèisidh, marcachd, rèis
+🦄 aodann, aon-adharcach
+🦓 sìobra, stiall, stiallach, stiallan
+🦌 fiadh
+🦬 bìoson, buabhall, bufalair, tarbh-allaidh, treud
+🐮 aodann, aodann bà, bò, crodh, sprèidh
+🐂 crodh, damh, grian-chriosach, sprèidh, tarbh, taurus
+🐃 buabhall, buabhall-uisge, crodh, sprèidh, uisge
+🐄 bò, crodh, sprèidh
+🐷 aodann, aodann muice, muc
+🐖 cràin, muc
+🐗 muc, torc
+🐽 aodann, gnos, gnos muice, muc, sròn
+🐏 aries, caora, fireann, grian-chriosach, reithe
+🐑 boireann, caora
+🐐 capricorn, gobhar, grian-chriosach
+🐪 croit, crotach, cruit, dromadair
+🐫 bactrach, càmhal, croit, crotach, cruit
+🦙 alpaca, clòimh, guanaco, lama, llama, vicuña
+🦒 breac, breacach, breacan, sioraf
+🐘 ailbhean
+🦣 à bith, clòimheach, clùmhach, clùmhaidh, dìtheachd, mamot, mòr, tosg
+🦏 sròn-adharcach
+🦛 each-aibhne
+🐭 aodann, aodann lucha, luch, luchag
+🐁 luch, luchag
+🐀 radan
+🐹 aodann, hamstair, peata
+🐰 aodann, coineanach, peata, rabaid
+🐇 coineanach, peata, rabaid
+🐿 chipmunk, feòrag-stiallach
+🦫 beabhar, beathadach, bìobhair, dama, dobhar-chù
+🦔 bior, biorach, bioran, cràineag, dràineag, gràineag, uircean
+🦇 bhampair, ialtag, ialtag-fhala
+🐻 aodann, mathan
+🐻‍❄ Artach, bàn, mathan, mathan-bàn
+🐨 koala, mathan
+🐼 aodann, panda
+🦥 leisg, lunndaire-craoibhe, mall, slaodach
+🦦 cleasach, dòbhran, iasgach, iasgaich
+🦨 boladh, droch-bholadh, tùd, tùdair-stiallach
+🦘 Astràilia, cangaru, leum, pocanach
+🦡 broc, brocan, buair, buaireadh
+🐾 làrach, lorg, lorgan spòige, spòg
+🦃 cearc, cearc-Fhrangach, coileach-Frangach, coileach-Turcach, eun, eun-frangach, eun-Frangach, eunlaith
+🐔 cearc, eun, eunlaith
+🐓 coileach, eun, eunlaith
+🐣 eun, eunlaith, gur, isean, isean ga ghur
+🐤 eun, eunlaith, isean, isean beag
+🐥 eun, eunlaith, isean, isean le aghaidh riut
+🐦 eun
+🐧 ceann-fionn, eun
+🕊 calman, eun, itealadh, sgiathadh, sìth
+🦅 eun, iolaire
+🦆 eun, eunlaith, tunnag
+🦢 eala, ealag, eun, isean grannda
+🦉 cailleach-oidhche, eun, glic
+🦤 à bith, dìtheachd, dòdo, marbh, Mhoiriseas, Moiriseas, mòr
+🪶 aotrom, eun, ite, itealadh, sgiathadh
+🦩 flamingo, spaideil, tropaigeach
+🦚 àrdan, eucag, eun, feucag, moiteil, peucag, pròiseil, stàirneil
+🦜 bruidhinn, eun, pearraid, spùinneadair
+🐸 aodann, losgann
+🐊 crogall
+🐢 seilche, sligeanach, toirtis, turtar
+🦎 laghairt, snàigeach
+🐍 giùlanair, grian-chriosach, nathair, ophiuchus
+🐲 aodann, aodann dràgoin, dràgon, faoinsgeul
+🐉 dràgon, faoinsgeul
+🦕 brachiosaurus, brontosaurus, dìneasar, diplodocus, sauropod
+🦖 t-rex, T-Rex, Tyrannosaurus Rex
+🐳 aodann, muc-mhara, muc-mhara a’ sèideadh, sèideadh
+🐋 muc-mhara
+🐬 leumadair, leumadair-mara
+🦭 leòmhann-mara, ròn
+🐟 èisg, grian-chriosach, iasg, pisces
+🐠 iasg, tropaigeach
+🐡 iasg, iasg-sèididh
+🦈 cearban, iasg, siorc
+🐙 ochd-chasach
+🐚 slige, slige shnìomhanach, snìomh, snìomhanach
+🐌 cramag, gobhar-breac, seilcheag
+🦋 àlainn, amadan-dè, bèisteag, biastag, bòidheach, dealan-dè, dearbadan-dè, fiolan, meanbh-fhrìde
+🐛 bèisteag, biastag, daolag, fiolan, meanbh-fhrìde
+🐜 bèisteag, biastag, fiolan, meanbh-fhrìde, seangan
+🐝 bèisteag, biastag, fiolan, meanbh-fhrìde, seillean
+🪲 bèisteag, biastag, daolag, fiolan, meanbh-fhrìde
+🐞 bèisteag, biastag, daolag, daolag-bhreac, fiolan, meanbh-fhrìde
+🦗 brobhadan, fionnan-feòir, greollan, leumadair-uaine, srannan
+🪳 bèisteag, biastag, càrnan-gallda, daolag, fiolan, meanbh-fhrìde, plàigh
+🕷 bèisteag, biastag, damhan-allaidh, fiolan, meanbh-fhrìde
+🕸 damhan-allaidh, eige, lìon, lìon damhain-allaidh, oige
+🦂 grian-chriosach, scorpio, sgairp
+🦟 bhìoras, biastag, fiabhras, galar, mailèiria, mosgaid
+🪰 biastag, cnuimheag, cuileag, galar, grod, grodadh, plàigh
+🪱 biathag, cnuimh, cnuimh-talmhainn, daolag, dealt-dhaolag, faoighiche, frithlisg, lobach, parasait
+🦠 amoeba, bacterium, baictear, bhìoras, bitheag, lobhag
+💐 bad fhlùraichean, flùr
+🌸 blàth, flùr, siris
+💮 flùr, flùr geal
+🏵 flùr, lus, ròsag
+🌹 flùr, ròs
+🥀 flùr, seacta, seacte
+🌺 flùr, ìbisg
+🌻 flùr, grian, neòinean, neòinean-grèine
+🌼 blàth, flùr
+🌷 flùr, tuiliop
+🌱 òg, sìolag
+🪴 altram, altramadh, dòrainneach, fàs, gun fheum, lus, lus ann am poit, ràsanach, taigh
+🌲 craobh, craobh sìor-uaine
+🌳 craobh, craobh sheargach, seargach
+🌴 craobh, craobh-phailm, pailm
+🌵 cactas, flùr, lus
+🌾 dias, gràinnean, rìs
+🌿 duilleag, luibh
+☘ flùr, lus, seamrag
+🍀 4, ceithir, duilleag, seamrag, seamrag cheithir-dhuilleagach
+🍁 craobh, duilleag, duilleag o chraobh-mhalpais, foghar, malpais, tuiteam
+🍂 duilleag, duilleagan an fhoghair, foghar, tuiteam
+🍃 duilleag, duilleag a’ falbh leis a’ ghaoith, gaoth, sèideadh
+🍇 fìon-dhearc, fìon-dhearcan, meas
+🍈 meal-bhuc, meas
+🍉 meal-bhuc uisge, meas
+🍊 meas, orainds, orains, tangerine
+🍋 liomaid, meas
+🍌 banana, meas
+🍍 anann, meas
+🥭 mango, meas, tropaigeach
+🍎 dearg, meas, ubhal
+🍏 meas, uaine, ubhal
+🍐 meas, peur
+🍑 meas, peitseag
+🍒 meas, siris, sirisean
+🍓 dearcan, meas, sùbh, sùbh-làir
+🫐 braoileag, dearc, dearc-choille, dearc-ghorm, dearcan-gorma, fraochag, fraochan, gorm, mòineag
+🥝 biadh, kiwi, meas
+🍅 glasraich, meas, tomàto
+🫒 biadh, dearc-ola
+🥥 cnò-chòco, pailm, piña colada
+🥑 abhocado, biadh, meas
+🍆 aubergine, glasraich
+🥔 biadh, buntàta, glasraich
+🥕 biadh, curran, glasraich
+🌽 coirce, dias, dias Innseanach, innseanach
+🌶 piobar, piobar-teth, teth
+🫑 glasraich, piobar, piobar-milis
+🥒 biadh, cularan, glasraich, piceal, picil
+🥬 bok choy, càl, leatas
+🥦 brocail, càl
+🧄 blas, blasachadh, creamh
+🧅 blas, blasachadh, uinnean
+🍄 balgan-buachair, balgan-buachrach
+🥜 biadh, cnò, cnò-thalmhainn, cnòthan-talmhainn, glasraich
+🌰 flùr, geanm-chnò, lus
+🍞 aran, buileann, lofa
+🥐 aran, biadh, croissant, frangach, rola corranach
+🥖 aran, baguette, biadh, frangach
+🫓 aran-rèidh, arepa, lavash, naan, pita
+🥨 pretzel, toinnte
+🥯 bagel, bèicearachd
+🥞 biadh, breacag, breacagan, crêpe, foileag
+🧇 baoth-chòmhradh, bleadraich, iarrann, neo-chinnteach, riachdalach, waffle
+🧀 càise, staoig càise
+🍖 cnàimh, feòil, feòil air a’ chnàimh
+🍗 cas, cas circe, cearc, cnàmh, eunlaith
+🥩 feòil, mairtfheoil, muicfheoil, muiltfheoil, sitheann, staoig, uainfheoil
+🥓 beucon, biadh, feòil
+🍔 hamburgair
+🍟 sliseagan, tiops
+🍕 càise, pizza, slis, sliseag
+🌭 frankfurter, hot dog, hotdog, isbean
+🥪 aran, ceapaire
+🌮 meagsagach, taco
+🌯 burrito, meagsagach, wrap
+🫔 Meagsagach, paisgte, tamale
+🥙 aran rèidh lìonta, aran-rèidh, biadh, falafel, gyro, kebab, lìonta
+🧆 bàla-feòla, cearc-pheasair, cic-pheasair, falafel
+🥚 biadh, ugh
+🍳 adhann, còcaireachd, praidhigeadh, ugh
+🥘 adhann, adhann le biadh, biadh, casaroil, eu-domhain, paella
+🍲 poit, poit le biadh, stiubha
+🫕 càise, Eilbheiseach, fondue, leaghta, leaghte, poit, seoclaid, teòclaid
+🥣 bobhla le spàin, bracaist, gràinean
+🥗 biadh, sailead, uaine
+🍿 popcorn
+🧈 bà, bainne, bathar-bainne, biadh-bainne, bò, ìm, ùrachd na bà
+🧂 abhlan, alltann, annlann, anntann, crathadair, salainn, spìos
+🥫 biadh ann an cana, cana
+🍱 bento, bogsa
+🍘 cracair, rìs
+🍙 ball, iapanach, rìs, seapanach
+🍚 bruich, rìs
+🍛 curry, curry is rìs, rìs
+🍜 bobhla, bobhla le ceò às, ceò, nùdail, ramen
+🍝 nùdail, pasta, spaghetti
+🍠 buntàta, milis, ròiste, ròsta
+🍢 bior, feamann, iasg, kebab, maorach, oden
+🍣 sushi
+🍤 fraidhig, fraidhigeadh, muasgain-chaola air am fraidhigeadh, muasgan-caol, praidhig, praidhigeadh, tempura
+🍥 cèic, cèic-èisg le cuairteag sa mheadhain, cuairteag, iasg, pastraidh
+🥮 cèic-ghealaich, fèis, foghar, yuèbǐng
+🍡 bior, dango, iapanach, milis, milseag, seapanach
+🥟 dumplag, empanada, gyōza, jiaozi, pierogi
+🥠 briosgaid fortain, fàdh, fàisneachd, fàistinn, fàthach
+🥡 bogsa bidhe, bogsa takeout, sìneach
+🦀 cancer, crùbag, grian-chriosach, partan
+🦞 giomach, ìnean, maorach, spògan
+🦐 beag, biadh, carrain, maorach
+🦑 biadh, gibearnach, moileasg
+🦪 daibheadh, daoibhigeadh, eisir, neamhnaid
+🍦 bog, milis, milseag, reòiteag, reòiteag bhog, uachdar
+🍧 beàrrte, deigh, deigh bheàrrte, milis, milseag, reòiteag
+🍨 milis, milseag, reòiteag, uachdar
+🍩 doughnut, milis, milseag
+🍪 briosgaid, milis, milseag
+🎂 cèic, co-là-breith, comharrachadh, milis, milseag, pastraidh
+🍰 cèic, milis, milseag, pastraidh, shortcake, sliseag
+🧁 bèicearachd, cèic-chuachaige, milis
+🥧 lìonadh, pàidh, pastraidh, pigheann
+🍫 bàr, milis, milseag, teòclaid
+🍬 milis, milseag, suiteas
+🍭 lollipop, milis, milseag, suiteas
+🍮 milis, milseag, ughagan
+🍯 mil, milis, poit, poit meala
+🍼 bainne, botal, botal leinibh, deoch, leanabh
+🥛 bainne, deoch, glainne, glainne de bhainne, òl
+☕ ceò, cofaidh, deoch, deoch theth, teatha, teth, tì
+🫖 òl, poit, poit-teatha, poit-tì, teatha, tì
+🍵 cupa, cupa-tì gun chluas, cupan, deoch, teatha, tì
+🍶 bàr, botal, cupa, cupan, deoch, sake
+🍾 àirc, bàr, botal, botal le àirc a’ leumadh às, brag, deoch, leumadh, popadh
+🍷 bàr, deoch, fìon, glainne, glainne-fhìona, òl
+🍸 bàr, cocktail, deoch, glainne, òl
+🍹 bàr, deoch, deoch thropaigeach, òl, tropaigeach
+🍺 bàr, beòir, deoch, leann, muga, òl
+🍻 bàr, beòir, deoch, gliongadaich, leann, muga, mugaichean beòir a’ gliongadaich, òl
+🥂 cèilidh, comharrachadh, deoch, glaineachan a’ gliongadaich, glainne, gliongadaich, òl
+🥃 deoch làidir, glainne, tumblair, uisge-beatha
+🥤 cupa le stràbh, sòda, sùgh
+🧋 bainne, builgean, teatha, tì, tì builgein
+🧃 bogsa, carton, carton dighe, deoch, sùgh
+🧉 deoch, mate, teatha, tì
+🧊 beinn-deighe, beinn-eighe, ciùb deighe, cnoc-deighe, cnoc-eighre, deig, eigh, eigh-bheinn, fuar
+🥢 bioran-ithe, hashi
+🍽 còcaireachd, forc, forc is sgian le truinnsear, sgian, truinnsear
+🍴 còcaireachd, forc, forc is sgian, sgian
+🥄 innealan bùird, spàin
+🔪 acainn, arm, còcaireachd, hocho, inneal, sgian, sgian cidsin
+🏺 acainn, amfora, aquarius, arm, còcaireachd, deoch, fear-giùlain uisge, grian-chriosach, inneal, òl, siuga
+🌍 afraga, cruinne, cruinne leis an Roinn-Eòrpa ’s Afraga, globa, globa a’ sealltainn an Roinn-Eòrpa ’s Afraga, globa a’ sealltainn an Roinn-Eòrpa agus Afraga, roinn-eòrpa, saoghal, talamh
+🌎 aimeireaga, cruinne, cruinne le Aimeireaga, globa, globa a’ sealltainn an dà Aimeireaga, saoghal, talamh
+🌏 àisia, astràilia, cruinne, cruinne le Àisia ’s Astràilia, globa, globa a’ sealltainn Àisia ’s Astràilia, globa a’ sealltainn Àisia agus Astràilia, saoghal, talamh
+🌐 cruinne, cruinne le meadhan-loidhnichean, globa, globa le meadhan-loidhnichean, meadhan-loidhne, meadhan-loidhnichean, saoghal, talamh
+🗺 mapa, mapa an t-saoghail, saoghal
+🗾 iapan, mapa, mapa dhen t-Seapan, seapan
+🧭 clach-iùil, combaist, iùil, magnaiteach, seòladaireachd, sligheadaireachd, stiùireadh
+🏔 beinn, beinn le sneachd air a mullach, fuar, sneachd
+⛰ beinn
+🌋 beinn, beinn-theine, spreadhadh
+🗻 beinn, Beinn Fuji, fuji
+🏕 campachadh
+🏖 sgàilean, tràigh, tràigh le sgàilean
+🏜 fàsach
+🏝 eilean, eilean fàs, fàsach
+🏞 pàirc, pàirc nàiseanta
+🏟 stèideam
+🏛 clasaigeach, togalach clasaigeach
+🏗 togail, togail taighe
+🧱 aol, aol-tàthaidh, balla, breige, breigichean, criadh
+🪨 clach, creag, cruaidh, trom, ulbhag, ulpag
+🪵 fiod, fiodh, loga, maide
+🛖 bothan, cruinn, taigh, taigh-cruinn, yurt
+🏘 taighean
+🏚 taigh, tobhta
+🏠 dachaidh, dachaigh, dhachaidh, dhachaigh, taigh
+🏡 dachaidh, dachaigh, dhachaidh, dhachaigh, gàrradh, lios, taigh, taigh le gàrradh
+🏢 togalach, togalach oifisean
+🏣 iapanach, oifis-puist Sheapanach, post, seapanach
+🏤 eòrpach, oifis a’ phuist, post
+🏥 dotair, leigheas, ospadal
+🏦 banca, togalach
+🏨 taigh-òsta, togalach
+🏩 gaol, suirghe, taigh-òsta, taigh-òsta gaoil
+🏪 bùth, bùth ghoireasach, goireasach
+🏫 sgoil, togalach
+🏬 bùth, mòr-bhùth
+🏭 factaraidh, togalach
+🏯 caisteal, caisteal Seapanach, iapanach, seapanach
+🏰 caisteal, eòrpach
+💒 banais, caibeal, romansa, romansachd
+🗼 tokyo, tùr, tùr Tokyo
+🗽 ìomhaigh, Ìomhaigh na Saorsa, saorsa
+⛪ creideamh, crìostaidh, crois, eaglais
+🕌 creideamh, ioslam, mosg, muslamach
+🛕 Hionduthach, teampall
+🕍 creideamh, iùdhach, sionagog, teampall
+⛩ creideamh, naomh-chiste, shinto
+🕋 creideamh, ioslam, ka’aba, muslamach
+⛲ fuaran
+⛺ campachadh, teanta
+🌁 ceò, ceòthach
+🌃 oidhche, oidhche rionnagach, rionnag
+🏙 baile, mòr-bhaile
+🌄 beinn, camhanaich, èirigh na grèine, èirigh na grèine thar bheanntan, grian, madainn
+🌅 camhanaich, èirigh na grèine, grian, madainn
+🌆 baile, ciaradh, ciaradh sa bhaile mhòr, dreach-tìre, feasgar, grian, laighe na grèine, mòr-bhaile
+🌇 ciaradh, grian, laighe na grèine
+🌉 drochaid, drochaid air an oidhche, oidhche
+♨ ceò, fuaran, teth
+🎠 each, each-timcheallain, timcheallan
+🎡 cuibhle, pàirc fhaoin-chleasan, roth-mòr
+🎢 còrsair, pàirc fhaoin-chleasan, rolair, rolair-còrsair
+💈 barbair, cliop, gruagaire, pòla
+🎪 pàillean, pàillean siorcais, siorcas, teanta
+🚂 carbad-smùide, einnsean, rathad-iarainn, rèile, smùid, trèana
+🚃 bus-troilidh, càr, còidse, dealanach, rathad-iarainn, rèile, slighe-iarainn, trama, trèana
+🚄 astar, luaths, rathad-iarainn, rèile, shinkansen, slighe-iarainn, trèana, trèana fhìor luath
+🚅 astar, luaths, rathad-iarainn, rèile, shinkansen, slighe-iarainn, sròn chruinn, trèana, trèana fhìor luath le sròn chruinn
+🚆 rathad-iarainn, rèile, slighe-iarainn, trèana
+🚇 fo-thalamh, meatro
+🚈 rathad-iarainn, rèile, rèile aotrom, slighe-iarainn
+🚉 rathad-iarainn, rèile, slighe-iarainn, stèisean, trèana
+🚊 bus-troilidh, trama
+🚝 aona-rèile, carbad
+🚞 beinn, càr, còidse, rathad-iarainn, rèile, rèile-bheinne, slighe-iarainn
+🚋 bus-troilidh, càr, còidse, trama
+🚌 bus, carbad
+🚍 bus, bus a’ tighinn thugad, tighinn
+🚎 bus, bus-troilidh, trama, troilidh
+🚐 bus, meanbh-bhus
+🚑 carbad, carbad-eiridinn
+🚒 einnsean, einnsean-smàlaidh, làraidh, smàladh, teine, truca
+🚓 càr, càr poileis, freiceadan, poileas
+🚔 càr, càr poileis a’ tighinn thugad, poileas, tighinn
+🚕 carbad, tacsaidh
+🚖 tagsaidh, tagsaidh a’ tighinn thugad, tighinn
+🚗 càr
+🚘 càr, càr a’ tighinn thugad, tighinn
+🚙 cleasachail, sport utility vehicle, suv
+🛻 pick-up, pickup, truca
+🚚 làraidh, làraidh-lìbhrigidh, lìbhrigeadh
+🚛 làraidh, làraidh altanach, semi, truca
+🚜 carbad, tractar
+🏎 càr, càr rèisidh, rèis, rèiseadh
+🏍 motar-baidhg, rèis, rèiseadh
+🛵 motair, sgùtair, sgùtair-motair
+🦽 cathair-chuibhle a làimh, so-ruigsinneachd
+🦼 cathair-chuibhle le einnsein, so-ruigsinneachd
+🛺 càr, càr-rickshaw, rickshaw, tuk tuk
+🚲 baic, baidhg, baidhseagal, rothair
+🛴 breabadh, sgùtair, sgùtair-breabaidh
+🛹 bòrd, spèileabord
+🛼 bròg ròla-spèilidh, bròg-spèilidh, ròla, spèileadh
+🚏 bus, stad, stad-bhusaichean
+🛣 mòr-rathad, rathad, rathad-mòr
+🛤 rathad-iarainn, rèile, slighe-iarainn, trèana
+🛢 druma, ola
+⛽ connadh, peatral, pumpa, pumpa-connaidh, stèisean
+🚨 càr, cuairt, leus, poileas, solas, solas càr poileis
+🚥 siognail, solais-thrafaig chòmhnard, solas, trafaig
+🚦 siognail, solais-thrafaig inghearach, solas, trafaig
+🛑 ochd-cheàrnach, ochd-shliosach, sanas, sanas “Stad”, stad
+🚧 bacadh, togail
+⚓ acainn, acair, long
+⛵ bàta, bàta-seòlaidh, geat, muir, sgoth, turasachd
+🛶 bàta, canù
+🚤 bàta, luath-bhàta
+🛳 long, long thaistealach, taistealach
+⛴ bàta, bàta-aiseig, taistealach
+🛥 bàta, bàta-motair, motar
+🚢 bàta, long, taistealach
+✈ itealan, plèana
+🛩 itealan, itealan beag, plèana
+🛫 check-in, fàgail, fàgail itealain, falbh, itealan, plèana
+🛬 itealan, landadh, plèana, ruigsinn, ruigsinn itealain
+🪂 daibheadh-speura, daoibhigeadh-adhair, paraisiut
+💺 cathair, sèithear, suidheachan
+🚁 carbad, heileacoptar
+🚟 crochadh, rèile, rèile-chrochaidh
+🚠 beinn, càball, carbad-càbaill beinne, gondola
+🚡 adhar, càball, carbad, gondola, trama, trama-adhair
+🛰 fànas, saideal, speur
+🚀 fànas, rocaid, speur
+🛸 soitheach-fànais, UFO
+🛎 clag, gille-cluig, pèidse, taigh-òsta
+🧳 bagaist, pacadh, siubhail, siubhal
+⌛ gaineamh, glainne-uarach, glainne-uarach dheiseil, tìmear
+⏳ gaineamh, glainne-uarach, glainne-uarach nach eil deiseil, tìmear
+⌚ cleoc, cloc, gleoc, uaireadair
+⏰ caismeachd, cleoc, cloc, gleoc
+⏱ cleoc, cloc, gleoc, stad-uaireadair
+⏲ cleoc, cleoc tìmeir, cloc, gleoc, tìmear
+🕰 cleoc, cleoc sgeilpe, cloc, gleoc
+🕛 00, 12, 12:00, cleoc, cloc, dà dheug, dà uair dheug, gleoc, uair
+🕧 12, 12:30, 30, cleoc, cloc, dà dheug, leth-uair, leth-uair an dèidh dà dheug, trithead, uair
+🕐 00, 1, 1:00, aon, cleoc, cloc, gleoc, uair
+🕜 1, 1:30, 30, aon, cleoc, cloc, gleoc, leth-uair, leth-uair an dèidh uair, trithead, uair
+🕑 00, 2, 2:00, cleoc, cloc, dà, gleoc, uair
+🕝 2, 2:30, 30, cleoc, cloc, dà, gleoc, leth-uair, leth-uair an dèidh dà, trithead, uair
+🕒 00, 3, 3:00, cleoc, cloc, gleoc, trì, trì uairean, uair
+🕞 3, 3:30, 30, cleoc, cloc, gleoc, leth-uair, leth-uair an dèidh trì, trì, trithead, uair
+🕓 00, 4, 4:00, ceithir, ceithir uairean, cleoc, cloc, gleoc, uair
+🕟 30, 4, 4:30, ceithir, cleoc, cloc, gleoc, leth-uair, leth-uair an dèidh ceithir, trithead, uair
+🕔 00, 5, 5:00, cleoc, cloc, còig, còig uairean, gleoc, uair
+🕠 30, 5, 5:30, cleoc, cloc, còig, gleoc, leth-uair, leth-uair an dèidh còig, trithead, uair
+🕕 00, 6, 6:00, cleoc, cloc, gleoc, sia, sia uairean, uair
+🕡 30, 6, 6:30, cleoc, cloc, gleoc, leth-uair, leth-uair an dèidh sia, sia, trithead, uair
+🕖 00, 7, 7:00, cleoc, cloc, gleoc, seachd, seachd uairean, uair
+🕢 30, 7, 7:30, cleoc, cloc, gleoc, leth-uair, leth-uair an dèidh seachd, seachd, trithead, uair
+🕗 00, 8, 8:00, cleoc, cloc, gleoc, ochd, ochd uairean, uair
+🕣 30, 8, 8:30, cleoc, cloc, gleoc, leth-uair, leth-uair an dèidh ochd, ochd, trithead, uair
+🕘 00, 9, 9:00, cleoc, cloc, gleoc, naoidh, naoidh uairean, uair
+🕤 30, 9, 9:30, cleoc, cloc, gleoc, leth-uair, leth-uair an dèidh naoidh, naoidh, trithead, uair
+🕙 00, 10, 10:00, cleoc, cloc, deich, deich uairean, gleoc, uair
+🕥 10, 10:30, 30, cleoc, cloc, deich, gleoc, leth-uair, leth-uair an dèidh deich, trithead, uair
+🕚 00, 11, 11:00, aon deug, aon uair deug, cleoc, cloc, gleoc, uair
+🕦 11, 11:30, 30, aon deug, cleoc, cloc, gleoc, leth-uair, leth-uair an dèidh aon uair deug, trithead, uair
+🌑 dorch, gealach, ùr
+🌒 cinntinn, corranach, fàs, gealach, gealach chorranach a’ cinntinn
+🌓 ceathramh, gealach, gealach sa chiad cheathramh, solas ùr na gealaich
+🌔 cinntinn, crotach, fàs, gealach, gealach chrotach a’ fàs
+🌕 gealach, làn, làn-ghealach
+🌖 briseadh, crotach, gealach, gealach chrotach a’ traoghadh, traoghadh
+🌗 ceathramh, deireadh na gealaich, gealach, gealach sa cheathramh mu dheireadh
+🌘 briseadh, corranach, gealach, gealach chorranach a’ traoghadh, traoghadh
+🌙 corranach, gealach, gealach chorranach
+🌚 aodann, gealach, gealach ùr le aodann
+🌛 aodann, ceathramh, gealach, gealach sa chiad cheathramh le aodann, solas ùr na gealaich le aodann
+🌜 aodann, ceathramh, deireadh na gealaich le aodann, gealach, gealach sa cheathramh mu dheireadh le aodann
+🌡 aimsir, sìde, teas-mheidh
+☀ a’ ghrian, gathan, grianach, soilleir
+🌝 aodann, gealach, gealach làn le aodann, làn, soilleir
+🌞 a’ ghrian le aodann oirre, aodann, grian, soilleir
+🪐 gruamach, planaid fhàinneach, Rionnag nan Roth, satarn, Sathairn, saturn
+⭐ reul, rionnag, rionnag mheadhanach gheal
+🌟 boillsgeadh, dealrach, dealradh, priobadh reul, rionnag, rionnag dhealrach
+🌠 dreag, earballach, reul, rionnag, tuiteam
+🌌 fànas, Slighe Chlann Uisnich, speur
+☁ aimsir, neul, sìde
+⛅ a’ ghrian air cùl sgòtha, grian, neul, sgòth
+⛈ neul, neul le dealanaich ’s uisge, tàirneanach, uisge
+🌤 a’ ghrian air cùl neòil bhig, grian, neul, sgòth
+🌥 a’ ghrian air cùl sgòtha mhòir, grian, neul, sgòth
+🌦 a’ ghrian air cùl sgòtha uisge, grian, neul, sgòth, uisge
+🌧 neul, sgòth, sgòth le uisge, uisge
+🌨 fuar, neul, sgòth, sgòth le sneachd, sneachd
+🌩 dealanaich, neul, neul le dealanaich, sgòth
+🌪 neul, sgòth, tornàdo
+🌫 ceò, neul
+🌬 aodann, aodann na gaoithe, gaoth, neul, sèideadh, sgòth
+🌀 cuairt, cuairt-gaoithe, gaoith, tuaineal
+🌈 bogha-froise, uisge
+🌂 aodach, sgàilean, sgàilean-uisge dùinte, uisge
+☂ aodach, sgàilean-uisge, uisge
+☔ aodach, boinne, sgàilean, sgàilean-uisge le boinnean uisge, uisge
+⛱ grian, sgàilean, sgàilean air an làr, uisge
+⚡ cunnart, dealan, dealanach, dealanaich, voltachd, voltachd àrd
+❄ bleideag, bleideag sneachda, fuar, sneachd
+☃ bodach-sneachda, fuar, sneachd
+⛄ bodach-sneachda, bodach-sneachda gun sneachd, fuar, sneachd
+☄ comaid, fànas, speur
+🔥 acainn, lasair, teine
+💧 boinne, boinneag, dealbh-èibhinn, fallas, fuar
+🌊 cuan, stuagh, tonn, uisge
+🎃 comharrachadh, lanntair, lanntair peapaig, oidhche shamhna, peapag, samhainn
+🎄 comharrachadh, craobh, craobh Nollaig, nollaig
+🎆 cleasan-teine, comharrachadh
+🎇 cleasan-teine, comharrachadh, lainnir, lainnireag, sradag
+🧨 cleasan-teine, dineamait, dìorrasan-fùdair, spreadhach, spreadhadh
+✨ lainnir, lainnirean, reul, rionnag
+🎈 bailiùn, comharrachadh
+🎉 bragadair, cèilidh, comharrachadh, pàrtaidh
+🎊 bàla, ball, cèilidh, comharrachadh, confetti
+🎋 bratach, comharrachadh, craobh, craobh tanabata, iapanach, seapanach
+🎍 bambù, comharrachadh, giuthais, iapanach, seapanach, sgeadas giuthais
+🎎 comharrachadh, doileag, doileagan Seapanach, iapanach, seapanach
+🎏 bratach, bratach carbhain, carbhan, cèilidh, comharrachadh
+🎐 clag, clagan, clagan-gaoithe, comharrachadh, gaoth
+🎑 comharrachadh, deas-ghnàth, gealach, latha coimhead na gealaich
+🧧 airgead, cèiseag dhearg, fortan, hóngbāo, lai see, prèasant, sonas, tìodhlac
+🎀 comharrachadh, ribean
+🎁 bogsa, comharrachadh, paisgte, prèasant, tìodhlac
+🎗 comharrachadh, cuimhneachan, ribean, ribean cuimhneachaidh
+🎟 bileag, cairt-fharaidh, cead a-steach, inntrigeadh, ticead, ticeadan inntrigidh, ticeard, ticeid, tiocaid, tiogaid
+🎫 bileag, cairt-fharaidh, cead a-steach, inntrigeadh, ticead, ticeard, ticeid, tiocaid, tiogaid
+🎖 arm, bonn, bonn an airm, comharrachadh
+🏆 cuach-bhuaidhe, duais
+🏅 bonn, bonn spòrs
+🥇 bonn, bonn a’ chiad àite, chiad, ciad, òr
+🥈 airgead, bonn, bonn an dàrna àite, dara, dàrna
+🥉 bonn, bonn an treas àite, treas, treasamh, uamha
+⚽ bàla, ball, ball-coise
+⚾ bàla, ball, ball-beusa
+🥎 bàla, ball, ball-beusa bog, bog, miotag
+🏀 bàla, ball, ball-basgaid, cearcall
+🏐 bàla, ball, ball-bholaidh, geama
+🏈 aimeireaganach, bàla, ball, ball-coise, ball-coise Aimeireaganach
+🏉 bàla, ball, ball-coise, ball-rugbaidh, rugbaidh
+🎾 bàla, ball, racaid, teanas
+🥏 clàr, diosg, frisbee
+🎳 bàla, ball, bobhladh, geama
+🏏 bàla, ball, bata, criogaid, geama
+🏑 bàla, ball, caman, geama, hocaidh, hocaidh raoin, raon
+🏒 caman, deigh, geama, hocaidh, hocaidh-deigh, puck
+🥍 bàla, ball, bata, caman, lacrosse, tadhal
+🏓 bàla, ball, bata, geama, ping-pong, teanas-bùird
+🏸 badmantan, geama, racaid, spàl-ite
+🥊 dòrnaireachd, miotag
+🥋 carataidh, ealainean còmhraige, èideadh, èideadh nan ealainean còmhraige, judo, taekwondo
+🥅 lìon, lìon tadhail, tadhal
+⛳ bratach ann an toll, goilf, toll
+⛸ bròg-spèilidh, deigh, spèileadh
+🎣 iasg, slat, slat-iasgaich
+🤿 daibheadh, daoibhigeadh, masg-daoibhigidh, scuba, snorgal, snorgaladh
+🎽 bann, lèine, lèine-ruith, lùth-chleasachd, ruith
+🎿 sgìtheadh, sgìthean, sneachd
+🛷 càrn, càrn-slaoid, slaod, sleids
+🥌 clach, clach-chrolaidh, geama
+🎯 amas, bullseye, geama, san teis-mheadhan, sgiathag, targaid
+🪀 atharrachadh, atharraich, dèideag, luaisg, luasgadh, yo-yo
+🪁 itealach, itealag, itealaich, sgait-adhair, sgiathadh, sgiathaich
+🎱 8, bàla, bàla a h-ochd, ball, billiard, gèam, ochd, pool
+🔮 acainn, bàla, ball, ball criostail, criostal, fantastach, faoinsgeul, fortan, inneal
+🪄 bana-bhuidseach, buidseach, draoidh, draoidheachd, slatan-draoidheachd
+🧿 droch-shùil, eòlas, eòlas-sùla, geasag, grìogag, nazar, ortha-sùla, seun
+🎮 geama, geama video, uidheam-smachd
+🕹 bioran-smachd, geama, video
+🎰 geama, inneal shlotaichean, slot
+🎲 dìsinn, dìsnean, geama
+🧩 aisneis, co-cheangailte, faisneis, mìrean-measgaichte, pìos, tòimhseachan, tuairmse
+🧸 bog, dèideag, dèideag bhog, teadaidh
+🪅 cèilidh, comharrachadh, pàrtaidh, piñata
+🪆 am broinn a chèile, doileag, doileagan matryoshka, Ruiseanach
+♠ cairt, dath speura, geama
+♥ cairt, dath cridhe, geama
+♦ cairt, dath daoimein, geama
+♣ cairt, dath club, geama
+♟ blath-laoghan, blath-raoghan, culaidh-mheallaidh, meall, neo-chudromach, pàn tàileisg, tàileasg
+🃏 amadan, cairt, geama, saorag
+🀄 dearg, geama, leacag Mahjong le dràgon dearg, mahjong
+🎴 cairt, cairtean nam flùraichean, cluich, flùr, geama, iapanach, seapanach
+🎭 aghaidh-choimheach, cleasachd, ealain-chluiche, ealan, taigh-cluich
+🖼 dealbh, dealbh le frèam, ealan, frèam, taigh-tasgaidh
+🎨 dealbh, ealan, paidhleat, paileat neach-ealain, taigh-tasgaidh
+🧵 fuaigh, fuaigheil, snàithlean, snàthad, snìomh, snìomhan, spàl
+🪡 druine, fuaigheal, grèis, greus, snàthad
+🧶 cearta, ceirle, ceirsle, cnocan, croisidh, figh, fighe, snàth
+🪢 fiar, naisg, nasgadh, ròpa, snaidhm, snìomh, suain, toinn
+👓 aodach, speuclairean, sùil
+🕶 dorcha, speuclairean, speuclairean-grèine, sùil
+🥽 dìon sùla, glainne-dhìona, snàmh, sùil, tàthadh
+🥼 còta deuchainn-lainn, deuchainn, dotair, ollamh, saidheans
+🦺 èideadh sàbhailteachd, èiginn, peiteag, sàbhailteachd
+👔 aodach, tàidh
+👕 aodach, lèine, lèine-t
+👖 aodach, briogais, dìnichean
+🧣 amhach, stoc-amhaich
+🧤 làmh, miotagan
+🧥 còta, seacaid
+🧦 stocainn, stocainnean
+👗 aodach, dreasa
+👘 aodach, kimono
+🥻 aodach, dreasa, sari
+🩱 deise-shnàimh, snàmh
+🩲 briogais-shnàimh, deise-snàmh, fo-aodach
+🩳 briogais-ghlùine, briogais-shnàimh, deise-snàmh, fo-aodach
+👙 aodach, bikini, snàmh
+👚 aodach, aodach boireannaich, boireannach
+👛 aodach, bonn, sporan
+👜 aodach, baga, baga-làimhe, sporan
+👝 aodach, baga, clutch bag, pùidse
+🛍 baga, bagaichean seopadaireachd, ceannachd, seopadaireachd, taigh-òsta
+🎒 baga, baga-droma, baga-droma sgoile, màla, sgoil
+🩴 cuaran, cuaran-èill, iall, zōri
+👞 aodach, bròg, bròg fir, duine, fireannach
+👟 aodach, bròg, bròg-ruith, bròg-thrèanaidh, lùth-chleasachd
+🥾 botan, campachadh, coiseachd, turas poca-droma
+🥿 asair, ballet, bròg, fasair, laobhag, slipeir
+👠 aodach, boireannach, bròg, bròg le sàil àrd, sàil
+👡 aodach, boireannach, bròg, cuaran, cuaran boireannaich, sandal
+🩰 baileat, ballet, brògan ballet, dannsa
+👢 aodach, boireannach, bòtann, bòtann boireannaich, bròg
+👑 aodach, bànrigh, crùn, rìgh
+👒 ad, ad boireannaich, aodach, boireannach
+🎩 ad, aodach, àrd
+🎓 ad, aodach, ceumnachadh, comharrachadh, currac, currac ceumnachaidh
+🧢 ball-bheusa, bonaid bhileach, bonaid buill-bheusa
+🪖 arm, clogaid, clogaid airm, cogadh, feachd, gaisgeach, saighdear
+⛑ ad, aodann, clogaid, clogaid neach-teasairginn, cobhair, crois
+📿 aodach, coileir, creideamh, grìogagan, muinge, ùrnaigh
+💄 beul-dath, maise, maise-gnùis
+💍 daoimean, fàinne
+💎 daoimean, leug, seud
+🔇 glaodhaire, glaodhaire mùchte, mùch, sàmhach, tost
+🔈 fuaim, glaodhaire ’s fhuaim ìseal, glaodhaire a’ cur a-mach fuaim ìseal, ìseal
+🔉 fuaim, glaodhaire ’s fhuaim mheadhanach, glaodhaire a’ cur a-mach fuaim mheadhanach, meadhanach
+🔊 àrd, fuaim, glaodhaire ’s fhuaim àrd, glaodhaire a’ cur a-mach fuaim àrd
+📢 àrd, fuaim, glaodhaire, pa
+📣 brosnachadh, meaga-fòn
+📯 còrn, còrn a’ phuist, post
+🔔 clag
+🔕 àicheadh, clag, clag le loidhne troimhe, diùltadh, mùch, sàmhach, toirmisgte, tost
+🎼 ceòl, iuchair-ghleus, sgàla, sgòr
+🎵 ceòl, pong, puing
+🎶 ceòl, pong, pongan, pongan ciùil, puing
+🎙 ceòl, mic, micreofon, stiùideo, stiùidio
+🎚 àirde, ceòl, leibheil, sleamhnachan
+🎛 ceòl, putan, putanan-smachd, smachd
+🎤 karaoke, mic, micreofon
+🎧 earbud, headphone
+📻 rèidio, video
+🎷 ceòl, inneal-ciùil, ionnsramaid, sacsafon
+🪗 bogsa, bogsa-ciùil, bucas
+🎸 ceòl, giotàr, inneal-ciùil, ionnsramaid
+🎹 ceòl, clàrsach mòr, inneal-ciùil, ionnsramaid, keyboard, meur-chlàr, meur-chlàr ciùil, piàna
+🎺 ceòl, inneal-ciùil, ionnsramaid, trombaid
+🎻 ceòl, fìdheall, inneal-ciùil, ionnsramaid
+🪕 bainsio, ceòl, teud, teudan
+🥁 bioran, ceòl, druma
+🪘 buille, conga, druma, druma fada, ruitheam
+📱 fòn, fòn-làimhe, mobile
+📲 cuir fòn, faigh, faighinn, fòn, fòn-làimhe, fòn-làimhe le saighead, gairm, mobile, saighead
+☎ fòn
+📞 fòn, glacadair-fòn
+📟 pèidsear
+📠 facs, inneal facs
+🔋 bataraidh
+🔌 dealan, dealanach, pluga, pluga dealain
+💻 coimpiutair, laptop, pc, pearsanta
+🖥 coimpiutair, deasg, desktop
+🖨 clò-bhualadair, clò-bhualadh, coimpiutair, prionntair
+⌨ coimpiutair, meur-chlàr
+🖱 coimpiutair, luchag
+🖲 coimpiutair, trackball
+💽 coimpiutair, diosg, diosga coimpiutair, lèirsinneach, meanbh-dhiosg, minidisk, optaigeach
+💾 bog, coimpiutair, diosg, floppy
+💿 cd, coimpiutair, diosg, lèirsinneach, optaigeach
+📀 blu-ray, coimpiutair, diosg, dvd, DVD, lèirsinneach, optaigeach
+🧮 abacas, àireamhachadh, àireamhaich, cunntas
+🎥 camara, camara-film, film, taigh-dhealbh
+🎞 film, frèam, frèamaichean film, taigh-dhealbh
+📽 film, proiseactar, taigh-dhealbh, tilgeir, video
+🎬 bòrd-braig, film
+📺 tbh, telebhisean, tv, video
+📷 camara, video
+📸 boillsgeadh, camara, camara le solas-boillsgidh, solas-boillsgidh, video
+📹 camara, camara-video, video
+📼 cèiseag-video, teip, vhs, video
+🔍 acainn, glainne, glainne-mheudachaidh ag aomadh dhan taobh chlì, glainne-mheudachaidh dhan taobh chlì, inneal, lorg, meudachadh
+🔎 acainn, glainne, glainne-mheudachaidh ag aomadh dhan taobh dheas, glainne-mheudachaidh dhan taobh dheas, inneal, lorg, meudachadh
+🕯 coinneal, solas
+💡 beachd, beachd-smuain, bolgan, bolgan solais, dealan, dealanach, dealbh-èibhinn, solas
+🔦 dealanach, inneal, lòchran, solas, toirds, toirds dealain
+🏮 bàr, dearg, lanntair, lanntair-pàipeir dearg, solas
+🪔 diya, lampa, lampa-eòlain, ola
+📔 còmhdachadh, leabhar, leabhar-nòtaichean, leabhar-nòtaichean le còmhdachadh sgeadaichte, sgeadaichte
+📕 dùinte, leabhar
+📖 fosgailte, leabhar
+📗 leabhar, uaine
+📘 gorm, leabhar
+📙 leabhar, orainds, orains
+📚 leabhar, leabhraichean
+📓 leabhar, leabhar-nòtaichean
+📒 leabhar, leabhar-cunntais, leabhar-nòtaichean
+📃 duilleag, duilleag le lùbadh, lùbadh, sgrìobhainn
+📜 pàipear, sgrola
+📄 duilleag, duilleag le h-aghaidh os a cionn, sgrìobhainn
+📰 naidheachd, naidheachdan, pàipear, pàipear-naidheachd
+🗞 naidheachd, naidheachdan, pàipear, pàipear-naidheachd truiste, roiligeadh, truiste
+📑 comharra, comharra-leabhair, comharraich, taba, tabaichean-leabhair
+🔖 comharra, comharra-leabhair, comharraich
+🏷 bileag, leubail
+💰 airgead, baga, dolar, mogan, mogan airgid, poca
+🪙 airgead, bonn, meatailt, òr, ulaidh
+💴 airgead, airgeadra, banca, not, not Yen, nòta, nòta-airgid, nòta-banca, yen
+💵 airgead, airgeadra, banca, dolar, not, not dolair, nòta, nòta-airgid, nòta-banca
+💶 airgead, airgeadra, banca, eòro, not, not Eòro, nòta, nòta-airgid, nòta-banca
+💷 airgead, airgeadra, banca, not, not Punnd, nòta, nòta-airgid, nòta-banca, punnd
+💸 airgead, airgead le sgiathan, banca, dolar, not, nòta, nòta-airgid, nòta-banca, sgiathan
+💳 airgead, banca, cairt, cairt-chreideis, creideas
+🧾 cuidhteas, cunntas, cunntasachd, dearbh, dearbhadh, dearbhaich, fianais, leabhar-chunntas
+💹 airgead, airgeadra, banca, cairt, cairt a’ dol suas le Yen, dìreadh, èirich, fàs, graf, margadh, margaid, suas, treand, yen
+✉ cèis-litreach, litir, post-d
+📧 litir, post, post-d
+📨 a-steach, cèis, faighinn, litir, post, post-d
+📩 a-mach, cèis, cèis le saighead, cuir, cur, litir, post, post-d, saighead, sìos
+📤 a-mach, air a chur, bogsa, cuir, cur, litir, post, treidhe
+📥 a-steach, bogsa, faighinn, litir, post, treidhe
+📦 bogsa, pacaid
+📫 bogsa-puist, bogsa-puist dùinte le bratach gu h-àrd, dùinte, post
+📪 bogsa-puist, bogsa-puist dùinte le bratach gu h-ìosal, dùinte, post, shìos, sìos
+📬 bogsa-puist, bogsa-puist fosgailte le bratach gu h-àrd, fosgailte, post
+📭 bogsa-puist, bogsa-puist fosgailte le bratach gu h-ìosal, fosgailte, post, shìos, sìos
+📮 bogsa-puist, post
+🗳 baileat, bhòtadh, bogsa, bogsa taghaidh le baileat, taghadh
+✏ peansail
+✒ gob, gob dubh, peann
+🖋 peann
+🖊 bàla, ceann-bàla, peann, peann-bàla
+🖌 bruis-pheant, dealbh, dealbhachd, dealbhadaireachd, peantadh, peantaireachd
+🖍 crèidhean
+📝 cuimhneachan, peansail
+💼 màileid, màileid-oifise
+📁 faidhle, pasgan
+📂 faidhle, fosgailte, pasgan, pasgan fhaidhlichean fosgailte
+🗂 cairt, clàr-amais, roinneadair, roinneadairean clàr-amais chairtean
+📅 ceann-là, ceann-latha, mìosachan
+📆 mìosachan, mìosachan le duilleagan a thig dheth
+🗒 cuachag, nòta, pada, pada-nòtaichean le cuachag
+🗓 cuachag, mìosachan, mìosachan le cuachag, pada
+📇 cairt, clàr-amais, clàr-amais chairtean, rolodex
+📈 cairt, cairt a’ dol suas, fàs, graf, suas, treand
+📉 cairt, cairt a’ dol sìos, crìonadh, graf, sìos, treand
+📊 bàr, cairt, cairt-bhàraichean, graf
+📋 bòrd-chliopaichean, stòr-bhòrd
+📌 prìne, tacaid, tacaid-bhrùthaidh
+📍 prìne, tacaid, tacaid-bhrùthaidh, tacaid-bhrùthaidh chruinn
+📎 clip-phàipeir
+🖇 ceangal, cliopaichean-pàipeir ceangailte, clip-phàipeir
+📏 dìreach, rùilear
+📐 rùilear, seata, triantanach
+✂ acainn, bearradh, siosar
+🗃 bogsa, bogsa fhaidhlichean, cairt, faidhle
+🗄 caibineat, caibineat fhaidhlichean, faidhle, faidhleadh, preas
+🗑 bogsa-sgudail, sgudal
+🔒 dùinte, glaiste
+🔓 fosgail, fosgailte, glas, neo-ghlais, neo-ghlaiste
+🔏 glais, glaiste le peann, glas, gob, inc, peann, prìobhaideachd
+🔐 dùinte, glais, glaiste le iuchair, glas, iuchair, tèarainte
+🔑 facal-faire, glais, glas, iuchair
+🗝 glais, glas, iuchair, iuchair seann-nòsach, oidheam, sean, seann
+🔨 acainn, inneal, òrd
+🪓 bris, briseadh, fiodh, maide, sgoilt, sgoltadh, tuagh
+⛏ acainn, mèinnearachd, piocaid, tochladh
+⚒ acainn, inneal, òrd, òrd is piocaid, piocaid
+🛠 inneal, nupair, òrd, òrd is toinnear, spanair, toinnear
+🗡 arm, biodag, sgian
+⚔ arm, claidheamhan, claidheamhan tarsainn a chèile, tarsainn
+🔫 acainn, arm, daga, gunna, gunna-làimhe, inneal
+🪃 Astràilia, ath-leum, buaidh, buil, bùmarang, tilleadh
+🏹 acainn, arm, bogha, bogha agus saighead, boghadair, boghadaireachd, grian-chriosach, inneal, sagittarius, saighdear, saighead
+🛡 arm, armachd, sgiath
+🪚 acainn, fiodh, inneal, sàbh, saoirsinneachd, saor, saorsainneachd
+🔧 inneal, nupair, spanair, toinnear
+🪛 acainn, inneal, sgriubha, sgriubhaire
+🔩 acainn, bolta, cnò, cnò ’s bolta, inneal
+⚙ acainn, gèar, inneal
+🗜 clabhd, dùmhladh, dùmhlaich, glamradh, gramaiche, inneal
+⚖ acainn, britheamh, cothrom, cuideam, grian-chriosach, inneal, libra, meidh, meidh co-chothromach
+🦯 batachan, dall, doille, so-ruigsinneachd
+🔗 bun-dùirn, ceangal, ceangal-dùirn, lùb
+⛓ sèine, sèineachan
+🪝 cròcag, cròicean, cromag, dubhan, huca, reic, rib
+🧰 acainn, bogsa, bogsa-innealan, inneal, meacanaig
+🧲 clach-iùil, crudha-eich, magnaiteach, tarraing
+🪜 àradh, ceum, dìreadh, dìrich, fàradh, rang, reang, rong, sreap
+⚗ acainn, ceimigeachd, inneal
+🧪 ceimigeachd, ceimigear, cungaidhear, deuchainn, deuchainn-lann, saidheans, tiùb-deuchainne
+🧫 bacerium, baictear, bith-eòlaiche, bith-eòlas, deuchainn, deuchainn-lann, lobhag, soitheach Petri
+🧬 beatha, bith-eòlaiche, bith-eòlas, dna, èabhlaid, eòlas-gintinneachd, gine, gintinneachd, gnè-fhàs, mean-fhàs, tarmachadh-gnè
+🔬 acainn, glainne, inneal, meudachadh, micreosgop, saidheans
+🔭 acainn, glainne, glainne-amhairc, inneal, meudachadh, prosbaig, saidheans, teileasgop
+📡 iadhaire, iadhaire-saideil, saideal, soitheach
+💉 acainn, bochd, dotair, inneal, leigheas, snàthad, stealladh, steallair, tinn
+🩸 boinne, boinne fala, fuil, fuil mhìosail, fuil-mìos, leigheas, tabhartas fala
+💊 bochd, dotair, leigheas, pile, tinn
+🩹 bann-araid, cuarag, cuaran
+🩺 cridhe, dotair, leigheas, lighiche, steatasgop, steiteasgop
+🚪 doras
+🛗 àrdaichear, so-ruigsinneachd, tog, togail
+🪞 ath-thilgeil, faileas, frith-thilgear, sgàthan
+🪟 adhair ùr, coimhead, fosgladh, frèam, seall, sealladh, trìd-shoilleir, uinneag
+🛏 cadal, leabaidh, taigh-òsta
+🛋 lampa, langasaid, langasaid ’s lampa, taigh-òsta
+🪑 cathair, sèithear, suidhe, suidheachan
+🚽 taigh-beag
+🪠 loinid, plumair, sùghadh, taigh-beag
+🚿 bùrn, frasair, uisge
+🛁 amar, ballan-ionnlaid, ionnlad, ionnlaid
+🪤 biadh, luch, ribe, strap, strap lucha, trap, trap lucha
+🪒 beàrr, bearradh, ealtainn, geur
+🧴 bana-bhuidseach, botal lòisein, buidseach, glanadh, sguabadh
+🧷 badan, prìne-dùbailte, puncair, punk
+🧹 bana-bhuidseach, buidseach, glanadh, sguab, sguabadh
+🧺 àiteach, àiteachas, basgaid, croitearachd, cuim-cnuic, tuathanachas, tuathanasachd
+🧻 pàipear-tòin, rola pàipeir, tubhailt pàipeir
+🪣 bacaid, ballan, bucaid, peile
+🧼 gàd, glan, glanadh, nighe, siabann
+🪥 bruis, bruis-fhiaclan, fiacal, fiaclan, seòmar-ionnlaid, slàinteachas
+🧽 cìobail, glan, glanadh, nighe, spong, sùghadh
+🧯 inneal-smàlaidh, smàladh, teine
+🛒 cairt, ceannach, ceannachd, ceannaich, seopadaireachd, troilidh
+🚬 smocadh, toit, toitean
+⚰ bàs, caochladh, ciste-laighe, eug, siubhal
+🪦 clach, clach-chinn, clach-uaighe, cladh, leac, leac-lighe, uaigh
+⚱ adhlacadh, bàs, caochladh, eug, luaithre, poit-tasgaidh, siubhal, tìodhlacadh
+🗿 aodann, ìomhaigh, mo‘ai, mo’ai, moai, moyai
+🪧 fianais, gearan, gràcalas, piceid, piogaid, sanas, sluagh-fhianais, tog fianais, tog gearan, togail fianais, togail gearan
+🏧 airgead, airgead-làimhe, atm, banca, fèin-obrachail, inneal, neach-cunntaidh, sanas ATM
+🚮 biona, biona-sgudail, samhla “Sgudal dhan bhiona”, sgudal
+🚰 òl, so-òlta, uisge
+♿ inntrigeadh, samhla sèitheir-chuibhle
+🚹 duine, fear, fireannach, taigh-beag, taigh-beag nam fireannach, wc
+🚺 boireannach, taigh-beag, taigh-beag nam boireannach, tè, wc
+🚻 sanas taighe-bhig, taigh-beag, wc
+🚼 badan, leanabh, naoidhean, samhla leanabhain
+🚾 clòsaid, clòsaid-uisge, taigh-beag, uisge, wc
+🛂 cead-siubhail, pas, sgrùdadh, sgrùdadh nam pas
+🛃 cusbainn
+🛄 baga, bagaist, faighinn, ionad-tagraidh, tagradh
+🛅 bagaist, bagaist air fhàgail, preas, trealaich
+⚠ rabhadh
+🚸 clann, clann a’ dol thairis, coiseachd, coisiche, tarsainn, thairis, trafaig
+⛔ àicheadh, diùltadh, gun inntrigeadh, inntrigeadh, toirmisgte, trafaig
+🚫 àicheadh, diùltadh, inntrigeadh, toirmisgte
+🚳 àicheadh, baidhseagal, diùltadh, rothair, rothaireachd toirmisgte, toirmisgte
+🚭 àicheadh, diùltadh, smocadh, toirmisgte, toit
+🚯 àicheadh, diùltadh, na tilg sgudal, sgudal, tilgeil, toirmisgte
+🚱 do-òlta, na òl, uisge
+🚷 àicheadh, coiseachd, coisiche, diùltadh, toirmisgte
+📵 àicheadh, diùltadh, fòn, fòn-làimhe, fònaichean-làimhe toirmisgte, toirmisgte
+🔞 18, àicheadh, aois, cuingeachadh, cuingeachadh aoise, daoine os cionn 18 a-mhàin, diùltadh, mion-aoiseach, toirmisgte
+☢ beò-rèididheachd, sanas
+☣ cunnart bith-eòlach, sanas
+⬆ àirde, combaist, comhair, saighead, saighead gu tuath, tuath
+↗ àirde, combaist, comhair, ear-thuath, saighead, saighead gun ear-thuath
+➡ saighead gun ear, saighead gun ear-dheas
+↘ àirde, combaist, comhair, ear-dheas, saighead, saighead gun ear-dheas
+⬇ àirde, combaist, comhair, deas, saighead, saighead gu deas
+↙ àirde, combaist, comhair, iar-dheas, saighead, saighead gun iar-dheas
+⬅ àirde, combaist, comhair, iar, saighead, saighead gun iar
+↖ àirde, combaist, comhair, iar-thuath, saighead, saighead gun iar-thuath
+↕ saighead, saighead suas is sìos
+↔ saighead, saighead chlì is dheas
+↮ saighead dheas is chlì le stràc troimhe
+↩ saighead, saighead dheas a’ lùbadh dhan taobh chlì
+↪ saighead, saighead chlì a’ lùbadh dhan taobh deas
+⤴ saighead, saighead dheas a’ lùbadh suas
+⤵ saighead, saighead dheas a’ lùbadh sìos, sìos
+🔃 ath-luchdadh, ath-luchdaich, deiseil, saighdean inghearach a’ dol deiseil, saighead
+🔄 putan saighdean a’ dol tuathail, saighead, tuathail
+🔙 air ais, saighead, saighead “BACK”
+🔚 deireadh, saighead, saighead “END”
+🔛 air, comharra, saighead, saighead “ON”
+🔜 a dh’aithghearr, saighead, saighead “SOON”
+🔝 barr, ceann, mullach, saighead, saighead “TOP”, suas
+🛐 adhradh, àite-adhraidh, creideamh
+⚛ atam, eas-creideach, eas-creidmheach, neo-dhiadhaire, samhla ataim
+🕉 creideamh, hindu, om
+✡ creideamh, daibhidh, iùdhach, reul, reul Dhaibhidh
+☸ budach, creideamh, cuibhle, dharma
+☯ creideamh, tao, taothach, yang, yin, Ying Yang
+✝ creideamh, crìostaidh, crois, crois Laideann
+☦ creideamh, crìostaidh, crois, crois nan Ortodogsach
+☪ corran is rionnag, creideamh, ioslam, muslamach
+☮ menorah, samhla sìthe
+🕎 coinnlear, coinnlear meurach, creideamh, menorah
+🔯 fortan, reul, rionnag, rionnag shia-rinneach dhotagach
+♈ An Reithe, aries, grian-chrios, grian-chriosach, reithe
+♉ An Tarbh, damh, grian-chrios, grian-chriosach, tarbh, taurus
+♊ gemini, grian-chrios, grian-chriosach, leth-aon, leth-aonan, Na Leth-aonan
+♋ Am Partan, cancer, grian-chrios, grian-chriosach, partan
+♌ An Leòmhann, grian-chrios, grian-chriosach, leo, leòmhann
+♍ A’ Mhaighdeann, crian-chriosach, grian-chrios, maighdeann, virgo
+♎ A’ Mheidh, britheamh, cothrom, cuideam, grian-chrios, grian-chriosach, libra, meidh
+♏ An Sgairp, grian-chrios, grian-chriosach, scorpio, scorpius, sgairp
+♐ An Saighdear, boghadair, grian-chrios, grian-chriosach, sagittarius, saighdear
+♑ An Gobhar, capricorn, gobhar, grian-chrios, grian-chriosach
+♒ Am Fear-giùlain Uisge, aquarius, giùlan, grian-chrios, grian-chriosach, uisge
+♓ èisg, grian-chrios, grian-chriosach, iasg, Na h-Èisg, pisces
+⛎ An Giùlanair-nathrach, giùlanair, grian-chrios, grian-chriosach, nathair, ophiuchus
+🔀 putan a chuireas tracaichean air thuaiream, saighead, tarsainn
+🔁 ath-chluich, atharrais, cluich a-rithist, deiseil, putan na h-ath-chluich, saighead
+🔂 aon turas, deiseil, putan na h-ath-chluich shingilte, saighead
+▶ cluich, deas, putan “Cluich”, saighead, triantan
+⏩ air adhart, dùbailte, luath, putan “Toinn air adhart”, saighead
+⏭ air adhart, ath-shealladh, ath-thraca, putan “An ath-thraca”, saighead, sealladh, traca, triantan
+⏯ cluich, deas, putan “Cluich no cuir na stad”, saighead, stad, triantan
+◀ clì, comhair, deireadh air thoiseach, putan “Deireadh air thoiseach”, saighead, triantan
+⏪ air ais, dùbailte, luath, putan “Air ais gu luath”, saighead
+⏮ air ais, putan “An traca roimhe”, roimhe, saighead, sealladh, traca, triantan
+🔼 dearg, putan, putan suas, saighead
+⏫ dùbailte, putan “Suas gu luath”, saighead
+🔽 putan, putan sìos, saighead, sìos dearg
+⏬ dùbailte, putan “Sìos gu luath”, saighead, sìos
+⏸ bàr, dùbailte, inghearach, putan “Cuir na stad”, stad
+⏹ ceàrnag, putan “Cuir stad air”, stad
+⏺ cearcall, clàradh, clàraich, putan “Clàraich”
+⏏ a-mach, gluais, gluasad, putan “Gluais a-mach”
+🎦 camara, film, taigh-dhealbh
+🔅 doilleir, doilleirich, ìosal, putan doilleireachaidh, soilleireachd
+🔆 àrd, putan soilleireachaidh, soilleir, soilleireachd, soilleirich
+📶 bàr, crann-sgaoilidh, fòn, fòn-làimhe, iadhaire, iadhaire le bàraichean, siognail
+📳 caismeachd, caismeachd crithe, crith, fòn, fòn-làimhe, modh
+📴 dheth, fòn, fòn-làimhe
+♀ boireannach, samhla boireann
+♂ fireannach, samhla fireann
+⚧ samhla tar-ghnèitheach, tar-ghnèitheach
+✖ ×, iomadachadh, iomadaich, samhla, samhla iomadachaidh, sguir dheth, sgur dheth, x, x iomadachaidh throm
+➕ +, cuir ris, cur ris, matamataig, plus, samhla, samhla cuir-ris
+➖ -, –, matamataig, minus, samhla, samhla toirt air falbh, thoir air falbh, toirt air falbh
+➗ /, ÷, matamataig, roinn, roinn le, roinneadh, samhla, samhla roinnidh
+♾ buan, daonnan, gun chrìch, gun chrìoch, neo-chrìochnachd, uile-choicheann
+‼ !, !!, clisg-phuing, clisg-phuing dhùbailte, comharra, dùbailte, puingeachadh
+⁉ !, !?, ?, clisg-phuing, clisg-phuing is comharra-ceiste, comharra, comharra-ceiste, puingeachadh
+❓ ?, comharra, comharra-ceiste, comharra-ceiste dearg, puingeachadh
+❔ ?, comharra, comharra-ceiste, comharra-ceiste geal, oir-loidhne, puingeachadh
+❕ !, clisg-phuing, clisg-phuing gheal, comharra, oir-loidhne, puingeachadh
+❗ !, clisg-phuing, clisg-phuing dhearg, comharra, puingeachadh
+〰 comharra, dais, loidhne, lùbach, puingeachadh
+💱 airgead, airgeadra, banca, iomlaid, iomlaid airgid
+💲 airgead, airgeadra, dolar, samhla dolair trom
+⚕ aesculapius, bata, leigheas, samhla meadaigeach
+♻ ath-chuairteachadh, ath-chuairtich, samhla ath-chuartachaidh
+⚜ fleur-de-lis
+🔱 acainn, acair, inneal, long, muirgheadh, samhla muirgheidh, suaicheantas
+📛 ainm, baidse
+🔰 acainn, buidhe, duilleag, iapanach, inneal, neach-tòiseachaidh, saidh, samhla Seapanach air neach-tòiseachaidh, samhla Seapanach airson neach-tòiseachaidh, seapanach, tòiseachadh, uaine
+⭕ cearcall, cearcall dearg falamh, dearg, mòr, o
+✅ comharra, cromag, putan, putan cromaige
+☑ bogsa, bogsa-cromaige le cromag, cromag
+✔ comharra, cromag, cromag dearbhaidh
+❌ ×, comharra, iomadachadh, iomadaich, samhla croise, sguir dheth, sgur dheth, x
+❎ ×, ceàrnag, comharra, samhla croise ann am putan, x
+➰ dualach, lùb, lùb dhualach
+➿ dualach, dùbailte, lùb, lùb dhualach dhùbailte
+〽 atharrachadh, comharra, comharra airson atharrachadh phàirtean, pàirt
+✳ *, reultag, reultag le ochd rinnean
+✴ *, rionnag, rionnag le ochd rinnean
+❇ *, lainnir
+© (c), ©, c, còir-lethbhreac
+® (r), ®, clàraichte, r
+™ comharra, comharra-malairt, tm
+🔠 ABCD, ion-chur, ion-chur litrichean mòra Laideann, laideann, litir, litrichean, litrichean mòra, mòr
+🔡 ABCD, beag, ion-chur, ion-chur litrichean beaga Laideann, laideann, litir, litrichean, litrichean beaga
+🔢 1234, àireamhan, ion-chur
+🔣 ⁊%, 〒♪&amp;amp, ion-chur, ion-chur shamhlaichean
+🔤 abc, aibideil, ion-chur, ion-chur litrichean Laideann, laideann, litir, litrichean
+🅰 a, fuil, putan A (seòrsa fala), seòrsa fala
+🆎 ab, fuil, putan AB (seòrsa fala), seòrsa fala
+🅱 b, fuil, Putan B (seòrsa fala), seòrsa fala
+🆑 cl, putan CL
+🆒 cool, gasta, putan COOL, smodaig
+🆓 an-asgaidh, putan FREE, saor
+ℹ fiosrachadh, i
+🆔 aithnichear, dearbh-aithne, id, putan ID
+Ⓜ cearcall, m, M le cearcall timcheall air
+🆕 putan NEW, ùr
+🆖 ng, putan NG
+🅾 fuil, o, Putan O (seòrsa fala), seòrsa fala
+🆗 ceart, ceart ma-thà, ok, ok ma-thà, putan OK
+🅿 pàirceadh, putan P
+🆘 cobhair, cuideachadh, putan “SOS”, sos
+🆙 comharra, putan “UP!”, suas
+🆚 an aghaidh, putan “VS”, versus, vs
+🈁 an-seo, iapanais, katakana, putan Seapanais “An-seo”, seapanais, ココ
+🈂 iapanais, katakana, putan Seapanais “tàille seirbheise”, seapanais, tàille seirbheise, サ
+🈷 iapanais, ideo-ghraf, putan Seapanais “tàille mhìosail”, seapanais, tàille mhìosail, 月
+🈶 Chan ann saor ‘s an-asgaidh, iapanais, ideo-ghraf, putan Seapanais “Chan ann an-asgaidh”, putan Seapanais “Chan ann saor ’s an-asgaidh”, Seapanais, 有
+🈯 glèidhte, iapanais, ideo-ghraf, putan Seapanais “Glèidhte”, Seapanais, 指
+🉐 bargan, iapanais, ideo-ghraf, putan Seapanais “Bargan”, Seapanais, 得
+🈹 iapanais, ideo-ghraf, lasachadh, putan Seapanais “Lasachadh”, Seapanais, 割
+🈚 an-asgaidh, iapanais, ideo-ghraf, putan Seapanais “Saor ’s an-asgaidh”, saor ‘s an-asgaidh, Seapanais, 無
+🈲 iapanais, ideo-ghraf, putan Seapanais “Toirmisgte”, Seapanais, toirmisgte, 禁
+🉑 ceart gu leòr, iapanais, ideo-ghraf, putan Seapanais “Ceart gu leòr”, Seapanais, 可
+🈸 iapanais, ideo-ghraf, putan Seapanais “Tagradh”, Seapanais, tagradh, 申
+🈴 iapanais, ideo-ghraf, ìre pas, putan Seapanais “Ìre pas”, Seapanais, 合
+🈳 iapanais, ideo-ghraf, putan Seapanais “Seòmar saor”, Seapanais, seòmar saor, 空
+㊗ iapanais, ideo-ghraf, meal do naidheachd, mealaibh ur naidheachd, putan Seapanais “Meal do naidheachd”, Seapanais, 祝
+㊙ dìomhair, iapanais, ideo-ghraf, putan Seapanais “Dìomhair”, Seapanais, 秘
+🈺 fosgailte, iapanais, ideo-ghraf, putan Seapanais “Fosgailte”, Seapanais, 営
+🈵 gun seòmar saor, iapanais, ideo-ghraf, putan Seapanais “Gun seòmar saor”, Seapanais, 満
+🔴 cearcall, dearg, geomatrach
+🟠 cearcall, orainds, orains
+🟡 buidhe, cearcall
+🟢 cearcall, uaine
+🔵 cearcall, geomatrach, gorm
+🟣 cearcall, corca, purpaidh
+🟤 cearcall, donn
+⚫ cearcall, cearcall dubh, geomatrach
+⚪ cearcall, cearcall geal, geomatrach
+🟥 ceàrnach, dearg
+🟧 ceàrnach, orainds, orains
+🟨 buidhe, ceàrnach
+🟩 ceàrnach, uaine
+🟦 ceàrnach, gorm
+🟪 ceàrnach, corca, purpaidh
+🟫 ceàrnach, donn
+⬛ ceàrnag, ceàrnag mhòr dhubh, geomatrach
+⬜ ceàrnag, ceàrnag mhòr gheal, geomatrach
+◼ ceàrnag, ceàrnag mheadhanach dhubh, geomatrach
+◻ ceàrnag, ceàrnag mheadhanach gheal, geomatrach
+◾ ceàrnag, ceàrnag mheadhanach bheag dhubh, geomatrach
+◽ ceàrnag, ceàrnag mheadhanach bheag gheal, geomatrach
+▪ ceàrnag, ceàrnag bheag dhubh, geomatrach
+▫ ceàrnag, ceàrnag bheag gheal, geomatrach
+🔶 daoimean, daoimean mòr orains, geomatrach, orainds, orains
+🔷 daoimean, daoimean mòr gorm, geomatrach, gorm
+🔸 daoimean, daoimean beag orains, geomatrach, orainds, orains
+🔹 daoimean, daoimean beag gorm, geomatrach, gorm
+🔺 dearg, geomatrach, triantan dearg a’ tomhadh suas
+🔻 dearg, geomatrach, sìos, triantan dearg a’ tomhadh sìos
+💠 a-staigh, daoimean, daoimean le dotag na bhroinn, dealbh-èibhinn, geomatrach, na bhroinn
+🔘 geomatrach, putan, putan-rèidio, rèidio
+🔳 ceàrnag, ceàrnagach, geomatrach, oir-loidhne, putan, putan geal ceàrnagach
+🔲 ceàrnag, ceàrnagach, geomatrach, putan, putan ceàrnagach dubh
+🏁 bratach bhreacte, breac, breacte, rèis, rèiseadh
+🚩 bratach thriantanach, post
+🎌 brataichean tarsainn a chèile, comharrachadh, iapanach, seapanach, tarsainn
+🏴 bratach dhubh, crathadh, snàmh
+🏳 bratach gheal, crathadh, snàmh
+🏳‍🌈 bogha-froise, bratach bogha-froise
+🏳‍⚧ bratach, bratach ghorm, phinc is gheal, geal, gorm, pinc, tar-ghnèitheach
+🏴‍☠ bratach spùinneadair, creach, Jolly Roger, spùinn, spùinneadair, ulaidh
+¢ cent, seant
+$ airgead, dolar, dollar, peso, USD
+£ airgeadra, EGP, GBP, not, punnd, punnd Sasannach
+¥ airgeadra, CNY, JPY, yen, yuan
+₢ airgeadra, BRB, cruzeiro
+₣ airgeadra, franc, franc na Frainge
+₤ airgeadra, lira
+₥ mil, mill
+₩ KPW, KRW, won
+€ airgeadra, Eòro, EUR
+₰ airgeadra, pfennig, sgillinn na Gearmailte
+₱ peso
+₳ airgeadra, ARA, austral
+₶ airgeadra, livre tournois
+₷ airgeadra, spesmilo
+₹ airgeadra, rupee, rupee Innseanach, rupee nan Innseachan
+₽ airgeadra, rùbal
+₿ bitcoin, BTC
+₨ airgeadra, rupee
+﷼ airgeadra, rial
+¹ a h-aon os-sgrìobhte, aon, os-sgrìobhte
+² a dhà os-sgrìobhte, ceàrnagach, ceàrnagaichte, dà, os-sgrìobhte
+³ a trì os-sgrìobhte, ciùbach, ciùbaichte, os-sgrìobhte, trì
+µ samhla micreo, samhla μ, tomhas

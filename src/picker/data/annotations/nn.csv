@@ -1,0 +1,1023 @@
+{ klammeparentes, krøllparentes, parentes, startparentes, startsløyfeparentes
+‾ overline, vinculum
+- bindestrek-minus-teikn
+– bindestrekar, en-dash, halvgefirt, tankestrek
+— bindestrekar, em-dash, gefirt, lang tankestrek
+― strek, vassrett strek, vassrett. strek
+! utropsteikn
+¡ opp-ned utropsteikn, utropsteikn
+? spørsmål, spørsmålsteikn
+¿ opp-ned spørsmålsteikn, spørsmål, spørsmålsteikn
+؟ arabisk spørsmålsteikn, spørsmål, spørsmålsteikn
+‽ interabang, interrobang
+… ellipse, tre prikkar, utelating
+' enkelt rett hermeteikn, sitatteikn
+‘ enkelt krøllete venstre hermeteikn, sitatteikn, smart hermeteikn, start sitat
+’ enkelt krøllete høgre hermeteikn, sitat slutt, sitatteikn, smart hermeteikn
+‚ enkelt krøllete lågt venstre hermeteikn, sitatteikn, smart hermeteikn, start sitat
+“ dobbelt krøllete venstre hermeteikn, sitatteikn, smart hermeteikn, start sitat
+” dobbelt krøllete høgre hermeteikn, sitat slutt, sitatteikn, smart hermeteikn
+„ dobbelt krøllete lågt venstre hermeteikn, sitatteikn, smart hermeteikn, start sitat
+« hermeteikn, sitat start, sitatteikn, sjevron, venstre hermeteikn
+» hermeteikn, høgre hermeteikn, sitat slutt, sitatteikn, sjevron
+) bogeparentes, parentes, sluttparentes
+[ firkantparentes, klammeparentes, parentes, starthakeparentes, startparentes
+] firkantparentes, klammeparentes, parentes, slutthakeparentes, sluttparentes
+} klammeparentes, krøllparentes, parentes, sluttparentes, sluttsløyfeparentes
+〈 parentes, spissparentes, startparentes, startvinkelparentes, vinkelparentes
+〉 parentes, sluttparentes, sluttvinkelparentes, spissparentes, vinkelparentes
+《 dobbel startvinkelparentes, dobbelparentes, parentes, spissparentes, startparentes, vinkelparentes
+》 dobbel sluttvinkelparentes, dobbelparentes, parentes, sluttparentes, spissparentes, vinkelparentes
+「 hjørneparentes, parentes, starthjørneparentes, startparentes
+」 hjørneparentes, parentes, slutthjørneparentes, sluttparentes
+『 hjørneparentes, hol parentes, hol starthjørneparentes, parentes, startparentes
+』 hjørneparentes, hol parentes, hol slutthjørneparentes, parentes, sluttparentes
+【 fylt parentes, linseparentes, parentes, startparentes, svart parentes, svart startlinseparentes
+】 fylt parentes, linseparentes, parentes, sluttparentes, svart parentes, svart sluttlinseparentes
+〔 parentes, skjelpaddeskal, skjelpaddeskalparentes, startparentes
+〕 parentes, skjelpaddeskal, skjelpaddeskalparentes, sluttparentes
+〖 hol parentes, hol startlinseparentes, linseparentes, parentes, startparentes
+〗 hol parentes, hol sluttlinseparentes, linseparentes, parentes, sluttparentes
+§ avsnittssteikn, del, paragraf, paragrafteikn, signum sectionis
+¶ avsnittsteikn
+@ alfakrøll, at-teikn, krøllalfa
+* asterisk, jokerteikn, stjerne
+& ampersand, eit, eit-teikn, og, og-teikn
+# emneknagg, firkant, hashtagg, nummerteikn, skigard
+% prosent, prosentteikn
+‰ promille, promilleteikn
+† kross, krossteikn, latinsk kross
+‡ dobbel kross, dobbelkrossteikn
+• prikk, punkt, punktliste, punktteikn
+‧ bindestrek, interpunkt, prikk, punkt, stavingsmerke
+′ primteikn
+″ dobbel primteikn, dobbelt primteikn
+‴ trippelt primteikn
+‸ innsetjingsteikn
+⁂ asterisme, dinkus, stjerner
+´ aksent, akutt, høgreaksent, tonem, trykk
+¨ omlyd, tødlar, trema
+° alkoholinnhald, grader, gradeteikn, timar
+↚ venstrepil med strek over
+→ aust, høgre, høgrepil, pil høgre, pil mot høgre, retning
+↛ høgrepil med strek over
+↜ bølgeforma pil venstre
+↝ bølgeforma pil høgre
+↞ venstrepil med to spissar
+↟ oppoverpil med to spissar
+↠ høgrepil med to spissar
+↡ nedoverpil med to spissar
+↢ venstrepil med hale
+↣ høgrepil med hale
+↤ venstrepil frå line
+↥ oppoverpil frå line
+↦ høgrepil frå line
+↧ nedoverpil frå line
+↯ sikksakkpil
+⇅ kvar veg, nord-sør, op og ned, opp-ned, pil oppover framfor pil nedover, piler
+⇆ aust-vest, fram og tilbake, kvar veg, pil mot venstre over pil mot høgre, piler, venstre-høgre
+∆ dekrement, delta, inkrement, matematisk endring, matematiske teikn, trekant
+∇ matematiske teikn, nabla, trekant, triangel, vektorfelt, vektoroperator
+∈ element i, elementsymbol, matematiske teikn, mengdelære
++ addere, leggje til, pluss, plussteikn
+÷ dele, deleteikn, dividere, divisjon, divisjonsteikn, matematiske teikn
+× gonge, gongeteikn, matematiske teikn, multiplikasjon, multiplikasjonsteikn, multiplisere
+< er mindre enn, mindre enn, starttagg
+= er lik, likskapsteikn
+≠ er ikkje lik, ulikskap, ulikskapsteikn
+> endetagg, er større enn, større enn
+¬ ikkje, negasjon
+− minus, minusteikn, subtrahere, trekkje frå
+⁻ heva, heva minusteikn, ion, matematiske teikn, minus, negativ ladning
+√ kvadratrot, kvadratrotteikn, matematiske teikn
+∞ matematiske teikn, uendeleg, uendelegheitsteikn
+∩ matematiske teikn, mengdelære, snitt, snitteikn
+∪ foreining, matematiske teikn, mengdelære, union, unionteikn
+≈ avrunda til, er tilnærma lik
+≡ identisk lik, kongruent med, likskapsteikn, matematiske teikn
+≤ er mindre enn eller lik, likskapsteikn, mindre enn eller lik, ulikskap
+≥ er større enn eller lik, likskapsteikn, større enn eller lik, ulikskap
+⊂ delmengd av, inklusjonsteikn, matematiske teikn, mengdelære
+▲ fylt, fylt trekant som peikar opp, opp, pil, trekant
+▼ fylt, fylt trekant som peikar ned, ned, pil, trekant
+◊ diament, holt rutersymbol, rombe, ruter
+○ hol sirkel, ring, runding, sirkel
+◯ hol sirkel, ring, runding, sirkel, stor hol sirkel
+♪ åttandedelsnote, musikk, note
+♯ halnote opp, kryss, musikk, note-kryss
+😃 fjes, glisande fjes med vidopne auge, latter, munn, open, smil, smilefjes, smilefjes med open munn
+😄 latter, med tenner, morosamt, smil, smilefjes, smilefjes med open munn og smilande auge
+😁 fjes, glis, glisefjes med smilande auge, latter, lol, smil, smilefjes
+😆 fjes, latter, open munn, smil med samanknipne auge
+😅 glisande fjes som sveittar, kaldsveitte, munn, open, smil med sveitte, sveitt smil med open munn
+🤣 fjes, golv, latter, rullar, rullar rundt på golvet i latter
+🙂 fjes, fjes som smiler litt, smil
+😉 blunk, blunkande fjes, fjes
+😊 auge, fjes, raudne, smil, smil med smilande auge
+🥰 elskar, forelska, kjærleik, smilefjes med hjarte
+😍 auge, fjes, hjarte, hjarteauge, kjærleik, smilefjes med hjarteauge
+🤩 fjes, gliser, smil, stjerner, stjerner i auga
+😘 elskar deg, fjes, glad i deg, hjarte, kyss, slengkyss
+😗 elskar deg, fjes, glad i deg, kyss, kyssefjes, kyssefjes i slengkyss
+😚 elskar deg, fjes, glad i deg, kyss, kyss med lukka auge, trutmunn
+😙 fjes, kyss, kyss med smilande auge, slengkyss, smil, smilande auge
+🥲 letta, rørt, smilefjes med tåre, smiler, stolt, takksam, tåre
+😋 fjes, mmm, nam, nam-nam, nydeleg mat, svolten
+😛 fjes, fjes som rekkjer tunge, rekkjer tunge, tunga ut
+😜 blunk, blunkar og rekkjer tunge, erte, fjes, rekkje tunge med blunk, spøk
+🤪 fjes, gal, galen, lite auge, sinnssjuk, stort auge
+😝 æsj, fælt, fjes, lukkande auge, rekkje tunge, tunga ut med auga lukka
+🤑 fjes, munn, pengar, pengegalen
+🤗 fjes, fjes som gjev klem, klem
+🤭 flire, handa over munnen, ops
+🤫 hysj, stille, ver stille
+🤔 fjes, tankefull, tenkjefjes, tenkjer
+🤨 heva augebryn, skeptisk, tvil
+😑 fjes, ingen kommentar, nøytral, stum, uttrykkslaus
+😶 fjes, ingen munn, utan munn
+😶‍🌫 distré, fjes i skyer, fråverande, uoppmerksam
+😏 fjes, lurt smil, sjølvtilfreds
+😒 fjes, misnøgd, sur
+🙄 auge, fjes, himlar med auga, rullar
+😮‍💨 fjes, gispe, kviskre, letta, plystre, pustar ut, puste ut, sukke
+🤥 fjes, løgn, lyg, pinocchio
+😌 fjes, letta
+😔 alvorleg, fjes, lei seg, tankefull
+🤤 fjes, siklar, sikle
+😴 fjes, søv, sovande fjes, zzz
+😷 bakteriemaske, fjes, fjes med munnbind, sjukdom
+🤒 fjes, fjes med termometer, sjuk, termometer
+🤕 bandasje, bandasjert hovud, fjes, skadd, skade
+🤮 fjes, kastar opp, kvalm, oppkast, spy
+🤧 fjes, nys
+🥵 feber, heteslag, raud, sveittar, varm, varmt fjes
+🥶 blå, frost, frys, istappar, kald, kaldt fjes
+🥴 bølgete munn, brisen, full, svimmel, svimmelt fjes, ujamne auge
+😵‍💫 fjes med spiralauge, hypnotisert, problem, spiral, svimmel, uææ
+🤯 eksploderande hovud, forbløffa, overraska, sjokkert
+🥸 briller, fjes, fjes med forkleding, forkleding, inkognito, nase
+😕 fjes, forvirra
+😟 bekymra, fjes
+😮 fjes, forbausa, open munn
+😯 fjes, overraska, stum
+😲 fjes, overraska, sjokkert, stum
+😳 fjes, raud, raudnar
+🥺 bedande fjes, kvalpeauge, nåde, tryglar
+😦 fjes, oppgjeven, overraska, sjokkert med open munn
+😧 fjes, lir, pine, smerte
+😰 engsteleg og sveittar, fjes, kaldsveitte, open munn, sjuk
+😥 fjes, letta, puh, puh!, skuffa
+😢 fjes, græt, tårer, trist
+😭 fjes, gråt, strigræt, tårer
+😖 fjes, fortvila, sint, skuffa
+😣 bommert, fjes, skuffa, uthaldande
+😞 fjes, skuffa, skuffelse
+😓 fjes, kaldsveittar, kaldsveitte
+😩 fjes, sliten, trøytt
+😫 fjes, overtrøytt, sliten, søvnig, trøytt fjes
+🥱 geisp, geispande fjes, keisamt, sliten
+😤 eg vann, fjes, triumf, triumferande
+😡 fjes, rasande, raseri, raudt, sint, sur
+🤬 bannar, fjes, fjes med symbol over munnen, rasande, sensur
+😈 fjes, horn, smil, smilande djevel
+💀 daudinghovud, død, fjes, hovudskalle
+☠ bein, daudinghovud, død, fjes, hovudskalle, monster
+👺 eventyr, fjes, japansk troll, tengu
+👽 fjes, romvesen, sci-fi, UFO, ujordisk
+👾 fjes, rommonster, sci-fi, UFO, ujordisk
+😺 fjes, katt, open munn, smil, smilande katt med open munn
+😸 fjes, flirande katt med smilande auge, katt, smil
+😻 auge, fjes, forelska, hjarte, katt, kjærleik, smilande katt med hjarteauge
+😽 fjes, katt, kyss, kyssande, lukka auge
+🙀 fjes, jøsses, katt, overraska, sliten katt, slitent kattefjes
+😿 fjes, gråt, gråtande katt, tåre, trist katt
+😾 fjes, katt, sint, sur, surmulande katt
+🙈 ape, fjes, forbode, ikkje, ser ikkje, ser ingenting vondt
+🙉 ape, fjes, forbode, høyrer ikkje, høyrer ingenting vondt, ikkje
+🙊 ape, fjes, forbode, held munn, ikkje, seier ikkje, seier ingenting vondt
+💌 brev, brev med hjarte, hjarte, kjærleiksbrev, romantikk
+💘 hjarte, hjarte med pil, kjærleik, kjensler, pil
+💝 band, hjarte, hjarte med band, kjensler, valentine
+💖 kjærleik, kjensler, skinande, skinande hjarte
+💗 kjærleik, kjensler, nervøs, spent, veksande hjarte
+💓 bankande, hjarte, kjærleik, kjensler
+💞 hjarte, kjærleik, kjensler, snurrande, søtt
+💕 elskarar, kjærleik, kjensler, to hjarte
+💟 hjarte, hjartedekorasjon
+❣ teikn, teiknsetjing, utrop, utropsteikn, utropsteikn med hjarte
+💔 brot, hjarte, kjensler, knust hjarte
+❤‍🔥 brann, eld, heilag hjarte, hjarte, hjarte i brann, kjærleik, lidenskap
+❤‍🩹 betre, bra, forbetring, kome seg, lindra hjarte, lindring, sterkare
+❤ hjarte, raudt hjarte
+🧡 hjarte, kjensler, oransje
+💛 gul, gult hjarte, hjarte, kjensler
+💚 grøn, grønt hjarte, hjarte, kjensler
+💙 blå, blått hjarte, hjarte, kjensler
+💜 hjarte, kjensler, lilla
+🤎 brun, brunt hjarte, hjarte
+🖤 hjarte, svart, vond
+🤍 hjarte, kvit, kvitt hjarte
+💢 kjensle, sinne, sinnesymbol, sint, teikneserie
+💥 kjensle, kollisjon, krasj, smell, teikneserie
+💫 sjå stjerner, stjerner, svimmel, teikneserie
+💦 dropar, sprut, sprutande, sveitte, sveittedropar, teikneserie
+💨 forsvinne, springe, stikk av, teikneserie
+🕳 hol, hol i bakken
+💣 bombe, kjensle, teikneserie
+💬 ballong, boble, dialog, dialogboble, snakkeboble, teikneserie
+👁‍🗨 auge, auge i snakkeboble, snakkeboble
+🗯 ballong, boble, sint, sint snakkeboble mot høgre, sur
+💭 boble, tanke, tankeboble, teikneserie
+💤 kjensle, snorkar, søv, soving, teikneserie, zzz
+👋 hand, vinkande hand, vinke, vinking
+🤚 handbak, løfta
+🖐 finger, flat hand med spreidde fingerer, flat hand med spreidde fingrar, hand, spreidd
+✋ flat hand, handflate, heva hand
+🖖 finger, hand, spock, vulcan, Vulcan-helsing
+👌 hand, OK, OK-hand, teikn
+🤌 fingrane saman, fingrar, hand, hand med fingertuppane saman, sarkastisk, spørsmål
+🤏 hand som klyp, lite, liten
+✌ hand, peaceteikn, seiersteikn
+🤞 finger, hand, hell, kryss, kryssande fingrar
+🤟 glad i deg, glad i deg-teikn, hand, ILY, teiknspråk
+🤘 finger, hand, horn, rock’n’roll
+🤙 hand, ring meg-hand, ringje
+👈 finger, hand, peikande finger, peikar mot venstre – bakhand, peikar venstre
+👉 finger, hand, peikande finger, peikar mot høgre – bakhand, peikar opp
+👆 finger, hand, peikande finger, peikar opp, peikar opp – bakhand
+🖕 finger, hand, kropp, langfinger, vise fingeren
+👇 finger, hand, peikande finger, peikar ned, peikar ned – bakhand
+☝ finger, hand, kropp, opp, peikar opp, peike, peikefinger
+👍 hand, teikn, tommel, tommel opp
+👎 hand, teikn, tommel, tommel ned
+✊ hand, heva knyttneve, knytta neve, neve
+👊 hand, knyttneve, neve
+🤛 hand, knyttneve mot venstre, neve, venstre, venstrehendt
+🤜 hand, høgre, høgrehendt, knyttneve mot høgre, neve
+👏 hand, hender, klappande hender, klapping
+🙌 begge hender, feirar, feiring, hand, hea hender, heva hender, rekkjer begge armane i veret
+👐 hand, hender, opne
+🤲 ber, bøn, hand, handflatene saman
+🤝 avtale, hand, handhelse, handtrykk, møte
+🙏 be, ber, bøn, falda hender, hand, rørsle
+✍ hand, kropp, skrivande hand, skrive
+💅 kosmetikk, manikyr, nagl, naglelakk
+💪 biceps, fleks, muskel, muskelfleksing, sterk, teikneserie
+🦾 mekanisk arm, protese, tilgjenge
+🦿 mekanisk bein, protese, tilgjenge
+🦶 fot, sparke, trakke
+👂 kropp, øyre
+🦻 øyre med høyreapparat, svak høyrsel, tilgjenge
+👃 fjes, kropp, nase
+🫀 hjarte-kar, hjartemuskel, hjarteslag, kardiologi, muskel, organ, puls, senter
+👀 auge, fjes
+👁 auga, auge, kropp
+👦 gut, menneske, ung
+👧 jente, jomfrua, menneske, stjernebilete, stjerneteikn, ung
+🧑 kjønnsnøytral, menneske, person, vaksen
+👨 mann, menneske, vaksen
+👩 kvinne, menneske, vaksen
+🧓 eldre vaksen, gamal, kjønnsnøytral, menneske, vaksen
+🙍 mimikk, rynkar bryna, rynkar panna
+🙍‍♂ mann, mann som rynkar bryna, mimikk, rynkar panna, skeptisk
+🙍‍♀ kinne som rynkar bryna, kvinne, kvinne som rynkar bryna, mimikk, rynkar panna, skeptisk
+🙎 furtar, furter, furting, mimikk, surmuling
+🙎‍♂ furting, mann, mann som furtar, mimikk, surmuling
+🙎‍♀ furting, kvinne, kvinne som furtar, mimikk, surmuling
+🙅 forbode, gestikulerer NEI, ikkje, mimikk, nei
+🙅‍♂ avbryt, forbode, mann, mann som gestikulerer NEI, nei, stopp
+🙅‍♀ avbryt, forbode, kvinne, kvinne som gestikulerer NEI, nei, stopp
+🙆 gestikulerer OK, greitt, ok
+🙆‍♂ greitt, mann, mann som gestikulerer OK, ok
+🙆‍♀ greitt, kvinne, kvinne som gestikulerer OK, ok
+💁 hjelp, hjelpande person, informasjon, menneske
+💁‍♂ hjelpande mann, hjelpe, informasjon, mann
+💁‍♀ hjelpande kvinne, hjelpe, informasjon, kvinne
+🙋 hand, person, rekker opp, rekker opp handa
+🙋‍♂ mann, mann som rekker opp handa, rekke opp handa
+🙋‍♀ kinne som rekker opp handa, kvinne, kvinne som rekker opp handa, rekke opp handa
+🧏 døv, døv person, høyre, øyre, tilgjenge
+🙇 bukk, bukkar, orsak, orsakar, orsaking
+🙇‍♂ bukk, bukkande mann, mann, orsak, orsaking
+🙇‍♀ bukk, bukkande kvinne, kvinne, orsak, orsaking
+🤦 andlet, facepalm, fjes, irritasjon, oppgjeven, slår handa mot panna, vantru
+🤦‍♂ ansikt, facepalm, fjes, irritasjon, mann, mann som slår handa mot panna, oppgjeven, vantru
+🤦‍♀ ansikt, facepalm, fjes, irritasjon, kvinne, kvinne som slår handa mot panna, oppgjeven, vantru
+🤷 likesæle, skuldretrekning, trekkjer på skuldrene, tvil
+🤷‍♂ likesæle, mann, mann som trekkjer på skuldrene, skuldertrekning, tvil
+🤷‍♀ kvinne, kvinne som trekkjer på skuldrene, likesæle, skuldertrekning, tvil
+🧑‍⚕ dokter, helsearbeidar, helsevesen, lege, sjukepleiar, terapaut
+👨‍⚕ dokter, helsevesen, lege, mann, mannleg helsearbeidar, sjukepleiar, terapeut
+👩‍⚕ dokter, helseesen, kvinne, kvinneleg helsearbeidar, lege, sjukepleiar, terapeut
+🧑‍🎓 skule, student, universitet
+👨‍🎓 mann, mannleg student, skule, student, universitet
+👩‍🎓 kvinne, kvinneleg student, skule, student, universitet
+🧑‍🏫 lærar, skule, undervisning
+👨‍🏫 lærar, mann, mannleg lærar, skule, undervisning
+👩‍🏫 kvinne, kvinneleg lærar, lærar, skule, undervisning
+🧑‍⚖ dommar, jus, juss
+👨‍⚖ dommar, jus, juss, mann, mannleg dommar, rettssak
+👩‍⚖ dommar, jus, juss, kvinne, kvinneleg dommar, rettssak
+🧑‍🌾 bonde, gardbrukar, jordbruk
+👨‍🌾 bonde, dyrke, gardbrukar, jordbruk, mann, mannleg gardbrukar
+👩‍🌾 bonde, dyrke, gardbrukar, jordbruk, kvinne, kvinneleg gardbrukar
+👨‍🍳 mann, mannleg kokk, matlaging, restaurant
+👩‍🍳 kvinne, kvinneleg kokk, matlaging, restaurant
+🧑‍🔧 bil, elektrikar, handverkar, mekanikar, motor, røyrleggjar
+👨‍🔧 bil, elektrikar, handverkar, mann, mannleg mekanikar, mekanikar, motor, røyrleggjar
+👩‍🔧 bil, elektrikar, handverkar, kvinne, kvinneleg mekanikar, mekanikar, motor, røyrleggjar
+🧑‍🏭 arbeidar, fabrikk, industri, industriarbeidar, produksjon
+👨‍🏭 arbeidar, fabrikk, industri, industriarbeidar, mann, mannleg industriarbeidar, produksjon
+👩‍🏭 fabrikk, industri, kvinne, kvinneleg industriarbeidar, produksjon
+🧑‍💼 kontor, kontorarbeidar, leiar, næringsliv
+👨‍💼 kontor, leiar, mann, mannleg kontorarbeidar, næringsliv
+👩‍💼 kontor, kvinne, kvinneleg kontorarbeidar, leiar, næringsliv
+🧑‍🔬 biologi, forskar, forsking, kjemi, lab, laboratorium, medisin, vitskap
+👨‍🔬 kjemi, laboratorium, mann, mannleg forskar, vitskap
+👩‍🔬 kjemi, kvinne, kvinneleg forskar, laboratorium, vitskap
+👨‍💻 data, IT, koding, mann, mannleg IT-ekspert, programvare, teknologi
+👩‍💻 data, IT, koding, kvinne, kvinneleg IT-ekspert, programvare, teknologi
+🧑‍🎤 artist, konsert, rock, songar
+👨‍🎤 artist, konsert, mann, mannleg artist, songar
+👩‍🎤 artist, konsert, kvinne, kvinneleg artist, rock, songar
+🧑‍🎨 kunstnar, målar
+👨‍🎨 kunstnar, målar, mann, mannleg kunstnar
+👩‍🎨 kunstnar, kvinne, kvinneleg kunstnar, målar
+👨‍✈ fly, mann, mannleg pilot, pilot
+👩‍✈ fly, kvinne, kvinneleg pilot, pilot
+🧑‍🚀 astronaut, romfart, verdsrommet
+👨‍🚀 astronaut, mann, mannleg astronaut, romfart, verdsrommet
+👩‍🚀 astronaut, kvinne, kvinneleg astronaut, romfart, verdsrommet
+👨‍🚒 brannbil, brannkonstabel, brannmann, brannvesenet, mann, mannleg brannkonstabel
+👩‍🚒 brannbil, brannkonstabel, brannmann, brannvesenet, kvinne, kvinneleg brannkonstabel
+👮‍♂ betjent, mann, mannleg politibetjent, politi, politibetjent
+👮‍♀ betjent, kvinne, kvinneleg politibetjent, politi, politibetjent
+🕵‍♂ brotsverk, etterforske, mann, mannleg detektiv, privatdetektiv
+🕵‍♀ brotsverk, etterforske, kvinne, kvinneleg detektiv, privatdetektiv
+💂‍♂ gardist, mann, mannleg gardist, vakt
+💂‍♀ gardist, kvinne, kvinneleg gardist, vakt
+🥷 gøymd, kampkunst, krigar, ninja
+👷 anlegg, anleggsarbeidar, arbeidar, hjelm, ingeniør, menneske
+👷‍♂ anlegg, arbeidar, bygg, hjelm, ingeniør, mann, mannleg anleggsarbeidar
+👷‍♀ anlegg, arbeidar, bygg, hjelm, ingeniør, kvinne, kvinneleg anleggsarbeidar
+🧕 hijab, hovudskjerf, hovudslør, kvinne med hovudslør, kvinne med hovuvdslør, muslim
+👰 brur, brur med slør, bryllaup, menneske, person med slør, slør
+🤱 ammar, amming, baby, bryst, morsmjølk
+👩‍🍼 baby, kvinne, kvinne som matar baby, mat, tåteflaske
+👨‍🍼 baby, mann, mann som matar baby, mat, tåteflaske
+🧑‍🍼 baby, mat, person, person som matar baby, tåteflaske
+👼 andlet, babyengel, engel, eventyr
+🦸‍♂ god, helt, mann, mannleg superhelt, superkrefter
+🦸‍♀ god, helt, heltinne, kvinne, kvinneleg superhelt, superkrefter
+🦹 kriminell, skurk, superkrefter, superskurk, vond
+🦹‍♂ kriminell, mann, mannleg superskurk, skurk, superkrefter, vond
+🦹‍♀ kriminell, kvinne, kvinneleg superskurk, skurk, superkrefter, vond
+🧙‍♂ heksemeister, trollmann
+🧚‍♂ fe, mannleg fe, Oberon, Puck
+🧚‍♀ fe, kvinneleg fe, Titania
+🧛‍♂ Dracula, mannleg vampyr, vandød
+🧛‍♀ kvinneleg vampyr, vandød
+🧝‍♂ magi, mannleg alv
+🧝‍♀ kvinneleg alv, magi
+🧞‍♂ djinn, mannleg ånd
+🧞‍♀ djinn, kvinneleg ånd
+🧟‍♂ mannleg zombie, udød, vandød
+🧟‍♀ kvinneleg zombie, udød, vandød
+💆 andlet, andletsmassasje, massasje, venleikssalong
+💆‍♂ andlet, avslapping, hovudmassasje, mann, mann som får andletsmassasje, massasje, velvære
+💆‍♀ andlet, avslapping, hovudmassasje, kvinne, kvinne som får andletsmassasje, massasje, velvære
+💇 frisør, hårklipp, salong, venleik, venleikssalong
+🚶 fotgjengar, gå, gåande
+🚶‍♂ fotgjengar, gå, mann, mannleg fotgjengar, tur
+🚶‍♀ fotgjengar, gå, kvinne, kvinneleg fotgjengar, tur
+🧑‍🦯 blind, person med blindestokk, tilgjenge
+👨‍🦯 blind, mann, mann med blindestokk, tilgjenge
+👩‍🦯 blind, kvinne, kvinne med blindestokk, tilgjenge
+🧑‍🦼 person i motorisert rullestol, rullestol, tilgjenge
+👨‍🦼 mann, mann i motorisert rullestol, rullestol, tilgjenge
+👩‍🦼 kvinne, kvinne i motorisert rullestol, rullestol, tilgjenge
+🧑‍🦽 person i manuell rullestol, rullestol, tilgjenge
+👨‍🦽 mann, mann i manuell rullestol, rullestol, tilgjenge
+👩‍🦽 kvinne, kvinne i manuell rullestol, rullestol, tilgjenge
+🏃 joggar, jogging, løpar, løping, maraton, sport
+🏃‍♂ jogge, løpe, mann, mannleg løpar, maraton
+🏃‍♀ jogge, kvineleg løpar, kvinne, løpe, maraton
+💃 dans, dansande kvinne, kvinne
+🕺 dans, dansande mann, mann
+🕴 business, dress, forretningsmann, mann, svevande mann, svevande mann i dress
+👯 dansar, fest, hareøyre, menneske, personar med kaninøyre
+👯‍♂ dansar, hareøyre, mann, menn, menn med kaninøyre
+👯‍♀ dansar, hareøyre, kvinne, kvinner, kvinner med kaninøyre
+🧖 dampbad, person i badstove, sauna
+🧖‍♂ dampbad, mann i badstove, sauna
+🧖‍♀ dampbad, kvinne i badstove, sauna
+🧗 klatrar, klatring
+🧗‍♂ klatrar, mannleg klatrar
+🧗‍♀ klatring, kvinneleg klatrar
+🤺 fektar, fekte, fekting, person, sport, sverd
+⛷ ski, skiløpar, snø
+🏂 snøbrett, snøbrettkøyrar, snøbrettkøyring, snowboard, snowboardar, snowboarding, vintersport
+🏌 ball, golf, golfspelar
+🏌‍♂ golf, golfspelar, mann, mannleg golfspelar
+🏌‍♀ golf, golfspelar, kvinne, kvinneleg golfspelar
+🏄 sport, surfar, surfing
+🏄‍♂ mann, mannleg surfar, surfing
+🏄‍♀ kvinne, kvinneleg surfar, surfing
+🏊 sport, symjar, symje, symjing
+🏊‍♂ mann, mannleg symjar, symje, symjing
+🏊‍♀ kvinne, kvinneleg symjar, symje, symjing
+🏋 løftar, vekt, vektløftar
+🏋‍♂ bodybuilding, mann, mannleg vektløftar, vektløftar
+🏋‍♀ bodybuilding, kvinne, kvinneleg vektløftar, vektløfting
+🚴‍♂ mann, mannleg syklist, sykkel, sykle
+🚴‍♀ kvinne, kvinneleg syklist, sykkel, sykle
+🤼 brytar, brytarar, bryting, person, sport
+🤼‍♂ brytar, mann, mannlege brytarar, menn
+🤼‍♀ brytar, kvinne, kvinnelege brytarar, kvinner
+🤽 person, polo, sport, vasspolo, vatn
+🤽‍♂ mann, mannleg vasspolospelar, vasspolo
+🤽‍♀ kvinne, kvinneleg vasspolospelar, vasspolo
+🤾 ball, handball, person, sport
+🤾‍♂ handball, mann, mannleg handballspelar
+🤾‍♀ handball, kvinne, kvinneleg handballspelar
+🤹 balanse, ferdigheit, multitasking, sjonglering
+🤹‍♂ mann, mannleg sjonglør, multitasking, sirkus, sjonglere
+🤹‍♀ kvinne, kvinneleg sjonglør, multitasking, sirkus, sjonglere
+🧑‍🤝‍🧑 halde hender, hand, par, personar, personar som leiar
+👭 halde hender, hand, kinner som leiar, kvinne, kvinner som leiar, par
+👫 hand, held hender, kvinne, mann, mann og kvinne som leiar, par
+👬 halde hender, hand, mann, menn, menn som leiar, par, stjerneteikn, tvillingane
+💏 kyss, kyssing, menneske, romantikk
+💑 hjarte, kjærleik, menneske, par med hjarte, romantikk
+👪 barn, familie, far, menneske, mor
+🗣 fjes, hovud, profil, silhuett, snakkande hovud, snakkande hovud i profil, snakkar, snakke
+🫂 farvel, hadet, hei, klem, takk
+🦰 raudhåring, raudt hår
+🦱 afrikansk, afro, krøllete, krusete hår
+🦳 gamal, grå, grått hår, hår, kvit
+🦲 barbert, hårlaus, kjemoterapi, skalla, utan hår
+🐕 dyr, hund, kvalp
+🦮 blind, førarhund, hund, tilgjenge
+🐕‍🦺 hjelp, hund, servicehund, tilgjenge
+🦁 fjes, løva, løve, stjernebilete, stjerneteikn
+🦄 einhjørning, fjes
+🐂 dyr, okse, stjernebilete, stjerneteikn, tyren
+🐃 bøffel, dyr, vassbøffel
+🐏 bukk, dyr, stjernebilete, stjerneteikn, veren
+🐐 dyr, geit, steinbukken, stjernebilete, stjerneteikn
+🦣 dyr, mammut, stor, støyttenner, ull, utdøydd
+🦏 dyr, horn, nase, nashorn
+🦔 dyr, piggar, piggsvin
+🐻‍❄ arktis, bjørn, dyr, isbjørn, kvit
+🦦 dyr, fiskar, leikande, oter
+🐾 avtrykk, dyr, potar, poteavtrykk, spor
+🐣 dyr, fugl, klekking, kylling, nyklekt kylling
+🐥 baby, dyr, fugl, kylling, kylling framanfrå
+🦤 dodo, dronte, Mauritius, stor, utdøydd
+🪶 fjør, fjørdrakt, fugl, lett
+🦩 flamingo, prangande, tropisk
+🦚 fugl, påfugl, prangande, stolt
+🦜 fugl, papegøye, pirat, snakkande, snakkar
+🐢 dyr, skjelpadde
+🐍 dyr, orm, slange, slangeberaren, stjernebilete, stjerneteikn
+🐲 drake, drakefjes, dyr, eventyr, fjes
+🐉 drake, dyr, eventyr
+🐳 dyr, kval, sprutande kval, sprutar
+🐋 dyr, kval
+🐟 dyr, fisk, fiskane, stjernebilete, stjerneteikn
+🐙 blautdyr, blekksprut, dyr
+🐚 dyr, skjel, spiralskjel
+🐌 dyr, snigel
+🦋 dyr, insekt, pen, sommar, sommarfugl
+🦗 dyr, grashoppe, insekt
+🦂 dyr, skorpion, skorpionen, stjernebilete, stjerneteikn
+🦟 feber, insekt, malaria, mygg, sjukdom, virus
+🪰 dyr, floge, forrotning, insekt, larvar, rotne, sjukdom
+💐 blomster, blomstrar, bukett, romantikk
+🌸 blomster, kirsebær, kirsebærblomster
+💮 blomster, blomsterstempel, kvit blomster, stempel
+🌹 blomster, rose
+🥀 blomster, tørka, vissen
+🌺 blomster, hibiskus
+🌻 blomster, sol, solsikke
+🌼 blomster, plante
+🌷 blomster, tulipan
+🪴 dyrke, hus, keisamt, plante, potteplante, ubrukeleg, vatne
+🌳 blad, lauvtre, tre
+🌿 blad, plante, urt, urteblad
+🍁 blad, haustblad, lønn, lønneblad
+🍂 blad, fallande, haustblad, lauv
+🍃 blad i vind, blåse, blåser, lauv i vind, vind
+🍉 frukt, melon, vassmelon
+🍎 eple, frukt, raud, raudt
+🍏 eple, frukt, grøn, grønt
+🍒 bær, kirsebær, morellar
+🍅 frukt, grønsak, tomat
+🍆 aubergine, grønsak
+🥔 grønsak, mat, potet
+🥕 grønsak, gulrot, mat, rot
+🌶 chili, plante, raud, sterk
+🫑 capsicum, chili, grønsak, paprika
+🥒 agurk, grønsak, mat, sylteagurk
+🥬 bladgrønsaker, bladsalat, grønkål, kål, kinakål, pak choy
+🥦 brokkoli, grønsak
+🧄 kvitlauk, smakstilsetjing
+🧅 lauk, smakstilsetjing
+🍄 flugesopp, sopp
+🥜 grønsak, mat, nøtt, peanøtt, peanøtter
+🍖 kjøt med bein, kjøtbein, restaurant
+🍗 fjørfe, fjørkre, kyllingklubbe, kyllinglår, restaurant
+🥩 biff, kjøtstykke, lammekotelett, lammeskank, svinekotelett
+🥓 bacon, kjøt, mat
+🍔 burgar, hamburgar, restaurant
+🍟 chips, pommes frites, restaurant, steikte poteter
+🧆 falafel, kikerter, kjøtbollar
+🍳 egg, matlaging, steike, steikepanne
+🥘 låg gryte med mat, mat, paella, steikepanne
+🫕 fondue, fondy, gryte, ost, sjokolade, smelta, sveitsisk
+🥣 bolle med skei, congee, frukost, frukostblanding, graut
+🥗 grøn, mat, salat
+🍜 matbolle, matbolle som dampar, nudelbolle, restaurant
+🍤 fritert reke, grilla scampi, kongereke, restaurant, scampi, tempura
+🥮 festival, haust, månekake, yuebing
+🦀 dyr, krabbe, krepsen, stjernebilete, stjerneteikn
+🦞 bisque, hummar, klør, sjømat, skaldyr
+🦑 akkar, blautdyr, blekk, blekksprut, dyr, sprut
+🍭 slikkepinne, sukkertøy
+🍼 babyflaske, drikke, mjølk, tåteflaske
+🥛 drikke, glas, mjølk, mjølkeglas
+☕ drikke, kaffi, rykande, te, varm
+🍷 drikke, glas, raudvin, vin, vinglas
+🍸 bar, cocktaildrink, cocktailglas, drink
+🍹 bar, drink, jus, tropisk drink
+🍺 bar, halvliter, ølglas, ølkrus, pils, pilsner
+🍻 bar, halvliter, øl, ølglas, ølkrus, ølkrus som skåler, pils
+🥂 drink, feiring, glas, glas som skåler, skål
+🥃 brennevin, glas, shot, sprit, whisky, whiskyglas
+🥤 brus, juice, jus, kopp med sugerøyr
+🧋 boble-te, bobler, kuler, mjølk, perler, te
+🥢 hashi, spisepinnar
+🥄 bestikk, skei
+🏺 amfora, drikke, krukke, matlaging, stjernebilete, stjerneteikn, vassmannen
+🌍 Afrika, Europa, jorda, jordklode med Europa og Afrika
+🌎 Amerika, jorda, jordklode med Amerika, USA
+🌏 Asia, Australia, jorda, jordklode med Asia og Australia
+🌐 jorda, jordklode med meridianar, lengde- og breiddegrader
+🗺 kart, verda, verdskart
+🌋 utbrot, vulkan, vulkanutbrot
+🏝 aude, øy
+🏘 bustader, bygning, hus
+🏚 bygning, falleferdig, forlate, hus
+🏠 bygning, heim, hus
+🏡 bygning, heim, hus, hus med hage
+🏥 lege, medisin, sjukehus
+🏩 bygning, hotell, kjærleikshotell
+🏪 butikk, bygning, daglegvare, daglegvarebutikk, storkiosl
+🏫 bygning, skule, skulebygning
+💒 bryllaup, kapell, romantikk
+🗽 fridom, Fridomsgudinna, statur
+⛪ bygning, kristen, kross, kyrkje, religion
+🌁 tåke, tåkete, vêr
+🌄 fjell, fjellsol, morgon, morgonsol, sol, soloppgang over fjell
+🌅 morgon, morgonsol, sol, soloppgang
+🌉 bru, bru om natta, natt
+♨ kjelder, rykande, varm, varme kjelder
+🎠 hest, karusell, karusellhest, moropark, tivoli
+🎡 moropark, pariserhjul, tivoli
+🎢 berg-og-dal-bane, moropark, tivoli
+💈 barberarsøyle, barberer, barberskilt, frisør, frisørsalong
+🎪 sirkus, sirkustelt, telt, underhaldning
+🚂 framkomstmiddel, lokomotiv, tog
+🚃 elektrisk, framkomstmiddel, tog, togvogn, trikk
+🚄 framkomstmiddel, høgfartstog, lyntog, tog
+🚅 framkomstmiddel, høgfartstog med kulenase, lyntog, shinkansen, tog
+🚆 framkomstmiddel, jernbane, tog
+🚇 framkomstmiddel, metro, t-bane, tunnelbane, undergrunnsbane
+🚈 framkomstmiddel, jernbane, lokaltog
+🚊 framkomstmiddel, trikk
+🚝 framkomstmiddel, monorail
+🚞 bane, fjell, fjellbane, framkomstmiddel
+🚋 framkomstmiddel, trikk, trikkevogn, vogn
+🚌 buss, framkomstmiddel
+🚍 buss, framkomstmiddel, motgåande
+🚎 buss, framkomstmiddel, motgåande, trolleybuss
+🚐 buss, køyretøy, minibuss, van
+🚑 ambulanse, bil, køyretøy
+🚒 bil, brannbil, køyretøy
+🚓 bil, køyretøy, politibil
+🚔 bil, køyretøy, motgåande politibil
+🚕 bil, køyretøy, taxi
+🚖 bil, køyretøy, motgåande, taxi
+🚗 bil, køyretøy
+🚘 bil, køyretøy, motgåande
+🚙 bil, køyretøy, SUV
+🚚 bil, køyretøy, varebil
+🚛 bil, køyretøy, lastebil, trailer, trekkvogn
+🚜 køyretøy, traktor
+🏎 bil, milløp, motorsport, racerbil
+🦽 manuell rullestol, tilgjenge
+🦼 motorisert rullestol, tilgjenge
+🚲 køyretøy, sykkel
+🚏 buss, busstopp, haldeplass
+🛣 motorveg, veg
+🚨 bil, køyretøy, lys, politi, politilys, roterande, signal
+🛑 åttekanta, skilt, stopp, stoppskilt
+⛵ båt, seglbåt
+🛳 båt, framkomstmiddel, passasjer, passasjerskip, skip
+⛴ båt, ferje, passasjer
+🛥 båt, framkomstmiddel, motorbåt
+🚢 båt, fartøy, framkomstmiddel, skip
+✈ fly, framkomstmiddel
+🛩 fly, framkomstmiddel, lite fly
+🛫 avgang, avgangar, fly, fly som tek av, flyavgang, framkomstmiddel, innsjekk
+🛬 fly, fly som landar, framkomstmiddel, innkomst, innkomstar, kome, lande, landing
+🪂 fallskjerm, fallskjermhopp, hangglider, hengeglidar, paragliding
+🚁 framkomstmiddel, helikopter
+🚟 framkomstmiddel, svevebane
+🚠 framkomstmiddel, kabelbane
+🚡 framkomstmiddel, gondolbane, taubane
+🛰 satelitt i verdsrommet, satellitt
+🚀 framkomstmiddel, rakett, verdsrommet
+🛸 flygande tallerken, UFO
+⌛ ferdig timeglas, sand, tidtakar
+⏳ sand, starta timeglas, starta timeglass, tidtakar
+⌚ armbandsur, ur
+⏰ alarm, klokke, vekkjarklokke
+⏲ klokke, nedteljing, tidtakar
+🕛 0:00, 12:00, 24:00, klokka 0:00, klokka tol 0:00, klokka tolv, tolv
+🕧 0:30, 12:30, halv eitt, klokka, klokka halv eitt
+🕐 1:00, 13:00, eitt, klokka
+🕜 1:30, 13:30, halv to, klokka, klokka halv to
+🕑 14:00, 2:00, klokka, to
+🕝 14:30, 2:30, halv tre, klokka, klokka halv tre
+🕒 15:00, 3:00, klokka, tre
+🕞 15:30, 3:30, halv fire, klokka, klokka halv fire
+🕓 16:00, 4:00, fire, klokka
+🕟 16:30, 4:30, halv fem, klokka, klokka halv fem
+🕔 17:00, 5:00, fem, klokka
+🕠 17:30, 5:30, halv seks, klokka, klokka halv seks
+🕕 18:00, 6:00, klokka, seks
+🕡 18:30, 6:30, halv sju, klokka, klokka halv sju
+🕖 19:00, 7:00, klokka, sju
+🕢 19:30, 7:30, halv åtte, klokka, klokka halv åtte
+🕗 20:00, 8:00, åtte, klokka
+🕣 20:30, 8:30, halv ni, klokka, klokka halv ni
+🕘 21:00, 9:00, klokka, ni
+🕤 09:30, 21:30, halv ti, klokka, klokka halv ti
+🕙 10:00, 22:00, klokka, ti
+🕥 10:30, 22:30, halv elleve, klokka, klokka halv elleve
+🕚 11:00, 23:00, elleve, klokka
+🕦 11:30, 23:30, halv tolv, klokka, klokka halv tolv
+🌒 måne, månefase, ny, veksande, veksande nymåne
+🌓 første kvarter, halvmåne, måne, månefase, ny, veksande halvmåne
+🌔 måne, månefase, ny, veksande fullmåne
+🌕 full, fullmåne, heil måne, måne
+🌖 avtakande fullmåne, måne, månefase, ne
+🌗 avtakande halvmåne, halvmåne, måne, månefase, ne, siste kvarter
+🌘 avtakande, avtakande nemåne, måne, månefase, ne
+🌚 andlet, måne, nymåne, nymåne med andlet, nymåneandlet
+🌛 kvartmåne med andlet, måneandlet, nymåne med andlet
+🌜 kvartmåne med andlet, måneandlet, nemåne med andlet
+🌡 temperatur, termometer, vêr
+☀ lys, lyst, sol, solfylt, strålar, vêr, verdsrommet
+🌝 andlet, fullmåne, fullmåne med andlet, fullmåneandlet, måne, måne med andlet
+🌞 andlet, lys, sol, solandlet
+🪐 planet med ringar, saturn
+🌟 glitrande, lysande stjerne, skinande, stjerne
+🌠 fallande stjerne, fell, stjerne, stjerneskot
+🌌 galakse, mjølkevegen, verdsrommet
+☁ sky, vêr
+⛈ regn, sky, sky med lyn og regn, torevêr, vêr
+🌤 sky, sol, sol bak lita sky, vêr
+🌥 sky, sol, sol bak stor sky, vêr
+🌦 regn, sky, sol, sol bak sky med regn, vêr
+🌧 regn, sky, sky med regn, vêr
+🌨 kaldt, sky, sky med snø, vêr
+🌩 lyn, sky, sky med lyn, vêr
+🌪 sky, tornado, vêr
+🌫 sky, tåke, vÊr
+🌬 blåse, fjes, sky, vêr, vind, vindandlet
+🌈 regn, regnboge, vêr
+🌂 lukka paraply, regn, regnvÊr
+☂ klede, paraply, regn, vêr
+☔ drope, klede, paraply, paraply med regndropar, regn, vÊr
+⛱ paraply, parasoll på bakken, regn, sol, vÊr
+⚡ fare, høg, høgspenning, høgspent, lyn, spenning
+❄ kaldt, snø, snøfnugg, vêr
+☃ kaldt, snø, snømann, vêr
+⛄ snø, snømann utan snø
+☄ komet, verdsrommet
+🔥 eld, flamme
+💧 drope, drypp, teikneserie, vatn
+🌊 bølgje, hav, vatn
+🎃 graskar, graskarlykt, Halloween, halloweenlykt
+🎄 høgtid, jul, julefeiring, juletre, tre
+🎇 feiring, fyrverkeri, nyttår, stjerneskot på pinne
+🧨 dynamitt, eksplosiv, fyrverkeri, kinaputt
+✨ glitrande, skinande, stjerner
+🎍 feiring, furudekorasjon, japansk høgtid, nyttår
+🎎 festival, japansk høgtid, japanske dokker
+🎏 feiring, japansk høgtid, karpe, koinobori, papirfisk
+🎐 bjølle, draumefangar, feiring, vind, vindspel
+🎑 feiring, høgtid, måne, månefeiring, månekikkingsseremoni, måneseremoni
+🧧 flaks, gåve, hell og lykke, hong bao, lai see, pengar, raud konvolutt
+🎀 band, gåveband, sløyfe
+🎁 bursdag, feiring, gåve, innpakka, julegåve, presang
+🎗 band, feiring, minne, minnesløyfe, påminning
+🎟 billett, inngang, inngangsbillettar, tilgang
+🎫 billett, inngang, tilgang, underhaldning
+🏀 ball, basketball, korg, sport
+🏐 ball, kamp, spel, volleyball
+🎳 bowling, bowlingkule, kule, spel
+🏸 badminton, birdle, fjørball, kamp, racket
+🥋 drakt, judo, kampkunst, kampsport, kampsportdrakt, karate, sjølvforsvar, taekwondo
+⛳ golf, golfflagg, golfhol, hol
+🎣 fisk, fiskestong, fisking, fritid, natur
+🤿 dykkar, dykkarmaske, dykking, froskemann, snorkling
+🎿 ski, ski og stavar, snø, stavar, vintersport
+🎯 blink, dart, mål, midt i blinken, pilspel, treff
+🪀 jojo, leike, opp og ned
+🪁 fly, papirdrake, sveve
+🎱 8, åttarkule, åtte, biljard, spel
+🔮 krystallkule, spådom, spådomar
+🧿 amulett, charm, nazar, talisman, vondt auge
+🎮 konsoll, kontrollar, spel, spelkonsoll, spelkontrollar, videospel
+🕹 joystick, spel, styrespak, styrespake, videospel
+🎰 spel, speleautomat
+🎲 spel, terning, terningskast, terningspel
+🧩 bit, brikke, del, peikepinn, puslespel, puslespelbrikke
+🧸 bamse, leike, teddybjørn
+🪆 dokke, hol, matrjosjka, matruska, russisk, russland
+♠ farge, kort, spar, spel
+♥ farge, hjarter, kort, spel
+♦ diamant, farge, kort, ruter, spel
+♣ farge, kløver, kort, spel
+🃏 joker, jokerkort, kort, spelkort
+🀄 mahjong, mahjongbrikke med raud drake, raud, spel
+🎴 kort, kortspel, spelkort
+🎭 kunst, scenekunst, teater, teatermasker, underhaldning
+🖼 bilete, innramma bilete, kunst, måleri, museum, ramme
+🎨 kunst, målarpalett, måling
+🪡 broderi, skreddar, sting, sutur, sy, synål
+🪢 knop, knute, knyte, reip, samanfletta, tau, tvinne
+👓 briller, klede, lesebriller
+🕶 auge, briller, mørkt, solbriller
+🥽 augevern, sveising, symjing, vernebriller
+🥼 dokter, eksperiment, forskar, labfrakk, lege
+🦺 naudsituasjon, refleks, refleksvest, tryggleik, vest
+👔 klede, slips
+👕 klede, skjorte, t-skjorte
+👖 bukser, jeans, klede
+🧣 hals, klede, skjerf
+🧤 hand, hanskar, klede
+🧥 frakk, jakke, kåpe, klede
+🧦 klede, labbar, sokkar, strømper
+👗 kjole, klede
+👘 kimono, kjole, klede
+🥻 kjole, klede, sari
+👙 badedrakt, badetøy, bikini, klede
+👚 dameklede, klede
+👛 klede, portemoné, pung
+👜 handveske, klede, veske
+👝 clutch-veske, klede, lita veske
+🛍 handleposar, hotell, pose, shopping
+🎒 ransel, ryggsekk, skulesekk
+🩴 flipflops, flippflopp, flippfloppar, havalanas, sandalar, strandsandalar, zoori
+👞 herresko, klede, sko
+👟 fritidssko, joggesko, klede, sko, tennissko
+🥿 flate sko, pumps, utan hæl
+👠 høghæla sko, klede, sko
+👡 dame, damesandal, klede, sandal, sko
+👢 dame, damestøvlett, damstøvlett, klede, sko, støvlett
+👑 dronning, klede, konge, krone
+👒 damehatt, hatt, klede
+🎩 flosshatt, hatt, klede
+🎓 feiring, hatt, klede, studentlue, uteksaminering
+🪖 hær, hjelm, krigar, militær, militærhjelm, soldat
+⛑ fjes, hatt, hjelm, hjelm med kvit kross, hjelp, kross
+📿 bøn, bønekrans, halssmykke, klede, perler, religion
+💎 diamant, edelstein, romantikk, smykkestein
+🔇 dempa, dempa høgtalar, høgtalar med strek over, inga prating, stille
+🔈 høgtalar med lågt volum, låg, lyd, ropert
+🔉 høgtalar med middels volum, lyd, middels, ropert
+🔊 høg, høgtalar med høgt volum, lyd, ropert
+📢 høg, høgtalar, kommunikasjon, megafon, ropert
+🔔 bjølle, klokke, ringing
+🔕 bjølle med strek over, ingen lyd, klokke, lydlaus, overstreka bjølle, stille
+🎼 g-nøkkel, musikk, noteteikn
+🎶 musikk, musikknotar, notar
+🎚 glidebrytar, musikk, nivå, skuveknapp
+🎛 brytarar, knottar, kontroll, kontrollbrytarar, musikk
+🎤 karaoke, mik, mikrofon, musikk, underhaldning
+🎧 headset, hovudtelefonar, øyretelefonar, underhaldning
+📻 radio, radiosignal, teknologi
+🪗 accordeon, concertina, trekkspel
+🎹 instrument, keyboard, musikk, musikkinstrument, piano, tangentar
+📲 mobiltelefon, mobiltelefon med pil, oppkall, oppringing, pil, ring, telefon
+☎ fasttelefon, ringje, telefon
+📞 kommunikasjon, telefon, telefonrøyr
+📟 kommunikasjon, personsøkjar, telefon
+🔋 batteri, energilagring, straum
+💻 berbar datamaskin, datamaskin, maskin, PC
+🖨 datamaskin, printer, skrivar
+🧮 abakus, kuleramme, rekning
+🎥 film, filmkamera, kamera, kino, underhaldning
+🎞 bilete, film, filmruter, kino, ruter
+📽 film, filmframvisar, kino, projektor, video
+🎬 action, film, filming, filmklappar, klappar, underhaldning
+🔍 forstørring, forstørringsglas mot venstre, glas, lupe, søk
+🔎 forstørring, forstørringsglas mot høgre, glas, lupe, søk
+💡 elektrisitet, idé, lys, lyspære, pære, teikneserie
+🏮 bar, izakaya, lampe, lanterne, lykt, raud, raud papirlykt
+🪔 diya, lampe, olje, open oljelampe
+📕 bok, lukka
+📖 bok, open
+📗 bok, grøn
+📃 ark, opprulla, side, side med bøy
+📰 avis, nyhende, publikasjon
+🗞 avis, nyhende, opprulla, papir, samanrulla avis
+📑 bokmerke, bokmerkefane, faner, markør, merke
+💰 dollar, pengar, pengesekk, sekk
+🪙 gull, metall, mynt, pengar, skatt, sølv
+💴 pengar, setel, yen, yensetel
+💵 dollar, dollarsetel, pengar, setel
+💶 euro, eurosetel, pengar, setel
+💷 pengar, pund, pundsetel, setel
+💸 bank, flygande setel, pengar, pengar med vinger, setel
+🧾 arkiv, bilag, dokumentasjon, kvittering, rekneskap
+💹 graf, marknad, oppover, pengar, stigande, stigande diagram med yen, trend, yen
+📨 brev, e-post, epost, få, innkomande, konvolutt
+📩 brev, e-post, epost, konvolutt, konvolutt med pil, sende, sendt, utgåande
+📥 brev, e-post, fått, innboks, kommunikasjon, motteke, skuff
+📫 flagg, lukka postkasse med flagget oppe, post
+📪 flagg, lukka postkasse med flagget nede, post
+📬 flagg, open postkasse med flagget oppe, post
+📭 flagg, open postkasse med flagget nede, post
+🗳 boks, røystesetel, stemmesetel, urne med røystesetel
+🖌 måling, pensel
+🖍 fargestift, teikning
+📂 arkimappe, fil, filmappe, mappe, open, open arkivmappe
+🗂 faner, indeks, kort, skiljarar, skiljekort
+📈 chart, diagram som peikar oppover, graf, opp, positiv, stigande
+📉 chart, diagram som peikar nedover, fallande, graf, ned, negativ, synkande
+🖇 binders, kjede, samanlenka binders
+🗑 boskorg, papirkorg, søppelkasse, søppelkorg
+🔓 hengjelås, lås, open, ulåst
+🗝 gamal, gamaldags nøkkel, lås, leietråd, nøkkel
+🔨 hammar, verktøy
+🪓 dele, hogge, kløyve, øks, ved
+⚒ hakke, hammar, hammar og hakke, verktøy
+🛠 hammar, hammar og fastnøkkel, skiftenøkkel, verktøy
+🔫 pistol, revolver, våpen, vasspistol
+🏹 boge, bogeskyttar, pil, pil og boge, Skyttaren, stjernebilete, stjerneteikn, våpen
+🪚 handsag, sag, snikkar, tømrar, tre, verktøy
+🪛 skrue, skrujern, skrutrekkjar, verktøy
+⚖ balanse, likearma skålvekt, rettferd, stjerneteiikn, vekt, Vekta, verktøy
+🦯 blind, blindestokk, tilgjenge
+🔗 lenkje, link, to ringar
+🪝 boga, fange, krok, løfte, løftekrok, salspunkt
+🧲 hestesko, magnet, magnetisk, tiltrekking
+🧪 eksperiment, forsking, kjemi, kjemikar, lab, prøverøyr, reagensrøyr
+🧬 biolog, dna, evolusjon, gen, genetikk, liv
+🔬 forsking, mikroskop, verktøy, vitskap
+🔭 astronomi, forsking, teleskop, verktøy, vitskap
+💉 medisin, nål, sjuk, sprøyte, vaksine
+🩸 bloddrope, blodgjevar, medisin, mens, menstruasjon
+🩺 hjarte, lege, medisin, stetoskop
+🛗 heis, tilgjenge
+🪞 refleksjon, spegel, spegelbilete
+🪟 frisk luft, gjennomsiktig, opning, ramme, utsikt, vindauge
+🪑 sete, sitje, sitjeplass, stol
+🚽 dass, do, toalett, vassklosett, wc
+🪠 avløp, avløpsopnar, mekanisk, toalett, vask
+🚿 dusj, vatn
+🧴 fuktigheitskrem, lotion, lotionflaske, shampoo, sjampo, solkrem
+🧷 bleie, punk, sikkerheitsnål
+🧹 feie, feiekost, heks, reingjere
+🧺 jordbruk, klesvask, korg, piknik
+🪣 behaldar, bøtte, kar, spann
+🪥 bad, baderom, børste, dental, hygiene, rein, tannbørste, tenner
+🧽 absorberande, porøs, reingjere, svamp, vaske
+🧯 brann, brannsløkkingsapparat, sløkke, sløkkje
+🚬 røyking, røyking tillate, sigarett, skilt
+⚰ død, gravferd, kiste
+🪦 grav, gravplass, gravstein, kyrkjegard
+⚱ død, gravferd, kremasjon, urne
+🗿 andletsstatue, moai, moai-statue, påskeøya, statue
+🏧 automatisk, bank, minibank, minibankskilt, pengar
+🚰 drikke, drikkevatn, vatn
+♿ handikaptilgang, rullestol, rullestolbrukar, rullestolsymbol
+🚹 do, herrar, herretoalett, mannesymbol, toalett, wc
+🛄 bagasje, bagasjeband, rulleband
+⚠ åtvaring, OBS
+🚸 barn, barn kryssar vegen, kryssar, skilt
+⛔ einvegskøyring, ingen tilgang, skilt, stopp, tilgang forbode
+🚫 forbode, ikkje, nei, skilt, tilgang forbode
+🚳 ikkje, ingen syklar, nei, sykkel, sykkel ikkje tillate, syklar forbode
+🚭 forbode, ikkje, ikkje tillate, nei, røyking, skilt
+🚯 forsøpling ikkje tillate, ikkje avfall, inga kasting, skilt
+🚱 ikkje drikkande, ikkje drikkevatn, vatn
+🚷 fotgjengar, fotgjengarar, fotgjengarar forbode, gåande, ikkje, ikkje tillate, nei
+📵 forbode, ikkje, ikkje tillate, ingen telefonsamtalar, mobil, mobiltelefon, mobiltelefon ikkje tillate, nei, telefon
+☣ åtvaring, biologisk fare, farleg biologisk materiale, skilt
+↗ nordaust, pil, pil opp-høgre, retning
+➡ aust, høgrepil, pil, pil høgre, retning
+↘ pil, pil ned -høgre, pil ned-høgre, retning, søraust
+↔ pil, pil venstre-høgre
+↮ venstre-/høgrepil med strek over
+↪ pil, pil som bøyer mot høgre
+🔃 last inn på nytt, piler, vertikale piler med klokka
+🔄 mot klokka, piler, piler mot klokka
+🔛 ON, ON!-pil, PÅ, pil, utrop, utropsteikn
+🛐 religion, religiøs samlingsstad, tilbeding
+☸ buddhist, dharma, dharmahjulet, hjul, religion
+✝ kristen, kross, latinsk kross, latisnk kross, religion
+☦ kristen ortodoks, kross, ortodoks kross, religion
+🔯 magi, sekskanta, sekstagga stjerne med prikk, stjerne
+♈ stjerneteikn, vêr, Vêren
+♉ okse, stjerneteikn, tyr, Tyren
+♊ stjerneteikn, Tvillingane, tvillingar
+♋ krabbe, kreps, Krepsen, stjerneteikn
+♌ Løva, løve, stjerneteikn
+♍ Jomfrua, stjerneteikn
+♎ rettferd, stjerneteikn, vekt, Vekta
+♏ skorpion, Skorpionen, stjerneteikn
+♐ bogeskyttar, Skyttaren, stjerneteikn
+♑ geit, Steinbukken, stjerneteikn
+♒ stjerneteikn, Vassmannen, vatn
+♓ fisk, Fiskane, stjerneteikn
+⛎ berar, slange, Slangeberaren, stjerneteikn
+🔀 bland spor-symbol, kryssa piler mot høgre, piler
+🔁 gjenta-knapp, med klokka, piler
+🔂 1 gong, éin gong, gjenta eitt spor-knapp, med klokka, piler
+▶ avspelingsknapp, høgre, pil, trekant
+⏩ dobbel pil, høgre, spol framover-knapp, spoling
+⏯ høgre, pause, pil, spel av, spel av / pause-knapp, trekant
+⏮ førre scene, førre spor-knapp, pil, trekant
+⏺ innspeling, sirkel, spel inn-knapp, ta opp
+⏏ eject, knapp, løyse ut, mat ut-knapp, mate ut
+🎦 film, filmkamera, kamera, kino, underhaldning
+🔅 låg, lite lys-knapp, lysstsyrke
+🔆 høg, lysstyrke, mykje lys-knapp
+📶 antenne, mobil, mobilsignal, signal, signalstyrke, telefon
+✖ avbryt, gongeteikn, multiplikasjon, multiplisere
+➕ forteikn, matte, pluss, plussteikn, positivt
+➖ -, –, forteikn, matte, minus, minusteikn, negativt
+➗ ÷, dele, deleteikn, delilng, divisjon, divisjonsteikn
+♾ for alltid, grenselaus, uendeleg, universal, universell
+‼ !, !!, bangbang, dobbelt utropsteikn, teikn, teiknsetjing, utropsteikn
+⁉ !, !?, ?, spørsmål, spørsmålsteikn, teikn, teiknsetjing, utrop, utropsteikn, utropsteikn og spørsmålsteikn
+❓ ?, raudt spørsmålsteikn, spørsmål, spørsmålsteikn
+❔ ?, kvitt spørsmålsteikn, spørsmål
+❕ !, kvitt utropsteikn, utrop
+❗ !, raudt utropsteikn, teikn, teiknsetjing, utrop, utropsteikn
+〰 bølgja bindestrek, bølgje, bølgjestrek, teikn for lang lyd
+💱 bank, pengar, valuta, valutaveksling, veksling
+💲 dollar, dollarteikn, pengar, stort dollarteikn
+🔱 anker, emblem, treeining, trefork, treforkemblem, tridentsymbol
+📛 namn, namneskilt, skilt
+🔰 grøn og gul, grønt og gult blad, japansk, japansk teikn for nybyrjar, nybyrjar
+⭕ o, raud, sirkel, stor, tjukk
+☑ ✓, avkryssa boks, boks, boks med hakemerke, hakemerke
+❌ ×, kryss, raudt kryss, x, X
+➰ løkke, løkketeikn
+➿ dobbel løkke, dobbel løkke-teikn
+✳ *, asterisk, asterisk med åtte spissar, stjerne
+✴ *, åttetagga stjerne, stjerne
+🔠 ABCD, bokstavar, inndata, store bokstavar
+🔡 abcd, bokstavar, inndata, små bokstavar
+🔢 1234, inndata, numeriske data, tal
+🔣 〒♪&amp;%, inndata, symbol
+🔤 ABC, bokstavar, inndata, latinsk, latinsk alfabet
+🆕 new, NEW-knapp, new-symbol, ny, nyhende
+🆖 ikkje bra, NG, NG-knapp, NG-symbol, no good
+🈷 «månadleg beløp» på japansk, ideograf, japansk, månadleg beløp, 月
+🈶 «ikkje gratis» på japansk, ideograf, ikkje gratis, japansk, 有
+🉐 «spesialtilbod» på japansk, ideograf, japansk, spesialtilbod, 得
+🈲 «forbode» på japansk, forbode, ideograf, japansk, 禁
+㊙ «hemmeleg» på japansk, hemmeleg, ideograf, japansk, 秘
+🈺 «open for handel» på japansk, ideograf, japansk, open for handel, 営
+🔴 geometrisk, raud, sirkel
+🟢 grøn, sirkel
+⚪ geometrisk, kvit sirkel, sirkel
+🟥 kvadrat, raud, raudt
+🟩 grøn, grønt, kvadrat
+⬜ firkant, geometrisk, kvadrat, stor kvit firkant
+▫ firkant, geometrisk, kvadrat, liten kvit firkant
+🔺 geometrisk, oppover, raud trekant som peikar opp, trekant
+🔻 gemoetrisk, nedover, raud trekant som peikar ned, trekant
+🔳 firkant, knapp, kvit firkanta knapp
+🔲 firkant, knapp, svart firkanta knapp
+🚩 golf, posisjon, trekanta, vimpel
+🎌 feiring, flagg, kryssa, kryssa japanske flagg
+🏳 flagg, flagring, kvitt
+🏳‍🌈 flagg, regnboge, regnbogeflagg
+🏳‍⚧ flagg, kit, lyseblå, rosa, transperson, transpersonflagg
+🏴‍☠ Kaptein Sabeltann, pirat, plyndre, sjørøvarflagg, skatt
+¥ CNY, japanske yen, JPY, kinesiske yuan, yen
+₥ mill, tusendels valutaeining, valuta
+₽ RUB, rublar, russiske rublar, valuta
+¹ ein, første, heva, heva eittal, i første, opphøgd
+² andre, heva, heva total, kvadrat, opphøgd, to
+³ heva, heva tretal, i tredje, kubikk, opphøgd i tredje, tre
+µ gresk my, liten my, mikro, mikroteikn, milliondel, milliontedels, my

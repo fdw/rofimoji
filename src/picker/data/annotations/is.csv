@@ -1,0 +1,1798 @@
+{ oddsvigi, slaufa, slaufusvigi, svigi, vinstri oddsvigi
+🏻 húðlitur, ljós húðlitur, tegund 1–2
+🏼 húðlitur, meðalljós húðlitur, tegund 3
+🏽 húðlitur, millihúðlitur, tegund 4
+🏾 húðlitur, meðaldökkur húðlitur, tegund 5
+🏿 dökkur húðlitur, húðlitur, tegund 6
+‾ lína, yfirstrik
+_ lágstrik, niðurstrik, strik, undirstrik
+- bandstrik, bandstrik-mínus, mínus, þankastrik
+‐ bandstrik, þankastrik
+– stutt, tilstrik, þankastrik
+— langt, þankastrik
+― l´ína, lárétt rönd, rönd, þankastrik
+・ katakana, katakana miðstæður punktur, miðdepill, miðpunktur, punktar
+, komma
+، arabísk, komma
+、 komma, myndletur, myndleturskomma
+; semíkomma
+؛ arabísk, semíkomma
+: tvípunktur
+! bang, hrópmerki, upphrópun, upphrópunarmerki
+¡ bang, hrópmerki, öfugt, upphrópun, upphrópunarmerki
+? spurning, spurningarmerki
+¿ öfugt, spurning, spurningarmerki
+؟ arabískt, spurning, spurningarmerki
+. depill, punktur
+… punktar, úrfelling, úrfellingarpunktar
+。 myndpunktur, punktur
+· depill, miðdepill, miðja, miðjudepill, millipunktur
+' högg, prenthögg, tilvitnun, úrfelling
+‘ högg, tilvitnun, úrfelling, vinstra högg
+’ hægra högg, högg, tilvitnun, úrfelling
+‚ lágstætt hægra högg, lágstætt högg, tilvitnun, úrfelling
+“ hástætt vinstra tvíhögg, tilvitnun, tvíhögg, vinstra tvíhögg
+” hægra tvíhögg, hástætt hægra tvíhögg, tilvitnun, tvíhögg
+„ lágstætt hægra tvíhögg, lágstætt tvíhögg, tilvitnun, tvíhögg
+« franskar gæsalappir vinstri, horn, hornklofar, innskotsmerki, setja í gæsalappir, tvíoddur, vinstri
+» franskar gæsalappir hægri, hægri, horn, hornklofar, innskotsmerki, setja í gæsalappir, tvíoddur
+) hægri svigi, svigi, svigi lokast
+[ hornklofi, klofi, vinstri hornklofi
+] hægri hornklofi, hornklofi, klofi
+} hægri oddsvigi, oddsvigi, slaufa, slaufusvigi, svigi
+〈 oddklofi, oddsvigi, olnbogasvigi, vinstri oddklofi
+〉 hægri oddklofi, oddklofi, oddsvigi, olnbogasvigi
+《 svigi, tvöfaldur oddklofi, tvöfaldur vinstri oddklofi
+》 svigi, tvöfaldur hægri oddklofi, tvöfaldur oddklofi
+「 hástætt vinstra vinkilmerki, vinkill, vinkilmerki
+」 lágstætt hægra vinkilmerki, vinkill, vinkilmerki
+『 hástætt holt vinstra vinkilmerki, holt vinkilmerki, vinkilmerki
+』 holt vinkilmerki, lágstætt holt hægra vinkilmerki, vinkilmerki
+【 linsusvigi, svartur linsusvigi, vinstri svartur linsusvigi
+】 hægri svartur linsusvigi, linsusvigi, svartur linsusvigi
+〔 skeljarsvigi, skjaldbökuskel, svigi, vinstri skjaldbökuskel
+〕 hægri skjaldbökuskel, skeljarsvigi, skjaldbökuskel, svigi
+〖 holur linsusvigi, linsusvigi, vinstri holur linsusvigi
+〗 hægri holur linsusvigi, holur linsusvigi, linsusvigi
+§ efnisgrein, hluti, kaflamerki, silcrow
+¶ efnisgrein, efnisgreinarmerki, greinaskil, greinaskilamerki
+@ á-merki, at-merki, att-merki, hjá, hjá-merki, vistmerki
+* algildisstafur, stjarna, stjörnumerki
+/ brotastrik, hallandi, skástrik, strik á ská
+\ bakstrik, flástrik, öfugt skástrik
+& og, og-merki
+# endamerki, númer, pund
+% af hundraði, hundraðshluti, prósent
+‰ prómil, prómíl, prómill, þúsundasti hluti
+† broddsúla, obelus, úreldingarmerki
+‡ broddsúla, obelus, tvöfalt, úreldingarmerki
+• depill, merkill
+‧ bandstrik, miðpunktur, miðstæður punktur, punktur
+′ mínútumerki
+″ tvíhögg
+‴ þríhögg
+‸ innskotsmerki
+※ tilvísunarmerki
+⁂ stjörnuþríhyrningur
+` áhersla, broddur, öfugur broddur, tónn
+´ áhersla, broddur, frambroddur, tónn
+^ hattur, innskotsmerki, oddur
+¨ hljóðvarp, hljóðvarpshljóð, tvídepill
+° alkóhólstyrkur, gráða, klukkustund
+℗ hljóð, höfundarréttur, höfundarréttur hljóðupptöku, upptaka
+← ör, ör sem vísar til vinstri, vinstri
+→ hægri, ör, ör sem vísar til hægri
+↑ ör, ör sem vísar upp, upp
+↓ niður, ör, ör sem vísar niður
+↜ bylgjuör til vinstri
+↝ bylgjuör til hægri
+↞ tvihöfða ör til vinstri, tvíhöfða ör til vinstri
+↟ tvíhöfða ör upp á við
+↠ tvíhöfða ör til hægri
+↡ tvíhöfða ör niður á við
+↢ örvarendi til vinstri
+↣ örvarendi til hægri
+↭ bylgjuör vinstri hægri
+↯ sikksakk, sikksakk ör niður á við
+↰ örvaroddur upp á við til vinstri
+↱ örvaroddur upp á við til hægri
+↲ örvaroddur niður á við til vinstri
+↳ örvaroddur niður á við til hægri
+↺ opin hringör rangsælis
+↻ opin hringör réttsælis
+↼ broddur, skutull til vinstri með brodd upp á við
+↽ skutull til vinstri með brodd niður á við
+↾ broddur, skutull upp á við með brodd til hægri
+↿ broddur, skutull upp á við með brodd til vinstri
+⇀ broddur, skutull til hægri með brodd upp á við
+⇁ broddur, skutull til hægri með brodd niður á við
+⇂ broddur, skutull niður á við með brodd til hægri
+⇃ broddur, skutull niður á við með brodd til vinstri
+⇄ ör til hægri yfir ör til vinstri
+⇅ niður, ör, ör sem vísar upp og ör sem vísar niður, upp
+⇆ hægri, ör, ör sem vísar til vinstri yfir ör sem vísar til hægri, vinstri, vinstriör yfir hægriör
+⇇ örvapar til vinstri
+⇈ örvapar upp á við, örvarpar upp á við
+⇉ örvarpar til hægri
+⇊ örvapar niður á við, örvarpar niður á við
+⇋ skutull til vinstri yfir skutli til hægri
+⇌ skutull til hægri yfir skutli til vinstri
+⇐ tvöföld ör til vinstri
+⇑ tvöföld ör upp á við
+⇒ tvöföld ör til hægri
+⇓ tvöföld ör niður á við
+⇔ tvöföld ör vinstri hægri
+⇖ tvöföld ör í norðvestur
+⇗ tvöföld ör í norðaustur
+⇘ tvöföld ör í suðaustur
+⇙ tvöföld ör í suðvestur
+⇚ þreföld ör til vinstri
+⇛ þreföld ör til hægri
+⇜ hlykkjótt ör til vinstri
+⇝ hlykkjótt ör til hægri
+⇞ tvístrikuð ör upp á við
+⇟ tvístrikuð ör niður á við
+⇦ hol ör til vinstri
+⇧ hol ör upp á við
+⇨ hol ör til hægri
+⇩ hol ör niður á við
+⇵ ör niður á við vinstra megin við ör upp á við
+∅ mengjavirkir, stærðfræði, tómamengi
+∆ aukning, þríhyrningur
+∇ nafla, þríhyrningur
+∈ aðild, inniheldur, mengi, stak, stak í
+∉ ekki stak, stak
+∋ stak
+∏ margfeldi, n-unda-margfeldi, rökfærsla
+∑ n-unda-summun, stærðfræði, summun
++ leggja saman, plús, plúsmerki
+± plús-mínus
+÷ deila, deiling, deilingarmerki, obelus
+× margfalda, margföldun, margföldunarmerki, sinnum
+< lægra en, minna en, vinstri fleygur
+≮ ekki minna en, ójöfnuður, stærðfræði
+= jafnt, samasem
+≠ ekki jafnt, ójafnt, ójöfnuður
+> hægri fleygur, meira en, stærra en
+≯ ekki stærra en, ójöfnuður, stærðfræði
+¬ ekki, neitun
+| lóðlína, lóðrétt lína, lóðrétt strik, lóðstrik, stöng
+~ tilda
+− draga frá, mínus, mínusmerki
+⁻ brjóstletur, mínus
+∓ mínus-eða-plús, plús-mínus
+∕ deilingarskástrik
+⁄ brotaskástrik
+∗ stjarna
+∙ virkir
+√ annað veldi, kvaðratrót, óræð tala, rót, rótarstærð, stofntala
+∝ hlutfallsleiki
+∞ óendanlegt, óendanlegt-merki
+∟ rétt horn, stærðfræði
+∠ horn
+∣ deilir
+∥ samsíða
+∩ mengi, sniðmengi
+∪ mengi, sammengi, samsafn
+∫ heildi, örsmæðarreikningur
+∬ örsmæðarreikningur, tvöfalt heildi
+∮ lykkjuheildi
+∴ rökfræði, þar af leiðandi
+∵ rökfræði, vegna þess
+∶ hlutfall
+∷ hlutfallsleiki
+∼ tilduvirkir, virkir
+∽ öfug tilda, tilda
+≈ næstum jafnt, nálgun, námundun
+≌ jöfnuður, stærðfræði
+≖ jöfnuður, stærðfræði
+≡ nákvæmlega eins, nákvæmlega eins og, nákvæmur, þrefalt
+≣ jöfnuður, stærðfræði
+≤ jafnt, minna en, minna en eða jafnt, ójöfnuður, samasem
+≥ jafnt, ójöfnuður, samasem, stærra en, stærra en eða jafnt
+≦ minna en yfir jafngildi, ójöfnuður, stærðfræði
+≧ ójöfnuður, stærðfræði, stærra en yfir jafngildi
+≪ miklu minna en, ójöfnuður, stærðfræði
+≫ ´ójöfnuður, miklu stærra en, stærðfræði
+≬ á milli
+≳ ójöfnuður, stærðfræði, stærra en jafngildi
+≺ kemur á undan, mengjavirkir, stærðfræði
+≻ kemur á eftir, mengjavirkir, stærðfræði
+⊁ kemur ekki á eftir, mengjavirkir, stærðfræði
+⊂ hlutmengi, hlutmengi í, mengi
+⊃ mengjavirkir, stærðfræði
+⊇ jöfnuður, stærðfræði
+⊕ plús, plús í hring
+⊖ mínus í hring
+⊰ mengjavirkir, stærðfræði
+⊱ mengjavirkir, stærðfræði
+⊿ rétthyrndur þríhyrningur, réttur þríhyrningur, stærðfræði
+⋂ mengjavirkir, n-unda-sniðmengi, sniðmengi, stærðfræði
+⋅ punktavirkir, virkir
+⋆ stjörnuvirkir, virkir
+⋘ mjög miklu minna en, ójöfnuður, stærðfræði
+⋙ mjög miklu stærra en, ójöfnuður, stærðfræði
+⋮ lóðrétt úrfellingarmerki, stærðfræði, úrfellingarmerki
+⋯ úrfellingarmerki
+⋰ stærðfræði, úrfellingarmerki
+⋱ stærðfræði, úrfellingarmerki
+■ fylltur ferningur
+□ holur ferningur
+▢ holur ferningur með rúnnuðum hornum
+▣ fylltur ferningur í holum ferningi
+▤ ferningur með láréttri fyllingu
+▥ ferningur með lóðréttri fyllingu
+▬ fylltur rétthyrningur
+▭ holur rétthyrningur
+▮ fylltur lóðréttur rétthyrningur
+▰ fylltur sams´íðungur, fylltur samsíðungur
+▲ fylltur, fylltur þríhyrningur sem vísar upp, ör, upp, þríhyrningur
+△ holur þríhyrningur sem vísar upp
+▴ fylltur lítill þríhyrningur sem vísar upp
+▵ holur lítill þríhyrningur sem vísar upp
+▷ holur þríhyrningur sem vísar til hægri
+▸ fylltur lítill þríhyrningur sem vísar til hægri
+▹ holur lítill þríhyrningur sem vísar til hægri
+► fylltur bendir sem vísar til hægri
+▻ holur bendir sem vísar til hægri
+▼ fylltur, fylltur þríhyrningur sem vísar niður, niður, ör, þríhyrningur
+▽ holur þríhyrningur sem vísar niður
+▾ fylltur lítill þríhyrningur sem vísar niður
+▿ holur lítill þríhyrningur sem vísar niður
+◁ holur þríhyrningur sem vísar til vinstri
+◂ fylltur lítill þríhyrningur sem vísar til vinstri
+◃ holur lítill þríhyrningur sem vísar til vinstri
+◄ fylltur bendir sem vísar til vinstri
+◅ holur bendir sem vísar til vinstri
+◆ fylltur tígull
+◇ holur tígull
+◈ fylltur tígull í holum tígli
+◉ fylltur hringur í holum hring
+◊ demantur, rhombus, tígullaga
+○ holur hringflötur, hringflötur, hringur
+◌ hringur úr punktum
+◍ hringur með lóðréttri fyllingu
+● fylltur hringflötur, hringflötur
+◐ hringur hálffylltur til vinstri
+◑ hringur hálffylltur til hægri
+◒ fylltur neðri helmingur hrings
+◓ fylltur efri helmingur hrings
+◔ fylltur efri fjórðungsbogi hrings til hægri
+◖ fylltur vinstri helmingur hrings
+◗ fylltur hægri helmingur hrings
+◠ efri helmingur hrings
+◡ neðri helmingur hrings
+◢ fylltur neðri þríhyrningur til hægri
+◣ fylltur neðri þríhyrningur til vinstri
+◤ fylltu efri þríhyrningur til vinstri, fylltur efri þríhyrningur til vinstri
+◥ fylltur efri þríhyrningur til hægri
+◦ holt áherslumerki
+◯ hringflötur, hringur, stór holur hringflötur
+◳ holur ferningur með efri fjórðungsgeira til hægri
+◷ holur hringur með efri fjórðungsboga til hægri
+◿ neðri þríhyrningur til hægri
+♪ áttundapartsnóta, áttungur, nóta, tónlist
+⪚ ójöfnuður, stærðfræði
+♭ bemolle, lækkaður tónn, nóta, tónlist
+♯ hækkaður tónn, hækkunarmerki, nóta, tónlist
+😀 andlit, glott, glottandi andlit
+😃 andlit, bros, brosandi andlit með opinn munn, brosandi andlit með stórum augum, opinn munnur
+😄 andlit, bros, bros og opinn munnur, hlæja, hlæjandi andlit
+😁 andlit, glottandi andlit, glottandi andlit með brosandi augum, hlæja
+😆 ánægja, andlit, bros, brosandi andlit með pírð augu, brosandi andlit og pírð augu
+😅 andlit, bros, bros og kaldur sviti, brosandi sveitt andlit, sviti
+🤣 hlátur, veltast, veltist um af hlátri
+😂 andlit, andlit tárast af gleði, gleðitár
+🙂 andlit, bros, milt bros
+🙃 á hvolfi, andlit, andlit á hvolfi
+😉 andlit, blikk, blikkandi andlit
+😊 andlit, bros, brosandi andlit og augu, brosandi augu
+😇 andlit, bros, bros og geislabaugur, brosandi andlit með geislabaug, geislabaugur
+🥰 aðdáun, ástfangin, ástfanginn, brosandi andlit með hjörtum, skotinn í
+😍 andlit, ást, augu, bros, brosandi andlit með hjartalaga augu
+🤩 andlit, augu, brosandi, stjarna, stjörnustjarfur
+😘 andlit, kasta kossi, koss, kveðjukoss, kyssa
+😗 andlit, koss, kyssa, kyssandi andlit
+☺ andlit, bros, brosandi andlit, broskall, broskarl
+😚 andlit, augu, koss, kyssandi andlit með lokuð augu, kyssandi andlit og lokuð augu
+😙 andlit, koss og bros, kyssa og brosa, kyssandi og brosandi andlit
+🥲 ánægja, bros, brosandi andlit með tár, snortið, stolt, tár, þakklæti
+😋 andlit, andlit að njóta matar, góður matur
+😛 andlit, andlit að ulla, tunga út, ulla
+😜 andlit, auga, blikkandi auga að ulla, blikkarl með útrétta tungu, brandari, tunga
+🤪 auga, lítið, stórt, sturlað andlit
+😝 andlit, andlit að ulla og pírð augu, auga, hryllingur, oj, tunga
+🤑 andlit, andlit með peningaseðil í munninum, munnur, peningaseðill
+🤗 andlit, faðmandi andlit, faðmar, faðmlag
+🤭 andlit með hendi fyrir munn, úps
+🤫 andilt að segja uss, suss, uss, þögn
+🤔 andlit, hugsandi
+🤐 andlit, andlit með rennilás fyrir munninum, munnur, rennilás
+🤨 andlit með yppta brún, efasemdir, hissa, vantraust
+😐 andlit, hlutlaust andlit, hlutleysi
+😑 andlit, engin svipbrigði, svipbrigðalaust andlit
+😶 andlit, andlit án munns, enginn munnur
+😶‍🌫 andlit í skýjum, andlit í þoku, annarshugar, höfuð í skýjum
+😏 andlit, glott, sjálfsánægt andlit
+😒 andlit, ekki skemmt, engin gleði, fýla
+🙄 andlit, augu, ranghvolfir, ranghvolfir augum
+😬 andlit, andlit með grettu, gretta
+😮‍💨 andköf, andlit að anda frá sér, blístur, hvísl, léttir, stuna, útöndun
+🤥 andlit, gosi, ljúga, lygari, lygi
+😌 andlit, andlit sem er létt, léttir
+😔 andlit, í þungum þönkum, íbyggið andlit
+😪 andlit, syfja, syfjað andlit
+🤤 andlit, slefa, slefandi
+😴 andlit, sofandi
+😷 andlit, andlit með grímu, andlit með læknagrímu, gríma, kalt, veikindi
+🤒 andlit, andlit með hitamæli í munninum, hitamælir, með flensu, veikur
+🤕 andlit, andlit með sárabindi, meiddur, sárabindi, slasaður
+🤢 andlit, gubba, gubbukall, ógleði
+🤮 æla, ælandi andlit, veikindi
+🤧 andlit, hnerra, hnerrandi andlit, hnerri, kvef
+🥵 heitt, með hita, rauður í framan, sólstingur, sviti
+🥶 blár í framan, frostbit, grýlukerti, ískalt, kalt
+🥴 hlykkjóttur munnur, kenderí, ójöfn augu, ringlað andlit, svima, víma
+😵 andlit, andlit með svima, svimi
+😵‍💫 andlit með gormaugu, dáleiddur, gormur, hægan, svimar, vandræði
+🤯 splundrað höfuð
+🤠 hattur, kúreki
+🥳 fagna, flauta, hattur, partí, partíandlit
+🥸 andlit, dulargervi, gleraugu, nef, óþekkjanlegt
+😎 bjart, brosandi andlit með sólgleraugu, brosandi andlit með sólgleraugum, sól, sólgleraugu, svalt
+🤓 andlit, lúði, nörd, nördaandlit
+🧐 andlit með einglyrni, gamaldags, teprulegur
+😕 andlit, ringlað andlit, ringlun, ruglingslegt andlit
+😟 áhyggjufullt andlit, áhyggjur, andlit
+🙁 andlit, andlit með litla skeifu, skeifa
+☹ andlit, andlit með stóra skeifu, skeifa
+😮 andlit, andlit með opinn munn, munnur, opinn munnur
+😯 andlit, undrandi, undrun
+😲 andlit, stórundrandi andlit, undrandi, undrun
+😳 andlit, andlit að roðna, roðna
+🥺 biðjandi andlit, grátbiðja, hvolpaaugu, miskunn
+😦 andlit, leiði, leitt andlit, leitt andlit opinn munn, opinn munnur
+😧 andlit, angist, angistarfullt andlit, kvalir
+😨 andlit, hræðsla, hrætt andlit, ótti
+😰 andlit, kaldur sviti, sveitt andlit, sviti
+😥 andlit, hjúkk, léttir
+😢 andlit, depurð, grátandi andlit, grátur, tár
+😭 andlit, grátandi andlit, grátur, hágrátandi andlit, sorg, tár
+😱 andlit, hræðsla, öskra af ótta, óttaslegið andlit, ótti
+😖 andlit, forviða
+😣 andlit, erfiðleikar, klúður
+😞 andlit, vonbrigðaandlit, vonbrigði
+😓 andlit, andlit með köldum svita, kaldur sviti
+😩 andlit, þreyta, þreytulegt andlit
+😫 andlit, þreyta, þreytt andlit
+🥱 geispa, geispandi andlit, leiðindi, þreyta
+😤 andlit, ég vann, sigur, sigursvipur
+😡 andlit, fýlulegt andlit, rautt andlit, rautt reiðiandlit, reiði
+😠 andlit, reiðiandlit, reitt andlit
+🤬 andlit með tákn fyrir munni, blóta, reiði
+😈 andlit, bros, bros og horn, broskarl með horn, horn
+👿 andlit, djöfull, púki, skratti
+💀 ævintýri, andlit, hauskúpa, líkami
+☠ andlit, beinleggir, dauði, hausk´úpa og beinleggir, hauskúpa og beinleggir, höfuðkúpa
+💩 della, kúkur, skítur
+🤡 andlit, trúður
+👹 ævintýri, andlit, oni, tröll, vera
+👺 ævintýri, andlit, ári, púki, tröll
+👻 ævintýri, andlit, draugur
+👽 ævintýri, andlit, geimskip, geimvera, skrímsli
+👾 ævintýri, andlit, geimskip, geimveruskrímsli, skrímsli
+🤖 andlit, skrímsli, vélmenni, vélmennisandlit
+😺 bros, brosandi köttur með opinn munn, hlæjandi köttur, köttur, opinn munnur
+😸 glott, glottandi köttur, köttur, köttur með glott
+😹 gleðitár, köttur, köttur með gleðitár
+😻 andlit, ást, ástarköttur, brosandi köttur, brosandi köttur og hjartalaga augu, köttur
+😼 glott, glottandi köttur, köttur, lúmskur köttur, lymska
+😽 andlit, auga, koss, köttur, kyssandi köttur
+🙀 andlit, hissa, hnugginn köttur, köttur, óvænt, undrandi
+😿 grátandi, grátur, köttur
+😾 fýla, fýluköttur, köttur, köttur í fýlu
+🙈 api, api heldur fyrir augu, bannað, illska, má ekki sjá
+🙉 api, api heldur fyrir eyru, illska, má ekki heyra
+🙊 api, api heldur fyrir munn, illska, má ekki tala
+💋 koss, kossafar, rómantík, varir
+💌 ástarbréf, bréf, bréf með hjarta, hjarta, rómantík
+💘 ást, hjarta, hjarta með ör, ör, tilfinningar
+💝 hjarta, hjarta með slaufu, slaufa, tilfinningar, valentínusardagurinn
+💖 æsingur, ást, glitrandi, glitrandi hjarta, tilfinningar
+💗 ást, púls, spenna, stækkandi hjarta, taugaspenna
+💓 ást, hjarta, hjartsláttur, sláttur, tilfinningar
+💞 ást, hjarta, snúningshjörtu
+💕 ást, elskendur, tilfinningar, tvö hjörtu
+💟 hjarta, skraut með hjarta
+❣ greinarmerki, hjarta, hjarta sem upphrópunarmerki, merki, upphrópunarmerki
+💔 ástarsorg, brostið, hjarta
+❤‍🔥 ást, brenna, girnd, heilagt hjarta, hjarta, logandi hjarta
+❤‍🩹 heilbrigðari, hjarta að gróa, hress, jafna sig, lagast, ná sér, skána
+❤ hjarta, rautt hjarta
+🧡 appelsínugult, hjarta, tilfinningar
+💛 gult, hjarta, tilfinningar
+💚 grænt, hjarta, tilfinningar
+💙 blátt, hjarta, tilfinningar
+💜 fjólublátt, hjarta, tilfinningar
+🤎 brúnt, hjarta
+🖤 hjarta, illt innræti, svart hjarta, svartur
+🤍 hjarta, hvítt
+💯 100, fullt hús, stig
+💢 reiði, reiðitákn, reiður, skrípó, tilfinningar
+💥 árekstrartákn, árekstur, skrípó, tilfinningar
+💫 ringlaður, sjá stjörnur, skrípó, stjörnur, tilfinningar
+💦 skrípó, svitadropar, sviti, tilfinningar
+💨 flýja, hlaupa, hraðferð, skrípó, tilfinningar
+🕳 hola, op
+💣 skrípó, sprengja, tilfinningar
+💬 blaðra, skrípó, tala, talblaðra
+👁‍🗨 auga, auga í talblöðru, samræða, sjá, talblaðra
+🗨 ræða, samræða, vinstri talblaðra
+🗯 blaðra, bóla, reiðileg hægri talblaðra, reiður
+💭 blaðra, hugsa, hugsanablaðra, skrípó
+💤 hrotur, skrípó, sofandi, zzz, þreyta
+👋 hönd, hönd veifar, veifa
+🤚 hönd, lófi, upprétt
+🖐 fingur, glennt, hönd, líkami, upprétt hönd með glennta fingur
+✋ lófi, upprétt hönd
+🖖 fingur, hendi, kveðja, spock, vulcan-kveðja, vúlkan
+👌 bending, handarmerki, Í lagi, OK, ókei
+🤌 fingur, handahreyfing, kaldhæðni, klípa, klípandi fingur, yfirheyrsla
+🤏 klípandi hönd, lítið magn
+✌ friðarmerki, friður, sigur, sigurmerki
+🤞 fingur, hendi, kross, krosslagðir fingur, lukka
+🤟 elska-þig merki, hendi, ILY
+🤘 fingur, glennt, hönd, líkami, rokkmerki
+🤙 hönd, hringdu, hringitákn, hringja
+👈 benda, benda til vinstri, fingur, fingur bendir til vinstri, hönd, vísifingur
+👉 benda, benda til hægri, fingur, fingur bendir til hægri, hönd, vísifingur
+👆 bakhönd bendir upp, benda, fingur, fingur bendir upp, hönd, upp
+🖕 fingur, hönd, langatöng, líkami
+👇 bakhönd bendir niður, benda, fingur, fingur bendir niður, hönd, niður
+☝ benda, benda upp, fingur, hönd, vísifingur, vísifingur bendir upp
+👍 bending, hönd, þumall upp
+👎 bending, hönd, þumall niður
+✊ hnefi, uppréttur hnefi
+👊 hnefi, hönd, krepptur hnefi, kýla, samankrepptur hnefi
+🤛 hægri hnefi, hnefi, hönd, krepptur
+🤜 hnefi, hönd, krepptur, vinstri hnefi
+👏 hendur, hendur klappa, klapp, lófaklapp
+🙌 báðar hendur, fagna, hendur upp í loft, húrra
+👐 hendur, lófar, opinn lófi, opnir lófar
+🤲 lófar saman, spenntar greipar
+🤝 handaband, heilsa, heilsast, samkomulag
+🙏 bæn, spenna greipar, spenntar greipar
+✍ hönd, líkami, skrifa, skrifandi hönd
+💅 handsnyrting, naglalakk, neglur, snyrtivörur
+🤳 myndavél, sjálfa
+💪 skrípó, spenna vöðva, spenntir vöðvar, upphandleggsvöðvar, vöðvar
+🦾 aðgengi, gervilimur, vélhandleggur
+🦿 aðgengi, gervilimur, vélfótleggur
+🦵 fótleggur, sparka, útlimur
+🦶 fótur, sparka, stappa, þramma
+👂 eyru, líkami
+🦻 aðgengileiki, eyra með heyrnartæki, heyrnarlaus, heyrnarskerðing
+👃 andlit, líkami, nef
+🧠 gáfur, heili
+🫀 hjartavöðvi, hjartsláttur, líffæri, miðja, púls
+🫁 anda, innöndun, líffæri, lungu, öndun, útöndun
+🦷 tannlæknir, tennur
+🦴 bein, beinagrind
+👀 andlit, augu
+👁 auga, líkami
+👅 andlit, líkami, tunga
+👄 andlit, líkami, munnur, varir
+👶 fólk, ungbarn
+🧒 barn, kynhlutlaust, ungt
+👦 drengur, fólk, strákur
+👧 meyja, stelpa, stjörnumerki, stúlka
+🧑 fullorðinn, kynhlutlaust, manneskja
+👱 fólk, ljóshærð manneskja, ljóst hár
+👨 fólk, karl, maður
+🧔 maður með skegg, skegg
+🧔‍♂ karl, karl: skegg, skegg
+👱‍♂ ljóshærður, ljóst hár, maður
+👩 fólk, kona
+🧔‍♀ kona, kona: skegg, skegg
+👱‍♀ kona, ljóshærð, ljóst hár
+🧓 eldri fullorðinn, gamall, kynhlutlaust
+👴 eldri maður, fólk, gamall, maður
+👵 eldri kona, fólk, gömul, kona
+🙍 fýlusvipur, manneskja með ygglibrún
+🙍‍♂ fýla, karl, leiður, maður með skeifu, skeifa
+🙍‍♀ fýla, kona, kona með skeifu, leið, skeifa
+🙎 fýlusvipur, manneskja í fýlu
+🙎‍♂ fýla, fýlusvipur, karl, maður í fýlu, súr
+🙎‍♀ fýla, fýlusvipur, kona, kona í fýlu, súr
+🙅 bannað, ekki gott, hendur í kross
+🙅‍♂ bannað, ekki, karl, maður segir ekki í lagi, nei
+🙅‍♀ bannað, ekki, kona, kona segir ekki í lagi, nei
+🙆 allt í lagi, í lagi
+🙆‍♂ í lagi, já, karl, maður segir allt í lagi, ókei
+🙆‍♀ í lagi, já, kona, kona segir allt í lagi, ókei
+💁 aðstoð, fólk, hjálp, upplýsingaborð, upplýsingar
+💁‍♂ karl, léttur, lófi, maður réttir út lófa
+💁‍♀ kona, kona réttir út lófa, létt, lófi
+🙋 gleði, önnur hönd, upprétt hönd
+🙋‍♂ karl, maður réttir upp hönd, rétta upp hönd, upprétt hönd
+🙋‍♀ kona, kona réttir upp hönd, rétta upp hönd, upprétt hönd
+🧏 aðgengi, eyra, heyra, heyrnarlaus
+🧏‍♂ heyrnarlaus, heyrnarlaus karl, maður
+🧏‍♀ heyrnarlaus, kona
+🙇 auðmýkt, fyrirgefðu, hneiging, hneigja
+🙇‍♂ afsakið, auðmýkt, hneiging, karl, maður hneigir sig
+🙇‍♀ afsakið, auðmýkt, hneiging, kona, kona hneigir sig
+🤦 andlit, hönd, hönd fyrir andlit, lófi
+🤦‍♂ andlit, hönd, karl, lófi, maður með hönd fyrir andlit
+🤦‍♀ andlit, hönd, kona, kona með hönd fyrir andlit, lófi
+🤷 axlir, yppa, yppir öxlum
+🤷‍♂ karl, maður yppir öxlum, öxlum, yppa
+🤷‍♀ kona, kona yppir öxlum, öxlum, yppa
+🧑‍⚕ heilbrigðismál, heilbrigðisstarfsmaður, hjúkrunarfræðingur, læknir, sérfræðingur
+👨‍⚕ heilsa, hjúkrunarfræðingur, karl, karlkyns heilbrigðisstarfsmaður, læknir
+👩‍⚕ heilsa, hjúkrunarfræðingur, kona, kvenkyns heilbrigðisstarfsmaður, læknir
+🧑‍🎓 nemi, útskrift
+👨‍🎓 karl, karlkyns námsmaður, námsmaður, nemandi, útskrift
+👩‍🎓 kona, kvenkyns námsmaður, námsmaður, nemandi, útskrift
+🧑‍🏫 kennari, leiðbeinandi, prófessor
+👨‍🏫 karl, karlkyns kennari, kennari, leiðbeinandi, skóli
+👩‍🏫 kennari, kona, kvenkyns kennari, leiðbeinandi, skóli
+🧑‍⚖ dómari, vog
+👨‍⚖ dómari, dómur, karl, karlkyns dómari, réttur
+👩‍⚖ dómari, dómur, kona, kvenkyns dómari, réttur
+🧑‍🌾 bóndi, garðyrkjumaður, stórbóndi
+👨‍🌾 bóndi, garðyrkjumaður, karl, karlkyns bóndi
+👩‍🌾 bóndi, garðyrkjumaður, kona, kvenkyns bóndi
+🧑‍🍳 kokkur, matreiðslumaður
+👨‍🍳 elda, karl, karlkyns kokkur, kokkur, matreiðsla
+👩‍🍳 elda, kokkur, kona, kvenkyns kokkur, matreiðsla
+🧑‍🔧 iðnverkamaður, pípulagningarmaður, rafvirki, vélvirki
+👨‍🔧 karl, karl með skiptilykil, verkfæri, viðgerð, viðhald
+👩‍🔧 kona, kona með skiptilykil, verkfæri, viðgerð, viðhald
+🧑‍🏭 fjöldaframleiðsla, iðnaður, starfsmaður, verksmiðja, verksmiðjustarfsmaður
+👨‍🏭 iðnaður, karl, karlkyns verksmiðjustarfsmaður, verkfæri, verksmiðja
+👩‍🏭 iðnaður, kona, kvenkyns verksmiðjustarfsmaður, verkfæri, verksmiðja
+🧑‍💼 arkítekt, hvítflibbi, skrifstofustarfsmaður, viðskipti, yfirmaður
+👨‍💼 karl, karlkyns skrifstofustarfsmaður, skrifstofa, stjórnandi, viðskipti
+👩‍💼 kona, kvenkyns skrifstofustarfsmaður, skrifstofa, stjórnandi, viðskipti
+🧑‍🔬 eðlisfræðingur, efnafræðingur, líffræðingur, verkfræðingur, vísindafræðingur, vísindamaður
+👨‍🔬 efnafræði, karl, rannsóknir, vísindamaður
+👩‍🔬 efnafræði, kona, rannsóknir, vísindakona, vísindamaður
+🧑‍💻 forritari, hönnuður, hugbúnaður, tæknimaður
+👨‍💻 forritari, hönnuður, hugbúnaður, karl, karlkyns forritari
+👩‍💻 forritari, hönnuður, hugbúnaður, kona, kvenkyns forritari
+🧑‍🎤 skemmtikraftur, söngfugl, söngvari, stjarna, t´ónlist
+👨‍🎤 karl, skemmtikraftur, söngvari, tónlist
+👩‍🎤 kona, skemmtikraftur, söngkona, tónlist
+🧑‍🎨 listamaður, listmálari, litaspjald
+👨‍🎨 karl, karlkyns listamaður, listamaður, litaspjald, málari
+👩‍🎨 kona, listakona, listamaður, litaspjald, málari
+🧑‍✈ flugstjóri, flugvél
+👨‍✈ flugmaður, flugstjóri, flugvél, karl, karlkyns flugstjóri
+👩‍✈ flugmaður, flugstjóri, flugvél, kona, kvenkyns flugstjóri
+🧑‍🚀 eldflaug, geimfari
+👨‍🚀 eldflaug, geimfari, geimur, karl, karlkyns geimfari
+👩‍🚀 eldflaug, geimfari, geimur, kona, kvenkyns geimfari
+🧑‍🚒 brunabíll, brunaliðsmaður, slökkviliðsmaður
+👨‍🚒 brunabíll, karl, slökkvilið, slökkviliðsmaður
+👩‍🚒 brunabíll, kona, slökkvilið, slökkviliðskona, slökkviliðsmaður
+👮 fólk, lögregla, lögreglumaður, lögregluþjónn
+👮‍♂ karl, karlkyns lögregluþjónn, lögga, lögregla, lögregluþjónn
+👮‍♀ kona, kvenkyns lögregluþjónn, lögga, lögregla, lögregluþjónn
+🕵 leynilögreglumaður, spæjari
+🕵‍♂ karl, karlkyns spæjari, leynilögreglumaður, njósnari, spæjari
+🕵‍♀ kona, kvenkyns spæjari, leynilögreglumaður, njósnari, spæjari
+💂 fólk, vakt, vörður
+💂‍♂ karl, karlkyns vörður, vakt, vaktmaður, vörður
+💂‍♀ kona, kvenkyns vörður, vakt, vaktmaður, vörður
+🥷 bardagamaður, falinn, laumulegur, ninja
+👷 fólk, verkamaður
+👷‍♂ byggingar, karl, karlkyns byggingarstarfsmaður, verkamaður
+👷‍♀ byggingar, kona, kvenkyns byggingarstarfsmaður, verkamaður
+🤴 prins
+👸 ævintýri, fólk, prinsessa
+👳 fólk, maður með túrban, túrban
+👳‍♂ karl með túrban, maður, túrban
+👳‍♀ kona, kona með túrban, túrban
+👲 gua pi mao, hattur, maður, maður með kínverska húfu, maður með kínverskan hatt
+🧕 blæja, höfuðklútur, kona með höfuðklút, slæða, slör
+🤵 brúðgumi, fínn, maður, smóking
+🤵‍♂ karl, karl í smóking, smóking
+🤵‍♀ kona, kona í smóking, smóking
+👰 brúðarslör, brúðkaup, brúður, brúður með slör, fólk
+👰‍♂ karl, karl með slör, slör
+👰‍♀ kona, kona með slör, slör
+🤰 kona, ófrísk, ólétt
+🤱 barn, brjóst, brjóstagjöf
+👩‍🍼 barn, brjóstagjöf, gjöf, kona, kona að gefa barni
+👨‍🍼 barn, brjóstagjöf, gjöf, karl, karl að gefa barni
+🧑‍🍼 barn, brjóstagjöf, gjöf, manneskja, manneskja að gefa barni
+👼 ævintýri, andlit, barnsengill, engill
+🎅 hátíð, jól, jólasveinn
+🤶 amma, jól, jólamamma, mamma
+🧑‍🎄 frú sveinki, Sveinki, jól
+🦸 góð, hetja, kvenhetja, ofurhetja, ofurkraftur
+🦸‍♂ góður, hetja, maður, ofurkraftur, ofurmaður
+🦸‍♀ góð, hetja, kona, kvenhetja, ofurkona, ofurkraftur
+🦹 glæpamaður, illmenni, illur, ofurkraftur, skúrkur
+🦹‍♂ glæpamaður, illmenni, illur, ofurkraftur, skúrkur
+🦹‍♀ glæpamaður, ill, illkvendi, kona, ofurkraftur
+🧙 galdramaður, norn, seiðkarl, seiðkona
+🧙‍♂ galdrakarl, seiðkarl
+🧙‍♀ galdrakona, norn, seiðkona
+🧚 álfur, Bokki, Óberon, Títanía
+🧚‍♂ álfakarl
+🧚‍♀ álfadís
+🧛 Drakúla, hinir ódauðlegu, vampíra
+🧛‍♂ Drakúla, hinir ódauðlegu, karlkyns vampíra
+🧛‍♀ hinir ódauðlegu, kvenkyns vampíra
+🧜 hafmær, hafmeyja, marbendill, sæbúi
+🧜‍♂ marbendill, Tríton
+🧜‍♀ hafmær, hafmeyja
+🧝 galdrar, huldumaður, töfrandi, töfrar, yfirnáttúrleiki
+🧝‍♂ huldukarl
+🧝‍♀ huldukona
+🧞 andi, djinn
+🧞‍♂ djinn, karlkyns andi
+🧞‍♀ djinn, kvenkyns andi
+🧟 hinir gangandi dauðu, hinir ódauðlegu, uppvakningur
+🧟‍♂ hinir gangandi dauðu, hinir ódauðlegu, karlkyns uppvakningur
+🧟‍♀ hinir gangandi dauðu, hinir ódauðlegu, kvenkyns uppvakningur
+💆 andlitsnudd, nudd, snyrtistofa
+💆‍♂ andlitsnudd, karl, maður fær andlitsnudd, nudd
+💆‍♀ andlitsnudd, kona, kona fær andlitsnudd, nudd
+💇 fegurð, hárgreiðslustofa, klipping, snyrtistofa
+💇‍♂ hár, hárgreiðsla, karl, klipping, maður í klippingu
+💇‍♀ hár, hárgreiðsla, klipping, kona, kona í klippingu
+🚶 ganga, gönguferð, labba, vegfarandi
+🚶‍♂ ganga, gangandi maður, gönguferð, karl, labba
+🚶‍♀ ganga, gangandi kona, gönguferð, kona, labba
+🧍 standa, standandi manneskja, stendur
+🧍‍♂ maður, standa, standandi maður
+🧍‍♀ kona, standandi
+🧎 krjúpa, krjúpandi, krjúpandi manneskja
+🧎‍♂ krjúpandi, maður
+🧎‍♀ kona, krjúpandi
+🧑‍🦯 aðgengi, manneskja með blindrastaf, manneskja með hvítan staf, sjónlaus
+👨‍🦯 aðgengi, blindur, maður, maður með blindrastaf
+👩‍🦯 aðgengi, blind, kona, kona með blindrastaf
+🧑‍🦼 aðgengi, hjólastóll, manneskja í vélknúnum hjólastól
+👨‍🦼 aðgengi, hjólastóll, maður, maður í vélknúnum hjólastól
+👩‍🦼 aðgengi, hjólastóll, kona, kona í vélknúnum hjólastól
+🧑‍🦽 aðgengi, hjólastóll, manneskja í hjólastól
+👨‍🦽 aðgengi, hjólastóll, maður, maður í hjólastól
+👩‍🦽 aðgengi, hjólastóll, kona, kona í hjólastól
+🏃 hlaup, hlaupari, maraþon
+🏃‍♂ hlaup, hlaupandi maður, maraþon
+🏃‍♀ hlaup, hlaupandi kona, maraþon
+💃 dans, dansandi kona, fólk
+🕺 dansa, dansandi karl, dansari, diskó
+🕴 jakkaföt, maður, svífandi bisnessmaður í jakkafötum, viðskipti
+👯 fólk, kanínueyru, kona, stelpa
+👯‍♂ dans, karlar, menn með kanínueyru, partí, skemmtun
+👯‍♀ dans, konur, konur með kanínueyru, partí, skemmtun
+🧖 eimbað, einstaklingur í gufubaði, gufubað
+🧖‍♂ eimbað, gufubað, maður í gufubaði
+🧖‍♀ eimbað, gufubað, kona í gufubaði
+🧗 maður í klettaklifri
+🧗‍♂ karl í klettaklifri, klettaklifur
+🧗‍♀ klettaklifur, kona í klettaklifri
+🤺 bardagaíþrótt, íþrótt, skylmast, skylmingar
+🏇 hestur, íþrótt, knapi, veðreiðahestur, veðreiðar
+⛷ skíðamaður, skíði, snjór
+🏂 íþróttir, snjóbrettamaður, snjóbretti
+🏌 golf, kylfingur
+🏌‍♂ golf, karl, kylfingur, maður í golfi
+🏌‍♀ golf, kona, kona í golfi, kylfingur
+🏄 brimbrettamaður, brimbretti, íþróttir
+🏄‍♂ brimbrettamaður, brimbretti, karl, maður á brimbretti
+🏄‍♀ brimbrettamaður, brimbretti, kona, kona á brimbretti
+🚣 árabátur, bátur
+🚣‍♂ árabátur, bátur, karl, maður á árabát, róður
+🚣‍♀ árabátur, bátur, kona, kona á árabát, róður
+🏊 íþrótt, sund, sundmaður, synda
+🏊‍♂ karl, sund, sundmaður
+🏊‍♀ kona, sund, sundkona
+⛹ bolti, manneskja með bolta
+⛹‍♂ bolti, karl, körfubolti, maður með bolta
+⛹‍♀ bolti, kona, kona með bolta, körfubolti
+🏋 kraftlyftingamaður, lyftingakappi, þyngd
+🏋‍♂ karl, líkamsrækt, lyftingar, maður í kraftlyftingum
+🏋‍♀ kona, kona í kraftlyftingum, líkamsrækt, lyftingar
+🚴 hjól, hjólreiðar
+🚴‍♂ hjól, hjólreiðar, karl, maður á hjóli
+🚴‍♀ hjól, hjólreiðar, kona, kona á hjóli
+🚵 fjall, fjallahjól, hjól, hjólreiðar
+🚵‍♂ fjallahjól, hjólreiðar, karl, maður á fjallahjóli
+🚵‍♀ fjallahjól, hjólreiðar, kona, kona á fjallahjóli
+🤸 fimleikar, handalaup, hlaup, íþrótt
+🤸‍♂ fimleikar, handahlaup, karl, maður á handahlaupum
+🤸‍♀ fimleikar, handahlaup, kona, kona á handahlaupum
+🤼 glíma, íþrótt
+🤼‍♂ glíma, karlar, menn í glímu
+🤼‍♀ glíma, konur, konur í glímu
+🤽 manneskja í vatnapóló, póló, vatn
+🤽‍♂ maður, maður í vatnapóló, vatnapóló
+🤽‍♀ kona, kona í vatnapóló, vatnapóló
+🤾 boltaíþrótt, handbolti, handknattleikur, íþrótt
+🤾‍♂ handbolti, karl, maður í handbolta
+🤾‍♀ handbolti, kona, kona í handbolta
+🤹 boltakast, djöggla, jöggla, juggla
+🤹‍♂ boltakast, boltar, jöggla, juggla, maður kastar boltum
+🤹‍♀ boltakast, boltar, jöggla, juggla, kona kastar boltum
+🧘 maður í lótuspósu
+🧘‍♂ karl í lótuspósu
+🧘‍♀ kona í lótusp´ósu
+🛀 bað, baðkar
+🛌 hótel, manneskja í rúmi, sofa
+🧑‍🤝‍🧑 fólk að leiðast, haldast í hendur, hönd, leiða, leiðast, par
+👭 hendur, konur, konur sem leiðast, leiðast, par
+👫 haldast, hendur, karl og kona sem leiðast, kona, leiðast, maður, par
+👬 karl, karlar, karlar sem leiðast, leiðast, par, stjörnumerki, tvíburar
+💏 fólk, koss, kyssast, rómantík
+💑 fólk, hjarta, par, par með hjarta, rómantík
+👪 barn, faðir, fjölskylda, fólk, móðir
+🗣 andlit, höfuð, skuggamynd, tala, talandi
+👤 brjóstmynd, brjóstmynd í skugga, fólk, framan á
+👥 brjóstmynd, brjóstmyndir í skugga, fólk, framan á
+🫂 faðmlag, fólk að faðmast, halló, kveðja, þakklæti
+👣 fótspor, fótur, líkami, spor
+🦰 rauðleitt hár, rautt hár
+🦱 afró, krullað hár, krullur, lokkar
+🦳 gamalt, grátt hár, hár, hvítt
+🦲 hárleysi, hárlos, lyfjameðferð, rakað höfuð, skalli
+🐵 apahöfuð, api, dýr, höfuð
+🐒 api
+🦍 api, górilla
+🦧 api, órangútan
+🐶 gæludýr, höfuð, hundshöfuð, hundur
+🐕 gæludýr, hundur
+🦮 aðgengi, leiðsögn, leiðsöguhundur, sjónlaus
+🐕‍🦺 aðgengi, aðstoð, hundur, þjónusta, þjónustuhundur
+🐩 gæludýr, hundur, púðluhundur
+🐺 andlit, úlfur
+🦊 andlit, refur
+🦝 forvitinn, slóttugur, þvottabjörn
+🐱 gæludýr, höfuð, kattarhöfuð, köttur
+🐈 gæludýr, köttur
+🐈‍⬛ köttur, óheppni, svartur
+🦁 andlit, ljón, ljónið, stjörnumerki
+🐯 höfuð, tígrisdýr, tígrisdýrshöfuð
+🐅 tígrisdýr
+🐆 hlébarði
+🐴 hestshöfuð, hestur, höfuð
+🐎 hestur, veðhlaupahestur
+🦄 andlit, einhyrningur
+🦓 rendur, rönd, sebrahestur
+🦌 ´hjartardýr, dýr, hjörtur, hreindýr
+🦬 buffali, Evrópusvísundur, hjörð, vísundur
+🐮 höfuð, kýr, kýrhöfuð
+🐂 naut, stjörnumerki, uxi
+🐃 buffaló, vatn, vatnabuffaló
+🐄 kú, kýr
+🐷 höfuð, svín, svínshöfuð
+🐖 grís, svín
+🐗 svín, villisvín
+🐽 svín, svínstrýni, trýni
+🐏 hrútur, kind, stjörnumerki
+🐑 ær, fé, kind, sauðfé
+🐐 geit, stjörnumerki
+🐪 drómedari, kryppa, úlfaldi
+🐫 kameldýr
+🦙 alpaka, lamadýr, ull, villt lamadýr, villt suður-amerískt spendýr
+🦒 blettir, doppur, gíraffi
+🐘 fíll
+🦣 loðfíll, loðinn, mammútur, stór, tennur, útdauði
+🦏 dýr, nashyrningur
+🦛 flóðhestur
+🐭 höfuð, mús, músarhöfuð
+🐁 mús
+🐀 rotta
+🐹 andlit, gæludýr, hamstur
+🐰 höfuð, kanína, kanínuhöfuð
+🐇 kanína
+🐿 íkorni, jarðíkorni
+🦫 bifur, bjór, stífla
+🦔 broddar, broddgöltur, broddóttur
+🦇 dýr, leðurblaka, vampíra
+🐻 andlit, björn
+🐻‍❄ björn, hv´ítur, ísbjörn, norðurheimskaut
+🐨 höfuð, kóalabjörn
+🐼 andlit, panda
+🦥 hægur, latur, letidýr
+🦦 gamansamur, otur, veiði
+🦨 óþefur, skunkur
+🦘 Ástralía, hopp, kengúra, kengúruungi, pokadýr, ungi
+🦡 greifingi, hunangsgreifingi, rellóttur, þjakandi
+🐾 fótspor, loppa, loppur
+🦃 fugl, kalkúnn
+🐔 fugl, hæna, kjúklingur
+🐓 fugl, hani
+🐣 fuglsungi, hænuungi í eggi, kjúklingur, ungi
+🐤 fuglsungi, hænuungi, kjúklingur, ungi
+🐥 framhlið hænuunga, fuglsungi, kjúklingur, ungi
+🐦 fugl
+🐧 fugl, mörgæs
+🕊 dúfa, friður, fugl
+🦅 fugl, örn
+🦆 fugl, önd
+🦢 álft, álftarungi, fugl, ljóti andarunginn, svanur
+🦉 fugl, ugla
+🦤 dúdúfugl, Márítíus, stór, útdauði
+🪶 fjaðraskraut, fjöður, flug, fugl, létt
+🦩 flamingói, hitabeltis, litríkur
+🦚 fugl, páfugl, páhæna, stoltur, sýndarmennska
+🦜 fugl, páfagaukur, sjóræningi, tal
+🐸 andlit, froskur
+🐊 krókódíll, krókókíll
+🐢 skjaldbaka
+🦎 eðla, skriðdýr
+🐍 naðra, naðurvaldi, snákur, stjörnumerki
+🐲 drekahöfuð, dreki, höfuð
+🐉 ævintýri, dreki
+🦕 finngálkn, graseðla, þórseðla, þórseðlubróðir
+🦖 Grameðla
+🐳 blásandi hvalur, hvalur
+🐋 hvalur, keikó
+🐬 höfrungur
+🦭 sæljón, selur
+🐟 fiskar, fiskur, stjörnumerki
+🐠 fiskur, hitabelti, hitabeltisfiskur
+🐡 blöðrufiskur, fiskur
+🦈 fiskur, hákarl, sjávardýr
+🐙 kolkrabbi
+🐚 kuðungur
+🐌 snigill
+🦋 dýr, fiðrildi, skordýr
+🐛 margfætla, skordýr
+🐜 maur, skordýr
+🐝 býfluga, hunangsfluga
+🪲 bjalla, bjölludýr, padda, skordýr
+🐞 bjalla, maríubjalla, maríuhæna, skordýr
+🦗 engispretta, krybba
+🪳 kakkalakki, plága, skordýr
+🕷 könguló, skordýr
+🕸 könguló, köngulóarvefur, vefur
+🦂 sporðdreki, stjörnumerki
+🦟 hiti, malaría, moskító, skordýr, veiki, veira
+🪰 fluga, maðkar, plága, rotnun, sjúkdómur
+🪱 ánamaðkur, liðormur, ormur, sníkjudýr
+🦠 amaba, baktería, örvera, veira, vírus
+💐 blóm, blómvöndur, rómantík
+🌸 blóm, kirsuber, kirsuberjablóm
+💮 blóm, hvítt blóm, stimpill
+🏵 blóm, planta, rós, rósarmynstur
+🌹 blóm, rós
+🥀 blóm, rós, sölnað blóm
+🌺 blóm, Havaírós
+🌻 blóm, sól, sólblóm
+🌼 blóm, planta
+🌷 blóm, túlípani
+🌱 græðlingur, planta
+🪴 gagnslaus, hús, næra, planta, pottaplanta, vaxa
+🌲 sígrænt, tré
+🌳 lauftré, sumargrænt tré, tré
+🌴 pálmatré, pálmi, tré
+🌵 kaktus, planta
+🌾 ax, hrísgrjón, hrísgrjónaax, hrísgrjónaplanta
+🌿 krydd, kryddjurt, lauf
+☘ músarsmári, planta, smári
+🍀 fjögurra laufa smári, happamerki, smári
+🍁 hlynslauf, hlynur, lauf, laufblað
+🍂 fallandi, fallandi laufblöð, haust, lauf, laufblað
+🍃 lauf, lauf í vindi, laufblað, vindur
+🍇 ávöxtur, vínber
+🍈 ávöxtur, melóna
+🍉 ávöxtur, melóna, vatnsmelóna
+🍊 appelsína, ávöxtur, mandarína
+🍋 ávöxtur, sítróna, sítrusávöxtur
+🍌 ávöxtur, banani
+🍍 ananas, ávöxtur
+🥭 ávöxtur, mangó, suðrænn
+🍎 ávöxtur, epli, rautt
+🍏 ávöxtur, epli, grænt
+🍐 ávöxtur, pera
+🍑 ávöxtur, ferskja
+🍒 ávöxtur, kirsuber
+🍓 ávöxtur, jarðarber
+🫐 aðalbláber, ber, blá, bláber
+🥝 ávöxtur, kíví, matur
+🍅 grænmeti, tómatur
+🫒 matur, ólífa, ólífur
+🥥 kókoshneta, pálmatré, pina colada
+🥑 avókadó, grænmeti, matur
+🍆 eggaldin, grænmeti
+🥔 grænmeti, kartafla, matur
+🥕 grænmeti, gulrót, matur
+🌽 maís
+🌶 chilipipar, chilli, pipar, planta, sterkt
+🫑 grænmeti, paprika
+🥒 grænmeti, gúrka, matur
+🥬 bok choi, grænkál, hvítkál, kál
+🥦 brokkólí, garðakál
+🧄 bragðbætir, hvítlaukur
+🧅 bragðefni, laukur
+🍄 sveppur
+🥜 grænmeti, jarðhneta, jarðhnetur
+🌰 hneta, kastanía
+🍞 brauð, brauðhleifur
+🥐 brauð, Croissant, franskt, horn
+🥖 brauð, fransbrauð, franskt, matur
+🫓 arepa, flakaka, flatbrauð, flatkaka, flatkökur, lavash, nan
+🥨 saltkringla, snúin
+🥯 bakarí, beygla, smurostur
+🥞 eftirréttur, matur, pönnukökur
+🧇 járn, vaffla, vöfflujárn
+🧀 götóttur ostur, ostur
+🍖 bein, kjöt, veitingastaður
+🍗 fuglakjöt, kjúklingaleggur, kjúklingur, leggur
+🥩 kjötsneið, kótiletta, lambakótiletta, steik, svínakótiletta
+🥓 beikon, kjöt, matur
+🍔 borgari, hamborgari, veitingastaður
+🍟 franskar, franskar kartöflur, veitingastaður
+🍕 ostur, pítsa, pítsusneið, sneið
+🌭 pulsa, pylsa, pylsa í brauði, vínarpylsa
+🥪 brauð, samloka
+🌮 mexíkóskt, takó
+🌯 búrrító, mexíkóskt
+🫔 mexíkóskt, mexíkóskur matur, tamale, vefja
+🥙 kebab, kebap, matur, rúlla
+🧆 falafel, kjötbollur, kjúklingabaunir
+🥚 egg, matur
+🍳 elda, steikarpanna, steiking, veitingastaður
+🥘 matur, panna, pönnuréttur
+🍲 kássa, pottréttur
+🫕 brætt, fondú, ostur, pottur, súkkulaði, Sviss
+🥣 morgunkorn, morgunmatur, morgunverður, skál og skeið
+🥗 grænmeti, matur, salat
+🍿 popp
+🧈 mjólkurvara, smjör
+🧂 krydd, salt, saltstaukur
+🥫 dós, dósamatur
+🍱 bento-box, nesti, nestisbox
+🍘 hrísgrjón, hrísgrjónakex, kex
+🍙 hrísgrjón, hrísgrjónabolla, onigiri
+🍚 hrísgrjón, soðin
+🍛 hrísgrjón, hrísgrjón og karrí, karrí, veitingastaður
+🍜 gufusoðnar, núðlur, núðluskál, skál, veitingastaður
+🍝 pasta, spagettí, veitingastaður
+🍠 kartafla, sæt, steikt, steiktar sætar kartöflur
+🍢 oden, sjávarréttir, sjávarréttir á teini, veitingastaður
+🍣 sushi, veitingastaður
+🍤 djúpsteikt rækja, rækja, veitingastaður
+🍥 fiskkaka, fiskur, veitingastaður
+🥮 hátíð, haust, tunglkaka
+🍡 dango, mochi, soðkökur, soðkökur á teini, veitingastaður
+🥟 dumpling, empanada, gyosa, pierogi, soðkaka
+🥠 opinberun, spádómskaka, spádómur, vitrun
+🥡 kínverskur matur, taka-með, takeaway-box
+🦀 krabbi, stjörnumerki
+🦞 bisque, humar, klær, matarmikil súpa, sjávarfang
+🦐 rækja, sjávardýr, skelfiskur
+🦑 sjávardýr, smokkfiskur
+🦪 köfun, ostra, perla
+🍦 ís, ís úr vél, rjómaís, veitingastaður
+🍧 ís, skafinn, skafís, veitingastaður
+🍨 ís, kúluís, veitingastaður
+🍩 eftirréttur, kleinuhringur, sætindi
+🍪 smákaka, súkkulaðibitakaka, veitingastaður
+🎂 afmæli, afmæliskaka, kaka, veisla
+🍰 kaka, kökusneið, terta, veitingastaður
+🧁 bakarí, bollakaka, sætindi
+🥧 baka, bökudeig, fylling, sætabrauð
+🍫 súkkulaði, súkkulaðiplata, veitingastaður
+🍬 eftirréttur, nammi, sælgæti
+🍭 nammi, sælgæti, sleikibrjóstsykur, sleikjó, veitingastaður
+🍮 búðingur, veitingastaður
+🍯 hunang, hunangskrukka, veitingastaður
+🍼 drekka, mjólk, peli
+🥛 drykkur, glas, mjólk, mjólkurglas
+☕ drykkur, heitt, heitur drykkur, kaffi, rjúkandi, te
+🫖 drykkur, kanna, te, tekanna
+🍵 bolli, drykkur, te, tebolli
+🍶 bar, bolli, drykkur, flaska, sake
+🍾 bar, flaska, flaska með korktappa, korkur, skjóta
+🍷 bar, drekka, drykkur, glas, vín
+🍸 bar, hanastél, kokteilglas, kokteill, veitingastaður
+🍹 bar, drykkur, glas, suðrænn kokteill, veitingastaður
+🍺 bar, bjór, bjórglas, glas, veitingastaður
+🍻 bar, bjór, bjórglös, bjórkönnur, drykkur, skál
+🥂 drykkur, glas, glös, skál
+🥃 áfengi, drykkur, glas, viskí, viskíglas
+🥤 glas og rör, gos, safi
+🧋 kúlur, kúlute, mjólk, perlur, te
+🧃 ferna, safaferna
+🧉 drykkur, mate
+🧊 ísjaki, ísmoli, kuldi
+🥢 matprjónar
+🍽 diskur, eldamennska, gaffall, gaffall og hnífur við disk, hnífur
+🍴 hnífapör, hnífur og gaffall, veitingastaður
+🥄 hnífapör, skeið
+🔪 eldhúshnífur, hnífur
+🏺 drykkur, eldamennska, krukka, leirkrukka, vatnsberi
+🌍 Afríka, Evrópa, hnöttur sem sýnir Evrópu-Afríku, jörðin
+🌎 Ameríka, hnöttur sem sýnir Ameríku, jörðin, N- og S-Ameríka
+🌏 Asía, Ástralía, hnöttur sem sýnir Asíu-Ástralíu, jörðin
+🌐 breiddargráður, hnöttur sem sýnir lengdarbauga, lengdargráður
+🗺 heimskort, heimur, kort
+🗾 Japan, kort, kort af Japan
+🧭 áttaviti, kompás, leiðarlýsing, leiðsögn, segulmagn
+🏔 fjall, kalt, snæviþakinn fjallstindur, snjór
+⛰ fjall
+🌋 eldfjall, eldgos
+🗻 fjall, fuji, fuji-fjall
+🏕 ferðalag, tjald, tjaldstæði
+🏖 sólhlíf, strönd, strönd með sólhlíf
+🏜 eyðimörk
+🏝 eyðieyja, eyðimörk, eyja
+🏞 garður, þjóðgarður
+🏟 leikvangur
+🏛 bygging, klassísk, klassísk fornbygging, sígild
+🏗 bygging, í byggingu, mannvirki í byggingu
+🧱 leir, múrhúð, múrsteinar, múrsteinn, vegglím, veggur
+🪨 gegnheill, grjót, hnullungur, steinn, þungur
+🪵 timbur, tré, trjábolur, viður
+🛖 færanlegt hús, hús, kofi, kringlótt hús
+🏘 bygging, hús, húsaþyrping
+🏚 bygging, hús, niðurnítt
+🏠 bygging, heimili, hús
+🏡 garður, heimili, hús, hús með garði
+🏢 bygging, hús, skrifstofuhúsnæði, skrifstofur
+🏣 japan, japanskt pósthús, pósthús
+🏤 evrópskt, pósthús, póstur
+🏥 bygging, lækningar, læknir, sjúkrahús
+🏦 banki, bygging
+🏨 bygging, hótel
+🏩 ástarhótel, bygging, hótel
+🏪 búð, bygging, matvörubúð, verslun
+🏫 bygging, skólahús, skóli
+🏬 stórmarkaður, verslun
+🏭 bygging, verksmiðja
+🏯 bygging, japanskur kastali, kastali
+🏰 bygging, evrópskur kastali, kastali
+💒 brúðkaup, kirkja, kirkjubrúðkaup, rómantík
+🗼 tokyo, tokyo-turninn, turn
+🗽 frelsisstyttan, stytta
+⛪ bygging, kirkja, kross, trú
+🕌 íslam, moska, múslimi, trúarbrögð
+🛕 hindú, hindúahof, hof
+🕍 gyðingatrú, gyðingur, samkunduhús, sýnagóga, trúarbrögð
+⛩ hof, sjintó, sjintó-hof, trúarbrögð
+🕋 íslam, kaaba-byggingin, múslimi, trúarbrögð
+⛲ brunnur, gosbrunnur
+⛺ tjald, tjaldstæði, útilega
+🌁 veður, þoka, þokukennt
+🌃 næturhiminn, nótt, stjörnuhiminn, stjörnur
+🏙 borg, borgarlandslag, byggingar
+🌄 fjall, morgunsól, sól kemur upp, sólarupprás yfir fjöllum
+🌅 morgunn, sól, sólarupprás
+🌆 borg, borg í rökkurró, borg um kvöld, borgarlandslag, kvöld, sólarlag
+🌇 hús, rökkur, sólarlag, sólarlag yfir húsum
+🌉 brú, brú um nótt, nótt
+♨ gufa, heitt, hverir, laugar
+🎠 hestur, hringekja, hringekjuhestur, skemmtun
+🎡 parísarhjól, skemmtigarður, skemmtun
+🎢 rússíbani, skemmtigarður, skemmtun
+💈 rakarastofa, rakari
+🎪 sirkus, sirkustjald, skemmtun, tjald
+🚂 eimreið, gufulest, lest
+🚃 járnbrautarlest, lestarvagn, rafmagnslest
+🚄 hraðlest, lest
+🚅 háhraðalest, hraðlest, lest
+🚆 járnbraut, lest
+🚇 farartæki, neðanjarðarlest
+🚈 lest, létt, léttlest
+🚉 lest, lestarstöð, stöð
+🚊 farartæki, sporvagn, vagn
+🚝 einteinungur, lest
+🚞 fjall, fjallakláfur, fjallalest, kláfur, lest
+🚋 farartæki, sporvagn, vagn
+🚌 rúta, strætisvagn, strætó
+🚍 strætó, strætó á móti, strætó nálgast
+🚎 rafknúinn strætisvagn, rafmagnsstrætó, strætó, trissustrætó
+🚐 rúta, smárúta
+🚑 sjúkrabifreið, sjúkrabíll
+🚒 brunabíll, slökkvibíll, slökkvilið, slökkviliðsbíll
+🚓 lögregla, lögreglubifreið, lögreglubíll
+🚔 lögregla, lögreglubifreið, lögreglubíll, lögreglubíll á móti
+🚕 leigubifreið, leigubíll
+🚖 leigubíll, leigubíll á móti, leigubíll nálgast
+🚗 bifreið, bíll
+🚘 bíll, bíll á móti, bíll nálgast
+🚙 dægrastytting, farartæki, jeppi
+🛻 pallbíll, pallur, trukkur
+🚚 flutningabifreið, flutningabíll, sendibíll
+🚛 flutningabíll, trukkur, vörubifreið, vörubíll
+🚜 dráttarvél, traktor
+🏎 bíll, kappakstur, kappakstursbíll
+🏍 kappakstur, mótorhjól
+🛵 farartæki, hjól, mótorhjól, skellinaðra, vespa
+🦽 aðgengi, hjólastóll
+🦼 aðgengi, vélknúinn hj´ólastóll
+🛺 túk-túk, vélknúinn léttvagn
+🚲 hjól, hjólreiðar, reiðhjól
+🛴 hjól, hlaupa, hlaupahjól
+🛹 bretti, hjólabretti
+🛼 hjól, hjólaskautar, skauti
+🚏 langferðabíll, rúta, strætisvagn, strætó
+🛣 hraðbraut, vegur
+🛤 brautarteinar, járnbrautarteinar, lest
+🛢 olía, olíutunna, tunna
+⛽ bensín, bensíndæla, bensínstöð, dísil
+🚨 lögregla, lögregluljós, sírena
+🚥 lárétt umferðarljós, ljós, umferð
+🚦 ljós, lóðrétt umferðarljós, umferð
+🛑 átthyrningur, merki, stöðvunarskylda, stopp
+🚧 framkvæmdir, vegavinna
+⚓ akkeri, skip, tól
+⛵ bátur, seglskúta, skúta, smábátahöfn
+🛶 bátur, farartæki, kanó
+🚤 bátur, hraðbátur, spíttbátur
+🛳 farartæki, farþegaskip, farþegi, skip
+⛴ bátur, ferja
+🛥 bátur, farartæki, mótorbátur
+🚢 bátur, skip
+✈ farartæki, flugvél
+🛩 farartæki, flugvél, lítil flugvél
+🛫 brottfarir, brottför, flugvél, flugvél í flugtaki, innritun
+🛬 flugvél, flugvél í lendingu, komur, lendir
+🪂 fallhlíf, fallhlífarsigling, fallhlífarstökk, svifdrekaflug
+💺 sæti, stóll
+🚁 þyrla
+🚟 lest, loftlest
+🚠 fjall, fjallakláfur, kláfferja í fjalli, kláfur
+🚡 kláfferja á línu, kláfur, loftferja
+🛰 farartæki, geimur, gervihnöttur
+🚀 eldflaug, farartæki, geimur
+🛸 flj´úgandi furðuhlutur, fljúgandi diskur
+🛎 bjalla, hótel, hótelbjalla
+🧳 farangur, ferðalag, pakka niður, taska
+⌛ niðurtalning, sandur, stundaglas
+⏳ niðurtalning, sandur, stundaglas, stundaglas með rennandi sandi
+⌚ klukka, úr
+⏰ klukka, vekjaraklukka, vekjari
+⏱ klukka, skeiðklukka
+⏲ klukka, tímamælir
+🕰 klukka, stássklukka
+🕛 12:00, klukka, klukkan tólf, tólf
+🕧 12:30, hálfeitt, klukka, tólf þrjátíu
+🕐 1:00, eitt, klukka, klukkan eitt
+🕜 1:30, eitt þrjátíu, hálftvö, klukka
+🕑 2:00, klukka, klukkan tvö, tvö
+🕝 2:30, hálfþrjú, klukka, tvö þrjátíu
+🕒 3:00, klukka, klukkan þrjú, þrjú
+🕞 3:30, hálffjögur, klukka, þrjú þrjátíu
+🕓 4:00, fjögur, klukka, klukkan fjögur
+🕟 4:30, fjögur þrjátíu, hálffimm, klukka
+🕔 5:00, fimm, klukka, klukkan fimm
+🕠 5:30, fimm þrjátíu, hálfsex, klukka
+🕕 6:00, klukka, klukkan sex, sex
+🕡 6:30, hálfsjö, klukka, sex þrjátíu
+🕖 7:00, klukka, klukkan sjö, sjö
+🕢 7:30, hálfátta, klukka, sjö þrjátíu
+🕗 8:00, átta, klukka, klukkan átta
+🕣 8:30, átta þrjátíu, hálfníu, klukka
+🕘 9:00, klukka, klukkan níu, níu
+🕤 9:30, hálftíu, klukka, níu þrjátíu
+🕙 10:00, klukka, klukkan tíu, tíu
+🕥 10:30, hálfellefu, klukka, tíu þrjátíu
+🕚 11:00, ellefu, klukka, klukkan ellefu
+🕦 11:30, ellefu þrjátíu, hálftólf, klukka
+🌑 dökkt, máni, nýr máni, nýtt, tungl
+🌒 mánasigð, máni, tungl, vaxandi, vaxandi tungl (minna en hálft)
+🌓 fyrsta kvartil tungls, máni, tungl, vaxandi hálfmáni
+🌔 ávalt tungl, máni, tungl, vaxandi, vaxandi tungl (meira en hálft)
+🌕 fullt, máni, tungl
+🌖 ávalt tungl, máni, minnkandi, minnkandi tungl (meira en hálft), tungl
+🌗 hálfmáni, kvartil, máni, síðasta kvartil, tungl
+🌘 hálfmáni, máni, minnkandi, minnkandi tungl (minna en hálft), tungl
+🌙 hálfmáni, máni, tungl
+🌚 andlit, karlinn í tunglinu, máni, nýtt tungl, nýtt tungl með andliti, tungl
+🌛 andlit, fyrsta kvartil tungls, fyrsta kvartil tungls með andliti, máni, tungl, tunglsigð
+🌜 andlit, máni, síðasta kvartil tungls, síðasta kvartil tungls með andliti, tungl, tunglsigð
+🌡 hitamælir, veður
+☀ bjart, geislar, sól, sólargeislar, sólskin
+🌝 andlit, bjart, fullt tungl, fullt tungl með andliti, máni, tungl
+🌞 andlit, sól, sól með andliti
+🪐 fálátur, pláneta með hringi, satúrnus
+⭐ hvít stjarna, stjarna
+🌟 skínandi, stjarna
+🌠 óskastjarna, stjarna, stjörnuhrap
+🌌 geimurinn, vetrarbrautin
+☁ ský, skýjað, svart ský
+⛅ ský, sól, sól bakvið ský, sól og ský
+⛈ regn, ský, ský með eldingu og regni, veður, þruma
+🌤 ský, sól, sól á bak við ský, veður
+🌥 ský, sól, sól á bak við stórt ský, veður
+🌦 regn, ský, sól, sól á bak við regnský, veður
+🌧 regn, regnský, ský, veður
+🌨 kalt, ský, snjór, snjóský, veður
+🌩 elding, eldingarský, ský, veður
+🌪 hvirfilbylur, ský, skýstrókur, veður
+🌫 ský, veður, þoka
+🌬 andlit, blæs, ský, veðurandlit, vindur
+🌀 fellibylur, hvirfilbylur, hvirfilvindur, snýst, stormsveipur
+🌈 regn, regnbogi, veður
+🌂 klæðnaður, lokuð regnhlíf, regnhlíf, rigning, samanlögð regnhlíf, veður
+☂ klæðnaður, regn, regnhlíf, veður
+☔ dropi, klæðnaður, regn, regnhlíf, regnhlíf með regndropum
+⛱ regn, regnhlíf, regnhlíf á jörðinni, sól, veður
+⚡ háspenna, lífshætta, rafmagn, spenna
+❄ kalt, snjókorn, snjór, veður
+☃ kalt, snjókarl í snjókomu, snjór, veður
+⛄ snjókall, snjókarl, snjór
+☄ geimur, halastjarna
+🔥 eldur, logi
+💧 dropi, skrípó, smádropi, sviti
+🌊 alda, bylgja
+🎃 hátíð, hrekkjavaka, hrekkjavökugrasker
+🎄 hátíð, jól, jólatré, tré
+🎆 áramót, flugeldar, hátíð
+🎇 áramót, blys, hátíð, stjörnuljós
+🧨 dínamít, flugeldar, púðurkerling, sprengiefni
+✨ glit, neistar, stjörnur
+🎈 blaðra, veisla
+🎉 hátíð, knall, veisla
+🎊 confetti, pappírssnifsi, veisla, veisluskraut
+🎋 borði, fagnaður, japanskt, tanabata-tré, Tanabata-tré, tré
+🎍 áramót, blómaskreyting með furu, fura, hátíð, japanskt
+🎎 brúðuhátíð, hátíð, japanskar brúður, japanskt
+🎏 fiskveifur, hátíð, veifur
+🎐 órói, vindharpa
+🎑 hátíð, tungl, tunglskoðun, tunglskoðunarhátíð
+🧧 gjöf, lai see, lukka, peningar, rautt umslag
+🎀 borði, slaufa, veisla
+🎁 gjöf, innpökkuð gjöf, veisla
+🎗 borði, fagnaður, minnisvarðaborði, minnisvarði
+🎟 aðgangseyrir, aðgöngumiðar, miði
+🎫 aðgöngumiði, miði, skemmtun
+🎖 fagnaður, her, hermedalía, medalía
+🏆 bikar, verðlaun, verðlaunabikar
+🏅 íþróttamedalía, medalía
+🥇 fyrsta, gull, gullverðlaun, sæti, verðlaun
+🥈 annað sæti, silfur, silfurverðlaun, verðlaun
+🥉 brons, bronsverðlaun, sæti, verðlaun, þriðja
+⚽ bolti, fótbolti
+⚾ bolti, hafnabolti
+🥎 bolti, hanski, mjúkbolti, undirhandarkast
+🏀 bolti, íþróttir, karfa, körfubolti
+🏐 blak, bolti, leikur
+🏈 amerískur fótbolti, bolti, íþrótt, ruðningur
+🏉 bolti, íþrótt, rúgbíbolti
+🎾 bolti, íþróttir, tennis, tennisbolti, tennisspaði og bolti
+🥏 frisbí, frisbídiskur, ultimate
+🎳 keila, keilukúla, keilur, leikur
+🏏 bolti, krikket, kylfa, leikur
+🏑 bolti, grashokkí, hokkí, kylfa, leikur, völlur
+🏒 ís, íshokkí, kylfa, leikur, pökkur
+🥍 bolti, háfleikur, kylfa, mark
+🏓 bolti, borðtennis, leikur, spaði
+🏸 badminton, badmintonbolti, fjaðrabolti, leikur, spaði
+🥊 box, boxhanski, hanski, íþrótt
+🥋 bardagabúningur, bardagaíþrótt, bardagi, íþrótt, júdó
+🥅 fótbolti, íþrótt, mark, net
+⛳ flagg í holu, golf, golfhola, hola
+⛸ ís, skauti, svell
+🎣 fiskur, stangveiði, veiðistöng
+🤿 dýfingar, kafa, köfunargríma, snorkla
+🎽 bolur, borði, hlaup, hlaupabolur, íþróttir
+🎿 íþróttir, skíðaskór, skíði, skíði og skíðaskór
+🛷 sleði, Sleði
+🥌 krulla, krullusteinn, leikur, steinn
+🎯 beint í mark, leikur, skotfimi, skotmark
+🪀 jójó, leikfang
+🪁 fljúga, flugdreki, svífa
+🎱 biljarður, billjard, leikur, pool
+🔮 kristall, kristalskúla, kúla, spá, spádómur
+🪄 galdrakarl, galdrar, galdur, norn, töfrasproti
+🧿 heillagripur, illt auga, nazar, perla, verndargripur
+🎮 leikjatölva, leikur, stýripinni, tölvuleikur
+🕹 leikur, stýripinni, tölvuleikur
+🎰 leikur, spilakassi
+🎲 leikur, spilateningur, teningur
+🧩 krækja saman, púsl, púsluspil, vísbending
+🧸 bangsi, dót, leikfang, tuskudýr
+🪅 fögnuður, piñata, slá köttinn úr tunnunni
+🪆 babúskur, dúkkur, Rússland
+♠ leikur, spaði, spil, spilalitur
+♥ hjarta, leikur, spil, spilalitur
+♦ leikur, spil, spilalitur, tigull, tígull
+♣ lauf, leikur, spil, spilalitur
+♟ fórn, peð, skák, tafl, taflpeð
+🃏 jóker, jókerspil, spil
+🀄 dreki, mahjong, Mahjong-tafla, rauður dreki
+🎴 blóm, blómaspil, japanskur, leikur, spil
+🎭 leikhúsgrímur, leiklist, list, skemmtun, sviðslistir
+🖼 list, málverk, mynd, rammi, rammi með mynd, safn
+🎨 list, litapalletta, litaspjald, málning, palletta
+🧵 kefli, nál, sauma, tvinni, þráður
+🪡 nál, sauma, saumaspor, saumnál, sníða, spor, útsaumur
+🧶 garn, hekl, hespa, hnykill
+🪢 binda, flækja, hnútur, reipi, snúa, tvinni
+👓 augu, gleraugu, klæðnaður
+🕶 auga, dimmt, gleraugu, sólgleraugu
+🥽 hlífðargleraugu, logsuða, rafsuða, sund
+🥼 læknasloppur, læknir, tilraun, vísindamaður
+🦺 neyðartilfelli, öryggi, öryggisvesti, vesti
+👔 bindi, hálsbindi, klæðnaður
+👕 bolur, klæðnaður, stuttermabolur
+👖 buxur, gallabuxur, klæðnaður
+🧣 háls, trefill
+🧤 hanskar, hendi
+🧥 jakki, kápa
+🧦 háir sokkar, sokkar
+👗 föt, kjóll, klæðnaður
+👘 kímónó, klæðnaður, sloppur
+🥻 föt, kjóll, klæðnaður, sari
+🩱 sundbolur, sundföt
+🩲 nærbuxur, nærföt, sundbolur, sundföt
+🩳 buxur, nærbuxur, nærföt, stuttbuxur, sundföt
+👙 bikíní, klæðnaður, sundföt
+👚 föt, klæðnaður, kona, kvenföt
+👛 budda, klæðnaður, peningabudda, smápeningar
+👜 handtaska, klæðnaður, taska
+👝 budda, klæðnaður, smáveski
+🛍 hótel, innkaupapoki, poki, verslunarleiðangur
+🎒 skólataska, skóli, taska
+🩴 flipflops, ól, sandalar, sandali með ól, strandsandalar, zori
+👞 herraskór, karl, klæðnaður, skór
+👟 íþróttaskór, klæðnaður, skór, strigaskór
+🥾 bakpokaferðalag, fjallganga, gönguskór, tjaldferðalag
+🥿 ballettskór, inniskór, lágbotna skór, skór
+👠 háhælaður skór, klæðnaður, skór
+👡 klæðnaður, kvensandali, kvenskór, sandali
+🩰 ballet, balletskór, dans
+👢 klæðnaður, kvenskór, kvenstígvél, stígvél
+👑 klæðnaður, kóróna
+👒 hattur, klæðnaður, kvenhattur
+🎩 hattur, pípuhattur, skemmtun
+🎓 hátíð, húfa, stúdentshúfa, útskrift, útskriftarhúfa
+🧢 derhúfa, hafnarboltahúfa
+🪖 her, herinn, hermaður, hermannahjálmur, hjálmur, stríðsmaður
+⛑ andlit, björgun, hjálmur, hjálmur með hvítum krossi, hjálp, kross
+📿 bæn, bænaband, föt, hálsmen, perlur, trú
+💄 förðun, snyrtivörur, varalitur
+💍 hringur, rómantík
+💎 demantur, gimsteinn, rómantík
+🔇 ekki tala, hátalari, hljóðlaus hátalari, þögn
+🔈 hátalari, hljóðstyrkur, lágvær hátalari
+🔉 hátalari, hátalari í gangi, hljóðstyrkur, lágt
+🔊 hátalari, hátt, hávær hátalari, hljóðstyrkur
+📢 Almannavarnahátalari, almannavarnir, gjallarhorn, samskipti
+📣 fögnuður, gjallarhorn, samskipti
+📯 lúður, póstlúður, póstur
+🔔 bjalla, hringing
+🔕 bjalla, ekkert hljóð, engin bjalla, yfirstrikuð bjalla
+🎼 G-lykill, nótnaskrif, tónlist
+🎵 nóta, tónlist
+🎶 nóta, nótur, tónlist
+🎙 hljóðnemi, hljóðnemi í hljóðveri, hljóðver, tónlist
+🎚 hljóðstyrkssleði, hljóðstyrkur, sleði, tónlist
+🎛 stýring, stýritakkar, takkar, tónlist
+🎤 hljóðnemi, karaoke, karókí, míkrófónn, skemmtun
+🎧 heyrnartól, skemmtun
+📻 myndband, útvarp
+🎷 hljóðfæri, saxófónn, tónlist
+🪗 harmonika, harmonikuleikari, konsertína, nikka
+🎸 gítar, hljóðfæri, tónlist
+🎹 hljóðfæri, hljómborð, píanó, tónlist
+🎺 hljóðfæri, tónlist, trompet
+🎻 fiðla, hljóðfæri, tónlist
+🪕 banjó, strengir, strengjahljóðfæri, tónlist
+🥁 hljóðfæri, tónlist, tromma, trommuleikari, trommusett
+🪘 handtromma, hrynjandi, kónga, taktur, tromma
+📱 farsími, sími
+📲 farsími, farsími með ör, hringja, sími
+☎ sími
+📞 samskipti, sími, símtól
+📟 samskipti, símboði
+📠 bréfsími, fax, samskipti
+🔋 batterí, rafhlaða
+🔌 innstunga, rafmagn
+💻 fartölva, tölva
+🖥 borðtölva, heimilistölva, tölva
+🖨 prentari, tölva
+⌨ lyklaborð, tölva
+🖱 mús, takki, tölva, tölvumús
+🖲 stýrihjól, tölva
+💽 MD, MD-diskur, mini disc, smádiskur
+💾 disketta, diskur
+💿 blu-ray, diskur, geisladiskur, tölva
+📀 blu-ray, diskur, DVD, geisladiskur, mynddiskur, tölva
+🧮 reikningur, talnagrind
+🎥 bíó, kvikmynd, kvikmyndatökuvél, skemmtun
+🎞 bíómynd, kvikmynd, kvikmyndafilma, kvikmyndalist, rammi
+📽 bíómynd, kvikmynd, kvikmyndalist, myndband, sýningarvél
+🎬 klappspjald, klapptré, kvikmynd, skemmtun
+📺 myndband, sjónvarp
+📷 myndavél, myndband
+📸 flass, myndavél, myndavél með flassi, myndband
+📹 lítil kvikmyndatökuvél, myndavél, vídeó
+📼 myndbandsspóla, vídeóspóla
+🔍 leita, stækkunargler, stækkunargler sem vísar til vinstri
+🔎 leita, stækkunargler, stækkunargler sem vísar til hægri
+🕯 kerti, ljós
+💡 hugmynd, ljós, ljósapera, rafmagn, skrípó
+🔦 ljós, vasaljós
+🏮 bar, izakaya, lampi, rauður, veitingastaður
+🪔 diya, diya-lampi, lampi, olía, olíulampi
+📔 glósubók, glósubók með skrautkápu, kápa, skreytt glósubók
+📕 bók, lokuð bók
+📖 bók, opin bók
+📗 bók, græn
+📘 blá, bók
+📙 appelsínugul, bók
+📚 bækur, bók
+📓 dagbók, glósubók
+📒 dagbók, færslubók
+📃 síða, skjal, uppábrett síða
+📜 bókrolla, pappír
+📄 síða, síða snýr upp, skjal snýr upp, snýr upp
+📰 blað, dagblað, fréttir
+🗞 dagblað, fréttir, pappír, samanrúllað
+📑 bókamerki í tölvu, flipar, merki
+🔖 bókamerki, merki
+🏷 merki, merkimiði
+💰 peningapoki, peningar, poki
+🪙 fjársjóður, gull, málmur, mynt, peningur, silfur
+💴 peningar, peningaseðill, seðill, yen, yenaseðill
+💵 dollaraseðill, dollari, gjaldmiðill, peningaseðill, peningur, seðill
+💶 evra, evruseðill, peningar, peningaseðill, seðill
+💷 peningar, peningaseðill, pund, pundaseðill
+💸 fljúgandi peningar, fljúgandi peningaseðill, peningar, peningaseðill með vængi, seðill
+💳 greiðslukort, kort, kredit, kreditkort
+🧾 bókfærsla, bókhald, endurskoðun, kvittun, sönnun, sönnunargagn
+💹 á uppleið, hækkar, jákvætt, markaður á uppleið, verðbréfamarkaður
+✉ tölvupóstur, umslag
+📧 bréf, póstur, samskipti, tölvubréf, tölvupóstur
+📨 bréf, móttekið, póstur, póstur á innleið, tölvupóstur, umslag
+📩 ör, póstsending, póstur á útleið, tölvupóstur, umsalg, umslag með ör
+📤 bréf, pósthólf, póstur, sendur póstur, sent, úthólf
+📥 box, bréf, innhólf, móttekið, móttekinn póstur, póstur
+📦 böggull, kassi, pakki
+📫 flagg, lokaður, lokaður póstkassi með reistum fána, póstkassi með flaggið uppi, póstur
+📪 flagg, lokaður, lokaður póstkassi með niðurdregnum fána, póstkassi með flaggið niðri, póstur
+📬 flagg, opinn, opinn póstkassi með flaggið uppi, opinn póstkassi með reistum fána, póstur
+📭 flagg, opinn, opinn póstkassi með flaggið niðri, opinn póstkassi með niðurdregnum fána, póstur
+📮 póstkassi, póstur
+🗳 kassi, kjörseðill, kjörseðlakassi með kjörseðli
+✏ blýantur, penni, skrifa
+✒ pennaoddur, penni, svartur pennaoddur
+🖋 penni, sjálfblekungur
+🖊 kúlupenni, penni
+🖌 mála, málningarpensill
+🖍 lita, teikna, vaxlitur
+📝 minnisbók, minnismiði, samskipti
+💼 skjalataska, taska
+📁 mappa, skrá, skráamappa
+📂 opin mappa, opin skráamappa
+🗂 blöð, spjald, spjaldskrá, spjaldskráarblöð
+📅 dagatal, dagsetning
+📆 dagatal, dagatal með rifgötum
+🗒 blokk, glósa, gormar, minnisblokk með gormum
+🗓 blokk, dagatal, dagatal með gormum, gormar
+📇 spjaldskrá, uppflettiskrá
+📈 á uppleið, graf á uppleið
+📉 á niðurleið, graf á niðurleið
+📊 myndrit, súlur, súlurit
+📋 klemmuspjald, klippiborð, muna
+📌 pinni, teiknibóla
+📍 teiknibóla, teiknibóla með kúlu
+📎 bréfaklemma, klemma
+🖇 bréfaklemmur, samankræktar
+📏 bein reglustika, reglustika
+📐 reglustika, þríhyrnd reglustika, þríhyrningur
+✂ skæri, verkfæri
+🗃 kassi, kassi með minnismiðum, skjal, spjöld
+🗄 skápur, skjal, skjalaskápur
+🗑 rusl, ruslakarfa
+🔒 lás, lokaður lás
+🔓 læsa, lás, opinn lás, opna, taka úr lás
+🔏 blekpenni, lás með blekpenna, lás með penna, persónuvernd
+🔐 lás með lykli, lokaður lás, öruggt
+🔑 aðgangsorð, lykill, lykilorð
+🗝 gamall, lás, lykill, vísbending
+🔨 hamar, verkfæri
+🪓 handöxi, höggva, kljúfa, öxi, timbur, viður
+⛏ haki, námugröftur, verkfæri
+⚒ haki, hamar, hamar og haki, verkfæri
+🛠 hamar, hamar og skiptilykill, skiptilykill, verkfæri
+🗡 hnífur, rýtingur, vopn
+⚔ krosslögð, sverð, vopn
+🔫 byssa, skammbyssa
+🪃 Ástralía, búmerang, endurkast, endurvarp
+🏹 bogaskytta, bogi, bogi og ör, bogmaður, ör
+🛡 skjöldur, vopn
+🪚 smiður, sög, timbur, verkfæri, viður
+🔧 skiptilykill, verkfæri
+🪛 skrúfa, skrúfjárn, verkfæri
+🔩 bolti, bolti og ró, ró, verkfæri
+⚙ gírhjól, verkfæri
+🗜 skrúfstykki, verkfæri, þjöppun
+⚖ jafnréttisvog, jafnvægi, vog, vogarskál
+🦯 aðgengi, blindrastafur, blindur, sjónlaus
+🔗 tenglamerki, tenglar, tveir hlekkir
+⛓ keðja
+🪝 bogi, gildra, krækja, krókur
+🧰 kista, tól, verkfærakassi, verkfæri, viðgerðir
+🧲 aðdráttarafl, segull, segulmagn, skeifa
+🪜 klifra, rim, stigi, trappa
+⚗ efnafræði, eimingarflaska
+🧪 efnafræði, efnafræðingur, tilraun, tilraunaglas, tilraunastofa, vísindi
+🧫 baktería, gerlaflóra, líffræði, líffræðingur, petrílskál, tilraunastofa
+🧬 dna, erfðaefni, gen, líf, líffræðingur, þróun
+🔬 smásjá, verkfæri, vísindi
+🔭 sjónauki, verkfæri, vísindi
+📡 diskur, gervihnattadiskur, gervihnattaloftnet, loftnet
+💉 læknir, lyf, nál, sprauta
+🩸 blæðingar, blóðdropi, blóðgjöf, læknisfræði
+💊 læknir, lyf, pilla
+🩹 plástur
+🩺 hjarta, hlustunarpípa, læknir, læknisfræði
+🚪 dyr, hurð
+🛗 aðgengi, hífa, lyfta
+🪞 endurspeglun, endurvarp, spegill, speglun
+🪟 ferskt loft, gegnsætt, gluggi, opna, rammi, útsýni
+🛏 hótel, rúm, sofa
+🛋 hótel, lampi, sófi, sófi og lampi
+🪑 setjast, sitja, stóll
+🚽 klósett, salerni
+🪠 drullusokkur, klósett, pípulagningar, salerni
+🚿 sturta, vatn
+🛁 bað, baðkar, baðker
+🪤 gildra, músagildra, veiði
+🪒 beittur, raka sig, rakhnífur
+🧴 áburðarflaska, áburður, krem, sjampó, sólarvörn
+🧷 bleyja, öryggisnæla, pönk, sikrisnæla
+🧹 kústur, norn, sópa, þrif
+🧺 búskapur, karfa, lautarferð, þvottur
+🧻 klósettpappír, pappírsrúlla, salernispappír
+🪣 fata, ílát, skjóla
+🧼 bað, löður, s´ápudiskur, sápa, sápustykki, þrif
+🪥 baðherbergi, bursti, hreinlæti, hreinn, tannbursti, tannhirða, tennur
+🧽 drekkur í sig, gljúpur, svampur, þrif
+🧯 eldur, kæfa, slökkva, slökkvitæki
+🛒 innkaup, innkaupakerra, innkaupavagn, kerra
+🚬 reykingar, sígaretta
+⚰ dauði, líkkista
+🪦 grafsteinn, gröf, kirkjugarður, legsteinn, leiði
+⚱ aska, dauði, duftker, jarðarför
+🗿 andlit, moyai, moyai-stytta, stytta
+🪧 kröfuganga, mótmæli, skilti, veggspjald
+🏧 banki, hraðbanki
+🚮 merki, rusl í ruslatunnu, rusl, ruslafata
+🚰 drykkjarvatn, vatn
+♿ aðgengi, fatlaðir, hjólastólaaðgengi, hjólastóll
+🚹 karl, karlaklósett, klósett, salerni, snyrting
+🚺 klósett, kona, kvennaklósett, salerni, snyrting
+🚻 klósett, salernisaðstaða, snyrting, WC
+🚼 barn um borð, barnamerki, bleyjuskipti, skiptiborð
+🚾 klósett, salerni, snyrting, WC
+🛂 eftirlit, vegabréf, vegabréfaeftirlit
+🛃 tollhlið, tollur
+🛄 farangur, ferðataska, töskur
+🛅 farangur, farangursgeymsla, lás, skápar
+⚠ varúð, varúðarmerki, viðvörun
+🚸 börn, börn á ferð
+⛔ bannað, einstefna, enginn aðgangur, nei, umferð
+🚫 bannað, bannað að leggja
+🚳 hjól, hjól bönnuð, hjólreiðar bannaðar
+🚭 bannað að reykja, reykingar bannaðar
+🚯 bannað að fleygja rusli, ekkert rusl, ekki henda rusli
+🚱 ekki drekka, ódrekkandi, óhæft drykkjarvatn, vatn
+🚷 bannað að ganga, vegfarendur, vegfarendur bannaðir
+📵 bannað að hringja, enginn farsími, farsími, sími
+🔞 18, bannað undir 18 ára, enginn undir 18 ára, undir 18
+☢ geislavirkni, merki
+☣ efni, hættuleg
+⬆ átt, höfuðátt, norður, ör, ör upp
+↗ átt, norðaustur, ör, ör ská upp til hægri
+➡ átt, austur, höfuðátt, ör, ör til hægri
+↘ átt, ör, ör ská niður til hægri, suðaustur
+⬇ átt, höfuðátt, niður, ör, suður
+↙ átt, ör, ör ská niður til vinstri, suðvestur
+⬅ átt, höfuðátt, ör, ör til vinstri, vestur
+↖ átt, norðvestur, ör, ör ská upp til vinstri
+↕ ör, ör upp og niður
+↔ ör, ör til vinstri og hægri
+↩ ör, sveigð ör til vinstri
+↪ ör, sveigð ör til hægri
+⤴ ör, sveig ör upp
+⤵ niður, ör, sveigð ör niður
+🔃 endurhlaða, endurhleðslutákn, lóðréttar réttsælisörvar, örvar
+🔄 örvar, rangsælis
+🔙 ör, ör til baka, ör til vinstri, til baka, vinstri ör
+🔚 endaör, endaör til vinstri, endir, ör, vinstri ör
+🔛 Kveikt með upphrópunarmerki og ör, kveikt-ör, ör, upphrópun, upphrópunarmerki
+🔜 bráðum, bráðum með vinstri ör, bráðum-merki, bráðum-ör, ör
+🔝 efst, efst-ör, ör, upp, uppör
+🛐 tilbeiðsla, tilbeiðslustaður, trúarbrögð
+⚛ frumeind, frumeindartákn, trúleysingi
+🕉 hindúismi, om-merki, trúarbrögð
+✡ Davíð, davíðsstjarna, gyðingdómur, gyðingur, stjarna
+☸ búddisti, dharma, dharmahjól, hjól, trúarbrögð
+☯ jang, jin, taó, taóisti, trúarbrögð
+✝ kristni, kross, latneskur kross, trúarbrögð
+☦ kristni, kross, rétttrúnaðarkross, trúarbrögð
+☪ íslam, múslimi, stjarna og skarður máni, trúarbrögð
+☮ friðartákn, friður
+🕎 ljósastjaki, margálma kertastjaki, menorah-ljósastika, trúarbrögð
+🔯 sexhyrnd, spá, spádómur, stjarna
+♈ hrútur, hrúturinn, stjörnumerki
+♉ naut, nautið, stjörnumerki
+♊ stjörnumerki, tvíburar
+♋ krabbi, krabbinn, stjörnumerki
+♌ ljón, ljónið, stjörnumerki
+♍ meyja, stjörnumerki
+♎ stjörnumerki, vog, vogin
+♏ sporðdreki, sporðdrekinn, stjörnumerki
+♐ bogamaður, bogmaður, stjörnumerki
+♑ steingeit, stjörnumerki
+♒ stjörnumerki, vatnsberi
+♓ fiskar, stjörnumerki
+⛎ naðra, naðurvaldi, snákur, stjörnumerki
+🔀 fléttaðar örvar, fléttaðar örvar til hægri, örvar, örvar í kross
+🔁 endurtaka, örvar, réttsælis
+🔂 einu sinni, númer 1, örvar, réttsælis, réttsælis örvar með tölunni 1
+▶ hægri, ör, spila, spilunartakki, þríhyrningur
+⏩ hægri, ör, spóla áfram, tvöföld ör til hægri
+⏭ áfram, næsta lag, ör, skiptitakki, þríhyrningur
+⏯ ör, pása, spila, spilunar- og pásuhnappur, spilunar- og pásutakki, þríhyrningur
+◀ hnappur til að spóla til baka, ör, spóla til baka, vinstri, þríhyrningur
+⏪ ör, spóla til baka, tvöföld ör til vinstri, vinstri
+⏮ fyrri sena, hnappur til að skipta á síðustu rás, ör, þríhyringingur
+🔼 hnappur, uppvísandi þríhyrningur, þríhyrningur, þríhyrningur upp
+⏫ ör, tvöföld uppör, upp, uppör
+🔽 hnappur, niðurvísandi þríhyrningur, þríhyrningur, þríhyrningur niður
+⏬ niður, niðurör, ör, tvöföld niðurör
+⏸ lóðrétt, pása, pásutakki, tvöfalt
+⏹ kassi, stoppa, stopptakki
+⏺ hringur, taka upp, upptökutakki
+⏏ opna, takki til að opna
+🎦 bíó, bíóhús, kvikmynd, kvikmyndahús, skemmtun
+🔅 birta, dimmt, lítil birta, tákn um litla birtu
+🔆 birta, bjart, mikil birta, tákn um mikla birtu
+📶 farsímasamband, farsímastyrkur, farsími, loftnet
+📳 farsími, sími, stilling, titringur
+📴 farsími, sími, slökkt, slökkt á farsíma, slökkt á síma
+♀ konur, kvenkyns, merki
+♂ karlar, karlkyns, merki
+⚧ trans, transmerki
+✖ ×, hætta við, margfalda, margföldun, margföldunartákn, tákn, x
+➕ +, merki, plús, plúsmerki, stærðfræði
+➖ -, –, merki, mínus, mínusmerki, stærðfræði
+➗ ÷, deiling, deilingarmerki, merki, stærðfræði
+♾ algilt, eilífð, óendanleiki, takmarkaleysi
+‼ greinarmerki, merki, tvöfalt upphrópunarmerki, upphr´ópunarmerki
+⁉ !, !?, ?, greinarmerki, interrobang, spurningarmerki, upphrópunarmerki, upphrópunarmerki og spurningarmerki
+❓ greinarmerki, merki, rautt spurningarmerki, spurning, spurningarmerki
+❔ greinarmerki, hvítt spurningarmerki, merki, spurning
+❕ greinarmerki, hvítt upphrópunarmerki, merki, upphrópun, útlínur
+❗ greinarmerki, merki, rautt upphrópunarmerki, upphrópun, upphrópunarmerki
+〰 alda, bugða, bugðustrik, strik
+💱 gjaldmiðlar, gjaldmiðlareikningur, gjaldmiðlaskipti, peningar
+💲 dalur, dollaramerki, dollari, feitletrað dollaramerki, peningar
+⚕ læknavísindi, lækningamerki, lækningar, læknir, merki
+♻ alþjóðlegt endurvinnslumerki, endurvinnsla, endurvinnslumerki
+⚜ fleur-de-lis, fleur-de-lis-tákn
+🔱 akkeri, skip, tákn, tól, þríforkur
+📛 nafn, nafnspjald, spjald
+🔰 byrjandi, græn og gul, græn og gul lauf, japanskt
+⭕ holur rauður hringur, hringur, o, rauður, stór
+✅ hak, hakmerki, hnappur, merki
+☑ ✓, hak, hakreitur með haki, hakreitur með hakmerki, reitur
+✔ ✓, hak, merki
+❌ ×, hætta við, kross, krossmerki, margfalda, margföldun, x
+❎ ×, ferningur, krosshnappur, merki
+➰ lykkja
+➿ gormur, lykkjur, tvöföld lykkja
+〽 japanskt upphafsmerki söngs, merki
+✳ *, áttarma stjarna, áttarma stjörnumerki, stjarna
+✴ áttarma stjarna, stjarna
+❇ *, leiftur
+© höfundarréttarmerki, höfundarréttarvarið, höfundarréttur
+® skráð, skráð vörumerki
+™ skrásett vörumerki, vörumerki
+🔠 hástafir, latneskir hástafir, latneskt letur, setja inn latneska hástafi
+🔡 lágstafir, latneskir lágstafir, latneskt letur, setja inn latneska lágstafi
+🔢 setja inn tölustafi, tölustafir
+🔣 setja inn tákn, tákn
+🔤 ABC, enska, latneska stafrófið, setja inn latneska stafrófið
+🅰 A, A-blóðflokkur, blóð, blóðflokkur
+🆎 AB, AB-blóðflokkur, blóð, blóðflokkur
+🅱 B, B-blóðflokkur, blóð, blóðflokkur
+🆑 CL, CL-skilti, skilti
+🆒 kúl, skilti, svalt
+🆓 ókeypis, ókeypis-skilti, skilti
+ℹ u, upplýsingar, upplýsingaveita
+🆔 ID, ID-skilti, skilríki, skilti
+Ⓜ bókstafurinn m inni í hring, hringur, m
+🆕 nýtt, nýtt-skilti, skilti
+🆖 NG, NG-skilti, skilti
+🅾 blóð, blóðflokkur, O, O-blóðflokkur
+🆗 í lagi, OK, OK-skilti
+🅿 bílastæði, leggja
+🆘 hjálp, skilti, SOS, SOS-skilti
+🆙 skilti, UP!
+🆚 gegn, skilti, versus, versus-skilti, VS
+🈁 hér, japanska, katakana, katakana koko, kassi
+🈂 japanska, katakana, katakana sa, kassi, þjónustugjald
+🈷 japanska, mánaðarleg upphæð, mánaðarleg upphæð, kassi, myndletur
+🈶 „Ekki ókeypis“ á japönsku, ekki ókeypis, japanska, myndletur
+🈯 „Frátekið“ á japönsku, frátekið, japanska, myndletur
+🉐 „Kjarakaup“ á japönsku, g´óð kaup, japanska, myndletur
+🈹 „Afsláttur“ á japönsku, afsláttur, japanska, myndletur
+🈚 „Ókeypis“ á japönsku, japanska, myndletur, ókeypis
+🈲 „Bannað“ á japönsku, bannað, japanska, myndletur
+🉑 „Viðunandi“ á japönsku, japanska, myndletur, samþykkja
+🈸 „Umsókn“ á japönsku, beiðni, japanska, myndletur
+🈴 „Viðunandi einkunn“ á japönsku, japanska, lágmarkseinkunn, myndletur
+🈳 „Laust pláss“ á japönsku, japanska, myndletur, tómt
+㊗ „Til hamingju“ ´a japönsku, japanska, myndletur, til hamingju
+㊙ „Leyndarmál“ á japönsku, japanska, leyndarmál, myndletur
+🈺 „Opið“ á japönsku, japanska, myndletur, vinna
+🈵 „Allt fullt“ á japönsku, allt fullt, japanska, myndletur
+🔴 hringur, rauður, rúmfræði, stór rauður hringur
+🟠 appelsínugulur, hringur
+🟡 gulur, hringur
+🟢 grænn, hringur
+🔵 blár, hringur, rúmfræði, stór blár hringur
+🟣 fjólublár, hringur
+🟤 brúnn, hringur
+⚫ hringur, rúmfræði, svartur
+⚪ hringur, hvítur, rúmfræði
+🟥 ferningur, rauður
+🟧 appelsínugulur, ferningur
+🟨 ferningur, gulur
+🟩 ferningur, grænn
+🟦 blár, ferningur
+🟪 ferningur, fjólublár
+🟫 brúnn, ferningur
+⬛ ferningur, rúmfræði, stór svartur ferningur
+⬜ ferningur, rúmfræði, stór hvítur ferningur
+◼ ferningur, rúmfræði, svartur meðalstór ferningur
+◻ ferningur, hvítur meðalstór ferningur, rúmfræði
+◾ ferningur, rúmfræði, svartur meðalsmár ferningur
+◽ ferningur, hvítur meðalsmár ferningur, rúmfræði
+▪ ferningur, lítill svartur ferningur, rúmfræði
+▫ ferningur, lítill hvítur ferningur, rúmfræði
+🔶 appelsínugulur, stór appelsínugulur tígull, tígull
+🔷 blár, stór blár tígull, tígull
+🔸 appelsínugulur, lítill appelsínugulur tígull, tígull
+🔹 blár, lítill blár tígull, tígull
+🔺 rauður, rauður þríhyrningur upp, uppvísandi rauður þríhyrningur, þríhyrningur
+🔻 niðurvísandi rauður þríhyrningur, rauður, rauður þríhyrningur niður, þríhyrningur
+💠 blóm með punkti, sætt, tígull, tígullaga, tilfinningar
+🔘 hnappur, valhnappur
+🔳 ferningur, hnappur, hvítur ferningslaga hnappur
+🔲 ferningur, hnappur, svartur ferningslaga hnappur
+🏁 flagg, íþróttir, kappakstur, rásflagg
+🚩 fáni, flagg, staðsetningarmerki, veifa
+🎌 fánar, fánar í kross, hátíð, japanskir fánar í kross
+🏴 blaktandi, blaktandi svartur fáni, svartur fáni
+🏳 blaktandi, blaktandi hvítur fáni, hvítur fáni
+🏳‍🌈 fáni, gay pride, gleðiganga, regnbogafáni, regnbogi
+🏳‍⚧ bleikur, fáni, hvítur, ljósblár, trans, transfáni
+🏴‍☠ fjársjóður, hausk´úpuflagg, ræna og rupla, sjóræningi, sjóræningjafáni
+¢ sent
+$ dalur, peningar, pesi, USD
+£ EGP, GBP, gjaldmiðill, pund
+¥ CNY, gjaldmiðill, jen, JPY, júan
+₣ franki, franskur franki, gjaldmiðill
+₤ gjaldmiðill, líra
+₥ millidalur, millitomma
+₩ KPW, vonn, won
+€ EUR, evra, gjaldmiðill
+₱ pesi
+₳ suðlægur
+₶ gjaldmiðill
+₷ gjaldmiðill
+₹ gjaldmiðill, indversk rúpía, rúpía
+₽ gjaldmiðill, rúbla
+₿ bitcoin, BTC
+₨ gjaldmiðill, rúpía
+﷼ gjaldmiðill
+¹ brjóstletur, einn
+² brjóstletur, í öðru veldi, tveir
+³ brjóstletur, í þriðja veldi, þrír
+µ mál, míkró-merki

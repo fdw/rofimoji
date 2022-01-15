@@ -65,7 +65,6 @@ class Rofi(Selector):
             'rofi',
             '-dmenu',
             '-markup-rows',
-            '-sort',
             '-i',
             '-multi-select',
             '-p',

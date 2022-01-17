@@ -2,6 +2,7 @@
 ## Added
 - `rofmoji`'s predefined characters now also contain all of CJK.
 - Default characters and descriptions can be extended with custom files.
+- You may now specify multiple actions (for example: `--action copy type`).
 
 ## Changed
 - Updated to Unicode v14!

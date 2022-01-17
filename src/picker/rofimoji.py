@@ -67,11 +67,16 @@ class Rofimoji:
         parser.add_argument(
             '--action',
             '-a',
-            dest='action',
+            dest='actions',
             action='store',
-            choices=[action.value for action in Action],
-            default=Action.TYPE.value,
-            help='How to insert the chosen characters'
+            type=Action,
+            choices=list(Action),
+            default=[Action.TYPE],
+            nargs='*',
+            metavar='ACTION',
+            help='How to insert the chosen characters. More than one action may be specified in '
+                 'a space separated list (e.g. "--action type copy"). Options: ' +
+                 ', '.join(f'"{a.value}"' for a in Action)
         )
         parser.add_argument(
             '--skin-tone',
@@ -205,7 +210,6 @@ class Rofimoji:
         else:
             parsed_args.selector_args = []
 
-        parsed_args.action = next(action for action in Action if action.value == parsed_args.action)
         parsed_args.keybindings = {
             Action.TYPE: parsed_args.keybinding_type,
             Action.COPY: parsed_args.keybinding_copy,
@@ -272,15 +276,15 @@ class Rofimoji:
 
     def choose_action_from_return_code(self, return_code: int):
         if return_code == 20:
-            self.args.action = Action.COPY
+            self.args.actions = [Action.COPY]
         elif return_code == 21:
-            self.args.action = Action.TYPE
+            self.args.actions = [Action.TYPE]
         elif return_code == 22:
-            self.args.action = Action.CLIPBOARD
+            self.args.actions = [Action.CLIPBOARD]
         elif return_code == 23:
-            self.args.action = Action.UNICODE
+            self.args.actions = [Action.UNICODE]
         elif return_code == 24:
-            self.args.action = Action.COPY_UNICODE
+            self.args.actions = [Action.COPY_UNICODE]
 
     def _parse_line(self, line) -> str:
         return re.match(r'^(?:\u200e(?! ))?(?P<char>.[^ ]*) .*', line).group('char')
@@ -472,26 +476,28 @@ class Rofimoji:
             file.write(characters + '\n')
 
     def execute_action(self, characters: str) -> None:
-        if self.args.action == Action.TYPE:
-            self.typer.type_characters(characters, self.active_window)
-        elif self.args.action == Action.COPY:
-            self.clipboarder.copy_characters_to_clipboard(characters)
-        elif self.args.action == Action.CLIPBOARD:
-            self.clipboarder.copy_paste_characters(characters, self.active_window, self.typer)
-        elif self.args.action == Action.UNICODE:
-            self.typer.type_characters(self.get_codepoints(characters), self.active_window)
-        elif self.args.action == Action.COPY_UNICODE:
-            self.clipboarder.copy_characters_to_clipboard(self.get_codepoints(characters))
-        elif self.args.action == Action.STDOUT:
-            print(characters)
+        for action in self.args.actions:
+            if action == Action.TYPE:
+                self.typer.type_characters(characters, self.active_window)
+            elif action == Action.COPY:
+                self.clipboarder.copy_characters_to_clipboard(characters)
+            elif action == Action.CLIPBOARD:
+                self.clipboarder.copy_paste_characters(characters, self.active_window, self.typer)
+            elif action == Action.UNICODE:
+                self.typer.type_characters(self.get_codepoints(characters), self.active_window)
+            elif action == Action.COPY_UNICODE:
+                self.clipboarder.copy_characters_to_clipboard(self.get_codepoints(characters))
+            elif action == Action.STDOUT:
+                print(characters)
 
     def save_selection_to_cache(self, characters: str, processed_characters: str) -> None:
         with cache_file_location.open('w+') as file:
-            file.write(f'{self.args.action.value}\n{characters}\n{processed_characters}')
+            actions = ",".join(action.value for action in self.args.actions)
+            file.write(f'{actions}\n{characters}\n{processed_characters}')
 
     def load_selection_from_cache(self) -> Tuple[str, str]:
         cache = cache_file_location.read_text().split('\n')
-        self.args.action = next(action for action in Action if action.value == cache[0].strip())
+        self.args.actions = [Action(a) for a in cache[0].strip().split(",")]
         return cache[1], cache[2]
 
 

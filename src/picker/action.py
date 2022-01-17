@@ -8,3 +8,6 @@ class Action(enum.Enum):
     UNICODE = 'unicode'
     COPY_UNICODE = 'copy-unicode'
     STDOUT = 'print'
+    
+    def __str__(self):
+        return self.value

@@ -75,7 +75,7 @@ class Rofimoji:
             nargs='*',
             metavar='ACTION',
             help='How to insert the chosen characters. More than one action may be specified in '
-                 'a space separated list (e.g. "--action type copy"). Options: ' +
+                 'a space separated list (for example: `--action type copy`). Options: ' +
                  ', '.join(f'"{a.value}"' for a in Action)
         )
         parser.add_argument(

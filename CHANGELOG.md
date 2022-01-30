@@ -6,6 +6,7 @@
 
 ## Changed
 - Updated to Unicode v14!
+- Since characters are now sorted by usage frecency, they shouldn't be sorted according to the search anymore. (#110)
 
 ## Fixed
 - The shortcut for `all` files can now be combined with custom files. (#101)

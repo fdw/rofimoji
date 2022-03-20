@@ -4,6 +4,7 @@ from cjkextractor import CjkExtractor
 from emojiextractor import EmojiExtractor
 from mathcollectionextractor import MathExtractor
 from nerdextractor import NerdExtractor
+from gitmojiextractor import GitmojiExtractor
 
 if __name__ == "__main__":
     character_factory = CharacterFactory()
@@ -13,3 +14,4 @@ if __name__ == "__main__":
     CjkExtractor().extract()
     MathExtractor(character_factory).extract()
     NerdExtractor().extract()
+    GitmojiExtractor().extract()

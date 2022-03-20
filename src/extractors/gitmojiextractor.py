@@ -1,11 +1,5 @@
-"""
-Copied and changed from nerdextractor.py in https://github.com/fdw/rofimoji
-"""
-
-
 import html
 from pathlib import Path
-import json
 
 import requests
 

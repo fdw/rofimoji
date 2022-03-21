@@ -33,9 +33,6 @@ class GitmojiExtractor(object):
             self.icons.append(Character(icon, name))
 
     def write_to_file(self: 'GitmojiExtractor'):
-        if len(self.icons) == 0:
-            return
-
         with Path("../picker/data/gitmoji.csv").open('w') as symbol_file:
             for icon in self.icons:
                 symbol_file.write(

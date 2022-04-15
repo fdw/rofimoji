@@ -105,7 +105,7 @@ Please note that `wofi` does not support custom keyboard shortcuts or recent fil
 
 ## Most recently used characters
 By default, `rofimoji` will show the last ten recently used characters separately; you can insert them with `alt+1`, `alt+2` and so on. It will use the default [insertion method](#insertion-method).
-If you don't want this, you can set `--max=recent` to `0`.
+If you don't want this, you can set `--max-recent` to `0`.
 
 Additionally, `rofimoji` also remembers in general which characters are used more frequently and sorts the list accordingly. You can disable this behavior with `--no-frecency`.
 

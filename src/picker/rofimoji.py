@@ -445,7 +445,7 @@ class Rofimoji:
         try:
             with frecency_file_location.open('r') as file:
                 for line in file:
-                    (frecency, character) = line.strip().split(' ')
+                    (frecency, character) = line.strip('\n').split(' ')
                     frecencies[character] = int(frecency)
         except FileNotFoundError:
             pass

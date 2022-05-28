@@ -227,7 +227,7 @@ class Rofimoji:
             sys.exit()
         else:
             if 10 <= returncode <= 19:
-                characters = self.load_recent_characters(self.args.max_recent)[returncode - 10].strip()
+                characters = self.load_recent_characters(self.args.max_recent)[returncode - 10]
             else:
                 self.choose_action_from_return_code(returncode)
                 characters = self.process_chosen_characters(stdout.splitlines())
@@ -245,7 +245,7 @@ class Rofimoji:
 
     def mode_act_on_selection(self, chosen_character: str, returncode: int) -> None:
         if 10 <= returncode <= 19:
-            characters = self.load_recent_characters(self.args.max_recent)[returncode - 10].strip()
+            characters = self.load_recent_characters(self.args.max_recent)[returncode - 10]
             self.save_characters_to_recent_file(characters)
             self.execute_action(characters)
         else:
@@ -337,11 +337,11 @@ class Rofimoji:
         return resolved_file_names
 
     def load_from_file(self, file: Path) -> List[str]:
-        return file.read_text().strip().split('\n')
+        return file.read_text().strip('\n').split('\n')
 
     def load_recent_characters(self, max: int) -> List[str]:
         try:
-            return recents_file_location.read_text().strip().split('\n')[:max]
+            return [char.strip('\n') for char in recents_file_location.read_text().strip('\n').split('\n')][:max]
         except FileNotFoundError:
             return []
 
@@ -428,7 +428,7 @@ class Rofimoji:
                 with old_file_name.open('r') as old_file:
                     index = 0
                     for line in old_file:
-                        if characters != line.strip():
+                        if characters != line.strip('\n'):
                             if index == max_recent - 1:
                                 break
                             new_file.write(line)

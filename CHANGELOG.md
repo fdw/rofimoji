@@ -2,6 +2,9 @@
 ## Added
 - Gitmoji are now also included by default. (#114)
 
+## Fixed
+- Choosing whitespace does not break `rofimoji` anymore. (#117)
+
 # [5.4.0]
 ## Added
 - `rofmoji`'s predefined characters now also contain all of CJK.

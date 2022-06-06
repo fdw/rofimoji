@@ -5,18 +5,18 @@ import math
 import re
 import shlex
 import sys
-from typing import List, Tuple, Dict
+from typing import List, Tuple, Dict, Union
 
 import configargparse
 
 try:
-    from picker.action import Action
+    from picker.models import Action, CANCEL, DEFAULT, Shortcut
     from picker.clipboarder import Clipboarder
     from picker.typer import Typer
     from picker.selector import Selector
     from picker.paths import *
 except ModuleNotFoundError:
-    from action import Action
+    from models import Action, CANCEL, DEFAULT, Shortcut
     from clipboarder import Clipboarder
     from typer import Typer
     from selector import Selector
@@ -221,19 +221,20 @@ class Rofimoji:
         return parsed_args
 
     def standalone(self) -> None:
-        returncode, stdout = self.open_main_rofi_window()
+        action, value = self.open_main_rofi_window()
 
-        if returncode == 1:
+        if action == CANCEL():
             sys.exit()
-        else:
-            if 10 <= returncode <= 19:
-                characters = self.load_recent_characters(self.args.max_recent)[returncode - 10]
-            else:
-                self.choose_action_from_return_code(returncode)
-                characters = self.process_chosen_characters(stdout.splitlines())
+        elif action != DEFAULT():
+            self.args.actions = [action]
 
-            self.save_characters_to_recent_file(characters)
-            self.execute_action(characters)
+        if isinstance(value, Shortcut):
+            characters = self.load_recent_characters(self.args.max_recent)[value.index]
+        else:
+            characters = self.process_chosen_characters(value.splitlines())
+
+        self.save_characters_to_recent_file(characters)
+        self.execute_action(characters)
 
     def mode_show_characters(self) -> None:
         recent_characters = self.format_recent_characters()
@@ -351,7 +352,7 @@ class Rofimoji:
 
         return ' | '.join(pairings)
 
-    def open_main_rofi_window(self) -> Tuple[int, str]:
+    def open_main_rofi_window(self) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[str, Shortcut]]:
         return self.selector.show_character_selection(
             self.read_character_files(),
             self.format_recent_characters(),

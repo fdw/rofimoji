@@ -1,12 +1,12 @@
 from subprocess import run
-from typing import List, Tuple, Dict
+from typing import List, Tuple, Dict, Union
 
 try:
     from picker.abstractionhelper import is_wayland, is_installed
-    from picker.action import Action
+    from picker.models import Action, CANCEL, DEFAULT, Shortcut
 except ModuleNotFoundError:
     from abstractionhelper import is_wayland, is_installed
-    from action import Action
+    from models import Action, CANCEL, DEFAULT, Shortcut
 
 
 class Selector:
@@ -35,7 +35,7 @@ class Selector:
             prompt: str,
             keybindings: Dict[Action, str],
             additional_args: List[str]
-    ) -> Tuple[int, str]:
+    ) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[str, Shortcut]]:
         print('Could not find a valid way to show the selection. Please check the required dependencies.')
         exit(4)
 
@@ -60,7 +60,7 @@ class Rofi(Selector):
             prompt: str,
             keybindings: Dict[Action, str],
             additional_args: List[str]
-    ) -> Tuple[int, str]:
+    ) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[str, Shortcut]]:
         parameters = [
             'rofi',
             '-dmenu',
@@ -91,7 +91,24 @@ class Rofi(Selector):
             capture_output=True,
             encoding='utf-8'
         )
-        return rofi.returncode, rofi.stdout
+
+        if 10 <= rofi.returncode <= 19:
+            return DEFAULT(), Shortcut(rofi.returncode - 10)
+
+        action = DEFAULT()
+        if rofi.returncode == 1:
+            action = CANCEL()
+        elif rofi.returncode == 20:
+            action = Action.COPY
+        elif rofi.returncode == 21:
+            action = Action.TYPE
+        elif rofi.returncode == 22:
+            action = Action.CLIPBOARD
+        elif rofi.returncode == 23:
+            action = Action.UNICODE
+        elif rofi.returncode == 24:
+            action = Action.COPY_UNICODE
+        return action, rofi.stdout
 
     def show_skin_tone_selection(self, skin_tones: str, prompt: str, additional_args: List[str]) -> Tuple[int, str]:
         rofi = run(
@@ -127,7 +144,7 @@ class Wofi(Selector):
             prompt: str,
             keybindings: Dict[Action, str],
             additional_args: List[str]
-    ) -> Tuple[int, str]:
+    ) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[str, Shortcut]]:
         parameters = [
             'wofi',
             '--dmenu',
@@ -144,7 +161,7 @@ class Wofi(Selector):
             capture_output=True,
             encoding='utf-8'
         )
-        return wofi.returncode, wofi.stdout
+        return DEFAULT(), wofi.stdout
 
     def show_skin_tone_selection(self, skin_tones: str, prompt: str, additional_args: List[str]) -> Tuple[int, str]:
         wofi = run(

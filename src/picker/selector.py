@@ -1,12 +1,8 @@
 from subprocess import run
 from typing import List, Tuple, Dict, Union
 
-try:
-    from picker.abstractionhelper import is_wayland, is_installed
-    from picker.models import Action, CANCEL, DEFAULT, Shortcut
-except ModuleNotFoundError:
-    from abstractionhelper import is_wayland, is_installed
-    from models import Action, CANCEL, DEFAULT, Shortcut
+from .abstractionhelper import is_wayland, is_installed
+from .models import Action, CANCEL, DEFAULT, Shortcut
 
 
 class Selector:

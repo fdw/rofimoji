@@ -9,18 +9,11 @@ from typing import List, Tuple, Dict, Union
 
 import configargparse
 
-try:
-    from picker.models import Action, CANCEL, DEFAULT, Shortcut
-    from picker.clipboarder import Clipboarder
-    from picker.typer import Typer
-    from picker.selector import Selector
-    from picker.paths import *
-except ModuleNotFoundError:
-    from models import Action, CANCEL, DEFAULT, Shortcut
-    from clipboarder import Clipboarder
-    from typer import Typer
-    from selector import Selector
-    from paths import *
+from .clipboarder import Clipboarder
+from .models import Action, CANCEL, DEFAULT, Shortcut
+from .paths import *
+from .selector import Selector
+from .typer import Typer
 
 __version__ = '5.4.0'
 
@@ -502,22 +495,3 @@ class Rofimoji:
         return cache[1], cache[2]
 
 
-def main():
-    return_value = os.environ.get('ROFI_RETV')
-
-    if return_value is None:
-        Rofimoji().standalone()
-    elif return_value == "0":
-        Rofimoji().mode_show_characters()
-    elif not cache_file_location.is_file():
-        chosen = sys.argv[-1]
-        del sys.argv[-1]
-        Rofimoji().mode_act_on_selection(chosen, int(return_value))
-    else:
-        chosen = sys.argv[-1]
-        del sys.argv[-1]
-        Rofimoji().mode_select_skin_tone(chosen)
-
-
-if __name__ == "__main__":
-    main()

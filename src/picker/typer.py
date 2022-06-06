@@ -1,9 +1,6 @@
 from subprocess import run
 
-try:
-    from picker.abstractionhelper import is_wayland, is_installed
-except ModuleNotFoundError:
-    from abstractionhelper import is_wayland, is_installed
+from .abstractionhelper import is_wayland, is_installed
 
 
 class Typer:

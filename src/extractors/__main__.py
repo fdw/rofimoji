@@ -10,6 +10,7 @@ from .extractor import Extractor
 from .gitmojiextractor import GitmojiExtractor
 from .mathcollectionextractor import MathExtractor
 from .nerdfontextractor import NerdFontExtractor
+from .fontawesome6extractor import FontAwesome6Extractor
 
 if __name__ == "__main__":
     data_directory = pathlib.Path(__file__).parent.parent / 'picker' / 'data'
@@ -22,7 +23,8 @@ if __name__ == "__main__":
         CjkExtractor(),
         MathExtractor(character_factory),
         NerdFontExtractor(),
-        GitmojiExtractor()
+        GitmojiExtractor(),
+        FontAwesome6Extractor()
     ]
 
     for subclass in Extractor.__subclasses__():

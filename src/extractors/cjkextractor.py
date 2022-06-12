@@ -8,13 +8,16 @@ from typing import Dict, List
 import requests
 
 from .characterfactory import Character
+from .extractor import Extractor
 
 
-class CjkExtractor(object):
+class CjkExtractor(Extractor):
+    __characters: Dict[str, List[Character]]
+
     def __init__(self):
-        self.__characters = self.fetch_characters()
+        self.__characters = {}
 
-    def fetch_characters(self: 'CjkExtractor') -> Dict[str, List[Character]]:
+    def __fetch_characters(self) -> Dict[str, List[Character]]:
         INDEX_CODEPOINT = 0
         INDEX_LANGUAGE = 1
         INDEX_DESCRIPTION = 2
@@ -42,13 +45,15 @@ class CjkExtractor(object):
                         characters[language] = []
                     characters[language].append(character)
 
-        return characters
+        self.__characters = characters
 
-    def write_to_file(self: 'CjkExtractor', language: str, characters: List[Character]):
-        with (Path(__file__).parent.parent / 'picker' / 'data' / f'cjk_{language.lower()}.csv').open('w') as symbol_file:
+    def __write_to_file(self, target: Path, language: str, characters: List[Character]):
+        filename = f'cjk_{re.sub(r"(?!^)(?=[A-Z])", "_", language).lower()}.csv'
+        with (target / filename).open('w') as symbol_file:
             for character in characters:
                 symbol_file.write(f'{character.directional_char} {html.escape(character.name)}\n')
 
-    def extract(self):
+    def extract_to(self, target: Path):
+        self.__fetch_characters()
         for language in ('Cantonese', 'Mandarin', 'Vietnamese', 'Tang', 'JapaneseKun', 'JapaneseOn', 'Korean'):
-            self.write_to_file(re.sub(r'(?!^)(?=[A-Z])', '_', language).lower(), self.__characters[language])
+            self.__write_to_file(target, language, self.__characters[language])

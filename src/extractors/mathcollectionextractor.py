@@ -5,14 +5,18 @@ from typing import List
 import requests
 
 from .characterfactory import CharacterFactory, Character
+from .extractor import Extractor
 
 
-class MathExtractor(object):
+class MathExtractor(Extractor):
+    __char_factory: CharacterFactory
+    __characters: List[Character]
 
     def __init__(self, character_factory: CharacterFactory):
         self.__char_factory = character_factory
+        self.__characters = []
 
-    def fetch_math_symbols(self: 'MathExtractor') -> List[Character]:
+    def __fetch_math_symbols(self) -> List[Character]:
         print('Downloading list of maths symbols...')
 
         data = requests.get(
@@ -24,23 +28,24 @@ class MathExtractor(object):
         for line in data.text.split('\n'):
             if line and not line.startswith('#'):
                 fields = line.split(';')
-                symbols = self.resolve_character_range(fields[0].strip())
+                symbols = self.__resolve_character_range(fields[0].strip())
                 for symbol in symbols:
                     characters.append(self.__char_factory.get_character(symbol))
 
-        return characters
+        self.__characters = characters
 
-    def resolve_character_range(self, line: str) -> List[int]:
+    def __resolve_character_range(self, line: str) -> List[int]:
         try:
             (start, end) = line.split('..')
             return list(range(int(start, 16), int(end, 16) + 1))
         except ValueError:
             return [int(line, 16)]
 
-    def write_file(self: 'MathExtractor', symbols: List[Character]):
-        with (Path(__file__).parent.parent / 'picker' / 'data' / 'math.csv').open('w') as symbol_file:
-            for character in symbols:
+    def __write_file(self, target: Path):
+        with (target / 'math.csv').open('w') as symbol_file:
+            for character in self.__characters:
                 symbol_file.write(f"{character.char} {html.escape(character.name)}\n")
 
-    def extract(self):
-        self.write_file(self.fetch_math_symbols())
+    def extract_to(self, target: Path):
+        self.__fetch_math_symbols()
+        self.__write_file(target)

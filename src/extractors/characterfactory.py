@@ -1,11 +1,11 @@
 from typing import Union
-
-import requests
 from unicodedata import bidirectional
 
+import requests
 
-class Character(object):
-    ltr_mark = '\u200e'
+
+class Character:
+    ltr_mark: str = '\u200e'
 
     def __init__(self, char: int, name: str, bidi_class: str = None):
         self.char = chr(char)
@@ -19,12 +19,12 @@ class Character(object):
         return f'{self.ltr_mark if self.force_ltr else ""}{self.char}'
 
 
-class CharacterFactory(object):
-    def __init__(self: 'CharacterFactory'):
+class CharacterFactory:
+    def __init__(self):
         self.__characters = {}
         self.__fetch_characters()
 
-    def __fetch_characters(self: 'CharacterFactory') -> None:
+    def __fetch_characters(self) -> None:
         INDEX_CODEPOINT = 0
         INDEX_NAME = 1
         INDEX_CATEGORY = 2
@@ -50,5 +50,5 @@ class CharacterFactory(object):
                 )
                 self.__characters[character.char] = character
 
-    def get_character(self: 'CharacterFactory', char: int) -> Union[Character, None]:
+    def get_character(self, char: int) -> Union[Character, None]:
         return self.__characters.get(chr(char))

@@ -8,17 +8,27 @@ from bs4 import BeautifulSoup
 from lxml import etree
 from lxml.etree import XPath
 
+from .extractor import Extractor
+
 Emoji = namedtuple('Emoji', 'char name')
 
 
-class EmojiExtractor(object):
+class EmojiExtractor(Extractor):
+    __all_emojis: List[Emoji]
+    __annotations: Dict[chr, List[str]]
+    __base_emojis: List[chr]
 
     def __init__(self):
-        self.all_emojis = self.fetch_emoji_list()
-        self.annotations = self.fetch_annotations()
-        self.base_emojis = self.fetch_base_emojis()
+        self.__all_emojis = []
+        self.__annotations = {}
+        self.__base_emojis = []
 
-    def fetch_emoji_list(self: 'EmojiExtractor') -> List[Emoji]:
+    def __fetch_data(self):
+        self.__all_emojis = self.__fetch_emoji_list()
+        self.__annotations = self.__fetch_annotations()
+        self.__base_emojis = self.__fetch_base_emojis()
+
+    def __fetch_emoji_list(self) -> List[Emoji]:
         print('Downloading list of all emojis')
 
         data = requests.get(
@@ -37,7 +47,7 @@ class EmojiExtractor(object):
 
         return emojis
 
-    def fetch_annotations(self: 'EmojiExtractor') -> Dict[chr, List[str]]:
+    def __fetch_annotations(self) -> Dict[chr, List[str]]:
         print('Downloading annotations')
 
         data = requests.get(
@@ -49,7 +59,7 @@ class EmojiExtractor(object):
         return {element.get('cp'): element.text.split(' | ')
                 for element in xpath(etree.fromstring(data.content))}
 
-    def fetch_base_emojis(self: 'EmojiExtractor') -> List[chr]:
+    def __fetch_base_emojis(self) -> List[chr]:
         print('Downloading list of human emojis...')
 
         data = requests.get(
@@ -66,42 +76,43 @@ class EmojiExtractor(object):
             if line == '# Total elements: 132':
                 break
             if line and not line.startswith('#'):
-                emojis.extend(self.resolve_character_range(line.split(';')[0].strip()))
+                emojis.extend(self.__resolve_character_range(line.split(';')[0].strip()))
 
         return emojis
 
-    def resolve_character_range(self, line: str) -> List[str]:
+    def __resolve_character_range(self, line: str) -> List[str]:
         try:
             (start, end) = line.split('..')
             return [chr(char) for char in range(int(start, 16), int(end, 16) + 1)]
         except ValueError:
-            return [self.resolve_character(line)]
+            return [self.__resolve_character(line)]
 
-    def resolve_character(self, string: str) -> str:
+    def __resolve_character(self, string: str) -> str:
         return "".join(chr(int(character, 16)) for character in string.split(' '))
 
-    def write_symbol_file(self: 'EmojiExtractor'):
+    def __write_symbol_file(self, target: Path):
         print('Writing collected emojis to symbol file')
-        with (Path(__file__).parent.parent / 'picker' / 'data' / 'emojis.csv').open('w') as symbol_file:
-            for entry in self.compile_entries(self.all_emojis):
+        with (target  / 'emojis.csv').open('w') as symbol_file:
+            for entry in self.__compile_entries(self.__all_emojis):
                 symbol_file.write(entry + "\n")
 
-    def compile_entries(self: 'EmojiExtractor', emojis: List[Emoji]) -> List[str]:
+    def __compile_entries(self, emojis: List[Emoji]) -> List[str]:
         annotated_emojis = []
         for emoji in emojis:
             entry = f"{emoji.char} {html.escape(emoji.name)}"
-            if emoji.char in self.annotations:
-                entry += f" <small>({html.escape(', '.join([annotation for annotation in self.annotations[emoji.char] if annotation != emoji.name]))})</small>"
+            if emoji.char in self.__annotations:
+                entry += f" <small>({html.escape(', '.join([annotation for annotation in self.__annotations[emoji.char] if annotation != emoji.name]))})</small>"
             annotated_emojis.append(entry)
         return annotated_emojis
 
-    def write_metadata_file(self: 'EmojiExtractor'):
+    def __write_metadata_file(self, target: Path):
         print('Writing metadata to metadata file')
-        with (Path(__file__).parent.parent / 'picker' / 'copyme.py').open('w') as metadata_file:
+        with (target / 'copyme.py').open('w') as metadata_file:
             metadata_file.write('skin_tone_selectable_emojis={\'')
-            metadata_file.write('\', \''.join(self.base_emojis))
+            metadata_file.write('\', \''.join(self.__base_emojis))
             metadata_file.write('\'}\n')
 
-    def extract(self: 'EmojiExtractor'):
-        self.write_symbol_file()
-        self.write_metadata_file()
+    def extract_to(self, target: Path):
+        self.__fetch_data()
+        self.__write_symbol_file(target)
+        self.__write_metadata_file(target)

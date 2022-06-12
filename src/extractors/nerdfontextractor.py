@@ -1,17 +1,21 @@
 import html
 from pathlib import Path
+from typing import List
 
 import requests
 from bs4 import BeautifulSoup
 
 from .characterfactory import Character
+from .extractor import Extractor
 
 
-class NerdExtractor(object):
-    def __init__(self: 'NerdExtractor'):
-        self.icons = []
+class NerdFontExtractor(Extractor):
+    __icons: List[Character]
 
-    def fetch_icons(self: 'NerdExtractor'):
+    def __init__(self):
+        self.__icons = []
+
+    def __fetch_icons(self):
         print('Downloading list of Nerd Font icons')
 
         response = requests.get(
@@ -23,20 +27,16 @@ class NerdExtractor(object):
         for c in characters:
             icon = int(c.find(class_='codepoint').string, 16)
             name = c.find(class_='class-name').string
-            self.icons.append(Character(icon, name))
+            self.__icons.append(Character(icon, name))
 
-    def write_to_file(self: 'NerdExtractor'):
-        if len(self.icons) == 0:
+    def __write_to_file(self, target: Path):
+        if len(self.__icons) == 0:
             return
 
-        with (Path(__file__).parent.parent / 'picker' / 'data' / 'nerd_font.csv').open('w') as symbol_file:
-            for icon in self.icons:
+        with (target / 'nerd_font.csv').open('w') as symbol_file:
+            for icon in self.__icons:
                 symbol_file.write(f"{icon.directional_char} {html.escape(icon.name.lower())}\n")
 
-    def extract(self: 'NerdExtractor'):
-        self.fetch_icons()
-        self.write_to_file()
-
-
-if __name__ == '__main__':
-    NerdExtractor().extract()
+    def extract_to(self, target: Path):
+        self.__fetch_icons()
+        self.__write_to_file(target)

@@ -1,16 +1,20 @@
 import html
 from pathlib import Path
+from typing import List
 
 import requests
 
 from .characterfactory import Character
+from .extractor import Extractor
 
 
-class GitmojiExtractor(object):
-    def __init__(self: 'GitmojiExtractor'):
-        self.icons = []
+class GitmojiExtractor(Extractor):
+    __icons: List[Character]
 
-    def fetch_icons(self: 'GitmojiExtractor'):
+    def __init__(self):
+        self.__icons = []
+
+    def __fetch_icons(self: 'GitmojiExtractor'):
         print("Downloading list of gitmojis")
 
         response = requests.get(
@@ -30,18 +34,14 @@ class GitmojiExtractor(object):
         for char in response.json()["gitmojis"]:
             icon = ord(char["emoji"][0])
             name = char["description"]
-            self.icons.append(Character(icon, name))
+            self.__icons.append(Character(icon, name))
 
-    def write_to_file(self: 'GitmojiExtractor'):
-        with (Path(__file__).parent.parent / 'picker' / 'data' / 'gitmoji.csv').open('w') as symbol_file:
-            for icon in self.icons:
+    def __write_to_file(self, target: Path):
+        with (target / 'gitmoji.csv').open('w') as symbol_file:
+            for icon in self.__icons:
                 symbol_file.write(
                     f"{icon.directional_char} {html.escape(icon.name.lower())}\n")
 
-    def extract(self: 'GitmojiExtractor'):
-        self.fetch_icons()
-        self.write_to_file()
-
-
-if __name__ == '__main__':
-    GitmojiExtractor().extract()
+    def extract_to(self, target: Path):
+        self.__fetch_icons()
+        self.__write_to_file()

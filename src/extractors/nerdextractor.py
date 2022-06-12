@@ -4,7 +4,7 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
-from characterfactory import Character
+from .characterfactory import Character
 
 
 class NerdExtractor(object):
@@ -29,7 +29,7 @@ class NerdExtractor(object):
         if len(self.icons) == 0:
             return
 
-        with Path("../picker/data/nerd_font.csv").open('w') as symbol_file:
+        with (Path(__file__).parent.parent / 'picker' / 'data' / 'nerd_font.csv').open('w') as symbol_file:
             for icon in self.icons:
                 symbol_file.write(f"{icon.directional_char} {html.escape(icon.name.lower())}\n")
 

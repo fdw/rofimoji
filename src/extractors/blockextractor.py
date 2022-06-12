@@ -3,8 +3,8 @@ from pathlib import Path
 
 import requests
 
-from blockfactory import BlockFactory
-from characterfactory import CharacterFactory
+from .blockfactory import BlockFactory
+from .characterfactory import CharacterFactory
 
 
 class BlockExtractor(object):
@@ -34,7 +34,7 @@ class BlockExtractor(object):
             if not block.characters:
                 continue
 
-            with Path(f"../picker/data/{block.name.lower().replace(' ', '_')}.csv").open('w') as symbol_file:
+            with (Path(__file__).parent.parent / 'picker' / 'data' / f'{block.name.lower().replace(" ", "_")}.csv').open('w') as symbol_file:
                 for character in block.characters:
                     symbol_file.write(f'{character.directional_char} {html.escape(character.name)}\n')
 

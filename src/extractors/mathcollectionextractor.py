@@ -4,7 +4,7 @@ from typing import List
 
 import requests
 
-from characterfactory import CharacterFactory, Character
+from .characterfactory import CharacterFactory, Character
 
 
 class MathExtractor(object):
@@ -38,7 +38,7 @@ class MathExtractor(object):
             return [int(line, 16)]
 
     def write_file(self: 'MathExtractor', symbols: List[Character]):
-        with Path("../picker/data/math.csv").open('w') as symbol_file:
+        with (Path(__file__).parent.parent / 'picker' / 'data' / 'math.csv').open('w') as symbol_file:
             for character in symbols:
                 symbol_file.write(f"{character.char} {html.escape(character.name)}\n")
 

@@ -82,7 +82,7 @@ class EmojiExtractor(object):
 
     def write_symbol_file(self: 'EmojiExtractor'):
         print('Writing collected emojis to symbol file')
-        with Path('../picker/data/emojis.csv').open('w') as symbol_file:
+        with (Path(__file__).parent.parent / 'picker' / 'data' / 'emojis.csv').open('w') as symbol_file:
             for entry in self.compile_entries(self.all_emojis):
                 symbol_file.write(entry + "\n")
 
@@ -97,7 +97,7 @@ class EmojiExtractor(object):
 
     def write_metadata_file(self: 'EmojiExtractor'):
         print('Writing metadata to metadata file')
-        with Path('../picker/copyme.py').open('w') as metadata_file:
+        with (Path(__file__).parent.parent / 'picker' / 'copyme.py').open('w') as metadata_file:
             metadata_file.write('skin_tone_selectable_emojis={\'')
             metadata_file.write('\', \''.join(self.base_emojis))
             metadata_file.write('\'}\n')

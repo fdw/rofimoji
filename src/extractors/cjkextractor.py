@@ -7,7 +7,7 @@ from typing import Dict, List
 
 import requests
 
-from characterfactory import Character
+from .characterfactory import Character
 
 
 class CjkExtractor(object):
@@ -45,7 +45,7 @@ class CjkExtractor(object):
         return characters
 
     def write_to_file(self: 'CjkExtractor', language: str, characters: List[Character]):
-        with Path(f"../picker/data/cjk_{language.lower()}.csv").open('w') as symbol_file:
+        with (Path(__file__).parent.parent / 'picker' / 'data' / f'cjk_{language.lower()}.csv').open('w') as symbol_file:
             for character in characters:
                 symbol_file.write(f'{character.directional_char} {html.escape(character.name)}\n')
 

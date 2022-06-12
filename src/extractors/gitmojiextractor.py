@@ -3,7 +3,7 @@ from pathlib import Path
 
 import requests
 
-from characterfactory import Character
+from .characterfactory import Character
 
 
 class GitmojiExtractor(object):
@@ -33,7 +33,7 @@ class GitmojiExtractor(object):
             self.icons.append(Character(icon, name))
 
     def write_to_file(self: 'GitmojiExtractor'):
-        with Path("../picker/data/gitmoji.csv").open('w') as symbol_file:
+        with (Path(__file__).parent.parent / 'picker' / 'data' / 'gitmoji.csv').open('w') as symbol_file:
             for icon in self.icons:
                 symbol_file.write(
                     f"{icon.directional_char} {html.escape(icon.name.lower())}\n")

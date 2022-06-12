@@ -30,8 +30,6 @@ class CharacterFactory:
         INDEX_CATEGORY = 2
         INDEX_BIDI_CLASS = 4
 
-        print('Downloading the character\'s names')
-
         response = requests.get(
             'https://unicode.org/Public/UNIDATA/UnicodeData.txt',
             timeout=60

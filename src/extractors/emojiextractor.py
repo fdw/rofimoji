@@ -7,6 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 from lxml import etree
 from lxml.etree import XPath
+from tqdm import tqdm
 
 from .extractor import Extractor
 
@@ -24,13 +25,20 @@ class EmojiExtractor(Extractor):
         self.__base_emojis = []
 
     def __fetch_data(self):
-        self.__all_emojis = self.__fetch_emoji_list()
-        self.__annotations = self.__fetch_annotations()
-        self.__base_emojis = self.__fetch_base_emojis()
+        with tqdm(total=3) as progress:
+            progress.set_description('Downloading list of all emojis')
+            self.__all_emojis = self.__fetch_emoji_list()
+            progress.update(1)
+
+            progress.set_description('Downloading annotations')
+            self.__annotations = self.__fetch_annotations()
+            progress.update(1)
+
+            progress.set_description('Downloading list of human emojis')
+            self.__base_emojis = self.__fetch_base_emojis()
+            progress.update(1)
 
     def __fetch_emoji_list(self) -> List[Emoji]:
-        print('Downloading list of all emojis')
-
         data = requests.get(
             'https://unicode.org/emoji/charts-14.0/full-emoji-list.html',
             timeout=120
@@ -48,8 +56,6 @@ class EmojiExtractor(Extractor):
         return emojis
 
     def __fetch_annotations(self) -> Dict[chr, List[str]]:
-        print('Downloading annotations')
-
         data = requests.get(
             'https://raw.githubusercontent.com/unicode-org/cldr/latest/common/annotations/en.xml',
             timeout=60
@@ -60,8 +66,6 @@ class EmojiExtractor(Extractor):
                 for element in xpath(etree.fromstring(data.content))}
 
     def __fetch_base_emojis(self) -> List[chr]:
-        print('Downloading list of human emojis...')
-
         data = requests.get(
             'https://unicode.org/Public/14.0.0/ucd/emoji/emoji-data.txt',
             timeout=60
@@ -91,7 +95,6 @@ class EmojiExtractor(Extractor):
         return "".join(chr(int(character, 16)) for character in string.split(' '))
 
     def __write_symbol_file(self, target: Path):
-        print('Writing collected emojis to symbol file')
         with (target  / 'emojis.csv').open('w') as symbol_file:
             for entry in self.__compile_entries(self.__all_emojis):
                 symbol_file.write(entry + "\n")
@@ -106,7 +109,6 @@ class EmojiExtractor(Extractor):
         return annotated_emojis
 
     def __write_metadata_file(self, target: Path):
-        print('Writing metadata to metadata file')
         with (target / 'copyme.py').open('w') as metadata_file:
             metadata_file.write('skin_tone_selectable_emojis={\'')
             metadata_file.write('\', \''.join(self.__base_emojis))

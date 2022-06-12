@@ -15,8 +15,6 @@ class BlockExtractor(Extractor):
         self.__block_factory = BlockFactory(character_factory)
 
     def __fetch_blocks(self):
-        print('Downloading list of all blocks')
-
         response = requests.get(
             'https://www.unicode.org/Public/14.0.0/ucd/Blocks.txt',
             timeout=60

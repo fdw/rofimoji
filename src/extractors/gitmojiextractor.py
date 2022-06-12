@@ -15,8 +15,6 @@ class GitmojiExtractor(Extractor):
         self.__icons = []
 
     def __fetch_icons(self: 'GitmojiExtractor'):
-        print("Downloading list of gitmojis")
-
         response = requests.get(
             "https://raw.githubusercontent.com/carloscuesta/gitmoji/master/src/data/gitmojis.json",
             timeout=60

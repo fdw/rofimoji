@@ -17,8 +17,6 @@ class MathExtractor(Extractor):
         self.__characters = []
 
     def __fetch_math_symbols(self) -> List[Character]:
-        print('Downloading list of maths symbols...')
-
         data = requests.get(
             'https://unicode.org/Public/math/latest/MathClassEx-15.txt',
             timeout=60

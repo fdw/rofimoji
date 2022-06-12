@@ -16,8 +16,6 @@ class NerdFontExtractor(Extractor):
         self.__icons = []
 
     def __fetch_icons(self):
-        print('Downloading list of Nerd Font icons')
-
         response = requests.get(
             'https://www.nerdfonts.com/cheat-sheet',
             timeout=60

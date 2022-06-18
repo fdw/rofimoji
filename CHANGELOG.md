@@ -1,3 +1,7 @@
+# [6.0.0]
+## Changed
+- `rofimoji` uses [Poetry](https://python-poetry.org/) for package management. With this comes the requirement for Python 3.8.
+
 # [5.6.0]
 ## Changed
 - Remove the unexpected and distracting empty checkboxes from rofi. (#127, #125)

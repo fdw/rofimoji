@@ -1,6 +1,33 @@
-[build-system]
-requires = [
-    "setuptools>=47",
-    "wheel"
+[tool.poetry]
+name = "rofimoji"
+version = "6.0.0.dev"
+description = "Simple character picker using rofi"
+authors = ["Fabian Winter <5821180+fdw@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/fdw/rofimoji"
+repository = "https://github.com/fdw/rofimoji"
+packages =[
+    { include = "picker", from = "src" }
 ]
-build-backend = "setuptools.build_meta"
+include = [
+    "src/picker/data/*.csv",
+    "src/picker/docs/rofimoji.1"
+]
+
+[tool.poetry.scripts]
+rofimoji = 'picker.__main__:main'
+
+[tool.poetry.dependencies]
+python = "^3.8"
+ConfigArgParse = ">0.15,<2.0.0"
+
+[tool.poetry.dev-dependencies]
+beautifulsoup4 = "^4.11.1"
+lxml = "^4.9.0"
+requests = "^2.28.0"
+tqdm = "^4.64.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

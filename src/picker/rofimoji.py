@@ -9,13 +9,12 @@ from typing import List, Tuple, Dict, Union
 
 import configargparse
 
+from . import __version__
 from .clipboarder import Clipboarder
 from .models import Action, CANCEL, DEFAULT, Shortcut
 from .paths import *
 from .selector import Selector
 from .typer import Typer
-
-__version__ = '5.6.0'
 
 
 class Rofimoji:
@@ -323,7 +322,8 @@ class Rofimoji:
             if self.args.use_additional and provided_additional_file.is_file():
                 resolved_file_names.append(provided_additional_file)
         elif file_name == 'all':
-            nested_file_names = [self.resolve_file(file.stem) for file in (Path(__file__).parent / "data").glob("*.csv")]
+            nested_file_names = [self.resolve_file(file.stem) for file in
+                                 (Path(__file__).parent / "data").glob("*.csv")]
             resolved_file_names += [file_name for file_names in nested_file_names for file_name in file_names]
         else:
             raise FileNotFoundError(f"Couldn't find file {file_name!r}")
@@ -493,5 +493,3 @@ class Rofimoji:
         cache = cache_file_location.read_text().split('\n')
         self.args.actions = [Action(a) for a in cache[0].strip().split(",")]
         return cache[1], cache[2]
-
-

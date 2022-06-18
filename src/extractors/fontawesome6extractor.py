@@ -1,4 +1,3 @@
-import html
 from pathlib import Path
 from typing import List
 
@@ -14,7 +13,7 @@ class FontAwesome6Extractor(Extractor):
     def __init__(self):
         self.__icons = []
 
-    def __fetch_icons(self: 'FontAwesome6Extractor'):
+    def __fetch_icons(self) -> None:
         response = requests.get(
             'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/metadata/icons.json',
             timeout=60
@@ -31,20 +30,16 @@ class FontAwesome6Extractor(Extractor):
                 pass
             self.__icons.append(char)
 
-    def __write_to_file(self, target: Path):
+    def __write_to_file(self, target: Path) -> None:
         if len(self.__icons) == 0:
             return
 
         with (target / 'fontawesome6.csv').open('w') as symbol_file:
             for icon in self.__icons:
-                line=f'{icon.directional_char} {html.escape(icon.name.lower())}'
-                if len(icon.aliases) > 0:
-                    line += f" <small>({', '.join(icon.aliases)})</small>\n"
-                else:
-                    line += '\n'
+                aliases = f" <small>({', '.join(icon.aliases)})</small>"
+                line = f'{icon.directional_char} {icon.lower_case_name}{aliases if icon.aliases else ""}\n'
                 symbol_file.write(line)
 
-
-    def extract_to(self, target: Path):
+    def extract_to(self, target: Path) -> None:
         self.__fetch_icons()
         self.__write_to_file(target)

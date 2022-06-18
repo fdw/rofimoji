@@ -16,7 +16,7 @@ class MathExtractor(Extractor):
         self.__char_factory = character_factory
         self.__characters = []
 
-    def __fetch_math_symbols(self) -> List[Character]:
+    def __fetch_math_symbols(self) -> None:
         data = requests.get(
             'https://unicode.org/Public/math/latest/MathClassEx-15.txt',
             timeout=60
@@ -39,11 +39,11 @@ class MathExtractor(Extractor):
         except ValueError:
             return [int(line, 16)]
 
-    def __write_file(self, target: Path):
+    def __write_file(self, target: Path) -> None:
         with (target / 'math.csv').open('w') as symbol_file:
             for character in self.__characters:
-                symbol_file.write(f"{character.char} {html.escape(character.name)}\n")
+                symbol_file.write(f"{character.char} {character.title_case_name}\n")
 
-    def extract_to(self, target: Path):
+    def extract_to(self, target: Path) -> None:
         self.__fetch_math_symbols()
         self.__write_file(target)

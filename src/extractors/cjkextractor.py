@@ -1,4 +1,3 @@
-import html
 import io
 import re
 import zipfile
@@ -17,7 +16,7 @@ class CjkExtractor(Extractor):
     def __init__(self):
         self.__characters = {}
 
-    def __fetch_characters(self) -> Dict[str, List[Character]]:
+    def __fetch_characters(self) -> None:
         INDEX_CODEPOINT = 0
         INDEX_LANGUAGE = 1
         INDEX_DESCRIPTION = 2
@@ -47,13 +46,13 @@ class CjkExtractor(Extractor):
 
         self.__characters = characters
 
-    def __write_to_file(self, target: Path, language: str, characters: List[Character]):
+    def __write_to_file(self, target: Path, language: str, characters: List[Character]) -> None:
         filename = f'cjk_{re.sub(r"(?!^)(?=[A-Z])", "_", language).lower()}.csv'
         with (target / filename).open('w') as symbol_file:
             for character in characters:
-                symbol_file.write(f'{character.directional_char} {html.escape(character.name)}\n')
+                symbol_file.write(f'{character.directional_char} {character.title_case_name}\n')
 
-    def extract_to(self, target: Path):
+    def extract_to(self, target: Path) -> None:
         self.__fetch_characters()
         for language in ('Cantonese', 'Mandarin', 'Vietnamese', 'Tang', 'JapaneseKun', 'JapaneseOn', 'Korean'):
             self.__write_to_file(target, language, self.__characters[language])

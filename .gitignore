@@ -8,4 +8,4 @@ emoji-picker.iml
 rofimoji.egg-info
 dist
 build
-picker/data/copyme.py
+src/picker/data/copyme.py

@@ -15,7 +15,7 @@ class NerdFontExtractor(Extractor):
     def __init__(self):
         self.__icons = []
 
-    def __fetch_icons(self):
+    def __fetch_icons(self) -> None:
         response = requests.get(
             'https://www.nerdfonts.com/cheat-sheet',
             timeout=60
@@ -27,14 +27,14 @@ class NerdFontExtractor(Extractor):
             name = c.find(class_='class-name').string
             self.__icons.append(Character(icon, name))
 
-    def __write_to_file(self, target: Path):
+    def __write_to_file(self, target: Path) -> None:
         if len(self.__icons) == 0:
             return
 
         with (target / 'nerd_font.csv').open('w') as symbol_file:
             for icon in self.__icons:
-                symbol_file.write(f"{icon.directional_char} {html.escape(icon.name.lower())}\n")
+                symbol_file.write(f"{icon.directional_char} {icon.lower_case_name}\n")
 
-    def extract_to(self, target: Path):
+    def extract_to(self, target: Path) -> None:
         self.__fetch_icons()
         self.__write_to_file(target)

@@ -24,7 +24,7 @@ class EmojiExtractor(Extractor):
         self.__annotations = {}
         self.__base_emojis = []
 
-    def __fetch_data(self):
+    def __fetch_data(self) -> None:
         with tqdm(total=3) as progress:
             progress.set_description('Downloading list of all emojis')
             self.__all_emojis = self.__fetch_emoji_list()
@@ -94,8 +94,8 @@ class EmojiExtractor(Extractor):
     def __resolve_character(self, string: str) -> str:
         return "".join(chr(int(character, 16)) for character in string.split(' '))
 
-    def __write_symbol_file(self, target: Path):
-        with (target  / 'emojis.csv').open('w') as symbol_file:
+    def __write_symbol_file(self, target: Path) -> None:
+        with (target / 'emojis.csv').open('w') as symbol_file:
             for entry in self.__compile_entries(self.__all_emojis):
                 symbol_file.write(entry + "\n")
 
@@ -108,13 +108,13 @@ class EmojiExtractor(Extractor):
             annotated_emojis.append(entry)
         return annotated_emojis
 
-    def __write_metadata_file(self, target: Path):
+    def __write_metadata_file(self, target: Path) -> None:
         with (target / 'copyme.py').open('w') as metadata_file:
             metadata_file.write('skin_tone_selectable_emojis={\'')
             metadata_file.write('\', \''.join(self.__base_emojis))
             metadata_file.write('\'}\n')
 
-    def extract_to(self, target: Path):
+    def extract_to(self, target: Path) -> None:
         self.__fetch_data()
         self.__write_symbol_file(target)
         self.__write_metadata_file(target)

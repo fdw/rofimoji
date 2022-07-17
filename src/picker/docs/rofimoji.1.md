@@ -1,6 +1,6 @@
-% ROFIMOJI(1) Version 5.0.0 | Rofi Third-party Add-on Documentation
+% ROFIMOJI(1) Version 5.5.0 | Rofi Third-party Add-on Documentation
 % Fabian Winter
-% February 20, 2021
+% July 17, 2022
 
 # NAME
 
@@ -114,6 +114,10 @@ Please note that wofi does not support keybindings other than *enter*.
 *~/.local/share/rofimoji/recent*
 
 :   Stores the recently used characters
+
+*~/.local/share/rofimoji/data/**filename**.additional.csv*
+
+:   Contains additional characters or additional descriptions for the character set in **filename**
 
 # CONFIGURATION
 

@@ -1,6 +1,6 @@
-# [NEXT]
+# [5.5.0]
 ## Added
-- Gitmoji are now also included by default. (#114)
+- Gitmoji and Font Awesome 6 are now also included. (#114, #121)
 
 ## Fixed
 - Choosing whitespace does not break `rofimoji` anymore. (#117)

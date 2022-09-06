@@ -30,7 +30,8 @@ class Selector:
             recent_characters: str,
             prompt: str,
             keybindings: Dict[Action, str],
-            additional_args: List[str]
+            additional_args: List[str],
+            multi_select: bool
     ) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[str, Shortcut]]:
         print('Could not find a valid way to show the selection. Please check the required dependencies.')
         exit(4)
@@ -55,14 +56,15 @@ class Rofi(Selector):
             recent_characters: str,
             prompt: str,
             keybindings: Dict[Action, str],
-            additional_args: List[str]
+            additional_args: List[str],
+            multi_select: bool
     ) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[str, Shortcut]]:
         parameters = [
             'rofi',
             '-dmenu',
             '-markup-rows',
             '-i',
-            '-multi-select',
+            '-multi-select' if multi_select else '',
             '-p',
             prompt,
             '-kb-custom-11',
@@ -139,7 +141,8 @@ class Wofi(Selector):
             recent_characters: str,
             prompt: str,
             keybindings: Dict[Action, str],
-            additional_args: List[str]
+            additional_args: List[str],
+            multi_select: bool
     ) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[str, Shortcut]]:
         parameters = [
             'wofi',

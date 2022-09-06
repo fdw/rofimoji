@@ -12,7 +12,7 @@
 | **rofimoji** \[**-h**] \[**\--version**] \[**\--action** {*type*,*copy*,*clipboard*,*unicode*,*copy-unicode*,*print*}]
          \[**\--skin-tone** {*neutral*,*light*,*medium-light*,*moderate*,*dark brown*,*black*,*ask*}]
          \[**\--files** {*all*,*FILE* \[*FILE* ...]]} \[**\--prompt** *PROMPT*]
-         \[**\--selector-args** *SELECTOR_ARGS*] \[**\--max-recent** *MAX_RECENT*] \[**\--no-frecency**]
+         \[**\--selector-args** *SELECTOR_ARGS*] \[**\--max-recent** *MAX_RECENT*] \[**\--no-frecency**] \[**\--single**]
          \[**\--clipboarder** *CLIPBOARDER*] \[**\--typer** *TYPER*] \[**\--selector** *SELECTOR*]
 
 # DESCRIPTION
@@ -63,6 +63,10 @@ Select, insert, or copy Unicode characters like emoji using rofi.
 \--no-frecency
 
 :  Don't show frequently used characters at the start.
+
+\--single
+
+:  Disable multiple emoji selection.
 
 \--clipboarder _CLIPBOARDER_
 

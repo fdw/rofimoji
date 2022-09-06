@@ -122,6 +122,13 @@ class Rofimoji:
         )
         parser.set_defaults(frecency=True)
         parser.add_argument(
+            '--single',
+            dest='multi_select',
+            action='store_false',
+            help='Disable multiple emoji selection'
+        )
+        parser.set_defaults(multi_select=True)
+        parser.add_argument(
             '--selector',
             dest='selector',
             action='store',
@@ -351,7 +358,8 @@ class Rofimoji:
             self.format_recent_characters(),
             self.args.prompt,
             self.args.keybindings,
-            self.args.selector_args
+            self.args.selector_args,
+            self.args.multi_select
         )
 
     def process_chosen_characters(self, chosen_characters: List[str]) -> str:

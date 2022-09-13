@@ -63,6 +63,8 @@ class Rofi(Selector):
             '-markup-rows',
             '-i',
             '-multi-select',
+            '-ballot-unselected-str',
+            '',
             '-p',
             prompt,
             '-kb-custom-11',

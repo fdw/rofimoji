@@ -1,3 +1,7 @@
+# [5.6.0]
+## Changed
+- Remove the unexpected and distracting empty checkboxes from rofi. (#127, #125)
+
 # [5.5.0]
 ## Added
 - Gitmoji and Font Awesome 6 are now also included. (#114, #121)

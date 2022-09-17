@@ -15,7 +15,7 @@ from .paths import *
 from .selector import Selector
 from .typer import Typer
 
-__version__ = '5.5.0'
+__version__ = '5.6.0'
 
 
 class Rofimoji:

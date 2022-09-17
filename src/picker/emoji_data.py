@@ -131,6 +131,8 @@ skin_tone_selectable_emojis = {
     "🫴",
     "🫵",
     "🫶",
+    "🫷",
+    "🫸",
 }
 
 fitzpatrick_modifiers = {

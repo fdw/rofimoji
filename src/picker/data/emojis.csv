@@ -47,6 +47,7 @@
 😬 grimacing face <small>(face, grimace)</small>
 😮‍💨 face exhaling
 🤥 lying face <small>(face, lie, pinocchio)</small>
+🫨 shaking face
 😌 relieved face <small>(face, relieved)</small>
 😔 pensive face <small>(dejected, face, pensive)</small>
 😪 sleepy face <small>(face, sleep)</small>
@@ -97,7 +98,7 @@
 😫 tired face <small>(face, tired)</small>
 🥱 yawning face <small>(bored, tired, yawn)</small>
 😤 face with steam from nose <small>(face, triumph, won)</small>
-😡 pouting face <small>(angry, face, mad, pouting, rage, red)</small>
+😡 enraged face <small>(angry, face, mad, pouting, rage, red)</small>
 😠 angry face <small>(angry, face, mad)</small>
 🤬 face with symbols on mouth <small>(swearing)</small>
 😈 smiling face with horns <small>(face, fairy tale, fantasy, horns, smile)</small>
@@ -124,7 +125,6 @@
 🙈 see-no-evil monkey <small>(evil, face, forbidden, monkey, see)</small>
 🙉 hear-no-evil monkey <small>(evil, face, forbidden, hear, monkey)</small>
 🙊 speak-no-evil monkey <small>(evil, face, forbidden, monkey, speak)</small>
-💋 kiss mark <small>(kiss, lips)</small>
 💌 love letter <small>(heart, letter, love, mail)</small>
 💘 heart with arrow <small>(arrow, cupid)</small>
 💝 heart with ribbon <small>(ribbon, valentine)</small>
@@ -139,14 +139,18 @@
 ❤️‍🔥 heart on fire
 ❤️‍🩹 mending heart
 ❤ red heart <small>(heart)</small>
+🩷 pink heart
 🧡 orange heart <small>(orange)</small>
 💛 yellow heart <small>(yellow)</small>
 💚 green heart <small>(green)</small>
 💙 blue heart <small>(blue)</small>
+🩵 light blue heart
 💜 purple heart <small>(purple)</small>
 🤎 brown heart <small>(brown, heart)</small>
 🖤 black heart <small>(black, evil, wicked)</small>
+🩶 grey heart
 🤍 white heart <small>(heart, white)</small>
+💋 kiss mark <small>(kiss, lips)</small>
 💯 hundred points <small>(100, full, hundred, score)</small>
 💢 anger symbol <small>(angry, comic, mad)</small>
 💥 collision <small>(boom, comic)</small>
@@ -154,13 +158,12 @@
 💦 sweat droplets <small>(comic, splashing, sweat)</small>
 💨 dashing away <small>(comic, dash, running)</small>
 🕳 hole <small>()</small>
-💣 bomb <small>(comic)</small>
 💬 speech balloon <small>(balloon, bubble, comic, dialog, speech)</small>
 👁️‍🗨️ eye in speech bubble
 🗨 left speech bubble <small>(dialog, speech)</small>
 🗯 right anger bubble <small>(angry, balloon, bubble, mad)</small>
 💭 thought balloon <small>(balloon, bubble, comic, thought)</small>
-💤 zzz <small>(comic, sleep)</small>
+💤 ZZZ <small>(comic, sleep, zzz)</small>
 👋 waving hand <small>(hand, wave, waving)</small>
 🤚 raised back of hand <small>(backhand, raised)</small>
 🖐 hand with fingers splayed <small>(finger, hand, splayed)</small>
@@ -170,6 +173,8 @@
 🫲 leftwards hand
 🫳 palm down hand
 🫴 palm up hand
+🫷 leftwards pushing hand
+🫸 rightwards pushing hand
 👌 OK hand <small>(hand, OK)</small>
 🤌 pinched fingers <small>(fingers, hand gesture, interrogation, pinched, sarcastic)</small>
 🤏 pinching hand <small>(small amount)</small>
@@ -546,6 +551,8 @@
 🐅 tiger <small>()</small>
 🐆 leopard <small>()</small>
 🐴 horse face <small>(face, horse)</small>
+🫎 moose
+🫏 donkey
 🐎 horse <small>(equestrian, racehorse, racing)</small>
 🦄 unicorn <small>(face)</small>
 🦓 zebra <small>(stripe)</small>
@@ -608,6 +615,9 @@
 🦩 flamingo <small>(flamboyant, tropical)</small>
 🦚 peacock <small>(bird, ostentatious, peahen, proud)</small>
 🦜 parrot <small>(bird, pirate, talk)</small>
+🪽 wing
+🐦‍⬛ black bird
+🪿 goose
 🐸 frog <small>(face)</small>
 🐊 crocodile <small>()</small>
 🐢 turtle <small>(terrapin, tortoise)</small>
@@ -628,6 +638,7 @@
 🐙 octopus <small>()</small>
 🐚 spiral shell <small>(shell, spiral)</small>
 🪸 coral
+🪼 jellyfish
 🐌 snail <small>()</small>
 🦋 butterfly <small>(insect, pretty)</small>
 🐛 bug <small>(insect)</small>
@@ -655,6 +666,7 @@
 🌻 sunflower <small>(flower, sun)</small>
 🌼 blossom <small>(flower)</small>
 🌷 tulip <small>(flower)</small>
+🪻 hyacinth
 🌱 seedling <small>(young)</small>
 🪴 potted plant <small>(boring, grow, house, nurturing, plant, useless)</small>
 🌲 evergreen tree <small>(tree)</small>
@@ -670,6 +682,7 @@
 🍃 leaf fluttering in wind <small>(blow, flutter, leaf, wind)</small>
 🪹 empty nest
 🪺 nest with eggs
+🍄 mushroom <small>(toadstool)</small>
 🍇 grapes <small>(fruit, grape)</small>
 🍈 melon <small>(fruit)</small>
 🍉 watermelon <small>(fruit)</small>
@@ -701,10 +714,11 @@
 🥦 broccoli <small>(wild cabbage)</small>
 🧄 garlic <small>(flavoring)</small>
 🧅 onion <small>(flavoring)</small>
-🍄 mushroom <small>(toadstool)</small>
 🥜 peanuts <small>(food, nut, peanut, vegetable)</small>
 🫘 beans
 🌰 chestnut <small>(plant)</small>
+🫚 ginger root
+🫛 pea pod
 🍞 bread <small>(loaf)</small>
 🥐 croissant <small>(bread, breakfast, food, french, roll)</small>
 🥖 baguette bread <small>(baguette, bread, food, french)</small>
@@ -1077,11 +1091,10 @@
 🎯 bullseye <small>(dart, direct hit, game, hit, target)</small>
 🪀 yo-yo <small>(fluctuate, toy)</small>
 🪁 kite <small>(fly, soar)</small>
+🔫 water pistol <small>(gun, handgun, pistol, revolver, tool, weapon)</small>
 🎱 pool 8 ball <small>(8, ball, billiard, eight, game)</small>
 🔮 crystal ball <small>(ball, crystal, fairy tale, fantasy, fortune, tool)</small>
 🪄 magic wand <small>(magic, witch, wizard)</small>
-🧿 nazar amulet <small>(bead, charm, evil-eye, nazar, talisman)</small>
-🪬 hamsa
 🎮 video game <small>(controller, game)</small>
 🕹 joystick <small>(game, video game)</small>
 🎰 slot machine <small>(game, slot)</small>
@@ -1126,6 +1139,7 @@
 🩳 shorts <small>(bathing suit, pants, underwear)</small>
 👙 bikini <small>(clothing, swim)</small>
 👚 woman’s clothes <small>(clothing, woman)</small>
+🪭 folding hand fan
 👛 purse <small>(clothing, coin)</small>
 👜 handbag <small>(bag, clothing, purse)</small>
 👝 clutch bag <small>(bag, clothing, pouch)</small>
@@ -1140,6 +1154,7 @@
 👡 woman’s sandal <small>(clothing, sandal, shoe, woman)</small>
 🩰 ballet shoes <small>(ballet, dance)</small>
 👢 woman’s boot <small>(boot, clothing, shoe, woman)</small>
+🪮 hair pick
 👑 crown <small>(clothing, king, queen)</small>
 👒 woman’s hat <small>(clothing, hat, woman)</small>
 🎩 top hat <small>(clothing, hat, top, tophat)</small>
@@ -1178,6 +1193,8 @@
 🪕 banjo <small>(music, stringed)</small>
 🥁 drum <small>(drumsticks, music)</small>
 🪘 long drum <small>(beat, conga, drum, rhythm)</small>
+🪇 maracas
+🪈 flute
 📱 mobile phone <small>(cell, mobile, phone, telephone)</small>
 📲 mobile phone with arrow <small>(arrow, cell, mobile, phone, receive)</small>
 ☎ telephone <small>(phone)</small>
@@ -1297,7 +1314,7 @@
 🛠 hammer and wrench <small>(hammer, spanner, tool, wrench)</small>
 🗡 dagger <small>(knife, weapon)</small>
 ⚔ crossed swords <small>(crossed, swords, weapon)</small>
-🔫 water pistol <small>(gun, handgun, pistol, revolver, tool, weapon)</small>
+💣 bomb <small>(comic)</small>
 🪃 boomerang <small>(australia, rebound, repercussion)</small>
 🏹 bow and arrow <small>(archer, arrow, bow, Sagittarius, zodiac)</small>
 🛡 shield <small>(weapon)</small>
@@ -1358,6 +1375,8 @@
 ⚰ coffin <small>(death)</small>
 🪦 headstone <small>(cemetery, grave, graveyard, tombstone)</small>
 ⚱ funeral urn <small>(ashes, death, funeral, urn)</small>
+🧿 nazar amulet <small>(bead, charm, evil-eye, nazar, talisman)</small>
+🪬 hamsa
 🗿 moai <small>(face, moyai, statue)</small>
 🪧 placard <small>(demonstration, picket, protest, sign)</small>
 🪪 identification card
@@ -1420,6 +1439,7 @@
 ☮ peace symbol <small>(peace)</small>
 🕎 menorah <small>(candelabrum, candlestick, religion)</small>
 🔯 dotted six-pointed star <small>(fortune, star)</small>
+🪯 khanda
 ♈ Aries <small>(ram, zodiac)</small>
 ♉ Taurus <small>(bull, ox, zodiac)</small>
 ♊ Gemini <small>(twins, zodiac)</small>
@@ -1455,6 +1475,7 @@
 🔅 dim button <small>(brightness, dim, low)</small>
 🔆 bright button <small>(bright, brightness)</small>
 📶 antenna bars <small>(antenna, bar, cell, mobile, phone)</small>
+🛜 wireless
 📳 vibration mode <small>(cell, mobile, mode, phone, telephone, vibration)</small>
 📴 mobile phone off <small>(cell, mobile, off, phone, telephone)</small>
 ♀ female sign <small>(woman)</small>

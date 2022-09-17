@@ -40,7 +40,7 @@ class EmojiExtractor(Extractor):
 
     def __fetch_emoji_list(self) -> List[Emoji]:
         data: requests.Response = requests.get(
-            "https://unicode.org/emoji/charts-14.0/full-emoji-list.html", timeout=120
+            "https://unicode.org/emoji/charts-15.0/full-emoji-list.html", timeout=120
         )
 
         html = BeautifulSoup(data.text, "lxml")
@@ -63,15 +63,16 @@ class EmojiExtractor(Extractor):
         return {element.get("cp"): element.text.split(" | ") for element in xpath(etree.fromstring(data.content))}
 
     def __fetch_base_emojis(self) -> List[chr]:
-        data: requests.Response = requests.get("https://unicode.org/Public/14.0.0/ucd/emoji/emoji-data.txt", timeout=60)
+        data: requests.Response = requests.get("https://unicode.org/Public/15.0.0/ucd/emoji/emoji-data.txt", timeout=60)
 
         started = False
         emojis = []
         for line in data.text.split("\n"):
-            if not started and line != "# All omitted code points have Emoji_Modifier_Base=No ":
+            if not started and not line.startswith("# All omitted code points have Emoji_Modifier_Base=No"):
                 continue
-            started = True
-            if line == "# Total elements: 132":
+            else:
+                started = True
+            if line.startswith("# Total elements:"):
                 break
             if line and not line.startswith("#"):
                 emojis.extend(self.__resolve_character_range(line.split(";")[0].strip()))

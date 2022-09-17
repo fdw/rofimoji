@@ -18,7 +18,7 @@ class BlockExtractor(Extractor):
         self.__block_factory = BlockFactory(character_factory)
 
     def __fetch_blocks(self) -> None:
-        response: requests.Response = requests.get("https://www.unicode.org/Public/14.0.0/ucd/Blocks.txt", timeout=60)
+        response: requests.Response = requests.get("https://www.unicode.org/Public/15.0.0/ucd/Blocks.txt", timeout=60)
 
         lines = response.text.split("\n")
 

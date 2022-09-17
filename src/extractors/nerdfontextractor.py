@@ -16,7 +16,7 @@ class NerdFontExtractor(Extractor):
         self.__icons = []
 
     def __fetch_icons(self) -> None:
-        response = requests.get("https://www.nerdfonts.com/cheat-sheet", timeout=60)
+        response = requests.get("https://www.nerdfonts.com/cheat-sheet")
 
         characters = BeautifulSoup(response.text, "html.parser").find(id="glyphCheatSheet").find_all(class_="column")
         for c in characters:

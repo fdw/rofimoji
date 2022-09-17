@@ -130,7 +130,7 @@ B fa-b
  fa-bacteria
  fa-bacterium
  fa-bag-shopping <small>(fa-shopping-bag)</small>
- fa-bahai
+ fa-bahai <small>(fa-haykal)</small>
  fa-baht-sign
  fa-ban <small>(fa-cancel)</small>
  fa-ban-smoking <small>(fa-smoking-ban)</small>
@@ -155,7 +155,6 @@ B fa-b
  fa-bed-pulse <small>(fa-procedures)</small>
  fa-beer-mug-empty <small>(fa-beer)</small>
  fa-behance
- fa-behance-square
  fa-bell
  fa-bell-concierge <small>(fa-concierge-bell)</small>
  fa-bell-slash
@@ -194,6 +193,7 @@ B fa-b
  fa-book-open-reader <small>(fa-book-reader)</small>
  fa-book-quran <small>(fa-quran)</small>
  fa-book-skull <small>(fa-book-dead)</small>
+ fa-book-tanakh <small>(fa-tanakh)</small>
  fa-bookmark
  fa-bootstrap
  fa-border-all
@@ -257,6 +257,7 @@ B fa-b
  fa-buy-n-large
  fa-buysellads
 C fa-c
+ fa-cable-car <small>(fa-tram)</small>
  fa-cake-candles <small>(fa-birthday-cake, fa-cake)</small>
  fa-calculator
  fa-calendar
@@ -529,7 +530,6 @@ $ fa-dollar-sign <small>(fa-dollar, fa-usd)</small>
  fa-dragon
  fa-draw-polygon
  fa-dribbble
- fa-dribbble-square
  fa-dropbox
  fa-droplet <small>(fa-tint)</small>
  fa-droplet-slash <small>(fa-tint-slash)</small>
@@ -625,7 +625,6 @@ F fa-f
  fa-facebook
  fa-facebook-f
  fa-facebook-messenger
- fa-facebook-square
  fa-fan
  fa-fantasy-flight-games
  fa-faucet
@@ -641,12 +640,12 @@ F fa-f
  fa-file-arrow-down <small>(fa-file-download)</small>
  fa-file-arrow-up <small>(fa-file-upload)</small>
  fa-file-audio
- fa-file-circle-check
+ fa-file-circle-check
  fa-file-circle-exclamation
  fa-file-circle-minus
- fa-file-circle-plus
+ fa-file-circle-plus
  fa-file-circle-question
- fa-file-circle-xmark
+ fa-file-circle-xmark
  fa-file-code
  fa-file-contract
  fa-file-csv
@@ -743,10 +742,8 @@ G fa-g
  fa-gifts
  fa-git
  fa-git-alt
- fa-git-square
  fa-github
  fa-github-alt
- fa-github-square
  fa-gitkraken
  fa-gitlab
  fa-gitter
@@ -767,7 +764,6 @@ G fa-g
  fa-google-play
  fa-google-plus
  fa-google-plus-g
- fa-google-plus-square
  fa-google-wallet
  fa-gopuram
  fa-graduation-cap <small>(fa-mortar-board)</small>
@@ -789,7 +785,6 @@ G fa-g
  fa-gun
 H fa-h
  fa-hacker-news
- fa-hacker-news-square
  fa-hackerrank
  fa-hammer
  fa-hamsa
@@ -876,9 +871,9 @@ H fa-h
  fa-hotdog
  fa-hotel
  fa-hotjar
- fa-hourglass <small>(fa-hourglass-2, fa-hourglass-half)</small>
- fa-hourglass-empty
+ fa-hourglass <small>(fa-hourglass-empty)</small>
  fa-hourglass-end <small>(fa-hourglass-3)</small>
+ fa-hourglass-half <small>(fa-hourglass-2)</small>
  fa-hourglass-start <small>(fa-hourglass-1)</small>
  fa-house <small>(fa-home, fa-home-alt, fa-home-lg-alt)</small>
  fa-house-chimney <small>(fa-home-lg)</small>
@@ -930,7 +925,6 @@ I fa-i
  fa-infinity
  fa-info
  fa-instagram
- fa-instagram-square
  fa-instalod
  fa-intercom
  fa-internet-explorer
@@ -954,7 +948,6 @@ J fa-j
  fa-joint
  fa-joomla
  fa-js
- fa-js-square
  fa-jsfiddle
  fa-jug-detergent
 K fa-k
@@ -985,7 +978,6 @@ L fa-l
  fa-laravel
  fa-lari-sign
  fa-lastfm
- fa-lastfm-square
  fa-layer-group
  fa-leaf
  fa-leanpub
@@ -1071,6 +1063,7 @@ M fa-m
  fa-menorah
  fa-mercury
  fa-message <small>(fa-comment-alt)</small>
+ fa-meta
  fa-meteor
  fa-microblog
  fa-microchip
@@ -1142,7 +1135,6 @@ O fa-o
  fa-object-ungroup
  fa-octopus-deploy
  fa-odnoklassniki
- fa-odnoklassniki-square
  fa-oil-can
  fa-oil-well
  fa-old-republic
@@ -1184,7 +1176,7 @@ P fa-p
  fa-pen-ruler <small>(fa-pencil-ruler)</small>
  fa-pen-to-square <small>(fa-edit)</small>
  fa-pencil <small>(fa-pencil-alt)</small>
- fa-people-arrows-left-right <small>(fa-people-arrows)</small>
+ fa-people-arrows <small>(fa-people-arrows-left-right)</small>
  fa-people-carry-box <small>(fa-people-carry)</small>
  fa-people-group
  fa-people-line
@@ -1234,7 +1226,7 @@ P fa-p
  fa-person-skiing-nordic <small>(fa-skiing-nordic)</small>
  fa-person-snowboarding <small>(fa-snowboarding)</small>
  fa-person-swimming <small>(fa-swimmer)</small>
- fa-person-through-window
+ fa-person-through-window
  fa-person-walking <small>(fa-walking)</small>
  fa-person-walking-arrow-loop-left
  fa-person-walking-arrow-right
@@ -1256,12 +1248,10 @@ P fa-p
  fa-pied-piper-alt
  fa-pied-piper-hat
  fa-pied-piper-pp
- fa-pied-piper-square
  fa-piggy-bank
  fa-pills
  fa-pinterest
  fa-pinterest-p
- fa-pinterest-square
  fa-pix
  fa-pizza-slice
  fa-place-of-worship
@@ -1274,7 +1264,7 @@ P fa-p
  fa-plane-lock
  fa-plane-slash
  fa-plane-up
- fa-plant-wilt
+ fa-plant-wilt
  fa-plate-wheat
  fa-play
  fa-playstation
@@ -1331,7 +1321,6 @@ R fa-r
  fa-red-river
  fa-reddit
  fa-reddit-alien
- fa-reddit-square
  fa-redhat
  fa-registered
  fa-renren
@@ -1460,7 +1449,6 @@ S fa-s
  fa-smog
  fa-smoking
  fa-snapchat <small>(fa-snapchat-ghost)</small>
- fa-snapchat-square
  fa-snowflake
  fa-snowman
  fa-snowplow
@@ -1473,6 +1461,7 @@ S fa-s
  fa-soundcloud
  fa-sourcetree
  fa-spa
+ fa-space-awesome
  fa-spaghetti-monster-flying <small>(fa-pastafarianism)</small>
  fa-speakap
  fa-speaker-deck
@@ -1486,39 +1475,64 @@ S fa-s
  fa-spray-can-sparkles <small>(fa-air-freshener)</small>
  fa-square
  fa-square-arrow-up-right <small>(fa-external-link-square)</small>
+ fa-square-behance <small>(fa-behance-square)</small>
  fa-square-caret-down <small>(fa-caret-square-down)</small>
  fa-square-caret-left <small>(fa-caret-square-left)</small>
  fa-square-caret-right <small>(fa-caret-square-right)</small>
  fa-square-caret-up <small>(fa-caret-square-up)</small>
  fa-square-check <small>(fa-check-square)</small>
+ fa-square-dribbble <small>(fa-dribbble-square)</small>
  fa-square-envelope <small>(fa-envelope-square)</small>
- fa-square-font-awesome
+ fa-square-facebook <small>(fa-facebook-square)</small>
+ fa-square-font-awesome
  fa-square-font-awesome-stroke <small>(fa-font-awesome-alt)</small>
  fa-square-full
+ fa-square-git <small>(fa-git-square)</small>
+ fa-square-github <small>(fa-github-square)</small>
+ fa-square-gitlab <small>(fa-gitlab-square)</small>
+ fa-square-google-plus <small>(fa-google-plus-square)</small>
  fa-square-h <small>(fa-h-square)</small>
+ fa-square-hacker-news <small>(fa-hacker-news-square)</small>
+ fa-square-instagram <small>(fa-instagram-square)</small>
+ fa-square-js <small>(fa-js-square)</small>
+ fa-square-lastfm <small>(fa-lastfm-square)</small>
  fa-square-minus <small>(fa-minus-square)</small>
  fa-square-nfi
+ fa-square-odnoklassniki <small>(fa-odnoklassniki-square)</small>
  fa-square-parking <small>(fa-parking)</small>
  fa-square-pen <small>(fa-pen-square, fa-pencil-square)</small>
  fa-square-person-confined
  fa-square-phone <small>(fa-phone-square)</small>
  fa-square-phone-flip <small>(fa-phone-square-alt)</small>
+ fa-square-pied-piper <small>(fa-pied-piper-square)</small>
+ fa-square-pinterest <small>(fa-pinterest-square)</small>
  fa-square-plus <small>(fa-plus-square)</small>
  fa-square-poll-horizontal <small>(fa-poll-h)</small>
  fa-square-poll-vertical <small>(fa-poll)</small>
+ fa-square-reddit <small>(fa-reddit-square)</small>
  fa-square-root-variable <small>(fa-square-root-alt)</small>
  fa-square-rss <small>(fa-rss-square)</small>
  fa-square-share-nodes <small>(fa-share-alt-square)</small>
+ fa-square-snapchat <small>(fa-snapchat-square)</small>
+ fa-square-steam <small>(fa-steam-square)</small>
+ fa-square-tumblr <small>(fa-tumblr-square)</small>
+ fa-square-twitter <small>(fa-twitter-square)</small>
  fa-square-up-right <small>(fa-external-link-square-alt)</small>
+ fa-square-viadeo <small>(fa-viadeo-square)</small>
+ fa-square-vimeo <small>(fa-vimeo-square)</small>
  fa-square-virus
+ fa-square-whatsapp <small>(fa-whatsapp-square)</small>
+ fa-square-xing <small>(fa-xing-square)</small>
  fa-square-xmark <small>(fa-times-square, fa-xmark-square)</small>
+ fa-square-youtube <small>(fa-youtube-square)</small>
  fa-squarespace
  fa-stack-exchange
  fa-stack-overflow
  fa-stackpath
- fa-staff-aesculapius <small>(fa-rod-asclepius, fa-rod-snake, fa-staff-snake)</small>
+ fa-staff-snake <small>(fa-rod-asclepius, fa-rod-snake, fa-staff-aesculapius)</small>
  fa-stairs
  fa-stamp
+ fa-stapler
  fa-star
  fa-star-and-crescent
  fa-star-half
@@ -1527,7 +1541,6 @@ S fa-s
  fa-star-of-life
  fa-staylinked
  fa-steam
- fa-steam-square
  fa-steam-symbol
  fa-sterling-sign <small>(fa-gbp, fa-pound-sign)</small>
  fa-stethoscope
@@ -1637,7 +1650,7 @@ T fa-t
  fa-trailer
  fa-train
  fa-train-subway <small>(fa-subway)</small>
- fa-train-tram <small>(fa-tram)</small>
+ fa-train-tram
  fa-transgender <small>(fa-transgender-alt)</small>
  fa-trash
  fa-trash-arrow-up <small>(fa-trash-restore)</small>
@@ -1665,14 +1678,12 @@ T fa-t
  fa-truck-ramp-box <small>(fa-truck-loading)</small>
  fa-tty <small>(fa-teletype)</small>
  fa-tumblr
- fa-tumblr-square
  fa-turkish-lira-sign <small>(fa-try, fa-turkish-lira)</small>
  fa-turn-down <small>(fa-level-down-alt)</small>
  fa-turn-up <small>(fa-level-up-alt)</small>
  fa-tv <small>(fa-television, fa-tv-alt)</small>
  fa-twitch
  fa-twitter
- fa-twitter-square
  fa-typo3
 U fa-u
  fa-uber
@@ -1744,7 +1755,6 @@ V fa-v
  fa-vest-patches
  fa-viacoin
  fa-viadeo
- fa-viadeo-square
  fa-vial
  fa-vial-circle-check
  fa-vial-virus
@@ -1754,7 +1764,6 @@ V fa-v
  fa-video-slash
  fa-vihara
  fa-vimeo
- fa-vimeo-square
  fa-vimeo-v
  fa-vine
  fa-virus
@@ -1791,7 +1800,6 @@ W fa-w
  fa-weight-scale <small>(fa-weight)</small>
  fa-weixin
  fa-whatsapp
- fa-whatsapp-square
  fa-wheat-awn <small>(fa-wheat-alt)</small>
  fa-wheat-awn-circle-exclamation
  fa-wheelchair
@@ -1820,13 +1828,12 @@ W fa-w
  fa-wpbeginner
  fa-wpexplorer
  fa-wpforms
- fa-wpressr
+ fa-wpressr <small>(fa-rendact)</small>
  fa-wrench
 X fa-x
  fa-x-ray
  fa-xbox
  fa-xing
- fa-xing-square
  fa-xmark <small>(fa-close, fa-multiply, fa-remove, fa-times)</small>
  fa-xmarks-lines
 Y fa-y
@@ -1841,6 +1848,5 @@ Y fa-y
  fa-yin-yang
  fa-yoast
  fa-youtube
- fa-youtube-square
 Z fa-z
  fa-zhihu

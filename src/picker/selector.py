@@ -32,12 +32,10 @@ class Selector:
         keybindings: Dict[Action, str],
         additional_args: List[str],
     ) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[str, Shortcut]]:
-        print("Could not find a valid way to show the selection. Please check the required dependencies.")
-        exit(4)
+        raise NoSelectorFoundException()
 
     def show_skin_tone_selection(self, skin_tones: str, prompt: str, additional_args: List[str]) -> Tuple[int, str]:
-        print("Could not find a valid way to show the selection. Please check the required dependencies.")
-        exit(4)
+        raise NoSelectorFoundException
 
 
 class Rofi(Selector):
@@ -145,3 +143,8 @@ class Wofi(Selector):
         )
 
         return wofi.returncode, wofi.stdout
+
+
+class NoSelectorFoundException(Exception):
+    def __str__(self) -> str:
+        return "Could not find a valid way to show the selection. Please check the required dependencies."

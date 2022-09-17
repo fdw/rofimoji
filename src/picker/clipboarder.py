@@ -25,12 +25,10 @@ class Clipboarder:
         pass
 
     def copy_characters_to_clipboard(self, characters: str) -> None:
-        print("Could not find a valid way to copy to clipboard. Please check the required dependencies.")
-        exit(6)
+        raise NoClipboarderFoundException()
 
     def copy_paste_characters(self, characters: str, active_window: str, typer: Typer) -> None:
-        print("Could not find a valid way to copy to clipboard. Please check the required dependencies.")
-        exit(6)
+        raise NoClipboarderFoundException()
 
 
 class XSelClipboarder(Clipboarder):
@@ -112,3 +110,8 @@ class WlClipboarder(Clipboarder):
 
         run(args=["wl-copy"], input=old_clipboard_content)
         run(args=["wl-copy", "--primary"], input=old_primary_content)
+
+
+class NoClipboarderFoundException(Exception):
+    def __str__(self) -> str:
+        return "Could not find a valid way to copy to clipboard. Please check the required dependencies."

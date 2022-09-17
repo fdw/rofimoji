@@ -4,7 +4,7 @@ from typing import List
 
 import requests
 
-from .characterfactory import CharacterFactory, Character
+from .characterfactory import Character, CharacterFactory
 from .extractor import Extractor
 
 

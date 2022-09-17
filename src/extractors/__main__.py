@@ -7,10 +7,10 @@ from .characterfactory import CharacterFactory
 from .cjkextractor import CjkExtractor
 from .emojiextractor import EmojiExtractor
 from .extractor import Extractor
+from .fontawesome6extractor import FontAwesome6Extractor
 from .gitmojiextractor import GitmojiExtractor
 from .mathcollectionextractor import MathExtractor
 from .nerdfontextractor import NerdFontExtractor
-from .fontawesome6extractor import FontAwesome6Extractor
 
 if __name__ == "__main__":
     data_directory = pathlib.Path(__file__).parent.parent / "picker" / "data"

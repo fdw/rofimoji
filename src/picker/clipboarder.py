@@ -1,7 +1,7 @@
 import subprocess
 from subprocess import run
 
-from .abstractionhelper import is_wayland, is_installed
+from .abstractionhelper import is_installed, is_wayland
 from .typer import Typer
 
 

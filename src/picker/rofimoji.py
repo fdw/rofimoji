@@ -5,13 +5,13 @@ import math
 import re
 import shlex
 import sys
-from typing import List, Tuple, Dict, Union
+from typing import Dict, List, Tuple, Union
 
 import configargparse
 
 from . import __version__, emoji_data
 from .clipboarder import Clipboarder
-from .models import Action, CANCEL, DEFAULT, Shortcut
+from .models import CANCEL, DEFAULT, Action, Shortcut
 from .paths import *
 from .selector import Selector
 from .typer import Typer

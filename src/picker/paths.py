@@ -1,5 +1,5 @@
-from pathlib import Path
 import os
+from pathlib import Path
 
 if os.environ.get("XDG_CONFIG_HOME"):
     config_home = Path(os.environ.get("XDG_CONFIG_HOME"))

@@ -1,5 +1,5 @@
 import html
-from typing import Union, List, Dict
+from typing import Dict, List, Union
 from unicodedata import bidirectional
 
 import requests

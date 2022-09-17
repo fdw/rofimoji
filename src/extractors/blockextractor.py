@@ -3,7 +3,7 @@ from pathlib import Path
 
 import requests
 
-from .blockfactory import BlockFactory, Block
+from .blockfactory import Block, BlockFactory
 from .characterfactory import CharacterFactory
 from .extractor import Extractor
 

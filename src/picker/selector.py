@@ -1,8 +1,8 @@
 from subprocess import run
-from typing import List, Tuple, Dict, Union
+from typing import Dict, List, Tuple, Union
 
-from .abstractionhelper import is_wayland, is_installed
-from .models import Action, CANCEL, DEFAULT, Shortcut
+from .abstractionhelper import is_installed, is_wayland
+from .models import CANCEL, DEFAULT, Action, Shortcut
 
 
 class Selector:

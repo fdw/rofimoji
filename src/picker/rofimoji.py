@@ -9,7 +9,7 @@ from typing import List, Tuple, Dict, Union
 
 import configargparse
 
-from . import __version__
+from . import __version__, emoji_data
 from .clipboarder import Clipboarder
 from .models import Action, CANCEL, DEFAULT, Shortcut
 from .paths import *
@@ -18,154 +18,6 @@ from .typer import Typer
 
 
 class Rofimoji:
-    skin_tone_selectable_emojis = {
-        "☝",
-        "⛹",
-        "✊",
-        "✋",
-        "✌",
-        "✍",
-        "🎅",
-        "🏂",
-        "🏃",
-        "🏄",
-        "🏇",
-        "🏊",
-        "🏋",
-        "🏌",
-        "👂",
-        "👃",
-        "👆",
-        "👇",
-        "👈",
-        "👉",
-        "👊",
-        "👋",
-        "👌",
-        "👍",
-        "👎",
-        "👏",
-        "👐",
-        "👦",
-        "👧",
-        "👨",
-        "👩",
-        "👪",
-        "👫",
-        "👬",
-        "👭",
-        "👮",
-        "👯",
-        "👰",
-        "👱",
-        "👲",
-        "👳",
-        "👴",
-        "👵",
-        "👶",
-        "👷",
-        "👸",
-        "👼",
-        "💁",
-        "💂",
-        "💃",
-        "💅",
-        "💆",
-        "💇",
-        "💏",
-        "💑",
-        "💪",
-        "🕴",
-        "🕵",
-        "🕺",
-        "🖐",
-        "🖕",
-        "🖖",
-        "🙅",
-        "🙆",
-        "🙇",
-        "🙋",
-        "🙌",
-        "🙍",
-        "🙎",
-        "🙏",
-        "🚣",
-        "🚴",
-        "🚵",
-        "🚶",
-        "🛀",
-        "🛌",
-        "🤌",
-        "🤏",
-        "🤘",
-        "🤙",
-        "🤚",
-        "🤛",
-        "🤜",
-        "🤝",
-        "🤞",
-        "🤟",
-        "🤦",
-        "🤰",
-        "🤱",
-        "🤲",
-        "🤳",
-        "🤴",
-        "🤵",
-        "🤶",
-        "🤷",
-        "🤸",
-        "🤹",
-        "🤼",
-        "🤽",
-        "🤾",
-        "🥷",
-        "🦵",
-        "🦶",
-        "🦸",
-        "🦹",
-        "🦻",
-        "🧍",
-        "🧎",
-        "🧏",
-        "🧑",
-        "🧒",
-        "🧓",
-        "🧔",
-        "🧕",
-        "🧖",
-        "🧗",
-        "🧘",
-        "🧙",
-        "🧚",
-        "🧛",
-        "🧜",
-        "🧝",
-        "🫃",
-        "🫄",
-        "🫅",
-        "🫰",
-        "🫱",
-        "🫲",
-        "🫳",
-        "🫴",
-        "🫵",
-        "🫶",
-    }
-
-    fitzpatrick_modifiers = {
-        "": "neutral",
-        "🏻": "light skin",
-        "🏼": "medium-light skin",
-        "🏽": "moderate skin",
-        "🏾": "dark brown skin",
-        "🏿": "black skin",
-    }
-
-    fitzpatrick_modifiers_reversed = {
-        " ".join(name.split()[:-1]): modifier for modifier, name in fitzpatrick_modifiers.items() if name != "neutral"
-    }
-
     def __init__(self) -> None:
         self.args = self.parse_arguments()
         self.selector = Selector.best_option(self.args.selector)
@@ -365,15 +217,15 @@ class Rofimoji:
 
         for character in characters:
             self.save_characters_to_frecency_file(characters.split(" ")[0])
-            if character not in self.skin_tone_selectable_emojis:
+            if character not in emoji_data.skin_tone_selectable_emojis:
                 processed_characters += character
                 characters = characters[1:]
             else:
                 self.save_selection_to_cache(characters[1:], processed_characters)
                 print(
                     "\n".join(
-                        character + modifier + " " + self.fitzpatrick_modifiers[modifier]
-                        for modifier in self.fitzpatrick_modifiers
+                        character + modifier + " " + emoji_data.fitzpatrick_modifiers[modifier]
+                        for modifier in emoji_data.fitzpatrick_modifiers
                     )
                 )
                 return
@@ -486,7 +338,7 @@ class Rofimoji:
         characters_with_skin_tone = []
 
         for element in character:
-            if element in self.skin_tone_selectable_emojis:
+            if element in emoji_data.skin_tone_selectable_emojis:
                 characters_with_skin_tone.append(self.select_skin_tone(element))
             else:
                 characters_with_skin_tone.append(element)
@@ -499,11 +351,11 @@ class Rofimoji:
         if skin_tone == "neutral":
             return selected_emoji
         elif skin_tone != "ask":
-            return selected_emoji + self.fitzpatrick_modifiers_reversed[skin_tone]
+            return selected_emoji + emoji_data.fitzpatrick_modifiers_reversed[skin_tone]
         else:
             modified_emojis = "\n".join(
-                selected_emoji + modifier + " " + self.fitzpatrick_modifiers[modifier]
-                for modifier in self.fitzpatrick_modifiers
+                selected_emoji + modifier + " " + emoji_data.fitzpatrick_modifiers[modifier]
+                for modifier in emoji_data.fitzpatrick_modifiers
             )
 
             returncode, skin_tone = self.selector.show_skin_tone_selection(

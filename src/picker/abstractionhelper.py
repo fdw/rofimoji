@@ -7,4 +7,4 @@ def is_installed(executable: str) -> bool:
 
 
 def is_wayland() -> bool:
-    return os.environ.get('WAYLAND_DISPLAY', False)
+    return os.environ.get("WAYLAND_DISPLAY", False)

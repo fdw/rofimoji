@@ -6,7 +6,7 @@ from .rofimoji import Rofimoji
 
 
 def main():
-    return_value = os.environ.get('ROFI_RETV')
+    return_value = os.environ.get("ROFI_RETV")
 
     if return_value is None:
         Rofimoji().standalone()

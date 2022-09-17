@@ -14,18 +14,17 @@ class FontAwesome6Extractor(Extractor):
         self.__icons = []
 
     def __fetch_icons(self) -> None:
-        response = requests.get(
-            'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/metadata/icons.json',
-            timeout=60
+        response: requests.Response = requests.get(
+            "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/metadata/icons.json", timeout=60
         )
         for (name, data) in response.json().items():
-            icon = int(data['unicode'], 16)
-            name = f'fa-{name}'
+            icon = int(data["unicode"], 16)
+            name = f"fa-{name}"
             char = Character(icon, name)
             char.aliases: List[str] = []
             try:
-                for alias in data['aliases']['names']:
-                    char.aliases.append(f'fa-{alias}')
+                for alias in data["aliases"]["names"]:
+                    char.aliases.append(f"fa-{alias}")
             except KeyError:
                 pass
             self.__icons.append(char)
@@ -34,7 +33,7 @@ class FontAwesome6Extractor(Extractor):
         if len(self.__icons) == 0:
             return
 
-        with (target / 'fontawesome6.csv').open('w') as symbol_file:
+        with (target / "fontawesome6.csv").open("w") as symbol_file:
             for icon in self.__icons:
                 aliases = f" <small>({', '.join(icon.aliases)})</small>"
                 line = f'{icon.directional_char} {icon.lower_case_name}{aliases if icon.aliases else ""}\n'

@@ -7,7 +7,7 @@ from .models import Action, CANCEL, DEFAULT, Shortcut
 
 class Selector:
     @staticmethod
-    def best_option(name: str = None) -> 'Selector':
+    def best_option(name: str = None) -> "Selector":
         try:
             return next(selector for selector in Selector.__subclasses__() if selector.name() == name)()
         except StopIteration:
@@ -25,70 +25,65 @@ class Selector:
         pass
 
     def show_character_selection(
-            self,
-            characters: str,
-            recent_characters: str,
-            prompt: str,
-            keybindings: Dict[Action, str],
-            additional_args: List[str]
+        self,
+        characters: str,
+        recent_characters: str,
+        prompt: str,
+        keybindings: Dict[Action, str],
+        additional_args: List[str],
     ) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[str, Shortcut]]:
-        print('Could not find a valid way to show the selection. Please check the required dependencies.')
+        print("Could not find a valid way to show the selection. Please check the required dependencies.")
         exit(4)
 
     def show_skin_tone_selection(self, skin_tones: str, prompt: str, additional_args: List[str]) -> Tuple[int, str]:
-        print('Could not find a valid way to show the selection. Please check the required dependencies.')
+        print("Could not find a valid way to show the selection. Please check the required dependencies.")
         exit(4)
 
 
 class Rofi(Selector):
     @staticmethod
     def supported() -> bool:
-        return is_installed('rofi')
+        return is_installed("rofi")
 
     @staticmethod
     def name() -> str:
-        return 'rofi'
+        return "rofi"
 
     def show_character_selection(
-            self,
-            characters: str,
-            recent_characters: str,
-            prompt: str,
-            keybindings: Dict[Action, str],
-            additional_args: List[str]
+        self,
+        characters: str,
+        recent_characters: str,
+        prompt: str,
+        keybindings: Dict[Action, str],
+        additional_args: List[str],
     ) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[str, Shortcut]]:
         parameters = [
-            'rofi',
-            '-dmenu',
-            '-markup-rows',
-            '-i',
-            '-multi-select',
-            '-ballot-unselected-str',
-            '',
-            '-p',
+            "rofi",
+            "-dmenu",
+            "-markup-rows",
+            "-i",
+            "-multi-select",
+            "-ballot-unselected-str",
+            "",
+            "-p",
             prompt,
-            '-kb-custom-11',
+            "-kb-custom-11",
             keybindings[Action.COPY],
-            '-kb-custom-12',
+            "-kb-custom-12",
             keybindings[Action.TYPE],
-            '-kb-custom-13',
+            "-kb-custom-13",
             keybindings[Action.CLIPBOARD],
-            '-kb-custom-14',
+            "-kb-custom-14",
             keybindings[Action.UNICODE],
-            '-kb-custom-15',
+            "-kb-custom-15",
             keybindings[Action.COPY_UNICODE],
-            *additional_args
+            *additional_args,
         ]
 
         if recent_characters:
-            parameters.extend(['-mesg', recent_characters])
+            parameters.extend(["-mesg", recent_characters])
 
-        rofi = run(
-            parameters,
-            input=characters,
-            capture_output=True,
-            encoding='utf-8'
-        )
+        rofi = run(parameters, input=characters, capture_output=True, encoding="utf-8")
 
         if 10 <= rofi.returncode <= 19:
             return DEFAULT(), Shortcut(rofi.returncode - 10)
@@ -110,17 +105,10 @@ class Rofi(Selector):
 
     def show_skin_tone_selection(self, skin_tones: str, prompt: str, additional_args: List[str]) -> Tuple[int, str]:
         rofi = run(
-            [
-                'rofi',
-                '-dmenu',
-                '-i',
-                '-p',
-                prompt,
-                *additional_args
-            ],
+            ["rofi", "-dmenu", "-i", "-p", prompt, *additional_args],
             input=skin_tones,
             capture_output=True,
-            encoding='utf-8'
+            encoding="utf-8",
         )
 
         return rofi.returncode, rofi.stdout
@@ -129,51 +117,31 @@ class Rofi(Selector):
 class Wofi(Selector):
     @staticmethod
     def supported() -> bool:
-        return is_wayland() and is_installed('wofi')
+        return is_wayland() and is_installed("wofi")
 
     @staticmethod
     def name() -> str:
-        return 'wofi'
+        return "wofi"
 
     def show_character_selection(
-            self,
-            characters: str,
-            recent_characters: str,
-            prompt: str,
-            keybindings: Dict[Action, str],
-            additional_args: List[str]
+        self,
+        characters: str,
+        recent_characters: str,
+        prompt: str,
+        keybindings: Dict[Action, str],
+        additional_args: List[str],
     ) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[str, Shortcut]]:
-        parameters = [
-            'wofi',
-            '--dmenu',
-            '--allow-markup',
-            '-i',
-            '-p',
-            prompt,
-            *additional_args
-        ]
+        parameters = ["wofi", "--dmenu", "--allow-markup", "-i", "-p", prompt, *additional_args]
 
-        wofi = run(
-            parameters,
-            input=characters,
-            capture_output=True,
-            encoding='utf-8'
-        )
+        wofi = run(parameters, input=characters, capture_output=True, encoding="utf-8")
         return DEFAULT(), wofi.stdout
 
     def show_skin_tone_selection(self, skin_tones: str, prompt: str, additional_args: List[str]) -> Tuple[int, str]:
         wofi = run(
-            [
-                'wofi',
-                '--dmenu',
-                '-i',
-                '-p',
-                prompt,
-                *additional_args
-            ],
+            ["wofi", "--dmenu", "-i", "-p", prompt, *additional_args],
             input=skin_tones,
             capture_output=True,
-            encoding='utf-8'
+            encoding="utf-8",
         )
 
         return wofi.returncode, wofi.stdout

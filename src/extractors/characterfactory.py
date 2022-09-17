@@ -6,7 +6,7 @@ import requests
 
 
 class Character:
-    ltr_mark: str = '\u200e'
+    ltr_mark: str = "\u200e"
 
     char: chr
     name: str
@@ -18,7 +18,7 @@ class Character:
         self.name = name.strip()
         if not bidi_class:
             bidi_class = bidirectional(self.char)
-        self.force_ltr = bidi_class in ('AL', 'AN', 'R', 'RLE', 'RLI', 'RLO')
+        self.force_ltr = bidi_class in ("AL", "AN", "R", "RLE", "RLI", "RLO")
 
     @property
     def directional_char(self) -> str:
@@ -46,22 +46,18 @@ class CharacterFactory:
         INDEX_CATEGORY = 2
         INDEX_BIDI_CLASS = 4
 
-        response = requests.get(
-            'https://unicode.org/Public/UNIDATA/UnicodeData.txt',
-            timeout=60
-        )  # type: requests.Response
+        response: requests.Response = requests.get("https://unicode.org/Public/UNIDATA/UnicodeData.txt", timeout=60)
 
-        lines = response.content.decode(response.encoding).split('\n')
+        lines = response.content.decode(response.encoding).split("\n")
 
         for line in lines:
-            fields = line.split(';')
-            if len(fields) >= 2 and not fields[INDEX_CATEGORY] in ('Cc', 'Co', 'Cs') and \
-                    not (fields[INDEX_NAME].startswith('<') and fields[INDEX_NAME].endswith('>')):
-                character = Character(
-                    int(fields[INDEX_CODEPOINT], 16),
-                    fields[INDEX_NAME],
-                    fields[INDEX_BIDI_CLASS]
-                )
+            fields = line.split(";")
+            if (
+                len(fields) >= 2
+                and not fields[INDEX_CATEGORY] in ("Cc", "Co", "Cs")
+                and not (fields[INDEX_NAME].startswith("<") and fields[INDEX_NAME].endswith(">"))
+            ):
+                character = Character(int(fields[INDEX_CODEPOINT], 16), fields[INDEX_NAME], fields[INDEX_BIDI_CLASS])
                 self.__characters[character.char] = character
 
     def get_character(self, char: int) -> Union[Character, None]:

@@ -16,8 +16,7 @@ class GitmojiExtractor(Extractor):
 
     def __fetch_icons(self) -> None:
         response = requests.get(
-            "https://raw.githubusercontent.com/carloscuesta/gitmoji/master/src/data/gitmojis.json",
-            timeout=60
+            "https://raw.githubusercontent.com/carloscuesta/gitmoji/master/src/data/gitmojis.json", timeout=60
         )
         """
         {
@@ -35,7 +34,7 @@ class GitmojiExtractor(Extractor):
             self.__icons.append(Character(icon, name))
 
     def __write_to_file(self, target: Path) -> None:
-        with (target / 'gitmoji.csv').open('w') as symbol_file:
+        with (target / "gitmoji.csv").open("w") as symbol_file:
             for icon in self.__icons:
                 symbol_file.write(f"{icon.directional_char} {icon.lower_case_name}\n")
 

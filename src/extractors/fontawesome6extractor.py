@@ -21,10 +21,9 @@ class FontAwesome6Extractor(Extractor):
             icon = int(data["unicode"], 16)
             name = f"fa-{name}"
             char = Character(icon, name)
-            char.aliases: List[str] = []
             try:
                 for alias in data["aliases"]["names"]:
-                    char.aliases.append(f"fa-{alias}")
+                    char.add_description(f"fa-{alias}")
             except KeyError:
                 pass
             self.__icons.append(char)
@@ -35,8 +34,8 @@ class FontAwesome6Extractor(Extractor):
 
         with (target / "fontawesome6.csv").open("w") as symbol_file:
             for icon in self.__icons:
-                aliases = f" <small>({', '.join(icon.aliases)})</small>"
-                line = f'{icon.directional_char} {icon.lower_case_name}{aliases if icon.aliases else ""}\n'
+                aliases = f" <small>({', '.join(icon.descriptions)})</small>"
+                line = f'{icon.directional_char} {icon.lower_case_name}{aliases if icon.descriptions else ""}\n'
                 symbol_file.write(line)
 
     def extract_to(self, target: Path) -> None:

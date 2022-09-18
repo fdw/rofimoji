@@ -86,7 +86,7 @@ class Rofi(Selector):
         if 10 <= rofi.returncode <= 19:
             return DEFAULT(), Shortcut(rofi.returncode - 10)
 
-        action = DEFAULT()
+        action: Union[Action, DEFAULT, CANCEL]
         if rofi.returncode == 1:
             action = CANCEL()
         elif rofi.returncode == 20:
@@ -99,6 +99,8 @@ class Rofi(Selector):
             action = Action.UNICODE
         elif rofi.returncode == 24:
             action = Action.COPY_UNICODE
+        else:
+            action = DEFAULT()
         return action, rofi.stdout
 
     def show_skin_tone_selection(self, skin_tones: str, prompt: str, additional_args: List[str]) -> Tuple[int, str]:

@@ -1,4 +1,3 @@
-import html
 from pathlib import Path
 from typing import List
 
@@ -27,7 +26,7 @@ class MathExtractor(Extractor):
                 for symbol in symbols:
                     characters.append(self.__char_factory.get_character(symbol))
 
-        self.__characters = characters
+        self.__characters = [character for character in characters if character is not None]
 
     def __resolve_character_range(self, line: str) -> List[int]:
         try:

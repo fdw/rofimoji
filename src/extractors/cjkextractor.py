@@ -23,7 +23,7 @@ class CjkExtractor(Extractor):
 
         response: requests.Response = requests.get("https://unicode.org/Public/UNIDATA/Unihan.zip", timeout=60)
 
-        characters = {}
+        characters: Dict[str, List[Character]] = {}
         with zipfile.ZipFile(io.BytesIO(response.content)) as zip:
             with io.TextIOWrapper(zip.open("Unihan_Readings.txt"), encoding="utf-8") as file:
                 for line in file.read().split("\n"):

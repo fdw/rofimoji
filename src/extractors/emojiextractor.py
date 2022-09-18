@@ -1,5 +1,4 @@
 import html
-from collections import namedtuple
 from pathlib import Path
 from typing import Dict, List
 
@@ -9,19 +8,16 @@ from lxml import etree
 from lxml.etree import XPath
 from tqdm import tqdm
 
+from .characterfactory import Character
 from .extractor import Extractor
-
-Emoji = namedtuple("Emoji", "char name")
 
 
 class EmojiExtractor(Extractor):
-    __all_emojis: List[Emoji]
-    __annotations: Dict[chr, List[str]]
-    __base_emojis: List[chr]
+    __all_emojis: Dict[str, Character]
+    __base_emojis: List[str]
 
     def __init__(self):
-        self.__all_emojis = []
-        self.__annotations = {}
+        self.__all_emojis = {}
         self.__base_emojis = []
 
     def __fetch_data(self) -> None:
@@ -31,38 +27,42 @@ class EmojiExtractor(Extractor):
             progress.update(1)
 
             progress.set_description("Downloading annotations")
-            self.__annotations = self.__fetch_annotations()
+            self.__fetch_annotations()
             progress.update(1)
 
             progress.set_description("Downloading list of human emojis")
             self.__base_emojis = self.__fetch_base_emojis()
             progress.update(1)
 
-    def __fetch_emoji_list(self) -> List[Emoji]:
+    def __fetch_emoji_list(self) -> Dict[str, Character]:
         data: requests.Response = requests.get(
             "https://unicode.org/emoji/charts-15.0/full-emoji-list.html", timeout=120
         )
 
         html = BeautifulSoup(data.text, "lxml")
 
-        emojis = []
+        emojis: Dict[str, Character] = {}
         for row in html.find("table").find_all("tr"):
             if not row.th:
                 emoji = row.find("td", {"class": "chars"}).string
                 description = row.find("td", {"class": "name"}).string.replace("⊛ ", "")
-                emojis.append(Emoji(emoji, description))
+                emojis[emoji] = Character(emoji, description, "L")
 
         return emojis
 
-    def __fetch_annotations(self) -> Dict[chr, List[str]]:
+    def __fetch_annotations(self):
         data: requests.Response = requests.get(
             "https://raw.githubusercontent.com/unicode-org/cldr/latest/common/annotations/en.xml", timeout=60
         )
 
         xpath = XPath('./annotations/annotation[not(@type="tts")]')
-        return {element.get("cp"): element.text.split(" | ") for element in xpath(etree.fromstring(data.content))}
+        for element in xpath(etree.fromstring(data.content)):
+            try:
+                self.__all_emojis[element.get("cp")].add_descriptions(element.text.split(" | "))
+            except KeyError:
+                pass
 
-    def __fetch_base_emojis(self) -> List[chr]:
+    def __fetch_base_emojis(self) -> List[str]:
         data: requests.Response = requests.get("https://unicode.org/Public/15.0.0/ucd/emoji/emoji-data.txt", timeout=60)
 
         started = False
@@ -94,12 +94,12 @@ class EmojiExtractor(Extractor):
             for entry in self.__compile_entries(self.__all_emojis):
                 symbol_file.write(entry + "\n")
 
-    def __compile_entries(self, emojis: List[Emoji]) -> List[str]:
+    def __compile_entries(self, emojis: Dict[str, Character]) -> List[str]:
         annotated_emojis = []
-        for emoji in emojis:
+        for emoji in emojis.values():
             entry = f"{emoji.char} {html.escape(emoji.name)}"
-            if emoji.char in self.__annotations:
-                entry += f" <small>({html.escape(', '.join([annotation for annotation in self.__annotations[emoji.char] if annotation != emoji.name]))})</small>"
+            if emoji.descriptions:
+                entry += f" <small>({html.escape(', '.join(emoji.descriptions))})</small>"
             annotated_emojis.append(entry)
         return annotated_emojis
 

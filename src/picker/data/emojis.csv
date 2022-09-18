@@ -157,7 +157,7 @@
 💫 dizzy <small>(comic, star)</small>
 💦 sweat droplets <small>(comic, splashing, sweat)</small>
 💨 dashing away <small>(comic, dash, running)</small>
-🕳 hole <small>()</small>
+🕳 hole
 💬 speech balloon <small>(balloon, bubble, comic, dialog, speech)</small>
 👁️‍🗨️ eye in speech bubble
 🗨 left speech bubble <small>(dialog, speech)</small>
@@ -337,7 +337,7 @@
 🕵 detective <small>(sleuth, spy)</small>
 🕵️‍♂️ man detective
 🕵️‍♀️ woman detective
-💂 guard <small>()</small>
+💂 guard
 💂‍♂️ man guard
 💂‍♀️ woman guard
 🥷 ninja <small>(fighter, hidden, stealth)</small>
@@ -345,7 +345,7 @@
 👷‍♂️ man construction worker
 👷‍♀️ woman construction worker
 🫅 person with crown
-🤴 prince <small>()</small>
+🤴 prince
 👸 princess <small>(fairy tale, fantasy)</small>
 👳 person wearing turban <small>(turban)</small>
 👳‍♂️ man wearing turban
@@ -496,7 +496,7 @@
 👩‍❤️‍👨 couple with heart: woman, man
 👨‍❤️‍👨 couple with heart: man, man
 👩‍❤️‍👩 couple with heart: woman, woman
-👪 family <small>()</small>
+👪 family
 👨‍👩‍👦 family: man, woman, boy
 👨‍👩‍👧 family: man, woman, girl
 👨‍👩‍👧‍👦 family: man, woman, girl, boy
@@ -532,8 +532,8 @@
 🦳 white hair <small>(gray, hair, old, white)</small>
 🦲 bald <small>(chemotherapy, hairless, no hair, shaven)</small>
 🐵 monkey face <small>(face, monkey)</small>
-🐒 monkey <small>()</small>
-🦍 gorilla <small>()</small>
+🐒 monkey
+🦍 gorilla
 🦧 orangutan <small>(ape)</small>
 🐶 dog face <small>(dog, face, pet)</small>
 🐕 dog <small>(pet)</small>
@@ -548,20 +548,20 @@
 🐈‍⬛ black cat <small>(black, cat, unlucky)</small>
 🦁 lion <small>(face, Leo, zodiac)</small>
 🐯 tiger face <small>(face, tiger)</small>
-🐅 tiger <small>()</small>
-🐆 leopard <small>()</small>
+🐅 tiger
+🐆 leopard
 🐴 horse face <small>(face, horse)</small>
 🫎 moose
 🫏 donkey
 🐎 horse <small>(equestrian, racehorse, racing)</small>
 🦄 unicorn <small>(face)</small>
 🦓 zebra <small>(stripe)</small>
-🦌 deer <small>()</small>
+🦌 deer
 🦬 bison <small>(buffalo, herd, wisent)</small>
 🐮 cow face <small>(cow, face)</small>
 🐂 ox <small>(bull, Taurus, zodiac)</small>
 🐃 water buffalo <small>(buffalo, water)</small>
-🐄 cow <small>()</small>
+🐄 cow
 🐷 pig face <small>(face, pig)</small>
 🐖 pig <small>(sow)</small>
 🐗 boar <small>(pig)</small>
@@ -573,13 +573,13 @@
 🐫 two-hump camel <small>(bactrian, camel, hump)</small>
 🦙 llama <small>(alpaca, guanaco, vicuña, wool)</small>
 🦒 giraffe <small>(spots)</small>
-🐘 elephant <small>()</small>
+🐘 elephant
 🦣 mammoth <small>(extinction, large, tusk, woolly)</small>
-🦏 rhinoceros <small>()</small>
+🦏 rhinoceros
 🦛 hippopotamus <small>(hippo)</small>
 🐭 mouse face <small>(face, mouse)</small>
-🐁 mouse <small>()</small>
-🐀 rat <small>()</small>
+🐁 mouse
+🐀 rat
 🐹 hamster <small>(face, pet)</small>
 🐰 rabbit face <small>(bunny, face, pet, rabbit)</small>
 🐇 rabbit <small>(bunny, pet)</small>
@@ -603,7 +603,7 @@
 🐣 hatching chick <small>(baby, bird, chick, hatching)</small>
 🐤 baby chick <small>(baby, bird, chick)</small>
 🐥 front-facing baby chick <small>(baby, bird, chick)</small>
-🐦 bird <small>()</small>
+🐦 bird
 🐧 penguin <small>(bird)</small>
 🕊 dove <small>(bird, fly, peace)</small>
 🦅 eagle <small>(bird)</small>
@@ -619,7 +619,7 @@
 🐦‍⬛ black bird
 🪿 goose
 🐸 frog <small>(face)</small>
-🐊 crocodile <small>()</small>
+🐊 crocodile
 🐢 turtle <small>(terrapin, tortoise)</small>
 🦎 lizard <small>(reptile)</small>
 🐍 snake <small>(bearer, Ophiuchus, serpent, zodiac)</small>
@@ -628,18 +628,18 @@
 🦕 sauropod <small>(brachiosaurus, brontosaurus, diplodocus)</small>
 🦖 T-Rex <small>(Tyrannosaurus Rex)</small>
 🐳 spouting whale <small>(face, spouting, whale)</small>
-🐋 whale <small>()</small>
+🐋 whale
 🐬 dolphin <small>(flipper)</small>
 🦭 seal <small>(sea Lion)</small>
 🐟 fish <small>(Pisces, zodiac)</small>
 🐠 tropical fish <small>(fish, tropical)</small>
 🐡 blowfish <small>(fish)</small>
 🦈 shark <small>(fish)</small>
-🐙 octopus <small>()</small>
+🐙 octopus
 🐚 spiral shell <small>(shell, spiral)</small>
 🪸 coral
 🪼 jellyfish
-🐌 snail <small>()</small>
+🐌 snail
 🦋 butterfly <small>(insect, pretty)</small>
 🐛 bug <small>(insect)</small>
 🐜 ant <small>(insect)</small>
@@ -749,7 +749,7 @@
 🫕 fondue <small>(cheese, chocolate, melted, pot, Swiss)</small>
 🥣 bowl with spoon <small>(breakfast, cereal, congee)</small>
 🥗 green salad <small>(food, green, salad)</small>
-🍿 popcorn <small>()</small>
+🍿 popcorn
 🧈 butter <small>(dairy)</small>
 🧂 salt <small>(condiment, shaker)</small>
 🥫 canned food <small>(can)</small>
@@ -762,7 +762,7 @@
 🍝 spaghetti <small>(pasta)</small>
 🍠 roasted sweet potato <small>(potato, roasted, sweet)</small>
 🍢 oden <small>(kebab, seafood, skewer, stick)</small>
-🍣 sushi <small>()</small>
+🍣 sushi
 🍤 fried shrimp <small>(fried, prawn, shrimp, tempura)</small>
 🍥 fish cake with swirl <small>(cake, fish, pastry, swirl)</small>
 🥮 moon cake <small>(autumn, festival, yuèbǐng)</small>
@@ -824,22 +824,22 @@
 🗾 map of Japan <small>(Japan, map)</small>
 🧭 compass <small>(magnetic, navigation, orienteering)</small>
 🏔 snow-capped mountain <small>(cold, mountain, snow)</small>
-⛰ mountain <small>()</small>
+⛰ mountain
 🌋 volcano <small>(eruption, mountain)</small>
 🗻 mount fuji <small>(fuji, mountain)</small>
-🏕 camping <small>()</small>
+🏕 camping
 🏖 beach with umbrella <small>(beach, umbrella)</small>
-🏜 desert <small>()</small>
+🏜 desert
 🏝 desert island <small>(desert, island)</small>
 🏞 national park <small>(park)</small>
-🏟 stadium <small>()</small>
+🏟 stadium
 🏛 classical building <small>(classical)</small>
 🏗 building construction <small>(construction)</small>
 🧱 brick <small>(bricks, clay, mortar, wall)</small>
 🪨 rock <small>(boulder, heavy, solid, stone)</small>
 🪵 wood <small>(log, lumber, timber)</small>
 🛖 hut <small>(house, roundhouse, yurt)</small>
-🏘 houses <small>()</small>
+🏘 houses
 🏚 derelict house <small>(derelict, house)</small>
 🏠 house <small>(home)</small>
 🏡 house with garden <small>(garden, home, house)</small>
@@ -865,7 +865,7 @@
 🕍 synagogue <small>(Jew, Jewish, religion, temple)</small>
 ⛩ shinto shrine <small>(religion, shinto, shrine)</small>
 🕋 kaaba <small>(islam, Muslim, religion)</small>
-⛲ fountain <small>()</small>
+⛲ fountain
 ⛺ tent <small>(camping)</small>
 🌁 foggy <small>(fog)</small>
 🌃 night with stars <small>(night, star)</small>
@@ -1004,7 +1004,7 @@
 🌝 full moon face <small>(bright, face, full, moon)</small>
 🌞 sun with face <small>(bright, face, sun)</small>
 🪐 ringed planet <small>(saturn, saturnine)</small>
-⭐ star <small>()</small>
+⭐ star
 🌟 glowing star <small>(glittery, glow, shining, sparkle, star)</small>
 🌠 shooting star <small>(falling, shooting, star)</small>
 🌌 milky way <small>(space)</small>
@@ -1173,7 +1173,7 @@
 📢 loudspeaker <small>(loud, public address)</small>
 📣 megaphone <small>(cheering)</small>
 📯 postal horn <small>(horn, post, postal)</small>
-🔔 bell <small>()</small>
+🔔 bell
 🔕 bell with slash <small>(bell, forbidden, mute, quiet, silent)</small>
 🎼 musical score <small>(music, score)</small>
 🎵 musical note <small>(music, note)</small>
@@ -1199,9 +1199,9 @@
 📲 mobile phone with arrow <small>(arrow, cell, mobile, phone, receive)</small>
 ☎ telephone <small>(phone)</small>
 📞 telephone receiver <small>(phone, receiver, telephone)</small>
-📟 pager <small>()</small>
+📟 pager
 📠 fax machine <small>(fax)</small>
-🔋 battery <small>()</small>
+🔋 battery
 🪫 low battery
 🔌 electric plug <small>(electric, electricity, plug)</small>
 💻 laptop <small>(computer, pc, personal)</small>
@@ -1238,7 +1238,7 @@
 📘 blue book <small>(blue, book)</small>
 📙 orange book <small>(book, orange)</small>
 📚 books <small>(book)</small>
-📓 notebook <small>()</small>
+📓 notebook
 📒 ledger <small>(notebook)</small>
 📃 page with curl <small>(curl, document, page)</small>
 📜 scroll <small>(paper)</small>
@@ -1247,7 +1247,7 @@
 🗞 rolled-up newspaper <small>(news, newspaper, paper, rolled)</small>
 📑 bookmark tabs <small>(bookmark, mark, marker, tabs)</small>
 🔖 bookmark <small>(mark)</small>
-🏷 label <small>()</small>
+🏷 label
 💰 money bag <small>(bag, dollar, money, moneybag)</small>
 🪙 coin <small>(gold, metal, money, silver, treasure)</small>
 💴 yen banknote <small>(banknote, bill, currency, money, note, yen)</small>
@@ -1271,14 +1271,14 @@
 📭 open mailbox with lowered flag <small>(lowered, mail, mailbox, open, postbox)</small>
 📮 postbox <small>(mail, mailbox)</small>
 🗳 ballot box with ballot <small>(ballot, box)</small>
-✏ pencil <small>()</small>
+✏ pencil
 ✒ black nib <small>(nib, pen)</small>
 🖋 fountain pen <small>(fountain, pen)</small>
 🖊 pen <small>(ballpoint)</small>
 🖌 paintbrush <small>(painting)</small>
-🖍 crayon <small>()</small>
+🖍 crayon
 📝 memo <small>(pencil)</small>
-💼 briefcase <small>()</small>
+💼 briefcase
 📁 file folder <small>(file, folder)</small>
 📂 open file folder <small>(file, folder, open)</small>
 🗂 card index dividers <small>(card, dividers, index)</small>
@@ -1290,17 +1290,17 @@
 📈 chart increasing <small>(chart, graph, growth, trend, upward)</small>
 📉 chart decreasing <small>(chart, down, graph, trend)</small>
 📊 bar chart <small>(bar, chart, graph)</small>
-📋 clipboard <small>()</small>
+📋 clipboard
 📌 pushpin <small>(pin)</small>
 📍 round pushpin <small>(pin, pushpin)</small>
-📎 paperclip <small>()</small>
+📎 paperclip
 🖇 linked paperclips <small>(link, paperclip)</small>
 📏 straight ruler <small>(ruler, straight edge)</small>
 📐 triangular ruler <small>(ruler, set, triangle)</small>
 ✂ scissors <small>(cutting, tool)</small>
 🗃 card file box <small>(box, card, file)</small>
 🗄 file cabinet <small>(cabinet, file, filing)</small>
-🗑 wastebasket <small>()</small>
+🗑 wastebasket
 🔒 locked <small>(closed)</small>
 🔓 unlocked <small>(lock, open, unlock)</small>
 🔏 locked with pen <small>(ink, lock, nib, pen, privacy)</small>
@@ -1326,7 +1326,7 @@
 🗜 clamp <small>(compress, tool, vice)</small>
 ⚖ balance scale <small>(balance, justice, Libra, scale, zodiac)</small>
 🦯 white cane <small>(accessibility, blind)</small>
-🔗 link <small>()</small>
+🔗 link
 ⛓ chains <small>(chain)</small>
 🪝 hook <small>(catch, crook, curve, ensnare, selling point)</small>
 🧰 toolbox <small>(chest, mechanic, tool)</small>
@@ -1346,14 +1346,14 @@
 🩼 crutch
 🩺 stethoscope <small>(doctor, heart, medicine)</small>
 🩻 x-ray
-🚪 door <small>()</small>
+🚪 door
 🛗 elevator <small>(accessibility, hoist, lift)</small>
 🪞 mirror <small>(reflection, reflector, speculum)</small>
 🪟 window <small>(frame, fresh air, opening, transparent, view)</small>
 🛏 bed <small>(hotel, sleep)</small>
 🛋 couch and lamp <small>(couch, hotel, lamp)</small>
 🪑 chair <small>(seat, sit)</small>
-🚽 toilet <small>()</small>
+🚽 toilet
 🪠 plunger <small>(force cup, plumber, suction, toilet)</small>
 🚿 shower <small>(water)</small>
 🛁 bathtub <small>(bath)</small>
@@ -1390,10 +1390,10 @@
 🚼 baby symbol <small>(baby, changing)</small>
 🚾 water closet <small>(closet, lavatory, restroom, water, wc)</small>
 🛂 passport control <small>(control, passport)</small>
-🛃 customs <small>()</small>
+🛃 customs
 🛄 baggage claim <small>(baggage, claim)</small>
 🛅 left luggage <small>(baggage, locker, luggage)</small>
-⚠ warning <small>()</small>
+⚠ warning
 🚸 children crossing <small>(child, crossing, pedestrian, traffic)</small>
 ⛔ no entry <small>(entry, forbidden, no, not, prohibited, traffic)</small>
 🚫 prohibited <small>(entry, forbidden, no, not)</small>
@@ -1498,7 +1498,7 @@
 💲 heavy dollar sign <small>(currency, dollar, money)</small>
 ⚕ medical symbol <small>(aesculapius, medicine, staff)</small>
 ♻ recycling symbol <small>(recycle)</small>
-⚜ fleur-de-lis <small>()</small>
+⚜ fleur-de-lis
 🔱 trident emblem <small>(anchor, emblem, ship, tool, trident)</small>
 📛 name badge <small>(badge, name)</small>
 🔰 Japanese symbol for beginner <small>(beginner, chevron, Japanese, leaf)</small>

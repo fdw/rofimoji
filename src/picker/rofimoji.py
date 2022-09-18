@@ -250,7 +250,7 @@ class Rofimoji:
         return re.match(r"^(?:\u200e(?! ))?(?P<char>.[^ ]*) .*", line).group("char")
 
     def read_character_files(self) -> str:
-        all_characters = {}
+        all_characters: Dict[str, List[str]] = {}
 
         if self.args.frecency:
             for character in self.read_frecencies().keys():
@@ -262,9 +262,11 @@ class Rofimoji:
                 parsed_line = line.split(" ", 1)
                 all_characters.setdefault(parsed_line[0], []).append(parsed_line[1]) if 1 < len(parsed_line) else ""
 
-        all_characters = {character: ", ".join(descriptions) for character, descriptions in all_characters.items()}
+        collected_characters: Dict[str, str] = {
+            character: ", ".join(descriptions) for character, descriptions in all_characters.items()
+        }
 
-        return "\n".join(f"{key} {value}" for key, value in all_characters.items() if value != "")
+        return "\n".join(f"{key} {value}" for key, value in collected_characters.items() if value != "")
 
     def resolve_all_files(self) -> List[Path]:
         resolved_file_names = []
@@ -345,7 +347,7 @@ class Rofimoji:
 
         return "".join(characters_with_skin_tone)
 
-    def select_skin_tone(self, selected_emoji: chr) -> str:
+    def select_skin_tone(self, selected_emoji: str) -> str:
         skin_tone = self.args.skin_tone
 
         if skin_tone == "neutral":
@@ -401,13 +403,13 @@ class Rofimoji:
 
         new_file_name.rename(old_file_name)
 
-    def read_frecencies(self) -> Dict[str, int]:
+    def read_frecencies(self) -> Dict[str, float]:
         frecencies = {}
         try:
             with frecency_file_location.open("r") as file:
                 for line in file:
                     (frecency, character) = line.strip("\n").split(" ")
-                    frecencies[character] = int(frecency)
+                    frecencies[character] = float(frecency)
         except FileNotFoundError:
             pass
 

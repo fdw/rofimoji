@@ -9,7 +9,7 @@
 
 # SYNOPSIS
 
-| **rofimoji** \[**-h**] \[**\--version**] \[**\--action** {*type*,*copy*,*clipboard*,*unicode*,*copy-unicode*,*print*}]
+| **rofimoji** \[**-h**] \[**\--version**] \[**\--action** {*type*,*copy*,*clipboard*,*unicode*,*copy-unicode*,*print*,*menu*}]
          \[**\--skin-tone** {*neutral*,*light*,*medium-light*,*moderate*,*dark brown*,*black*,*ask*}]
          \[**\--files** {*all*,*FILE* \[*FILE* ...]]} \[**\--prompt** *PROMPT*]
          \[**\--selector-args** *SELECTOR_ARGS*] \[**\--max-recent** *MAX_RECENT*] \[**\--no-frecency**]
@@ -31,9 +31,10 @@ Select, insert, or copy Unicode characters like emoji using rofi.
 
 \--action, -a
 
-: Possible values: type, copy, clipboard, unicode, copy-unicode, print
+: Possible values: type, copy, clipboard, unicode, copy-unicode, print, menu
 
       Choose what to do with the selected characters: Directly type them with the "Typer", copy them to the clipboard using the "Clipboarder", or insert them indirectly using the clipboard. "unicode" will type the unicode codepoints of the chosen characters, "copy-unicode" will copy it. "print" just outputs them on stdout.
+      If you want to decide on the fly, use "menu".
 
 \--skin-tone=_skin-tone_, -s _skin-tone_
 

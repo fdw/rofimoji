@@ -9,6 +9,7 @@ class Action(enum.Enum):
     UNICODE = "unicode"
     COPY_UNICODE = "copy-unicode"
     STDOUT = "print"
+    MENU = "menu"
 
     def __str__(self):
         return self.value

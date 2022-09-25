@@ -185,6 +185,9 @@ class Rofimoji:
         elif action != DEFAULT():
             self.args.actions = [action]
 
+        if Action.MENU in self.args.actions:
+            self.args.actions = self.selector.show_action_menu(self.args.selector_args)
+
         if isinstance(value, Shortcut):
             characters = self.load_recent_characters(self.args.max_recent)[value.index]
         else:

@@ -37,6 +37,9 @@ class Selector:
     def show_skin_tone_selection(self, skin_tones: str, prompt: str, additional_args: List[str]) -> Tuple[int, str]:
         raise NoSelectorFoundException
 
+    def show_action_menu(self, additional_args: List[str]) -> List[Action]:
+        raise NoSelectorFoundException
+
 
 class Rofi(Selector):
     @staticmethod
@@ -113,6 +116,24 @@ class Rofi(Selector):
 
         return rofi.returncode, rofi.stdout
 
+    def show_action_menu(self, additional_args: List[str]) -> List[Action]:
+        rofi = run(
+            [
+                "rofi",
+                "-dmenu",
+                "-multi-select",
+                "-ballot-unselected-str",
+                "",
+                "-i",
+                *additional_args,
+            ],
+            input="\n".join([it.value for it in Action if it != Action.MENU]),
+            capture_output=True,
+            encoding="utf-8",
+        )
+
+        return [Action(action) for action in rofi.stdout.strip().split("\n")]
+
 
 class Wofi(Selector):
     @staticmethod
@@ -145,6 +166,21 @@ class Wofi(Selector):
         )
 
         return wofi.returncode, wofi.stdout
+
+    def show_action_menu(self, additional_args: List[str]) -> List[Action]:
+        wofi = run(
+            [
+                "wofi",
+                "-dmenu",
+                "-i",
+                *additional_args,
+            ],
+            input="\n".join([it.value for it in Action if it != Action.MENU]),
+            capture_output=True,
+            encoding="utf-8",
+        )
+
+        return [Action(wofi.stdout.strip())]
 
 
 class NoSelectorFoundException(Exception):

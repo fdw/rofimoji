@@ -1,8 +1,8 @@
-import enum
 from dataclasses import dataclass
+from enum import Enum
 
 
-class Action(enum.Enum):
+class Action(Enum):
     TYPE = "type"
     COPY = "copy"
     CLIPBOARD = "clipboard"
@@ -12,6 +12,9 @@ class Action(enum.Enum):
     MENU = "menu"
 
     def __str__(self):
+        return self.value
+
+    def __repr__(self):
         return self.value
 
 

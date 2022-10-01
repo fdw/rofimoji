@@ -1,6 +1,6 @@
 from subprocess import run
 
-from .abstractionhelper import is_installed, is_wayland
+from ..abstractionhelper import is_installed, is_wayland
 
 
 class Typer:

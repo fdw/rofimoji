@@ -78,13 +78,35 @@ class XClipClipboarder(Clipboarder):
         old_clipboard_content = run(args=["xclip", "-o", "-selection", "clipboard"], capture_output=True).stdout
         old_primary_content = run(args=["xclip", "-o", "-selection", "primary"], capture_output=True).stdout
 
-        run(args=["xclip", "-i", "-selection", "clipboard"], input=characters, encoding="utf-8")
-        run(args=["xclip", "-i", "-selection", "primary"], input=characters, encoding="utf-8")
+        run(
+            args=["xclip", "-i", "-selection", "clipboard"],
+            input=characters,
+            encoding="utf-8",
+            stderr=subprocess.DEVNULL,
+            stdout=subprocess.DEVNULL,
+        )
+        run(
+            args=["xclip", "-i", "-selection", "primary"],
+            input=characters,
+            encoding="utf-8",
+            stderr=subprocess.DEVNULL,
+            stdout=subprocess.DEVNULL,
+        )
 
         typer.insert_from_clipboard(active_window)
 
-        run(args=["xclip", "-i", "-selection", "clipboard"], input=old_clipboard_content)
-        run(args=["xclip", "-i", "-selection", "primary"], input=old_primary_content)
+        run(
+            args=["xclip", "-i", "-selection", "clipboard"],
+            input=old_clipboard_content,
+            stderr=subprocess.DEVNULL,
+            stdout=subprocess.DEVNULL,
+        )
+        run(
+            args=["xclip", "-i", "-selection", "primary"],
+            input=old_primary_content,
+            stderr=subprocess.DEVNULL,
+            stdout=subprocess.DEVNULL,
+        )
 
 
 class WlClipboarder(Clipboarder):

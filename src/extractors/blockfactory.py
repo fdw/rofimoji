@@ -7,8 +7,6 @@ from .characterfactory import Character, CharacterFactory
 @dataclass
 class Block:
     name: str
-    start: int
-    end: int
     characters: List[Character]
 
 
@@ -23,7 +21,7 @@ class BlockFactory:
         return self.__build_block(name, int(start.strip(), 16), int(end.strip(), 16))
 
     def __build_block(self, name: str, start: int, end: int) -> Block:
-        return Block(name.strip().title(), start, end, self.__fill_characters(start, end))
+        return Block(name.strip().title(), self.__fill_characters(start, end))
 
     def __fill_characters(self, start: int, end: int) -> List[Character]:
         return [

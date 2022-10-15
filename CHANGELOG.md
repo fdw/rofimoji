@@ -1,6 +1,7 @@
 # [6.0.0]
 ## Changed
 - `rofimoji` uses [Poetry](https://python-poetry.org/) for package management. With this comes the requirement for Python 3.8.
+- `--files` supports globbing, so you can ask for `--files "linear_b*"`
 
 ## Added
 - You can now select your desired actions through a separate menu.

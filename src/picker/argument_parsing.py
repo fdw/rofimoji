@@ -52,7 +52,7 @@ def __parse_arguments(only_known: bool) -> argparse.Namespace:
         "-f",
         dest="files",
         action="store",
-        default=["emojis"],
+        default=["emojis*"],
         nargs="+",
         metavar="FILE",
         help="Read characters from this file instead, one entry per line",

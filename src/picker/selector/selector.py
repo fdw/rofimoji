@@ -35,7 +35,9 @@ class Selector:
     ) -> Tuple[Action | DEFAULT | CANCEL, List[str] | Shortcut]:
         raise NoSelectorFoundException()
 
-    def show_skin_tone_selection(self, skin_tones: str, prompt: str, additional_args: List[str]) -> Tuple[int, str]:
+    def show_skin_tone_selection(
+        self, tones_emojis: List[str], prompt: str, additional_args: List[str]
+    ) -> Tuple[int, str]:
         raise NoSelectorFoundException
 
     def show_action_menu(self, additional_args: List[str]) -> List[Action]:
@@ -115,10 +117,12 @@ class Rofi(Selector):
 
         return " | ".join(pairings)
 
-    def show_skin_tone_selection(self, skin_tones: str, prompt: str, additional_args: List[str]) -> Tuple[int, str]:
+    def show_skin_tone_selection(
+        self, tones_emojis: List[str], prompt: str, additional_args: List[str]
+    ) -> Tuple[int, str]:
         rofi = run(
             ["rofi", "-dmenu", "-i", "-p", prompt, *additional_args],
-            input=skin_tones,
+            input="\n".join(tones_emojis),
             capture_output=True,
             encoding="utf-8",
         )
@@ -166,10 +170,12 @@ class Wofi(Selector):
         wofi = run(parameters, input="\n".join(characters), capture_output=True, encoding="utf-8")
         return DEFAULT(), [self.extract_char_from_input(line) for line in wofi.stdout.splitlines()]
 
-    def show_skin_tone_selection(self, skin_tones: str, prompt: str, additional_args: List[str]) -> Tuple[int, str]:
+    def show_skin_tone_selection(
+        self, tones_emojis: List[str], prompt: str, additional_args: List[str]
+    ) -> Tuple[int, str]:
         wofi = run(
             ["wofi", "--dmenu", "-i", "-p", prompt, *additional_args],
-            input=skin_tones,
+            input="\n".join(tones_emojis),
             capture_output=True,
             encoding="utf-8",
         )

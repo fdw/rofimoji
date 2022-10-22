@@ -76,10 +76,10 @@ class StandaloneRofimoji:
         elif skin_tone != "ask":
             return selected_emoji + emoji_data.fitzpatrick_modifiers_reversed[skin_tone]
         else:
-            modified_emojis = "\n".join(
+            modified_emojis = [
                 selected_emoji + modifier + " " + emoji_data.fitzpatrick_modifiers[modifier]
                 for modifier in emoji_data.fitzpatrick_modifiers
-            )
+            ]
 
             return_code, skin_tone = self.selector.show_skin_tone_selection(
                 modified_emojis, selected_emoji + "   ", self.args.selector_args

@@ -1,5 +1,5 @@
 import sys
-from typing import List, Tuple
+from typing import List, Tuple, Dict
 
 from . import emoji_data
 from .action import execute_action
@@ -42,12 +42,20 @@ class StandaloneRofimoji:
 
     def __open_main_selector_window(self) -> Tuple[Action | DEFAULT | CANCEL, List[str] | Shortcut]:
         return self.selector.show_character_selection(
-            read_characters_from_files(self.args.files, load_frecent_characters(), self.args.use_additional),
+            self.__format_characters(
+                read_characters_from_files(self.args.files, load_frecent_characters(), self.args.use_additional)
+            ),
             load_recent_characters(self.args.max_recent),
             self.args.prompt,
             self.args.keybindings,
             self.args.selector_args,
         )
+
+    def __format_characters(self, characters: Dict[str, str]) -> List[str]:
+        if self.args.show_description:
+            return [f"{key} {value}" for key, value in characters.items() if value != ""]
+        else:
+            return [f"{key}\0meta\x1f{value}" for key, value in characters.items() if value != ""]
 
     def __process_chosen_characters(self, characters: List[str]) -> str:
         characters_with_skin_tones = []

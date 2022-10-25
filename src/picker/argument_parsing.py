@@ -78,6 +78,20 @@ def __parse_arguments(only_known: bool) -> argparse.Namespace:
     )
     parser.set_defaults(frecency=True)
     parser.add_argument(
+        "--only-official",
+        dest="use_additional",
+        action="store_false",
+        help="Use only the official Unicode descriptions",
+    )
+    parser.set_defaults(use_additional=True)
+    parser.add_argument(
+        "--hidden-descriptions",
+        dest="show_description",
+        action="store_false",
+        help="Show only the character without its description",
+    )
+    parser.set_defaults(show_description=True)
+    parser.add_argument(
         "--selector",
         dest="selector",
         action="store",
@@ -144,13 +158,6 @@ def __parse_arguments(only_known: bool) -> argparse.Namespace:
         default="Alt+i",
         help="Choose the keyboard shortcut to copy the character's unicode codepoint to the clipboard",
     )
-    parser.add_argument(
-        "--only-official",
-        dest="use_additional",
-        action="store_false",
-        help="Use only the official Unicode descriptions",
-    )
-    parser.set_defaults(use_additional=True)
 
     if only_known:
         parsed_args = parser.parse_args()

@@ -10,7 +10,12 @@ Fear no more, `rofimoji` invokes the power of [rofi](https://github.com/DaveDave
 - Emojis by default, but you can have any Unicode block you want - you can even [use your own](#custom-character-files-and-descriptions)!
 
 ## How does it look?
+### Default
 ![Screenshot of rofimoji](screenshot.png?raw=true)
+
+### With a [grid theme](#rofi-theming)
+![Screenshot of rofimoji with a grid theme](screenshot-grid.png?raw=true)
+
 
 # Usage
 ## Standalone
@@ -57,6 +62,7 @@ You can configure `rofimoji` either with cli arguments or with a config file cal
 | `--skin-tone`                                                                                                           | `-s`         | `light`, `medium-light`, `moderate`, `dark brown`, `black`, as well as `neutral` and `ask`                     | `ask`                                       | Define the skin tone of supporting emojis. `ask` will always ask the user.                                                                                                                                                                                                          |
 | `--max-recent`                                                                                                          |              | 0-10                                                                                                           | 10                                          | Show at most this many recently picked characters. The number will be capped at 10. Set to `0` to disable the whole feature.                                                                                                                                                        |
 | `--no-frecency`<br/>(`no-frecency=True` in the config file)                                                             |              | -                                                                                                              | `<false>`                                   | By default, `rofimoji` shows frequently used items first. With this option, they're shown in the order of the file.                                                                                                                                                                 |
+| `--hidden-descriptions`<br/>(`hidden-descriptions=True` in the config file)                                             |              | -                                                                                                              | `<false>`                                   | Only list the characters, but not their description. This is useful for [grid themes](#rofi-theming). Note that they're still searchable, even though the description is not shown.                                                                                                 | 
 | `--prompt`                                                                                                              | `-r`         | any string                                                                                                     | `😀 `                                       | Define the prompt text for `rofimoji`.                                                                                                                                                                                                                                              |
 | `--selector-args`                                                                                                       |              |                                                                                                                |                                             | Define arguments that `rofimoji` will pass through to the selector (`rofi` or `wofi`).<br/>Please note that you need to specify it as `--selector-args="<selector-args>"` or `--selector-args " <selector-args>"` because of a [bug in argparse](https://bugs.python.org/issue9334) |
 | `--selector`                                                                                                            |              | `rofi`, `wofi`                                                                                                 | (automatically chosen)                      | Show the selection dialog with this application.                                                                                                                                                                                                                                    |
@@ -118,9 +124,16 @@ If the predefined ones are not enough, you can define additional character files
 
 If the character already exists, the new description will be appended. In other words, if you're not happy with the official descriptions, you can define a custom character file, add the character and your description, and this descriptions will now also be shown.
 
-For added comfort, `rofimoji` will automatically load an "additional" file for predefined ones. This file needs to called `<filename>.additional.csv` and lie in `${XDG_DATA_DIR}/rofimoji/data/`. For example, if you want to extend `emojis`, call the file `emojis.additional.csv`.
+For added comfort, `rofimoji` will automatically load an "additional" file for predefined ones. This file needs to called `<filename>.additional.csv` and lie in `${XDG_DATA_DIR}/rofimoji/data/`. For example, if you want to extend `emojis_smileys_emotion`, call the file `emojis_smileys_emotions.additional.csv`.
 
 If you think your file is useful to others, please open a PR to include it in a future version of `rofimoji`.
+
+## Rofi theming
+By default, `rofimoji` re-uses the existing rofi configuration, but you can pass your own using `--selector-args` (for example `--selector-args="-theme ~/your-rofi-theme.rasi"`).
+
+If you would like a more character-focussed theme, you can use packaged [`characters-only.rasi`](https://github.com/fdw/rofimoji/blob/main/src/picker/contrib/characters-only.rasi) together with the `--hidden-descriptions` paramter. This theme still imports the existing `rofi` configuration but moves the entries into a grid. Of course, you can base your own theme on this. (If you have improvements, please open a PR!)
+
+![Screenshot of rofimoji with a grid theme](screenshot-grid.png?raw=true)
 
 # Installation
 ## From distribution repositories

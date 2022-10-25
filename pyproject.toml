@@ -12,7 +12,8 @@ packages =[
 ]
 include = [
     "src/picker/data/*.csv",
-    "src/picker/docs/rofimoji.1"
+    "src/picker/docs/rofimoji.1",
+    "src/picker/contrib/*"
 ]
 
 [tool.poetry.scripts]

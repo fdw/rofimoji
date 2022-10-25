@@ -95,7 +95,7 @@ The options are:
 ## Insertion method
 By default, `rofimoji` types the characters using either `xdotool` or `wtype` (see [display server support](#display-server-support)). You can enforce this behavior with `--action type` (`-a type`).
 
-For some applications (f.e. Firefox), this does not work. To work around this, `rofimoji` can copy the emojis to your clipboard and insert them from there with `shift+insert`. Afterwards, it will restore the previous contents.
+For some applications (f.e. Firefox), this does not work reliably. To work around this, `rofimoji` can copy the emojis to your clipboard and insert them from there with `shift+insert`. Afterwards, it will restore the previous contents.
 Unfortunately, it depends on the receiving application whether `shift+insert` uses the clipboard or the primary selection.
 Therefore, `rofimoji` uses both and also restores both.
 To choose to spam your clipboards, you can either use the keybinding `alt+p` or start it as `rofimoji --action clipboard` (`-a clipboard`).
@@ -149,7 +149,7 @@ This also installs the python dependency `configargparse`.
 
 ## Dependencies
 What else do you need:
-- Python 3.7 or higher
+- Python 3.8 or higher
 - A font that can display your scripts, (for emojis, [EmojiOne](https://github.com/emojione/emojione) or [Noto Emoji](https://www.google.com/get/noto/) work)
 - `rofi` (in version 1.6.0 or higher if you want to use the mode) or `wofi`
 - A tool to programmatically type characters into applications. Either `xdotool` for X11 or `wtype` for Wayland

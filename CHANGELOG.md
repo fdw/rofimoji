@@ -3,6 +3,11 @@
 - `rofimoji` uses [Poetry](https://python-poetry.org/) for package management. With this comes the requirement for Python 3.8.
 - `--files` supports globbing, so you can ask for `--files "linear_b*"`
 - The emoji file is split into several files for one category each. (#126)
+- Lots of character updates:
+  - Emojis are now v15
+  - FontAwesome is 6.2.0
+  - NerdFonts are 2.2.2
+  - Gitmoji is 3.12.0
 
 ## Added
 - You can now select your desired actions through a separate menu.

@@ -44,7 +44,7 @@ class Selector:
         raise NoSelectorFoundException
 
     def extract_char_from_input(self, line) -> str:
-        return re.match(r"^(?:\u200e(?! ))?(?P<char>.[^ ]*) .*", line).group("char")
+        return re.match(r"^(?:\u200e(?! ))?(?P<char>.[^ ]*)( .*|$)", line).group("char")
 
 
 class Rofi(Selector):

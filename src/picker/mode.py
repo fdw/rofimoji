@@ -4,7 +4,7 @@ import sys
 from dataclasses import dataclass
 from enum import IntEnum, auto
 from pickle import dump, load
-from typing import List, Optional
+from typing import List, Optional, Dict
 
 from . import emoji_data
 from .action import execute_action
@@ -125,9 +125,9 @@ class ModeRofimoji:
         state.output += "\x00use-hot-keys\x1ftrue\n"
         if len(recent_characters) > 0:
             state.output += f"\x00message\x1f{recent_characters}"
-        state.output += "\n".join(
+        state.output += "\n".join(self.__format_characters(
             read_characters_from_files(self.args.files, load_frecent_characters(), self.args.use_additional)
-        )
+        ))
         state.output += "\n"
 
         state.step += 1
@@ -136,6 +136,12 @@ class ModeRofimoji:
         pairings = [f"\u200e{(index + 1) % 10}: {character}" for index, character in enumerate(recent_characters)]
 
         return " | ".join(pairings)
+
+    def __format_characters(self, characters: Dict[str, str]) -> List[str]:
+        if self.args.show_description:
+            return [f"{key} {value}" for key, value in characters.items() if value != ""]
+        else:
+            return [f"{key}\0meta\x1f{value}" for key, value in characters.items() if value != ""]
 
     def handle_shortcuts(self, state: State) -> None:
         if 10 <= state.return_code <= 19:

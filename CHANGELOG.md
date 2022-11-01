@@ -7,7 +7,7 @@
   - Emojis are now v15
   - FontAwesome is 6.2.0
   - NerdFonts are 2.2.2
-  - Gitmoji is 3.12.0
+  - Gitmoji is 3.13.0
 
 ## Added
 - You can now select your desired actions through a separate menu.

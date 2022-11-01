@@ -39,7 +39,7 @@ def __resolve_filename(file_name: str, use_additional: bool) -> List[Path]:
 
     for file in (Path(__file__).parent / "data").glob(file_name if "*" in file_name else file_name + "*"):
         resolved_file_names.append(file)
-        resolved_file_names += __load_addtional_files(file, use_additional)
+        resolved_file_names += __load_additional_files(file, use_additional)
 
     if resolved_file_names:
         return resolved_file_names
@@ -54,7 +54,7 @@ def __resolve_filename(file_name: str, use_additional: bool) -> List[Path]:
     raise FileNotFoundError(f"Couldn't find file {file_name!r}")
 
 
-def __load_addtional_files(original_file: Path, use_additional: bool) -> List[Path]:
+def __load_additional_files(original_file: Path, use_additional: bool) -> List[Path]:
     additional_files = []
     custom_additional_file = custom_additional_files_location / f"{original_file.stem}.additional.csv"
     if custom_additional_file.is_file():

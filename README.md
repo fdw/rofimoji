@@ -131,7 +131,7 @@ If you think your file is useful to others, please open a PR to include it in a 
 ## Rofi theming
 By default, `rofimoji` re-uses the existing rofi configuration, but you can pass your own using `--selector-args` (for example `--selector-args="-theme ~/your-rofi-theme.rasi"`).
 
-If you would like a more character-focussed theme, you can use packaged [`characters-only.rasi`](https://github.com/fdw/rofimoji/blob/main/src/picker/contrib/characters-only.rasi) together with the `--hidden-descriptions` paramter. This theme still imports the existing `rofi` configuration but moves the entries into a grid. Of course, you can base your own theme on this. (If you have improvements, please open a PR!)
+If you would like a more character-focussed theme, you can use packaged [`grid.rasi`](https://github.com/fdw/rofimoji/blob/main/src/picker/contrib/grid.rasi) together with the `--hidden-descriptions` paramter. This theme still imports the existing `rofi` configuration but moves the entries into a grid. Of course, you can base your own theme on this. (If you have improvements, please open a PR!)
 
 ![Screenshot of rofimoji with a grid theme](screenshot-grid.png?raw=true)
 

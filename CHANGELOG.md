@@ -11,7 +11,7 @@
 
 ## Added
 - You can now select your desired actions through a separate menu.
-- Support for grid themes using `--hidden-descriptions` and [`contrib/characters-only.rasi`](https://github.com/fdw/rofimoji/blob/main/src/picker/contrib/characters-only.rasi). (#133)
+- Support for grid themes using `--hidden-descriptions` and [`contrib/grid.rasi`](https://github.com/fdw/rofimoji/blob/main/src/picker/contrib/grid.rasi). (#133)
 
 # [5.6.0]
 ## Changed

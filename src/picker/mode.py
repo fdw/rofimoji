@@ -174,7 +174,7 @@ class ModeRofimoji:
             return []
 
     def __extract_char_from_input(self, line) -> str:
-        return re.match(r"^(?:\u200e(?! ))?(?P<char>.[^ ]*) .*", line).group("char")
+        return re.match(r"^(?:\u200e(?! ))?(?P<char>.[^ ]*)( .*|$)", line).group("char")
 
     def select_skin_tone(self, state: State) -> None:
         if state.has_input:

@@ -37,12 +37,13 @@ def __resolve_filename(file_name: str, use_additional: bool) -> List[Path]:
     if resolved_file_names:
         return resolved_file_names
 
-    for file in (Path(__file__).parent / "data").glob(file_name if "*" in file_name else file_name + "*"):
-        resolved_file_names.append(file)
-        resolved_file_names += __load_additional_files(file, use_additional)
+    if not Path(file_name).is_absolute():
+        for file in (Path(__file__).parent / "data").glob(file_name if "*" in file_name else f"{file_name}*"):
+            resolved_file_names.append(file)
+            resolved_file_names += __load_additional_files(file, use_additional)
 
-    if resolved_file_names:
-        return resolved_file_names
+        if resolved_file_names:
+            return resolved_file_names
 
     if file_name == "all":
         nested_file_names = [

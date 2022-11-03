@@ -1,6 +1,6 @@
 % ROFIMOJI(1) Version 6.0.0 | Rofi Third-party Add-on Documentation
 % Fabian Winter
-% September 17, 2022
+% November 03, 2022
 
 # NAME
 
@@ -43,10 +43,11 @@ Select, insert, or copy Unicode characters like emoji using rofi.
       Decide on a skin-tone for all supported emojis. If not
       set (or set to "ask"), you will be asked for each one
 
-\--files=_FILE_ [_FILE_ ...], -f _FILE_ [_FILE_ ...]
+\--files _FILE_ [_FILE_ ...], -f _FILE_ [_FILE_ ...]
 
-:  Read characters from this file instead, one entry per line
-:  In the config file, several files need to be listed as `files=[_FILE_, _FILE_ ]`.
+:  Read characters from this file (or these files), one entry per line. Absolute and relative paths are supported, as is globbing (`--files /home/you/characters.csv ../other*.csv`).
+:  For the packaged character files, their filename without extension is enough (`--files musical_symbols supplemental_arrows`). Here, too, globbing is supported and done by default.
+:  In the config file, several files need to be listed as `files=[_FILE_, _FILE_]`.
 
 \--prompt _PROMPT_, -r _PROMPT_
 

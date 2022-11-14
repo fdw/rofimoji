@@ -1,5 +1,5 @@
 import sys
-from typing import List, Tuple, Dict
+from typing import List, Tuple, Dict, Union
 
 from . import emoji_data
 from .action import execute_action
@@ -40,7 +40,7 @@ class StandaloneRofimoji:
         save_recent_characters(characters, self.args.max_recent)
         execute_action(characters, self.args.actions, self.active_window, self.args.typer, self.args.clipboarder)
 
-    def __open_main_selector_window(self) -> Tuple[Action | DEFAULT | CANCEL, List[str] | Shortcut]:
+    def __open_main_selector_window(self) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[List[str], Shortcut]]:
         return self.selector.show_character_selection(
             self.__format_characters(
                 read_characters_from_files(self.args.files, load_frecent_characters(), self.args.use_additional)

@@ -32,7 +32,7 @@ class Selector:
         prompt: str,
         keybindings: Dict[Action, str],
         additional_args: List[str],
-    ) -> Tuple[Action | DEFAULT | CANCEL, List[str] | Shortcut]:
+    ) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[List[str], Shortcut]]:
         raise NoSelectorFoundException()
 
     def show_skin_tone_selection(
@@ -63,7 +63,7 @@ class Rofi(Selector):
         prompt: str,
         keybindings: Dict[Action, str],
         additional_args: List[str],
-    ) -> Tuple[Action | DEFAULT | CANCEL, List[str] | Shortcut]:
+    ) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[List[str], Shortcut]]:
         parameters = [
             "rofi",
             "-dmenu",
@@ -164,7 +164,7 @@ class Wofi(Selector):
         prompt: str,
         keybindings: Dict[Action, str],
         additional_args: List[str],
-    ) -> Tuple[Action | DEFAULT | CANCEL, List[str] | Shortcut]:
+    ) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[List[str], Shortcut]]:
         parameters = ["wofi", "--dmenu", "--allow-markup", "-i", "-p", prompt, *additional_args]
 
         wofi = run(parameters, input="\n".join(characters), capture_output=True, encoding="utf-8")

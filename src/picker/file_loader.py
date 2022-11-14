@@ -7,9 +7,8 @@ from .paths import *
 def read_characters_from_files(files: List[str], frecent: List[str], use_additional: bool) -> Dict[str, str]:
     all_characters: Dict[str, List[str]] = {}
 
-    if frecent:
-        for character in frecent:
-            all_characters[character] = []
+    for character in frecent:
+        all_characters[character] = []
 
     for file in __resolve_all_filenames(files, use_additional):
         characters_from_file = __load_from_file(file)

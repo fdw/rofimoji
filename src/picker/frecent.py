@@ -21,7 +21,7 @@ def __load_frecent_characters() -> Dict[str, float]:
     return frecencies
 
 
-def save_frecent_characters(chosen_character: str) -> None:  # TODO: Do this for List[str]
+def save_frecent_characters(chosen_character: str) -> None:
     new_file_name = frecency_file_location.with_name("frecency.tmp")
 
     new_file_name.parent.mkdir(parents=True, exist_ok=True)

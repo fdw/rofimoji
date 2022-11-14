@@ -127,7 +127,9 @@ class ModeRofimoji:
             state.output += f"\x00message\x1f{recent_characters}"
         state.output += "\n".join(
             self.__format_characters(
-                read_characters_from_files(self.args.files, load_frecent_characters(), self.args.use_additional)
+                read_characters_from_files(
+                    self.args.files, load_frecent_characters() if self.args.frecency else [], self.args.use_additional
+                )
             )
         )
         state.output += "\n"

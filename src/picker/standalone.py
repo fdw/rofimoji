@@ -43,7 +43,9 @@ class StandaloneRofimoji:
     def __open_main_selector_window(self) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[List[str], Shortcut]]:
         return self.selector.show_character_selection(
             self.__format_characters(
-                read_characters_from_files(self.args.files, load_frecent_characters(), self.args.use_additional)
+                read_characters_from_files(
+                    self.args.files, load_frecent_characters() if self.args.frecency else [], self.args.use_additional
+                )
             ),
             load_recent_characters(self.args.max_recent),
             self.args.prompt,

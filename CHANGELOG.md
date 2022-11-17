@@ -1,3 +1,12 @@
+# [NEXT]
+## Added
+- Support [fuzzel](https://codeberg.org/dnkl/fuzzel)
+- `~` is expanded for `--files`. (#136)
+
+## Fixed
+- Restored compatibility with Python 3.8. (#137)
+- Fixed regression that ignored `--no-frecency`. (#138)
+
 # [6.0.0]
 ## Changed
 - `rofimoji` uses [Poetry](https://python-poetry.org/) for package management. With this comes the requirement for Python 3.8.

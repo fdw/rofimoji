@@ -198,6 +198,55 @@ class Wofi(Selector):
         return [Action(wofi.stdout.strip())]
 
 
+class Fuzzel(Selector):
+    @staticmethod
+    def supported() -> bool:
+        return is_wayland() and is_installed("fuzzel")
+
+    @staticmethod
+    def name() -> str:
+        return "fuzzel"
+
+    def show_character_selection(
+        self,
+        characters: List[str],
+        recent_characters: List[str],
+        prompt: str,
+        keybindings: Dict[Action, str],
+        additional_args: List[str],
+    ) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[List[str], Shortcut]]:
+        parameters = ["fuzzel", "--dmenu", "--fuzzy-min-length", "1", "-p", prompt, *additional_args]
+
+        fuzzel = run(parameters, input="\n".join(characters), capture_output=True, encoding="utf-8")
+        return DEFAULT(), [self.extract_char_from_input(line) for line in fuzzel.stdout.splitlines()]
+
+    def show_skin_tone_selection(
+        self, tones_emojis: List[str], prompt: str, additional_args: List[str]
+    ) -> Tuple[int, str]:
+        fuzzel = run(
+            ["fuzzel", "--dmenu", "--fuzzy-min-length", "1", "-p", prompt, *additional_args],
+            input="\n".join(tones_emojis),
+            capture_output=True,
+            encoding="utf-8",
+        )
+
+        return fuzzel.returncode, fuzzel.stdout
+
+    def show_action_menu(self, additional_args: List[str]) -> List[Action]:
+        fuzzel = run(
+            [
+                "fuzzel",
+                "-dmenu",
+                *additional_args,
+            ],
+            input="\n".join([it.value for it in Action if it != Action.MENU]),
+            capture_output=True,
+            encoding="utf-8",
+        )
+
+        return [Action(fuzzel.stdout.strip())]
+
+
 class NoSelectorFoundException(Exception):
     def __str__(self) -> str:
         return "Could not find a valid way to show the selection. Please check the required dependencies."

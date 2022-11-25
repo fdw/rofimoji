@@ -1,6 +1,5 @@
 import argparse
 import shlex
-from typing import List
 
 import configargparse
 

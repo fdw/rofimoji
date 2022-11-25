@@ -1,5 +1,5 @@
 import sys
-from typing import List, Tuple, Dict, Union
+from typing import Dict, List, Tuple, Union
 
 from . import emoji_data
 from .action import execute_action

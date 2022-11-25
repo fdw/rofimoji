@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "rofimoji"
-version = "6.0.0"
+version = "6.1.0-dev1"
 description = "Simple character picker using rofi"
 authors = ["Fabian Winter <5821180+fdw@users.noreply.github.com>"]
 license = "MIT"

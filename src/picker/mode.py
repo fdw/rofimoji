@@ -4,7 +4,7 @@ import sys
 from dataclasses import dataclass
 from enum import IntEnum, auto
 from pickle import dump, load
-from typing import List, Optional, Dict
+from typing import Dict, List, Optional
 
 from . import emoji_data
 from .action import execute_action

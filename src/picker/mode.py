@@ -183,6 +183,7 @@ class ModeRofimoji:
     def select_skin_tone(self, state: State) -> None:
         if state.has_input:
             state.processed_characters += self.__extract_char_from_input(state.current_input)
+            state.unprocessed_characters.pop()
 
         for raw_character in state.unprocessed_characters:
             character = self.__extract_char_from_input(raw_character)
@@ -195,6 +196,7 @@ class ModeRofimoji:
                     character + modifier + " " + emoji_data.fitzpatrick_modifiers[modifier]
                     for modifier in emoji_data.fitzpatrick_modifiers
                 )
+                return
 
         state.step += 1
 

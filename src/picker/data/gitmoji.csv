@@ -64,10 +64,10 @@
 🧐 data exploration/inspection.
 ⚰ remove dead code.
 🧪 add a failing test.
-👔 add or update business logic
+👔 add or update business logic.
 🩺 add or update healthcheck.
 🧱 infrastructure related changes.
-🧑 improve developer experience
+🧑 improve developer experience.
 💸 add sponsorships or money related infrastructure.
 🧵 add or update code related to multithreading or concurrency.
 🦺 add or update code related to validation.

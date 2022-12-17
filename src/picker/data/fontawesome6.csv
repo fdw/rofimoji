@@ -136,6 +136,7 @@ B fa-b
  fa-ban-smoking <small>(fa-smoking-ban)</small>
  fa-bandage <small>(fa-band-aid)</small>
  fa-bandcamp
+ fa-bangladeshi-taka-sign
  fa-barcode
  fa-bars <small>(fa-navicon)</small>
  fa-bars-progress <small>(fa-tasks-alt)</small>
@@ -340,9 +341,9 @@ C fa-c
  fa-chevron-right
  fa-chevron-up
  fa-child
+ fa-child-combatant <small>(fa-child-rifle)</small>
  fa-child-dress
  fa-child-reaching
- fa-child-rifle
  fa-children
  fa-chrome
  fa-chromecast
@@ -1125,6 +1126,7 @@ N fa-n
  fa-node
  fa-node-js
  fa-not-equal
+ fa-notdef
  fa-note-sticky <small>(fa-sticky-note)</small>
  fa-notes-medical
  fa-npm

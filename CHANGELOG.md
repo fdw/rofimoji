@@ -1,4 +1,8 @@
 # [NEXT]
+## Changed
+- Emoji presentation is forced for emoji with default text presentation. (#142)
+- Updates to Gitmoji, NerdFonts and FontAwesome.
+
 ## Added
 - Support [fuzzel](https://codeberg.org/dnkl/fuzzel)
 - `~` is expanded for `--files`. (#136)
@@ -6,6 +10,8 @@
 ## Fixed
 - Restored compatibility with Python 3.8. (#137)
 - Fixed regression that ignored `--no-frecency`. (#138)
+- Fixed skin tone selection in rofi mode. (#143)
+- Fix version display. (#139)
 
 # [6.0.0]
 ## Changed

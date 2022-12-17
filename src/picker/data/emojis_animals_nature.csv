@@ -50,7 +50,7 @@
 🐹 hamster <small>(face, hamster, pet)</small>
 🐰 rabbit face <small>(bunny, face, pet, rabbit)</small>
 🐇 rabbit <small>(bunny, pet, rabbit)</small>
-🐿 chipmunk <small>(chipmunk, squirrel)</small>
+🐿️ chipmunk <small>(chipmunk, squirrel)</small>
 🦫 beaver <small>(beaver, dam)</small>
 🦔 hedgehog <small>(hedgehog, spiny)</small>
 🦇 bat <small>(bat, vampire)</small>
@@ -72,7 +72,7 @@
 🐥 front-facing baby chick <small>(baby, bird, chick, front-facing baby chick)</small>
 🐦 bird <small>(bird)</small>
 🐧 penguin <small>(bird, penguin)</small>
-🕊 dove <small>(bird, dove, fly, peace)</small>
+🕊️ dove <small>(bird, dove, fly, peace)</small>
 🦅 eagle <small>(bird, eagle)</small>
 🦆 duck <small>(bird, duck)</small>
 🦢 swan <small>(bird, cygnet, swan, ugly duckling)</small>
@@ -115,8 +115,8 @@
 🐞 lady beetle <small>(beetle, insect, lady beetle, ladybird, ladybug)</small>
 🦗 cricket <small>(cricket, grasshopper)</small>
 🪳 cockroach <small>(cockroach, insect, pest, roach)</small>
-🕷 spider <small>(insect, spider)</small>
-🕸 spider web <small>(spider, web)</small>
+🕷️ spider <small>(insect, spider)</small>
+🕸️ spider web <small>(spider, web)</small>
 🦂 scorpion <small>(scorpio, Scorpio, scorpion, zodiac)</small>
 🦟 mosquito <small>(disease, fever, malaria, mosquito, pest, virus)</small>
 🪰 fly <small>(disease, fly, maggot, pest, rotting)</small>
@@ -126,7 +126,7 @@
 🌸 cherry blossom <small>(blossom, cherry, flower)</small>
 💮 white flower <small>(flower, white flower)</small>
 🪷 lotus
-🏵 rosette <small>(plant, rosette)</small>
+🏵️ rosette <small>(plant, rosette)</small>
 🌹 rose <small>(flower, rose)</small>
 🥀 wilted flower <small>(flower, wilted)</small>
 🌺 hibiscus <small>(flower, hibiscus)</small>
@@ -142,7 +142,7 @@
 🌵 cactus <small>(cactus, plant)</small>
 🌾 sheaf of rice <small>(ear, grain, rice, sheaf of rice)</small>
 🌿 herb <small>(herb, leaf)</small>
-☘ shamrock <small>(plant, shamrock)</small>
+☘️ shamrock <small>(plant, shamrock)</small>
 🍀 four leaf clover <small>(4, clover, four, four-leaf clover, leaf)</small>
 🍁 maple leaf <small>(falling, leaf, maple)</small>
 🍂 fallen leaf <small>(fallen leaf, falling, leaf)</small>

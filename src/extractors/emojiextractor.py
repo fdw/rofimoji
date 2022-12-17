@@ -21,6 +21,7 @@ class EmojiExtractor(Extractor):
     def __init__(self):
         self.__annotations = {}
         self.__all_blocks = []
+        self.__ep_emojis = []
         self.__base_emojis = []
 
     def __fetch_data(self) -> None:
@@ -29,12 +30,12 @@ class EmojiExtractor(Extractor):
             self.__fetch_annotations()
             progress.update(1)
 
-            progress.set_description("Downloading list of all emojis")
-            self.__fetch_emoji_list()
+            progress.set_description("Downloading list of additional emoji data")
+            self.__fetch_additional_data()
             progress.update(1)
 
-            progress.set_description("Downloading list of human emojis")
-            self.__base_emojis = self.__fetch_base_emojis()
+            progress.set_description("Downloading list of all emojis")
+            self.__fetch_emoji_list()
             progress.update(1)
 
     def __fetch_emoji_list(self) -> None:
@@ -55,7 +56,14 @@ class EmojiExtractor(Extractor):
             elif not row.th:
                 emoji = row.find("td", {"class": "chars"}).string
                 description = row.find("td", {"class": "name"}).string.replace("⊛ ", "")
-                current_emojis.append(Character(emoji, description, "L", self.__annotations.get(emoji, None)))
+                current_emojis.append(
+                    Character(
+                        emoji if emoji in self.__ep_emojis or len(emoji) > 1 else f"{emoji}️",
+                        description,
+                        "L",
+                        self.__annotations.get(emoji, None),
+                    )
+                )
 
         self.__all_blocks.append(Block(current_title, current_emojis))
 
@@ -68,22 +76,41 @@ class EmojiExtractor(Extractor):
         for element in xpath(etree.fromstring(data.content)):
             self.__annotations[element.get("cp")] = element.text.split(" | ")
 
-    def __fetch_base_emojis(self) -> List[str]:
+    def __fetch_additional_data(self) -> None:
+        def __extract_ep_emojis() -> None:
+            started = False
+            emojis = []
+            for line in emoji_data:
+                if not started and not line.startswith("# All omitted code points have Emoji_Presentation=No"):
+                    continue
+                else:
+                    started = True
+                if line.startswith("# Total elements:"):
+                    break
+                if line and not line.startswith("#"):
+                    emojis.extend(self.__resolve_character_range(line.split(";")[0].strip()))
+
+            self.__ep_emojis = emojis
+
+        def __extract_base_emojis() -> None:
+            started = False
+            emojis = []
+            for line in emoji_data:
+                if not started and not line.startswith("# All omitted code points have Emoji_Modifier_Base=No"):
+                    continue
+                else:
+                    started = True
+                if line.startswith("# Total elements:"):
+                    break
+                if line and not line.startswith("#"):
+                    emojis.extend(self.__resolve_character_range(line.split(";")[0].strip()))
+
+            self.__base_emojis = emojis
+
         data: requests.Response = requests.get("https://unicode.org/Public/15.0.0/ucd/emoji/emoji-data.txt", timeout=60)
-
-        started = False
-        emojis = []
-        for line in data.text.split("\n"):
-            if not started and not line.startswith("# All omitted code points have Emoji_Modifier_Base=No"):
-                continue
-            else:
-                started = True
-            if line.startswith("# Total elements:"):
-                break
-            if line and not line.startswith("#"):
-                emojis.extend(self.__resolve_character_range(line.split(";")[0].strip()))
-
-        return emojis
+        emoji_data = data.text.split("\n")
+        __extract_ep_emojis()
+        __extract_base_emojis()
 
     def __resolve_character_range(self, line: str) -> List[str]:
         try:

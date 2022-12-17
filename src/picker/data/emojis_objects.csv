@@ -1,5 +1,5 @@
 👓 glasses <small>(clothing, eye, eyeglasses, eyewear, glasses)</small>
-🕶 sunglasses <small>(dark, eye, eyewear, glasses, sunglasses)</small>
+🕶️ sunglasses <small>(dark, eye, eyewear, glasses, sunglasses)</small>
 🥽 goggles <small>(eye protection, goggles, swimming, welding)</small>
 🥼 lab coat <small>(doctor, experiment, lab coat, scientist)</small>
 🦺 safety vest <small>(emergency, safety, vest)</small>
@@ -22,7 +22,7 @@
 👛 purse <small>(clothing, coin, purse)</small>
 👜 handbag <small>(bag, clothing, handbag, purse)</small>
 👝 clutch bag <small>(bag, clothing, clutch bag, pouch)</small>
-🛍 shopping bags <small>(bag, hotel, shopping, shopping bags)</small>
+🛍️ shopping bags <small>(bag, hotel, shopping, shopping bags)</small>
 🎒 backpack <small>(backpack, bag, rucksack, satchel, school)</small>
 🩴 thong sandal <small>(beach sandals, sandals, thong sandal, thong sandals, thongs, zōri)</small>
 👞 man’s shoe <small>(clothing, man, man’s shoe, shoe)</small>
@@ -40,7 +40,7 @@
 🎓 graduation cap <small>(cap, celebration, clothing, graduation, hat)</small>
 🧢 billed cap <small>(baseball cap, billed cap)</small>
 🪖 military helmet <small>(army, helmet, military, soldier, warrior)</small>
-⛑ rescue worker’s helmet <small>(aid, cross, face, hat, helmet, rescue worker’s helmet)</small>
+⛑️ rescue worker’s helmet <small>(aid, cross, face, hat, helmet, rescue worker’s helmet)</small>
 📿 prayer beads <small>(beads, clothing, necklace, prayer, religion)</small>
 💄 lipstick <small>(cosmetics, lipstick, makeup)</small>
 💍 ring <small>(diamond, ring)</small>
@@ -57,9 +57,9 @@
 🎼 musical score <small>(music, musical score, score)</small>
 🎵 musical note <small>(music, musical note, note)</small>
 🎶 musical notes <small>(music, musical notes, note, notes)</small>
-🎙 studio microphone <small>(mic, microphone, music, studio)</small>
-🎚 level slider <small>(level, music, slider)</small>
-🎛 control knobs <small>(control, knobs, music)</small>
+🎙️ studio microphone <small>(mic, microphone, music, studio)</small>
+🎚️ level slider <small>(level, music, slider)</small>
+🎛️ control knobs <small>(control, knobs, music)</small>
 🎤 microphone <small>(karaoke, mic, microphone)</small>
 🎧 headphone <small>(earbud, headphone)</small>
 📻 radio <small>(radio, video)</small>
@@ -76,7 +76,7 @@
 🪈 flute
 📱 mobile phone <small>(cell, mobile, phone, telephone)</small>
 📲 mobile phone with arrow <small>(arrow, cell, mobile, mobile phone with arrow, phone, receive)</small>
-☎ telephone <small>(phone, telephone)</small>
+☎️ telephone <small>(phone, telephone)</small>
 📞 telephone receiver <small>(phone, receiver, telephone)</small>
 📟 pager <small>(pager)</small>
 📠 fax machine <small>(fax, fax machine)</small>
@@ -84,19 +84,19 @@
 🪫 low battery
 🔌 electric plug <small>(electric, electricity, plug)</small>
 💻 laptop <small>(computer, laptop, pc, personal)</small>
-🖥 desktop computer <small>(computer, desktop)</small>
-🖨 printer <small>(computer, printer)</small>
-⌨ keyboard <small>(computer, keyboard)</small>
-🖱 computer mouse <small>(computer, computer mouse)</small>
-🖲 trackball <small>(computer, trackball)</small>
+🖥️ desktop computer <small>(computer, desktop)</small>
+🖨️ printer <small>(computer, printer)</small>
+⌨️ keyboard <small>(computer, keyboard)</small>
+🖱️ computer mouse <small>(computer, computer mouse)</small>
+🖲️ trackball <small>(computer, trackball)</small>
 💽 computer disk <small>(computer, disk, minidisk, optical)</small>
 💾 floppy disk <small>(computer, disk, floppy)</small>
 💿 optical disk <small>(cd, computer, disk, optical)</small>
 📀 dvd <small>(blu-ray, computer, disk, dvd, optical)</small>
 🧮 abacus <small>(abacus, calculation)</small>
 🎥 movie camera <small>(camera, cinema, movie)</small>
-🎞 film frames <small>(cinema, film, frames, movie)</small>
-📽 film projector <small>(cinema, film, movie, projector, video)</small>
+🎞️ film frames <small>(cinema, film, frames, movie)</small>
+📽️ film projector <small>(cinema, film, movie, projector, video)</small>
 🎬 clapper board <small>(clapper, clapper board, movie)</small>
 📺 television <small>(television, tv, video)</small>
 📷 camera <small>(camera, video)</small>
@@ -105,7 +105,7 @@
 📼 videocassette <small>(tape, vhs, video, videocassette)</small>
 🔍 magnifying glass tilted left <small>(glass, magnifying, magnifying glass tilted left, search, tool)</small>
 🔎 magnifying glass tilted right <small>(glass, magnifying, magnifying glass tilted right, search, tool)</small>
-🕯 candle <small>(candle, light)</small>
+🕯️ candle <small>(candle, light)</small>
 💡 light bulb <small>(bulb, comic, electric, idea, light)</small>
 🔦 flashlight <small>(electric, flashlight, light, tool, torch)</small>
 🏮 red paper lantern <small>(bar, lantern, light, red, red paper lantern)</small>
@@ -123,10 +123,10 @@
 📜 scroll <small>(paper, scroll)</small>
 📄 page facing up <small>(document, page, page facing up)</small>
 📰 newspaper <small>(news, newspaper, paper)</small>
-🗞 rolled-up newspaper <small>(news, newspaper, paper, rolled, rolled-up newspaper)</small>
+🗞️ rolled-up newspaper <small>(news, newspaper, paper, rolled, rolled-up newspaper)</small>
 📑 bookmark tabs <small>(bookmark, mark, marker, tabs)</small>
 🔖 bookmark <small>(bookmark, mark)</small>
-🏷 label <small>(label)</small>
+🏷️ label <small>(label)</small>
 💰 money bag <small>(bag, dollar, money, moneybag)</small>
 🪙 coin <small>(coin, gold, metal, money, silver, treasure)</small>
 💴 yen banknote <small>(banknote, bill, currency, money, note, yen)</small>
@@ -137,7 +137,7 @@
 💳 credit card <small>(card, credit, money)</small>
 🧾 receipt <small>(accounting, bookkeeping, evidence, proof, receipt)</small>
 💹 chart increasing with yen <small>(chart, chart increasing with yen, graph, growth, money, yen)</small>
-✉ envelope <small>(email, envelope, letter)</small>
+✉️ envelope <small>(email, envelope, letter)</small>
 📧 e-mail <small>(e-mail, email, letter, mail)</small>
 📨 incoming envelope <small>(e-mail, email, envelope, incoming, letter, receive)</small>
 📩 envelope with arrow <small>(arrow, e-mail, email, envelope, envelope with arrow, outgoing)</small>
@@ -149,22 +149,22 @@
 📬 open mailbox with raised flag <small>(mail, mailbox, open, open mailbox with raised flag, postbox)</small>
 📭 open mailbox with lowered flag <small>(lowered, mail, mailbox, open, open mailbox with lowered flag, postbox)</small>
 📮 postbox <small>(mail, mailbox, postbox)</small>
-🗳 ballot box with ballot <small>(ballot, ballot box with ballot, box)</small>
-✏ pencil <small>(pencil)</small>
-✒ black nib <small>(black nib, nib, pen)</small>
-🖋 fountain pen <small>(fountain, pen)</small>
-🖊 pen <small>(ballpoint, pen)</small>
-🖌 paintbrush <small>(paintbrush, painting)</small>
-🖍 crayon <small>(crayon)</small>
+🗳️ ballot box with ballot <small>(ballot, ballot box with ballot, box)</small>
+✏️ pencil <small>(pencil)</small>
+✒️ black nib <small>(black nib, nib, pen)</small>
+🖋️ fountain pen <small>(fountain, pen)</small>
+🖊️ pen <small>(ballpoint, pen)</small>
+🖌️ paintbrush <small>(paintbrush, painting)</small>
+🖍️ crayon <small>(crayon)</small>
 📝 memo <small>(memo, pencil)</small>
 💼 briefcase <small>(briefcase)</small>
 📁 file folder <small>(file, folder)</small>
 📂 open file folder <small>(file, folder, open)</small>
-🗂 card index dividers <small>(card, dividers, index)</small>
+🗂️ card index dividers <small>(card, dividers, index)</small>
 📅 calendar <small>(calendar, date)</small>
 📆 tear-off calendar <small>(calendar, tear-off calendar)</small>
-🗒 spiral notepad <small>(note, pad, spiral, spiral notepad)</small>
-🗓 spiral calendar <small>(calendar, pad, spiral)</small>
+🗒️ spiral notepad <small>(note, pad, spiral, spiral notepad)</small>
+🗓️ spiral calendar <small>(calendar, pad, spiral)</small>
 📇 card index <small>(card, index, rolodex)</small>
 📈 chart increasing <small>(chart, chart increasing, graph, growth, trend, upward)</small>
 📉 chart decreasing <small>(chart, chart decreasing, down, graph, trend)</small>
@@ -173,45 +173,45 @@
 📌 pushpin <small>(pin, pushpin)</small>
 📍 round pushpin <small>(pin, pushpin, round pushpin)</small>
 📎 paperclip <small>(paperclip)</small>
-🖇 linked paperclips <small>(link, linked paperclips, paperclip)</small>
+🖇️ linked paperclips <small>(link, linked paperclips, paperclip)</small>
 📏 straight ruler <small>(ruler, straight edge, straight ruler)</small>
 📐 triangular ruler <small>(ruler, set, triangle, triangular ruler)</small>
-✂ scissors <small>(cutting, scissors, tool)</small>
-🗃 card file box <small>(box, card, file)</small>
-🗄 file cabinet <small>(cabinet, file, filing)</small>
-🗑 wastebasket <small>(wastebasket)</small>
+✂️ scissors <small>(cutting, scissors, tool)</small>
+🗃️ card file box <small>(box, card, file)</small>
+🗄️ file cabinet <small>(cabinet, file, filing)</small>
+🗑️ wastebasket <small>(wastebasket)</small>
 🔒 locked <small>(closed, locked)</small>
 🔓 unlocked <small>(lock, open, unlock, unlocked)</small>
 🔏 locked with pen <small>(ink, lock, locked with pen, nib, pen, privacy)</small>
 🔐 locked with key <small>(closed, key, lock, locked with key, secure)</small>
 🔑 key <small>(key, lock, password)</small>
-🗝 old key <small>(clue, key, lock, old)</small>
+🗝️ old key <small>(clue, key, lock, old)</small>
 🔨 hammer <small>(hammer, tool)</small>
 🪓 axe <small>(axe, chop, hatchet, split, wood)</small>
-⛏ pick <small>(mining, pick, tool)</small>
-⚒ hammer and pick <small>(hammer, hammer and pick, pick, tool)</small>
-🛠 hammer and wrench <small>(hammer, hammer and wrench, spanner, tool, wrench)</small>
-🗡 dagger <small>(dagger, knife, weapon)</small>
-⚔ crossed swords <small>(crossed, swords, weapon)</small>
+⛏️ pick <small>(mining, pick, tool)</small>
+⚒️ hammer and pick <small>(hammer, hammer and pick, pick, tool)</small>
+🛠️ hammer and wrench <small>(hammer, hammer and wrench, spanner, tool, wrench)</small>
+🗡️ dagger <small>(dagger, knife, weapon)</small>
+⚔️ crossed swords <small>(crossed, swords, weapon)</small>
 💣 bomb <small>(bomb, comic)</small>
 🪃 boomerang <small>(australia, boomerang, rebound, repercussion)</small>
 🏹 bow and arrow <small>(archer, arrow, bow, bow and arrow, Sagittarius, zodiac)</small>
-🛡 shield <small>(shield, weapon)</small>
+🛡️ shield <small>(shield, weapon)</small>
 🪚 carpentry saw <small>(carpenter, carpentry saw, lumber, saw, tool)</small>
 🔧 wrench <small>(spanner, tool, wrench)</small>
 🪛 screwdriver <small>(screw, screwdriver, tool)</small>
 🔩 nut and bolt <small>(bolt, nut, nut and bolt, tool)</small>
-⚙ gear <small>(cog, cogwheel, gear, tool)</small>
-🗜 clamp <small>(clamp, compress, tool, vice)</small>
-⚖ balance scale <small>(balance, justice, Libra, scale, zodiac)</small>
+⚙️ gear <small>(cog, cogwheel, gear, tool)</small>
+🗜️ clamp <small>(clamp, compress, tool, vice)</small>
+⚖️ balance scale <small>(balance, justice, Libra, scale, zodiac)</small>
 🦯 white cane <small>(accessibility, blind, white cane)</small>
 🔗 link <small>(link)</small>
-⛓ chains <small>(chain, chains)</small>
+⛓️ chains <small>(chain, chains)</small>
 🪝 hook <small>(catch, crook, curve, ensnare, hook, selling point)</small>
 🧰 toolbox <small>(chest, mechanic, tool, toolbox)</small>
 🧲 magnet <small>(attraction, horseshoe, magnet, magnetic)</small>
 🪜 ladder <small>(climb, ladder, rung, step)</small>
-⚗ alembic <small>(alembic, chemistry, tool)</small>
+⚗️ alembic <small>(alembic, chemistry, tool)</small>
 🧪 test tube <small>(chemist, chemistry, experiment, lab, science, test tube)</small>
 🧫 petri dish <small>(bacteria, biologist, biology, culture, lab, petri dish)</small>
 🧬 dna <small>(biologist, dna, evolution, gene, genetics, life)</small>
@@ -229,8 +229,8 @@
 🛗 elevator <small>(accessibility, elevator, hoist, lift)</small>
 🪞 mirror <small>(mirror, reflection, reflector, speculum)</small>
 🪟 window <small>(frame, fresh air, opening, transparent, view, window)</small>
-🛏 bed <small>(bed, hotel, sleep)</small>
-🛋 couch and lamp <small>(couch, couch and lamp, hotel, lamp)</small>
+🛏️ bed <small>(bed, hotel, sleep)</small>
+🛋️ couch and lamp <small>(couch, couch and lamp, hotel, lamp)</small>
 🪑 chair <small>(chair, seat, sit)</small>
 🚽 toilet <small>(toilet)</small>
 🪠 plunger <small>(force cup, plumber, plunger, suction, toilet)</small>
@@ -251,9 +251,9 @@
 🧯 fire extinguisher <small>(extinguish, fire, fire extinguisher, quench)</small>
 🛒 shopping cart <small>(cart, shopping, trolley)</small>
 🚬 cigarette <small>(cigarette, smoking)</small>
-⚰ coffin <small>(coffin, death)</small>
+⚰️ coffin <small>(coffin, death)</small>
 🪦 headstone <small>(cemetery, grave, graveyard, headstone, tombstone)</small>
-⚱ funeral urn <small>(ashes, death, funeral, urn)</small>
+⚱️ funeral urn <small>(ashes, death, funeral, urn)</small>
 🧿 nazar amulet <small>(bead, charm, evil-eye, nazar, nazar amulet, talisman)</small>
 🪬 hamsa
 🗿 moai <small>(face, moai, moyai, statue)</small>

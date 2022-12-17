@@ -2,27 +2,27 @@
 🌎 globe showing Americas <small>(Americas, earth, globe, globe showing Americas, world)</small>
 🌏 globe showing Asia-Australia <small>(Asia, Australia, earth, globe, globe showing Asia-Australia, world)</small>
 🌐 globe with meridians <small>(earth, globe, globe with meridians, meridians, world)</small>
-🗺 world map <small>(map, world)</small>
+🗺️ world map <small>(map, world)</small>
 🗾 map of Japan <small>(Japan, map, map of Japan)</small>
 🧭 compass <small>(compass, magnetic, navigation, orienteering)</small>
-🏔 snow-capped mountain <small>(cold, mountain, snow, snow-capped mountain)</small>
-⛰ mountain <small>(mountain)</small>
+🏔️ snow-capped mountain <small>(cold, mountain, snow, snow-capped mountain)</small>
+⛰️ mountain <small>(mountain)</small>
 🌋 volcano <small>(eruption, mountain, volcano)</small>
 🗻 mount fuji <small>(fuji, mount fuji, mountain)</small>
-🏕 camping <small>(camping)</small>
-🏖 beach with umbrella <small>(beach, beach with umbrella, umbrella)</small>
-🏜 desert <small>(desert)</small>
-🏝 desert island <small>(desert, island)</small>
-🏞 national park <small>(national park, park)</small>
-🏟 stadium <small>(stadium)</small>
-🏛 classical building <small>(classical, classical building)</small>
-🏗 building construction <small>(building construction, construction)</small>
+🏕️ camping <small>(camping)</small>
+🏖️ beach with umbrella <small>(beach, beach with umbrella, umbrella)</small>
+🏜️ desert <small>(desert)</small>
+🏝️ desert island <small>(desert, island)</small>
+🏞️ national park <small>(national park, park)</small>
+🏟️ stadium <small>(stadium)</small>
+🏛️ classical building <small>(classical, classical building)</small>
+🏗️ building construction <small>(building construction, construction)</small>
 🧱 brick <small>(brick, bricks, clay, mortar, wall)</small>
 🪨 rock <small>(boulder, heavy, rock, solid, stone)</small>
 🪵 wood <small>(log, lumber, timber, wood)</small>
 🛖 hut <small>(house, hut, roundhouse, yurt)</small>
-🏘 houses <small>(houses)</small>
-🏚 derelict house <small>(derelict, house)</small>
+🏘️ houses <small>(houses)</small>
+🏚️ derelict house <small>(derelict, house)</small>
 🏠 house <small>(home, house)</small>
 🏡 house with garden <small>(garden, home, house, house with garden)</small>
 🏢 office building <small>(building, office building)</small>
@@ -45,19 +45,19 @@
 🕌 mosque <small>(islam, mosque, Muslim, religion)</small>
 🛕 hindu temple <small>(hindu, temple)</small>
 🕍 synagogue <small>(Jew, Jewish, religion, synagogue, temple)</small>
-⛩ shinto shrine <small>(religion, shinto, shrine)</small>
+⛩️ shinto shrine <small>(religion, shinto, shrine)</small>
 🕋 kaaba <small>(islam, kaaba, Muslim, religion)</small>
 ⛲ fountain <small>(fountain)</small>
 ⛺ tent <small>(camping, tent)</small>
 🌁 foggy <small>(fog, foggy)</small>
 🌃 night with stars <small>(night, night with stars, star)</small>
-🏙 cityscape <small>(city, cityscape)</small>
+🏙️ cityscape <small>(city, cityscape)</small>
 🌄 sunrise over mountains <small>(morning, mountain, sun, sunrise, sunrise over mountains)</small>
 🌅 sunrise <small>(morning, sun, sunrise)</small>
 🌆 cityscape at dusk <small>(city, cityscape at dusk, dusk, evening, landscape, sunset)</small>
 🌇 sunset <small>(dusk, sun, sunset)</small>
 🌉 bridge at night <small>(bridge, bridge at night, night)</small>
-♨ hot springs <small>(hot, hotsprings, springs, steaming)</small>
+♨️ hot springs <small>(hot, hotsprings, springs, steaming)</small>
 🎠 carousel horse <small>(carousel, horse)</small>
 🛝 playground slide
 🎡 ferris wheel <small>(amusement park, ferris, wheel)</small>
@@ -93,8 +93,8 @@
 🚚 delivery truck <small>(delivery, truck)</small>
 🚛 articulated lorry <small>(articulated lorry, lorry, semi, truck)</small>
 🚜 tractor <small>(tractor, vehicle)</small>
-🏎 racing car <small>(car, racing)</small>
-🏍 motorcycle <small>(motorcycle, racing)</small>
+🏎️ racing car <small>(car, racing)</small>
+🏍️ motorcycle <small>(motorcycle, racing)</small>
 🛵 motor scooter <small>(motor, scooter)</small>
 🦽 manual wheelchair <small>(accessibility, manual wheelchair)</small>
 🦼 motorized wheelchair <small>(accessibility, motorized wheelchair)</small>
@@ -104,9 +104,9 @@
 🛹 skateboard <small>(board, skateboard)</small>
 🛼 roller skate <small>(roller, skate)</small>
 🚏 bus stop <small>(bus, busstop, stop)</small>
-🛣 motorway <small>(highway, motorway, road)</small>
-🛤 railway track <small>(railway, railway track, train)</small>
-🛢 oil drum <small>(drum, oil)</small>
+🛣️ motorway <small>(highway, motorway, road)</small>
+🛤️ railway track <small>(railway, railway track, train)</small>
+🛢️ oil drum <small>(drum, oil)</small>
 ⛽ fuel pump <small>(diesel, fuel, fuelpump, gas, pump, station)</small>
 🛞 wheel
 🚨 police car light <small>(beacon, car, light, police, revolving)</small>
@@ -119,12 +119,12 @@
 ⛵ sailboat <small>(boat, resort, sailboat, sea, yacht)</small>
 🛶 canoe <small>(boat, canoe)</small>
 🚤 speedboat <small>(boat, speedboat)</small>
-🛳 passenger ship <small>(passenger, ship)</small>
-⛴ ferry <small>(boat, ferry, passenger)</small>
-🛥 motor boat <small>(boat, motor boat, motorboat)</small>
+🛳️ passenger ship <small>(passenger, ship)</small>
+⛴️ ferry <small>(boat, ferry, passenger)</small>
+🛥️ motor boat <small>(boat, motor boat, motorboat)</small>
 🚢 ship <small>(boat, passenger, ship)</small>
-✈ airplane <small>(aeroplane, airplane)</small>
-🛩 small airplane <small>(aeroplane, airplane, small airplane)</small>
+✈️ airplane <small>(aeroplane, airplane)</small>
+🛩️ small airplane <small>(aeroplane, airplane, small airplane)</small>
 🛫 airplane departure <small>(aeroplane, airplane, check-in, departure, departures)</small>
 🛬 airplane arrival <small>(aeroplane, airplane, airplane arrival, arrivals, arriving, landing)</small>
 🪂 parachute <small>(hang-glide, parachute, parasail, skydive)</small>
@@ -133,18 +133,18 @@
 🚟 suspension railway <small>(railway, suspension)</small>
 🚠 mountain cableway <small>(cable, gondola, mountain, mountain cableway)</small>
 🚡 aerial tramway <small>(aerial, cable, car, gondola, tramway)</small>
-🛰 satellite <small>(satellite, space)</small>
+🛰️ satellite <small>(satellite, space)</small>
 🚀 rocket <small>(rocket, space)</small>
 🛸 flying saucer <small>(flying saucer, UFO)</small>
-🛎 bellhop bell <small>(bell, bellhop, hotel)</small>
+🛎️ bellhop bell <small>(bell, bellhop, hotel)</small>
 🧳 luggage <small>(luggage, packing, travel)</small>
 ⌛ hourglass done <small>(hourglass done, sand, timer)</small>
 ⏳ hourglass not done <small>(hourglass, hourglass not done, sand, timer)</small>
 ⌚ watch <small>(clock, watch)</small>
 ⏰ alarm clock <small>(alarm, clock)</small>
-⏱ stopwatch <small>(clock, stopwatch)</small>
-⏲ timer clock <small>(clock, timer)</small>
-🕰 mantelpiece clock <small>(clock, mantelpiece clock)</small>
+⏱️ stopwatch <small>(clock, stopwatch)</small>
+⏲️ timer clock <small>(clock, timer)</small>
+🕰️ mantelpiece clock <small>(clock, mantelpiece clock)</small>
 🕛 twelve o’clock <small>(00, 12, 12:00, clock, o’clock, twelve)</small>
 🕧 twelve-thirty <small>(12, 12:30, clock, thirty, twelve, twelve-thirty)</small>
 🕐 one o’clock <small>(00, 1, 1:00, clock, o’clock, one)</small>
@@ -181,8 +181,8 @@
 🌚 new moon face <small>(face, moon, new moon face)</small>
 🌛 first quarter moon face <small>(face, first quarter moon face, moon, quarter)</small>
 🌜 last quarter moon face <small>(face, last quarter moon face, moon, quarter)</small>
-🌡 thermometer <small>(thermometer, weather)</small>
-☀ sun <small>(bright, rays, sun, sunny)</small>
+🌡️ thermometer <small>(thermometer, weather)</small>
+☀️ sun <small>(bright, rays, sun, sunny)</small>
 🌝 full moon face <small>(bright, face, full, moon)</small>
 🌞 sun with face <small>(bright, face, sun, sun with face)</small>
 🪐 ringed planet <small>(ringed planet, saturn, saturnine)</small>
@@ -190,29 +190,29 @@
 🌟 glowing star <small>(glittery, glow, glowing star, shining, sparkle, star)</small>
 🌠 shooting star <small>(falling, shooting, star)</small>
 🌌 milky way <small>(milky way, space)</small>
-☁ cloud <small>(cloud, weather)</small>
+☁️ cloud <small>(cloud, weather)</small>
 ⛅ sun behind cloud <small>(cloud, sun, sun behind cloud)</small>
-⛈ cloud with lightning and rain <small>(cloud, cloud with lightning and rain, rain, thunder)</small>
-🌤 sun behind small cloud <small>(cloud, sun, sun behind small cloud)</small>
-🌥 sun behind large cloud <small>(cloud, sun, sun behind large cloud)</small>
-🌦 sun behind rain cloud <small>(cloud, rain, sun, sun behind rain cloud)</small>
-🌧 cloud with rain <small>(cloud, cloud with rain, rain)</small>
-🌨 cloud with snow <small>(cloud, cloud with snow, cold, snow)</small>
-🌩 cloud with lightning <small>(cloud, cloud with lightning, lightning)</small>
-🌪 tornado <small>(cloud, tornado, whirlwind)</small>
-🌫 fog <small>(cloud, fog)</small>
-🌬 wind face <small>(blow, cloud, face, wind)</small>
+⛈️ cloud with lightning and rain <small>(cloud, cloud with lightning and rain, rain, thunder)</small>
+🌤️ sun behind small cloud <small>(cloud, sun, sun behind small cloud)</small>
+🌥️ sun behind large cloud <small>(cloud, sun, sun behind large cloud)</small>
+🌦️ sun behind rain cloud <small>(cloud, rain, sun, sun behind rain cloud)</small>
+🌧️ cloud with rain <small>(cloud, cloud with rain, rain)</small>
+🌨️ cloud with snow <small>(cloud, cloud with snow, cold, snow)</small>
+🌩️ cloud with lightning <small>(cloud, cloud with lightning, lightning)</small>
+🌪️ tornado <small>(cloud, tornado, whirlwind)</small>
+🌫️ fog <small>(cloud, fog)</small>
+🌬️ wind face <small>(blow, cloud, face, wind)</small>
 🌀 cyclone <small>(cyclone, dizzy, hurricane, twister, typhoon)</small>
 🌈 rainbow <small>(rain, rainbow)</small>
 🌂 closed umbrella <small>(closed umbrella, clothing, rain, umbrella)</small>
-☂ umbrella <small>(clothing, rain, umbrella)</small>
+☂️ umbrella <small>(clothing, rain, umbrella)</small>
 ☔ umbrella with rain drops <small>(clothing, drop, rain, umbrella, umbrella with rain drops)</small>
-⛱ umbrella on ground <small>(rain, sun, umbrella, umbrella on ground)</small>
+⛱️ umbrella on ground <small>(rain, sun, umbrella, umbrella on ground)</small>
 ⚡ high voltage <small>(danger, electric, high voltage, lightning, voltage, zap)</small>
-❄ snowflake <small>(cold, snow, snowflake)</small>
-☃ snowman <small>(cold, snow, snowman)</small>
+❄️ snowflake <small>(cold, snow, snowflake)</small>
+☃️ snowman <small>(cold, snow, snowman)</small>
 ⛄ snowman without snow <small>(cold, snow, snowman, snowman without snow)</small>
-☄ comet <small>(comet, space)</small>
+☄️ comet <small>(comet, space)</small>
 🔥 fire <small>(fire, flame, tool)</small>
 💧 droplet <small>(cold, comic, drop, droplet, sweat)</small>
 🌊 water wave <small>(ocean, water, wave)</small>

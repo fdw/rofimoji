@@ -70,6 +70,7 @@ class Rofi(Selector):
             "-markup-rows",
             "-i",
             "-multi-select",
+            "-no-custom",
             "-ballot-unselected-str",
             "",
             "-p",
@@ -121,7 +122,7 @@ class Rofi(Selector):
         self, tones_emojis: List[str], prompt: str, additional_args: List[str]
     ) -> Tuple[int, str]:
         rofi = run(
-            ["rofi", "-dmenu", "-i", "-p", prompt, *additional_args],
+            ["rofi", "-dmenu", "-i", "-no-custom", "-p", prompt, *additional_args],
             input="\n".join(tones_emojis),
             capture_output=True,
             encoding="utf-8",
@@ -135,6 +136,7 @@ class Rofi(Selector):
                 "rofi",
                 "-dmenu",
                 "-multi-select",
+                "-no-custom",
                 "-ballot-unselected-str",
                 "",
                 "-i",

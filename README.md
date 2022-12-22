@@ -132,6 +132,7 @@ If you think your file is useful to others, please open a PR to include it in a 
 By default, `rofimoji` re-uses the existing rofi configuration, but you can pass your own using `--selector-args` (for example `--selector-args="-theme ~/your-rofi-theme.rasi"`).
 
 If you would like a more character-focussed theme, you can use packaged [`grid.rasi`](https://github.com/fdw/rofimoji/blob/main/src/picker/contrib/grid.rasi) together with the `--hidden-descriptions` paramter. This theme still imports the existing `rofi` configuration but moves the entries into a grid. Of course, you can base your own theme on this. (If you have improvements, please open a PR!)
+To use the arrow keys in `rofi` only for the grid and not the query, pass these `-selector-args`: `-kb-row-left Left -kb-row-right Right -kb-move-char-back Control+b -kb-move-char-forward Control+f`.
 
 ![Screenshot of rofimoji with a grid theme](screenshot-grid.png?raw=true)
 

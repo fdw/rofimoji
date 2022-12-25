@@ -27,7 +27,7 @@ Call `rofimoji` as a standalone tool.
 4. Hit `enter` to for the default action or use one of the [shortcuts](#actions) to do something else.\
    `alt+1` directly chooses the most most recently used character (`alt+2` for the second most recently one etc.)
 5. Maybe select a skin color
-6. 🎠
+6. 🦾
 
 ## As a rofi mode
 Integrate `rofimoji` as just another rofi mode.
@@ -98,13 +98,13 @@ By default, `rofimoji` types the characters using either `xdotool` or `wtype` (s
 For some applications (f.e. Firefox), this does not work reliably. To work around this, `rofimoji` can copy the emojis to your clipboard and insert them from there with `shift+insert`. Afterwards, it will restore the previous contents.
 Unfortunately, it depends on the receiving application whether `shift+insert` uses the clipboard or the primary selection.
 Therefore, `rofimoji` uses both and also restores both.
-To choose to spam your clipboards, you can either use the keybinding `alt+p` or start it as `rofimoji --action clipboard` (`-a clipboard`).
-If you want to use typing, you can hit `alt+t`, even though it was started with `--action clipboard`. Note that you can [change the keybindings](#options).
+To use this workaround, you can either use the keybinding `alt+p` or start it as `rofimoji --action clipboard` (`-a clipboard`).
+If you want to have it directly typed instead, you can hit `alt+t`, even though it was started with `--action clipboard`. Note that you can [change the keybindings](#options).
 
 Finally, with `--action copy` (or `-a copy`) you can also tell `rofimoji` to only copy the selected characters to your clipboard.
 
 ## Display server support
-`rofimoji` supports both X11 and Wayland by using either `rofi`, `xsel`/`xclip` and `xdotool` on X11 or `wofi`, `fuzzel` (or some adapted `rofi`), `wl-copy` and `wtype` on Wayland. It chooses automatically the right one for the currently running session.
+`rofimoji` supports both X11 and Wayland by using either `rofi`, `xsel`/`xclip` and `xdotool` on X11 or `wofi`/`fuzzel`/some other adapter `rofi`, `wl-copy` and `wtype` on Wayland. It tries to automatically choose the right one for the currently running session.
 If you want to manually overwrite this, have a look at the `--selector`, `--clipboarder` and `--typer` options [above](#options).
 
 Please note that neither `wofi` nor `fuzzel` support custom keyboard shortcuts, recent files or a grid theme at the moment.
@@ -116,7 +116,7 @@ If you don't want this, you can set `--max-recent` to `0`.
 Additionally, `rofimoji` also remembers in general which characters are used more frequently and sorts the list accordingly. You can disable this behavior with `--no-frecency`.
 
 ## Supported characters
-Obviously, `rofimoji` is mostly used for emojis. However, it also supports all (yes, all) other Unicode blocks, for example [mathematical symbols](https://github.com/fdw/rofimoji/blob/main/src/picker/data/math.csv), [Greek and Coptic](https://github.com/fdw/rofimoji/blob/main/src/picker/data/greek_and_coptic.csv) or [Linear B (Ideograms)](https://github.com/fdw/rofimoji/blob/main/src/picker/data/linear_b_ideograms.csv). Simply load them with `-f` (see [options](#options)).
+Obviously, `rofimoji` is mostly used for emojis. However, it also supports all other Unicode blocks, for example [mathematical symbols](https://github.com/fdw/rofimoji/blob/main/src/picker/data/math.csv), [Greek and Coptic](https://github.com/fdw/rofimoji/blob/main/src/picker/data/greek_and_coptic.csv) or [Linear B (Ideograms)](https://github.com/fdw/rofimoji/blob/main/src/picker/data/linear_b_ideograms.csv). Simply load them with `-f` (see [options](#options)).
 If you miss something that should be there, please open an issue.
 
 ## Custom character files and descriptions
@@ -131,7 +131,7 @@ If you think your file is useful to others, please open a PR to include it in a 
 ## Rofi theming
 By default, `rofimoji` re-uses the existing rofi configuration, but you can pass your own using `--selector-args` (for example `--selector-args="-theme ~/your-rofi-theme.rasi"`).
 
-If you would like a more character-focussed theme, you can use packaged [`grid.rasi`](https://github.com/fdw/rofimoji/blob/main/src/picker/contrib/grid.rasi) together with the `--hidden-descriptions` paramter. This theme still imports the existing `rofi` configuration but moves the entries into a grid. Of course, you can base your own theme on this. (If you have improvements, please open a PR!)
+If you would like a more character-focused theme, you can use packaged [`grid.rasi`](https://github.com/fdw/rofimoji/blob/main/src/picker/contrib/grid.rasi) together with the `--hidden-descriptions` parameter. This theme still imports the existing `rofi` configuration but moves the entries into a grid. Of course, you can base your own theme on this. (If you have improvements, please open a PR!)
 To use the arrow keys in `rofi` only for the grid and not the query, pass these `-selector-args`: `-kb-row-left Left -kb-row-right Right -kb-move-char-back Control+b -kb-move-char-forward Control+f`.
 
 ![Screenshot of rofimoji with a grid theme](screenshot-grid.png?raw=true)
@@ -155,6 +155,3 @@ What else do you need:
 - `rofi` (in version 1.6.0 or higher if you want to use the mode), `wofi` or `fuzzel`
 - A tool to programmatically type characters into applications. Either `xdotool` for X11 or `wtype` for Wayland
 - A tool to copy the characters to the clipboard. `xsel` and `xclip` work on X11; `wl-copy` on Wayland
-
-# Feedback
-This project is driven by feedback from you! So, if you have an idea, a feature request or just want to say "thanks", open an issue, a discussion or give a star. Thank you so much 🙏

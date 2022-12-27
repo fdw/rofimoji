@@ -1,6 +1,6 @@
-% ROFIMOJI(1) Version 6.0.0 | Rofi Third-party Add-on Documentation
+% ROFIMOJI(1) Version 6.1.0 | Rofi Third-party Add-on Documentation
 % Fabian Winter
-% November 03, 2022
+% December 27, 2022
 
 # NAME
 

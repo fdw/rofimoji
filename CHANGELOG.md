@@ -1,11 +1,11 @@
-# [NEXT]
-## Changed
-- Emoji presentation is forced for emoji with default text presentation. (#142)
-- Updates to Gitmoji, NerdFonts and FontAwesome.
-
+# [6.1.0]
 ## Added
 - Support [fuzzel](https://codeberg.org/dnkl/fuzzel)
 - `~` is expanded for `--files`. (#136)
+
+## Changed
+- Emoji presentation is forced for emoji with default text presentation. (#142)
+- Updates to Gitmoji, NerdFonts and FontAwesome.
 
 ## Fixed
 - Restored compatibility with Python 3.8. (#137)
@@ -14,6 +14,10 @@
 - Fix version display. (#139)
 
 # [6.0.0]
+## Added
+- You can now select your desired actions through a separate menu.
+- Support for grid themes using `--hidden-descriptions` and [`contrib/grid.rasi`](https://github.com/fdw/rofimoji/blob/main/src/picker/contrib/grid.rasi). (#133)
+
 ## Changed
 - `rofimoji` uses [Poetry](https://python-poetry.org/) for package management. With this comes the requirement for Python 3.8.
 - `--files` supports globbing, so you can ask for `--files "linear_b*"`
@@ -23,10 +27,6 @@
   - FontAwesome is 6.2.0
   - NerdFonts are 2.2.2
   - Gitmoji is 3.13.0
-
-## Added
-- You can now select your desired actions through a separate menu.
-- Support for grid themes using `--hidden-descriptions` and [`contrib/grid.rasi`](https://github.com/fdw/rofimoji/blob/main/src/picker/contrib/grid.rasi). (#133)
 
 # [5.6.0]
 ## Changed

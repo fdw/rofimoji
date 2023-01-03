@@ -87,6 +87,7 @@ Select, insert, or copy Unicode characters like emoji using rofi.
 : Possible values: rofi, wofi, fuzzel
 
       Choose the selector application manually. Usually `rofi`, but for Wayland, you may want `wofi` or `fuzzel`.
+
 # KEYBINDINGS
 
 (optional) Select multiple emoji with shift+enter

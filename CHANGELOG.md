@@ -1,3 +1,7 @@
+# [NEXT]
+## Changed
+- Updates to Gitmoji and FontAwesome
+
 # [6.1.0]
 ## Added
 - Support [fuzzel](https://codeberg.org/dnkl/fuzzel)

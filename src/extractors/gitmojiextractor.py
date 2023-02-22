@@ -15,7 +15,7 @@ class GitmojiExtractor(Extractor):
         self.__icons = []
 
     def __fetch_icons(self) -> None:
-        response = requests.get("https://raw.githubusercontent.com/carloscuesta/gitmoji/master/src/data/gitmojis.json")
+        response = requests.get("https://raw.githubusercontent.com/carloscuesta/gitmoji/master/packages/gitmojis/src/gitmojis.json")
         """
         {
             'emoji': '🎨',

@@ -46,7 +46,7 @@ Select, insert, or copy Unicode characters like emoji using rofi.
 \--files _FILE_ [_FILE_ ...], -f _FILE_ [_FILE_ ...]
 
 :  Read characters from this file (or these files), one entry per line. Absolute and relative paths are supported, as is globbing (`--files /home/you/characters.csv ../other*.csv`).
-:  For the packaged character files, their filename without extension is enough (`--files musical_symbols supplemental_arrows`). Here, too, globbing is supported and done by default.
+:  A filename without extension is enough (`--files musical_symbols supplemental_arrows`) for included character files and all in `${XDG_DATA_HOME}/rofimoji/data`. Here, too, globbing is supported and done by default.
 :  In the config file, several files need to be listed as `files=[_FILE_, _FILE_]`.
 
 \--prompt _PROMPT_, -r _PROMPT_

@@ -21,7 +21,7 @@ Fear no more, `rofimoji` invokes the power of [rofi](https://github.com/DaveDave
 ## Standalone
 Call `rofimoji` as a standalone tool.
 
-1. Run `rofimoji.py`
+1. Run `rofimoji`
 2. Search for the character you want
 3. (optional) Select multiple emoji with `shift+enter`
 4. Hit `enter` to for the default action or use one of the [shortcuts](#actions) to do something else.\
@@ -32,7 +32,7 @@ Call `rofimoji` as a standalone tool.
 ## As a rofi mode
 Integrate `rofimoji` as just another rofi mode.
 
-1. Call rofi with `rofi -modi "emoji:<path to rofimoji.py>" -show emoji`
+1. Call rofi with `rofi -modi "emoji:rofimoji" -show emoji`
 2. Search for the character you want
 3. Hit `enter` to execute your default action; \
    `Alt+Shift+1` for copying to the clipboard \

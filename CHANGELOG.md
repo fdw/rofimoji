@@ -1,4 +1,7 @@
 # [NEXT]
+## Added
+- Support dmenu
+
 ## Changed
 - Updates to Gitmoji and FontAwesome
 

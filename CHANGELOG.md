@@ -3,7 +3,7 @@
 - Support dmenu
 
 ## Changed
-- Updates to Gitmoji and FontAwesome
+- Updates to Gitmoji, FontAwesome and NerdFonts
 
 # [6.1.0]
 ## Added

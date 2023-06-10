@@ -141,7 +141,7 @@ To use the arrow keys in `rofi` only for the grid and not the query, pass these 
 [![Packaging status](https://repology.org/badge/vertical-allrepos/rofimoji.svg)](https://repology.org/project/rofimoji/versions)
 
 ## From PyPI
-`rofimoji` is on [PyPI](https://pypi.org/project/rofimoji/). You can install it with `pip install --user rofimoji` (or `sudo pip install rofimoji`).
+`rofimoji` is on [PyPI](https://pypi.org/project/rofimoji/). You can install it with `pipx install --user rofimoji` (or `sudo pipx install rofimoji`).
 
 ## From Github
 Download the wheel file of the [latest release](https://github.com/fdw/rofimoji/releases/) and install it with  `sudo pip install $filename` (or you can use `pip install --user $filename` to only install it for the local user).

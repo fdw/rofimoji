@@ -238,7 +238,7 @@ class Fuzzel(Selector):
         fuzzel = run(
             [
                 "fuzzel",
-                "-dmenu",
+                "--dmenu",
                 *additional_args,
             ],
             input="\n".join([it.value for it in Action if it != Action.MENU]),

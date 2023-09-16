@@ -1,4 +1,4 @@
-# [NEXT]
+# [6.2.0]
 ## Added
 - Support dmenu
 

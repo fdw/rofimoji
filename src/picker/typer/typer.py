@@ -23,7 +23,7 @@ class Typer:
         pass
 
     def get_active_window(self) -> str:
-        return ''
+        return ""
 
     def type_characters(self, characters: str, active_window: str) -> None:
         raise NoTyperFoundException()

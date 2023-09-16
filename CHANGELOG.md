@@ -3,6 +3,7 @@
 - Support dmenu
 
 ## Changed
+- Updated to Unicode (including Emojis) v15.1
 - Updates to Gitmoji, FontAwesome and NerdFonts
 
 # [6.1.0]

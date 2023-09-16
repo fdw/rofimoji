@@ -240,24 +240,42 @@
 🚶 person walking <small>(hike, person walking, walk, walking)</small>
 🚶‍♂️ man walking
 🚶‍♀️ woman walking
+🚶‍➡️ person walking facing right
+🚶‍♀️‍➡️ woman walking facing right
+🚶‍♂️‍➡️ man walking facing right
 🧍 person standing <small>(person standing, stand, standing)</small>
 🧍‍♂️ man standing
 🧍‍♀️ woman standing
 🧎 person kneeling <small>(kneel, kneeling, person kneeling)</small>
 🧎‍♂️ man kneeling
 🧎‍♀️ woman kneeling
+🧎‍➡️ person kneeling facing right
+🧎‍♀️‍➡️ woman kneeling facing right
+🧎‍♂️‍➡️ man kneeling facing right
 🧑‍🦯 person with white cane <small>(accessibility, blind, person with white cane)</small>
+🧑‍🦯‍➡️ person with white cane facing right
 👨‍🦯 man with white cane <small>(accessibility, blind, man, man with white cane)</small>
+👨‍🦯‍➡️ man with white cane facing right
 👩‍🦯 woman with white cane <small>(accessibility, blind, woman, woman with white cane)</small>
+👩‍🦯‍➡️ woman with white cane facing right
 🧑‍🦼 person in motorized wheelchair <small>(accessibility, person in motorized wheelchair, wheelchair)</small>
+🧑‍🦼‍➡️ person in motorized wheelchair facing right
 👨‍🦼 man in motorized wheelchair <small>(accessibility, man, man in motorized wheelchair, wheelchair)</small>
+👨‍🦼‍➡️ man in motorized wheelchair facing right
 👩‍🦼 woman in motorized wheelchair <small>(accessibility, wheelchair, woman, woman in motorized wheelchair)</small>
+👩‍🦼‍➡️ woman in motorized wheelchair facing right
 🧑‍🦽 person in manual wheelchair <small>(accessibility, person in manual wheelchair, wheelchair)</small>
+🧑‍🦽‍➡️ person in manual wheelchair facing right
 👨‍🦽 man in manual wheelchair <small>(accessibility, man, man in manual wheelchair, wheelchair)</small>
+👨‍🦽‍➡️ man in manual wheelchair facing right
 👩‍🦽 woman in manual wheelchair <small>(accessibility, wheelchair, woman, woman in manual wheelchair)</small>
+👩‍🦽‍➡️ woman in manual wheelchair facing right
 🏃 person running <small>(marathon, person running, running)</small>
 🏃‍♂️ man running
 🏃‍♀️ woman running
+🏃‍➡️ person running facing right
+🏃‍♀️‍➡️ woman running facing right
+🏃‍♂️‍➡️ man running facing right
 💃 woman dancing <small>(dancing, woman)</small>
 🕺 man dancing <small>(dance, man, man dancing)</small>
 🕴️ person in suit levitating <small>(business, person, person in suit levitating, suit)</small>
@@ -330,7 +348,6 @@
 👩‍❤️‍👨 couple with heart: woman, man
 👨‍❤️‍👨 couple with heart: man, man
 👩‍❤️‍👩 couple with heart: woman, woman
-👪 family <small>(family)</small>
 👨‍👩‍👦 family: man, woman, boy
 👨‍👩‍👧 family: man, woman, girl
 👨‍👩‍👧‍👦 family: man, woman, girl, boy
@@ -360,4 +377,9 @@
 👤 bust in silhouette <small>(bust, bust in silhouette, silhouette)</small>
 👥 busts in silhouette <small>(bust, busts in silhouette, silhouette)</small>
 🫂 people hugging <small>(goodbye, hello, hug, people hugging, thanks)</small>
+👪 family <small>(family)</small>
+🧑‍🧑‍🧒 family: adult, adult, child
+🧑‍🧑‍🧒‍🧒 family: adult, adult, child, child
+🧑‍🧒 family: adult, child
+🧑‍🧒‍🧒 family: adult, child, child
 👣 footprints <small>(clothing, footprint, footprints, print)</small>

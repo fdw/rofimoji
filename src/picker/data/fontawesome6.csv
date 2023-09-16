@@ -480,6 +480,7 @@ D fa-d
  fa-dailymotion
  fa-dashcube
  fa-database
+ fa-debian
  fa-deezer
  fa-delete-left <small>(fa-backspace)</small>
  fa-delicious
@@ -1518,6 +1519,7 @@ S fa-s
  fa-square-share-nodes <small>(fa-share-alt-square)</small>
  fa-square-snapchat <small>(fa-snapchat-square)</small>
  fa-square-steam <small>(fa-steam-square)</small>
+ fa-square-threads
  fa-square-tumblr <small>(fa-tumblr-square)</small>
  fa-square-twitter <small>(fa-twitter-square)</small>
  fa-square-up-right <small>(fa-external-link-square-alt)</small>
@@ -1525,6 +1527,7 @@ S fa-s
  fa-square-vimeo <small>(fa-vimeo-square)</small>
  fa-square-virus
  fa-square-whatsapp <small>(fa-whatsapp-square)</small>
+ fa-square-x-twitter
  fa-square-xing <small>(fa-xing-square)</small>
  fa-square-xmark <small>(fa-times-square, fa-xmark-square)</small>
  fa-square-youtube <small>(fa-youtube-square)</small>
@@ -1626,6 +1629,7 @@ T fa-t
  fa-themeisle
  fa-thermometer
  fa-think-peaks
+ fa-threads
  fa-thumbs-down
  fa-thumbs-up
  fa-thumbtack <small>(fa-thumb-tack)</small>
@@ -1836,6 +1840,7 @@ W fa-w
  fa-wrench
 X fa-x
  fa-x-ray
+ fa-x-twitter
  fa-xbox
  fa-xing
  fa-xmark <small>(fa-close, fa-multiply, fa-remove, fa-times)</small>

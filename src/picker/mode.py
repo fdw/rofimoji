@@ -91,7 +91,7 @@ class ModeRofimoji:
             State.remove_cache()
 
         chosen = sys.argv[-1]
-        state = State.load_from_cache(chosen, int(os.environ.get("ROFI_RETV")))
+        state = State.load_from_cache(chosen, int(os.environ.get("ROFI_RETV", "")))
         self.__parse_args()
         state.actions = self.args.actions
 

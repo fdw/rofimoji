@@ -1,9 +1,10 @@
 from abc import ABC, abstractmethod
+from typing import Optional
 
 
 class Typer(ABC):
     @staticmethod
-    def best_option(name: str = None) -> "Typer":
+    def best_option(name: Optional[str] = None) -> "Typer":
         from .noop import NoopTyper
         from .wtype import WTypeTyper
         from .xdotool import XDoToolTyper

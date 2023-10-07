@@ -8,7 +8,7 @@ from .typer.typer import Typer
 def execute_action(
     characters: str,
     actions: List[Action],
-    active_window: Optional[str] = None,
+    active_window: str,
     typer_preference: Optional[str] = None,
     clipboarder_preference: Optional[str] = None,
 ) -> None:

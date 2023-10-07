@@ -1,13 +1,13 @@
 import re
 from abc import ABC, abstractmethod
-from typing import Dict, List, Tuple, Union
+from typing import Optional, Dict, List, Tuple, Union
 
 from ..models import CANCEL, DEFAULT, Action, Shortcut
 
 
 class Selector(ABC):
     @staticmethod
-    def best_option(name: str = None) -> "Selector":
+    def best_option(name: Optional[str] = None) -> "Selector":
         from .dmenu import DMenu
         from .fuzzel import Fuzzel
         from .rofi import Rofi

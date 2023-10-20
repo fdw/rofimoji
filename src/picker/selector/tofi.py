@@ -32,7 +32,7 @@ class Tofi(Selector):
         self, tones_emojis: List[str], prompt: str, additional_args: List[str]
     ) -> Tuple[int, str]:
         tofi = run(
-            ["dmenu", *additional_args],
+            ["tofi", *additional_args],
             input="\n".join(tones_emojis),
             capture_output=True,
             encoding="utf-8",

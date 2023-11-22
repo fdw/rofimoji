@@ -1,0 +1,38 @@
+title: "[Font Problem] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please look at other issues about font problems first!
+        If you still need help, please share a screenshot of `rofimoji`. For example, when using `rofi`, you can use `Alt+Shift+s` to take a screenshot.
+  - type: textarea
+    attributes:
+      label: Description
+      description: What do you see instead of the expected characters?
+    validations:
+      required: true
+  - type: textarea
+    attributes: 
+      label: Other apps
+      description: Do emojis (or your characters) work in other apps like Firefox, Chrome or your text editor?
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Selector
+      description: Which selector are you using?
+      placeholder: rofi/rofi-wayland/wofi...
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: rofimoji version
+      description: What's your version of rofimoji?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Comment
+      description: Anything else?
+    validations:
+      required: false

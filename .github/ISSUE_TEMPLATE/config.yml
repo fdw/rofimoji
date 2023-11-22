@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Characters not showing
+    url: https://github.com/fdw/rofimoji/discussions/categories/font-problems
+    about: If the characters aren't showing in your selector

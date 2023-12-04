@@ -1,6 +1,7 @@
+import argparse
 import re
 from abc import ABC, abstractmethod
-from typing import Optional, Dict, List, Tuple, Union
+from typing import Dict, List, Optional, Tuple, Union
 
 from ..models import CANCEL, DEFAULT, Action, Shortcut
 
@@ -40,9 +41,10 @@ class Selector(ABC):
     @abstractmethod
     def show_character_selection(
         self,
-        characters: List[str],
+        characters: Dict[str, str],
         recent_characters: List[str],
         prompt: str,
+        show_description: bool,
         keybindings: Dict[Action, str],
         additional_args: List[str],
     ) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[List[str], Shortcut]]:
@@ -58,7 +60,10 @@ class Selector(ABC):
     def show_action_menu(self, additional_args: List[str]) -> List[Action]:
         pass
 
-    def extract_char_from_input(self, line) -> str:
+    def basic_format_characters(self, characters: Dict[str, str]) -> List[str]:
+        return [f"{key} {value}" for key, value in characters.items()]
+
+    def extract_char_from_basic_output(self, line: str) -> str:
         return re.match(r"^(?:\u200e(?! ))?(?P<char>.[^ ]*)( .*|$)", line).group("char")
 
 

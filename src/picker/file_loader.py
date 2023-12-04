@@ -16,7 +16,11 @@ def read_characters_from_files(files: List[str], frecent: List[str], use_additio
             parsed_line = line.split(" ", 1)
             all_characters.setdefault(parsed_line[0], []).append(parsed_line[1]) if 1 < len(parsed_line) else ""
 
-    return {character: ", ".join(descriptions) for character, descriptions in all_characters.items()}
+    return {
+        character: ", ".join(descriptions)
+        for character, descriptions in all_characters.items()
+        if len(descriptions) > 0
+    }
 
 
 def __resolve_all_filenames(file_names: List[str], use_additional: bool) -> List[Path]:

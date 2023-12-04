@@ -13,7 +13,13 @@ class Character:
     force_ltr: bool
     descriptions: List[str]
 
-    def __init__(self, char: Union[int, str], name: str, bidi_class: Optional[str] = None, descriptions: Optional[List[str]] = None):
+    def __init__(
+        self,
+        char: Union[int, str],
+        name: str,
+        bidi_class: Optional[str] = None,
+        descriptions: Optional[List[str]] = None,
+    ):
         self.char = chr(char) if isinstance(char, int) else char
         self.name = name.strip()
         if not bidi_class:

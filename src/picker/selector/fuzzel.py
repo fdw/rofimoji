@@ -1,9 +1,9 @@
 from subprocess import run
 from typing import Dict, List, Tuple, Union
 
+from .selector import Selector
 from ..abstractionhelper import is_installed, is_wayland
 from ..models import CANCEL, DEFAULT, Action, Shortcut
-from .selector import Selector
 
 
 class Fuzzel(Selector):
@@ -17,16 +17,19 @@ class Fuzzel(Selector):
 
     def show_character_selection(
         self,
-        characters: List[str],
+        characters: Dict[str, str],
         recent_characters: List[str],
         prompt: str,
+        show_description: bool,
         keybindings: Dict[Action, str],
         additional_args: List[str],
     ) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[List[str], Shortcut]]:
         parameters = ["fuzzel", "--dmenu", "--fuzzy-min-length", "1", "-p", prompt, *additional_args]
 
-        fuzzel = run(parameters, input="\n".join(characters), capture_output=True, encoding="utf-8")
-        return DEFAULT(), [self.extract_char_from_input(line) for line in fuzzel.stdout.splitlines()]
+        fuzzel = run(
+            parameters, input="\n".join(self.basic_format_characters(characters)), capture_output=True, encoding="utf-8"
+        )
+        return DEFAULT(), [self.extract_char_from_basic_output(line) for line in fuzzel.stdout.splitlines()]
 
     def show_skin_tone_selection(
         self, tones_emojis: List[str], prompt: str, additional_args: List[str]

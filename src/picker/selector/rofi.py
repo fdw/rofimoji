@@ -1,9 +1,9 @@
 from subprocess import run
 from typing import Dict, List, Tuple, Union
 
+from .selector import Selector
 from ..abstractionhelper import is_installed
 from ..models import CANCEL, DEFAULT, Action, Shortcut
-from .selector import Selector
 
 
 class Rofi(Selector):
@@ -17,9 +17,10 @@ class Rofi(Selector):
 
     def show_character_selection(
         self,
-        characters: List[str],
+        characters: Dict[str, str],
         recent_characters: List[str],
         prompt: str,
+        show_description: bool,
         keybindings: Dict[Action, str],
         additional_args: List[str],
     ) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[List[str], Shortcut]]:
@@ -50,7 +51,12 @@ class Rofi(Selector):
         if recent_characters:
             parameters.extend(["-mesg", self.__format_recent_characters(recent_characters)])
 
-        rofi = run(parameters, input="\n".join(characters), capture_output=True, encoding="utf-8")
+        rofi = run(
+            parameters,
+            input="\n".join(self.__format_characters(characters, show_description)),
+            capture_output=True,
+            encoding="utf-8",
+        )
 
         if 10 <= rofi.returncode <= 19:
             return DEFAULT(), Shortcut(rofi.returncode - 10)
@@ -70,7 +76,13 @@ class Rofi(Selector):
             action = Action.COPY_UNICODE
         else:
             action = DEFAULT()
-        return action, [self.extract_char_from_input(line) for line in rofi.stdout.splitlines()]
+        return action, [self.extract_char_from_basic_output(line) for line in rofi.stdout.splitlines()]
+
+    def __format_characters(self, characters: Dict[str, str], show_description: bool) -> List[str]:
+        if show_description:
+            return self.basic_format_characters(characters)
+        else:
+            return [f"{key}\0meta\x1f{value}" for key, value in characters.items()]
 
     def __format_recent_characters(self, recent_characters: List[str]) -> str:
         pairings = [f"\u200e{(index + 1) % 10}: {character}" for index, character in enumerate(recent_characters)]

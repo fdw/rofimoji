@@ -21,6 +21,7 @@ class Rofi(Selector):
         recent_characters: List[str],
         prompt: str,
         show_description: bool,
+        use_icons: bool,
         keybindings: Dict[Action, str],
         additional_args: List[str],
     ) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[List[str], Shortcut]]:
@@ -55,7 +56,7 @@ class Rofi(Selector):
 
         rofi = run(
             parameters,
-            input="\n".join(self.__format_characters(characters, show_description)),
+            input="\n".join(self.__format_characters(characters, use_icons, show_description)),
             capture_output=True,
             encoding="utf-8",
         )
@@ -82,8 +83,12 @@ class Rofi(Selector):
             self.extract_char_from_input(list(characters)[int(index)]) for index in rofi.stdout.splitlines()
         ]
 
-    def __format_characters(self, characters: Dict[str, str], show_description: bool) -> List[str]:
-        if show_description:
+    def __format_characters(self, characters: Dict[str, str], use_icons: bool, show_description: bool) -> List[str]:
+        if use_icons and not show_description:
+            return [f"\0meta\x1f{value}\x1ficon\x1f<span>{key}</span>" for key, value in characters.items()]
+        elif use_icons and show_description:
+            return [f"{value}\0icon\x1f{key}" for key, value in characters.items()]
+        elif not use_icons and show_description:
             return self.basic_format_characters(characters)
         else:
             return [f"{key}\0meta\x1f{value}" for key, value in characters.items()]

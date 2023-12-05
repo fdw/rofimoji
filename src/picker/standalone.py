@@ -48,6 +48,7 @@ class StandaloneRofimoji:
             load_recent_characters(self.args.max_recent),
             self.args.prompt,
             self.args.show_description,
+            self.args.use_icons,
             self.args.keybindings,
             self.args.selector_args,
         )

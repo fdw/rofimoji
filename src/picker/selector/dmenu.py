@@ -21,6 +21,7 @@ class DMenu(Selector):
         recent_characters: List[str],
         prompt: str,
         show_description: bool,
+        use_icons: bool,
         keybindings: Dict[Action, str],
         additional_args: List[str],
     ) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[List[str], Shortcut]]:

@@ -36,6 +36,12 @@ Select, insert, or copy Unicode characters like emoji using rofi.
       Choose what to do with the selected characters: Directly type them with the "Typer", copy them to the clipboard using the "Clipboarder", or insert them indirectly using the clipboard. "unicode" will type the unicode codepoints of the chosen characters, "copy-unicode" will copy it. "print" just outputs them on stdout.
       If you want to decide on the fly, use "menu".
 
+\--files _FILE_ [_FILE_ ...], -f _FILE_ [_FILE_ ...]
+
+:  Read characters from this file (or these files), one entry per line. Absolute and relative paths are supported, as is globbing (`--files /home/you/characters.csv ../other*.csv`).
+:  A filename without extension is enough (`--files musical_symbols supplemental_arrows`) for included character files and all in `${XDG_DATA_HOME}/rofimoji/data`. Here, too, globbing is supported and done by default.
+:  In the config file, several files need to be listed as `files=[_FILE_, _FILE_]`.
+
 \--skin-tone=_skin-tone_, -s _skin-tone_
 
 : Possible values: neutral, light, medium-light, moderate, dark brown, black, ask
@@ -43,32 +49,36 @@ Select, insert, or copy Unicode characters like emoji using rofi.
       Decide on a skin-tone for all supported emojis. If not
       set (or set to "ask"), you will be asked for each one
 
-\--files _FILE_ [_FILE_ ...], -f _FILE_ [_FILE_ ...]
-
-:  Read characters from this file (or these files), one entry per line. Absolute and relative paths are supported, as is globbing (`--files /home/you/characters.csv ../other*.csv`).
-:  A filename without extension is enough (`--files musical_symbols supplemental_arrows`) for included character files and all in `${XDG_DATA_HOME}/rofimoji/data`. Here, too, globbing is supported and done by default.
-:  In the config file, several files need to be listed as `files=[_FILE_, _FILE_]`.
-
-\--prompt _PROMPT_, -r _PROMPT_
-
-:  Set rofimoji's prompt
-
-\--selector-args _SELECTOR-ARGS_
-
-:  A string of arguments to give to the selector.
-
 \--max-recent _MAX-RECENT_
 
-:  Show at most this number of recently used characters
+: Show at most this number of recently used characters
    (cannot be larger than 10)
 
 \--no-frecency
 
-:  Don't show frequently used characters at the start.
+: Don't show frequently used characters at the start.
 
 \--hidden-descriptions
 
-:  Only list the characters, but not their description. Note that you can still search through the descriptions.
+: Only list the characters, but not their description. Note that you can still search through the descriptions. Only used for `rofi`.
+
+\--use-icons
+
+: Show characters as icons on `rofi`. Not used with other selectors.
+
+\--prompt _PROMPT_, -r _PROMPT_
+
+: Set rofimoji's prompt
+
+\--selector-args _SELECTOR-ARGS_
+
+: A string of arguments to give to the selector.
+
+\--selector _SELECTOR_
+
+: Possible values: rofi, wofi, fuzzel, dmenu
+
+      Choose the selector application manually. Usually `rofi`, but for Wayland, you may want `wofi` or `fuzzel`.
 
 \--clipboarder _CLIPBOARDER_
 
@@ -82,11 +92,10 @@ Select, insert, or copy Unicode characters like emoji using rofi.
 
       Choose the application to type with manually.
 
-\--selector _SELECTOR_
+\--keybinding-copy, \--keybinding-type, \--keybinding-clipboard, \--keybinding-unicode, \--keybinding-copy-unicode
 
-: Possible values: rofi, wofi, fuzzel, dmenu
+: Define different keybindings for these actions.
 
-      Choose the selector application manually. Usually `rofi`, but for Wayland, you may want `wofi` or `fuzzel`.
 
 # KEYBINDINGS
 

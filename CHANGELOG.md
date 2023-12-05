@@ -1,14 +1,15 @@
 # [6.2.0]
 ## Added
-- Support dmenu
+- Support dmenu as selector.
+- Support `rofi`'s icons.
 
 ## Changed
-- Updated to Unicode (including Emojis) v15.1
-- Updates to Gitmoji, FontAwesome and NerdFonts
+- Updated to Unicode (including Emojis) v15.1.
+- Updates to Gitmoji, FontAwesome and NerdFonts.
 
 # [6.1.0]
 ## Added
-- Support [fuzzel](https://codeberg.org/dnkl/fuzzel)
+- Support [fuzzel](https://codeberg.org/dnkl/fuzzel).
 - `~` is expanded for `--files`. (#136)
 
 ## Changed

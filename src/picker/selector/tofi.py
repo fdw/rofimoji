@@ -24,7 +24,14 @@ class Tofi(Selector):
         keybindings: Dict[Action, str],
         additional_args: List[str],
     ) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[List[str], Shortcut]]:
-        parameters = ["tofi", "--print-index=true", *additional_args]
+        parameters = [
+            "tofi",
+            "--require-match=true",
+            "--matching-algorithm=fuzzy",
+            f"--prompt-text={prompt}",
+            "--print-index=true",
+            *additional_args,
+        ]
 
         tofi = run(
             parameters, input="\n".join(self.basic_format_characters(characters)), capture_output=True, encoding="utf-8"
@@ -35,7 +42,7 @@ class Tofi(Selector):
         self, tones_emojis: List[str], prompt: str, additional_args: List[str]
     ) -> Tuple[int, str]:
         tofi = run(
-            ["tofi", *additional_args],
+            ["tofi", "--require-match=true", f"--prompt-text={prompt}", *additional_args],
             input="\n".join(tones_emojis),
             capture_output=True,
             encoding="utf-8",
@@ -47,6 +54,8 @@ class Tofi(Selector):
         tofi = run(
             [
                 "tofi",
+                "--require-match=true",
+                "--matching-algorithm=fuzzy",
                 *additional_args,
             ],
             input="\n".join([it.value for it in Action if it != Action.MENU]),

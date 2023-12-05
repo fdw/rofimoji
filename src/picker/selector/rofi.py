@@ -33,6 +33,8 @@ class Rofi(Selector):
             "-no-custom",
             "-ballot-unselected-str",
             "",
+            "-format",
+            "i",
             "-p",
             prompt,
             "-kb-custom-11",
@@ -76,7 +78,9 @@ class Rofi(Selector):
             action = Action.COPY_UNICODE
         else:
             action = DEFAULT()
-        return action, [self.extract_char_from_basic_output(line) for line in rofi.stdout.splitlines()]
+        return action, [
+            self.extract_char_from_input(list(characters)[int(index)]) for index in rofi.stdout.splitlines()
+        ]
 
     def __format_characters(self, characters: Dict[str, str], show_description: bool) -> List[str]:
         if show_description:

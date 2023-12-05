@@ -66,6 +66,9 @@ class Selector(ABC):
     def extract_char_from_basic_output(self, line: str) -> str:
         return re.match(r"^(?:\u200e(?! ))?(?P<char>.[^ ]*)( .*|$)", line).group("char")
 
+    def extract_char_from_input(self, character_definition: str) -> str:
+        return re.match(r"^(?:\u200e(?! ))?(?P<char>.[^ ]*)", character_definition).group("char")
+
 
 class NoSelectorFoundException(Exception):
     def __str__(self) -> str:

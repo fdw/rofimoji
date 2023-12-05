@@ -24,12 +24,12 @@ class Fuzzel(Selector):
         keybindings: Dict[Action, str],
         additional_args: List[str],
     ) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[List[str], Shortcut]]:
-        parameters = ["fuzzel", "--dmenu", "--fuzzy-min-length", "1", "-p", prompt, *additional_args]
+        parameters = ["fuzzel", "--dmenu", "--fuzzy-min-length", "1", "--index", "-p", prompt, *additional_args]
 
         fuzzel = run(
             parameters, input="\n".join(self.basic_format_characters(characters)), capture_output=True, encoding="utf-8"
         )
-        return DEFAULT(), [self.extract_char_from_basic_output(line) for line in fuzzel.stdout.splitlines()]
+        return DEFAULT(), [self.extract_char_from_input(list(characters)[int(fuzzel.stdout.strip())])]
 
     def show_skin_tone_selection(
         self, tones_emojis: List[str], prompt: str, additional_args: List[str]

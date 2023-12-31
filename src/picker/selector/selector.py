@@ -9,13 +9,14 @@ from ..models import CANCEL, DEFAULT, Action, Shortcut
 class Selector(ABC):
     @staticmethod
     def best_option(name: Optional[str] = None) -> "Selector":
+        from .bemenu import Bemenu
         from .dmenu import DMenu
         from .fuzzel import Fuzzel
         from .rofi import Rofi
         from .tofi import Tofi
         from .wofi import Wofi
 
-        available_selectors = [Rofi, Wofi, Fuzzel, Tofi, DMenu]
+        available_selectors = [Rofi, Wofi, Fuzzel, Bemenu, Tofi, DMenu]
 
         if name is not None:
             try:

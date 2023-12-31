@@ -1,3 +1,7 @@
+# [NEXT]
+## Added
+- Support for [bemenu](https://github.com/Cloudef/bemenu) as selector
+
 # [6.2.0]
 ## Added
 - Support dmenu as selector.

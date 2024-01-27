@@ -62,7 +62,7 @@ def __parse_arguments(only_known: bool) -> argparse.Namespace:
         dest="selector_args",
         action="store",
         default=False,
-        help="A string of arguments to give to the selector (rofi, wofi or fuzzel)",
+        help="A string of arguments to give to the selector (rofi, wofi, fuzzel or wmenu)",
     )
     parser.add_argument(
         "--max-recent",
@@ -102,7 +102,7 @@ def __parse_arguments(only_known: bool) -> argparse.Namespace:
         dest="selector",
         action="store",
         type=str,
-        choices=["rofi", "wofi", "fuzzel", "dmenu"],
+        choices=["rofi", "wofi", "fuzzel", "dmenu", "wmenu"],
         default=None,
         help="Choose the application to select the characters with",
     )

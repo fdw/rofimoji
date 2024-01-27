@@ -14,9 +14,10 @@ class Selector(ABC):
         from .fuzzel import Fuzzel
         from .rofi import Rofi
         from .tofi import Tofi
+        from .wmenu import WMenu
         from .wofi import Wofi
 
-        available_selectors = [Rofi, Wofi, Fuzzel, Bemenu, Tofi, DMenu]
+        available_selectors = [Rofi, Wofi, Fuzzel, Bemenu, Tofi, DMenu, WMenu]
 
         if name is not None:
             try:

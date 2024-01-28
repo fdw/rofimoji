@@ -1,6 +1,6 @@
 % ROFIMOJI(1) Version 6.2.0 | Rofi Third-party Add-on Documentation
 % Fabian Winter
-% September 16, 2023
+% January 28, 2024
 
 # NAME
 
@@ -78,7 +78,7 @@ Select, insert, or copy Unicode characters like emoji using rofi.
 
 : Possible values: rofi, wofi, fuzzel, dmenu, tofi, bemenu, wmenu
 
-      Choose the selector application manually. Usually `rofi`, but for Wayland, you may want `wofi` or `fuzzel`.
+      Choose the selector application manually. Usually `rofi`, but you may want something else.
 
 \--clipboarder _CLIPBOARDER_
 

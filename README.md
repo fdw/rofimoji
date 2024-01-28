@@ -1,7 +1,7 @@
 # Rofimoji: A character picker for rofi
 Do you want to use one of those fancy emojis? Or one of those other interesting characters Unicode offers? But you haven't found a good picker yet?
 
-Fear no more, `rofimoji` invokes the power of [rofi](https://github.com/DaveDavenport/rofi/) (and other dmenu-derivatives like [wofi](https://hg.sr.ht/~scoopta/wofi) or [fuzzel](https://codeberg.org/dnkl/fuzzel)) to give you exactly the picker you always wanted.
+Fear no more, `rofimoji` invokes the power of [rofi](https://github.com/DaveDavenport/rofi/) (and [other dmenu-derivatives](#supported-selectors)) to give you exactly the picker you always wanted.
 
 ## Main features
 - Insert the select character directly, or copy it to the clipboard.
@@ -65,8 +65,8 @@ You can configure `rofimoji` either with cli arguments or with a config file cal
 | `--hidden-descriptions`<br/>(`hidden-descriptions=True` in the config file)                                             |              | -                                                                                                              | `<false>`                                   | Only list the characters, but not their description. This is useful for [grid themes](#rofi-theming) in `rofi`. Note that they're still searchable, even though the description is not shown. Not used with other selectors.                                                                                        |
 | `--use-icons`                                                                                                           |              |                                                                                                                | `false`                                     | Show characters as icons in `rofi`. Not used for other selectors.                                                                                                                                                                                                                                                   |
 | `--prompt`                                                                                                              | `-r`         | any string                                                                                                     | `😀 `                                       | Define the prompt text for `rofimoji`.                                                                                                                                                                                                                                                                              |
-| `--selector-args`                                                                                                       |              |                                                                                                                |                                             | Define arguments that `rofimoji` will pass through to the selector (`rofi`, `wofi`, `fuzzel` or `dmenu`).<br/>Please note that you need to specify it as `--selector-args="<selector-args>"` or `--selector-args " <selector-args>"` because of a [bug in argparse](https://bugs.python.org/issue9334)                       |
-| `--selector`                                                                                                            |              | `rofi`, `wofi`, `fuzzel`, `dmenu`, `tofi`, `bemenu`, `wmenu`                                                            | (automatically chosen)                      | Show the selection dialog with this application.                                                                                                                                                                                                                                                                    |
+| `--selector-args`                                                                                                       |              |                                                                                                                |                                             | Define arguments that `rofimoji` will pass through to the selector.<br/>Please note that you need to specify it as `--selector-args="<selector-args>"` or `--selector-args " <selector-args>"` because of a [bug in argparse](https://bugs.python.org/issue9334)                                                    |
+| `--selector`                                                                                                            |              | `rofi`, `wofi`, `fuzzel`, `dmenu`, `tofi`, `bemenu`, `wmenu`                                                   | (automatically chosen)                      | Show the selection dialog with this application.                                                                                                                                                                                                                                                                    |
 | `--clipboarder`                                                                                                         |              | `xsel`, `xclip`, `wl-copy`                                                                                     | (automatically chosen)                      | Access the clipboard with this application.                                                                                                                                                                                                                                                                         |
 | `--typer`                                                                                                               |              | `xdotool`, `wtype`                                                                                             | (automatically chosen)                      | Type the characters using this application.                                                                                                                                                                                                                                                                         |
 | `--keybinding-copy`, `--keybinding-type`, `--keybinding-clipboard`, `--keybinding-unicode`, `--keybinding-copy-unicode` |              |                                                                                                                | `Alt+c`, `Alt+t`, `Alt+p`, `Alt+u`, `Alt+i` | Choose different keybindings than the default values.                                                                                                                                                                                                                                                               |
@@ -75,7 +75,7 @@ You can configure `rofimoji` either with cli arguments or with a config file cal
 `~/.config/rofimoji.rc`:
 ```
 action = copy
-files = [emojis, hebrew]
+files = [emojis, math]
 skin-tone = moderate
 ```
 
@@ -105,10 +105,8 @@ If you want to have it directly typed instead, you can hit `alt+t`, even though 
 Finally, with `--action copy` (or `-a copy`) you can also tell `rofimoji` to only copy the selected characters to your clipboard.
 
 ## Display server support
-`rofimoji` supports both X11 and Wayland by using either `rofi`, `xsel`/`xclip` and `xdotool` on X11 or `wofi`/`fuzzel`/some other adapter `rofi`, `wl-copy` and `wtype` on Wayland. It tries to automatically choose the right one for the currently running session.
+`rofimoji` supports both X11 and Wayland by using the correct tools for each environment (see [Supported Selectors](#supported-selectors)). It tries to automatically choose the right one for the currently running session.
 If you want to manually overwrite this, have a look at the `--selector`, `--clipboarder` and `--typer` options [above](#options).
-
-Please note that neither `wofi` nor `fuzzel` support custom keyboard shortcuts, recent files or a grid theme at the moment.
 
 ## Most recently used characters
 By default, `rofimoji` will show the last ten recently used characters separately; you can insert them with `alt+1`, `alt+2` and so on. It will use the default [insertion method](#insertion-method).
@@ -153,6 +151,21 @@ This also installs the python dependency `configargparse`.
 What else do you need:
 - Python 3.8 or higher
 - A font that can display your scripts, (for emojis, [EmojiOne](https://github.com/emojione/emojione) or [Noto Emoji](https://www.google.com/get/noto/) work)
-- `rofi` (in version 1.6.0 or higher if you want to use the mode), `wofi`, `fuzzel`, `tofi`, `dmenu`, `bemenu` or `wmenu`
 - Optionally, a tool to programmatically type characters into applications. Either `xdotool` for X11 or `wtype` for Wayland
 - Optionally, a tool to copy the characters to the clipboard. `xsel` and `xclip` work on X11; `wl-copy` on Wayland
+
+### Supported Selectors
+Please note that only `rofi` (both on X and Wayland) supports custom keyboard shortcuts, recent files or a grid theme at the moment. For all others, only basic functionality works.
+
+#### X.org
+- [rofi](https://github.com/davatorium/rofi)
+- [bemenu](https://github.com/Cloudef/bemenu)
+- [dmenu](https://tools.suckless.org/dmenu/)
+
+#### Wayland
+- [rofi fork for Wayland](https://github.com/lbonn/rofi)
+- [wofi](https://hg.sr.ht/~scoopta/wofi)
+- [fuzzel](https://codeberg.org/dnkl/fuzzel)
+- [tofi](https://github.com/philj56/tofi)
+- [bemenu](https://github.com/Cloudef/bemenu)
+- [wmenu](https://git.sr.ht/~adnano/wmenu)

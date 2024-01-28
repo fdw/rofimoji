@@ -1,7 +1,6 @@
 # [NEXT]
 ## Added
-- Support for [bemenu](https://github.com/Cloudef/bemenu) as selector
-- Support for [wmenu](https://git.sr.ht/~adnano/wmenu) as selector
+- Support for [bemenu](https://github.com/Cloudef/bemenu) and [wmenu](https://git.sr.ht/~adnano/wmenu) as selectors
 
 # [6.2.0]
 ## Added

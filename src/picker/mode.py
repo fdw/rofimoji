@@ -5,6 +5,7 @@ from dataclasses import dataclass
 from enum import IntEnum, auto
 from pickle import dump, load
 from typing import Dict, List, Optional
+import hashlib
 
 from . import emoji_data
 from .action import execute_action
@@ -85,6 +86,8 @@ class ModeRofimoji:
     args: argparse.Namespace
     typer: Typer
     clipboarder: Clipboarder
+    characters: Dict[str, str]
+    character_set_hash: str
 
     def mode(self) -> None:
         if os.environ.get("ROFI_RETV") == "0":
@@ -117,18 +120,24 @@ class ModeRofimoji:
         self.args = parse_arguments_flexible()
         self.typer = Typer.best_option(self.args.typer)
         self.clipboarder = Clipboarder.best_option(self.args.clipboarder)
+        self.characters = read_characters_from_files(
+            self.args.files, load_frecent_characters() if self.args.frecency else [], self.args.use_additional
+        )
+        self.character_set_hash = self.__calculate_character_set_hash(self.characters)
+
+    @staticmethod
+    def __calculate_character_set_hash(character_set: Dict[str, str]) -> str:
+        character_string = "".join(sorted(character_set.keys()))
+        return hashlib.md5(character_string.encode()).hexdigest()
 
     def show_characters(self, state: State) -> None:
-        all_characters = read_characters_from_files(
-                    self.args.files, load_frecent_characters() if self.args.frecency else [], self.args.use_additional
-                )
-        recent_characters = self.__format_recent_characters(load_recent_characters(self.args.max_recent, all_characters))
+        recent_characters = self.__format_recent_characters(load_recent_characters(self.args.max_recent, self.character_set_hash))
 
         state.output = "\x00markup-rows\x1ftrue\n"
         state.output += "\x00use-hot-keys\x1ftrue\n"
         if len(recent_characters) > 0:
             state.output += f"\x00message\x1f{recent_characters}"
-        state.output += "\n".join(self.__format_characters(all_characters))
+        state.output += "\n".join(self.__format_characters(self.characters))
         state.output += "\n"
 
         state.step += 1
@@ -146,10 +155,7 @@ class ModeRofimoji:
 
     def handle_shortcuts(self, state: State) -> None:
         if 10 <= state.return_code <= 19:
-            all_characters = read_characters_from_files(
-                self.args.files, load_frecent_characters() if self.args.frecency else [], self.args.use_additional
-            )
-            state.processed_characters = load_recent_characters(self.args.max_recent, all_characters)[state.return_code - 10]
+            state.processed_characters = load_recent_characters(self.args.max_recent, self.character_set_hash)[state.return_code - 10]
             state.reset_current_input()
             state.step += 2
             return
@@ -213,10 +219,7 @@ class ModeRofimoji:
         state.step += 1
 
     def execute_actions(self, state: State) -> Optional[str]:
-        all_characters = read_characters_from_files(
-            self.args.files, load_frecent_characters() if self.args.frecency else [], self.args.use_additional
-        )
-        save_recent_characters(state.processed_characters, all_characters)
+        save_recent_characters(state.processed_characters, self.character_set_hash)
         execute_action(state.processed_characters, state.actions)
         state.step += 1
         return

@@ -1,5 +1,6 @@
 import sys
 from typing import Dict, List, Tuple, Union
+import hashlib
 
 from . import emoji_data
 from .action import execute_action
@@ -20,6 +21,16 @@ class StandaloneRofimoji:
         self.typer = Typer.best_option(self.args.typer)
         self.clipboarder = Clipboarder.best_option(self.args.clipboarder)
         self.active_window = self.typer.get_active_window()
+        self.characters = read_characters_from_files(
+            self.args.files, load_frecent_characters() if self.args.frecency else [], self.args.use_additional
+        )
+        self.character_set_hash = self.__calculate_character_set_hash(self.characters)
+
+    @staticmethod
+    def __calculate_character_set_hash(character_set: Dict[str, str]) -> str:
+        character_string = "".join(sorted(character_set.keys()))
+        return hashlib.md5(character_string.encode()).hexdigest()
+
 
     def standalone(self) -> None:
         action, value = self.__open_main_selector_window()
@@ -29,26 +40,21 @@ class StandaloneRofimoji:
         elif action != DEFAULT():
             self.args.actions = [action]
 
-        all_characters = read_characters_from_files(
-            self.args.files, load_frecent_characters() if self.args.frecency else [], self.args.use_additional
-        )
         if isinstance(value, Shortcut):
-            characters = load_recent_characters(self.args.max_recent, all_characters)[value.index]
+            characters = load_recent_characters(self.args.max_recent, self.character_set_hash)[value.index]
         else:
             characters = self.__process_chosen_characters(value)
 
         if Action.MENU in self.args.actions:
             self.args.actions = self.selector.show_action_menu(self.args.selector_args)
 
-        save_recent_characters(characters, all_characters)
+        save_recent_characters(characters, self.character_set_hash)
         execute_action(characters, self.args.actions, self.active_window, self.args.typer, self.args.clipboarder)
 
     def __open_main_selector_window(self) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[List[str], Shortcut]]:
         return self.selector.show_character_selection(
-                all_characters := read_characters_from_files(
-                self.args.files, load_frecent_characters() if self.args.frecency else [], self.args.use_additional
-            ),
-            load_recent_characters(self.args.max_recent, all_characters),
+            self.characters,
+            load_recent_characters(self.args.max_recent, self.character_set_hash),
             self.args.prompt,
             self.args.show_description,
             self.args.use_icons,

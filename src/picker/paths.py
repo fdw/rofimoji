@@ -7,7 +7,7 @@ data_home = Path(os.environ.get("XDG_DATA_HOME", "~/.local/share")).expanduser()
 cache_home = Path(os.environ.get("XDG_CACHE_HOME", "~/.cache")).expanduser()
 
 config_file_locations = [str(directory / "rofimoji.rc") for directory in [config_home] + config_global]
-recents_file_location = data_home / "rofimoji" / "recent"
+recents_files_directory = data_home / "rofimoji" / "recents"
 frecency_file_location = data_home / "rofimoji" / "frecency"
 custom_additional_files_location = data_home / "rofimoji" / "data"
 

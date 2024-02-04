@@ -119,19 +119,16 @@ class ModeRofimoji:
         self.clipboarder = Clipboarder.best_option(self.args.clipboarder)
 
     def show_characters(self, state: State) -> None:
-        recent_characters = self.__format_recent_characters(load_recent_characters(self.args.max_recent))
+        all_characters = read_characters_from_files(
+                    self.args.files, load_frecent_characters() if self.args.frecency else [], self.args.use_additional
+                )
+        recent_characters = self.__format_recent_characters(load_recent_characters(self.args.max_recent, all_characters))
 
         state.output = "\x00markup-rows\x1ftrue\n"
         state.output += "\x00use-hot-keys\x1ftrue\n"
         if len(recent_characters) > 0:
             state.output += f"\x00message\x1f{recent_characters}"
-        state.output += "\n".join(
-            self.__format_characters(
-                read_characters_from_files(
-                    self.args.files, load_frecent_characters() if self.args.frecency else [], self.args.use_additional
-                )
-            )
-        )
+        state.output += "\n".join(self.__format_characters(all_characters))
         state.output += "\n"
 
         state.step += 1
@@ -149,7 +146,10 @@ class ModeRofimoji:
 
     def handle_shortcuts(self, state: State) -> None:
         if 10 <= state.return_code <= 19:
-            state.processed_characters = load_recent_characters(self.args.max_recent)[state.return_code - 10]
+            all_characters = read_characters_from_files(
+                self.args.files, load_frecent_characters() if self.args.frecency else [], self.args.use_additional
+            )
+            state.processed_characters = load_recent_characters(self.args.max_recent, all_characters)[state.return_code - 10]
             state.reset_current_input()
             state.step += 2
             return
@@ -213,7 +213,10 @@ class ModeRofimoji:
         state.step += 1
 
     def execute_actions(self, state: State) -> Optional[str]:
-        save_recent_characters(state.processed_characters, self.args.max_recent)
+        all_characters = read_characters_from_files(
+            self.args.files, load_frecent_characters() if self.args.frecency else [], self.args.use_additional
+        )
+        save_recent_characters(state.processed_characters, all_characters)
         execute_action(state.processed_characters, state.actions)
         state.step += 1
         return

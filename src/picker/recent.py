@@ -1,21 +1,26 @@
-from typing import List
+from typing import List, Dict
+import hashlib
 
 from .paths import *
 
+def calculate_character_set_hash(character_set: Dict[str, str]) -> str:
+    character_string = "".join(sorted(character_set.keys()))
+    return hashlib.md5(character_string.encode()).hexdigest()
 
-def load_recent_characters(max_recent: int) -> List[str]:
+def load_recent_characters(max_recent: int, character_set: Dict[str, str]) -> List[str]:
+    recents_files_directory.mkdir(parents=True, exist_ok=True)
+    recents_file_location = recents_files_directory / calculate_character_set_hash(character_set)
     try:
         return [char.strip("\n") for char in recents_file_location.read_text().strip("\n").split("\n")][:max_recent]
     except FileNotFoundError:
         return []
 
 
-def save_recent_characters(new_characters: str, max_recent: int) -> None:
-    if max_recent == 0:
-        return
-    max_recent = min(max_recent, 10)
+def save_recent_characters(new_characters: str, character_set: Dict[str, str]) -> None:
+    max_recent = 10
 
-    old_file_name = recents_file_location
+    recents_files_directory.mkdir(parents=True, exist_ok=True)
+    old_file_name = recents_files_directory / calculate_character_set_hash(character_set)
     new_file_name = old_file_name.with_name("recent.tmp")
 
     new_file_name.parent.mkdir(parents=True, exist_ok=True)

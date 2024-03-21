@@ -31,7 +31,7 @@ def save_frecent_characters(chosen_character: str) -> None:
     frecencies[chosen_character] = frecencies.get(chosen_character, 0) + 1.1
 
     with new_file_name.open("w+") as new_file:
-        for (character, frecency) in sorted(frecencies.items(), key=lambda item: item[1], reverse=True):
+        for character, frecency in sorted(frecencies.items(), key=lambda item: item[1], reverse=True):
             new_file.write(f"{math.floor(frecency)} {character}\n")
 
     new_file_name.rename(frecency_file_location)

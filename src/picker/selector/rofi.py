@@ -1,9 +1,9 @@
 from subprocess import run
 from typing import Dict, List, Tuple, Union
 
-from .selector import Selector
 from ..abstractionhelper import is_installed
 from ..models import CANCEL, DEFAULT, Action, Shortcut
+from .selector import Selector
 
 
 class Rofi(Selector):

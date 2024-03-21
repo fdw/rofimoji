@@ -17,7 +17,7 @@ class FontAwesome6Extractor(Extractor):
         response: requests.Response = requests.get(
             "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/metadata/icons.json"
         )
-        for (name, data) in response.json().items():
+        for name, data in response.json().items():
             icon = int(data["unicode"], 16)
             name = f"fa-{name}"
             char = Character(icon, name)

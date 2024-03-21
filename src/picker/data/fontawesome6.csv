@@ -215,6 +215,8 @@ B fa-b
  fa-boxes-stacked <small>(fa-boxes, fa-boxes-alt)</small>
  fa-braille
  fa-brain
+ fa-brave
+ fa-brave-reverse
  fa-brazilian-real-sign
  fa-bread-slice
  fa-bridge
@@ -766,6 +768,7 @@ G fa-g
  fa-google-play
  fa-google-plus
  fa-google-plus-g
+ fa-google-scholar
  fa-google-wallet
  fa-gopuram
  fa-graduation-cap <small>(fa-mortar-board)</small>
@@ -989,6 +992,7 @@ L fa-l
  fa-less
 < fa-less-than
  fa-less-than-equal
+ fa-letterboxd
  fa-life-ring
  fa-lightbulb
  fa-line
@@ -1077,6 +1081,7 @@ M fa-m
  fa-microsoft
  fa-mill-sign
  fa-minimize <small>(fa-compress-arrows-alt)</small>
+ fa-mintbit
  fa-minus <small>(fa-subtract)</small>
  fa-mitten
  fa-mix
@@ -1145,6 +1150,7 @@ O fa-o
  fa-om
  fa-opencart
  fa-openid
+ fa-opensuse
  fa-opera
  fa-optin-monster
  fa-orcid
@@ -1257,6 +1263,7 @@ P fa-p
  fa-pinterest
  fa-pinterest-p
  fa-pix
+ fa-pixiv
  fa-pizza-slice
  fa-place-of-worship
  fa-plane
@@ -1405,7 +1412,7 @@ S fa-s
  fa-server
  fa-servicestack
  fa-shapes <small>(fa-triangle-circle-square)</small>
- fa-share <small>(fa-arrow-turn-right, fa-mail-forward)</small>
+ fa-share <small>(fa-mail-forward)</small>
  fa-share-from-square <small>(fa-share-square)</small>
  fa-share-nodes <small>(fa-share-alt)</small>
  fa-sheet-plastic
@@ -1420,6 +1427,7 @@ S fa-s
  fa-shirt <small>(fa-t-shirt, fa-tshirt)</small>
  fa-shirtsinbulk
  fa-shoe-prints
+ fa-shoelace
  fa-shop <small>(fa-store-alt)</small>
  fa-shop-lock
  fa-shop-slash <small>(fa-store-alt-slash)</small>
@@ -1431,6 +1439,7 @@ S fa-s
  fa-shuttle-space <small>(fa-space-shuttle)</small>
  fa-sign-hanging <small>(fa-sign)</small>
  fa-signal <small>(fa-signal-5, fa-signal-perfect)</small>
+ fa-signal-messenger
  fa-signature
  fa-signs-post <small>(fa-map-signs)</small>
  fa-sim-card
@@ -1500,6 +1509,7 @@ S fa-s
  fa-square-instagram <small>(fa-instagram-square)</small>
  fa-square-js <small>(fa-js-square)</small>
  fa-square-lastfm <small>(fa-lastfm-square)</small>
+ fa-square-letterboxd
  fa-square-minus <small>(fa-minus-square)</small>
  fa-square-nfi
  fa-square-odnoklassniki <small>(fa-odnoklassniki-square)</small>
@@ -1716,6 +1726,7 @@ U fa-u
  fa-up-right-from-square <small>(fa-external-link-alt)</small>
  fa-upload
  fa-ups
+ fa-upwork
  fa-usb
  fa-user
  fa-user-astronaut
@@ -1802,6 +1813,7 @@ W fa-w
  fa-water-ladder <small>(fa-ladder-water, fa-swimming-pool)</small>
  fa-wave-square
  fa-waze
+ fa-webflow
  fa-weebly
  fa-weibo
  fa-weight-hanging

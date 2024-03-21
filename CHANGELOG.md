@@ -1,6 +1,9 @@
 # [NEXT]
 ## Added
-- Support for [bemenu](https://github.com/Cloudef/bemenu) and [wmenu](https://git.sr.ht/~adnano/wmenu) as selectors
+- Support for [tofi](https://github.com/philj56/tofi/), [bemenu](https://github.com/Cloudef/bemenu) and [wmenu](https://git.sr.ht/~adnano/wmenu) as selectors
+
+## Changed
+- Updates to Gitmoji and FontAwesome.
 
 # [6.2.0]
 ## Added

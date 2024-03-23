@@ -28,16 +28,16 @@ class Tofi(Selector):
         parameters = [
             "tofi",
             "--require-match=true",
-            "--matching-algorithm=fuzzy",
+            "--fuzzy-match=true",
             f"--prompt-text={prompt}",
-            "--print-index=true",
             *additional_args,
         ]
 
         tofi = run(
             parameters, input="\n".join(self.basic_format_characters(characters)), capture_output=True, encoding="utf-8"
         )
-        return DEFAULT(), [self.extract_char_from_input(list(characters)[int(tofi.stdout.strip())])]
+
+        return DEFAULT(), [self.extract_char_from_basic_output(line) for line in tofi.stdout.splitlines()]
 
     def show_skin_tone_selection(
         self, tones_emojis: List[str], prompt: str, additional_args: List[str]

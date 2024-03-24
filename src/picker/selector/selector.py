@@ -2,7 +2,7 @@ import re
 from abc import ABC, abstractmethod
 from typing import Dict, List, Optional, Tuple, Union
 
-from ..models import CANCEL, DEFAULT, Action, Shortcut
+from ..models import CANCEL, DEFAULT, Action, CharacterEntry, Shortcut
 
 
 class Selector(ABC):
@@ -42,7 +42,7 @@ class Selector(ABC):
     @abstractmethod
     def show_character_selection(
         self,
-        characters: Dict[str, str],
+        characters: List[CharacterEntry],
         recent_characters: List[str],
         prompt: str,
         show_description: bool,
@@ -62,8 +62,8 @@ class Selector(ABC):
     def show_action_menu(self, additional_args: List[str]) -> List[Action]:
         pass
 
-    def basic_format_characters(self, characters: Dict[str, str]) -> List[str]:
-        return [f"{key} {value}" for key, value in characters.items()]
+    def basic_format_characters(self, characters: List[CharacterEntry]) -> List[str]:
+        return [f"{entry.character} {entry.description}" for entry in characters]
 
     def extract_char_from_basic_output(self, line: str) -> str:
         return re.match(r"^(?:\u200e(?! ))?(?P<char>.[^ ]*)( .*|$)", line).group("char")

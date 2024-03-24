@@ -2,7 +2,7 @@ from subprocess import run
 from typing import Dict, List, Tuple, Union
 
 from ..abstractionhelper import is_installed
-from ..models import CANCEL, DEFAULT, Action, Shortcut
+from ..models import CANCEL, DEFAULT, Action, CharacterEntry, Shortcut
 from .selector import Selector
 
 
@@ -17,7 +17,7 @@ class Rofi(Selector):
 
     def show_character_selection(
         self,
-        characters: Dict[str, str],
+        characters: List[CharacterEntry],
         recent_characters: List[str],
         prompt: str,
         show_description: bool,
@@ -79,19 +79,19 @@ class Rofi(Selector):
             action = Action.COPY_UNICODE
         else:
             action = DEFAULT()
-        return action, [
-            self.extract_char_from_input(list(characters)[int(index)]) for index in rofi.stdout.splitlines()
-        ]
+        return action, [characters[int(index)].character for index in rofi.stdout.splitlines()]
 
-    def __format_characters(self, characters: Dict[str, str], use_icons: bool, show_description: bool) -> List[str]:
+    def __format_characters(
+        self, characters: List[CharacterEntry], use_icons: bool, show_description: bool
+    ) -> List[str]:
         if use_icons and not show_description:
-            return [f"\0meta\x1f{value}\x1ficon\x1f<span>{key}</span>" for key, value in characters.items()]
+            return [f"\0meta\x1f{entry.description}\x1ficon\x1f<span>{entry.character}</span>" for entry in characters]
         elif use_icons and show_description:
-            return [f"{value}\0icon\x1f{key}" for key, value in characters.items()]
+            return [f"{entry.description}\0icon\x1f{entry.character}" for entry in characters]
         elif not use_icons and show_description:
             return self.basic_format_characters(characters)
         else:
-            return [f"{key}\0meta\x1f{value}" for key, value in characters.items()]
+            return [f"{entry.character}\0meta\x1f{entry.description}" for entry in characters]
 
     def __format_recent_characters(self, recent_characters: List[str]) -> str:
         pairings = [f"\u200e{(index + 1) % 10}: {character}" for index, character in enumerate(recent_characters)]

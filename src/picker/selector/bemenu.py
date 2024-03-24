@@ -2,7 +2,7 @@ from subprocess import run
 from typing import Dict, List, Tuple, Union
 
 from ..abstractionhelper import is_installed
-from ..models import CANCEL, DEFAULT, Action, Shortcut
+from ..models import CANCEL, DEFAULT, Action, CharacterEntry, Shortcut
 from .selector import Selector
 
 
@@ -17,7 +17,7 @@ class Bemenu(Selector):
 
     def show_character_selection(
         self,
-        characters: Dict[str, str],
+        characters: List[CharacterEntry],
         recent_characters: List[str],
         prompt: str,
         show_description: bool,

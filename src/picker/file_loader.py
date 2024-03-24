@@ -1,26 +1,22 @@
 from glob import glob
 from typing import Dict, List
 
+from .models import CharacterEntry
 from .paths import *
 
 
-def read_characters_from_files(files: List[str], frecent: List[str], use_additional: bool) -> Dict[str, str]:
-    all_characters: Dict[str, List[str]] = {}
+def read_characters_from_files(files: List[str], frecent: List[str], use_additional: bool) -> List[CharacterEntry]:
+    all_characters: Dict[str, CharacterEntry] = {}
 
     for character in frecent:
-        all_characters[character] = []
+        all_characters[character] = CharacterEntry(character)
 
     for file in __resolve_all_filenames(files, use_additional):
         characters_from_file = __load_from_file(file)
-        for line in characters_from_file:
-            parsed_line = line.split(" ", 1)
-            all_characters.setdefault(parsed_line[0], []).append(parsed_line[1]) if 1 < len(parsed_line) else ""
+        for character_entry in characters_from_file:
+            all_characters.setdefault(character_entry.character, character_entry)
 
-    return {
-        character: ", ".join(descriptions)
-        for character, descriptions in all_characters.items()
-        if len(descriptions) > 0
-    }
+    return list(all_characters.values())
 
 
 def __resolve_all_filenames(file_names: List[str], use_additional: bool) -> List[Path]:
@@ -76,5 +72,12 @@ def __load_additional_files(original_file: Path, use_additional: bool) -> List[P
     return additional_files
 
 
-def __load_from_file(file: Path) -> List[str]:
-    return file.read_text().strip("\n").split("\n")
+def __load_from_file(file: Path) -> List[CharacterEntry]:
+    lines = file.read_text().strip("\n").split("\n")
+
+    all_character_entries = []
+    for line in lines:
+        parsed_line = line.split(" ", 1)
+        all_character_entries.append(CharacterEntry(parsed_line[0], parsed_line[1]))
+
+    return all_character_entries

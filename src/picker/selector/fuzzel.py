@@ -2,7 +2,7 @@ from subprocess import run
 from typing import Dict, List, Tuple, Union
 
 from ..abstractionhelper import is_installed, is_wayland
-from ..models import CANCEL, DEFAULT, Action, Shortcut
+from ..models import CANCEL, DEFAULT, Action, CharacterEntry, Shortcut
 from .selector import Selector
 
 
@@ -17,7 +17,7 @@ class Fuzzel(Selector):
 
     def show_character_selection(
         self,
-        characters: Dict[str, str],
+        characters: List[CharacterEntry],
         recent_characters: List[str],
         prompt: str,
         show_description: bool,
@@ -30,7 +30,7 @@ class Fuzzel(Selector):
         fuzzel = run(
             parameters, input="\n".join(self.basic_format_characters(characters)), capture_output=True, encoding="utf-8"
         )
-        return DEFAULT(), [self.extract_char_from_input(list(characters)[int(fuzzel.stdout.strip())])]
+        return DEFAULT(), [characters[int(fuzzel.stdout.strip())].character]
 
     def show_skin_tone_selection(
         self, tones_emojis: List[str], prompt: str, additional_args: List[str]

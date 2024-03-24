@@ -3,20 +3,25 @@ from typing import List
 from .paths import *
 
 
-def load_recent_characters(max_recent: int) -> List[str]:
+def load_recent_characters(max_recent: int, files: List[str]) -> List[str]:
     try:
-        return [char.strip("\n") for char in recents_file_location.read_text().strip("\n").split("\n")][:max_recent]
+        return [char.strip("\n") for char in __filename_for(files).read_text().strip("\n").split("\n")][:max_recent]
     except FileNotFoundError:
         return []
+    except NotADirectoryError:
+        recents = [char.strip("\n") for char in recents_file_location.read_text().strip("\n").split("\n")][:max_recent]
+        recents_file_location.unlink()
+        save_recent_characters("".join(recents), max_recent, files)
+        return recents
 
 
-def save_recent_characters(new_characters: str, max_recent: int) -> None:
+def save_recent_characters(new_characters: str, max_recent: int, files: List[str]) -> None:
     if max_recent == 0:
         return
     max_recent = min(max_recent, 10)
 
-    old_file_name = recents_file_location
-    new_file_name = old_file_name.with_name("recent.tmp")
+    old_file_name = __filename_for(files)
+    new_file_name = old_file_name.with_suffix(".tmp")
 
     new_file_name.parent.mkdir(parents=True, exist_ok=True)
     with new_file_name.open("w+") as new_file:
@@ -37,3 +42,7 @@ def save_recent_characters(new_characters: str, max_recent: int) -> None:
             pass
 
     new_file_name.rename(old_file_name)
+
+
+def __filename_for(files: List[str]) -> Path:
+    return recents_file_location / "-".join(files)

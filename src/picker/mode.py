@@ -119,7 +119,9 @@ class ModeRofimoji:
         self.clipboarder = Clipboarder.best_option(self.args.clipboarder)
 
     def show_characters(self, state: State) -> None:
-        recent_characters = self.__format_recent_characters(load_recent_characters(self.args.max_recent))
+        recent_characters = self.__format_recent_characters(
+            load_recent_characters(self.args.max_recent, self.args.files)
+        )
 
         state.output = "\x00markup-rows\x1ftrue\n"
         state.output += "\x00use-hot-keys\x1ftrue\n"
@@ -149,7 +151,9 @@ class ModeRofimoji:
 
     def handle_shortcuts(self, state: State) -> None:
         if 10 <= state.return_code <= 19:
-            state.processed_characters = load_recent_characters(self.args.max_recent)[state.return_code - 10]
+            state.processed_characters = load_recent_characters(self.args.max_recent, self.args.files)[
+                state.return_code - 10
+            ]
             state.reset_current_input()
             state.step += 2
             return

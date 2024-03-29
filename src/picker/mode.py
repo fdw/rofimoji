@@ -12,7 +12,7 @@ from .argument_parsing import parse_arguments_flexible
 from .clipboarder.clipboarder import Clipboarder
 from .file_loader import read_characters_from_files
 from .frecent import load_frecent_characters, save_frecent_characters
-from .models import Action
+from .models import Action, CharacterEntry
 from .paths import *
 from .recent import load_recent_characters, save_recent_characters
 from .typer.typer import Typer
@@ -143,11 +143,19 @@ class ModeRofimoji:
 
         return " | ".join(pairings)
 
-    def __format_characters(self, characters: Dict[str, str]) -> List[str]:
+    def __format_characters(self, characters: List[CharacterEntry]) -> List[str]:
         if self.args.show_description:
-            return [f"{key} {value}" for key, value in characters.items() if value != ""]
+            return [
+                f"{character.character} {character.description}"
+                for character in characters
+                if character.description != ""
+            ]
         else:
-            return [f"{key}\0meta\x1f{value}" for key, value in characters.items() if value != ""]
+            return [
+                f"{character.character}\0meta\x1f{character.description}"
+                for character in characters
+                if character.description != ""
+            ]
 
     def handle_shortcuts(self, state: State) -> None:
         if 10 <= state.return_code <= 19:

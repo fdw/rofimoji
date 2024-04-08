@@ -17,7 +17,9 @@ class XDoToolTyper(Typer):
         return run(args=["xdotool", "getactivewindow"], capture_output=True, encoding="utf-8").stdout[:-1]
 
     def type_characters(self, characters: str, active_window: str) -> None:
-        run(["xdotool", "windowactivate", "--sync", active_window, "type", "--clearmodifiers", characters])
+        # There is a timing issue for some applications that do not correctly handle inputs this fast.
+        # Slowing down xdotool from 12ms per keystroke to 50ms per keystroke resolves the issue.
+        run(["xdotool", "windowactivate", active_window, "type", "--delay=50ms", "--clearmodifiers", characters])
 
     def insert_from_clipboard(self, active_window: str) -> None:
         run(

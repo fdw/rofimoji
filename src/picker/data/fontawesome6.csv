@@ -176,6 +176,7 @@ B fa-b
  fa-blog
  fa-blogger
  fa-blogger-b
+ fa-bluesky
  fa-bluetooth
  fa-bluetooth-b
  fa-bold
@@ -955,6 +956,7 @@ J fa-j
  fa-js
  fa-jsfiddle
  fa-jug-detergent
+ fa-jxl
 K fa-k
  fa-kaaba
  fa-kaggle
@@ -963,7 +965,7 @@ K fa-k
  fa-keyboard
  fa-keycdn
  fa-khanda
- fa-kickstarter
+ fa-kickstarter <small>(fa-square-kickstarter)</small>
  fa-kickstarter-k
  fa-kip-sign
  fa-kit-medical <small>(fa-first-aid)</small>
@@ -1533,9 +1535,12 @@ S fa-s
  fa-square-tumblr <small>(fa-tumblr-square)</small>
  fa-square-twitter <small>(fa-twitter-square)</small>
  fa-square-up-right <small>(fa-external-link-square-alt)</small>
+ fa-square-upwork
  fa-square-viadeo <small>(fa-viadeo-square)</small>
  fa-square-vimeo <small>(fa-vimeo-square)</small>
  fa-square-virus
+ fa-square-web-awesome
+ fa-square-web-awesome-stroke
  fa-square-whatsapp <small>(fa-whatsapp-square)</small>
  fa-square-x-twitter
  fa-square-xing <small>(fa-xing-square)</small>
@@ -1594,7 +1599,9 @@ S fa-s
 T fa-t
  fa-table
  fa-table-cells <small>(fa-th)</small>
+ fa-table-cells-column-lock
  fa-table-cells-large <small>(fa-th-large)</small>
+ fa-table-cells-row-lock
  fa-table-columns <small>(fa-columns)</small>
  fa-table-list <small>(fa-th-list)</small>
  fa-table-tennis-paddle-ball <small>(fa-ping-pong-paddle-ball, fa-table-tennis)</small>
@@ -1813,6 +1820,7 @@ W fa-w
  fa-water-ladder <small>(fa-ladder-water, fa-swimming-pool)</small>
  fa-wave-square
  fa-waze
+ fa-web-awesome
  fa-webflow
  fa-weebly
  fa-weibo

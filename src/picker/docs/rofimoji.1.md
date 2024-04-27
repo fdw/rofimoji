@@ -1,11 +1,11 @@
 % ROFIMOJI(1) Version 6.2.0 | Rofi Third-party Add-on Documentation
 % Fabian Winter
-% January 28, 2024
+% April 27, 2024
 
 # NAME
 
 
-**rofimoji** \- A character (emoji) picker for rofi
+**rofimoji** \- An emoji and general character picker for rofi and rofi-likes
 
 # SYNOPSIS
 

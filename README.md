@@ -114,9 +114,24 @@ If you don't want this, you can set `--max-recent` to `0`.
 
 Additionally, `rofimoji` also remembers in general which characters are used more frequently and sorts the list accordingly. You can disable this behavior with `--no-frecency`.
 
-## Supported characters
-Obviously, `rofimoji` is mostly used for emojis. However, it also supports all other Unicode blocks, for example [mathematical symbols](https://github.com/fdw/rofimoji/blob/main/src/picker/data/math.csv), [Greek and Coptic](https://github.com/fdw/rofimoji/blob/main/src/picker/data/greek_and_coptic.csv) or [Linear B (Ideograms)](https://github.com/fdw/rofimoji/blob/main/src/picker/data/linear_b_ideograms.csv). Simply load them with `-f` (see [options](#options)).
-If you miss something that should be there, please open an issue.
+## Rofi theming
+By default, `rofimoji` re-uses the existing rofi configuration, but you can pass your own using `--selector-args` (for example `--selector-args="-theme ~/your-rofi-theme.rasi"`).
+
+If you would like a more character-focused theme, you can use packaged [`grid.rasi`](https://github.com/fdw/rofimoji/blob/main/src/picker/contrib/grid.rasi) together with the `--hidden-descriptions` parameter. This theme still imports the existing `rofi` configuration but moves the entries into a grid. Of course, you can base your own theme on this. (If you have improvements, please open a PR!)
+To use the arrow keys in `rofi` only for the grid and not the query, pass these `-selector-args`: `-kb-row-left Left -kb-row-right Right -kb-move-char-back Control+b -kb-move-char-forward Control+f`.
+
+![Screenshot of rofimoji with a grid theme](screenshot-grid.png?raw=true)
+
+# Supported characters
+- [Unicode emojis](https://home.unicode.org/emoji/about-emoji/) with the official descriptions and tags. Also supports skin tones and gender variants.
+- All other [Unicode](https://home.unicode.org/) characters, split into the official blocks
+- CJK character sets from Unicode
+- [Font Awesome 6](https://fontawesome.com/)
+- [Nerd Fonts](https://www.nerdfonts.com/)
+- [Gitmoji](https://gitmoji.dev/)
+- Kaomoji, from [w33ble](https://github.com/w33ble/emoticon-data)
+
+If you miss something, please open an issue!
 
 ## Custom character files and descriptions
 If the predefined ones are not enough, you can define additional character files and load them with `-f` (see [options](#options)). In each line, one 'character' can be defined, followed by a single space character (` `). After that, you can write whatever description you want.
@@ -126,14 +141,6 @@ If the character is also in another selected file, all descriptions will be comb
 For added comfort, `rofimoji` will automatically load an "additional" file for predefined ones. This file needs to called `<filename>.additional.csv` and lie in `${XDG_DATA_DIR}/rofimoji/data/`. For example, if you want to extend `emojis_smileys_emotion`, call the file `emojis_smileys_emotions.additional.csv`. This is helpful if you want additional descriptions: You can define such an additional character file, add the character and your description and your descriptions will now also be shown.
 
 If you think your file is useful to others, please open a PR to include it in a future version of `rofimoji`.
-
-## Rofi theming
-By default, `rofimoji` re-uses the existing rofi configuration, but you can pass your own using `--selector-args` (for example `--selector-args="-theme ~/your-rofi-theme.rasi"`).
-
-If you would like a more character-focused theme, you can use packaged [`grid.rasi`](https://github.com/fdw/rofimoji/blob/main/src/picker/contrib/grid.rasi) together with the `--hidden-descriptions` parameter. This theme still imports the existing `rofi` configuration but moves the entries into a grid. Of course, you can base your own theme on this. (If you have improvements, please open a PR!)
-To use the arrow keys in `rofi` only for the grid and not the query, pass these `-selector-args`: `-kb-row-left Left -kb-row-right Right -kb-move-char-back Control+b -kb-move-char-forward Control+f`.
-
-![Screenshot of rofimoji with a grid theme](screenshot-grid.png?raw=true)
 
 # Installation
 ## From distribution repositories

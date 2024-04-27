@@ -4,6 +4,7 @@
 - Updates to Gitmoji and FontAwesome.
 
 ## Added
+- Finally added Kaomoji. (#162, #182)
 - Support for [tofi](https://github.com/philj56/tofi/), [bemenu](https://github.com/Cloudef/bemenu) and [wmenu](https://git.sr.ht/~adnano/wmenu) as selectors
 
 # [6.2.0]

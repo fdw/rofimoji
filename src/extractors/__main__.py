@@ -9,6 +9,7 @@ from .emojiextractor import EmojiExtractor
 from .extractor import Extractor
 from .fontawesome6extractor import FontAwesome6Extractor
 from .gitmojiextractor import GitmojiExtractor
+from .kaomojiextractor import KaomojiExtractor
 from .mathcollectionextractor import MathExtractor
 from .nerdfontextractor import NerdFontExtractor
 
@@ -25,6 +26,7 @@ if __name__ == "__main__":
         NerdFontExtractor(),
         GitmojiExtractor(),
         FontAwesome6Extractor(),
+        KaomojiExtractor(),
     ]
 
     for subclass in Extractor.__subclasses__():

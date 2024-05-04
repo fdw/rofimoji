@@ -14,9 +14,12 @@ def read_characters_from_files(files: List[str], frecent: List[str], use_additio
     for file in __resolve_all_filenames(files, use_additional):
         characters_from_file = __load_from_file(file)
         for character_entry in characters_from_file:
-            all_characters.setdefault(character_entry.character, character_entry)
+            if character_entry.character in all_characters:
+                all_characters[character_entry.character].merge(character_entry)
+            else:
+                all_characters[character_entry.character] = character_entry
 
-    return list(all_characters.values())
+    return [character for character in all_characters.values() if character.description]
 
 
 def __resolve_all_filenames(file_names: List[str], use_additional: bool) -> List[Path]:

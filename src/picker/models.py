@@ -38,18 +38,21 @@ class Shortcut:
 @dataclass
 class CharacterEntry:
     character: str
-    description: str
+    description: str | None
 
     def __init__(self, character: str, description: str | None = None):
         self.character = character
-        self.description = description if description else ""
+        self.description = description
 
     def merge(self, other: "CharacterEntry"):
+        if self == other:
+            return self
+
         if self.character != other.character:
             raise Exception("Cannot merge different characters")
 
-        if len(other.description) > 0:
-            if len(self.description) > 0:
+        if other.description:
+            if self.description:
                 self.description = f"{self.description}, {other.description}"
             else:
                 self.description = other.description

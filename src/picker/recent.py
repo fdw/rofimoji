@@ -1,3 +1,4 @@
+import hashlib
 from typing import List
 
 from .paths import *
@@ -45,4 +46,4 @@ def save_recent_characters(new_characters: str, max_recent: int, files: List[str
 
 
 def __filename_for(files: List[str]) -> Path:
-    return recents_file_location / "-".join(files)
+    return recents_file_location / hashlib.sha256(b"\0".join(f.encode() for f in sorted(files))).hexdigest()

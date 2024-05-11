@@ -1,3 +1,8 @@
+# [6.3.1] - 2024-05-11
+## Fixed
+- Don't crash with too many filesets. (#186)
+- Correctly merge descriptions from different files. (#184)
+
 # [6.3.0] - 2024-05-01
 ## Changed
 - Only show recent characters from the same fileset. (#173)

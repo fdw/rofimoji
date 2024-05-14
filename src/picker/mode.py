@@ -225,7 +225,7 @@ class ModeRofimoji:
         state.step += 1
 
     def execute_actions(self, state: State) -> Optional[str]:
-        save_recent_characters(state.processed_characters, self.args.max_recent)
-        execute_action(state.processed_characters, state.actions)
+        save_recent_characters(state.processed_characters, self.args.max_recent, self.args.files)
+        execute_action(state.processed_characters, state.actions, '')
         state.step += 1
         return

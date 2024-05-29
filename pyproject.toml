@@ -25,10 +25,10 @@ ConfigArgParse = "^1.3"
 
 [tool.poetry.group.dev.dependencies]
 beautifulsoup4 = "^4.12.3"
-lxml = "^5.2.1"
-requests = "^2.31.0"
+lxml = "^5.2.2"
+requests = "^2.32.3"
 tqdm = "^4.66.4"
-black = "^24.3.0"
+black = "^24.4.2"
 isort = "^5.13.2"
 
 [build-system]

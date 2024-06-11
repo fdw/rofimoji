@@ -1,3 +1,7 @@
+# [6.3.2] - 2024-06-11
+## Fixed
+- Fix broken call in rofi mode.
+
 # [6.3.1] - 2024-05-11
 ## Fixed
 - Don't crash with too many filesets. (#186)

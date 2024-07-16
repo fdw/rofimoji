@@ -126,7 +126,7 @@ class ModeRofimoji:
         state.output = "\x00markup-rows\x1ftrue\n"
         state.output += "\x00use-hot-keys\x1ftrue\n"
         if len(recent_characters) > 0:
-            state.output += f"\x00message\x1f{recent_characters}"
+            state.output += f"\x00message\x1f{recent_characters}\n"
         state.output += "\n".join(
             self.__format_characters(
                 read_characters_from_files(

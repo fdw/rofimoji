@@ -12,6 +12,7 @@ from .gitmojiextractor import GitmojiExtractor
 from .kaomojiextractor import KaomojiExtractor
 from .mathcollectionextractor import MathExtractor
 from .nerdfontextractor import NerdFontExtractor
+from .htmlcharacterextractor import HtmlCharacterExtractor
 
 if __name__ == "__main__":
     data_directory = pathlib.Path(__file__).parent.parent / "picker" / "data"
@@ -27,6 +28,7 @@ if __name__ == "__main__":
         GitmojiExtractor(),
         FontAwesome6Extractor(),
         KaomojiExtractor(),
+        HtmlCharacterExtractor(),
     ]
 
     for subclass in Extractor.__subclasses__():

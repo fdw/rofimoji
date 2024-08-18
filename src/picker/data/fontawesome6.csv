@@ -481,6 +481,7 @@ D fa-d
  fa-d-and-d
  fa-d-and-d-beyond
  fa-dailymotion
+ fa-dart-lang
  fa-dashcube
  fa-database
  fa-debian
@@ -700,6 +701,7 @@ F fa-f
  fa-flipboard
  fa-floppy-disk <small>(fa-save)</small>
  fa-florin-sign
+ fa-flutter
  fa-fly
  fa-folder <small>(fa-folder-blank)</small>
  fa-folder-closed
@@ -1602,6 +1604,7 @@ T fa-t
  fa-table-cells-column-lock
  fa-table-cells-large <small>(fa-th-large)</small>
  fa-table-cells-row-lock
+ fa-table-cells-row-unlock
  fa-table-columns <small>(fa-columns)</small>
  fa-table-list <small>(fa-th-list)</small>
  fa-table-tennis-paddle-ball <small>(fa-ping-pong-paddle-ball, fa-table-tennis)</small>
@@ -1650,6 +1653,7 @@ T fa-t
  fa-thumbs-down
  fa-thumbs-up
  fa-thumbtack <small>(fa-thumb-tack)</small>
+ fa-thumbtack-slash <small>(fa-thumb-tack-slash)</small>
  fa-ticket
  fa-ticket-simple <small>(fa-ticket-alt)</small>
  fa-tiktok

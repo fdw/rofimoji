@@ -1,15 +1,18 @@
-from dataclasses import dataclass
 import json
+from dataclasses import dataclass
 from pathlib import Path
-import requests
 from typing import List
 
+import requests
+
 from .extractor import Extractor
+
 
 @dataclass
 class HtmlCharacter:
     string: str
     name: str
+
 
 class HtmlCharacterExtractor(Extractor):
     __characters: List[HtmlCharacter]
@@ -18,14 +21,12 @@ class HtmlCharacterExtractor(Extractor):
         self.__characters = []
 
     def __fetch_data(self) -> None:
-        response: requests.Response = requests.get(
-            "https://html.spec.whatwg.org/entities.json", timeout=120
-        )
+        response: requests.Response = requests.get("https://html.spec.whatwg.org/entities.json", timeout=120)
         entities = json.loads(response.text)
         for key in entities:
-            if key.endswith(';') and key != "&NewLine;":
+            if key.endswith(";") and key != "&NewLine;":
                 name = key[1:-1]
-                char = ''.join(list(map(chr, entities[key]['codepoints'])))
+                char = "".join(list(map(chr, entities[key]["codepoints"])))
                 self.__characters.append(HtmlCharacter(char, name))
 
     def __write_to_file(self, target: Path) -> None:

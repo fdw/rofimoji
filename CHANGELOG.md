@@ -1,6 +1,9 @@
-# [NEXT]
+# [6.4.0]
 ## Added
 - HTML named character references. (#195)
+
+## Fixed
+- Fixed the rofi call with icons and descriptions. (#196)
 
 # [6.3.2] - 2024-06-11
 ## Fixed

@@ -1,7 +1,8 @@
 from pathlib import Path
 from typing import List
 
-import requests
+import aiofiles
+import aiohttp
 
 from .characterfactory import Character, CharacterFactory
 from .extractor import Extractor
@@ -15,18 +16,23 @@ class MathExtractor(Extractor):
         self.__char_factory = character_factory
         self.__characters = []
 
-    def __fetch_math_symbols(self) -> None:
-        data = requests.get("https://unicode.org/Public/math/latest/MathClassEx-15.txt", timeout=60)
+    async def extract_to(self, target: Path) -> None:
+        await self.__fetch_math_symbols()
+        await self.__write_file(target)
+        print("Finished Math characters")
 
-        characters = []
-        for line in data.text.split("\n"):
-            if line and not line.startswith("#"):
-                fields = line.split(";")
-                symbols = self.__resolve_character_range(fields[0].strip())
-                for symbol in symbols:
-                    characters.append(self.__char_factory.get_character(symbol))
+    async def __fetch_math_symbols(self) -> None:
+        async with aiohttp.ClientSession() as session:
+            async with session.get("https://unicode.org/Public/math/latest/MathClassEx-15.txt") as response:
+                characters = []
+                for line in (await response.text()).split("\n"):
+                    if line and not line.startswith("#"):
+                        fields = line.split(";")
+                        symbols = self.__resolve_character_range(fields[0].strip())
+                        for symbol in symbols:
+                            characters.append(self.__char_factory.get_character(symbol))
 
-        self.__characters = [character for character in characters if character is not None]
+                self.__characters = [character for character in characters if character is not None]
 
     def __resolve_character_range(self, line: str) -> List[int]:
         try:
@@ -35,11 +41,7 @@ class MathExtractor(Extractor):
         except ValueError:
             return [int(line, 16)]
 
-    def __write_file(self, target: Path) -> None:
-        with (target / "math.csv").open("w") as symbol_file:
+    async def __write_file(self, target: Path) -> None:
+        async with aiofiles.open(target / "math.csv", mode="w") as character_file:
             for character in self.__characters:
-                symbol_file.write(f"{character.char} {character.title_case_name}\n")
-
-    def extract_to(self, target: Path) -> None:
-        self.__fetch_math_symbols()
-        self.__write_file(target)
+                await character_file.write(f"{character.char} {character.title_case_name}\n")

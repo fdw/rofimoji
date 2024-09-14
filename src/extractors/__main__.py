@@ -1,6 +1,5 @@
+import asyncio
 import pathlib
-
-from tqdm import tqdm
 
 from .blockextractor import BlockExtractor
 from .characterfactory import CharacterFactory
@@ -14,10 +13,12 @@ from .kaomojiextractor import KaomojiExtractor
 from .mathcollectionextractor import MathExtractor
 from .nerdfontextractor import NerdFontExtractor
 
-if __name__ == "__main__":
+
+async def extract_all():
     data_directory = pathlib.Path(__file__).parent.parent / "picker" / "data"
 
     character_factory = CharacterFactory()
+    await character_factory.fetch_characters()
 
     extractors = [
         EmojiExtractor(),
@@ -35,7 +36,8 @@ if __name__ == "__main__":
         if not any(isinstance(extractor, subclass) for extractor in extractors):
             print(f"Did you forget to add an extractor of class {subclass.__name__}?")
 
-    progress = tqdm(extractors)
-    for extractor in progress:
-        progress.set_description(extractor.__class__.__name__)
-        extractor.extract_to(data_directory)
+    await asyncio.gather(*[extractor.extract_to(data_directory) for extractor in extractors])
+
+
+if __name__ == "__main__":
+    asyncio.run(extract_all())

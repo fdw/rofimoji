@@ -2,7 +2,7 @@ import html
 from typing import Dict, List, Optional, Union
 from unicodedata import bidirectional
 
-import requests
+import aiohttp
 
 
 class Character:
@@ -56,27 +56,26 @@ class CharacterFactory:
 
     def __init__(self):
         self.__characters = {}
-        self.__fetch_characters()
 
-    def __fetch_characters(self) -> None:
+    async def fetch_characters(self) -> None:
         INDEX_CODEPOINT = 0
         INDEX_NAME = 1
         INDEX_CATEGORY = 2
         INDEX_BIDI_CLASS = 4
 
-        response: requests.Response = requests.get("https://unicode.org/Public/UNIDATA/UnicodeData.txt", timeout=60)
+        async with aiohttp.ClientSession() as session:
+            async with session.get('https://unicode.org/Public/UNIDATA/UnicodeData.txt') as response:
+                lines = (await response.text()).split("\n")
 
-        lines = response.content.decode(response.encoding).split("\n")
-
-        for line in lines:
-            fields = line.split(";")
-            if (
-                len(fields) >= 2
-                and not fields[INDEX_CATEGORY] in ("Cc", "Co", "Cs")
-                and not (fields[INDEX_NAME].startswith("<") and fields[INDEX_NAME].endswith(">"))
-            ):
-                character = Character(int(fields[INDEX_CODEPOINT], 16), fields[INDEX_NAME], fields[INDEX_BIDI_CLASS])
-                self.__characters[character.char] = character
+                for line in lines:
+                    fields = line.split(";")
+                    if (
+                        len(fields) >= 2
+                        and not fields[INDEX_CATEGORY] in ("Cc", "Co", "Cs")
+                        and not (fields[INDEX_NAME].startswith("<") and fields[INDEX_NAME].endswith(">"))
+                    ):
+                        character = Character(int(fields[INDEX_CODEPOINT], 16), fields[INDEX_NAME], fields[INDEX_BIDI_CLASS])
+                        self.__characters[character.char] = character
 
     def get_character(self, char: int) -> Optional[Character]:
         return self.__characters.get(chr(char))

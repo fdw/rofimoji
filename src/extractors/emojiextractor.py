@@ -1,12 +1,14 @@
+import asyncio
 import html
 from pathlib import Path
 from typing import Dict, List
 
-import requests
+import aiofiles
+import aiohttp
+from aiohttp import ClientSession, ClientTimeout
 from bs4 import BeautifulSoup
 from lxml import etree
 from lxml.etree import XPath
-from tqdm import tqdm
 
 from .blockfactory import Block
 from .characterfactory import Character
@@ -24,60 +26,56 @@ class EmojiExtractor(Extractor):
         self.__ep_emojis = []
         self.__base_emojis = []
 
-    def __fetch_data(self) -> None:
-        with tqdm(total=3) as progress:
-            progress.set_description("Downloading annotations")
-            self.__fetch_annotations()
-            progress.update(1)
+    async def extract_to(self, target: Path) -> None:
+        await self.__fetch_data()
+        await self.__write_character_file(target)
+        await self.__write_metadata_file(target)
+        print("Finished Emoji")
 
-            progress.set_description("Downloading list of additional emoji data")
-            self.__fetch_additional_data()
-            progress.update(1)
+    async def __fetch_data(self) -> None:
+        async with aiohttp.ClientSession(timeout=ClientTimeout(sock_read=120)) as session:
+            await asyncio.gather(
+                self.__fetch_emoji_list(session),
+                self.__fetch_annotations(session),
+                self.__fetch_additional_data(session),
+            )
 
-            progress.set_description("Downloading list of all emojis")
-            self.__fetch_emoji_list()
-            progress.update(1)
+    async def __fetch_emoji_list(self, session: ClientSession) -> None:
+        async with session.get("https://unicode.org/emoji/charts-16.0/full-emoji-list.html") as data:
+            html_content = BeautifulSoup(await data.text(), "lxml")
 
-    def __fetch_emoji_list(self) -> None:
-        data: requests.Response = requests.get(
-            "https://unicode.org/emoji/charts-16.0/full-emoji-list.html", timeout=120
-        )
-
-        html = BeautifulSoup(data.text, "lxml")
-
-        current_title = None
-        current_emojis: List[Character] = []
-        for row in html.find("table").find_all("tr"):
-            if row.th and "bighead" in row.th["class"]:
-                if current_title:
-                    self.__all_blocks.append(Block(current_title, current_emojis))
-                current_title = row.a.string
-                current_emojis = []
-            elif not row.th:
-                emoji = row.find("td", {"class": "chars"}).string
-                description = row.find("td", {"class": "name"}).string.replace("⊛ ", "")
-                current_emojis.append(
-                    Character(
-                        emoji if emoji in self.__ep_emojis or len(emoji) > 1 else f"{emoji}️",
-                        description,
-                        "L",
-                        self.__annotations.get(emoji, None),
+            current_title = None
+            current_emojis: List[Character] = []
+            for row in html_content.find("table").find_all("tr"):
+                if row.th and "bighead" in row.th["class"]:
+                    if current_title:
+                        self.__all_blocks.append(Block(current_title, current_emojis))
+                    current_title = row.a.string
+                    current_emojis = []
+                elif not row.th:
+                    emoji = row.find("td", {"class": "chars"}).string
+                    description = row.find("td", {"class": "name"}).string.replace("⊛ ", "")
+                    current_emojis.append(
+                        Character(
+                            emoji if emoji in self.__ep_emojis or len(emoji) > 1 else f"{emoji}️",
+                            description,
+                            "L",
+                            self.__annotations.get(emoji, None),
+                        )
                     )
-                )
 
-        self.__all_blocks.append(Block(current_title, current_emojis))
+            self.__all_blocks.append(Block(current_title, current_emojis))
 
-    def __fetch_annotations(self) -> None:
-        data: requests.Response = requests.get(
-            "https://raw.githubusercontent.com/unicode-org/cldr/latest/common/annotations/en.xml", timeout=60
-        )
+    async def __fetch_annotations(self, session: ClientSession) -> None:
+        async with session.get(
+            "https://raw.githubusercontent.com/unicode-org/cldr/latest/common/annotations/en.xml"
+        ) as data:
+            xpath = XPath('./annotations/annotation[not(@type="tts")]')
+            for element in xpath(etree.fromstring(await data.read())):
+                self.__annotations[element.get("cp")] = element.text.split(" | ")
 
-        xpath = XPath('./annotations/annotation[not(@type="tts")]')
-        for element in xpath(etree.fromstring(data.content)):
-            self.__annotations[element.get("cp")] = element.text.split(" | ")
-
-    def __fetch_additional_data(self) -> None:
-        def __extract_ep_emojis() -> None:
+    async def __fetch_additional_data(self, session: ClientSession) -> None:
+        def __extract_ep_emojis(emoji_data: List[str]) -> None:
             started = False
             emojis = []
             for line in emoji_data:
@@ -92,7 +90,7 @@ class EmojiExtractor(Extractor):
 
             self.__ep_emojis = emojis
 
-        def __extract_base_emojis() -> None:
+        def __extract_base_emojis(emoji_data: List[str]) -> None:
             started = False
             emojis = []
             for line in emoji_data:
@@ -107,10 +105,10 @@ class EmojiExtractor(Extractor):
 
             self.__base_emojis = emojis
 
-        data: requests.Response = requests.get("https://unicode.org/Public/16.0.0/ucd/emoji/emoji-data.txt", timeout=60)
-        emoji_data = data.text.split("\n")
-        __extract_ep_emojis()
-        __extract_base_emojis()
+        async with session.get("https://unicode.org/Public/16.0.0/ucd/emoji/emoji-data.txt") as data:
+            emoji_data = (await data.text()).split("\n")
+            __extract_ep_emojis(emoji_data)
+            __extract_base_emojis(emoji_data)
 
     def __resolve_character_range(self, line: str) -> List[str]:
         try:
@@ -122,13 +120,13 @@ class EmojiExtractor(Extractor):
     def __resolve_character(self, string: str) -> str:
         return "".join(chr(int(character, 16)) for character in string.split(" "))
 
-    def __write_symbol_file(self, target: Path) -> None:
+    async def __write_character_file(self, target: Path) -> None:
         for block in self.__all_blocks:
-            with (target / f"emojis_{block.name.lower().replace(' ', '').replace('&', '_')}.csv").open(
-                "w"
-            ) as symbol_file:
+            async with aiofiles.open(
+                target / f"emojis_{block.name.lower().replace(' ', '').replace('&', '_')}.csv", mode="w"
+            ) as character_file:
                 for entry in self.__compile_entries(block):
-                    symbol_file.write(entry + "\n")
+                    await character_file.write(entry + "\n")
 
     def __compile_entries(self, block: Block) -> List[str]:
         annotated_emojis = []
@@ -139,13 +137,8 @@ class EmojiExtractor(Extractor):
             annotated_emojis.append(entry)
         return annotated_emojis
 
-    def __write_metadata_file(self, target: Path) -> None:
-        with (target / "copyme.py").open("w") as metadata_file:
-            metadata_file.write("skin_tone_selectable_emojis={'")
-            metadata_file.write("', '".join(self.__base_emojis))
-            metadata_file.write("'}\n")
-
-    def extract_to(self, target: Path) -> None:
-        self.__fetch_data()
-        self.__write_symbol_file(target)
-        self.__write_metadata_file(target)
+    async def __write_metadata_file(self, target: Path) -> None:
+        async with aiofiles.open(target / "copyme.py", mode="w") as metadata_file:
+            await metadata_file.write("skin_tone_selectable_emojis={'")
+            await metadata_file.write("', '".join(self.__base_emojis))
+            await metadata_file.write("'}\n")

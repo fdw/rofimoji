@@ -1,11 +1,11 @@
 import html
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, List
+from typing import List
 
-import requests
+import aiofiles
+import aiohttp
 
-from .characterfactory import Character
 from .extractor import Extractor
 
 
@@ -21,25 +21,29 @@ class KaomojiExtractor(Extractor):
     def __init__(self):
         self.__kaomojis = []
 
-    def __fetch_icons(self) -> None:
-        response = requests.get("https://raw.githubusercontent.com/w33ble/emoticon-data/master/emoticons.json")
-        """
-        {
-          "tags": [
-            "hide"
-          ],
-          "string": "(⊃‿⊂)",
-          "id": "f73741a5-13f9-44a3-9dfe-4bce15c44cda"
-        }
-        """
-        for kaomoji in response.json()["emoticons"]:
-            self.__kaomojis.append(Kaomoji(kaomoji["string"].replace(" ", " "), ", ".join(kaomoji["tags"])))
+    async def extract_to(self, target: Path) -> None:
+        await self.__fetch_icons()
+        await self.__write_to_file(target)
+        print("Finished Kaomoji")
 
-    def __write_to_file(self, target: Path) -> None:
-        with (target / "kaomoji.csv").open("w") as symbol_file:
+    async def __fetch_icons(self) -> None:
+        async with aiohttp.ClientSession() as session:
+            async with session.get(
+                "https://raw.githubusercontent.com/w33ble/emoticon-data/master/emoticons.json"
+            ) as response:
+                """
+                {
+                  "tags": [
+                    "hide"
+                  ],
+                  "string": "(⊃‿⊂)",
+                  "id": "f73741a5-13f9-44a3-9dfe-4bce15c44cda"
+                }
+                """
+                for kaomoji in (await response.json(content_type=None))["emoticons"]:
+                    self.__kaomojis.append(Kaomoji(kaomoji["string"].replace(" ", " "), ", ".join(kaomoji["tags"])))
+
+    async def __write_to_file(self, target: Path) -> None:
+        async with aiofiles.open(target / "kaomoji.csv", mode="w") as character_file:
             for kaomoji in self.__kaomojis:
-                symbol_file.write(f"{kaomoji.string} {html.escape(kaomoji.description.lower())}\n")
-
-    def extract_to(self, target: Path) -> None:
-        self.__fetch_icons()
-        self.__write_to_file(target)
+                await character_file.write(f"{kaomoji.string} {html.escape(kaomoji.description.lower())}\n")

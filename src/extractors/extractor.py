@@ -2,5 +2,5 @@ from pathlib import Path
 
 
 class Extractor:
-    def extract_to(self, target: Path) -> None:
+    async def extract_to(self, target: Path) -> None:
         pass

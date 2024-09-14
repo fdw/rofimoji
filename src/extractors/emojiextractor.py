@@ -40,7 +40,7 @@ class EmojiExtractor(Extractor):
 
     def __fetch_emoji_list(self) -> None:
         data: requests.Response = requests.get(
-            "https://unicode.org/emoji/charts-15.1/full-emoji-list.html", timeout=120
+            "https://unicode.org/emoji/charts-16.0/full-emoji-list.html", timeout=120
         )
 
         html = BeautifulSoup(data.text, "lxml")
@@ -107,7 +107,7 @@ class EmojiExtractor(Extractor):
 
             self.__base_emojis = emojis
 
-        data: requests.Response = requests.get("https://unicode.org/Public/15.1.0/ucd/emoji/emoji-data.txt", timeout=60)
+        data: requests.Response = requests.get("https://unicode.org/Public/16.0.0/ucd/emoji/emoji-data.txt", timeout=60)
         emoji_data = data.text.split("\n")
         __extract_ep_emojis()
         __extract_base_emojis()

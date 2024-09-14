@@ -1,4 +1,10 @@
-# [6.4.0]
+# [6.5.0] - 2024-09-14
+## Changed
+- Updated to Unicode 16.0!
+- Updated NerdFont extractor and removed deprecated icons. (#198)
+- Re-ordered emoji files if not specified by user. (#199)
+
+# [6.4.0] - 2024-08-26
 ## Added
 - HTML named character references. (#195)
 

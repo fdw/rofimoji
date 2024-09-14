@@ -130,6 +130,7 @@ To use the arrow keys in `rofi` only for the grid and not the query, pass these 
 - [Nerd Fonts](https://www.nerdfonts.com/)
 - [Gitmoji](https://gitmoji.dev/)
 - Kaomoji, from [w33ble](https://github.com/w33ble/emoticon-data)
+- [HTML Named Character References](https://html.spec.whatwg.org/multipage/named-characters.html)
 
 If you miss something, please open an issue!
 

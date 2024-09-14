@@ -1494,7 +1494,7 @@
 㬇 Huàn
 㬈 Wēn
 㬉 Nuǎn
-㬊 Huàn
+㬊 Huǎn
 㬋 Hóu
 㬌 Jìng
 㬍 Bó
@@ -1935,7 +1935,7 @@
 㴑 Sù
 㴒 Yì
 㴓 Shāi
-㴔 Xī
+㴔 Jí Xī
 㴕 Jí
 㴖 Luò
 㴗 Yōu
@@ -1996,7 +1996,7 @@
 㵢 Léi
 㵣 Kě
 㵤 Shà
-㵥 Bì
+㵥 Mì
 㵦 Suí
 㵧 Gé
 㵨 Pì
@@ -2331,6 +2331,7 @@
 㻾 Yōng
 㻿 Shǔ
 㼂 É
+㼆 Yíng
 㼇 Qióng
 㼈 Luó
 㼉 Zhèn
@@ -3487,7 +3488,7 @@
 䏯 Zhì
 䏰 Rùn
 䏱 Jú
-䏲 Dié
+䏲 Tī Dié
 䏳 Zhè
 䏴 Shào
 䏵 Měng
@@ -4740,7 +4741,7 @@
 䥎 Chún
 䥏 Yǔ
 䥐 Móu
-䥑 Wàn
+䥑 Mài
 䥒 Jiàng
 䥓 Qī
 䥔 Sù
@@ -4806,7 +4807,7 @@
 䦜 Wú
 䦝 Huō
 䦞 Rùn
-䦟 Wěn
+䦟 Chuài
 䦠 Dū
 䦡 Huán
 䦢 Kuò
@@ -5773,6 +5774,8 @@
 䶲 Nán
 䶳 Yuè
 䶵 Chí
+䶷 Jiào
+䶹 Zuǒ
 一 Yī
 丁 Dīng
 丂 Kǎo
@@ -5958,7 +5961,7 @@
 亶 Dǎn
 亷 Lián
 亸 Duǒ
-亹 Mén
+亹 Wěi
 人 Rén
 亻 Rén
 亼 Jí
@@ -6064,7 +6067,7 @@
 传 Chuán
 伡 Chē
 伢 Yá
-伣 Xiàn
+伣 Qiàn
 伤 Shāng
 伥 Chāng
 伦 Lún
@@ -6079,7 +6082,7 @@
 伯 Bó
 估 Gū
 伱 Nǐ
-伲 Nì
+伲 Ní Nǐ
 伳 Xiè
 伴 Bàn
 伵 Xù
@@ -6089,7 +6092,7 @@
 伹 Qū
 伺 Cì
 伻 Bēng
-似 Shì
+似 Sì
 伽 Jiā
 伾 Pī
 伿 Yì
@@ -6145,7 +6148,7 @@
 佱 Fǎ
 佲 Mǐng
 佳 Jiā
-佴 Èr
+佴 Nài
 併 Bìng
 佶 Jí
 佷 Hěn
@@ -6322,7 +6325,7 @@
 倢 Jié
 倣 Fǎng
 値 Zhí
-倥 Kōng
+倥 Kǒng
 倦 Juàn
 倧 Zōng
 倨 Jù
@@ -6413,7 +6416,7 @@
 偽 Wěi
 偾 Fèn
 偿 Cháng
-傀 Guī
+傀 Kuǐ
 傁 Sǒu
 傂 Zhì
 傃 Sù
@@ -6839,7 +6842,7 @@
 利 Lì
 刪 Shān
 别 Bié
-刬 Chǎn
+刬 Chàn
 刭 Jǐng
 刮 Guā
 刯 Gēng
@@ -6871,7 +6874,7 @@
 剉 Cuò
 削 Xuē
 剋 Kēi Kè
-剌 Lá
+剌 Là
 前 Qián
 剎 Shā
 剏 Chuàng
@@ -6927,7 +6930,7 @@
 劁 Qiāo
 劂 Jué
 劃 Huà
-劄 Zhā
+劄 Zhá
 劅 Zhuó
 劆 Lián
 劇 Jù
@@ -7134,7 +7137,7 @@
 卐 Wàn
 卑 Bēi
 卒 Zú
-卓 Zhuō
+卓 Zhuó
 協 Xié
 单 Dān
 卖 Mài
@@ -7201,7 +7204,7 @@
 厓 Yá
 厔 Zhì
 厕 Cè
-厖 Páng
+厖 Máng
 厗 Tí
 厘 Lí
 厙 Shè
@@ -7329,7 +7332,7 @@
 吓 Xià
 吔 Yě
 吕 Lǚ
-吖 Yā
+吖 Ā
 吗 Ma
 吘 Ǒu
 吙 Huō
@@ -7378,7 +7381,7 @@
 呄 Gé
 呅 Méi
 呆 Dāi
-呇 Qǐ
+呇 Mèn Qǐ
 呈 Chéng
 呉 Wú
 告 Gào
@@ -7389,7 +7392,7 @@
 呏 Shēng
 呐 Nà
 呑 Tūn
-呒 Wǔ
+呒 Ḿ
 呓 Yì
 呔 Dāi
 呕 Ǒu
@@ -7426,7 +7429,7 @@
 呴 Xǔ
 呵 Hē
 呶 Náo
-呷 Gā
+呷 Xiā Xiá
 呸 Pēi
 呹 Yì
 呺 Xiāo
@@ -7442,7 +7445,7 @@
 咄 Duō
 咅 Pǒu
 咆 Páo
-咇 Bié
+咇 Bì
 咈 Fú
 咉 Yāng
 咊 Hé
@@ -7517,7 +7520,7 @@
 哏 Gén
 哐 Kuāng
 哑 Yǎ
-哒 Dá
+哒 Dā
 哓 Xiāo
 哔 Bì
 哕 Huì
@@ -7545,7 +7548,7 @@
 哫 Zú
 哬 Hé
 哭 Kū
-哮 Xiāo
+哮 Xiào
 哯 Xiàn
 哰 Láo
 哱 Bō
@@ -7590,9 +7593,9 @@
 唘 Qǐ
 唙 Dí
 唚 Qìn
-唛 Mà
+唛 Mài
 唜 Mò
-唝 Gòng
+唝 Hǒng
 唞 Dǒu
 唟 Qù
 唠 Láo
@@ -7664,7 +7667,7 @@
 啢 Liǎng
 啣 Xián
 啤 Pí
-啥 Shà
+啥 Shá
 啦 La
 啧 Zé
 啨 Yīng
@@ -7680,7 +7683,7 @@
 啲 Dī
 啳 Quán
 啴 Chǎn
-啵 Bō
+啵 Bo Bō
 啶 Dìng
 啷 Lāng
 啸 Xiào
@@ -7759,7 +7762,7 @@
 嗁 Tí
 嗂 Yáo
 嗃 Hè
-嗄 Á
+嗄 Shà
 嗅 Xiù
 嗆 Qiāng
 嗇 Sè
@@ -7793,7 +7796,7 @@
 嗣 Sì
 嗤 Chī
 嗥 Háo
-嗦 Suo
+嗦 Suō
 嗨 Hāi
 嗩 Suǒ
 嗪 Qín
@@ -7801,11 +7804,11 @@
 嗬 Hē
 嗭 Zhí
 嗮 Sài
-嗯 Ń
+嗯 Ǹg En
 嗰 Gě
 嗱 Ná
-嗲 Diē
-嗳 Āi
+嗲 Diǎ Diē
+嗳 Ǎi
 嗴 Qiāng
 嗵 Tōng
 嗶 Bì
@@ -7862,7 +7865,7 @@
 嘩 Huā
 嘪 Mǎi
 嘫 Rán
-嘬 Chuài
+嘬 Zuō
 嘭 Pēng
 嘮 Láo
 嘯 Xiào
@@ -7931,7 +7934,7 @@
 噮 Yuàn
 噯 Āi
 噰 Yōng
-噱 Jué
+噱 Xué
 噲 Kuài
 噳 Yǔ
 噴 Pēn
@@ -8086,7 +8089,7 @@
 圉 Yǔ
 圊 Qīng
 國 Guó
-圌 Chuán
+圌 Chuí
 圍 Wéi
 圎 Yuán
 圏 Quān
@@ -8117,7 +8120,7 @@
 在 Zài
 圩 Wéi
 圪 Gē
-圫 Yù
+圫 Tuō
 圬 Wū
 圭 Guī
 圮 Pǐ
@@ -8149,7 +8152,7 @@
 坈 Rǒng
 坉 Tún
 坊 Fāng
-坋 Bèn
+坋 Bèn Fèn
 坌 Bèn
 坍 Tān
 坎 Kǎn
@@ -8197,7 +8200,7 @@
 坸 Gòu
 坹 Xuè
 坺 Bá
-坻 Chí
+坻 Dǐ
 坼 Chè
 坽 Líng
 坾 Zhù
@@ -8255,12 +8258,12 @@
 垲 Kǎi
 垳 Háng
 垴 Nǎo
-垵 Ǎn
+垵 Ān
 垶 Xīng
 垷 Xiàn
 垸 Yuàn
 垹 Bāng
-垺 Fū
+垺 Fú
 垻 Bà
 垼 Yì
 垽 Yìn
@@ -8309,7 +8312,7 @@
 埨 Lǔn
 埩 Zhēng
 埪 Kōng
-埫 Chǒng
+埫 Tǎng Chǒng
 埬 Dōng
 埭 Dài
 埮 Tàn
@@ -8370,7 +8373,7 @@
 堥 Máo
 堦 Jiē
 堧 Ruán
-堨 Yè
+堨 È
 堩 Gèng
 堪 Kān
 堫 Zōng
@@ -8380,7 +8383,7 @@
 堯 Yáo
 堰 Yàn
 報 Bào
-堲 Cí
+堲 Jí
 堳 Méi
 場 Chǎng
 堵 Dǔ
@@ -8753,7 +8756,7 @@
 妤 Yú
 妥 Tuǒ
 妦 Fēng
-妧 Wàn
+妧 Yuán
 妨 Fáng
 妩 Wǔ
 妪 Yù
@@ -8942,8 +8945,8 @@
 婡 Lái
 婢 Bì
 婣 Yīn
-婤 Chōu
-婥 Nào
+婤 Zhōu
+婥 Chuò
 婦 Fù
 婧 Jìng
 婨 Lún
@@ -8966,7 +8969,7 @@
 婹 Yǎo
 婺 Wù
 婻 Nàn
-婼 Chuò
+婼 Ruò
 婽 Jiǎ
 婾 Tōu
 婿 Xù
@@ -9153,7 +9156,7 @@
 嬴 Yíng
 嬵 Mián
 嬶 Bí
-嬷 Mā
+嬷 Mó
 嬸 Shěn
 嬹 Xìng
 嬺 Nì
@@ -9167,7 +9170,7 @@
 孂 Jiǎo
 孃 Niáng
 孄 Lǎn
-孅 Qiān
+孅 Xiān
 孆 Yīng
 孇 Shuāng
 孈 Huì
@@ -9178,7 +9181,7 @@
 孍 Yán
 孎 Zhú
 孏 Lǎn
-子 Zi
+子 Zǐ
 孑 Jié
 孒 Jué
 孓 Jué
@@ -9211,7 +9214,7 @@
 孮 Cóng
 孯 Qiān
 孰 Shú
-孱 Càn
+孱 Chán
 孲 Yā
 孳 Zī
 孴 Nǐ
@@ -9388,7 +9391,7 @@
 尟 Xiǎn
 尠 Xiǎn
 尡 Kun
-尢 Yóu
+尢 Wāng
 尣 Wāng
 尤 Yóu
 尥 Liào
@@ -9573,7 +9576,7 @@
 峘 Huán
 峙 Zhì
 峚 Mì
-峛 Lǐ
+峛 Liè Lǐ
 峜 Jì
 峝 Tóng
 峞 Wéi
@@ -9609,7 +9612,7 @@
 峼 Gào
 峽 Xiá
 峾 Yín
-峿 Yǔ
+峿 Wú
 崀 Làng
 崁 Kàn
 崂 Láo
@@ -9672,7 +9675,7 @@
 崻 Zhì
 崼 Shì
 崽 Zǎi
-崾 Yǎo
+崾 Yào Yǎo
 崿 È
 嵀 Zhù
 嵁 Kān
@@ -9776,7 +9779,7 @@
 嶣 Jiāo
 嶤 Yáo
 嶥 Jué
-嶦 Zhān
+嶦 Shàn Zhān
 嶧 Yì
 嶨 Xué
 嶩 Náo
@@ -9905,7 +9908,7 @@
 帤 Rú
 帥 Shuài
 带 Dài
-帧 Zhèng
+帧 Zhēn
 帨 Shuì
 帩 Qiào
 帪 Zhēn
@@ -10064,7 +10067,7 @@
 廃 Fèi
 廄 Jiù
 廅 È
-廆 Guī
+廆 Wěi
 廇 Liù
 廈 Shà
 廉 Lián
@@ -10241,7 +10244,7 @@
 彴 Zhuó
 彵 Tuǒ
 彶 Jí
-彷 Fǎng
+彷 Páng Fǎng
 彸 Zhōng
 役 Yì
 彺 Wáng
@@ -10310,7 +10313,7 @@
 徹 Chè
 徺 Jiǎo
 徻 Huì
-徼 Jiǎo
+徼 Jiào
 徽 Huī
 徾 Méi
 徿 Lòng
@@ -10787,7 +10790,7 @@
 憖 Yìn
 憗 Yìn
 憘 Xǐ
-憙 Xī
+憙 Xǐ
 憚 Dàn
 憛 Tán
 憜 Duò
@@ -10984,7 +10987,7 @@
 扛 Káng
 扜 Yū
 扝 Kū
-扞 Gǎn
+扞 Hàn
 扟 Shēn
 扠 Chā
 扡 Tuō
@@ -11105,7 +11108,7 @@
 拔 Bá
 拕 Tuō
 拖 Tuō
-拗 Ǎo
+拗 Ào
 拘 Jū
 拙 Zhuō
 拚 Pàn
@@ -11143,7 +11146,7 @@
 拺 Cè
 拻 Huī
 拼 Pīn
-拽 Zhuāi
+拽 Zhuài
 拾 Shí
 拿 Ná
 挀 Bāi
@@ -11304,7 +11307,7 @@
 掛 Guà
 掜 Yì
 掝 Huò
-掞 Shàn
+掞 Yàn
 掟 Zhěng
 掠 Lüè
 採 Cǎi
@@ -11332,7 +11335,7 @@
 掷 Zhì
 掸 Dǎn
 掹 Meng
-掺 Càn
+掺 Chān
 掻 Sāo
 掼 Guàn
 掽 Pèng
@@ -11484,7 +11487,7 @@
 摏 Chōng
 摐 Chuāng
 摑 Guāi
-摒 Bǐng
+摒 Bìng
 摓 Féng
 摔 Shuāi
 摕 Dì
@@ -11527,7 +11530,7 @@
 摺 Zhé
 摻 Càn
 摼 Kēng
-摽 Biāo
+摽 Biào Biāo
 摾 Jiàng
 摿 Yáo
 撀 Gòu
@@ -11618,7 +11621,7 @@
 擕 Xié
 擖 Kā
 擗 Pǐ
-擘 Bāi Bò
+擘 Bò
 擙 Ào
 據 Jù
 擛 Yè
@@ -12105,7 +12108,7 @@
 暼 Piē
 暽 Lín
 暾 Tūn
-暿 Xǐ
+暿 Xī
 曀 Yì
 曁 Jì
 曂 Huàng
@@ -12266,10 +12269,10 @@
 杝 Lí
 杞 Qǐ
 束 Shù
-杠 Gāng
+杠 Gàng
 条 Tiáo
-杢 Jiang
-杣 Mián
+杢 Jié
+杣 Mián Shān
 杤 Wàn
 来 Lái
 杦 Jiǔ
@@ -12330,7 +12333,7 @@
 枝 Zhī
 枞 Cōng
 枟 Yùn
-枠 Zui
+枠 Huà
 枡 Shēng
 枢 Shū
 枣 Zǎo
@@ -12363,7 +12366,7 @@
 枾 Shì
 枿 Niè
 柀 Bǐ
-柁 Duò
+柁 Tuó Duò
 柂 Yí
 柃 Líng
 柄 Bǐng
@@ -12417,7 +12420,7 @@
 柴 Chái
 柵 Shān
 柶 Sì
-柷 Chù
+柷 Zhù
 柸 Pēi
 柹 Shì
 柺 Guǎi
@@ -12496,7 +12499,7 @@
 桃 Táo
 桄 Guāng
 桅 Wéi
-框 Kuāng
+框 Kuàng Kuāng
 桇 Rú
 案 Àn
 桉 Ān
@@ -12510,7 +12513,7 @@
 桑 Sāng
 桒 Sāng
 桓 Huán
-桔 Jú
+桔 Jié
 桕 Jiù
 桖 Xuè
 桗 Duò
@@ -12588,7 +12591,7 @@
 梠 Lǚ
 梡 Hún
 梢 Shāo
-梣 Cén
+梣 Chén
 梤 Fén
 梥 Sōng
 梦 Mèng
@@ -12636,7 +12639,7 @@
 棐 Fěi
 棑 Pái
 棒 Bàng
-棓 Bàng
+棓 Bèi Bàng
 棔 Hūn
 棕 Zōng
 棖 Chéng
@@ -12695,7 +12698,7 @@
 椋 Liáng
 椌 Qiāng
 植 Zhí
-椎 Chuí
+椎 Zhuī
 椏 Yā
 椐 Jū
 椑 Bēi
@@ -12787,12 +12790,12 @@
 楧 Yǎng
 楨 Zhēn
 楩 Pián
-楪 Yè
+楪 Dié
 楫 Jí
 楬 Jié
 業 Yè
 楮 Chǔ
-楯 Dùn
+楯 Dùn Shǔn
 楰 Yú
 楱 Zòu
 楲 Wēi
@@ -12918,7 +12921,7 @@
 槪 Gài
 槫 Tuán
 槬 Huà
-槭 Qī
+槭 Qì Cù
 槮 Sēn
 槯 Cuī
 槰 Péng
@@ -13018,7 +13021,7 @@
 橎 Fán
 橏 Zhǎn
 橐 Tuó
-橑 Lǎo
+橑 Liáo
 橒 Yún
 橓 Shùn
 橔 Dūn
@@ -13249,10 +13252,10 @@
 欵 Kuǎn
 欶 Shuò
 欷 Xī
-欸 Āi
-欹 Yī
+欸 Ǎi
+欹 Qī
 欺 Qī
-欻 Chuā
+欻 Xū Hū
 欼 Chǐ
 欽 Qīn
 款 Kuǎn
@@ -13512,7 +13515,7 @@
 氼 Nì
 氽 Tǔn
 氾 Fán Fàn
-氿 Guǐ
+氿 Jiǔ Guǐ
 汀 Tīng
 汁 Zhī
 求 Qiú
@@ -13613,7 +13616,7 @@
 没 Méi
 沢 Zé
 沣 Fēng
-沤 Ōu
+沤 Òu
 沥 Lì
 沦 Lún
 沧 Cāng
@@ -13724,7 +13727,7 @@
 洐 Xíng
 洑 Fú
 洒 Sǎ
-洓 Sè
+洓 Qì Suǒ
 洔 Zhǐ
 洕 Yìn
 洖 Wú
@@ -13925,7 +13928,7 @@
 淙 Cóng
 淚 Lèi
 淛 Zhè
-淜 Píng
+淜 Péng
 淝 Féi
 淞 Sōng
 淟 Tiǎn
@@ -14115,7 +14118,7 @@
 溗 Chéng
 溘 Kè
 溙 Tài
-溚 Tǎ
+溚 Dá
 溛 Wā
 溜 Liū
 溝 Gōu
@@ -14146,7 +14149,7 @@
 溶 Róng
 溷 Hùn
 溸 Sù
-溹 Suò
+溹 Suǒ
 溺 Nì
 溻 Tā
 溼 Shī
@@ -14269,7 +14272,7 @@
 漱 Shù
 漲 Zhǎng
 漳 Zhāng
-漴 Zhuàng
+漴 Chóng
 漵 Xù
 漶 Huàn
 漷 Huǒ
@@ -14319,7 +14322,7 @@
 潣 Mǐn
 潤 Rùn
 潥 Sù
-潦 Lǎo
+潦 Liáo
 潧 Zhēn
 潨 Cóng
 潩 Yì
@@ -14359,7 +14362,7 @@
 澋 Hòng
 澌 Sī
 澍 Shù
-澎 Pēng
+澎 Péng
 澏 Hán
 澐 Yún
 澑 Liù
@@ -14621,7 +14624,7 @@
 炑 Mù
 炒 Chǎo
 炓 Liào
-炔 Guì
+炔 Quē Guì
 炕 Kàng
 炖 Dùn
 炗 Guāng
@@ -14752,7 +14755,7 @@
 焕 Huàn
 焖 Mèn
 焗 Jú
-焘 Dào
+焘 Tāo
 焙 Bèi
 焚 Fén
 焛 Lìn
@@ -15074,7 +15077,7 @@
 牗 Yǒu
 牘 Dú
 牙 Yá
-牚 Chēng
+牚 Chèng Chēng
 牛 Niú
 牜 Niú
 牝 Pìn
@@ -15168,7 +15171,7 @@
 犵 Gē
 状 Zhuàng
 犷 Guǎng
-犸 Mà
+犸 Mǎ
 犹 Yóu
 犺 Kàng
 犻 Bó
@@ -15394,7 +15397,7 @@
 玗 Yú
 玘 Qǐ
 玙 Yú
-玚 Chàng
+玚 Yáng
 玛 Mǎ
 玜 Hóng
 玝 Wǔ
@@ -15473,7 +15476,7 @@
 珦 Xiàng
 珧 Yáo
 珨 Xiá
-珩 Háng
+珩 Héng
 珪 Guī
 珫 Chōng
 珬 Xù
@@ -15482,7 +15485,7 @@
 珯 Lǎo
 珰 Dāng
 珱 Yīng
-珲 Huī
+珲 Hún
 珳 Wén
 珴 É
 珵 Chéng
@@ -15609,7 +15612,7 @@
 瑮 Lì
 瑯 Láng
 瑰 Guī
-瑱 Zhèn
+瑱 Tiàn
 瑲 Qiāng
 瑳 Cuō
 瑴 Jué
@@ -15773,7 +15776,7 @@
 甗 Yǎn
 甘 Gān
 甙 Dài
-甚 Shén
+甚 Shèn
 甛 Tián
 甜 Tián
 甝 Hán
@@ -15803,9 +15806,9 @@
 电 Diàn
 甶 Fú
 男 Nán
-甸 Diān Diàn
+甸 Diàn
 甹 Pīng
-町 Tīng
+町 Tǐng Dīng
 画 Huà
 甼 Tǐng
 甽 Zhèn
@@ -15855,7 +15858,7 @@
 畩 Yī
 番 Fān
 畫 Huà
-畬 Shē
+畬 Shē Yú
 畭 Yú
 畮 Mǔ
 畯 Jùn
@@ -16130,7 +16133,7 @@
 發 Fā
 白 Bái
 百 Bǎi
-癿 Qié
+癿 Bié Qié
 皀 Jí
 皁 Zào
 皂 Zào
@@ -16263,7 +16266,7 @@
 省 Shěng
 眂 Shì
 眃 Yún
-眄 Miǎn
+眄 Miàn Miǎn
 眅 Pān
 眆 Fǎng
 眇 Miǎo
@@ -16406,7 +16409,7 @@
 瞐 Mò
 瞑 Míng
 瞒 Mán
-瞓 Shuì
+瞓 Fèn
 瞔 Zé
 瞕 Zhàng
 瞖 Yì
@@ -16524,7 +16527,7 @@
 砆 Fū
 砇 Mín
 砈 Ě
-砉 Huò
+砉 Huā Huò
 砊 Kāng
 砋 Zhǐ
 砌 Qì
@@ -16544,7 +16547,7 @@
 砚 Yàn
 砛 Jīn
 砜 Fēng
-砝 Fá
+砝 Fǎ
 砞 Mò
 砟 Zhǎ
 砠 Jū
@@ -16589,10 +16592,10 @@
 硇 Náo
 硈 Qià
 硉 Lù
-硊 Wěi
+硊 Huì Wěi
 硋 Ài
 硌 Gè
-硍 Xiàn
+硍 Yín Xiàn
 硎 Xíng
 硏 Yán
 硐 Dòng
@@ -16604,7 +16607,7 @@
 硖 Xiá
 硗 Qiāo
 硘 Qing
-硙 Wéi
+硙 Wèi
 硚 Qiáo
 硛 Yì
 硜 Kēng
@@ -16651,7 +16654,7 @@
 碅 Jūn
 碆 Bō
 碇 Dìng
-碈 Mín
+碈 Hūn Mín
 碉 Diāo
 碊 Jiān
 碋 Hè
@@ -16676,7 +16679,7 @@
 碞 Yán
 碟 Dié
 碠 Dìng
-碡 Dú
+碡 Zhóu Dú
 碢 Tuó
 碣 Jié
 碤 Yīng
@@ -17119,7 +17122,7 @@
 穙 Pú
 穚 Jiāo
 穛 Zhuō
-穜 Zhǒng
+穜 Tóng
 穝 Zui
 穞 Lǚ
 穟 Suì
@@ -17195,7 +17198,7 @@
 窥 Kuī
 窦 Dòu
 窧 Zhuo
-窨 Xūn
+窨 Yìn
 窩 Wō
 窪 Wā
 窫 Yà
@@ -17340,7 +17343,7 @@
 笶 Shǐ
 笷 Mǎo
 笸 Pǒ
-笹 Ti
+笹 Tì
 笺 Jiān
 笻 Qióng
 笼 Lóng
@@ -17562,7 +17565,7 @@
 簔 Suō
 簕 Lè
 簖 Duàn
-簗 Liang
+簗 Zhù
 簘 Xiāo
 簙 Bó
 簚 Mì
@@ -17969,7 +17972,7 @@
 綫 Xiàn
 綬 Shòu
 維 Wéi
-綮 Qǐ
+綮 Qìng
 綯 Táo
 綰 Wǎn
 綱 Gāng
@@ -18216,7 +18219,7 @@
 红 Hóng
 纣 Zhòu
 纤 Xiān
-纥 Gē
+纥 Hé
 约 Yuē
 级 Jí
 纨 Wán
@@ -18284,7 +18287,7 @@
 绦 Tāo
 继 Jì
 绨 Tí
-绩 Jī
+绩 Jì
 绪 Xù
 绫 Líng
 绬 Yīng
@@ -18317,7 +18320,7 @@
 缇 Tí
 缈 Miǎo
 缉 Jī
-缊 Yūn
+缊 Yùn
 缋 Huì
 缌 Sī
 缍 Duǒ
@@ -18394,7 +18397,7 @@
 罔 Wǎng
 罕 Hǎn
 罖 Luó
-罗 Luō
+罗 Luó
 罘 Fú
 罙 Shēn
 罚 Fá
@@ -18645,7 +18648,7 @@
 聏 Ér
 聐 Yà
 聑 Tiē
-聒 Guā
+聒 Guō Guā
 聓 Xù
 联 Lián
 聕 Hào
@@ -18702,7 +18705,7 @@
 肈 Zhào
 肉 Ròu
 肊 Yì
-肋 Lē
+肋 Lèi Lè
 肌 Jī
 肍 Qiú
 肎 Kěn
@@ -18829,7 +18832,7 @@
 脇 Xié
 脈 Mài
 脉 Mài
-脊 Jí
+脊 Jǐ
 脋 Xié
 脌 Nin
 脍 Kuài
@@ -18882,7 +18885,7 @@
 脼 Liǎng
 脽 Shuí
 脾 Pí
-脿 Biāo
+脿 Biǎo Biāo
 腀 Lún
 腁 Pián
 腂 Lěi
@@ -19217,7 +19220,7 @@
 芋 Yù
 芌 Yù
 芍 Sháo
-芎 Qiōng
+芎 Xiōng Qiōng
 芏 Dù
 芐 Hù
 芑 Qǐ
@@ -19227,7 +19230,7 @@
 芕 Suī
 芖 Zhì
 芗 Xiāng
-芘 Pí
+芘 Bǐ Pí
 芙 Fú
 芚 Tún
 芛 Wěi
@@ -19306,7 +19309,7 @@
 苤 Piě
 若 Ruò
 苦 Kǔ
-苧 Níng
+苧 Níng Zhù
 苨 Nǐ
 苩 Bó
 苪 Bǐng
@@ -19342,7 +19345,7 @@
 茈 Cí
 茉 Mò
 茊 Zī
-茋 Zhǐ
+茋 Dǐ
 茌 Chí
 茍 Jì
 茎 Jīng
@@ -19387,7 +19390,7 @@
 茵 Yīn
 茶 Chá
 茷 Fá
-茸 Rōng
+茸 Róng
 茹 Rú
 茺 Chōng
 茻 Mǎng
@@ -19554,7 +19557,7 @@
 菜 Cài
 菝 Bá
 菞 Lí
-菟 Tú
+菟 Tù
 菠 Bō
 菡 Hàn
 菢 Bào
@@ -19580,7 +19583,7 @@
 菶 Běng
 菷 Zhǒu
 菸 Yān
-菹 Jū
+菹 Zū Jū
 菺 Jiān
 菻 Lǐn
 菼 Tǎn
@@ -19601,7 +19604,7 @@
 萋 Qī
 萌 Méng
 萍 Píng
-萎 Wēi
+萎 Wěi Wēi
 萏 Dàn
 萐 Shà
 萑 Huán
@@ -19638,13 +19641,13 @@
 萰 Liàn
 萱 Xuān
 萲 Xuān
-萳 Nǎn
+萳 Nán
 萴 Cè
 萵 Wō
 萶 Chǔn
 萷 Xiāo
 萸 Yú
-萹 Biǎn
+萹 Biān Biǎn
 萺 Mào
 萻 Ān
 萼 È
@@ -19674,7 +19677,7 @@
 葔 Hóu
 葕 Yàn
 葖 Tū
-著 Zhe
+著 Zhù
 葘 Zī
 葙 Xiāng
 葚 Rèn
@@ -19699,7 +19702,7 @@
 葭 Jiā
 葮 Duàn
 葯 Yào
-葰 Suī
+葰 Jùn
 葱 Cōng
 葲 Quán
 葳 Wēi
@@ -19786,7 +19789,7 @@
 蓄 Xù
 蓅 Liú
 蓆 Xí
-蓇 Gǔ
+蓇 Gū Gǔ
 蓈 Láng
 蓉 Róng
 蓊 Wěng
@@ -19838,7 +19841,7 @@
 蓸 Cáo
 蓹 Yù
 蓺 Yì
-蓻 Zí
+蓻 Zí Jí
 蓼 Liǎo
 蓽 Bì
 蓾 Lǔ
@@ -19851,7 +19854,7 @@
 蔅 Yán
 蔆 Líng
 蔇 Jì
-蔈 Biāo
+蔈 Piào Biāo
 蔉 Gǔn
 蔊 Hǎn
 蔋 Dí
@@ -19910,7 +19913,7 @@
 蕀 Jí
 蕁 Qián
 蕂 Shèng
-蕃 Fān
+蕃 Bō Fān
 蕄 Méng
 蕅 Ǒu
 蕆 Chǎn
@@ -19972,7 +19975,7 @@
 蕾 Lěi
 蕿 Xuān
 薀 Yùn
-薁 Yù
+薁 Ào Yù
 薂 Xí
 薃 Hào
 薄 Báo Bó
@@ -20073,7 +20076,7 @@
 藣 Bēi
 藤 Téng
 藥 Yào
-藦 Mò
+藦 Mó
 藧 Huàn
 藨 Biāo
 藩 Fān
@@ -20221,7 +20224,7 @@
 虷 Hán
 虸 Zǐ
 虹 Hóng
-虺 Huī
+虺 Huǐ
 虻 Méng
 虼 Gè
 虽 Suī
@@ -20518,7 +20521,7 @@
 螠 Yì
 螡 Wén
 螢 Yíng
-螣 Tè
+螣 Téng
 螤 Zhōng
 螥 Cāng
 螦 Sāo
@@ -21185,7 +21188,7 @@
 註 Zhù
 証 Zhèng
 訽 Gòu
-訾 Zī
+訾 Zǐ
 訿 Zǐ
 詀 Zhān
 詁 Gǔ
@@ -21595,7 +21598,7 @@
 试 Shì
 诖 Guà
 诗 Shī
-诘 Jí
+诘 Jié
 诙 Huī
 诚 Chéng
 诛 Zhū
@@ -21607,7 +21610,7 @@
 诡 Guǐ
 询 Xún
 诣 Yì
-诤 Zhēng
+诤 Zhèng
 该 Gāi
 详 Xiáng
 诧 Chà
@@ -21664,7 +21667,7 @@
 谚 Yàn
 谛 Dì
 谜 Mí
-谝 Pián
+谝 Piǎn
 谞 Xū
 谟 Mó
 谠 Dǎng
@@ -21676,7 +21679,7 @@
 谦 Qiān
 谧 Mì
 谨 Jǐn
-谩 Mán
+谩 Màn
 谪 Zhé
 谫 Jiǎn
 谬 Miù
@@ -21708,7 +21711,7 @@
 豆 Dòu
 豇 Jiāng
 豈 Qǐ
-豉 Shì
+豉 Chǐ
 豊 Lǐ
 豋 Dēng
 豌 Wān
@@ -22087,7 +22090,7 @@
 跁 Bà
 跂 Qí
 跃 Yuè
-跄 Qiāng
+跄 Qiàng
 跅 Tuò
 跆 Tái
 跇 Yì
@@ -22137,7 +22140,7 @@
 跳 Tiào
 跴 Cǎi
 践 Jiàn
-跶 Dá
+跶 Da
 跷 Qiāo
 跸 Bì
 跹 Xiān
@@ -22156,7 +22159,7 @@
 踆 Cūn
 踇 Mǔ
 踈 Shū
-踉 Liáng
+踉 Liàng
 踊 Yǒng
 踋 Jiǎo
 踌 Chóu
@@ -22229,7 +22232,7 @@
 蹏 Tí
 蹐 Jí
 蹑 Niè
-蹒 Mán
+蹒 Pán
 蹓 Liū
 蹔 Zàn
 蹕 Bì
@@ -22408,7 +22411,7 @@
 輂 Jú
 較 Jiào
 輄 Guāng
-輅 Hé
+輅 Lù
 輆 Kǎi
 輇 Quán
 輈 Zhōu
@@ -22554,7 +22557,7 @@
 辔 Pèi
 辕 Yuán
 辖 Xiá
-辗 Niǎn
+辗 Zhǎn
 辘 Lù
 辙 Zhé
 辚 Lín
@@ -22616,7 +22619,7 @@
 迒 Háng
 迓 Yà
 返 Fǎn
-迕 Wù
+迕 Wǔ
 迖 Dá
 迗 É
 还 Hái
@@ -22652,7 +22655,7 @@
 迶 Yòu
 迷 Mí
 迸 Bèng
-迹 Jī
+迹 Jì
 迺 Nǎi
 迻 Yí
 迼 Jié
@@ -22750,14 +22753,14 @@
 遘 Gòu
 遙 Yáo
 遚 Chòu
-遛 Liú
+遛 Liù
 遜 Xùn
 遝 Tà
 遞 Dì
 遟 Chí
 遠 Yuǎn
 遡 Sù
-遢 Tà
+遢 Ta
 遣 Qiǎn
 遤 Mǎ
 遥 Yáo
@@ -22981,7 +22984,7 @@
 鄿 Jī
 酀 Yàn
 酁 Chán
-酂 Cuó
+酂 Zàn
 酃 Líng
 酄 Huān
 酅 Xī
@@ -23013,11 +23016,11 @@
 酟 Tiān
 酠 Qiǎ
 酡 Tuó
-酢 Cù
+酢 Zuò
 酣 Hān
 酤 Gū
 酥 Sū
-酦 Pò
+酦 Pō
 酧 Chóu
 酨 Zài
 酩 Mǐng
@@ -23041,7 +23044,7 @@
 酻 Zuì
 酼 Hǎi
 酽 Yàn
-酾 Shāi
+酾 Shī
 酿 Niàng
 醀 Wéi
 醁 Lù
@@ -23126,7 +23129,7 @@
 釐 Xī Lí
 金 Jīn
 釒 Jīn
-釓 Qiú
+釓 Gá
 釔 Yǐ
 釕 Liǎo
 釖 Dāo
@@ -23179,7 +23182,7 @@
 鈅 Yuè
 鈆 Qiān
 鈇 Fū
-鈈 Pī
+鈈 Bù
 鈉 Nà
 鈊 Xīn
 鈋 É
@@ -23261,7 +23264,7 @@
 鉗 Qián
 鉘 Fú
 鉙 Zhǎi
-鉚 Liǔ
+鉚 Mǎo
 鉛 Qiān
 鉜 Fú
 鉝 Lì
@@ -23294,7 +23297,7 @@
 鉸 Jiǎo
 鉹 Chǐ
 鉺 Èr
-鉻 Luò
+鉻 Gè
 鉼 Bǐng
 鉽 Shì
 鉾 Móu
@@ -23403,7 +23406,7 @@
 鋥 Zèng
 鋦 Jū
 鋧 Xiàn
-鋨 Tiě
+鋨 É
 鋩 Máng
 鋪 Pù
 鋫 Lí
@@ -23445,7 +23448,7 @@
 錏 Yā
 錐 Zhuī
 錑 Lèi
-錒 Kē
+錒 Ā
 錓 Kōng
 錔 Tà
 錕 Kūn
@@ -23549,7 +23552,7 @@
 鍷 Kuí
 鍸 Hú
 鍹 Xuān
-鍺 Duǒ
+鍺 Zhě
 鍻 Jié
 鍼 Zhēn
 鍽 Biān
@@ -23856,7 +23859,7 @@
 钪 Kàng
 钫 Fāng
 钬 Huǒ
-钭 Tǒu
+钭 Dǒu
 钮 Niǔ
 钯 Bǎ
 钰 Yù
@@ -23888,7 +23891,7 @@
 铊 Tā
 铋 Bì
 铌 Ní
-铍 Pī
+铍 Pí
 铎 Duó
 铏 Xíng
 铐 Kào
@@ -23911,7 +23914,7 @@
 铡 Zhá
 铢 Zhū
 铣 Xǐ
-铤 Dìng
+铤 Tǐng
 铥 Diū
 铦 Xiān
 铧 Huá
@@ -24041,7 +24044,7 @@
 镣 Liào
 镤 Pú
 镥 Lǔ
-镦 Duì
+镦 Dūn
 镧 Lán
 镨 Pǔ
 镩 Cuān
@@ -24185,7 +24188,7 @@
 闳 Hóng
 间 Jiān
 闵 Mǐn
-闶 Kāng
+闶 Kàng
 闷 Mèn
 闸 Zhá
 闹 Nào
@@ -24201,7 +24204,7 @@
 阃 Kǔn
 阄 Jiū
 阅 Yuè
-阆 Láng
+阆 Làng
 阇 Dū
 阈 Yù
 阉 Yān
@@ -24210,7 +24213,7 @@
 阌 Wén
 阍 Hūn
 阎 Yán
-阏 È
+阏 Yān
 阐 Chǎn
 阑 Lán
 阒 Qù
@@ -24219,9 +24222,9 @@
 阕 Què
 阖 Hé
 阗 Tián
-阘 Dá
+阘 Tà
 阙 Quē
-阚 Hǎn
+阚 Kàn
 阛 Huán
 阜 Fù
 阝 Fù
@@ -24261,7 +24264,7 @@
 阿 Ā
 陀 Tuó
 陁 Tuó
-陂 Bēi Pí
+陂 Pí
 陃 Bǐng
 附 Fù
 际 Jì
@@ -24346,7 +24349,7 @@
 隔 Gé
 隕 Yǔn
 隖 Wù
-隗 Kuí Wěi
+隗 Wěi
 隘 Ài
 隙 Xì
 隚 Táng
@@ -24381,7 +24384,7 @@
 隷 Lì
 隸 Lì
 隹 Zhuī
-隺 Hú
+隺 Hè
 隻 Zhī
 隼 Sǔn
 隽 Juàn
@@ -24842,7 +24845,7 @@
 预 Yù
 颅 Lú
 领 Lǐng
-颇 Pǒ
+颇 Pō
 颈 Jǐng
 颉 Jié
 颊 Jiá
@@ -25066,7 +25069,7 @@
 饤 Dìng
 饥 Jī
 饦 Tuō
-饧 Táng
+饧 Xíng
 饨 Tún
 饩 Xì
 饪 Rèn
@@ -25330,7 +25333,7 @@
 马 Mǎ
 驭 Yù
 驮 Tuó
-驯 Xún
+驯 Xùn
 驰 Chí
 驱 Qū
 驲 Rì
@@ -25871,7 +25874,7 @@
 鲉 Yóu
 鲊 Zhǎ
 鲋 Fù
-鲌 Bà
+鲌 Bó
 鲍 Bào
 鲎 Hòu
 鲏 Pí
@@ -26497,7 +26500,7 @@
 黻 Fú
 黼 Fǔ
 黽 Miǎn
-黾 Miǎn
+黾 Mǐn
 黿 Yuán
 鼀 Cù
 鼁 Qù
@@ -26635,7 +26638,7 @@
 龅 Bāo
 龆 Tiáo
 龇 Zī
-龈 Kěn
+龈 Yín
 龉 Yǔ
 龊 Chuò
 龋 Qǔ
@@ -26665,7 +26668,15 @@
 龣 Jué
 龤 Xié
 龥 Yù
+龪 Zhān
+龬 Wǎng
+龰 Zǒu
+龵 Shǒu
+龻 Luán
 鿃 Shǎn
+鿄 Liáng
+鿇 Zhēng
+鿌 Liáng
 鿍 Gàng
 鿎 Tǎ
 鿏 Mài
@@ -26674,6 +26685,21 @@
 鿫 Ào
 鿬 Tián
 鿭 Nǐ
+鿰 Hán
+鿱 Bā
+鿲 Láo
+鿳 Tuò
+鿴 Dōng
+鿵 Zhì
+鿶 Láng
+鿷 Àn
+鿸 Tuò
+鿹 Mì
+鿺 Mài
+鿻 Bù
+鿼 Jiā
+鿾 Làng
+鿿 Xìng
 礼 Lǐ
 𠀀 Hē
 𠀁 Qī
@@ -26716,6 +26742,7 @@
 𠂸 Huáng
 𠃊 Yǐn
 𠃌 Gǔn
+𠃓 Yáng
 𠃖 Jiū
 𠃫 Shēn
 𠃺 Jiù
@@ -27444,6 +27471,7 @@
 𠬝 Fú
 𠬢 Tāo
 𠬣 Bàng
+𠬤 Yì
 𠬪 Biào
 𠬬 Xī
 𠬮 Jié
@@ -29638,7 +29666,7 @@
 𢝴 Wù
 𢝸 Guò
 𢝹 Tì
-𢝻 Hōng
+𢝻 Hū
 𢞇 Rě
 𢞉 Yí
 𢞋 Tǔn
@@ -30034,6 +30062,7 @@
 𢵇 Yàng
 𢵈 Jiǎn
 𢵥 Zào
+𢵮 Lū
 𢶀 Zhuài
 𢶃 Fán
 𢶅 Shé
@@ -34723,7 +34752,7 @@
 𦛣 Yán
 𦛤 Guǎn
 𦛧 Zhì
-𦛨 Lao
+𦛨 Láo
 𦛯 Dǔ
 𦛰 Qì
 𦛱 Qū
@@ -36670,6 +36699,7 @@
 𧰇 Yú
 𧰈 Wù
 𧰊 Tián
+𧰎 Láo
 𧰒 Guó
 𧰘 Tán
 𧰙 Qí
@@ -37826,7 +37856,7 @@
 𨞣 Xū
 𨞨 Gài
 𨞩 Què
-𨞪 Chóu
+𨞪 Shòu
 𨞫 Méng
 𨞲 Shēn
 𨞶 Qiāo
@@ -40214,7 +40244,7 @@
 𩷏 Qíng
 𩷐 Jú
 𩷓 Zhì
-𩷕 Láng
+𩷕 Láng Liáng
 𩷖 Bù
 𩷗 Kuáng
 𩷘 Yì
@@ -41217,6 +41247,7 @@
 𫄨 Chī
 𫄷 Yì
 𫄸 Xūn
+𫇦 Yìng
 𫇭 Wěi
 𫈰 Qià
 𫋐 Gǒng
@@ -41298,6 +41329,7 @@
 𫮃 Shàn
 𫮬 Jiàng
 𫰛 Xíng
+𫰡 Huà
 𫵷 Lì
 𫶇 Dié
 𫷷 Xīn
@@ -41313,6 +41345,7 @@
 𬇕 Wàn
 𬇙 Bèi
 𬇹 Guó
+𬉧 Hán
 𬉼 Ǒu
 𬊈 Xún
 𬊤 Chǎn
@@ -41320,6 +41353,7 @@
 𬍛 Lì
 𬍡 Dàng
 𬍤 Xún
+𬎆 Yíng
 𬐚 Hǎi
 𬑔 Zhòng
 𬑡 Chǒu
@@ -41395,6 +41429,7 @@
 𬴂 Fēi
 𬴃 Huō
 𬴊 Lín
+𬵨 Mì
 𬶋 Jū
 𬶍 Tuó
 𬶏 Wéi
@@ -41414,6 +41449,244 @@
 𬺈 Yǐ
 𬺓 Chǔ
 𭀖 Lí
+𮧵 Wěi
 灰 Huī
+𰀡 Qiān
+𰀢 Jiān
+𰁜 Luán
+𰃮 Xué
+𰥛 Fèn
+𰯲 Jiān
 𰻝 Biáng
 𰻞 Biáng
+𱆥 Dān
+𱍐 Qí
+𱍕 Pā
+𱍛 Áo
+𱎠 Sǐ
+𱎶 Kuǎ
+𱎼 Gě
+𱏅 Jí
+𱏋 Ān
+𱏤 Lū
+𱏱 Lǎo
+𱐏 Gù
+𱐙 Chǎn
+𱐛 Tuǒ
+𱐿 Wài
+𱑖 Guān
+𱓰 Rì
+𱔯 Zhàn
+𱕰 Léi
+𱖀 Hōng
+𱖅 Biǎn
+𱖇 Gān
+𱖎 Ào
+𱖑 Jù
+𱖒 Shàn
+𱖕 Zhuǎi
+𱖖 Tū
+𱖙 Hèn
+𱖝 Zài
+𱖞 Zài
+𱖟 Kuāng
+𱖧 Chōng
+𱖫 Wú
+𱖭 Gòng
+𱖰 Tuó
+𱖲 Jiàn
+𱖷 Chéng
+𱖼 Pái
+𱖽 Zhōng
+𱗂 Sǎ
+𱗃 Hūn
+𱗅 Niào
+𱗉 Wā
+𱗋 Gé
+𱗌 Là
+𱗎 Yōu
+𱗕 Qiū
+𱗖 Zhǒng
+𱗚 Yǒng
+𱗞 Kū
+𱗟 Líng
+𱗢 Huǎng
+𱗤 Gāo
+𱘆 Hǎi
+𱘉 Lián
+𱘭 Nǎng
+𱘮 Fēn
+𱘲 Tuō
+𱙧 Xū
+𱚝 Zhǎ
+𱚦 Māo
+𱚯 Mò
+𱚱 Ā
+𱛆 Niao
+𱛍 Lún
+𱛒 Hóng
+𱛓 Lóng
+𱛔 Lè
+𱛧 Hāo
+𱛨 Hòng
+𱛬 Shí
+𱛹 Yē
+𱛽 Duàn
+𱜀 Nàng
+𱜒 Xiè
+𱜬 Liàng
+𱝃 Shuǎ
+𱝄 Sāo
+𱝉 Tòng
+𱝴 Hú
+𱞌 Huā
+𱞝 Qiè
+𱟫 Chàn
+𱠏 Kāng
+𱠸 Yuán
+𱢡 Huán
+𱣂 Wū
+𱣄 Huí
+𱣑 Ròu
+𱣕 Qǐ
+𱣹 Zàng
+𱣻 Hè
+𱤑 Guī
+𱤗 Gé
+𱤦 Luǎn
+𱤭 Pèng
+𱤺 Bēng
+𱥟 Yuè
+𱥣 Ruò
+𱥰 Yā
+𱥷 Nà
+𱦈 Guǐ
+𱧚 Liǎn
+𱧴 Mài
+𱨙 Zhā
+𱨸 Kuò
+𱩂 Yīng
+𱩉 Wù
+𱩽 È
+𱪿 Xūn
+𱬏 Liàn
+𱭰 Wěng
+𱮒 Sāng
+𱮜 Tān
+𱮴 Gāng
+𱮷 Càng
+𱮿 Bāng
+𱯧 Fù
+𱰎 Shēng
+𱰗 Ché
+𱰤 Qín
+𱰥 Lēi
+𱰭 Zī
+𱰮 Lǐng
+𱱚 Xī
+𱱭 Yān
+𱱱 Jué
+𱲆 Cè
+𱲎 Yìng
+𱳋 Chù
+𱳞 Zī
+𱳢 Huī
+𱳩 Hén
+𱳪 Dài
+𱳳 Wù
+𱴂 Là
+𱴇 Chéng
+𱴐 Chǎng
+𱴘 Jiǎng
+𱴞 Hóu
+𱴨 Èn
+𱴾 Guǎ
+𱵁 Shěn
+𱶡 Gàn
+𱶻 Tuó
+𱸂 Ōu
+𱸃 Xī
+𱸇 Láo
+𱸖 Yáng
+𱸛 Běn
+𱸜 Gǎn
+𱸡 Háo
+𱸥 Tiào
+𱸧 Lū
+𱹁 Qí
+𱹼 Zī
+𱺨 Miǎn
+𱺮 Háo
+𱻴 Zhá
+𱼞 Hàn
+𱼷 Zhǐ
+𱽎 Bèi
+𱽕 Dāo
+𱽖 Shēn
+𱽿 Jiàng
+𱾃 Huā
+𱾆 Guàn
+𱾎 Xié
+𱾝 Zhuī
+𱾾 Pū
+𱿅 Bòng
+𱿗 Biáng
+𱿣 Kè
+𱿫 Tàng
+𱿯 Wāi
+𲀃 Bāng
+𲀄 Xū
+𲀟 Háng
+𲀯 Xié
+𲁉 Zhēn
+𲁓 Biàng
+𲂆 Xiá
+𲂓 Zāo
+𲂔 Zhuó
+𲂻 Yīng
+𲄀 Mí
+𲄗 Kuǎi
+𲄚 Lào
+𲄨 Qián
+𲅂 Róu
+𲆦 Xī Xì
+𲆩 Sōng
+𲆫 Xūn
+𲆰 Xī Xí
+𲆳 Pǐn
+𲆵 Rǒng
+𲇊 Xī
+𲇙 Xiù
+𲇰 Rì
+𲈍 Yé
+𲈖 Gá
+𲈼 Chǔ
+𲉅 Táng
+𲉉 Lún
+𲉨 Kuàng
+𲊹 Chāi
+𲊽 Cí
+𲋁 Xìng
+𲋏 Pāo
+𲋶 Mài
+𲌉 Jù
+𲌞 Qián
+𲌡 Qiáng
+𲌰 Mào
+𲍇 Yí
+𲍉 Yuán
+𲍏 Xiǎn
+𲍐 Mǐ
+𲍗 Huàn
+𲍭 Zhūn
+𲍮 Fāng
+𲍯 Jiān
+𲍰 Mí
+𲍳 Yǒu
+𲍹 Bǎo
+𲍾 Zhuī
+𲍿 Yè
+𲎅 Chì
+𲎆 Tóng
+𲎈 Méng
+𲎉 Mò

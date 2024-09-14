@@ -1,0 +1,686 @@
+𜰀 Up-Pointing Go-Kart
+𜰁 Right-Pointing Go-Kart
+𜰂 Left-Pointing Stick Figure
+𜰃 Right-Pointing Stick Figure
+𜰄 Down-Pointing Stick Figure
+𜰅 Lower Horizontal Ruler Segment
+𜰆 Right Vertical Ruler Segment
+𜰇 Lower Right Ruler Segment
+𜰈 Antenna
+𜰉 Horizontal Resistor Segment
+𜰊 Vertical Resistor Segment
+𜰋 Left Third Inductor
+𜰌 Middle Third Inductor
+𜰍 Right Third Inductor
+𜰎 Left-Pointing Diode
+𜰏 Right-Pointing Diode
+𜰐 Npn Transistor
+𜰑 Pnp Transistor
+𜰒 Receptacle
+𜰓 Horizontal Capacitor
+𜰔 Vertical Capacitor
+𜰕 Logic Gate Or
+𜰖 Logic Gate And
+𜰗 Logic Gate Inverted Inputs
+𜰘 Logic Gate Inverted Output
+𜰙 Logic Gate Buffer
+𜰚 Logic Gate Buffer With Inverted Input
+𜰛 Box Drawings Light Horizontal And Upper Right
+𜰜 Box Drawings Light Horizontal And Lower Right
+𜰝 Box Drawings Light Top And Upper Left
+𜰞 Box Drawings Light Bottom And Lower Left
+𜰟 Box Drawings Double Diagonal Upper Right To Lower Left
+𜰠 Box Drawings Double Diagonal Upper Left To Lower Right
+𜰡 Separated Block Quadrant-1
+𜰢 Separated Block Quadrant-2
+𜰣 Separated Block Quadrant-12
+𜰤 Separated Block Quadrant-3
+𜰥 Separated Block Quadrant-13
+𜰦 Separated Block Quadrant-23
+𜰧 Separated Block Quadrant-123
+𜰨 Separated Block Quadrant-4
+𜰩 Separated Block Quadrant-14
+𜰪 Separated Block Quadrant-24
+𜰫 Separated Block Quadrant-124
+𜰬 Separated Block Quadrant-34
+𜰭 Separated Block Quadrant-134
+𜰮 Separated Block Quadrant-234
+𜰯 Separated Block Quadrant-1234
+𜰰 Upper Left Twelfth Circle
+𜰱 Upper Centre Left Twelfth Circle
+𜰲 Upper Centre Right Twelfth Circle
+𜰳 Upper Right Twelfth Circle
+𜰴 Upper Middle Left Twelfth Circle
+𜰵 Upper Left Quarter Circle
+𜰶 Upper Right Quarter Circle
+𜰷 Upper Middle Right Twelfth Circle
+𜰸 Lower Middle Left Twelfth Circle
+𜰹 Lower Left Quarter Circle
+𜰺 Lower Right Quarter Circle
+𜰻 Lower Middle Right Twelfth Circle
+𜰼 Lower Left Twelfth Circle
+𜰽 Lower Centre Left Twelfth Circle
+𜰾 Lower Centre Right Twelfth Circle
+𜰿 Lower Right Twelfth Circle
+𜱀 Sparse Horizontal Fill
+𜱁 Sparse Vertical Fill
+𜱂 Orthogonal Crosshatch Fill
+𜱃 Diagonal Crosshatch Fill
+𜱄 Dense Vertical Fill
+𜱅 Dense Horizontal Fill
+𜱆 Speckle Fill Frame-1
+𜱇 Speckle Fill Frame-2
+𜱈 Left-Facing Bassinet
+𜱉 Right-Facing Bassinet
+𜱊 Flying Saucer With Beams
+𜱋 Flying Saucer Without Beams
+𜱌 Alien Monster Open Jaws
+𜱍 Alien Monster Closed Jaws
+𜱎 Alien Squid Open Tentacles
+𜱏 Alien Squid Closed Tentacles
+𜱐 Alien Crab Stepping Right
+𜱑 Alien Crab Stepping Left
+𜱒 Alien Spider Crouching
+𜱓 Alien Spider Spread
+𜱔 Alien Monster Step-1
+𜱕 Alien Monster Step-2
+𜱖 Left-Pointing Rocket Ship
+𜱗 Up-Pointing Rocket Ship
+𜱘 Right-Pointing Rocket Ship
+𜱙 Down-Pointing Rocket Ship
+𜱚 Top Half Left-Facing Robot
+𜱛 Top Half Forward-Facing Robot
+𜱜 Top Half Right-Facing Robot
+𜱝 Bottom Half Left-Facing Robot
+𜱞 Bottom Half Forward-Facing Robot
+𜱟 Bottom Half Right-Facing Robot
+𜱠 Left-Pointing Atomic Bomb
+𜱡 Up-Pointing Atomic Bomb
+𜱢 Right-Pointing Atomic Bomb
+𜱣 Down-Pointing Atomic Bomb
+𜱤 Mushroom Cloud
+𜱥 Left-Pointing Rifle
+𜱦 Up-Pointing Rifle
+𜱧 Right-Pointing Rifle
+𜱨 Down-Pointing Rifle
+𜱩 Eight Rays Inward
+𜱪 Eight Rays Outward
+𜱫 Black Large Circle Minus Left Quarter Section
+𜱬 Black Large Circle Minus Upper Quarter Section
+𜱭 Black Large Circle Minus Right Quarter Section
+𜱮 Black Large Circle Minus Lower Quarter Section
+𜱯 Black Neutral Face
+𜱰 Left-Facing Snake Head With Open Mouth
+𜱱 Up-Facing Snake Head With Open Mouth
+𜱲 Right-Facing Snake Head With Open Mouth
+𜱳 Down-Facing Snake Head With Open Mouth
+𜱴 Left-Facing Snake Head With Closed Mouth
+𜱵 Up-Facing Snake Head With Closed Mouth
+𜱶 Right-Facing Snake Head With Closed Mouth
+𜱷 Down-Facing Snake Head With Closed Mouth
+𜱸 Left-Pointing Energy Wave
+𜱹 Up-Pointing Energy Wave
+𜱺 Right-Pointing Energy Wave
+𜱻 Down-Pointing Energy Wave
+𜱼 Square Spiral From Top Left
+𜱽 Square Spiral From Top Right
+𜱾 Square Spiral From Bottom Right
+𜱿 Square Spiral From Bottom Left
+𜲀 Striped Left-Pointing Triangle
+𜲁 Striped Up-Pointing Triangle
+𜲂 Striped Right-Pointing Triangle
+𜲃 Striped Down-Pointing Triangle
+𜲄 Vertical Ladder
+𜲅 Horizontal Ladder
+𜲆 White Lower Left Pointer
+𜲇 White Lower Right Pointer
+𜲈 Two Rings Aligned Horizontally
+𜲉 Square Four Corner Saltires
+𜲊 Square Four Corner Diagonals
+𜲋 Square Four Corner Black Triangles
+𜲌 Square Aperture
+𜲍 Inverse Black Diamond
+𜲎 Left And Upper One Eighth Block Containing Black Small Square
+𜲏 Inverse Black Small Square
+𜲐 Vertical Line With Four Tick Marks
+𜲑 Horizontal Line With Four Tick Marks
+𜲒 Left-Facing Fish
+𜲓 Right-Facing Fish
+𜲔 Left-Facing Fish With Open Mouth
+𜲕 Right-Facing Fish With Open Mouth
+𜲖 Flapping Bird
+𜲗 Left-Pointing Racing Car
+𜲘 Up-Pointing Racing Car
+𜲙 Right-Pointing Racing Car
+𜲚 Down-Pointing Racing Car
+𜲛 Horizontal Racing Car
+𜲜 Vertical Racing Car
+𜲝 Vertical Go-Kart
+𜲞 Left-Pointing Tank
+𜲟 Right-Pointing Tank
+𜲠 Left-Pointing Rocket Booster
+𜲡 Right-Pointing Rocket Booster
+𜲢 Left-Pointing Roller Coaster Car
+𜲣 Right-Pointing Roller Coaster Car
+𜲤 Left Half Flying Saucer
+𜲥 Right Half Flying Saucer
+𜲦 Upper Left Quadrant Face With Open Eyes
+𜲧 Upper Right Quadrant Face With Open Eyes
+𜲨 Upper Left Quadrant Face With Closed Eyes
+𜲩 Upper Right Quadrant Face With Closed Eyes
+𜲪 Lower Left Quadrant Smiling Face
+𜲫 Lower Right Quadrant Smiling Face
+𜲬 Lower Left Quadrant Neutral Face
+𜲭 Lower Right Quadrant Neutral Face
+𜲮 Lower Left Quadrant Face With Open Mouth
+𜲯 Lower Right Quadrant Face With Open Mouth
+𜲰 Lower Left Quadrant Frowning Face
+𜲱 Lower Right Quadrant Frowning Face
+𜲲 Upper Left Quadrant Television
+𜲳 Upper Right Quadrant Television
+𜲴 Lower Left Quadrant Television
+𜲵 Lower Right Quadrant Television
+𜲶 Upper Left Quadrant Microcomputer
+𜲷 Upper Right Quadrant Microcomputer
+𜲸 Lower Left Quadrant Microcomputer
+𜲹 Lower Right Quadrant Microcomputer
+𜲺 Upper Left Quadrant Chess King
+𜲻 Upper Right Quadrant Chess King
+𜲼 Lower Left Quadrant Chess King
+𜲽 Lower Right Quadrant Chess King
+𜲾 Upper Left Quadrant Chess Queen
+𜲿 Upper Right Quadrant Chess Queen
+𜳀 Lower Left Quadrant Chess Queen
+𜳁 Lower Right Quadrant Chess Queen
+𜳂 Upper Left Quadrant Chess Rook
+𜳃 Upper Right Quadrant Chess Rook
+𜳄 Lower Left Quadrant Chess Rook
+𜳅 Lower Right Quadrant Chess Rook
+𜳆 Upper Left Quadrant Chess Bishop
+𜳇 Upper Right Quadrant Chess Bishop
+𜳈 Lower Left Quadrant Chess Bishop
+𜳉 Lower Right Quadrant Chess Bishop
+𜳊 Upper Left Quadrant Chess Knight
+𜳋 Upper Right Quadrant Chess Knight
+𜳌 Lower Left Quadrant Chess Knight
+𜳍 Lower Right Quadrant Chess Knight
+𜳎 Upper Left Quadrant Chess Pawn
+𜳏 Upper Right Quadrant Chess Pawn
+𜳐 Lower Left Quadrant Chess Pawn
+𜳑 Lower Right Quadrant Chess Pawn
+𜳒 Upper Left Quadrant Standing Knight
+𜳓 Upper Right Quadrant Standing Knight
+𜳔 Lower Left Quadrant Standing Knight
+𜳕 Lower Right Quadrant Standing Knight
+𜳖 Outlined Latin Capital Letter A
+𜳗 Outlined Latin Capital Letter B
+𜳘 Outlined Latin Capital Letter C
+𜳙 Outlined Latin Capital Letter D
+𜳚 Outlined Latin Capital Letter E
+𜳛 Outlined Latin Capital Letter F
+𜳜 Outlined Latin Capital Letter G
+𜳝 Outlined Latin Capital Letter H
+𜳞 Outlined Latin Capital Letter I
+𜳟 Outlined Latin Capital Letter J
+𜳠 Outlined Latin Capital Letter K
+𜳡 Outlined Latin Capital Letter L
+𜳢 Outlined Latin Capital Letter M
+𜳣 Outlined Latin Capital Letter N
+𜳤 Outlined Latin Capital Letter O
+𜳥 Outlined Latin Capital Letter P
+𜳦 Outlined Latin Capital Letter Q
+𜳧 Outlined Latin Capital Letter R
+𜳨 Outlined Latin Capital Letter S
+𜳩 Outlined Latin Capital Letter T
+𜳪 Outlined Latin Capital Letter U
+𜳫 Outlined Latin Capital Letter V
+𜳬 Outlined Latin Capital Letter W
+𜳭 Outlined Latin Capital Letter X
+𜳮 Outlined Latin Capital Letter Y
+𜳯 Outlined Latin Capital Letter Z
+𜳰 Outlined Digit Zero
+𜳱 Outlined Digit One
+𜳲 Outlined Digit Two
+𜳳 Outlined Digit Three
+𜳴 Outlined Digit Four
+𜳵 Outlined Digit Five
+𜳶 Outlined Digit Six
+𜳷 Outlined Digit Seven
+𜳸 Outlined Digit Eight
+𜳹 Outlined Digit Nine
+𜴀 Block Octant-3
+𜴁 Block Octant-23
+𜴂 Block Octant-123
+𜴃 Block Octant-4
+𜴄 Block Octant-14
+𜴅 Block Octant-124
+𜴆 Block Octant-34
+𜴇 Block Octant-134
+𜴈 Block Octant-234
+𜴉 Block Octant-5
+𜴊 Block Octant-15
+𜴋 Block Octant-25
+𜴌 Block Octant-125
+𜴍 Block Octant-135
+𜴎 Block Octant-235
+𜴏 Block Octant-1235
+𜴐 Block Octant-45
+𜴑 Block Octant-145
+𜴒 Block Octant-245
+𜴓 Block Octant-1245
+𜴔 Block Octant-345
+𜴕 Block Octant-1345
+𜴖 Block Octant-2345
+𜴗 Block Octant-12345
+𜴘 Block Octant-6
+𜴙 Block Octant-16
+𜴚 Block Octant-26
+𜴛 Block Octant-126
+𜴜 Block Octant-36
+𜴝 Block Octant-136
+𜴞 Block Octant-236
+𜴟 Block Octant-1236
+𜴠 Block Octant-146
+𜴡 Block Octant-246
+𜴢 Block Octant-1246
+𜴣 Block Octant-346
+𜴤 Block Octant-1346
+𜴥 Block Octant-2346
+𜴦 Block Octant-12346
+𜴧 Block Octant-56
+𜴨 Block Octant-156
+𜴩 Block Octant-256
+𜴪 Block Octant-1256
+𜴫 Block Octant-356
+𜴬 Block Octant-1356
+𜴭 Block Octant-2356
+𜴮 Block Octant-12356
+𜴯 Block Octant-456
+𜴰 Block Octant-1456
+𜴱 Block Octant-2456
+𜴲 Block Octant-12456
+𜴳 Block Octant-3456
+𜴴 Block Octant-13456
+𜴵 Block Octant-23456
+𜴶 Block Octant-17
+𜴷 Block Octant-27
+𜴸 Block Octant-127
+𜴹 Block Octant-37
+𜴺 Block Octant-137
+𜴻 Block Octant-237
+𜴼 Block Octant-1237
+𜴽 Block Octant-47
+𜴾 Block Octant-147
+𜴿 Block Octant-247
+𜵀 Block Octant-1247
+𜵁 Block Octant-347
+𜵂 Block Octant-1347
+𜵃 Block Octant-2347
+𜵄 Block Octant-12347
+𜵅 Block Octant-157
+𜵆 Block Octant-257
+𜵇 Block Octant-1257
+𜵈 Block Octant-357
+𜵉 Block Octant-2357
+𜵊 Block Octant-12357
+𜵋 Block Octant-457
+𜵌 Block Octant-1457
+𜵍 Block Octant-12457
+𜵎 Block Octant-3457
+𜵏 Block Octant-13457
+𜵐 Block Octant-23457
+𜵑 Block Octant-67
+𜵒 Block Octant-167
+𜵓 Block Octant-267
+𜵔 Block Octant-1267
+𜵕 Block Octant-367
+𜵖 Block Octant-1367
+𜵗 Block Octant-2367
+𜵘 Block Octant-12367
+𜵙 Block Octant-467
+𜵚 Block Octant-1467
+𜵛 Block Octant-2467
+𜵜 Block Octant-12467
+𜵝 Block Octant-3467
+𜵞 Block Octant-13467
+𜵟 Block Octant-23467
+𜵠 Block Octant-123467
+𜵡 Block Octant-567
+𜵢 Block Octant-1567
+𜵣 Block Octant-2567
+𜵤 Block Octant-12567
+𜵥 Block Octant-3567
+𜵦 Block Octant-13567
+𜵧 Block Octant-23567
+𜵨 Block Octant-123567
+𜵩 Block Octant-4567
+𜵪 Block Octant-14567
+𜵫 Block Octant-24567
+𜵬 Block Octant-124567
+𜵭 Block Octant-34567
+𜵮 Block Octant-134567
+𜵯 Block Octant-234567
+𜵰 Block Octant-1234567
+𜵱 Block Octant-18
+𜵲 Block Octant-28
+𜵳 Block Octant-128
+𜵴 Block Octant-38
+𜵵 Block Octant-138
+𜵶 Block Octant-238
+𜵷 Block Octant-1238
+𜵸 Block Octant-48
+𜵹 Block Octant-148
+𜵺 Block Octant-248
+𜵻 Block Octant-1248
+𜵼 Block Octant-348
+𜵽 Block Octant-1348
+𜵾 Block Octant-2348
+𜵿 Block Octant-12348
+𜶀 Block Octant-58
+𜶁 Block Octant-158
+𜶂 Block Octant-258
+𜶃 Block Octant-1258
+𜶄 Block Octant-358
+𜶅 Block Octant-1358
+𜶆 Block Octant-2358
+𜶇 Block Octant-12358
+𜶈 Block Octant-458
+𜶉 Block Octant-1458
+𜶊 Block Octant-2458
+𜶋 Block Octant-12458
+𜶌 Block Octant-3458
+𜶍 Block Octant-13458
+𜶎 Block Octant-23458
+𜶏 Block Octant-123458
+𜶐 Block Octant-168
+𜶑 Block Octant-268
+𜶒 Block Octant-1268
+𜶓 Block Octant-368
+𜶔 Block Octant-2368
+𜶕 Block Octant-12368
+𜶖 Block Octant-468
+𜶗 Block Octant-1468
+𜶘 Block Octant-12468
+𜶙 Block Octant-3468
+𜶚 Block Octant-13468
+𜶛 Block Octant-23468
+𜶜 Block Octant-568
+𜶝 Block Octant-1568
+𜶞 Block Octant-2568
+𜶟 Block Octant-12568
+𜶠 Block Octant-3568
+𜶡 Block Octant-13568
+𜶢 Block Octant-23568
+𜶣 Block Octant-123568
+𜶤 Block Octant-4568
+𜶥 Block Octant-14568
+𜶦 Block Octant-24568
+𜶧 Block Octant-124568
+𜶨 Block Octant-34568
+𜶩 Block Octant-134568
+𜶪 Block Octant-234568
+𜶫 Block Octant-1234568
+𜶬 Block Octant-178
+𜶭 Block Octant-278
+𜶮 Block Octant-1278
+𜶯 Block Octant-378
+𜶰 Block Octant-1378
+𜶱 Block Octant-2378
+𜶲 Block Octant-12378
+𜶳 Block Octant-478
+𜶴 Block Octant-1478
+𜶵 Block Octant-2478
+𜶶 Block Octant-12478
+𜶷 Block Octant-3478
+𜶸 Block Octant-13478
+𜶹 Block Octant-23478
+𜶺 Block Octant-123478
+𜶻 Block Octant-578
+𜶼 Block Octant-1578
+𜶽 Block Octant-2578
+𜶾 Block Octant-12578
+𜶿 Block Octant-3578
+𜷀 Block Octant-13578
+𜷁 Block Octant-23578
+𜷂 Block Octant-123578
+𜷃 Block Octant-4578
+𜷄 Block Octant-14578
+𜷅 Block Octant-24578
+𜷆 Block Octant-124578
+𜷇 Block Octant-34578
+𜷈 Block Octant-134578
+𜷉 Block Octant-234578
+𜷊 Block Octant-1234578
+𜷋 Block Octant-678
+𜷌 Block Octant-1678
+𜷍 Block Octant-2678
+𜷎 Block Octant-12678
+𜷏 Block Octant-3678
+𜷐 Block Octant-13678
+𜷑 Block Octant-23678
+𜷒 Block Octant-123678
+𜷓 Block Octant-4678
+𜷔 Block Octant-14678
+𜷕 Block Octant-24678
+𜷖 Block Octant-124678
+𜷗 Block Octant-34678
+𜷘 Block Octant-134678
+𜷙 Block Octant-234678
+𜷚 Block Octant-1234678
+𜷛 Block Octant-15678
+𜷜 Block Octant-25678
+𜷝 Block Octant-125678
+𜷞 Block Octant-35678
+𜷟 Block Octant-235678
+𜷠 Block Octant-1235678
+𜷡 Block Octant-45678
+𜷢 Block Octant-145678
+𜷣 Block Octant-1245678
+𜷤 Block Octant-1345678
+𜷥 Block Octant-2345678
+𜷦 Top Half Standing Person
+𜷧 Bottom Half Standing Person
+𜷨 Top Half Right-Facing Runner Frame-1
+𜷩 Bottom Half Right-Facing Runner Frame-1
+𜷪 Top Half Right-Facing Runner Frame-2
+𜷫 Bottom Half Right-Facing Runner Frame-2
+𜷬 Top Half Left-Facing Runner Frame-1
+𜷭 Bottom Half Left-Facing Runner Frame-1
+𜷮 Top Half Left-Facing Runner Frame-2
+𜷯 Bottom Half Left-Facing Runner Frame-2
+𜷰 Top Half Forward-Facing Runner
+𜷱 Bottom Half Forward-Facing Runner Frame-1
+𜷲 Bottom Half Forward-Facing Runner Frame-2
+𜷳 Bottom Half Forward-Facing Runner Frame-3
+𜷴 Bottom Half Forward-Facing Runner Frame-4
+𜷵 Moon Lander
+𜷶 Top Half Flailing Robot Frame-1
+𜷷 Top Half Flailing Robot Frame-2
+𜷸 Down-Pointing Airplane
+𜷹 Left-Pointing Airplane
+𜷺 Small Up-Pointing Airplane
+𜷻 Up-Pointing Frog
+𜷼 Down-Pointing Frog
+𜷽 Explosion Frame-1
+𜷾 Explosion Frame-2
+𜷿 Explosion Frame-3
+𜸀 Right Half And Left Half White Circle
+𜸁 Lower Half And Upper Half White Circle
+𜸂 Explosion At Horizon
+𜸃 Upper Half Heavy White Square
+𜸄 Lower Half Heavy White Square
+𜸅 Heavy White Square Containing Black Very Small Square
+𜸆 White Vertical Rectangle With Horizontal Bar
+𜸇 Top Left Black Left-Pointing Small Triangle
+𜸈 Funnel
+𜸉 Box Drawings Double Diagonal Lower Left To Middle Centre To Lower Right
+𜸊 Box Drawings Double Diagonal Upper Left To Middle Centre To Upper Right
+𜸋 Left Half White Ellipse
+𜸌 Right Half White Ellipse
+𜸍 Left Half Triple Dash Horizontal
+𜸎 Right Half Triple Dash Horizontal
+𜸏 Horizontal Line With Tick Mark
+𜸐 Left Half Horizontal Line With Three Tick Marks
+𜸑 Right Half Horizontal Line With Three Tick Marks
+𜸒 Horizontal Line With Three Tick Marks
+𜸓 Lower Half Vertical Line With Three Tick Marks
+𜸔 Upper Half Vertical Line With Three Tick Marks
+𜸕 Vertical Line With Three Tick Marks
+𜸖 Box Drawings Light Vertical And Top Right
+𜸗 Box Drawings Light Vertical And Bottom Right
+𜸘 Box Drawings Light Vertical And Top Left
+𜸙 Box Drawings Light Vertical And Bottom Left
+𜸚 Large Type Piece Upper Left Arc
+𜸛 Large Type Piece Upper Left Corner
+𜸜 Large Type Piece Upper Terminal
+𜸝 Large Type Piece Upper Left Crotch
+𜸞 Large Type Piece Left Arm
+𜸟 Large Type Piece Crossbar
+𜸠 Large Type Piece Crossbar With Lower Stem
+𜸡 Large Type Piece Upper Half Vertex Of M
+𜸢 Large Type Piece Diagonal Lower Left
+𜸣 Large Type Piece Short Upper Terminal
+𜸤 Large Type Piece Upper Right Arc
+𜸥 Large Type Piece Right Arm
+𜸦 Large Type Piece Upper Right Crotch
+𜸧 Large Type Piece Upper Right Corner
+𜸨 Large Type Piece Stem With Right Crossbar
+𜸩 Large Type Piece Stem
+𜸪 Large Type Piece Diagonal Upper Right And Lower Right
+𜸫 Large Type Piece Diagonal Upper Right
+𜸬 Large Type Piece Diagonal Lower Right
+𜸭 Large Type Piece Short Lower Terminal
+𜸮 Large Type Piece Lower Left And Upper Left Arc
+𜸯 Large Type Piece Centre Of K
+𜸰 Large Type Piece Lower Half Vertex Of M
+𜸱 Large Type Piece Upper Half Vertex Of W
+𜸲 Large Type Piece Centre Of X
+𜸳 Large Type Piece Centre Of Y
+𜸴 Large Type Piece Centre Of Z With Crossbar
+𜸵 Large Type Piece Raised Upper Left Arc
+𜸶 Large Type Piece Stem With Left Crossbar
+𜸷 Large Type Piece Lower Right And Upper Right Arc
+𜸸 Large Type Piece Diagonal Upper Left And Lower Left
+𜸹 Large Type Piece Stem With Left Joint
+𜸺 Large Type Piece Stem With Crossbar
+𜸻 Large Type Piece Diagonal Upper Left
+𜸼 Large Type Piece Lower Terminal
+𜸽 Large Type Piece Lower Left Corner
+𜸾 Large Type Piece Lower Left Arc
+𜸿 Large Type Piece Lower Left Crotch
+𜹀 Large Type Piece Crossbar With Upper Stem
+𜹁 Large Type Piece Vertex Of V
+𜹂 Large Type Piece Lower Half Vertex Of W
+𜹃 Large Type Piece Lower Right Arc
+𜹄 Large Type Piece Lower Right Corner
+𜹅 Large Type Piece Lower Right Arc With Tail
+𜹆 Large Type Piece Lower Right Crotch
+𜹇 Large Type Piece Stem-45
+𜹈 Large Type Piece Stem-2345
+𜹉 Large Type Piece Stem-4
+𜹊 Large Type Piece Stem-34
+𜹋 Large Type Piece Stem-234
+𜹌 Large Type Piece Stem-1234
+𜹍 Large Type Piece Stem-3
+𜹎 Large Type Piece Stem-23
+𜹏 Large Type Piece Stem-2
+𜹐 Large Type Piece Stem-12
+𜹑 Separated Block Sextant-1
+𜹒 Separated Block Sextant-2
+𜹓 Separated Block Sextant-12
+𜹔 Separated Block Sextant-3
+𜹕 Separated Block Sextant-13
+𜹖 Separated Block Sextant-23
+𜹗 Separated Block Sextant-123
+𜹘 Separated Block Sextant-4
+𜹙 Separated Block Sextant-14
+𜹚 Separated Block Sextant-24
+𜹛 Separated Block Sextant-124
+𜹜 Separated Block Sextant-34
+𜹝 Separated Block Sextant-134
+𜹞 Separated Block Sextant-234
+𜹟 Separated Block Sextant-1234
+𜹠 Separated Block Sextant-5
+𜹡 Separated Block Sextant-15
+𜹢 Separated Block Sextant-25
+𜹣 Separated Block Sextant-125
+𜹤 Separated Block Sextant-35
+𜹥 Separated Block Sextant-135
+𜹦 Separated Block Sextant-235
+𜹧 Separated Block Sextant-1235
+𜹨 Separated Block Sextant-45
+𜹩 Separated Block Sextant-145
+𜹪 Separated Block Sextant-245
+𜹫 Separated Block Sextant-1245
+𜹬 Separated Block Sextant-345
+𜹭 Separated Block Sextant-1345
+𜹮 Separated Block Sextant-2345
+𜹯 Separated Block Sextant-12345
+𜹰 Separated Block Sextant-6
+𜹱 Separated Block Sextant-16
+𜹲 Separated Block Sextant-26
+𜹳 Separated Block Sextant-126
+𜹴 Separated Block Sextant-36
+𜹵 Separated Block Sextant-136
+𜹶 Separated Block Sextant-236
+𜹷 Separated Block Sextant-1236
+𜹸 Separated Block Sextant-46
+𜹹 Separated Block Sextant-146
+𜹺 Separated Block Sextant-246
+𜹻 Separated Block Sextant-1246
+𜹼 Separated Block Sextant-346
+𜹽 Separated Block Sextant-1346
+𜹾 Separated Block Sextant-2346
+𜹿 Separated Block Sextant-12346
+𜺀 Separated Block Sextant-56
+𜺁 Separated Block Sextant-156
+𜺂 Separated Block Sextant-256
+𜺃 Separated Block Sextant-1256
+𜺄 Separated Block Sextant-356
+𜺅 Separated Block Sextant-1356
+𜺆 Separated Block Sextant-2356
+𜺇 Separated Block Sextant-12356
+𜺈 Separated Block Sextant-456
+𜺉 Separated Block Sextant-1456
+𜺊 Separated Block Sextant-2456
+𜺋 Separated Block Sextant-12456
+𜺌 Separated Block Sextant-3456
+𜺍 Separated Block Sextant-13456
+𜺎 Separated Block Sextant-23456
+𜺏 Separated Block Sextant-123456
+𜺐 Upper Left One Sixteenth Block
+𜺑 Upper Centre Left One Sixteenth Block
+𜺒 Upper Centre Right One Sixteenth Block
+𜺓 Upper Right One Sixteenth Block
+𜺔 Upper Middle Left One Sixteenth Block
+𜺕 Upper Middle Centre Left One Sixteenth Block
+𜺖 Upper Middle Centre Right One Sixteenth Block
+𜺗 Upper Middle Right One Sixteenth Block
+𜺘 Lower Middle Left One Sixteenth Block
+𜺙 Lower Middle Centre Left One Sixteenth Block
+𜺚 Lower Middle Centre Right One Sixteenth Block
+𜺛 Lower Middle Right One Sixteenth Block
+𜺜 Lower Left One Sixteenth Block
+𜺝 Lower Centre Left One Sixteenth Block
+𜺞 Lower Centre Right One Sixteenth Block
+𜺟 Lower Right One Sixteenth Block
+𜺠 Right Half Lower One Quarter Block
+𜺡 Right Three Quarters Lower One Quarter Block
+𜺢 Left Three Quarters Lower One Quarter Block
+𜺣 Left Half Lower One Quarter Block
+𜺤 Lower Half Left One Quarter Block
+𜺥 Lower Three Quarters Left One Quarter Block
+𜺦 Upper Three Quarters Left One Quarter Block
+𜺧 Upper Half Left One Quarter Block
+𜺨 Left Half Upper One Quarter Block
+𜺩 Left Three Quarters Upper One Quarter Block
+𜺪 Right Three Quarters Upper One Quarter Block
+𜺫 Right Half Upper One Quarter Block
+𜺬 Upper Half Right One Quarter Block
+𜺭 Upper Three Quarters Right One Quarter Block
+𜺮 Lower Three Quarters Right One Quarter Block
+𜺯 Lower Half Right One Quarter Block
+𜺰 Horizontal Zigzag Line
+𜺱 Keyhole
+𜺲 Old Personal Computer With Monitor In Portrait Orientation
+𜺳 Black Right Triangle Caret

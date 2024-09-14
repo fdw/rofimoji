@@ -1,9 +1,9 @@
+from operator import rshift
 from pathlib import Path
 from typing import List
 
 import aiofiles
 import aiohttp
-from bs4 import BeautifulSoup
 
 from .characterfactory import Character
 from .extractor import Extractor
@@ -22,16 +22,12 @@ class NerdFontExtractor(Extractor):
 
     async def __fetch_icons(self) -> None:
         async with aiohttp.ClientSession() as session:
-            async with session.get("https://www.nerdfonts.com/cheat-sheet") as response:
-                characters = (
-                    BeautifulSoup(await response.text(), "html.parser")
-                    .find(id="glyphCheatSheet")
-                    .find_all(class_="column")
-                )
-                for c in characters:
-                    icon = int(c.find(class_="codepoint").string, 16)
-                    name = c.find(class_="class-name").string
-                    self.__icons.append(Character(icon, name))
+            async with session.get("https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/glyphnames.json") as response:
+                for key, value in (await response.json(content_type=None)).items():
+                    if key == "METADATA":
+                        continue
+                    icon = int(value['code'], 16)
+                    self.__icons.append(Character(icon, key))
 
     async def __write_to_file(self, target: Path) -> None:
         async with aiofiles.open(target / "nerd_font.csv", mode="w") as character_file:

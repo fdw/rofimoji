@@ -64,7 +64,7 @@ class CharacterFactory:
         INDEX_BIDI_CLASS = 4
 
         async with aiohttp.ClientSession() as session:
-            async with session.get('https://unicode.org/Public/UNIDATA/UnicodeData.txt') as response:
+            async with session.get("https://unicode.org/Public/UNIDATA/UnicodeData.txt") as response:
                 lines = (await response.text()).split("\n")
 
                 for line in lines:
@@ -74,7 +74,9 @@ class CharacterFactory:
                         and not fields[INDEX_CATEGORY] in ("Cc", "Co", "Cs")
                         and not (fields[INDEX_NAME].startswith("<") and fields[INDEX_NAME].endswith(">"))
                     ):
-                        character = Character(int(fields[INDEX_CODEPOINT], 16), fields[INDEX_NAME], fields[INDEX_BIDI_CLASS])
+                        character = Character(
+                            int(fields[INDEX_CODEPOINT], 16), fields[INDEX_NAME], fields[INDEX_BIDI_CLASS]
+                        )
                         self.__characters[character.char] = character
 
     def get_character(self, char: int) -> Optional[Character]:

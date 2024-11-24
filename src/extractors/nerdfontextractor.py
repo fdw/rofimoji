@@ -22,11 +22,13 @@ class NerdFontExtractor(Extractor):
 
     async def __fetch_icons(self) -> None:
         async with aiohttp.ClientSession() as session:
-            async with session.get("https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/glyphnames.json") as response:
+            async with session.get(
+                "https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/glyphnames.json"
+            ) as response:
                 for key, value in (await response.json(content_type=None)).items():
                     if key == "METADATA":
                         continue
-                    icon = int(value['code'], 16)
+                    icon = int(value["code"], 16)
                     self.__icons.append(Character(icon, key))
 
     async def __write_to_file(self, target: Path) -> None:

@@ -6,6 +6,7 @@ from .characterfactory import CharacterFactory
 from .cjkextractor import CjkExtractor
 from .emojiextractor import EmojiExtractor
 from .extractor import Extractor
+from .fileiconsextractor import FileIconsExtractor
 from .fontawesome6extractor import FontAwesome6Extractor
 from .gitmojiextractor import GitmojiExtractor
 from .htmlcharacterextractor import HtmlCharacterExtractor
@@ -30,6 +31,7 @@ async def extract_all():
         FontAwesome6Extractor(),
         KaomojiExtractor(),
         HtmlCharacterExtractor(),
+        FileIconsExtractor(),
     ]
 
     for subclass in Extractor.__subclasses__():

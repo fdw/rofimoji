@@ -1,3 +1,10 @@
+# [NEXT]
+## Fixed
+- rofi mode supports `--use-icons`. (#202)
+
+## Added
+- Support for [FileIcons](https://github.com/file-icons/icons). (#204)
+
 # [6.5.0] - 2024-09-14
 ## Changed
 - Updated to Unicode 16.0!

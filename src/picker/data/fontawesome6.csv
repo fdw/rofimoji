@@ -323,6 +323,7 @@ C fa-c
  fa-chart-area <small>(fa-area-chart)</small>
  fa-chart-bar <small>(fa-bar-chart)</small>
  fa-chart-column
+ fa-chart-diagram
  fa-chart-gantt
  fa-chart-line <small>(fa-line-chart)</small>
  fa-chart-pie <small>(fa-pie-chart)</small>
@@ -426,6 +427,7 @@ C fa-c
  fa-comment-dollar
  fa-comment-dots <small>(fa-commenting)</small>
  fa-comment-medical
+ fa-comment-nodes
  fa-comment-slash
  fa-comment-sms <small>(fa-sms)</small>
  fa-comments
@@ -471,6 +473,7 @@ C fa-c
  fa-crown
  fa-crutch
  fa-cruzeiro-sign
+ fa-css
  fa-css3
  fa-css3-alt
  fa-cube
@@ -657,6 +660,8 @@ F fa-f
  fa-file-csv
  fa-file-excel
  fa-file-export <small>(fa-arrow-right-from-file)</small>
+ fa-file-fragment
+ fa-file-half-dashed
  fa-file-image
  fa-file-import <small>(fa-arrow-right-to-file)</small>
  fa-file-invoice
@@ -673,6 +678,7 @@ F fa-f
  fa-file-waveform <small>(fa-file-medical-alt)</small>
  fa-file-word
  fa-file-zipper <small>(fa-file-archive)</small>
+ fa-files-pinwheel
  fa-fill
  fa-fill-drip
  fa-film
@@ -860,6 +866,8 @@ H fa-h
  fa-helicopter-symbol
  fa-helmet-safety <small>(fa-hard-hat, fa-hat-hard)</small>
  fa-helmet-un
+ fa-hexagon-nodes
+ fa-hexagon-nodes-bolt
  fa-highlighter
  fa-hill-avalanche
  fa-hill-rockslide
@@ -1493,6 +1501,8 @@ S fa-s
  fa-square
  fa-square-arrow-up-right <small>(fa-external-link-square)</small>
  fa-square-behance <small>(fa-behance-square)</small>
+ fa-square-binary
+ fa-square-bluesky
  fa-square-caret-down <small>(fa-caret-square-down)</small>
  fa-square-caret-left <small>(fa-caret-square-left)</small>
  fa-square-caret-right <small>(fa-caret-square-right)</small>

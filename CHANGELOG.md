@@ -8,6 +8,7 @@
 ## Added
 - Support for [FileIcons](https://github.com/file-icons/icons). (#204)
 - Support for [Weather Icons](https://github.com/erikflowers/weather-icons). (#204)
+- Updates to Nerd Font 3.3.0 and Font Awesome 6.7.1.
 
 # [6.5.0] - 2024-09-14
 ## Changed

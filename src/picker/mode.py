@@ -144,18 +144,14 @@ class ModeRofimoji:
         return " | ".join(pairings)
 
     def __format_characters(self, characters: List[CharacterEntry]) -> List[str]:
-        if self.args.show_description:
-            return [
-                f"{character.character} {character.description}"
-                for character in characters
-                if character.description != ""
-            ]
+        if self.args.use_icons and not self.args.show_description:
+            return [f" \0meta\x1f{entry.description}\x1ficon\x1f<span>{entry.character}</span>" for entry in characters]
+        elif self.args.use_icons and self.args.show_description:
+            return [f"{entry.description}\0icon\x1f<span>{entry.character}</span>" for entry in characters]
+        elif not self.args.use_icons and self.args.show_description:
+            return [f"{entry.character} {entry.description}" for entry in characters]
         else:
-            return [
-                f"{character.character}\0meta\x1f{character.description}"
-                for character in characters
-                if character.description != ""
-            ]
+            return [f"{entry.character}\0meta\x1f{entry.description}" for entry in characters]
 
     def handle_shortcuts(self, state: State) -> None:
         if 10 <= state.return_code <= 19:

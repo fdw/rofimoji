@@ -13,6 +13,7 @@ from .htmlcharacterextractor import HtmlCharacterExtractor
 from .kaomojiextractor import KaomojiExtractor
 from .mathcollectionextractor import MathExtractor
 from .nerdfontextractor import NerdFontExtractor
+from .weathericonsextractor import WeatherIconsExtractor
 
 
 async def extract_all():
@@ -32,6 +33,7 @@ async def extract_all():
         KaomojiExtractor(),
         HtmlCharacterExtractor(),
         FileIconsExtractor(),
+        WeatherIconsExtractor(),
     ]
 
     for subclass in Extractor.__subclasses__():

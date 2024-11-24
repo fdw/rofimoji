@@ -1,4 +1,7 @@
 # [NEXT]
+## Changed
+- Stopped support for Python 3.8.
+
 ## Fixed
 - rofi mode supports `--use-icons`. (#202)
 

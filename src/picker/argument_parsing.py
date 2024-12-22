@@ -130,7 +130,7 @@ def __parse_arguments(only_known: bool) -> argparse.Namespace:
         dest="typer",
         action="store",
         type=str,
-        choices=["xdotool", "wtype"],
+        choices=["xdotool", "ydotool", "wtype"],
         default=None,
         help="Choose the application to type with",
     )

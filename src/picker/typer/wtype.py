@@ -1,7 +1,7 @@
 from subprocess import run
+from typing import List
 
 from ..abstractionhelper import is_installed, is_wayland
-from ..action import __get_codepoints as get_codepoints
 from .typer import Typer
 
 
@@ -23,14 +23,7 @@ class WTypeTyper(Typer):
     def insert_from_clipboard(self, active_window: str) -> None:
         run(["wtype", "-M", "shift", "-P", "Insert", "-p", "Insert", "-m", "shift"])
 
-    def type_numerical(self, characters: str, active_window: str) -> None:
-        unicode_codepoints = get_codepoints(characters)
-        codepoint_list = unicode_codepoints.split("-")
-        codepoint_list = ["U" + codepoint for codepoint in codepoint_list]
-        codepoint_list = " ".join(codepoint_list)
+    def type_numerical(self, codepoints: List[int], active_window: str) -> None:
+        codepoint_list = " ".join([f"U{codepoint:x}" for codepoint in codepoints])
 
         run(["wtype", "-M", "ctrl", "-M", "shift", codepoint_list, "-m", "ctrl", "-m", "shift"])
-        
-        # Type Space then Backspace to "confirm" the character
-        run(["wtype", "-k", "Space"])
-        run(["wtype", "-k", "BackSpace"])

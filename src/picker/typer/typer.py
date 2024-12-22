@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from typing import Optional
+from typing import List, Optional
 
 
 class Typer(ABC):
@@ -8,8 +8,9 @@ class Typer(ABC):
         from .noop import NoopTyper
         from .wtype import WTypeTyper
         from .xdotool import XDoToolTyper
+        from .ydotool import YdotoolTyper as YDoToolTyper
 
-        available_typers = [XDoToolTyper, WTypeTyper, NoopTyper]
+        available_typers = [XDoToolTyper, WTypeTyper, YDoToolTyper, NoopTyper]
 
         if name is not None:
             return next(typer for typer in available_typers if typer.name() == name)()
@@ -39,5 +40,5 @@ class Typer(ABC):
         pass
 
     @abstractmethod
-    def type_numerical(self, characters: str, active_window: str) -> None:
+    def type_numerical(self, codepoints: List[int], active_window: str) -> None:
         pass

@@ -23,14 +23,18 @@ def execute_action(
         elif action == Action.CLIPBOARD:
             clipboarder.copy_paste_characters(characters, active_window, typer)
         elif action == Action.TYPE_NUMERICAL:
-            typer.type_numerical(characters, active_window)
+            typer.type_numerical(__as_codepoints(characters), active_window)
         elif action == Action.UNICODE:
-            typer.type_characters(__get_codepoints(characters), active_window)
+            typer.type_characters(__as_codepoint_string(characters), active_window)
         elif action == Action.COPY_UNICODE:
-            clipboarder.copy_characters_to_clipboard(__get_codepoints(characters))
+            clipboarder.copy_characters_to_clipboard(__as_codepoint_string(characters))
         elif action == Action.STDOUT:
             print(characters)
 
 
-def __get_codepoints(char: str) -> str:
-    return "-".join(f"{ord(c):x}" for c in char)
+def __as_codepoints(characters: str) -> list[int]:
+    return [ord(c) for c in characters]
+
+
+def __as_codepoint_string(characters: str) -> str:
+    return "-".join(f"{c:x}" for c in __as_codepoints(characters))

@@ -1,3 +1,5 @@
+from typing import List
+
 from .typer import Typer
 
 
@@ -18,8 +20,8 @@ class NoopTyper(Typer):
 
     def insert_from_clipboard(self, active_window: str) -> None:
         raise NoTyperFoundException()
-    
-    def type_numerical(self, characters: str, active_window: str) -> None:
+
+    def type_numerical(self, codepoints: List[int], active_window: str) -> None:
         raise NoTyperFoundException()
 
 

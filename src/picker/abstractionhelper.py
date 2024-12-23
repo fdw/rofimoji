@@ -16,7 +16,7 @@ def get_event_code(char: str, pressrelease: bool = True) -> str:
     with open("/usr/include/linux/input-event-codes.h") as file:
         for line in file:
             # Line is of the form #define keypress event_code
-            if keypress in line:
+            if keypress in line.split():
                 event_code = line.split()[2]
                 break
     

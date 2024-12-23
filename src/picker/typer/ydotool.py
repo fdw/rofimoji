@@ -61,15 +61,13 @@ class YdotoolTyper(Typer):
             Shift_release = get_event_code("LeftShift", False)
             U_release = get_event_code("U", False)
             points = []
-            points_release = []
             
             for point in unicode_code_point:
                 points.append(get_event_code(point))
-                points_release.append(get_event_code(point, False))
-            points_release.reverse()
+                points.append(get_event_code(point, False))
 
             # Send the event codes to ydotool
-            the_array = ["ydotool", "key", Ctrl, Shift, U,] + points + [Shift_release, Ctrl_release, U_release] + points_release
+            the_array = ["ydotool", "key", "--key-delay", "1", Ctrl, Shift, U, U_release] + points + [Shift_release, Ctrl_release]
             run(the_array, env=os.environ.copy().update({"YDOTOOL_SOCKET": self.socket}))
 
     def insert_from_clipboard(self, active_window: str) -> None:

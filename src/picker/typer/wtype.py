@@ -12,7 +12,6 @@ class WTypeTyper(Typer):
         is_compositor = False
         if is_here:
             is_compositor = run(["wtype", "type", "test"], capture_output=True).stderr != b"Compositor does not support the virtual keyboard protocol\n"
-            print("relma2 -- is_compositor: ", is_compositor)
         return is_here and is_compositor
     
     @staticmethod

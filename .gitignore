@@ -9,3 +9,4 @@ rofimoji.egg-info
 dist
 build
 src/picker/data/copyme.py
+venv/

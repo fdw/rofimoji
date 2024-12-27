@@ -37,3 +37,7 @@ class Typer(ABC):
     @abstractmethod
     def insert_from_clipboard(self, active_window: str) -> None:
         pass
+
+    @abstractmethod
+    def type_numerical(self, characters: str, active_window: str) -> None:
+        pass

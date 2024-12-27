@@ -163,7 +163,13 @@ What else do you need:
 - Optionally, a tool to copy the characters to the clipboard. `xsel` and `xclip` work on X11; `wl-copy` on Wayland
 
 ### Supported Selectors
-Please note that only `rofi` (both on X and Wayland) supports custom keyboard shortcuts, recent files or a grid theme at the moment. For all others, only basic functionality works.
+Please note that several advanced features are only supported by `rofi` (both on X and Wayland):
+- custom keyboard shortcuts
+- `--use-icons` and `--hidden-descriptions`, and thus a grid theme
+- multiple selections
+- recently used characters
+ 
+All other selectors can be used for the basic functionality.
 
 #### X.org
 - [rofi](https://github.com/davatorium/rofi)

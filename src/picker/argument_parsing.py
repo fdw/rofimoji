@@ -66,7 +66,7 @@ def __parse_arguments(only_known: bool) -> argparse.Namespace:
         metavar="FILE",
         help="Read characters from this file instead, one entry per line",
     )
-    parser.add_argument("--prompt", "-r", dest="prompt", action="store", default="😀 ", help="Set rofimoj's  prompt")
+    parser.add_argument("--prompt", "-r", dest="prompt", action="store", default="😀 ", help="Set rofimoji's  prompt")
     parser.add_argument(
         "--selector-args",
         dest="selector_args",

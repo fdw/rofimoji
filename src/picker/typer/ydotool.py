@@ -1,29 +1,17 @@
-import os
-import subprocess as sp
 from subprocess import run
 
-from ..abstractionhelper import get_event_code, is_installed
-from ..action import __get_codepoints as get_codepoints
+from ..abstractionhelper import is_installed
+from ..action import __get_codepoints as get_codepoints, __get_event_code as get_event_code
 from .typer import Typer
 
 class YdotoolTyper(Typer):
-    def __init__(self):
-        super().__init__()
-        
-        self.socket = "/run/user/1000/.ydotool_socket"
-        if "YDOTOOL_SOCKET" in os.environ:
-            self.socket = os.environ["YDOTOOL_SOCKET"]
-        
     @staticmethod
     def name():
         return "ydotool"
     
     @staticmethod
     def supported():
-        try:
-            return is_installed("ydotool")
-        except sp.CalledProcessError:
-            return False
+        return is_installed("ydotool")
     
     def get_active_window(self):
         return "not possible with ydotool"
@@ -37,27 +25,25 @@ class YdotoolTyper(Typer):
             unicode_code_point = get_codepoints(character)
 
             # Get keypresses for Ctrl, Shift, U, and the unicode code point
-            Ctrl = get_event_code("LeftCtrl")
-            Shift = get_event_code("LeftShift")
-            U = get_event_code("U")
-            Ctrl_release = get_event_code("LeftCtrl", False)
-            Shift_release = get_event_code("LeftShift", False)
-            U_release = get_event_code("U", False)
+            Ctrl = get_event_code("LeftCtrl") + ":1"
+            Shift = get_event_code("LeftShift") + ":1"
+            U_press = get_event_code("U") + ":1"
+            Ctrl_release = get_event_code("LeftCtrl") + ":0"
+            Shift_release = get_event_code("LeftShift") + ":0"
+            U_release = get_event_code("U") + ":0"
             points = []
             
             for point in unicode_code_point:
-                points.append(get_event_code(point))
-                points.append(get_event_code(point, False))
+                points.append(get_event_code(point) + ":1")
+                points.append(get_event_code(point) + ":0")
 
             # Send the event codes to ydotool
-            the_array = ["ydotool", "key", "--key-delay", "1", Ctrl, Shift, U, U_release] + points + [Shift_release, Ctrl_release]
-            run(the_array, env=os.environ.copy().update({"YDOTOOL_SOCKET": self.socket}))
+            run(["ydotool", "key", Ctrl, Shift, U_press, U_release] + points + [Shift_release, Ctrl_release])
 
     def insert_from_clipboard(self, active_window: str) -> None:
-        Shift = get_event_code("LeftShift")
-        Shift_release = get_event_code("LeftShift", False)
-        Insert = get_event_code("Insert")
-        Insert_release = get_event_code("Insert", False)
+        Shift = get_event_code("LeftShift") + ":1"
+        Shift_release = get_event_code("LeftShift") + ":0"
+        Insert = get_event_code("Insert") + ":1"
+        Insert_release = get_event_code("Insert") + ":0"
         
-        run(["ydotool", "key", Shift, Insert, Insert_release, Shift_release], 
-            env=os.environ.copy().update({"YDOTOOL_SOCKET": self.socket}))
+        run(["ydotool", "key", Shift, Insert, Insert_release, Shift_release]) 

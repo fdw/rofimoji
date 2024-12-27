@@ -39,10 +39,8 @@ class XDoToolTyper(Typer):
     
     def type_numerical(self, characters: str, active_window: str) -> None:
         unicode_codepoint = get_codepoints(characters)
-        unicode_codepoint = "+".join([point for point in unicode_codepoint])
-        unicode_codepoint = unicode_codepoint.split("-") # for emojis with skintones/genders, we need to split the codepoints 
+        unicode_codepoint = unicode_codepoint.split("-")
         for codepoint in unicode_codepoint:
-            codepoint = codepoint.strip("+")
             run(
                 [
                     "xdotool",
@@ -51,7 +49,7 @@ class XDoToolTyper(Typer):
                     active_window,
                     "key",
                     "--clearmodifiers",
-                    "Ctrl+Shift+u+" + codepoint,
+                    "U" + codepoint,
                     "sleep",
                     "0.05",
                 ]

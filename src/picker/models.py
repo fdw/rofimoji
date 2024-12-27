@@ -12,6 +12,7 @@ class Action(Enum):
     COPY_UNICODE = "copy-unicode"
     STDOUT = "print"
     MENU = "menu"
+    TYPE_NUMERICAL = "type-numerical"
 
     def __str__(self):
         return self.value

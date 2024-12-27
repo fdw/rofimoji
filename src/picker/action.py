@@ -26,6 +26,8 @@ def execute_action(
             typer.type_characters(__get_codepoints(characters), active_window)
         elif action == Action.COPY_UNICODE:
             clipboarder.copy_characters_to_clipboard(__get_codepoints(characters))
+        elif action == Action.TYPE_NUMERICAL:
+            typer.type_numerical(characters, active_window)
         elif action == Action.STDOUT:
             print(characters)
 

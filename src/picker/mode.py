@@ -182,6 +182,8 @@ class ModeRofimoji:
             return [Action.UNICODE]
         elif return_code == 24:
             return [Action.COPY_UNICODE]
+        elif return_code == 25:
+            return [Action.TYPE_NUMERICAL]
         else:
             return []
 

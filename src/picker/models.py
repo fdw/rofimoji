@@ -6,6 +6,7 @@ class Action(Enum):
     TYPE = "type"
     COPY = "copy"
     CLIPBOARD = "clipboard"
+    TYPE_NUMERICAL = "type-numerical"
     UNICODE = "unicode"
     COPY_UNICODE = "copy-unicode"
     STDOUT = "print"

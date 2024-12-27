@@ -159,6 +159,15 @@ def __parse_arguments(only_known: bool) -> argparse.Namespace:
         help="Choose the keyboard shortcut to insert the character via the clipboard",
     )
     parser.add_argument(
+        "--keybinding-type-numerical",
+        dest="keybinding_type_numerical",
+        action="store",
+        type=str,
+        default="Alt+n",
+        help="Choose the keyboard shortcut to directly type the character's unicode codepoint numerically "
+        "with Ctrl+Shift+U<codepoint>",
+    )
+    parser.add_argument(
         "--keybinding-unicode",
         dest="keybinding_unicode",
         action="store",
@@ -189,6 +198,7 @@ def __parse_arguments(only_known: bool) -> argparse.Namespace:
         Action.TYPE: parsed_args.keybinding_type,
         Action.COPY: parsed_args.keybinding_copy,
         Action.CLIPBOARD: parsed_args.keybinding_clipboard,
+        Action.TYPE_NUMERICAL: parsed_args.keybinding_type_numerical,
         Action.UNICODE: parsed_args.keybinding_unicode,
         Action.COPY_UNICODE: parsed_args.keybinding_copy_unicode,
     }

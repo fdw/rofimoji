@@ -45,8 +45,10 @@ class Rofi(Selector):
             "-kb-custom-13",
             keybindings[Action.CLIPBOARD],
             "-kb-custom-14",
-            keybindings[Action.UNICODE],
+            keybindings[Action.TYPE_NUMERICAL],
             "-kb-custom-15",
+            keybindings[Action.UNICODE],
+            "-kb-custom-16",
             keybindings[Action.COPY_UNICODE],
             *additional_args,
         ]
@@ -77,8 +79,11 @@ class Rofi(Selector):
             action = Action.UNICODE
         elif rofi.returncode == 24:
             action = Action.COPY_UNICODE
+        elif rofi.returncode == 25:
+            action = Action.TYPE_NUMERICAL
         else:
             action = DEFAULT()
+
         return action, [characters[int(index)].character for index in rofi.stdout.splitlines()]
 
     def __format_characters(

@@ -9,7 +9,7 @@ from .typer import Typer
 class YdotoolTyper(Typer):
     def __init__(self):
         super().__init__()
-        # If env variable YDOTOOL_SOCKET is set, store it in self.socket; otherwise, use the default socket value
+        
         self.socket = "/run/user/1000/.ydotool_socket"
         if "YDOTOOL_SOCKET" in os.environ:
             self.socket = os.environ["YDOTOOL_SOCKET"]
@@ -20,27 +20,10 @@ class YdotoolTyper(Typer):
     
     @staticmethod
     def supported():
-        # Check if a service called ydotoold is running
-        # This service is required for ydotool to work
-        is_ydotoold = False
         try:
-            is_ydotoold = run(
-                ["systemctl", "is-active", "ydotoold"],
-                stdout=sp.PIPE,
-                stderr=sp.PIPE,
-                check=True,
-            ).returncode == 0
+            return is_installed("ydotool")
         except sp.CalledProcessError:
             return False
-        
-        # Check if ydotool is installed
-        is_ydotool = False
-        try:
-            is_ydotool = is_installed("ydotool")
-        except sp.CalledProcessError:
-            return False
-        
-        return is_ydotoold and is_ydotool
     
     def get_active_window(self):
         return "not possible with ydotool"

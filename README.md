@@ -94,7 +94,7 @@ The options are:
 | `print`        |          | Print the chosen characters to `stdout`.                                                                                                       |
 
 ## Insertion method
-By default, `rofimoji` types the characters using either `xdotool` or `wtype` (see [display server support](#display-server-support)). You can enforce this behavior with `--action type` (`-a type`).
+By default, `rofimoji` types the characters using either `xdotool`, `ydotool`, or `wtype` (see [display server support](#display-server-support)). You can enforce this behavior with `--action type` (`-a type`).
 
 For some applications (f.e. Firefox), this does not work reliably. To work around this, `rofimoji` can copy the emojis to your clipboard and insert them from there with `shift+insert`. Afterwards, it will restore the previous contents.
 Unfortunately, it depends on the receiving application whether `shift+insert` uses the clipboard or the primary selection.
@@ -159,7 +159,7 @@ This also installs the python dependency `configargparse`.
 What else do you need:
 - Python 3.8 or higher
 - A font that can display your scripts, (for emojis, [EmojiOne](https://github.com/emojione/emojione) or [Noto Emoji](https://www.google.com/get/noto/) work)
-- Optionally, a tool to programmatically type characters into applications. Either `xdotool` for X11 or `wtype` for Wayland
+- Optionally, a tool to programmatically type characters into applications. Either `xdotool` for X11 or `wtype`/`ydotool` for Wayland
 - Optionally, a tool to copy the characters to the clipboard. `xsel` and `xclip` work on X11; `wl-copy` on Wayland
 
 ### Supported Selectors
@@ -183,3 +183,45 @@ All other selectors can be used for the basic functionality.
 - [tofi](https://github.com/philj56/tofi)
 - [bemenu](https://github.com/Cloudef/bemenu)
 - [wmenu](https://git.sr.ht/~adnano/wmenu)
+
+# Troubleshooting
+To troubleshoot, run `rofimoji` in the command line and inspect its output.
+
+Below is a list of error messages one can get with the typer and other components.
+## Typers
+> `Compositor does not support the virtual keyboard protocol`
+
+This is an error thrown by `wtype` to indicate that the virtual keyboard protocol is not implemented. You likely use KDE Plasma or Gnome, who don't implement that protocol. Consider using a different typer such as `ydotool` or `xdotool` by passing in the `--typer` argument.
+
+> ```
+> failed to connect socket `/run/user/1000/.ydotool_socket': Connection refused
+> Please check if ydotoold is running
+> ```
+
+This is an error thrown by `ydotool` to indicate it cannot find its service daemon. `ydotool` needs a daemon called `ydotoold` running in the background in order to be able to type things. You can start the `ydotoold` daemon with one of two options:
+
+1. Create a `systemd` service (recommended)
+
+   Create the file `/etc/systemd/system/ydotoold.service`and put the following in it:
+   ```ini
+   [Unit]
+   Description=Starts ydotoold Daemon
+
+   [Service]
+   Type=simple
+   Restart=always
+   RestartSec=3
+   ExecStartPre=/bin/sleep 2
+   ExecStart=/usr/bin/ydotoold --socket-path="/run/user/1000/.ydotool_socket" --socket-own="$(id -u):$(id -g)"
+   ExecReload=/usr/bin/kill -HUP $MAINPID
+   KillMode=process
+   TimeoutSec=180
+
+   [Install]
+   WantedBy=basic.target
+   ```
+   Then run `sudo systemctl enable ydotoold.service && sudo systemctl start ydotoold.service` and rerun `rofimoji`.
+
+2. Run `ydotoold` on its own (*not recommended!*)
+
+   Run `ydotoold &` (with or without sudo) and then run `rofimoji`. If it has trouble finding the socket, set the environment variable `YDOTOOL_SOCKET` when running `rofimoji` 

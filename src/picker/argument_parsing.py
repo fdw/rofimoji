@@ -97,14 +97,14 @@ def __parse_arguments(only_known: bool) -> argparse.Namespace:
         "--hidden-descriptions",
         dest="show_description",
         action="store_false",
-        help="Show only the character without its description",
+        help="Show only the character without its description (Rofi only)",
     )
     parser.set_defaults(show_description=True)
     parser.add_argument(
         "--use-icons",
         dest="use_icons",
         action="store_true",
-        help="Use rofi's icon to show the character",
+        help="Use rofi's icon to show the character (Rofi only)",
     )
     parser.set_defaults(use_icons=False)
     parser.add_argument(

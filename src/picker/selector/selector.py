@@ -62,8 +62,11 @@ class Selector(ABC):
     def show_action_menu(self, additional_args: List[str]) -> List[Action]:
         pass
 
-    def basic_format_characters(self, characters: List[CharacterEntry]) -> List[str]:
-        return [f"{entry.character} {entry.description}" for entry in characters]
+    def basic_format_characters(self, characters: List[CharacterEntry], strip_tags: bool = True) -> List[str]:
+        return [
+            f"{entry.character} {entry.description.replace('<small>', "").replace("</small>", "") if strip_tags else entry.description}"
+            for entry in characters
+        ]
 
     def extract_char_from_basic_output(self, line: str) -> str:
         return re.match(r"^(?:\u200e(?! ))?(?P<char>.[^ ]*)( .*|$)", line).group("char")

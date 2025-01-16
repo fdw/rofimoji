@@ -89,7 +89,7 @@ class Rofi(Selector):
         elif use_icons and show_description:
             return [f"{entry.description}\0icon\x1f<span>{entry.character}</span>" for entry in characters]
         elif not use_icons and show_description:
-            return self.basic_format_characters(characters)
+            return self.basic_format_characters(characters, strip_tags=False)
         else:
             return [f"{entry.character}\0meta\x1f{entry.description}" for entry in characters]
 

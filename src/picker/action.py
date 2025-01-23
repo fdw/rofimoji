@@ -3,6 +3,7 @@ from typing import List, Optional
 from .clipboarder.clipboarder import Clipboarder
 from .models import Action
 from .typer.typer import Typer
+from .input_event_codes import keycodes
 
 
 def execute_action(
@@ -32,3 +33,6 @@ def execute_action(
 
 def __get_codepoints(char: str) -> str:
     return "-".join(f"{ord(c):x}" for c in char)
+
+def __get_event_code(char: str) -> str:
+    return str(keycodes["KEY_" + char.upper()])

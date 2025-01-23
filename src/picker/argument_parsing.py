@@ -66,7 +66,7 @@ def __parse_arguments(only_known: bool) -> argparse.Namespace:
         metavar="FILE",
         help="Read characters from this file instead, one entry per line",
     )
-    parser.add_argument("--prompt", "-r", dest="prompt", action="store", default="😀 ", help="Set rofimoj's  prompt")
+    parser.add_argument("--prompt", "-r", dest="prompt", action="store", default="😀 ", help="Set rofimoji's  prompt")
     parser.add_argument(
         "--selector-args",
         dest="selector_args",
@@ -97,14 +97,14 @@ def __parse_arguments(only_known: bool) -> argparse.Namespace:
         "--hidden-descriptions",
         dest="show_description",
         action="store_false",
-        help="Show only the character without its description",
+        help="Show only the character without its description (Rofi only)",
     )
     parser.set_defaults(show_description=True)
     parser.add_argument(
         "--use-icons",
         dest="use_icons",
         action="store_true",
-        help="Use rofi's icon to show the character",
+        help="Use rofi's icon to show the character (Rofi only)",
     )
     parser.set_defaults(use_icons=False)
     parser.add_argument(
@@ -130,7 +130,7 @@ def __parse_arguments(only_known: bool) -> argparse.Namespace:
         dest="typer",
         action="store",
         type=str,
-        choices=["xdotool", "wtype"],
+        choices=["xdotool", "ydotool", "wtype"],
         default=None,
         help="Choose the application to type with",
     )

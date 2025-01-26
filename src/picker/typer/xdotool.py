@@ -1,6 +1,7 @@
 from subprocess import run
 
 from ..abstractionhelper import is_installed, is_wayland
+from ..action import __get_codepoints as get_codepoints
 from .typer import Typer
 
 
@@ -35,3 +36,21 @@ class XDoToolTyper(Typer):
                 "0.05",
             ]
         )
+    
+    def type_numerical(self, characters: str, active_window: str) -> None:
+        unicode_codepoint = get_codepoints(characters)
+        unicode_codepoint = unicode_codepoint.split("-")
+        for codepoint in unicode_codepoint:
+            run(
+                [
+                    "xdotool",
+                    "windowfocus",
+                    "--sync",
+                    active_window,
+                    "key",
+                    "--clearmodifiers",
+                    "U" + codepoint,
+                    "sleep",
+                    "0.05",
+                ]
+            )

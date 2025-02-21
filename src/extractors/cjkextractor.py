@@ -51,7 +51,7 @@ class CjkExtractor(Extractor):
                 self.__characters = characters
 
     async def __write_to_file(self, target: Path, language: str, characters: List[Character]) -> None:
-        filename = f'cjk_{re.sub(r"(?!^)(?=[A-Z])", "_", language).lower()}.csv'
+        filename = f"cjk_{re.sub(r'(?!^)(?=[A-Z])', '_', language).lower()}.csv"
         async with aiofiles.open(target / filename, mode="w") as character_file:
             for character in characters:
                 await character_file.write(f"{character.directional_char} {character.title_case_name}\n")

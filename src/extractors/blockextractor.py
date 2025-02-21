@@ -40,7 +40,7 @@ class BlockExtractor(Extractor):
                 continue
 
             async with aiofiles.open(
-                target / f'{block.name.lower().replace(" ", "_")}.csv', mode="w"
+                target / f"{block.name.lower().replace(' ', '_')}.csv", mode="w"
             ) as character_file:
                 for character in block.characters:
                     await character_file.write(f"{character.directional_char} {character.title_case_name}\n")

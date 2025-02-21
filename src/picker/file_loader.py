@@ -1,8 +1,10 @@
+import os
 from glob import glob
+from pathlib import Path
 from typing import Dict, List
 
 from .models import CharacterEntry
-from .paths import *
+from .paths import custom_additional_files_location
 
 
 def read_characters_from_files(files: List[str], frecent: List[str], use_additional: bool) -> List[CharacterEntry]:

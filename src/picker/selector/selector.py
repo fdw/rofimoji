@@ -64,7 +64,7 @@ class Selector(ABC):
 
     def basic_format_characters(self, characters: List[CharacterEntry], strip_tags: bool = True) -> List[str]:
         return [
-            f"{entry.character} {entry.description.replace('<small>', "").replace("</small>", "") if strip_tags else entry.description}"
+            f"{entry.character} {entry.description.replace('<small>', '').replace('</small>', '') if strip_tags else entry.description}"
             for entry in characters
         ]
 

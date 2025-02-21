@@ -32,7 +32,7 @@ class Character:
 
     @property
     def directional_char(self) -> str:
-        return f'{self.ltr_mark if self.force_ltr else ""}{self.char}'
+        return f"{self.ltr_mark if self.force_ltr else ''}{self.char}"
 
     @property
     def title_case_name(self) -> str:
@@ -71,7 +71,7 @@ class CharacterFactory:
                     fields = line.split(";")
                     if (
                         len(fields) >= 2
-                        and not fields[INDEX_CATEGORY] in ("Cc", "Co", "Cs")
+                        and fields[INDEX_CATEGORY] not in ("Cc", "Co", "Cs")
                         and not (fields[INDEX_NAME].startswith("<") and fields[INDEX_NAME].endswith(">"))
                     ):
                         character = Character(

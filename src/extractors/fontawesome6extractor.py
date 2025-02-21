@@ -39,5 +39,5 @@ class FontAwesome6Extractor(Extractor):
         async with aiofiles.open(target / "fontawesome6.csv", mode="w") as character_file:
             for icon in self.__icons:
                 aliases = f" <small>({', '.join(icon.descriptions)})</small>"
-                line = f'{icon.directional_char} {icon.lower_case_name}{aliases if icon.descriptions else ""}\n'
+                line = f"{icon.directional_char} {icon.lower_case_name}{aliases if icon.descriptions else ''}\n"
                 await character_file.write(line)

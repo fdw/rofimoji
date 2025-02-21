@@ -5,7 +5,7 @@ import configargparse
 
 from . import __version__
 from .models import Action
-from .paths import *
+from .paths import config_file_locations
 
 
 def parse_arguments_strict() -> argparse.Namespace:

@@ -1,4 +1,3 @@
-from operator import rshift
 from pathlib import Path
 from typing import List
 

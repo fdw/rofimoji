@@ -1,7 +1,8 @@
 import hashlib
+from pathlib import Path
 from typing import List
 
-from .paths import *
+from .paths import recents_file_location
 
 
 def load_recent_characters(max_recent: int, files: List[str]) -> List[str]:

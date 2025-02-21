@@ -1,10 +1,11 @@
 import argparse
+import os
 import re
 import sys
 from dataclasses import dataclass
 from enum import IntEnum, auto
 from pickle import dump, load
-from typing import Dict, List, Optional
+from typing import List, Optional
 
 from . import emoji_data
 from .action import execute_action
@@ -13,7 +14,7 @@ from .clipboarder.clipboarder import Clipboarder
 from .file_loader import read_characters_from_files
 from .frecent import load_frecent_characters, save_frecent_characters
 from .models import Action, CharacterEntry
-from .paths import *
+from .paths import cache_file_location
 from .recent import load_recent_characters, save_recent_characters
 from .typer.typer import Typer
 

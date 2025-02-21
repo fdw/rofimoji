@@ -22,5 +22,8 @@ jobs:
         cache-dependency-glob: "uv.lock"
         github-token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
 
+    - name: Build
+      run: uv build
+
     - name: Run ruff
       run: uv run ruff check

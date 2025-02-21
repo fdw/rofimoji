@@ -1,0 +1,26 @@
+name: Python Checks
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [ "3.9", "3.10", "3.11", "3.12", "3.13" ]
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python and uv
+      uses: astral-sh/setup-uv@v5
+      with:
+        python-version: ${{ matrix.python-version }}
+        enable-cache: true
+        cache-dependency-glob: "uv.lock"
+        github-token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
+
+    - name: Run ruff
+      run: uv run ruff check

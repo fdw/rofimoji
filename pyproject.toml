@@ -13,8 +13,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/fdw/rofimoji"
-Repository = "https://github.com/fdw/rofimoji"
+homepage = "https://github.com/fdw/rofimoji"
+repository = "https://github.com/fdw/rofimoji"
 
 [project.scripts]
 rofimoji = "picker.__main__:main"

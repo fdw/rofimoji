@@ -8,8 +8,9 @@ class Typer(ABC):
         from .noop import NoopTyper
         from .wtype import WTypeTyper
         from .xdotool import XDoToolTyper
+        from .ydotool import YdotoolTyper as YDoToolTyper
 
-        available_typers = [XDoToolTyper, WTypeTyper, NoopTyper]
+        available_typers = [XDoToolTyper, YDoToolTyper, WTypeTyper, NoopTyper]
 
         if name is not None:
             return next(typer for typer in available_typers if typer.name() == name)()

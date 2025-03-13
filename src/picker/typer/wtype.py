@@ -8,7 +8,7 @@ class WTypeTyper(Typer):
     @staticmethod
     def supported() -> bool:
         return is_wayland() and is_installed("wtype")
-
+    
     @staticmethod
     def name() -> str:
         return "wtype"

@@ -25,8 +25,16 @@ class XClipClipboarder(Clipboarder):
         )
 
     def copy_paste_characters(self, characters: str, active_window: str, typer: Typer) -> None:
-        old_clipboard_content = run(args=["xclip", "-o", "-selection", "clipboard"], capture_output=True).stdout
-        old_primary_content = run(args=["xclip", "-o", "-selection", "primary"], capture_output=True).stdout
+        old_clipboard_content = run(
+            args=["xclip", "-out", "-selection", "clipboard", "-target", "text/plain;charset=utf-8"],
+            capture_output=True,
+            encoding="utf-8",
+        )
+        old_primary_content = run(
+            args=["xclip", "-out", "-selection", "primary", "-target", "text/plain;charset=utf-8"],
+            capture_output=True,
+            encoding="utf-8",
+        )
 
         run(
             args=["xclip", "-i", "-selection", "clipboard"],
@@ -45,15 +53,19 @@ class XClipClipboarder(Clipboarder):
 
         typer.insert_from_clipboard(active_window)
 
-        run(
-            args=["xclip", "-i", "-selection", "clipboard"],
-            input=old_clipboard_content,
-            stderr=subprocess.DEVNULL,
-            stdout=subprocess.DEVNULL,
-        )
-        run(
-            args=["xclip", "-i", "-selection", "primary"],
-            input=old_primary_content,
-            stderr=subprocess.DEVNULL,
-            stdout=subprocess.DEVNULL,
-        )
+        if old_clipboard_content.returncode == 0:
+            run(
+                args=["xclip", "-i", "-selection", "clipboard"],
+                input=old_clipboard_content.stdout,
+                stderr=subprocess.DEVNULL,
+                stdout=subprocess.DEVNULL,
+                encoding="utf-8",
+            )
+        if old_primary_content.returncode == 0:
+            run(
+                args=["xclip", "-i", "-selection", "primary"],
+                input=old_primary_content.stdout,
+                stderr=subprocess.DEVNULL,
+                stdout=subprocess.DEVNULL,
+                encoding="utf-8",
+            )

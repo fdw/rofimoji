@@ -19,13 +19,13 @@ repository = "https://github.com/fdw/rofimoji"
 [project.scripts]
 rofimoji = "picker.__main__:main"
 
-[tool.hatch.build]
+[tool.hatch.build.targets.wheel]
+packages = ["src/picker"]
 include = [
     "src/picker/data/*.csv",
     "src/picker/docs/rofimoji.1",
     "src/picker/contrib/*",
 ]
-packages = ['src/picker']
 
 [dependency-groups]
 dev = [

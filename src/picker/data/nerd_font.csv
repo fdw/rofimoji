@@ -445,6 +445,7 @@
  custom-common_lisp
  custom-cpp
  custom-crystal
+ custom-css
  custom-default
  custom-electron
  custom-elixir
@@ -985,6 +986,18 @@
  dev-yunohost
  dev-zend
  dev-zig
+ extra-progress_empty_left
+ extra-progress_empty_mid
+ extra-progress_empty_right
+ extra-progress_full_left
+ extra-progress_full_mid
+ extra-progress_full_right
+ extra-progress_spinner_1
+ extra-progress_spinner_2
+ extra-progress_spinner_3
+ extra-progress_spinner_4
+ extra-progress_spinner_5
+ extra-progress_spinner_6
  fa-500px
  fa-accessible_icon
  fa-accusoft

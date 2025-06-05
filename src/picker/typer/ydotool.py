@@ -75,4 +75,5 @@ class YdotoolTyper(Typer):
         "LeftShift": 42,
         "BackSpace": 14,
         "Tab": 15,
+        "Insert": 110,
     }

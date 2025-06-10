@@ -4,11 +4,14 @@
 
 ## Fixed
 - rofi mode supports `--use-icons`. (#202)
+- Selectors other than `rofi` strip out formatting tags. (#209)
 
 ## Added
+- Type using Unicode input using `--action type-numerical`.
+- Support for `ydotool`, using Unicode input. (#211)
 - Support for [FileIcons](https://github.com/file-icons/icons). (#204)
 - Support for [Weather Icons](https://github.com/erikflowers/weather-icons). (#204)
-- Updates to Nerd Font 3.3.0 and Font Awesome 6.7.1.
+- Updates to Nerd Font 3.4.0, Font Awesome 6.7.1 and Gitmoji 3.15.0.
 
 # [6.5.0] - 2024-09-14
 ## Changed

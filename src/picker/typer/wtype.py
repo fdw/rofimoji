@@ -21,7 +21,7 @@ class WTypeTyper(Typer):
         run(["wtype", characters])
 
     def insert_from_clipboard(self, active_window: str) -> None:
-        run(["wtype", "-M", "shift", "-P", "Insert", "-p", "Insert", "-m", "shift"])
+        run(["wtype", "-m", "alt", "-M", "shift", "-P", "Insert", "-p", "Insert", "-m", "shift"])
 
     def type_numerical(self, codepoints: List[int], active_window: str) -> None:
         codepoint_list = " ".join([f"U{codepoint:x}" for codepoint in codepoints])

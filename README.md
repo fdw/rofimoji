@@ -140,7 +140,7 @@ If the predefined ones are not enough, you can define additional character files
 
 If the character is also in another selected file, all descriptions will be combined. If you give it the same name as one of those included with `rofimoji`, yours will be preferred.
 
-For added comfort, `rofimoji` will automatically load an "additional" file for predefined ones. This file needs to called `<filename>.additional.csv` and lie in `${XDG_DATA_DIR}/rofimoji/data/`. For example, if you want to extend `emojis_smileys_emotion`, call the file `emojis_smileys_emotions.additional.csv`. This is helpful if you want additional descriptions: You can define such an additional character file, add the character and your description and your descriptions will now also be shown.
+For added comfort, `rofimoji` will automatically load an "additional" file for predefined ones. This file needs to called `<filename>.additional.csv` and lie in `${XDG_DATA_HOME}/rofimoji/data/`. For example, if you want to extend `emojis_smileys_emotion`, call the file `emojis_smileys_emotions.additional.csv`. This is helpful if you want additional descriptions: You can define such an additional character file, add the character and your description and your descriptions will now also be shown.
 
 If you think your file is useful to others, please open a PR to include it in a future version of `rofimoji`.
 

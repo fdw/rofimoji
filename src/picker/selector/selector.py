@@ -9,6 +9,7 @@ class Selector(ABC):
     @staticmethod
     def best_option(name: Optional[str] = None) -> "Selector":
         from .bemenu import Bemenu
+        from .choose import Choose
         from .dmenu import DMenu
         from .fuzzel import Fuzzel
         from .rofi import Rofi
@@ -16,7 +17,7 @@ class Selector(ABC):
         from .wmenu import WMenu
         from .wofi import Wofi
 
-        available_selectors = [Rofi, Wofi, Fuzzel, Bemenu, Tofi, DMenu, WMenu]
+        available_selectors = [Rofi, Wofi, Fuzzel, Bemenu, Tofi, DMenu, WMenu, Choose]
 
         if name is not None:
             try:

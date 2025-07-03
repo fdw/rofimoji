@@ -112,7 +112,7 @@ def __parse_arguments(only_known: bool) -> argparse.Namespace:
         dest="selector",
         action="store",
         type=str,
-        choices=["rofi", "wofi", "fuzzel", "dmenu", "tofi", "bemenu", "wmenu"],
+        choices=["rofi", "wofi", "fuzzel", "dmenu", "tofi", "bemenu", "wmenu", "choose"],
         default=None,
         help="Choose the application to select the characters with",
     )
@@ -121,7 +121,7 @@ def __parse_arguments(only_known: bool) -> argparse.Namespace:
         dest="clipboarder",
         action="store",
         type=str,
-        choices=["xsel", "xclip", "wl-copy"],
+        choices=["xsel", "xclip", "wl-copy", "pbcopy"],
         default=None,
         help="Choose the application to access the clipboard with",
     )
@@ -130,7 +130,7 @@ def __parse_arguments(only_known: bool) -> argparse.Namespace:
         dest="typer",
         action="store",
         type=str,
-        choices=["xdotool", "wtype", "ydotool"],
+        choices=["xdotool", "wtype", "ydotool", "cliclick"],
         default=None,
         help="Choose the application to type with",
     )

@@ -5,12 +5,13 @@ from typing import List, Optional
 class Typer(ABC):
     @staticmethod
     def best_option(name: Optional[str] = None) -> "Typer":
+        from .cliclick import CliclickTyper
         from .noop import NoopTyper
         from .wtype import WTypeTyper
         from .xdotool import XDoToolTyper
         from .ydotool import YdotoolTyper as YDoToolTyper
 
-        available_typers = [XDoToolTyper, WTypeTyper, YDoToolTyper, NoopTyper]
+        available_typers = [XDoToolTyper, WTypeTyper, YDoToolTyper, CliclickTyper, NoopTyper]
 
         if name is not None:
             return next(typer for typer in available_typers if typer.name() == name)()

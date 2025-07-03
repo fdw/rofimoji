@@ -66,9 +66,9 @@ You can configure `rofimoji` either with cli arguments or with a config file cal
 | `--use-icons`                                                                                                                                          |              |                                                                                                                | `false`                                              | Show characters as icons in `rofi`. Not used for other selectors.                                                                                                                                                                                                                                                   |
 | `--prompt`                                                                                                                                             | `-r`         | any string                                                                                                     | `😀 `                                                | Define the prompt text for `rofimoji`.                                                                                                                                                                                                                                                                              |
 | `--selector-args`                                                                                                                                      |              |                                                                                                                |                                                      | Define arguments that `rofimoji` will pass through to the selector.<br/>Please note that you need to specify it as `--selector-args="<selector-args>"` or `--selector-args " <selector-args>"` because of a [bug in argparse](https://bugs.python.org/issue9334)                                                    |
-| `--selector`                                                                                                                                           |              | `rofi`, `wofi`, `fuzzel`, `dmenu`, `tofi`, `bemenu`, `wmenu`                                                   | (automatically chosen)                               | Show the selection dialog with this application.                                                                                                                                                                                                                                                                    |
-| `--clipboarder`                                                                                                                                        |              | `xsel`, `xclip`, `wl-copy`                                                                                     | (automatically chosen)                               | Access the clipboard with this application.                                                                                                                                                                                                                                                                         |
-| `--typer`                                                                                                                                              |              | `xdotool`, `wtype`, `ydotool`                                                                                  | (automatically chosen)                               | Type the characters using this application.                                                                                                                                                                                                                                                                         |
+| `--selector`                                                                                                                                           |              | `rofi`, `wofi`, `fuzzel`, `dmenu`, `tofi`, `bemenu`, `wmenu`, `choose`                                         | (automatically chosen)                               | Show the selection dialog with this application.                                                                                                                                                                                                                                                                    |
+| `--clipboarder`                                                                                                                                        |              | `xsel`, `xclip`, `wl-copy`, `pbcopy`                                                                           | (automatically chosen)                               | Access the clipboard with this application.                                                                                                                                                                                                                                                                         |
+| `--typer`                                                                                                                                              |              | `xdotool`, `wtype`, `ydotool`, `cliclick`                                                                      | (automatically chosen)                               | Type the characters using this application.                                                                                                                                                                                                                                                                         |
 | `--keybinding-copy`, `--keybinding-type`, `--keybinding-clipboard`, `--keybinding-type-numerical`, `--keybinding-unicode`, `--keybinding-copy-unicode` |              |                                                                                                                | `Alt+c`, `Alt+t`, `Alt+p`, `Alt+n`, `Alt+u`, `Alt+i` | Choose different keybindings than the default values.                                                                                                                                                                                                                                                               |
 
 ## Example config file
@@ -108,6 +108,8 @@ Finally, with `--action copy` (or `-a copy`) you can also tell `rofimoji` to onl
 ## Display server support
 `rofimoji` supports both X11 and Wayland by using the correct tools for each environment (see [Supported Selectors](#supported-selectors)). It tries to automatically choose the right one for the currently running session.
 If you want to manually overwrite this, have a look at the `--selector`, `--clipboarder` and `--typer` options [above](#options).
+
+`rofimoji` also supports MacOS in a best-effort fashion (see below)
 
 ## Most recently used characters
 By default, `rofimoji` will show the last ten recently used characters separately; you can insert them with `alt+1`, `alt+2` and so on. It will use the default [insertion method](#insertion-method).
@@ -163,6 +165,15 @@ What else do you need:
 - Optionally, a tool to programmatically type characters into applications. Either `xdotool` for X11 or `wtype`/`ydotool` for Wayland
 - Optionally, a tool to copy the characters to the clipboard. `xsel` and `xclip` work on X11; `wl-copy` on Wayland
 
+### MacOS support
+
+A light support of MacOS was brought to `rofimoji` through:
+- `pbcopy` / `pbpaste` to manage the clipboard
+- `choose` as selector alternative to `rofi`
+- `cliclick` as typer alternative to `xdotool`
+
+Support is for now limited and `type`, `type-numerical` and `unicode` are not supported yet.
+
 ### Supported Selectors
 Please note that several advanced features are only supported by `rofi` (both on X and Wayland):
 - custom keyboard shortcuts
@@ -184,3 +195,6 @@ All other selectors can be used for the basic functionality.
 - [tofi](https://github.com/philj56/tofi)
 - [bemenu](https://github.com/Cloudef/bemenu)
 - [wmenu](https://git.sr.ht/~adnano/wmenu)
+
+#### MacOS
+- [choose](https://github.com/chipsenkbeil/choose)

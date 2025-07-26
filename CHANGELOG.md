@@ -8,6 +8,7 @@
 
 ## Added
 - Type using Unicode input using `--action type-numerical`.
+- Support for MacOS in the form of `choose`, `pbcopy` and `cliclick`. (#223)
 - Support for `ydotool`, using Unicode input. (#211)
 - Support for [FileIcons](https://github.com/file-icons/icons). (#204)
 - Support for [Weather Icons](https://github.com/erikflowers/weather-icons). (#204)

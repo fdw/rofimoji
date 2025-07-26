@@ -1,4 +1,4 @@
-# [NEXT]
+# [6.6.0]
 ## Changed
 - Stopped support for Python 3.8.
 

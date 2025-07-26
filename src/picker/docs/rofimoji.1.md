@@ -9,7 +9,7 @@
 
 # SYNOPSIS
 
-| **rofimoji** \[**-h**] \[**\--version**] \[**\--action** {*type*,*copy*,*clipboard*,*unicode*,*copy-unicode*,*print*,*menu*}]
+| **rofimoji** \[**-h**] \[**\--version**] \[**\--action** {*type*,*copy*,*clipboard*,*type-numerical*,*unicode*,*copy-unicode*,*print*,*menu*}]
          \[**\--skin-tone** {*neutral*,*light*,*medium-light*,*moderate*,*dark brown*,*black*,*ask*}]
          \[**\--files** {*all*,*FILE* \[*FILE* ...]]} \[**\--prompt** *PROMPT*]
          \[**\--selector-args** *SELECTOR_ARGS*] \[**\--max-recent** *MAX_RECENT*] \[**\--no-frecency**] \[**\--hidden-descriptions**]
@@ -31,10 +31,10 @@ Select, insert, or copy Unicode characters like emoji using rofi.
 
 \--action, -a
 
-: Possible values: type, copy, clipboard, unicode, copy-unicode, print, menu
+: Possible values: type, copy, clipboard, type-numerical, unicode, copy-unicode, print, menu
 
-      Choose what to do with the selected characters: Directly type them with the "Typer", copy them to the clipboard using the "Clipboarder", or insert them indirectly using the clipboard. "unicode" will type the unicode codepoints of the chosen characters, "copy-unicode" will copy it. "print" just outputs them on stdout.
-      If you want to decide on the fly, use "menu".
+      Choose what to do with the selected characters: Directly type them with the "Typer", copy them to the clipboard using the "Clipboarder", or insert them indirectly using the clipboard. To use the compose key functionality, choose "type-numerical:. "unicode" will type the unicode codepoints of the chosen characters, "copy-unicode" will copy it. "print" just outputs them on stdout.
+      If you want to decide spontanously, use "menu".
 
 \--files _FILE_ [_FILE_ ...], -f _FILE_ [_FILE_ ...]
 
@@ -76,19 +76,19 @@ Select, insert, or copy Unicode characters like emoji using rofi.
 
 \--selector _SELECTOR_
 
-: Possible values: rofi, wofi, fuzzel, dmenu, tofi, bemenu, wmenu
+: Possible values: rofi, wofi, fuzzel, bemenu, tofi, dmenu, wmenu, choose
 
       Choose the selector application manually. Usually `rofi`, but you may want something else.
 
 \--clipboarder _CLIPBOARDER_
 
-: Possible values: xsel, xclip, wl-copy
+: Possible values: xsel, xclip, wl-copy, pbcopy
 
       Choose the application to access the clipboard with manually.
 
 \--typer _TYPER_
 
-: Possible values: xdotool, wtype
+: Possible values: xdotool, wtype, ydotool, cliclick
 
       Choose the application to type with manually.
 

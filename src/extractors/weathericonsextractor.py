@@ -18,7 +18,7 @@ class WeatherIconsExtractor(Extractor):
     async def extract_to(self, target: Path) -> None:
         await self.__fetch_icons()
         await self.__write_to_file(target)
-        print("Finished Gitmoji")
+        print("Finished Weather Icons")
 
     async def __fetch_icons(self) -> None:
         async with aiohttp.ClientSession() as session:

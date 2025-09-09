@@ -1,4 +1,8 @@
-# [6.6.0]
+# [6.7.0] - 2025-09-09
+## Changed
+- Updated to Unicode 17!
+
+# [6.6.0] - 2025-07-26
 ## Changed
 - Stopped support for Python 3.8.
 

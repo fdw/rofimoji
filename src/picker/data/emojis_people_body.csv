@@ -231,6 +231,7 @@
 🧟‍♂️ man zombie
 🧟‍♀️ woman zombie
 🧌 troll
+🫈 hairy creature
 💆 person getting massage <small>(face, massage, person getting massage, salon)</small>
 💆‍♂️ man getting massage
 💆‍♀️ woman getting massage
@@ -240,42 +241,43 @@
 🚶 person walking <small>(hike, person walking, walk, walking)</small>
 🚶‍♂️ man walking
 🚶‍♀️ woman walking
-🚶‍➡️ person walking facing right
-🚶‍♀️‍➡️ woman walking facing right
-🚶‍♂️‍➡️ man walking facing right
+🚶‍➡️ person walking: facing right
+🚶‍♀️‍➡️ woman walking: facing right
+🚶‍♂️‍➡️ man walking: facing right
 🧍 person standing <small>(person standing, stand, standing)</small>
 🧍‍♂️ man standing
 🧍‍♀️ woman standing
 🧎 person kneeling <small>(kneel, kneeling, person kneeling)</small>
 🧎‍♂️ man kneeling
 🧎‍♀️ woman kneeling
-🧎‍➡️ person kneeling facing right
-🧎‍♀️‍➡️ woman kneeling facing right
-🧎‍♂️‍➡️ man kneeling facing right
+🧎‍➡️ person kneeling: facing right
+🧎‍♀️‍➡️ woman kneeling: facing right
+🧎‍♂️‍➡️ man kneeling: facing right
 🧑‍🦯 person with white cane <small>(accessibility, blind, person with white cane)</small>
-🧑‍🦯‍➡️ person with white cane facing right
+🧑‍🦯‍➡️ person with white cane: facing right
 👨‍🦯 man with white cane <small>(accessibility, blind, man, man with white cane)</small>
-👨‍🦯‍➡️ man with white cane facing right
+👨‍🦯‍➡️ man with white cane: facing right
 👩‍🦯 woman with white cane <small>(accessibility, blind, woman, woman with white cane)</small>
-👩‍🦯‍➡️ woman with white cane facing right
+👩‍🦯‍➡️ woman with white cane: facing right
 🧑‍🦼 person in motorized wheelchair <small>(accessibility, person in motorized wheelchair, wheelchair)</small>
-🧑‍🦼‍➡️ person in motorized wheelchair facing right
+🧑‍🦼‍➡️ person in motorized wheelchair: facing right
 👨‍🦼 man in motorized wheelchair <small>(accessibility, man, man in motorized wheelchair, wheelchair)</small>
-👨‍🦼‍➡️ man in motorized wheelchair facing right
+👨‍🦼‍➡️ man in motorized wheelchair: facing right
 👩‍🦼 woman in motorized wheelchair <small>(accessibility, wheelchair, woman, woman in motorized wheelchair)</small>
-👩‍🦼‍➡️ woman in motorized wheelchair facing right
+👩‍🦼‍➡️ woman in motorized wheelchair: facing right
 🧑‍🦽 person in manual wheelchair <small>(accessibility, person in manual wheelchair, wheelchair)</small>
-🧑‍🦽‍➡️ person in manual wheelchair facing right
+🧑‍🦽‍➡️ person in manual wheelchair: facing right
 👨‍🦽 man in manual wheelchair <small>(accessibility, man, man in manual wheelchair, wheelchair)</small>
-👨‍🦽‍➡️ man in manual wheelchair facing right
+👨‍🦽‍➡️ man in manual wheelchair: facing right
 👩‍🦽 woman in manual wheelchair <small>(accessibility, wheelchair, woman, woman in manual wheelchair)</small>
-👩‍🦽‍➡️ woman in manual wheelchair facing right
+👩‍🦽‍➡️ woman in manual wheelchair: facing right
 🏃 person running <small>(marathon, person running, running)</small>
 🏃‍♂️ man running
 🏃‍♀️ woman running
-🏃‍➡️ person running facing right
-🏃‍♀️‍➡️ woman running facing right
-🏃‍♂️‍➡️ man running facing right
+🏃‍➡️ person running: facing right
+🏃‍♀️‍➡️ woman running: facing right
+🏃‍♂️‍➡️ man running: facing right
+🧑‍🩰 ballet dancer
 💃 woman dancing <small>(dancing, woman)</small>
 🕺 man dancing <small>(dance, man, man dancing)</small>
 🕴️ person in suit levitating <small>(business, person, person in suit levitating, suit)</small>

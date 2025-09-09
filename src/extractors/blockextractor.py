@@ -25,7 +25,7 @@ class BlockExtractor(Extractor):
 
     async def __fetch_blocks(self) -> None:
         async with aiohttp.ClientSession() as session:
-            async with session.get("https://www.unicode.org/Public/16.0.0/ucd/Blocks.txt") as response:
+            async with session.get("https://www.unicode.org/Public/17.0.0/ucd/Blocks.txt") as response:
                 lines = (await response.text()).split("\n")
 
                 for line in lines:

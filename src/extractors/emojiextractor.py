@@ -41,7 +41,7 @@ class EmojiExtractor(Extractor):
             )
 
     async def __fetch_emoji_list(self, session: ClientSession) -> None:
-        async with session.get("https://unicode.org/emoji/charts-16.0/full-emoji-list.html") as data:
+        async with session.get("https://unicode.org/emoji/charts-17.0/full-emoji-list.html") as data:
             html_content = BeautifulSoup(await data.text(), "lxml")
 
             current_title = None
@@ -105,7 +105,7 @@ class EmojiExtractor(Extractor):
 
             self.__base_emojis = emojis
 
-        async with session.get("https://unicode.org/Public/16.0.0/ucd/emoji/emoji-data.txt") as data:
+        async with session.get("https://unicode.org/Public/17.0.0/ucd/emoji/emoji-data.txt") as data:
             emoji_data = (await data.text()).split("\n")
             __extract_ep_emojis(emoji_data)
             __extract_base_emojis(emoji_data)

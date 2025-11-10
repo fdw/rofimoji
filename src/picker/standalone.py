@@ -25,7 +25,7 @@ class StandaloneRofimoji:
         action, value = self.__open_main_selector_window()
 
         if action == CANCEL():
-            sys.exit()
+            sys.exit(1)
         elif action != DEFAULT():
             self.args.actions = [action]
 

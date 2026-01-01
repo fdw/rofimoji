@@ -112,7 +112,7 @@ def __parse_arguments(only_known: bool) -> argparse.Namespace:
         dest="selector",
         action="store",
         type=str,
-        choices=["rofi", "wofi", "fuzzel", "dmenu", "tofi", "bemenu", "wmenu", "choose"],
+        choices=["rofi", "wofi", "fuzzel", "dmenu", "tofi", "bemenu", "wmenu", "hyprlauncher", "choose"],
         default=None,
         help="Choose the application to select the characters with",
     )

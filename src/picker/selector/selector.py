@@ -12,12 +12,13 @@ class Selector(ABC):
         from .choose import Choose
         from .dmenu import DMenu
         from .fuzzel import Fuzzel
+        from .hyprlauncher import Hyprlauncher
         from .rofi import Rofi
         from .tofi import Tofi
         from .wmenu import WMenu
         from .wofi import Wofi
 
-        available_selectors = [Rofi, Wofi, Fuzzel, Bemenu, Tofi, DMenu, WMenu, Choose]
+        available_selectors = [Rofi, Wofi, Fuzzel, Bemenu, Tofi, Hyprlauncher, DMenu, WMenu, Choose]
 
         if name is not None:
             try:

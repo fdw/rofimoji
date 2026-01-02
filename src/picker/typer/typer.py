@@ -7,11 +7,12 @@ class Typer(ABC):
     def best_option(name: Optional[str] = None) -> "Typer":
         from .cliclick import CliclickTyper
         from .noop import NoopTyper
+        from .wl_ime_type import WlImeTypeTyper
         from .wtype import WTypeTyper
         from .xdotool import XDoToolTyper
         from .ydotool import YdotoolTyper as YDoToolTyper
 
-        available_typers = [XDoToolTyper, WTypeTyper, YDoToolTyper, CliclickTyper, NoopTyper]
+        available_typers = [XDoToolTyper, WTypeTyper, YDoToolTyper, CliclickTyper, WlImeTypeTyper, NoopTyper]
 
         if name is not None:
             return next(typer for typer in available_typers if typer.name() == name)()

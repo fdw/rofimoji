@@ -88,7 +88,7 @@ Select, insert, or copy Unicode characters like emoji using rofi.
 
 \--typer _TYPER_
 
-: Possible values: xdotool, wtype, ydotool, cliclick
+: Possible values: xdotool, wtype, ydotool, cliclick, wl-ime-type
 
       Choose the application to type with manually.
 

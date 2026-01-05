@@ -138,13 +138,26 @@ To use the arrow keys in `rofi` only for the grid and not the query, pass these 
 If you miss something, please open an issue!
 
 ## Custom character files and descriptions
-If the predefined ones are not enough, you can define additional character files and load them with `-f` (see [options](#options)). In each line, one 'character' can be defined, followed by a single space character (` `). After that, you can write whatever description you want.
+### New character sets
+If the predefined character sets are not enough, you can define additional ones yourself and load them with `-f` (see [options](#options)). They can lie wherever you want, as you need to pass the full path to `rofimoji`.
+In each line, one 'character' can be defined, followed by a single space character (` `). After that, you can write whatever description you want.
 
-If the character is also in another selected file, all descriptions will be combined. If you give it the same name as one of those included with `rofimoji`, yours will be preferred.
+For example, if you want a small set for your most often used characters, you can use a new file with the following content:
 
-For added comfort, `rofimoji` will automatically load an "additional" file for predefined ones. This file needs to called `<filename>.additional.csv` and lie in `${XDG_DATA_HOME}/rofimoji/data/`. For example, if you want to extend `emojis_smileys_emotion`, call the file `emojis_smileys_emotions.additional.csv`. This is helpful if you want additional descriptions: You can define such an additional character file, add the character and your description and your descriptions will now also be shown.
+```
+🎷 sax, saxophone, jazz
+🎻 violin, strings, classical
+🎸 guitar, electric guitar, rock
+🥁 drums, percussion
+```
+
+If the character is also in another selected file, all descriptions will be combined. If you give it the same name as one of those included with `rofimoji`, yours will be preferred. This means you can effectively "replace" the built-in sets.
 
 If you think your file is useful to others, please open a PR to include it in a future version of `rofimoji`.
+
+### Additional descriptions
+For added comfort, `rofimoji` will automatically load an "additional" file for predefined ones. This file needs to called `<filename>.additional.csv` and lie in `${XDG_DATA_HOME}/rofimoji/data/`. For example, if you want to extend `emojis_smileys_emotion`, call the file `emojis_smileys_emotions.additional.csv`.
+This is helpful if you want additional descriptions: You can define such an additional character file, add the character and your description and your descriptions will now also be shown. You can add localized descriptions, for example: `😊 glücklich` adds a German description to the emoji.
 
 # Installation
 ## From distribution repositories

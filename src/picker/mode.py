@@ -91,8 +91,7 @@ class ModeRofimoji:
         if os.environ.get("ROFI_RETV") == "0":
             State.remove_cache()
 
-        chosen = sys.argv[-1]
-        state = State.load_from_cache(chosen, int(os.environ.get("ROFI_RETV", "")))
+        state = State.load_from_cache(os.environ.get("ROFI_INFO", sys.argv[-1]), int(os.environ.get("ROFI_RETV", "")))
         self.__parse_args()
         state.actions = self.args.actions
 
@@ -146,9 +145,9 @@ class ModeRofimoji:
 
     def __format_characters(self, characters: List[CharacterEntry]) -> List[str]:
         if self.args.use_icons and not self.args.show_description:
-            return [f" \0meta\x1f{entry.description}\x1ficon\x1f<span>{entry.character}</span>" for entry in characters]
+            return [f" \0meta\x1f{entry.description}\x1ficon\x1f<span>{entry.character}</span>\x1finfo\x1f{entry.character}" for entry in characters]
         elif self.args.use_icons and self.args.show_description:
-            return [f"{entry.description}\0icon\x1f<span>{entry.character}</span>" for entry in characters]
+            return [f"{entry.description}\0icon\x1f<span>{entry.character}</span>\x1finfo\x1f{entry.character}" for entry in characters]
         elif not self.args.use_icons and self.args.show_description:
             return [f"{entry.character} {entry.description}" for entry in characters]
         else:

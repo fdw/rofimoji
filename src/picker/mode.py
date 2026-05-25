@@ -1,10 +1,10 @@
 import argparse
+import json
 import os
 import re
 import sys
-from dataclasses import dataclass
+from dataclasses import asdict, dataclass
 from enum import IntEnum, auto
-from pickle import dump, load
 
 from . import emoji_data
 from .action import execute_action
@@ -37,9 +37,15 @@ class State:
     __current_input: str | None = None
     output: str | None = None
 
+    def __post_init__(self):
+        if isinstance(self.step, int) and not isinstance(self.step, Step):
+            self.step = Step(self.step)
+        if self.actions and isinstance(self.actions[0], str):
+            self.actions = [Action(a) for a in self.actions]
+
     def save_to_cache(self) -> None:
-        with cache_file_location.open("wb+") as file:
-            dump(self, file)
+        with cache_file_location.open("w+") as file:
+            json.dump(asdict(self), file, default=str)
 
     @staticmethod
     def load_from_cache(current_input: str, return_code: int) -> "State":
@@ -53,12 +59,12 @@ class State:
                 output=None,
             )
 
-        with cache_file_location.open("rb+") as file:
-            state = load(file)
-            state.__current_input = current_input
-            state.return_code = return_code
-            state.output = None
-            return state
+        with cache_file_location.open("r") as file:
+            state = State(**json.load(file))
+        state.__current_input = current_input
+        state.return_code = return_code
+        state.output = None
+        return state
 
     @staticmethod
     def remove_cache():

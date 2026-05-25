@@ -1,12 +1,13 @@
 # [Next]
 ## Changed
 - Stopped support for Python 3.9.
+- The cache file for `rofi`'s mode uses JSON.
 - `rofimoji` returns `1` when the user cancelled. (#232)
 
 ## Fixed
 - rofi mode uses the character with `--use-icons`. (#238)
 
-# Added
+## Added
 - Added support for Hyprlauncher.
 - Added support for `wl-ime-type`
 

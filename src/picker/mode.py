@@ -205,20 +205,24 @@ class ModeRofimoji:
     def select_skin_tone(self, state: State) -> None:
         if state.has_input:
             state.processed_characters += self.__extract_char_from_input(state.current_input)
-            state.unprocessed_characters.pop()
+            state.unprocessed_characters.pop(0)
 
-        for raw_character in state.unprocessed_characters:
-            character = self.__extract_char_from_input(raw_character)
+        while state.unprocessed_characters:
+            character = self.__extract_char_from_input(state.unprocessed_characters[0])
             save_frecent_characters(character)
-            if character not in emoji_data.skin_tone_selectable_emojis:
-                state.processed_characters += character
-                state.unprocessed_characters = state.unprocessed_characters[1:]
-            else:
+
+            if character in emoji_data.skin_tone_selectable_emojis and self.args.skin_tone == "ask":
                 state.output = "\n".join(
                     character + modifier + " " + emoji_data.fitzpatrick_modifiers[modifier]
                     for modifier in emoji_data.fitzpatrick_modifiers
                 )
                 return
+
+            if character not in emoji_data.skin_tone_selectable_emojis or self.args.skin_tone == "neutral":
+                state.processed_characters += character
+            else:
+                state.processed_characters += character + emoji_data.fitzpatrick_modifiers_reversed[self.args.skin_tone]
+            state.unprocessed_characters.pop(0)
 
         state.step += 1
 

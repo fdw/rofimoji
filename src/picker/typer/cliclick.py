@@ -1,5 +1,4 @@
 from subprocess import run
-from typing import List
 
 from ..abstractionhelper import is_installed
 from .typer import Typer
@@ -20,17 +19,8 @@ class CliclickTyper(Typer):
     def type_characters(self, characters: str, active_window: str) -> None:
         pass
 
-
     def insert_from_clipboard(self, active_window: str) -> None:
-        run(
-            [
-                "cliclick",
-                "-w 100",
-                "kd:cmd",
-                "t:v",
-                "ku:cmd"
-            ]
-        )
+        run(["cliclick", "-w 100", "kd:cmd", "t:v", "ku:cmd"])
 
-    def type_numerical(self, codepoints: List[int], active_window: str) -> None:
+    def type_numerical(self, codepoints: list[int], active_window: str) -> None:
         pass

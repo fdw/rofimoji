@@ -1,11 +1,10 @@
 import hashlib
 from pathlib import Path
-from typing import List
 
 from .paths import recents_file_location
 
 
-def load_recent_characters(max_recent: int, files: List[str]) -> List[str]:
+def load_recent_characters(max_recent: int, files: list[str]) -> list[str]:
     try:
         return [char.strip("\n") for char in __filename_for(files).read_text().strip("\n").split("\n")][:max_recent]
     except FileNotFoundError:
@@ -17,7 +16,7 @@ def load_recent_characters(max_recent: int, files: List[str]) -> List[str]:
         return recents
 
 
-def save_recent_characters(new_characters: str, max_recent: int, files: List[str]) -> None:
+def save_recent_characters(new_characters: str, max_recent: int, files: list[str]) -> None:
     if max_recent == 0:
         return
     max_recent = min(max_recent, 10)
@@ -46,5 +45,5 @@ def save_recent_characters(new_characters: str, max_recent: int, files: List[str
     new_file_name.rename(old_file_name)
 
 
-def __filename_for(files: List[str]) -> Path:
+def __filename_for(files: list[str]) -> Path:
     return recents_file_location / hashlib.sha256(b"\0".join(f.encode() for f in sorted(files))).hexdigest()

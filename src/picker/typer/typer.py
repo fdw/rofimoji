@@ -1,10 +1,9 @@
 from abc import ABC, abstractmethod
-from typing import List, Optional
 
 
 class Typer(ABC):
     @staticmethod
-    def best_option(name: Optional[str] = None) -> "Typer":
+    def best_option(name: str | None = None) -> "Typer":
         from .cliclick import CliclickTyper
         from .noop import NoopTyper
         from .wl_ime_type import WlImeTypeTyper
@@ -42,5 +41,5 @@ class Typer(ABC):
         pass
 
     @abstractmethod
-    def type_numerical(self, codepoints: List[int], active_window: str) -> None:
+    def type_numerical(self, codepoints: list[int], active_window: str) -> None:
         pass

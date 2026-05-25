@@ -1,5 +1,3 @@
-from typing import List, Optional
-
 from .clipboarder.clipboarder import Clipboarder
 from .models import Action
 from .typer.typer import Typer
@@ -7,29 +5,30 @@ from .typer.typer import Typer
 
 def execute_action(
     characters: str,
-    actions: List[Action],
+    actions: list[Action],
     active_window: str,
-    typer_preference: Optional[str] = None,
-    clipboarder_preference: Optional[str] = None,
+    typer_preference: str | None = None,
+    clipboarder_preference: str | None = None,
 ) -> None:
     typer = Typer.best_option(typer_preference)
     clipboarder = Clipboarder.best_option(clipboarder_preference)
 
     for action in actions:
-        if action == Action.TYPE:
-            typer.type_characters(characters, active_window)
-        elif action == Action.COPY:
-            clipboarder.copy_characters_to_clipboard(characters)
-        elif action == Action.CLIPBOARD:
-            clipboarder.copy_paste_characters(characters, active_window, typer)
-        elif action == Action.TYPE_NUMERICAL:
-            typer.type_numerical(__as_codepoints(characters), active_window)
-        elif action == Action.UNICODE:
-            typer.type_characters(__as_codepoint_string(characters), active_window)
-        elif action == Action.COPY_UNICODE:
-            clipboarder.copy_characters_to_clipboard(__as_codepoint_string(characters))
-        elif action == Action.STDOUT:
-            print(characters)
+        match action:
+            case Action.TYPE:
+                typer.type_characters(characters, active_window)
+            case Action.COPY:
+                clipboarder.copy_characters_to_clipboard(characters)
+            case Action.CLIPBOARD:
+                clipboarder.copy_paste_characters(characters, active_window, typer)
+            case Action.TYPE_NUMERICAL:
+                typer.type_numerical(__as_codepoints(characters), active_window)
+            case Action.UNICODE:
+                typer.type_characters(__as_codepoint_string(characters), active_window)
+            case Action.COPY_UNICODE:
+                clipboarder.copy_characters_to_clipboard(__as_codepoint_string(characters))
+            case Action.STDOUT:
+                print(characters)
 
 
 def __as_codepoints(characters: str) -> list[int]:

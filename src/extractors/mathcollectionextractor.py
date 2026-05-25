@@ -1,5 +1,4 @@
 from pathlib import Path
-from typing import List
 
 import aiofiles
 import aiohttp
@@ -10,7 +9,7 @@ from .extractor import Extractor
 
 class MathExtractor(Extractor):
     __char_factory: CharacterFactory
-    __characters: List[Character]
+    __characters: list[Character]
 
     def __init__(self, character_factory: CharacterFactory):
         self.__char_factory = character_factory
@@ -34,7 +33,7 @@ class MathExtractor(Extractor):
 
                 self.__characters = [character for character in characters if character is not None]
 
-    def __resolve_character_range(self, line: str) -> List[int]:
+    def __resolve_character_range(self, line: str) -> list[int]:
         try:
             (start, end) = line.split("..")
             return list(range(int(start, 16), int(end, 16) + 1))

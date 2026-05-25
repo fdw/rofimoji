@@ -1,5 +1,4 @@
 from subprocess import run
-from typing import List
 
 from ..abstractionhelper import is_installed
 from .typer import Typer
@@ -20,7 +19,7 @@ class YdotoolTyper(Typer):
     def type_characters(self, characters: str, active_window: str) -> None:
         pass
 
-    def type_numerical(self, codepoints: List[int], active_window: str) -> None:
+    def type_numerical(self, codepoints: list[int], active_window: str) -> None:
         keypresses = []
         for codepoint in codepoints:
             keypresses.append = [

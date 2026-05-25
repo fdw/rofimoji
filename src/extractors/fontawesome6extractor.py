@@ -1,5 +1,4 @@
 from pathlib import Path
-from typing import List
 
 import aiofiles
 import aiohttp
@@ -9,7 +8,7 @@ from .extractor import Extractor
 
 
 class FontAwesome6Extractor(Extractor):
-    __icons: List[Character]
+    __icons: list[Character]
 
     def __init__(self):
         self.__icons = []

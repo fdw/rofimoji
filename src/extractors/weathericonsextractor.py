@@ -1,5 +1,4 @@
 from pathlib import Path
-from typing import List
 
 import aiofiles
 import aiohttp
@@ -10,7 +9,7 @@ from .extractor import Extractor
 
 
 class WeatherIconsExtractor(Extractor):
-    __icons: List[Character]
+    __icons: list[Character]
 
     def __init__(self):
         self.__icons = []

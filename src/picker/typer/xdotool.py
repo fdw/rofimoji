@@ -1,5 +1,4 @@
 from subprocess import run
-from typing import List
 
 from ..abstractionhelper import is_installed, is_wayland
 from .typer import Typer
@@ -37,7 +36,7 @@ class XDoToolTyper(Typer):
             ]
         )
 
-    def type_numerical(self, codepoints: List[int], active_window: str) -> None:
+    def type_numerical(self, codepoints: list[int], active_window: str) -> None:
         codepoint_list = " ".join([f"U{codepoint:x}" for codepoint in codepoints])
 
         run(

@@ -1,4 +1,3 @@
-import typing
 from pathlib import Path
 
 import aiofiles
@@ -10,7 +9,7 @@ from .extractor import Extractor
 
 
 class BlockExtractor(Extractor):
-    __blocks: typing.List[Block]
+    __blocks: list[Block]
     __block_factory: BlockFactory
 
     def __init__(self, character_factory: CharacterFactory):

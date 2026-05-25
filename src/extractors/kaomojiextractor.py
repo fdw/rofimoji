@@ -1,7 +1,6 @@
 import html
 from dataclasses import dataclass
 from pathlib import Path
-from typing import List
 
 import aiofiles
 import aiohttp
@@ -9,14 +8,14 @@ import aiohttp
 from .extractor import Extractor
 
 
-@dataclass
+@dataclass(slots=True)
 class Kaomoji:
     string: str
     description: str
 
 
 class KaomojiExtractor(Extractor):
-    __kaomojis: List[Kaomoji]
+    __kaomojis: list[Kaomoji]
 
     def __init__(self):
         self.__kaomojis = []

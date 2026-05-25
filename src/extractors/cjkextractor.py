@@ -3,7 +3,6 @@ import io
 import re
 import zipfile
 from pathlib import Path
-from typing import Dict, List
 
 import aiofiles
 import aiohttp
@@ -13,7 +12,7 @@ from .extractor import Extractor
 
 
 class CjkExtractor(Extractor):
-    __characters: Dict[str, List[Character]]
+    __characters: dict[str, list[Character]]
 
     def __init__(self):
         self.__characters = {}
@@ -34,7 +33,7 @@ class CjkExtractor(Extractor):
 
         async with aiohttp.ClientSession() as session:
             async with session.get("https://unicode.org/Public/UNIDATA/Unihan.zip") as response:
-                characters: Dict[str, List[Character]] = {}
+                characters: dict[str, list[Character]] = {}
                 with zipfile.ZipFile(io.BytesIO(await response.read())) as zip:
                     with io.TextIOWrapper(zip.open("Unihan_Readings.txt"), encoding="utf-8") as file:
                         for line in file.read().split("\n"):
@@ -50,7 +49,7 @@ class CjkExtractor(Extractor):
 
                 self.__characters = characters
 
-    async def __write_to_file(self, target: Path, language: str, characters: List[Character]) -> None:
+    async def __write_to_file(self, target: Path, language: str, characters: list[Character]) -> None:
         filename = f"cjk_{re.sub(r'(?!^)(?=[A-Z])', '_', language).lower()}.csv"
         async with aiofiles.open(target / filename, mode="w") as character_file:
             for character in characters:

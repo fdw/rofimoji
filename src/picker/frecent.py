@@ -1,14 +1,13 @@
 import math
-from typing import Dict, List
 
 from .paths import frecency_file_location
 
 
-def load_frecent_characters() -> List[str]:
+def load_frecent_characters() -> list[str]:
     return list(__load_frecent_characters().keys())
 
 
-def __load_frecent_characters() -> Dict[str, float]:
+def __load_frecent_characters() -> dict[str, float]:
     frecencies = {}
     try:
         with frecency_file_location.open("r") as file:

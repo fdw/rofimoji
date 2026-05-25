@@ -1,14 +1,13 @@
 import os
 from glob import glob
 from pathlib import Path
-from typing import Dict, List
 
 from .models import CharacterEntry
 from .paths import custom_additional_files_location
 
 
-def read_characters_from_files(files: List[str], frecent: List[str], use_additional: bool) -> List[CharacterEntry]:
-    all_characters: Dict[str, CharacterEntry] = {}
+def read_characters_from_files(files: list[str], frecent: list[str], use_additional: bool) -> list[CharacterEntry]:
+    all_characters: dict[str, CharacterEntry] = {}
 
     for character in frecent:
         all_characters[character] = CharacterEntry(character)
@@ -24,7 +23,7 @@ def read_characters_from_files(files: List[str], frecent: List[str], use_additio
     return [character for character in all_characters.values() if character.description]
 
 
-def __resolve_all_filenames(file_names: List[str], use_additional: bool) -> List[Path]:
+def __resolve_all_filenames(file_names: list[str], use_additional: bool) -> list[Path]:
     resolved_file_names = []
     for file_name in file_names:
         resolved_file_names += __resolve_filename(file_name, use_additional)
@@ -32,7 +31,7 @@ def __resolve_all_filenames(file_names: List[str], use_additional: bool) -> List
     return resolved_file_names
 
 
-def __resolve_filename(file_name: str, use_additional: bool) -> List[Path]:
+def __resolve_filename(file_name: str, use_additional: bool) -> list[Path]:
     resolved_file_names = []
 
     for absolute_file in glob(os.path.expanduser(file_name)):
@@ -65,7 +64,7 @@ def __resolve_filename(file_name: str, use_additional: bool) -> List[Path]:
     raise FileNotFoundError(f"Couldn't find file {file_name!r}")
 
 
-def __load_additional_files(original_file: Path, use_additional: bool) -> List[Path]:
+def __load_additional_files(original_file: Path, use_additional: bool) -> list[Path]:
     additional_files = []
     custom_additional_file = custom_additional_files_location / f"{original_file.stem}.additional.csv"
     if custom_additional_file.is_file():
@@ -77,7 +76,7 @@ def __load_additional_files(original_file: Path, use_additional: bool) -> List[P
     return additional_files
 
 
-def __load_from_file(file: Path) -> List[CharacterEntry]:
+def __load_from_file(file: Path) -> list[CharacterEntry]:
     lines = file.read_text().strip("\n").split("\n")
 
     all_character_entries = []

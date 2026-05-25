@@ -1,12 +1,11 @@
 from abc import ABC, abstractmethod
-from typing import Optional
 
 from ..typer.typer import Typer
 
 
 class Clipboarder(ABC):
     @staticmethod
-    def best_option(name: Optional[str] = None) -> "Clipboarder":
+    def best_option(name: str | None = None) -> "Clipboarder":
         from .noop import NoopClipboarder
         from .pbcopy import PBCopyClipboarder
         from .wl import WlClipboarder

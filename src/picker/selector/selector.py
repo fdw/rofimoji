@@ -1,13 +1,12 @@
 import re
 from abc import ABC, abstractmethod
-from typing import Dict, List, Optional, Tuple, Union
 
 from ..models import CANCEL, DEFAULT, Action, CharacterEntry, Shortcut
 
 
 class Selector(ABC):
     @staticmethod
-    def best_option(name: Optional[str] = None) -> "Selector":
+    def best_option(name: str | None = None) -> "Selector":
         from .bemenu import Bemenu
         from .choose import Choose
         from .dmenu import DMenu
@@ -44,27 +43,27 @@ class Selector(ABC):
     @abstractmethod
     def show_character_selection(
         self,
-        characters: List[CharacterEntry],
-        recent_characters: List[str],
+        characters: list[CharacterEntry],
+        recent_characters: list[str],
         prompt: str,
         show_description: bool,
         use_icons: bool,
-        keybindings: Dict[Action, str],
-        additional_args: List[str],
-    ) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[List[str], Shortcut]]:
+        keybindings: dict[Action, str],
+        additional_args: list[str],
+    ) -> tuple[Action | DEFAULT | CANCEL, list[str] | Shortcut]:
         pass
 
     @abstractmethod
     def show_skin_tone_selection(
-        self, tones_emojis: List[str], prompt: str, additional_args: List[str]
-    ) -> Tuple[int, str]:
+        self, tones_emojis: list[str], prompt: str, additional_args: list[str]
+    ) -> tuple[int, str]:
         pass
 
     @abstractmethod
-    def show_action_menu(self, additional_args: List[str]) -> List[Action]:
+    def show_action_menu(self, additional_args: list[str]) -> list[Action]:
         pass
 
-    def basic_format_characters(self, characters: List[CharacterEntry], strip_tags: bool = True) -> List[str]:
+    def basic_format_characters(self, characters: list[CharacterEntry], strip_tags: bool = True) -> list[str]:
         return [
             f"{entry.character} {entry.description.replace('<small>', '').replace('</small>', '') if strip_tags else entry.description}"
             for entry in characters

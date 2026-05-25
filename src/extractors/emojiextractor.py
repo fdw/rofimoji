@@ -1,7 +1,6 @@
 import asyncio
 import html
 from pathlib import Path
-from typing import Dict, List
 
 import aiofiles
 import aiohttp
@@ -16,9 +15,9 @@ from .extractor import Extractor
 
 
 class EmojiExtractor(Extractor):
-    __all_blocks: List[Block]
-    __annotations: Dict[str, List[str]]
-    __base_emojis: List[str]
+    __all_blocks: list[Block]
+    __annotations: dict[str, list[str]]
+    __base_emojis: list[str]
 
     def __init__(self):
         self.__annotations = {}
@@ -45,7 +44,7 @@ class EmojiExtractor(Extractor):
             html_content = BeautifulSoup(await data.text(), "lxml")
 
             current_title = None
-            current_emojis: List[Character] = []
+            current_emojis: list[Character] = []
             for row in html_content.find("table").find_all("tr"):
                 if row.th and "bighead" in row.th["class"]:
                     if current_title:
@@ -75,7 +74,7 @@ class EmojiExtractor(Extractor):
                 self.__annotations[element.get("cp")] = element.text.split(" | ")
 
     async def __fetch_additional_data(self, session: ClientSession) -> None:
-        def __extract_ep_emojis(emoji_data: List[str]) -> None:
+        def __extract_ep_emojis(emoji_data: list[str]) -> None:
             started = False
             emojis = []
             for line in emoji_data:
@@ -90,7 +89,7 @@ class EmojiExtractor(Extractor):
 
             self.__ep_emojis = emojis
 
-        def __extract_base_emojis(emoji_data: List[str]) -> None:
+        def __extract_base_emojis(emoji_data: list[str]) -> None:
             started = False
             emojis = []
             for line in emoji_data:
@@ -110,7 +109,7 @@ class EmojiExtractor(Extractor):
             __extract_ep_emojis(emoji_data)
             __extract_base_emojis(emoji_data)
 
-    def __resolve_character_range(self, line: str) -> List[str]:
+    def __resolve_character_range(self, line: str) -> list[str]:
         try:
             (start, end) = line.split("..")
             return [chr(char) for char in range(int(start, 16), int(end, 16) + 1)]
@@ -128,7 +127,7 @@ class EmojiExtractor(Extractor):
                 for entry in self.__compile_entries(block):
                     await character_file.write(entry + "\n")
 
-    def __compile_entries(self, block: Block) -> List[str]:
+    def __compile_entries(self, block: Block) -> list[str]:
         annotated_emojis = []
         for emoji in block.characters:
             entry = f"{emoji.char} {html.escape(emoji.name)}"

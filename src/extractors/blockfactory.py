@@ -1,13 +1,12 @@
 from dataclasses import dataclass
-from typing import List
 
 from .characterfactory import Character, CharacterFactory
 
 
-@dataclass
+@dataclass(slots=True)
 class Block:
     name: str
-    characters: List[Character]
+    characters: list[Character]
 
 
 class BlockFactory:
@@ -23,7 +22,7 @@ class BlockFactory:
     def __build_block(self, name: str, start: int, end: int) -> Block:
         return Block(name.strip().title(), self.__fill_characters(start, end))
 
-    def __fill_characters(self, start: int, end: int) -> List[Character]:
+    def __fill_characters(self, start: int, end: int) -> list[Character]:
         return [
             char
             for char in (self.__char_factory.get_character(pos) for pos in range(start, end + 1))

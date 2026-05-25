@@ -1,3 +1,7 @@
+# [Next]
+## Changed
+- Stopped support for Python 3.9.
+
 # [6.7.0] - 2025-09-09
 ## Changed
 - Updated to Unicode 17!

@@ -1,5 +1,4 @@
 import html
-from typing import Dict, List, Optional, Union
 from unicodedata import bidirectional
 
 import aiohttp
@@ -11,14 +10,14 @@ class Character:
     char: str
     name: str
     force_ltr: bool
-    descriptions: List[str]
+    descriptions: list[str]
 
     def __init__(
         self,
-        char: Union[int, str],
+        char: int | str,
         name: str,
-        bidi_class: Optional[str] = None,
-        descriptions: Optional[List[str]] = None,
+        bidi_class: str | None = None,
+        descriptions: list[str] | None = None,
     ):
         self.char = chr(char) if isinstance(char, int) else char
         self.name = name.strip()
@@ -46,13 +45,13 @@ class Character:
         if description not in self.descriptions and description != self.name and description != self.char:
             self.descriptions.append(description)
 
-    def add_descriptions(self, descriptions: List[str]) -> None:
+    def add_descriptions(self, descriptions: list[str]) -> None:
         for description in descriptions:
             self.add_description(description)
 
 
 class CharacterFactory:
-    __characters: Dict[str, Character]
+    __characters: dict[str, Character]
 
     def __init__(self):
         self.__characters = {}
@@ -79,5 +78,5 @@ class CharacterFactory:
                         )
                         self.__characters[character.char] = character
 
-    def get_character(self, char: int) -> Optional[Character]:
+    def get_character(self, char: int) -> Character | None:
         return self.__characters.get(chr(char))

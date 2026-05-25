@@ -29,19 +29,15 @@ class DEFAULT:
         return isinstance(other, DEFAULT)
 
 
-@dataclass
+@dataclass(slots=True)
 class Shortcut:
     index: int
 
 
-@dataclass
+@dataclass(slots=True)
 class CharacterEntry:
     character: str
-    description: str | None
-
-    def __init__(self, character: str, description: str | None = None):
-        self.character = character
-        self.description = description
+    description: str | None = None
 
     def merge(self, other: "CharacterEntry"):
         if self == other:

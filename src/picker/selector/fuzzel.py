@@ -1,5 +1,4 @@
 from subprocess import run
-from typing import Dict, List, Tuple, Union
 
 from ..abstractionhelper import is_installed, is_wayland
 from ..models import CANCEL, DEFAULT, Action, CharacterEntry, Shortcut
@@ -17,14 +16,14 @@ class Fuzzel(Selector):
 
     def show_character_selection(
         self,
-        characters: List[CharacterEntry],
-        recent_characters: List[str],
+        characters: list[CharacterEntry],
+        recent_characters: list[str],
         prompt: str,
         show_description: bool,
         use_icons: bool,
-        keybindings: Dict[Action, str],
-        additional_args: List[str],
-    ) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[List[str], Shortcut]]:
+        keybindings: dict[Action, str],
+        additional_args: list[str],
+    ) -> tuple[Action | DEFAULT | CANCEL, list[str] | Shortcut]:
         parameters = ["fuzzel", "--dmenu", "--fuzzy-min-length", "1", "--index", "-p", prompt, *additional_args]
 
         fuzzel = run(
@@ -33,8 +32,8 @@ class Fuzzel(Selector):
         return DEFAULT(), [characters[int(fuzzel.stdout.strip())].character]
 
     def show_skin_tone_selection(
-        self, tones_emojis: List[str], prompt: str, additional_args: List[str]
-    ) -> Tuple[int, str]:
+        self, tones_emojis: list[str], prompt: str, additional_args: list[str]
+    ) -> tuple[int, str]:
         fuzzel = run(
             ["fuzzel", "--dmenu", "--fuzzy-min-length", "1", "-p", prompt, *additional_args],
             input="\n".join(tones_emojis),
@@ -44,7 +43,7 @@ class Fuzzel(Selector):
 
         return fuzzel.returncode, fuzzel.stdout
 
-    def show_action_menu(self, additional_args: List[str]) -> List[Action]:
+    def show_action_menu(self, additional_args: list[str]) -> list[Action]:
         fuzzel = run(
             [
                 "fuzzel",

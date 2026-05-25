@@ -5,7 +5,6 @@ import sys
 from dataclasses import dataclass
 from enum import IntEnum, auto
 from pickle import dump, load
-from typing import List, Optional
 
 from . import emoji_data
 from .action import execute_action
@@ -28,15 +27,15 @@ class Step(IntEnum):
     DONE = auto()
 
 
-@dataclass
+@dataclass(slots=True)
 class State:
     step: Step
-    actions: List[Action]
+    actions: list[Action]
     processed_characters: str
-    unprocessed_characters: List[str]
+    unprocessed_characters: list[str]
     return_code: int
-    __current_input: Optional[str] = None
-    output: Optional[str] = None
+    __current_input: str | None = None
+    output: str | None = None
 
     def save_to_cache(self) -> None:
         with cache_file_location.open("wb+") as file:
@@ -138,16 +137,22 @@ class ModeRofimoji:
 
         state.step += 1
 
-    def __format_recent_characters(self, recent_characters: List[str]) -> str:
+    def __format_recent_characters(self, recent_characters: list[str]) -> str:
         pairings = [f"\u200e{(index + 1) % 10}: {character}" for index, character in enumerate(recent_characters)]
 
         return " | ".join(pairings)
 
-    def __format_characters(self, characters: List[CharacterEntry]) -> List[str]:
+    def __format_characters(self, characters: list[CharacterEntry]) -> list[str]:
         if self.args.use_icons and not self.args.show_description:
-            return [f" \0meta\x1f{entry.description}\x1ficon\x1f<span>{entry.character}</span>\x1finfo\x1f{entry.character}" for entry in characters]
+            return [
+                f" \0meta\x1f{entry.description}\x1ficon\x1f<span>{entry.character}</span>\x1finfo\x1f{entry.character}"
+                for entry in characters
+            ]
         elif self.args.use_icons and self.args.show_description:
-            return [f"{entry.description}\0icon\x1f<span>{entry.character}</span>\x1finfo\x1f{entry.character}" for entry in characters]
+            return [
+                f"{entry.description}\0icon\x1f<span>{entry.character}</span>\x1finfo\x1f{entry.character}"
+                for entry in characters
+            ]
         elif not self.args.use_icons and self.args.show_description:
             return [f"{entry.character} {entry.description}" for entry in characters]
         else:
@@ -171,21 +176,22 @@ class ModeRofimoji:
         else:
             return
 
-    def __choose_action_from_return_code(self, return_code: int) -> List[Action]:
-        if return_code == 20:
-            return [Action.COPY]
-        elif return_code == 21:
-            return [Action.TYPE]
-        elif return_code == 22:
-            return [Action.CLIPBOARD]
-        elif return_code == 23:
-            return [Action.TYPE_NUMERICAL]
-        elif return_code == 24:
-            return [Action.UNICODE]
-        elif return_code == 25:
-            return [Action.COPY_UNICODE]
-        else:
-            return []
+    def __choose_action_from_return_code(self, return_code: int) -> list[Action]:
+        match return_code:
+            case 20:
+                return [Action.COPY]
+            case 21:
+                return [Action.TYPE]
+            case 22:
+                return [Action.CLIPBOARD]
+            case 23:
+                return [Action.TYPE_NUMERICAL]
+            case 24:
+                return [Action.UNICODE]
+            case 25:
+                return [Action.COPY_UNICODE]
+            case _:
+                return []
 
     def __extract_char_from_input(self, line) -> str:
         return re.match(r"^(?:\u200e(?! ))?(?P<char>.[^ ]*)( .*|$)", line).group("char")
@@ -222,7 +228,7 @@ class ModeRofimoji:
 
         state.step += 1
 
-    def execute_actions(self, state: State) -> Optional[str]:
+    def execute_actions(self, state: State) -> str | None:
         save_recent_characters(state.processed_characters, self.args.max_recent, self.args.files)
         execute_action(state.processed_characters, state.actions, "")
         state.step += 1

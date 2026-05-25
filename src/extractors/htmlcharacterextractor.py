@@ -1,6 +1,5 @@
 from dataclasses import dataclass
 from pathlib import Path
-from typing import List
 
 import aiofiles
 import aiohttp
@@ -8,14 +7,14 @@ import aiohttp
 from .extractor import Extractor
 
 
-@dataclass
+@dataclass(slots=True)
 class HtmlCharacter:
     string: str
     name: str
 
 
 class HtmlCharacterExtractor(Extractor):
-    __characters: List[HtmlCharacter]
+    __characters: list[HtmlCharacter]
 
     def __init__(self):
         self.__characters = []

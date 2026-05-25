@@ -1,5 +1,4 @@
 from subprocess import run
-from typing import Dict, List, Tuple, Union
 
 from ..abstractionhelper import is_installed, is_wayland
 from ..models import CANCEL, DEFAULT, Action, CharacterEntry, Shortcut
@@ -17,14 +16,14 @@ class Hyprlauncher(Selector):
 
     def show_character_selection(
         self,
-        characters: List[CharacterEntry],
-        recent_characters: List[str],
+        characters: list[CharacterEntry],
+        recent_characters: list[str],
         prompt: str,
         show_description: bool,
         use_icons: bool,
-        keybindings: Dict[Action, str],
-        additional_args: List[str],
-    ) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[List[str], Shortcut]]:
+        keybindings: dict[Action, str],
+        additional_args: list[str],
+    ) -> tuple[Action | DEFAULT | CANCEL, list[str] | Shortcut]:
         parameters = ["hyprlauncher", "--dmenu", *additional_args]
 
         hyprlauncher = run(
@@ -33,8 +32,8 @@ class Hyprlauncher(Selector):
         return DEFAULT(), [self.extract_char_from_basic_output(line) for line in hyprlauncher.stdout.splitlines()]
 
     def show_skin_tone_selection(
-        self, tones_emojis: List[str], prompt: str, additional_args: List[str]
-    ) -> Tuple[int, str]:
+        self, tones_emojis: list[str], prompt: str, additional_args: list[str]
+    ) -> tuple[int, str]:
         hyprlauncher = run(
             ["hyprlauncher", "--dmenu", *additional_args],
             input="\n".join(tones_emojis),
@@ -44,7 +43,7 @@ class Hyprlauncher(Selector):
 
         return hyprlauncher.returncode, hyprlauncher.stdout
 
-    def show_action_menu(self, additional_args: List[str]) -> List[Action]:
+    def show_action_menu(self, additional_args: list[str]) -> list[Action]:
         hyprlauncher = run(
             [
                 "hyprlauncher",

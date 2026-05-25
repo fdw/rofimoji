@@ -1,5 +1,4 @@
 from subprocess import run
-from typing import Dict, List, Tuple, Union
 
 from ..abstractionhelper import is_installed
 from ..models import CANCEL, DEFAULT, Action, CharacterEntry, Shortcut
@@ -17,14 +16,14 @@ class Rofi(Selector):
 
     def show_character_selection(
         self,
-        characters: List[CharacterEntry],
-        recent_characters: List[str],
+        characters: list[CharacterEntry],
+        recent_characters: list[str],
         prompt: str,
         show_description: bool,
         use_icons: bool,
-        keybindings: Dict[Action, str],
-        additional_args: List[str],
-    ) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[List[str], Shortcut]]:
+        keybindings: dict[Action, str],
+        additional_args: list[str],
+    ) -> tuple[Action | DEFAULT | CANCEL, list[str] | Shortcut]:
         parameters = [
             "rofi",
             "-dmenu",
@@ -66,29 +65,30 @@ class Rofi(Selector):
         if 10 <= rofi.returncode <= 19:
             return DEFAULT(), Shortcut(rofi.returncode - 10)
 
-        action: Union[Action, DEFAULT, CANCEL]
-        if rofi.returncode == 1:
-            action = CANCEL()
-        elif rofi.returncode == 20:
-            action = Action.COPY
-        elif rofi.returncode == 21:
-            action = Action.TYPE
-        elif rofi.returncode == 22:
-            action = Action.CLIPBOARD
-        elif rofi.returncode == 23:
-            action = Action.UNICODE
-        elif rofi.returncode == 24:
-            action = Action.COPY_UNICODE
-        elif rofi.returncode == 25:
-            action = Action.TYPE_NUMERICAL
-        else:
-            action = DEFAULT()
+        action: Action | DEFAULT | CANCEL
+        match rofi.returncode:
+            case 1:
+                action = CANCEL()
+            case 20:
+                action = Action.COPY
+            case 21:
+                action = Action.TYPE
+            case 22:
+                action = Action.CLIPBOARD
+            case 23:
+                action = Action.UNICODE
+            case 24:
+                action = Action.COPY_UNICODE
+            case 25:
+                action = Action.TYPE_NUMERICAL
+            case _:
+                action = DEFAULT()
 
         return action, [characters[int(index)].character for index in rofi.stdout.splitlines()]
 
     def __format_characters(
-        self, characters: List[CharacterEntry], use_icons: bool, show_description: bool
-    ) -> List[str]:
+        self, characters: list[CharacterEntry], use_icons: bool, show_description: bool
+    ) -> list[str]:
         if use_icons and not show_description:
             return [f"\0meta\x1f{entry.description}\x1ficon\x1f<span>{entry.character}</span>" for entry in characters]
         elif use_icons and show_description:
@@ -98,14 +98,14 @@ class Rofi(Selector):
         else:
             return [f"{entry.character}\0meta\x1f{entry.description}" for entry in characters]
 
-    def __format_recent_characters(self, recent_characters: List[str]) -> str:
+    def __format_recent_characters(self, recent_characters: list[str]) -> str:
         pairings = [f"\u200e{(index + 1) % 10}: {character}" for index, character in enumerate(recent_characters)]
 
         return " | ".join(pairings)
 
     def show_skin_tone_selection(
-        self, tones_emojis: List[str], prompt: str, additional_args: List[str]
-    ) -> Tuple[int, str]:
+        self, tones_emojis: list[str], prompt: str, additional_args: list[str]
+    ) -> tuple[int, str]:
         rofi = run(
             ["rofi", "-dmenu", "-i", "-no-custom", "-p", prompt, *additional_args],
             input="\n".join(tones_emojis),
@@ -115,7 +115,7 @@ class Rofi(Selector):
 
         return rofi.returncode, rofi.stdout
 
-    def show_action_menu(self, additional_args: List[str]) -> List[Action]:
+    def show_action_menu(self, additional_args: list[str]) -> list[Action]:
         rofi = run(
             [
                 "rofi",

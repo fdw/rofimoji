@@ -1,5 +1,4 @@
 import sys
-from typing import List, Tuple, Union
 
 from . import emoji_data
 from .action import execute_action
@@ -40,7 +39,7 @@ class StandaloneRofimoji:
         save_recent_characters(characters, self.args.max_recent, self.args.files)
         execute_action(characters, self.args.actions, self.active_window, self.args.typer, self.args.clipboarder)
 
-    def __open_main_selector_window(self) -> Tuple[Union[Action, DEFAULT, CANCEL], Union[List[str], Shortcut]]:
+    def __open_main_selector_window(self) -> tuple[Action | DEFAULT | CANCEL, list[str] | Shortcut]:
         return self.selector.show_character_selection(
             read_characters_from_files(
                 self.args.files, load_frecent_characters() if self.args.frecency else [], self.args.use_additional
@@ -53,7 +52,7 @@ class StandaloneRofimoji:
             self.args.selector_args,
         )
 
-    def __process_chosen_characters(self, characters: List[str]) -> str:
+    def __process_chosen_characters(self, characters: list[str]) -> str:
         characters_with_skin_tones = []
         for character in characters:
             save_frecent_characters(character)

@@ -1,6 +1,14 @@
 # [Next]
 ## Changed
 - Stopped support for Python 3.9.
+- `rofimoji` returns `1` when the user cancelled. (#232)
+
+## Fixed
+- rofi mode uses the character with `--use-icons`. (#238)
+
+# Added
+- Added support for Hyprlauncher.
+- Added support for `wl-ime-type`
 
 # [6.7.0] - 2025-09-09
 ## Changed

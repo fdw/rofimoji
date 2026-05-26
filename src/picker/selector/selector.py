@@ -1,6 +1,7 @@
 import re
 from abc import ABC, abstractmethod
 
+from .. import emoji_data
 from ..models import CANCEL, DEFAULT, Action, CharacterEntry, Shortcut
 
 
@@ -55,7 +56,12 @@ class Selector(ABC):
 
     @abstractmethod
     def show_skin_tone_selection(
-        self, tones_emojis: list[str], prompt: str, additional_args: list[str]
+        self,
+        selected_emoji: str,
+        prompt: str,
+        show_description: bool,
+        use_icons: bool,
+        additional_args: list[str],
     ) -> tuple[int, str]:
         pass
 
@@ -63,17 +69,21 @@ class Selector(ABC):
     def show_action_menu(self, additional_args: list[str]) -> list[Action]:
         pass
 
+    @staticmethod
+    def _basic_format_skin_tones(selected_emoji: str) -> list[str]:
+        return [
+            f"{selected_emoji}{modifier} {emoji_data.fitzpatrick_modifiers[modifier]}"
+            for modifier in emoji_data.fitzpatrick_modifiers
+        ]
+
     def basic_format_characters(self, characters: list[CharacterEntry], strip_tags: bool = True) -> list[str]:
         return [
             f"{entry.character} {entry.description.replace('<small>', '').replace('</small>', '') if strip_tags else entry.description}"
             for entry in characters
         ]
 
-    def extract_char_from_basic_output(self, line: str) -> str:
+    def _extract_char_from_output(self, line: str) -> str:
         return re.match(r"^(?:\u200e(?! ))?(?P<char>.[^ ]*)( .*|$)", line).group("char")
-
-    def extract_char_from_input(self, character_definition: str) -> str:
-        return re.match(r"^(?:\u200e(?! ))?(?P<char>.[^ ]*)", character_definition).group("char")
 
 
 class NoSelectorFoundException(Exception):

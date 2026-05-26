@@ -1,6 +1,7 @@
 from subprocess import run
 
 from ..abstractionhelper import is_installed
+from ..emoji_data import fitzpatrick_modifiers
 from ..models import CANCEL, DEFAULT, Action, CharacterEntry, Shortcut
 from .selector import Selector
 
@@ -104,16 +105,50 @@ class Rofi(Selector):
         return " | ".join(pairings)
 
     def show_skin_tone_selection(
-        self, tones_emojis: list[str], prompt: str, additional_args: list[str]
+        self,
+        selected_emoji: str,
+        prompt: str,
+        show_description: bool,
+        use_icons: bool,
+        additional_args: list[str],
     ) -> tuple[int, str]:
+        formatted = self.__format_skin_tones(
+            selected_emoji,
+            show_description,
+            use_icons,
+        )
         rofi = run(
-            ["rofi", "-dmenu", "-i", "-no-custom", "-p", prompt, *additional_args],
-            input="\n".join(tones_emojis),
+            ["rofi", "-dmenu", "-markup-rows", "-i", "-no-custom", "-format", "i", "-p", prompt, *additional_args],
+            input="\n".join(formatted),
             capture_output=True,
             encoding="utf-8",
         )
 
-        return rofi.returncode, rofi.stdout
+        if rofi.returncode == 1:
+            return rofi.returncode, ""
+
+        return rofi.returncode, (selected_emoji + list(fitzpatrick_modifiers.keys())[int(rofi.stdout.strip())])
+
+    def __format_skin_tones(self, selected_emoji: str, show_description: bool, use_icons: bool) -> list[str]:
+        if use_icons and not show_description:
+            return [
+                f"\0meta\x1f{description}\x1ficon\x1f<span>{selected_emoji}{modifier}</span>"
+                for (modifier, description) in fitzpatrick_modifiers.items()
+            ]
+        elif use_icons and show_description:
+            return [
+                f"{description}\0icon\x1f<span>{selected_emoji}{modifier}</span>"
+                for (modifier, description) in fitzpatrick_modifiers.items()
+            ]
+        elif not use_icons and show_description:
+            return [
+                f"{selected_emoji}{modifier} {description}" for (modifier, description) in fitzpatrick_modifiers.items()
+            ]
+        else:
+            return [
+                f"{selected_emoji}{modifier}\0meta\x1f{description}"
+                for (modifier, description) in fitzpatrick_modifiers.items()
+            ]
 
     def show_action_menu(self, additional_args: list[str]) -> list[Action]:
         rofi = run(

@@ -36,19 +36,24 @@ class Tofi(Selector):
             parameters, input="\n".join(self.basic_format_characters(characters)), capture_output=True, encoding="utf-8"
         )
 
-        return DEFAULT(), [self.extract_char_from_basic_output(line) for line in tofi.stdout.splitlines()]
+        return DEFAULT(), [self._extract_char_from_output(line) for line in tofi.stdout.splitlines()]
 
     def show_skin_tone_selection(
-        self, tones_emojis: list[str], prompt: str, additional_args: list[str]
+        self,
+        selected_emoji: str,
+        prompt: str,
+        show_description: bool,
+        use_icons: bool,
+        additional_args: list[str],
     ) -> tuple[int, str]:
         tofi = run(
             ["tofi", "--require-match=true", f"--prompt-text={prompt}", *additional_args],
-            input="\n".join(tones_emojis),
+            input="\n".join(self._basic_format_skin_tones(selected_emoji)),
             capture_output=True,
             encoding="utf-8",
         )
 
-        return tofi.returncode, tofi.stdout
+        return tofi.returncode, self._extract_char_from_output(tofi.stdout)
 
     def show_action_menu(self, additional_args: list[str]) -> list[Action]:
         tofi = run(

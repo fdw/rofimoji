@@ -32,16 +32,21 @@ class Fuzzel(Selector):
         return DEFAULT(), [characters[int(fuzzel.stdout.strip())].character]
 
     def show_skin_tone_selection(
-        self, tones_emojis: list[str], prompt: str, additional_args: list[str]
+        self,
+        selected_emoji: str,
+        prompt: str,
+        show_description: bool,
+        use_icons: bool,
+        additional_args: list[str],
     ) -> tuple[int, str]:
         fuzzel = run(
             ["fuzzel", "--dmenu", "--fuzzy-min-length", "1", "-p", prompt, *additional_args],
-            input="\n".join(tones_emojis),
+            input="\n".join(self._basic_format_skin_tones(selected_emoji)),
             capture_output=True,
             encoding="utf-8",
         )
 
-        return fuzzel.returncode, fuzzel.stdout
+        return fuzzel.returncode, self._extract_char_from_output(fuzzel.stdout)
 
     def show_action_menu(self, additional_args: list[str]) -> list[Action]:
         fuzzel = run(

@@ -10,6 +10,7 @@ from . import emoji_data
 from .action import execute_action
 from .argument_parsing import parse_arguments_flexible
 from .clipboarder.clipboarder import Clipboarder
+from .emoji_data import fitzpatrick_modifiers, fitzpatrick_modifiers_reversed, skin_tone_selectable_emojis
 from .file_loader import read_characters_from_files
 from .frecent import load_frecent_characters, save_frecent_characters
 from .models import Action, CharacterEntry
@@ -212,16 +213,32 @@ class ModeRofimoji:
             save_frecent_characters(character)
 
             if character in emoji_data.skin_tone_selectable_emojis and self.args.skin_tone == "ask":
-                state.output = "\n".join(
-                    character + modifier + " " + emoji_data.fitzpatrick_modifiers[modifier]
-                    for modifier in emoji_data.fitzpatrick_modifiers
-                )
+                if self.args.use_icons and not self.args.show_description:
+                    state.output = "\n".join(
+                        f" \0meta\x1f{description}\x1ficon\x1f<span>{character}{modifier}</span>\x1finfo\x1f{character}{modifier}"
+                        for (modifier, description) in fitzpatrick_modifiers.items()
+                    )
+                elif self.args.use_icons and self.args.show_description:
+                    state.output = "\n".join(
+                        f"{description}\0icon\x1f<span>{character}{modifier}</span>\x1finfo\x1f{character}{modifier}"
+                        for (modifier, description) in fitzpatrick_modifiers.items()
+                    )
+                elif not self.args.use_icons and self.args.show_description:
+                    state.output = "\n".join(
+                        f"{character}{modifier} {description}"
+                        for (modifier, description) in fitzpatrick_modifiers.items()
+                    )
+                else:
+                    state.output = "\n".join(
+                        f"{character}{modifier}\0meta\x1f{description}"
+                        for (modifier, description) in fitzpatrick_modifiers.items()
+                    )
                 return
 
-            if character not in emoji_data.skin_tone_selectable_emojis or self.args.skin_tone == "neutral":
+            if character not in skin_tone_selectable_emojis or self.args.skin_tone == "neutral":
                 state.processed_characters += character
             else:
-                state.processed_characters += character + emoji_data.fitzpatrick_modifiers_reversed[self.args.skin_tone]
+                state.processed_characters += character + fitzpatrick_modifiers_reversed[self.args.skin_tone]
             state.unprocessed_characters.pop(0)
 
         state.step += 1

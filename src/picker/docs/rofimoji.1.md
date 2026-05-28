@@ -76,7 +76,7 @@ Select, insert, or copy Unicode characters like emoji using rofi.
 
 \--selector _SELECTOR_
 
-: Possible values: rofi, wofi, fuzzel, bemenu, tofi, dmenu, wmenu, choose
+: Possible values: rofi, wofi, fuzzel, bemenu, tofi, dmenu, wmenu, choose, hyprlauncher
 
       Choose the selector application manually. Usually `rofi`, but you may want something else.
 

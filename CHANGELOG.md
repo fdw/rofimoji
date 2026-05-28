@@ -3,9 +3,11 @@
 - Stopped support for Python 3.9.
 - The cache file for `rofi`'s mode uses JSON.
 - `rofimoji` returns `1` when the user cancelled. (#232)
+- For skin tone selection, `rofi`'s icons are used. (#240)
 
 ## Fixed
-- rofi mode uses the character with `--use-icons`. (#238)
+- `rofi` mode uses the character with `--use-icons`. (#238)
+- `rofi` mode supports skin tone configuration. (#239)
 
 ## Added
 - Added support for Hyprlauncher.

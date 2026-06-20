@@ -1,4 +1,4 @@
-# [Next]
+# [6.8.0] - 2026-06-20
 ## Changed
 - Stopped support for Python 3.9.
 - The cache file for `rofi`'s mode uses JSON.

@@ -16,6 +16,7 @@ class WlClipboarder(Clipboarder):
 
     def copy_characters_to_clipboard(self, characters: str) -> None:
         run(["wl-copy"], input=characters, encoding="utf-8")
+        run(["wl-copy", "--primary"], input=characters, encoding="utf-8")
 
     def copy_paste_characters(self, characters: str, active_window: str, typer: Typer) -> None:
         old_clipboard_content = run(args=["wl-paste", "--type", "text"], capture_output=True, encoding="utf-8")

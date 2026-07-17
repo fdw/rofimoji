@@ -25,8 +25,8 @@ class YdotoolTyper(Typer):
             keypresses.append = [
                 (self.__get_event_code("LeftCtrl") + ":1"),
                 (self.__get_event_code("LeftShift") + ":1"),
-                (self.__get_event_code("U") + ":1"),
-                (self.__get_event_code("U") + ":0"),
+                (self.__get_event_code("u") + ":1"),
+                (self.__get_event_code("u") + ":0"),
                 (self.__get_event_code("LeftShift") + ":0"),
                 (self.__get_event_code("LeftCtrl") + ":0"),
                 (self.__get_event_code(f"{codepoint:x}") + ":1"),

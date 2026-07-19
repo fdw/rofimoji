@@ -34,10 +34,10 @@ class EmojiExtractor(Extractor):
     async def __fetch_data(self) -> None:
         async with aiohttp.ClientSession(timeout=ClientTimeout(sock_read=120)) as session:
             await asyncio.gather(
-                self.__fetch_emoji_list(session),
                 self.__fetch_annotations(session),
                 self.__fetch_additional_data(session),
             )
+            await self.__fetch_emoji_list(session)
 
     async def __fetch_emoji_list(self, session: ClientSession) -> None:
         async with session.get("https://unicode.org/emoji/charts-17.0/full-emoji-list.html") as data:

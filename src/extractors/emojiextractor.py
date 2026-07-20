@@ -32,48 +32,35 @@ class EmojiExtractor(Extractor):
         print("Finished Emoji")
 
     async def __fetch_data(self) -> None:
+        async def fetch_emoji_data(session: ClientSession) -> str:
+            response = await session.get("https://unicode.org/emoji/charts-17.0/full-emoji-list.html")
+            return await response.text()
+
+        async def fetch_annotation_data(session: ClientSession) -> bytes:
+            response = await session.get(
+                "https://raw.githubusercontent.com/unicode-org/cldr/latest/common/annotations/en.xml"
+            )
+            return await response.read()
+
+        async def fetch_additional_data(session: ClientSession) -> str:
+            response = await session.get("https://unicode.org/Public/17.0.0/ucd/emoji/emoji-data.txt")
+            return await response.text()
+
         async with aiohttp.ClientSession(timeout=ClientTimeout(sock_read=120)) as session:
-            await asyncio.gather(
-                self.__fetch_emoji_list(session),
-                self.__fetch_annotations(session),
-                self.__fetch_additional_data(session),
+            emoji_response, annotations_response, additional_data_response = await asyncio.gather(
+                fetch_emoji_data(session), fetch_annotation_data(session), fetch_additional_data(session)
             )
 
-    async def __fetch_emoji_list(self, session: ClientSession) -> None:
-        async with session.get("https://unicode.org/emoji/charts-17.0/full-emoji-list.html") as data:
-            html_content = BeautifulSoup(await data.text(), "lxml")
+            self.__parse_annotations(annotations_response)
+            self.__parse_additional_data(additional_data_response)
+            self.__parse_emoji_list(emoji_response)
 
-            current_title = None
-            current_emojis: list[Character] = []
-            for row in html_content.find("table").find_all("tr"):
-                if row.th and "bighead" in row.th["class"]:
-                    if current_title:
-                        self.__all_blocks.append(Block(current_title, current_emojis))
-                    current_title = row.a.string
-                    current_emojis = []
-                elif not row.th:
-                    emoji = row.find("td", {"class": "chars"}).string
-                    description = row.find("td", {"class": "name"}).string.replace("⊛ ", "")
-                    current_emojis.append(
-                        Character(
-                            emoji if emoji in self.__ep_emojis or len(emoji) > 1 else f"{emoji}️",
-                            description,
-                            "L",
-                            self.__annotations.get(emoji, None),
-                        )
-                    )
+    def __parse_annotations(self, data: bytes) -> None:
+        xpath = XPath('./annotations/annotation[not(@type="tts")]')
+        for element in xpath(etree.fromstring(data)):
+            self.__annotations[element.get("cp")] = element.text.split(" | ")
 
-            self.__all_blocks.append(Block(current_title, current_emojis))
-
-    async def __fetch_annotations(self, session: ClientSession) -> None:
-        async with session.get(
-            "https://raw.githubusercontent.com/unicode-org/cldr/latest/common/annotations/en.xml"
-        ) as data:
-            xpath = XPath('./annotations/annotation[not(@type="tts")]')
-            for element in xpath(etree.fromstring(await data.read())):
-                self.__annotations[element.get("cp")] = element.text.split(" | ")
-
-    async def __fetch_additional_data(self, session: ClientSession) -> None:
+    def __parse_additional_data(self, data: str) -> None:
         def __extract_ep_emojis(emoji_data: list[str]) -> None:
             started = False
             emojis = []
@@ -104,10 +91,34 @@ class EmojiExtractor(Extractor):
 
             self.__base_emojis = emojis
 
-        async with session.get("https://unicode.org/Public/17.0.0/ucd/emoji/emoji-data.txt") as data:
-            emoji_data = (await data.text()).split("\n")
-            __extract_ep_emojis(emoji_data)
-            __extract_base_emojis(emoji_data)
+        emoji_data = data.split("\n")
+        __extract_ep_emojis(emoji_data)
+        __extract_base_emojis(emoji_data)
+
+    def __parse_emoji_list(self, data: str) -> None:
+        html_content = BeautifulSoup(data, "lxml")
+
+        current_title = None
+        current_emojis: list[Character] = []
+        for row in html_content.find("table").find_all("tr"):
+            if row.th and "bighead" in row.th["class"]:
+                if current_title:
+                    self.__all_blocks.append(Block(current_title, current_emojis))
+                current_title = row.a.string
+                current_emojis = []
+            elif not row.th:
+                emoji = row.find("td", {"class": "chars"}).string
+                description = row.find("td", {"class": "name"}).string.replace("⊛ ", "")
+                current_emojis.append(
+                    Character(
+                        emoji if emoji in self.__ep_emojis or len(emoji) > 1 else f"{emoji}️",
+                        description,
+                        "L",
+                        self.__annotations.get(emoji, None),
+                    )
+                )
+
+        self.__all_blocks.append(Block(current_title, current_emojis))
 
     def __resolve_character_range(self, line: str) -> list[str]:
         try:

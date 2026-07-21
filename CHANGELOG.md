@@ -1,3 +1,7 @@
+# [UNRELEASED]
+## Fixed
+- `ydotool` is called correctly. (#242)
+
 # [6.8.0] - 2026-06-20
 ## Changed
 - Stopped support for Python 3.9.

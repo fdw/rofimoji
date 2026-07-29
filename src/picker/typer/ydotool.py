@@ -68,7 +68,7 @@ class YdotoolTyper(Typer):
 
             keypresses.extend([f"{_SPACE_KEY_CODE}:{_PRESS}", f"{_SPACE_KEY_CODE}:{_RELEASE}"])
 
-        run(["ydotool", "key", *keypresses])
+        run(["ydotool", "key", "--key-delay", "0", *keypresses])
 
     def insert_from_clipboard(self, active_window: str) -> None:
         run(

@@ -17,7 +17,7 @@ class WMenu(Selector):
     def show_character_selection(
         self,
         characters: list[CharacterEntry],
-        recent_characters: list[str],
+        recent_characters: list[CharacterEntry],
         prompt: str,
         show_description: bool,
         use_icons: bool,

@@ -144,8 +144,10 @@ class ModeRofimoji:
 
         state.step += 1
 
-    def __format_recent_characters(self, recent_characters: list[str]) -> str:
-        pairings = [f"\u200e{(index + 1) % 10}: {character}" for index, character in enumerate(recent_characters)]
+    def __format_recent_characters(self, recent_characters: list[CharacterEntry]) -> str:
+        pairings = [
+            f"\u200e{(index + 1) % 10}: {character.character_html}" for index, character in enumerate(recent_characters)
+        ]
 
         return " | ".join(pairings)
 
@@ -169,7 +171,7 @@ class ModeRofimoji:
         if 10 <= state.return_code <= 19:
             state.processed_characters = load_recent_characters(self.args.max_recent, self.args.files)[
                 state.return_code - 10
-            ]
+            ].character
             state.reset_current_input()
             state.step += 2
             return

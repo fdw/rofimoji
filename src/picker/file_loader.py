@@ -1,4 +1,3 @@
-import html
 import os
 from glob import glob
 from pathlib import Path
@@ -7,11 +6,11 @@ from .models import CharacterEntry
 from .paths import custom_additional_files_location
 
 
-def read_characters_from_files(files: list[str], frecent: list[str], use_additional: bool) -> list[CharacterEntry]:
+def read_characters_from_files(files: list[str], frecent: list[CharacterEntry], use_additional: bool) -> list[CharacterEntry]:
     all_characters: dict[str, CharacterEntry] = {}
 
-    for character in frecent:
-        all_characters[character] = CharacterEntry(html.escape(character))
+    for entry in frecent:
+        all_characters[entry.character] = entry
 
     for file in __resolve_all_filenames(files, use_additional):
         characters_from_file = __load_from_file(file)

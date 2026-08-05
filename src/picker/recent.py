@@ -1,18 +1,26 @@
 import hashlib
+import html
 from pathlib import Path
 
+from .models import CharacterEntry
 from .paths import recents_file_location
 
 
-def load_recent_characters(max_recent: int, files: list[str]) -> list[str]:
+def load_recent_characters(max_recent: int, files: list[str]) -> list[CharacterEntry]:
     try:
-        return [char.strip("\n") for char in __filename_for(files).read_text().strip("\n").split("\n")][:max_recent]
+        return [
+            CharacterEntry(char.strip("\n"))
+            for char in __filename_for(files).read_text().strip("\n").split("\n")
+        ][:max_recent]
     except FileNotFoundError:
         return []
     except NotADirectoryError:
-        recents = [char.strip("\n") for char in recents_file_location.read_text().strip("\n").split("\n")][:max_recent]
+        recents = [
+            CharacterEntry(char.strip("\n"))
+            for char in recents_file_location.read_text().strip("\n").split("\n")
+        ][:max_recent]
         recents_file_location.unlink()
-        save_recent_characters("".join(recents), max_recent, files)
+        save_recent_characters("".join(recent.character for recent in recents), max_recent, files)
         return recents
 
 
@@ -24,15 +32,16 @@ def save_recent_characters(new_characters: str, max_recent: int, files: list[str
     old_file_name = __filename_for(files)
     new_file_name = old_file_name.with_suffix(".tmp")
 
+    escaped_new_characters = html.escape(new_characters)
     new_file_name.parent.mkdir(parents=True, exist_ok=True)
     with new_file_name.open("w+") as new_file:
-        new_file.write(new_characters + "\n")
+        new_file.write(escaped_new_characters + "\n")
 
         try:
             with old_file_name.open("r") as old_file:
                 index = 0
                 for line in old_file:
-                    if new_characters != line.strip("\n"):
+                    if escaped_new_characters != line.strip("\n"):
                         if index == max_recent - 1:
                             break
                         new_file.write(line)

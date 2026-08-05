@@ -29,7 +29,7 @@ class StandaloneRofimoji:
             self.args.actions = [action]
 
         if isinstance(value, Shortcut):
-            characters = load_recent_characters(self.args.max_recent, self.args.files)[value.index]
+            characters = load_recent_characters(self.args.max_recent, self.args.files)[value.index].character
         else:
             characters = self.__process_chosen_characters(value)
 

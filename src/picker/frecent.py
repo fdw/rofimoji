@@ -1,10 +1,12 @@
+import html
 import math
 
+from .models import CharacterEntry
 from .paths import frecency_file_location
 
 
-def load_frecent_characters() -> list[str]:
-    return list(__load_frecent_characters().keys())
+def load_frecent_characters() -> list[CharacterEntry]:
+    return [CharacterEntry(character) for character in __load_frecent_characters().keys()]
 
 
 def __load_frecent_characters() -> dict[str, float]:
@@ -25,6 +27,7 @@ def save_frecent_characters(chosen_character: str) -> None:
 
     new_file_name.parent.mkdir(parents=True, exist_ok=True)
 
+    chosen_character = html.escape(chosen_character)
     frecencies = __load_frecent_characters()
 
     frecencies[chosen_character] = frecencies.get(chosen_character, 0) + 1.1

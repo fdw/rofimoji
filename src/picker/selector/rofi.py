@@ -18,7 +18,7 @@ class Rofi(Selector):
     def show_character_selection(
         self,
         characters: list[CharacterEntry],
-        recent_characters: list[str],
+        recent_characters: list[CharacterEntry],
         prompt: str,
         show_description: bool,
         use_icons: bool,
@@ -101,8 +101,10 @@ class Rofi(Selector):
         else:
             return [f"{entry.character_html}\0meta\x1f{entry.description_html}" for entry in characters]
 
-    def __format_recent_characters(self, recent_characters: list[str]) -> str:
-        pairings = [f"\u200e{(index + 1) % 10}: {character}" for index, character in enumerate(recent_characters)]
+    def __format_recent_characters(self, recent_characters: list[CharacterEntry]) -> str:
+        pairings = [
+            f"\u200e{(index + 1) % 10}: {character.character_html}" for index, character in enumerate(recent_characters)
+        ]
 
         return " | ".join(pairings)
 

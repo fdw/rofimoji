@@ -1,3 +1,4 @@
+import html
 from dataclasses import dataclass
 from enum import Enum
 
@@ -37,7 +38,17 @@ class Shortcut:
 @dataclass(slots=True)
 class CharacterEntry:
     character: str
-    description: str | None = None
+    description_html: str | None = None
+
+    @property
+    def character_html(self) -> str:
+        return html.escape(self.character)
+
+    @property
+    def description(self) -> str | None:
+        if self.description_html is None:
+            return None
+        return html.unescape(self.description_html.replace("<small>", "").replace("</small>", ""))
 
     def merge(self, other: "CharacterEntry"):
         if self == other:
@@ -46,8 +57,8 @@ class CharacterEntry:
         if self.character != other.character:
             raise Exception("Cannot merge different characters")
 
-        if other.description:
-            if self.description:
-                self.description = f"{self.description}, {other.description}"
+        if other.description_html:
+            if self.description_html:
+                self.description_html = f"{self.description_html}, {other.description_html}"
             else:
-                self.description = other.description
+                self.description_html = other.description_html

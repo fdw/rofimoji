@@ -91,13 +91,15 @@ class Rofi(Selector):
         self, characters: list[CharacterEntry], use_icons: bool, show_description: bool
     ) -> list[str]:
         if use_icons and not show_description:
-            return [f"\0meta\x1f{entry.description}\x1ficon\x1f<span>{entry.character}</span>" for entry in characters]
+            return [
+                f"\0meta\x1f{entry.description_html}\x1ficon\x1f<span>{entry.character_html}</span>" for entry in characters
+            ]
         elif use_icons and show_description:
-            return [f"{entry.description}\0icon\x1f<span>{entry.character}</span>" for entry in characters]
+            return [f"{entry.description_html}\0icon\x1f<span>{entry.character_html}</span>" for entry in characters]
         elif not use_icons and show_description:
-            return self.basic_format_characters(characters, strip_tags=False)
+            return [f"{entry.character_html} {entry.description_html}" for entry in characters]
         else:
-            return [f"{entry.character}\0meta\x1f{entry.description}" for entry in characters]
+            return [f"{entry.character_html}\0meta\x1f{entry.description_html}" for entry in characters]
 
     def __format_recent_characters(self, recent_characters: list[str]) -> str:
         pairings = [f"\u200e{(index + 1) % 10}: {character}" for index, character in enumerate(recent_characters)]

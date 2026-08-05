@@ -76,11 +76,8 @@ class Selector(ABC):
             for modifier in emoji_data.fitzpatrick_modifiers
         ]
 
-    def basic_format_characters(self, characters: list[CharacterEntry], strip_tags: bool = True) -> list[str]:
-        return [
-            f"{entry.character} {entry.description.replace('<small>', '').replace('</small>', '') if strip_tags else entry.description}"
-            for entry in characters
-        ]
+    def basic_format_characters(self, characters: list[CharacterEntry]) -> list[str]:
+        return [f"{entry.character} {entry.description}" for entry in characters]
 
     def _extract_char_from_output(self, line: str) -> str:
         return re.match(r"^(?:\u200e(?! ))?(?P<char>.[^ ]*)( .*|$)", line).group("char")

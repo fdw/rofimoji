@@ -151,6 +151,7 @@ class Rofi(Selector):
             ]
 
     def show_action_menu(self, additional_args: list[str]) -> list[Action]:
+        actions = [it for it in Action if it != Action.MENU]
         rofi = run(
             [
                 "rofi",
@@ -160,11 +161,13 @@ class Rofi(Selector):
                 "-ballot-unselected-str",
                 "",
                 "-i",
+                "-format",
+                "i",
                 *additional_args,
             ],
-            input="\n".join([str(it) for it in Action if it != Action.MENU]),
+            input="\n".join(str(it) for it in actions),
             capture_output=True,
             encoding="utf-8",
         )
 
-        return [Action(action) for action in rofi.stdout.strip().split("\n")]
+        return [actions[int(index)] for index in rofi.stdout.splitlines()]

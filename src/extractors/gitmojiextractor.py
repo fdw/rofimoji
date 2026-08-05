@@ -41,4 +41,4 @@ class GitmojiExtractor(Extractor):
     async def __write_to_file(self, target: Path) -> None:
         async with aiofiles.open(target / "gitmoji.csv", mode="w") as character_file:
             for icon in self.__icons:
-                await character_file.write(f"{icon.directional_char} {icon.lower_case_name}\n")
+                await character_file.write(f"{icon.escaped_char} {icon.lower_case_name}\n")

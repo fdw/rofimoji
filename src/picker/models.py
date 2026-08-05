@@ -37,12 +37,12 @@ class Shortcut:
 
 @dataclass(slots=True)
 class CharacterEntry:
-    character: str
+    character_html: str
     description_html: str | None = None
 
     @property
-    def character_html(self) -> str:
-        return html.escape(self.character)
+    def character(self) -> str:
+        return html.unescape(self.character_html)
 
     @property
     def description(self) -> str | None:

@@ -43,4 +43,4 @@ class MathExtractor(Extractor):
     async def __write_file(self, target: Path) -> None:
         async with aiofiles.open(target / "math.csv", mode="w") as character_file:
             for character in self.__characters:
-                await character_file.write(f"{character.char} {character.title_case_name}\n")
+                await character_file.write(f"{character.escaped_char} {character.title_case_name}\n")

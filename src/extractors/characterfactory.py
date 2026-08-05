@@ -30,7 +30,11 @@ class Character:
             self.descriptions = []
 
     @property
-    def directional_char(self) -> str:
+    def escaped_char(self) -> str:
+        return html.escape(self.__directional_char)
+
+    @property
+    def __directional_char(self) -> str:
         return f"{self.ltr_mark if self.force_ltr else ''}{self.char}"
 
     @property

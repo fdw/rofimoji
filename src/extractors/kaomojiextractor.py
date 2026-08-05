@@ -45,4 +45,4 @@ class KaomojiExtractor(Extractor):
     async def __write_to_file(self, target: Path) -> None:
         async with aiofiles.open(target / "kaomoji.csv", mode="w") as character_file:
             for kaomoji in self.__kaomojis:
-                await character_file.write(f"{kaomoji.string} {html.escape(kaomoji.description.lower())}\n")
+                await character_file.write(f"{html.escape(kaomoji.string)} {html.escape(kaomoji.description.lower())}\n")

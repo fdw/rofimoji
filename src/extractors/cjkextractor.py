@@ -53,4 +53,4 @@ class CjkExtractor(Extractor):
         filename = f"cjk_{re.sub(r'(?!^)(?=[A-Z])', '_', language).lower()}.csv"
         async with aiofiles.open(target / filename, mode="w") as character_file:
             for character in characters:
-                await character_file.write(f"{character.directional_char} {character.title_case_name}\n")
+                await character_file.write(f"{character.escaped_char} {character.title_case_name}\n")

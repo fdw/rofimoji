@@ -42,4 +42,4 @@ class BlockExtractor(Extractor):
                 target / f"{block.name.lower().replace(' ', '_')}.csv", mode="w"
             ) as character_file:
                 for character in block.characters:
-                    await character_file.write(f"{character.directional_char} {character.title_case_name}\n")
+                    await character_file.write(f"{character.escaped_char} {character.title_case_name}\n")

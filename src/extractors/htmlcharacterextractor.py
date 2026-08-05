@@ -1,3 +1,4 @@
+import html
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -37,4 +38,4 @@ class HtmlCharacterExtractor(Extractor):
     async def __write_to_file(self, target: Path) -> None:
         async with aiofiles.open(target / "html_characters.csv", mode="w") as character_file:
             for character in self.__characters:
-                await character_file.write(f"{character.string} {character.name}\n")
+                await character_file.write(f"{html.escape(character.string)} {character.name}\n")

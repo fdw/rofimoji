@@ -1,3 +1,4 @@
+import html
 import os
 from glob import glob
 from pathlib import Path
@@ -10,7 +11,7 @@ def read_characters_from_files(files: list[str], frecent: list[str], use_additio
     all_characters: dict[str, CharacterEntry] = {}
 
     for character in frecent:
-        all_characters[character] = CharacterEntry(character)
+        all_characters[character] = CharacterEntry(html.escape(character))
 
     for file in __resolve_all_filenames(files, use_additional):
         characters_from_file = __load_from_file(file)

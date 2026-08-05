@@ -1,11 +1,11 @@
   Space
 ! Exclamation Mark
-" Quotation Mark
+&quot; Quotation Mark
 # Number Sign
 $ Dollar Sign
 % Percent Sign
-& Ampersand
-' Apostrophe
+&amp; Ampersand
+&#x27; Apostrophe
 ( Left Parenthesis
 ) Right Parenthesis
 * Asterisk
@@ -26,9 +26,9 @@ $ Dollar Sign
 9 Digit Nine
 : Colon
 ; Semicolon
-< Less-Than Sign
+&lt; Less-Than Sign
 = Equals Sign
-> Greater-Than Sign
+&gt; Greater-Than Sign
 ? Question Mark
 @ Commercial At
 A Latin Capital Letter A

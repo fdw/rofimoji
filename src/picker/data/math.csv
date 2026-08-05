@@ -4,7 +4,7 @@
 # Number Sign
 $ Dollar Sign
 % Percent Sign
-& Ampersand
+&amp; Ampersand
 ( Left Parenthesis
 ) Right Parenthesis
 * Asterisk
@@ -25,9 +25,9 @@ $ Dollar Sign
 9 Digit Nine
 : Colon
 ; Semicolon
-< Less-Than Sign
+&lt; Less-Than Sign
 = Equals Sign
-> Greater-Than Sign
+&gt; Greater-Than Sign
 ? Question Mark
 @ Commercial At
 A Latin Capital Letter A

@@ -783,7 +783,7 @@ G fa-g
  fa-graduation-cap <small>(fa-mortar-board)</small>
  fa-gratipay
  fa-grav
-> fa-greater-than
+&gt; fa-greater-than
  fa-greater-than-equal
  fa-grip <small>(fa-grip-horizontal)</small>
  fa-grip-lines
@@ -1002,7 +1002,7 @@ L fa-l
  fa-left-right <small>(fa-arrows-alt-h)</small>
  fa-lemon
  fa-less
-< fa-less-than
+&lt; fa-less-than
  fa-less-than-equal
  fa-letterboxd
  fa-life-ring

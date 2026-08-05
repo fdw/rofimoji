@@ -1,5 +1,5 @@
 Æ AElig
-& AMP
+&amp; AMP
 Á Aacute
 Ă Abreve
 Â Acirc
@@ -151,7 +151,7 @@
 ℱ Fouriertrf
 ℱ Fscr
 Ѓ GJcy
-> GT
+&gt; GT
 Γ Gamma
 Ϝ Gammad
 Ğ Gbreve
@@ -224,7 +224,7 @@
 𝕂 Kopf
 𝒦 Kscr
 Љ LJcy
-< LT
+&lt; LT
 Ĺ Lacute
 Λ Lambda
 ⟪ Lang
@@ -403,7 +403,7 @@
 ∝ Proportional
 𝒫 Pscr
 Ψ Psi
-" QUOT
+&quot; QUOT
 𝔔 Qfr
 ℚ Qopf
 𝒬 Qscr
@@ -612,7 +612,7 @@ _ UnderBar
 α alpha
 ā amacr
 ⨿ amalg
-& amp
+&amp; amp
 ∧ and
 ⩕ andand
 ⩜ andd
@@ -643,7 +643,7 @@ _ UnderBar
 ⩯ apacir
 ≊ ape
 ≋ apid
-' apos
+&#x27; apos
 ≈ approx
 ≊ approxeq
 å aring
@@ -1070,7 +1070,7 @@ fj fjlig
 ≳ gsim
 ⪎ gsime
 ⪐ gsiml
-> gt
+&gt; gt
 ⪧ gtcc
 ⩺ gtcir
 ⋗ gtdot
@@ -1317,7 +1317,7 @@ _ lowbar
 ‘ lsquo
 ‚ lsquor
 ł lstrok
-< lt
+&lt; lt
 ⪦ ltcc
 ⩹ ltcir
 ⋖ ltdot
@@ -1521,11 +1521,11 @@ _ lowbar
 ≍⃒ nvap
 ⊬ nvdash
 ≥⃒ nvge
->⃒ nvgt
+&gt;⃒ nvgt
 ⧞ nvinfin
 ⤂ nvlArr
 ≤⃒ nvle
-<⃒ nvlt
+&lt;⃒ nvlt
 ⊴⃒ nvltrie
 ⤃ nvrArr
 ⊵⃒ nvrtrie
@@ -1663,7 +1663,7 @@ _ lowbar
 ⨖ quatint
 ? quest
 ≟ questeq
-" quot
+&quot; quot
 ⇛ rAarr
 ⇒ rArr
 ⤜ rAtail

@@ -1,5 +1,6 @@
 # [UNRELEASED]
 ## Fixed
+- Correctly escape characters for HTML/Pango-markup. (#244)
 - `ydotool` is called correctly. (#242)
 
 # [6.8.0] - 2026-06-20

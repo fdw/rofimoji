@@ -180,11 +180,11 @@ What else do you need:
 
 ### Supported Selectors
 Please note that several advanced features are only supported by `rofi` (both on X and Wayland):
-- custom keyboard shortcuts
 - `--use-icons` and `--hidden-descriptions`, and thus a grid theme
 - multiple selections
 - recently used characters
  
+Custom keyboard shortcuts are supported by `rofi` and `fuzzel`.
 All other selectors can be used for the basic functionality.
 
 #### X.org

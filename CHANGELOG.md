@@ -3,6 +3,9 @@
 - Correctly escape characters for HTML/Pango-markup. (#244)
 - `ydotool` is called correctly. (#242)
 
+## Added
+- Fuzzel can be called with custom keybindings.
+
 # [6.8.0] - 2026-06-20
 ## Changed
 - Stopped support for Python 3.9.

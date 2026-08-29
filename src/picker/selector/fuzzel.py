@@ -24,12 +24,39 @@ class Fuzzel(Selector):
         keybindings: dict[Action, str],
         additional_args: list[str],
     ) -> tuple[Action | DEFAULT | CANCEL, list[str] | Shortcut]:
-        parameters = ["fuzzel", "--dmenu", "--fuzzy-min-length", "1", "--index", "-p", prompt, *additional_args]
+        parameters = [
+            "fuzzel",
+            "--dmenu",
+            "--fuzzy-min-length",
+            "1",
+            "--index",
+            "-p",
+            prompt,
+            *self.__build_parameters_for_keybindings(keybindings),
+            *additional_args,
+        ]
 
         fuzzel = run(
             parameters, input="\n".join(self.basic_format_characters(characters)), capture_output=True, encoding="utf-8"
         )
-        return DEFAULT(), [characters[int(fuzzel.stdout.strip())].character]
+
+        if fuzzel.returncode == 1:
+            return CANCEL(), []
+        elif fuzzel.returncode >= 10:
+            action = list(keybindings.keys())[fuzzel.returncode - 10]
+        else:
+            action = DEFAULT()
+
+        return action, [characters[int(fuzzel.stdout.strip())].character]
+
+    def __build_parameters_for_keybindings(self, keybindings: dict[Action, str]) -> list[str]:
+        params = []
+        for index, shortcut in enumerate(keybindings.values()):
+            params.append(f"--override=key-bindings.custom-{1 + index}={self.__translate_shortcut(shortcut)}")
+        return params
+
+    def __translate_shortcut(self, shortcut: str) -> str:
+        return "+".join("Mod1" if token == "Alt" else token for token in shortcut.split("+"))
 
     def show_skin_tone_selection(
         self,

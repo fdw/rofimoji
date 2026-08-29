@@ -38,18 +38,7 @@ class Rofi(Selector):
             "i",
             "-p",
             prompt,
-            "-kb-custom-11",
-            keybindings[Action.COPY],
-            "-kb-custom-12",
-            keybindings[Action.TYPE],
-            "-kb-custom-13",
-            keybindings[Action.CLIPBOARD],
-            "-kb-custom-14",
-            keybindings[Action.TYPE_NUMERICAL],
-            "-kb-custom-15",
-            keybindings[Action.UNICODE],
-            "-kb-custom-16",
-            keybindings[Action.COPY_UNICODE],
+            *self.__build_parameters_for_keybindings(keybindings),
             *additional_args,
         ]
 
@@ -67,25 +56,20 @@ class Rofi(Selector):
             return DEFAULT(), Shortcut(rofi.returncode - 10)
 
         action: Action | DEFAULT | CANCEL
-        match rofi.returncode:
-            case 1:
-                action = CANCEL()
-            case 20:
-                action = Action.COPY
-            case 21:
-                action = Action.TYPE
-            case 22:
-                action = Action.CLIPBOARD
-            case 23:
-                action = Action.UNICODE
-            case 24:
-                action = Action.COPY_UNICODE
-            case 25:
-                action = Action.TYPE_NUMERICAL
-            case _:
-                action = DEFAULT()
+        if rofi.returncode == 1:
+            action = CANCEL()
+        elif rofi.returncode >= 20:
+            action = list(keybindings.keys())[rofi.returncode - 20]
+        else:
+            action = DEFAULT()
 
         return action, [characters[int(index)].character for index in rofi.stdout.splitlines()]
+
+    def __build_parameters_for_keybindings(self, keybindings: dict[Action, str]) -> list[str]:
+        params = []
+        for index, shortcut in enumerate(keybindings.values()):
+            params.extend([f"-kb-custom-{11 + index}", shortcut])
+        return params
 
     def __format_characters(
         self, characters: list[CharacterEntry], use_icons: bool, show_description: bool

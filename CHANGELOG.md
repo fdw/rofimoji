@@ -1,6 +1,7 @@
 # [UNRELEASED]
 ## Changed
 - Update to Unicode 18!
+- Update to Nerd Fonts 3.5.1
 
 ## Fixed
 - Correctly escape characters for HTML/Pango-markup. (#244)

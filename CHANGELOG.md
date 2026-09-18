@@ -1,4 +1,4 @@
-# [UNRELEASED]
+# [6.9.0] - 2026-09-18
 ## Changed
 - Update to Unicode 18!
 - Update to Nerd Fonts 3.5.1

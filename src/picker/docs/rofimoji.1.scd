@@ -1,4 +1,4 @@
-rofimoji(1) "Version 6.8.0" "Rofi Third-party Add-on Documentation"
+rofimoji(1) "Version 6.9.0" "Rofi Third-party Add-on Documentation"
 
 # NAME
 

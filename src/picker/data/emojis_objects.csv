@@ -160,6 +160,7 @@
 🖌️ paintbrush <small>(paintbrush, painting)</small>
 🖍️ crayon <small>(crayon)</small>
 📝 memo <small>(memo, pencil)</small>
+🪌 eraser
 💼 briefcase <small>(briefcase)</small>
 📁 file folder <small>(file, folder)</small>
 📂 open file folder <small>(file, folder, open)</small>
@@ -189,6 +190,7 @@
 🔐 locked with key <small>(closed, key, lock, locked with key, secure)</small>
 🔑 key <small>(key, lock, password)</small>
 🗝️ old key <small>(clue, key, lock, old)</small>
+🪍 net with handle
 🔨 hammer <small>(hammer, tool)</small>
 🪓 axe <small>(axe, chop, hatchet, split, wood)</small>
 ⛏️ pick <small>(mining, pick, tool)</small>

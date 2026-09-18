@@ -1,4 +1,7 @@
 # [UNRELEASED]
+## Changed
+- Update to Unicode 18!
+
 ## Fixed
 - Correctly escape characters for HTML/Pango-markup. (#244)
 - `ydotool` is called correctly. (#242)

@@ -33,7 +33,7 @@ class EmojiExtractor(Extractor):
 
     async def __fetch_data(self) -> None:
         async def fetch_emoji_data(session: ClientSession) -> str:
-            response = await session.get("https://unicode.org/emoji/charts-17.0/full-emoji-list.html")
+            response = await session.get("https://unicode.org/emoji/charts-18.0/full-emoji-list.html")
             return await response.text()
 
         async def fetch_annotation_data(session: ClientSession) -> bytes:
@@ -43,7 +43,7 @@ class EmojiExtractor(Extractor):
             return await response.read()
 
         async def fetch_additional_data(session: ClientSession) -> str:
-            response = await session.get("https://unicode.org/Public/17.0.0/ucd/emoji/emoji-data.txt")
+            response = await session.get("https://unicode.org/Public/18.0.0/ucd/emoji/emoji-data.txt")
             return await response.text()
 
         async with aiohttp.ClientSession(timeout=ClientTimeout(sock_read=120)) as session:

@@ -1,5 +1,6 @@
 import html
 from dataclasses import dataclass
+from itertools import groupby
 from pathlib import Path
 
 import aiofiles
@@ -11,6 +12,7 @@ from .extractor import Extractor
 @dataclass(slots=True)
 class Kaomoji:
     string: str
+    group: str
     description: str
 
 
@@ -28,21 +30,28 @@ class KaomojiExtractor(Extractor):
     async def __fetch_icons(self) -> None:
         async with aiohttp.ClientSession() as session:
             async with session.get(
-                "https://raw.githubusercontent.com/w33ble/emoticon-data/master/emoticons.json"
+                "https://raw.githubusercontent.com/Funovate-Technology/fontvibe-kaomoji/v1.0.9/data/picker.json"
             ) as response:
                 """
                 {
-                  "tags": [
+                  "text": "(⊃‿⊂)",
+                  "group": "shy",
+                  "keywords": [
+                    "shy",
                     "hide"
-                  ],
-                  "string": "(⊃‿⊂)",
-                  "id": "f73741a5-13f9-44a3-9dfe-4bce15c44cda"
+                  ]
                 }
                 """
-                for kaomoji in (await response.json(content_type=None))["emoticons"]:
-                    self.__kaomojis.append(Kaomoji(kaomoji["string"].replace(" ", " "), ", ".join(kaomoji["tags"])))
+                for kaomoji in await response.json(content_type=None):
+                    self.__kaomojis.append(
+                        Kaomoji(kaomoji["text"].replace(" ", " "), kaomoji["group"], ", ".join(kaomoji["keywords"]))
+                    )
 
     async def __write_to_file(self, target: Path) -> None:
-        async with aiofiles.open(target / "kaomoji.csv", mode="w") as character_file:
-            for kaomoji in self.__kaomojis:
-                await character_file.write(f"{html.escape(kaomoji.string)} {html.escape(kaomoji.description.lower())}\n")
+        by_group = sorted(self.__kaomojis, key=lambda kaomoji: kaomoji.group)
+        for group, kaomojis in groupby(by_group, key=lambda kaomoji: kaomoji.group):
+            async with aiofiles.open(target / f"kaomoji_{group}.csv", mode="w") as character_file:
+                for kaomoji in kaomojis:
+                    await character_file.write(
+                        f"{html.escape(kaomoji.string)} {html.escape(kaomoji.description.lower())}\n"
+                    )

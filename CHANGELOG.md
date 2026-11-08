@@ -1,3 +1,7 @@
+# NEXT
+## Changed
+- Kaomoji are obtained from [FontVibe](https://fontvibe.ai/tools/kaomoji) and split into multiple files
+
 # [6.9.0] - 2026-09-18
 ## Changed
 - Update to Unicode 18!
